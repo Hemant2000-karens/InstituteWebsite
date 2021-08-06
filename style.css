@@ -1,20 +1,28 @@
 body
 {
-	padding: 10px 30px 10px 30px ;
+	padding: 0px 0px 0px 0px;
 }
-.heading
+.container
 {
-	padding-left: 20px;
+	padding-left:25px;
+	padding-top: 15px;
+	background-color: rgb(242, 225, 218);
+	border-radius: 30px;
+	height: 100%;
+	width: 98.5%;
 }
-#logo
+.navbar
 {
-	padding-bottom:30px;
-	height: 100px;
-	width: 100x;
+	padding: 15px;
+}
+.navbar ul 
+{
+	padding-right: 130px;
 
 }
-#name_of_ins
+.navbar ul li 
 {
-	padding: 5px 5px 5px 5px;
-	height: 150px;
+	list-style: none;
+	float: right;
+	padding: 30px;
 }
