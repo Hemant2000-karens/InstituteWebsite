@@ -4,7 +4,7 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Introduction | Home</title>
+   <title>IITDMJ | Home</title>
    <link rel="icon" type="jpg/png" href="https://img.icons8.com/cute-clipart/64/000000/h.png"/>
    <script type="text/javascript" src="script.js"/></script>
    <link rel="stylesheet" type="text/css" href="style.css">
@@ -20,7 +20,18 @@
                <li><a class="button" onclick="openTabs(event,'id_03')" >Skills</a></li>
                <li><a class="button" onclick="openTabs(event,'id_02')">Awards</a></li>
                <li><a class="button" onclick="openTabs(event,'id_01')" id="defaultTabs">Home</a></li>
-               
+               <li><a class="button" onclick="openTabs(event,'id_01')">Name</a>
+               		<ol>
+		               <li><a class="button" onclick="openTabs(event,'id_03')" >Skills</a></li>
+		               <li><a class="button" onclick="openTabs(event,'id_02')">Awards</a></li>
+		               <li><a class="button" onclick="openTabs(event,'id_01')" id="defaultTabs">Home</a></li>
+		               <li><a class="button" onclick="openTabs(event,'id_01')"></a></li>
+		               <li><a class="button" onclick="openTabs(event,'id_01')">Home</a></li>
+		               <li><a class="button" onclick="openTabs(event,'id_01')">Home</a></li>
+            		</ol>
+               </li>
+               <li><a class="button" onclick="openTabs(event,'id_01')">Home</a></li>
+               <li><a class="button" onclick="openTabs(event,'id_01')">Home</a></li>
             </ol>
       </div>
 
@@ -31,7 +42,7 @@
 <!-- Home Page-->
 
    <div class="introduction" id="id_01">
-      <div class="heading">
+  <!--    <div class="heading">
          <h1>
          Hemant Kumar
       </h1>
@@ -50,7 +61,7 @@
             <p>
                I have created 3 Mobile Applications, in which i have created 1 iOS Application and 2 Android Application, I also created one website for the Family College.
             </p>
-      </div>
+      </div> -->
    <br>
 </div>
 

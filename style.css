@@ -147,8 +147,6 @@ background-color: #ffffff0d;
 
 .navbar
 {
-   background-color: #f9f9f99e;  
- backdrop-filter: blur(4px);
    padding: 5px;
    height: fit-content;
    width: 100%;
@@ -168,12 +166,33 @@ background-color: #ffffff0d;
 
 }
 
+.navbar ol ol 
+{
+	position: absolute;
+	padding: 0px;
+	min-width: 150px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+
 .navbar li
 {
    float: right;
     padding: 0px 10px 0px 10px;
 }
 
+.navbar ol li:hover > ol
+{
+	display: block;
+}
+.navbar ol ol li:hover a
+{
+
+}
+.navbar ol ol li {
+	position: relative ;
+}
 .navbar li a
 {
    display: block;
@@ -275,3 +294,4 @@ dt
    font-size: 22px;
    font-family: 'STIX Two Text', serif;;
 }
+
