@@ -8,8 +8,7 @@
 <body>
 	<div class="heading">
 		<a href="iiitdmj.ac.in">
-			<img src="logo_college.png" id="logo" />
-			<img src="icon.gif" id="name_of_ins" /> 
+			<img src="logo_colleg"/> <img src="name.png">
 		</a>
 	</div>
 </body>
