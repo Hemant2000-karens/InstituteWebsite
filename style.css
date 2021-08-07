@@ -9,6 +9,19 @@ body
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.header
+{
+   width: 100%;
+   height: 150px;
+   padding: 2px;
+
+}
+.header h3{
+   float: left;
+   position: absolute;
+}
+
 .introduction
 {
 background-color: #ffffff0d;  
@@ -145,6 +158,7 @@ background-color: #ffffff0d;
   }
 }
 
+/* NavBar and DropDown tag */
 .navbar
 {
    padding: 5px;
@@ -182,13 +196,10 @@ background-color: #ffffff0d;
     padding: 0px 10px 0px 10px;
 }
 
-.navbar ol li:hover > ol
+.navbar ol ol li:hover 
 {
-	display: block;
-}
-.navbar ol ol li:hover a
-{
-
+   display: block;
+   position: absolute;
 }
 .navbar ol ol li {
 	position: relative ;
@@ -209,6 +220,15 @@ background-color: #ffffff0d;
 }
 
 
+
+
+
+
+
+
+
+
+/* Footer Tag */
 .footer
 {
    background-color: #f9f9f99e;  

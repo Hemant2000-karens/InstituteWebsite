@@ -5,7 +5,7 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>IITDMJ | Home</title>
-   <link rel="icon" type="jpg/png" href="https://img.icons8.com/cute-clipart/64/000000/h.png"/>
+   <link rel="icon" type="jpg/png" href="icon_title.png"/>
    <script type="text/javascript" src="script.js"/></script>
    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -14,13 +14,20 @@
 
 <!-- NavBAr Page-->
 
+<div class="header">
+   <img src="logo_college.png" height="120px" width="120px" id="logo" style="padding-right:10px;" /><h3>
+P.D.P.M<br>
+Indian Institute of Information Technology,<br>
+Design and Manufacturing, Jabalpur
+</h3>
+</div>
 
       <div class="navbar">
             <ol>
-               <li><a class="button" onclick="openTabs(event,'id_03')" >Skills</a></li>
-               <li><a class="button" onclick="openTabs(event,'id_02')">Awards</a></li>
-               <li><a class="button" onclick="openTabs(event,'id_01')" id="defaultTabs">Home</a></li>
-               <li><a class="button" onclick="openTabs(event,'id_01')">Name</a>
+               <li><a class="button" ohref="#">Skills</a></li>
+               <li><a class="button" ohref="#">Awards</a></li>
+               <li><a class="button" ohref="#"id="defaultTabs">Home</a></li>
+               <li><a class="button" ohref="#">Dropdown</a>
                		<ol>
 		               <li><a class="button" onclick="openTabs(event,'id_03')" >Skills</a></li>
 		               <li><a class="button" onclick="openTabs(event,'id_02')">Awards</a></li>
@@ -30,8 +37,8 @@
 		               <li><a class="button" onclick="openTabs(event,'id_01')">Home</a></li>
             		</ol>
                </li>
-               <li><a class="button" onclick="openTabs(event,'id_01')">Home</a></li>
-               <li><a class="button" onclick="openTabs(event,'id_01')">Home</a></li>
+               <li><a class="button" onclick="openTabs(event,'id_01')">Dr2</a></li>
+               <li><a class="button" onclick="openTabs(event,'id_01')">Dr3</a></li>
             </ol>
       </div>
 
@@ -196,21 +203,4 @@
       </div>
 
 <!-- Footer -->
-
-<script>
-function openTabs(evt, idNmane) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("introduction");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("button");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(idNmane).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-document.getElementById("defaultTabs").click();
-</script>
 </html>
