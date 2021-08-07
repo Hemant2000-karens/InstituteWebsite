@@ -1,6 +1,6 @@
 
 
-function openTabs(evt, idNmane) {
+/*function openTabs(evt, idNmane) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("introduction");
   for (i = 0; i < tabcontent.length; i++) {
@@ -13,4 +13,4 @@ function openTabs(evt, idNmane) {
   document.getElementById(idNmane).style.display = "block";
   evt.currentTarget.className += " active";
 }
-document.getElementById("defaultTabs").click();
+document.getElementById("defaultTabs").click();*/

@@ -5,7 +5,7 @@ body
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: rgb(242, 225, 218);
+  background-color: #fafcfd;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -32,9 +32,9 @@ background-color: #ffffff0d;
    position: relative;
    overflow: auto;
    border-radius: 20px;
-   display: ;
+   /* display: ; */
 }
-.containt
+.content
 {  
    top: 20px;
  backdrop-filter: blur(20px);
@@ -42,7 +42,7 @@ background-color: #ffffff0d;
    height: fit-content;
    width: 61%;
    border-radius: 0px 0px 15px 15px;
-   background-image: linear-gradient(150deg,#000000,#0000003d , #000000);
+   background-image: linear-gradient(150deg,#fafcfd,#fafcfd , #fafcfd);
 }
 .introduction .photo
 {
@@ -62,30 +62,30 @@ background-color: #ffffff0d;
    padding-left: 75px;
    padding-top: 10px;
    padding-bottom: -10px;
-   text-shadow: 2px 2px 4px #000000;
+   text-shadow: 2px 2px 4px #fafcfd;
 }
-.containt h2
+.content h2
 {
    font-family: 'STIX Two Text', serif;
-   color: whitesmoke;
+   color: fafcfd;
    padding-left: 20px;
 }
-.containt u
+.content u
 {
-   color: floralwhite;
+   color: fafcfd;
 }
 .heading
 {
    padding: 8px;
    height: auto;
    width: auto;
-   background-image: linear-gradient(to right, #ffffff, #ffffff00 , #00000000);
+   background-image: linear-gradient(to right, #fafcfd, #fafcfd , #fafcfd);
    border-top-left-radius: 15px ;
 }
-.containt p
+.content p
 {
    font-display: block;
-   color: #ffdfb5;
+   color: #fafcfd;
    font-size: 22px;
 }
 
@@ -96,7 +96,7 @@ background-color: #ffffff0d;
     width: 50%;
     height: 65%; 
   }
-  .containt
+  .content
   {
       padding-top:10px ;
       border-radius: 15px 15px 15px 15px ;
@@ -105,7 +105,7 @@ background-color: #ffffff0d;
       display: inline-block;
       position: relative;
   }
-  .containt p 
+  .content p 
 {
       font-size: 20px;
 }
@@ -122,11 +122,11 @@ background-color: #ffffff0d;
     padding-left: 10px;
     
   }
-      .containt p 
+      .content p 
       {
             font-size: 18px;
       }
-  .containt
+  .content
   {
       border-radius: 15px 15px 15px 15px ;
       top: 0px;
@@ -144,11 +144,11 @@ background-color: #ffffff0d;
     height: auto;
     width: auto;
   }
-.containt p 
+.content p 
 {
    font-size: 16px;   
 }
-  .containt
+  .content
   {
       border-radius: 15px 15px 15px 15px ;
       top: 0px;
@@ -167,7 +167,7 @@ background-color: #ffffff0d;
    border-width: 1.5px;
    position: relative;
    border-bottom-style: solid;
-   border-color: #FFFFFF;
+   border-color: #fafcfd;
 
 }
 
@@ -213,9 +213,9 @@ background-color: #ffffff0d;
 }
 .navbar li a:hover
 {
-   cursor: ;
-   background-color: #636161c4;
-   color: antiquewhite;
+   /* cursor: ; */
+   background-color: #fafcfd;
+   color: fafcfd;
    border-radius: 8px;
 }
 
@@ -231,7 +231,7 @@ background-color: #ffffff0d;
 /* Footer Tag */
 .footer
 {
-   background-color: #f9f9f99e;  
+   background-color: #fafcfd;  
  backdrop-filter: blur(4px);
    padding: 5px;
    bottom: 0px;
@@ -240,7 +240,7 @@ background-color: #ffffff0d;
    border-width: 1.5px;
    position: relative;
    border-top-style: solid;
-   border-color: #FFFFFF;
+   border-color: #fafcfd;
    border-radius: 0px 0px 15px 15px;
 
 
@@ -256,8 +256,8 @@ background-color: #ffffff0d;
 .footer a:hover
 {
    cursor: pointer;
-   background-color: #636161c4;
-   color: antiquewhite;
+   background-color: #fafcfd;
+   color: fafcfd;
    border-radius: 3px;
    border-radius: 10px 10px 10px 10px;
 }
@@ -268,21 +268,21 @@ background-color: #ffffff0d;
   font-size: 18px;
   border-collapse: collapse;
   width: 100%;
- color: antiquewhite;
- background-color: #f9f9f99e;
+ color: fafcfd;
+ background-color: #fafcfd;
     backdrop-filter: blur(4px);
     text-align: center;
 }
 
 #details td, #details th {
-  border: 1px solid #ddd;
+  border: 1px solid #fafcfd;
   padding: 8px;
 }
 
-#details tr:nth-child(even){background-color: #636161c4;}
+#details tr:nth-child(even){background-color: #fafcfd;}
 
 #details tr:hover {
-   background-color: #ddd;
+   background-color: #fafcfd;
    color: black;
 }
 
@@ -290,8 +290,8 @@ background-color: #ffffff0d;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #000000d4;
-  color: antiquewhite;
+  background-color: #fafcfd;
+  color: fafcfd;
 }
 
 dl
@@ -306,11 +306,11 @@ dd {
   padding: 5px;
   width: 100%;
   font-family: 'Playfair Display', serif;
-  color: antiquewhite;
+  color: fafcfd;
 }
 dt
 {
-   color: whitesmoke;
+   color: fafcfd;
    font-size: 22px;
    font-family: 'STIX Two Text', serif;;
 }

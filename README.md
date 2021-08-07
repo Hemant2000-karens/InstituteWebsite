@@ -1,1 +1,5 @@
-## This is 2nd commit by the co-author
+## Website for Institute
+
+*Log*
+
+8 August (2AM): Shival Gupta

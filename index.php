@@ -56,7 +56,7 @@ Design and Manufacturing, Jabalpur
       </div>
          <hr>
                <img class="photo" src="profile.png">
-      <div class="containt">
+      <div class="content">
             <p>
                I am, a student of IIIT Jabalpur, from the department of <b><u>Computer Science and Engineering</u></b> enrolled in its 4 year BTech course. I am from Patna, Bihar. I completed my high school education from St. Karen's High School, Patna. After completion of my schooling, I attempted JEE Mains examination and got admission in IIIT. My hobbies include programming and web development, and in my free time I love to write new apps or create a new web application. Apart from coding, I have interest in electronics and I love to delve deep into the realm of electronic devices.
             </p>
@@ -84,7 +84,7 @@ Design and Manufacturing, Jabalpur
       </div>
          <hr>
                <img class="photo" src="awards.jpeg">
-      <div class="containt">
+      <div class="content">
            <center>
             <p>
                I was honored with :-
@@ -138,7 +138,7 @@ Design and Manufacturing, Jabalpur
                <img class="photo" src="Skills.jpeg" >
       
 
-      <div class="containt">
+      <div class="content">
             <p padding="20px">
                I have skills and knowledge in the Following:- 
             </p>
