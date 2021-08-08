@@ -1,5 +1,5 @@
 body{
-    background-color:#f3f3f3;
+    background-color:#f2f3f3;
     padding: 20px 30px 0px 30px;
 }
 .header{
@@ -107,6 +107,28 @@ hr
   display: block;
 }
 
+.bar1, .bar2, .bar3 {
+  width: 24px;
+  height: 4px;
+  background-color: white;
+  margin:5px 0;
+  transition: 0.3s;
+}
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-7px, 3px);
+  transform: rotate(-45deg) translate(-7px, 3px);
+}
+.change .bar2 {opacity: 0;}
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-7px, -7px);
+}
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
@@ -156,5 +178,78 @@ hr
     display: block;
     width: 100%;
     text-align: left;
+  }
+}
+
+
+
+@media screen and (max-width: 400px){
+
+body{
+    background-color:#f2f3f3;
+    padding: 5px 5px 0px 5px;
+    }
+.active a
+{
+  padding-top: 5px;
+}
+.topnav .icon
+{
+
+  width: 25px;
+  color: white;
+}
+.bar1, .bar2, .bar3 .topnav .icon:hover
+{
+
+  background-color: #FFFFFF;
+  color: black;
+}
+.dropdown .dropbtn
+{
+  color: white;
+}
+.dropdown-content
+{
+  background-color: #e4e4e4;
+}
+.dropdown-content a
+{
+  color: black !important;
+}
+.dropdown-content a:hover {
+  background-color: gray;
+  color: white !important;
+}
+
+.topnav
+{
+  background-color: #000000;
+}
+.topnav a{
+  color: white;
+}
+.header {
+      display: inline-flex;
+    height: 120px;
+    padding-bottom: 15px; 
+  }
+.header img 
+  {
+    justify-content: center;
+    width: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    height: 50px;
+  }
+.header h1
+  {
+    text-align: left;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 12px;
+    height: 90%;
+    
   }
 }
