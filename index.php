@@ -15,10 +15,8 @@
 <!-- NavBAr Page-->
 
 <div class="header">
-   <img src="logo_college.png" height="120px" width="120px" id="logo" style="padding-right:10px;" /><h3>
-P.D.P.M<br>
-Indian Institute of Information Technology,<br>
-Design and Manufacturing, Jabalpur
+   <img src="logo_college.png" height="120px" width="120px" id="logo" style="padding-right:10px;"/>
+   <h3>P.D.P.M<br>Indian Institute of Information Technology,<br>Design and Manufacturing, Jabalpur
 </h3>
 </div>
 
