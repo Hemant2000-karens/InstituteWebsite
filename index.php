@@ -5,7 +5,7 @@
          <meta http-equiv="refresh" content="3000">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="mobile_version.css">
+       <link rel="stylesheet" type="text/css" href="mobile.css">
             <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
     </head>
     
@@ -16,7 +16,6 @@
         P.D.P.M<br>Indian Institute of Information Technology,<br>Design and Manufacturing, Jabalpur</h1>
     </div>
 <hr>
-
 <div class="topnav" id="myTopnav">
   <a href="#" class="active">Home</a>
   <a href="#">News</a>
@@ -40,6 +39,30 @@
   <div class="bar3"/></div>
 </a>
 </div>
+
+<span class="br"></span>
+
+<div class="banner">
+
+  </div>
+
+<div class="article">
+<fieldset>
+  <legend>Notice</legend>
+  <div><h1>Hello</h1></div>
+</fieldset>
+
+<fieldset>
+  <legend>Notice</legend>
+  <div><h1>Hello</h1></div>
+</fieldset>
+
+<fieldset>
+  <legend>Notice</legend>
+  <div><h1>Hello</h1></div>
+</fieldset>
+</div>
+
 
     </body>
           <script type="text/javascript">

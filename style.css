@@ -125,3 +125,26 @@ body{
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-7px, -7px);
 }
+
+.article
+{
+  display: inline-flex;
+  height: auto;
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+}
+.article fieldset
+{
+  height: auto;
+  width: 90%;
+}
+
+.banner
+{
+  border: 1px solid black;
+  height: 420px;
+}
+.br {
+            display: block;
+            margin-bottom: 0.5em;
+        }

@@ -1,5 +1,6 @@
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+  .topnav a:not(:first-child), .dropdown .dropbtn 
+  {
     display: none;
   }
   .topnav a.icon 
@@ -7,11 +8,11 @@
     float: right;
     display: block;
   }
-  .header
-  {
-    height: 100px;
-    padding-bottom: 10px; /* The width is 100%, when the viewport is 800px or smaller */
-  }
+    .header
+    {
+      height: 100px;
+      padding-bottom: 10px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
   .header img 
   {
       width: 59px;
@@ -123,5 +124,10 @@ body{
     height: 90%;
     
   }
+  .article
+  {
+    width: 100%;
+    position: relative;
+    display: block;
+  }
 }
-  
