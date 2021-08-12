@@ -46,6 +46,10 @@
 
   </div>
 
+<div class="thought_for_Day">
+
+</div>
+
 <div class="article">
 <fieldset>
   <legend>Notice</legend>

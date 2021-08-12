@@ -130,4 +130,9 @@ body{
     position: relative;
     display: block;
   }
+  .banner
+{
+  border: 1px solid black;
+  height: 310px;
+}
 }
