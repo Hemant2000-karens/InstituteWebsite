@@ -86,7 +86,7 @@ body{
   min-width: 160px;
   width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 0;
 }
 
 .dropdown-content a {
@@ -191,13 +191,9 @@ body{
   display: table;
   clear: both;
 }
-.dropdown-content .dropdown-menu-content {
-     width: 100%;
-    height: 100px;
-    background: #353535;
-    padding-top:1px;
-    padding-left: 10px;
-    padding-bottom: 1px;
-    color: white;
+
+.row
+{
+  width: 100%;
 }
 
