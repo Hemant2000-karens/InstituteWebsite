@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
        <link rel="stylesheet" type="text/css" href="mobile.css">
-            <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
     </head>
     
     <body>
@@ -18,8 +18,9 @@
 <hr>
 <div class="topnav" id="myTopnav">
   <a href="#" class="active">Home</a>
-  <a href="#">News</a>
+  <a href="#">Academics</a>
   <a href="#">Contact</a>
+  <!-- DropDown Menu -->
   <div class="dropdown">
     <button class="dropbtn">Dropdown 
       <i class="fa fa-caret-down"></i>
@@ -30,6 +31,7 @@
       <a href="#">Link 3</a>
     </div>
   </div> 
+  <!-- DropDown Menu -->
   <a href="#">Research</a>
   <a href="#">About</a>
   <a href="#about">About</a>
@@ -43,12 +45,19 @@
 <span class="br"></span>
 
 <div class="banner">
+  
+  
+  
+  </div><!-- BANNER-->
 
+<span class="br"></span>
+
+  <div class="thought_for_Day">
+    <fieldset>
+      <legend>Thought for the Day</legend>
+        <div><h1>Hello</h1></div>
+    </fieldset>
   </div>
-
-<div class="thought_for_Day">
-
-</div>
 
 <div class="article">
 <fieldset>
