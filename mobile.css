@@ -135,4 +135,8 @@ body{
   border: 1px solid black;
   height: 310px;
 }
+.column {
+    width: 100%;
+    height: auto;
+  }
 }

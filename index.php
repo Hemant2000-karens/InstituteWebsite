@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="style.css">
        <link rel="stylesheet" type="text/css" href="mobile.css">
       <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+      <script src="script.js"></script>
     </head>
     
     <body>
@@ -26,11 +27,39 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+<!-- Conent of the menu-->
+
+      <div class="row">
+          <div class="column">
+              <div class="dropdown-menu-content">
+            <h2>Mega Menu</h2>
+              </div> 
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <div class="column">
+            <h3>Category 2</h3>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <div class="column">
+            <h3>Category 3</h3>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+      </div>
+
+
     </div>
   </div> 
+
+
+
+
+
   <!-- DropDown Menu -->
   <a href="#">Research</a>
   <a href="#">About</a>
@@ -48,7 +77,8 @@
   
   
   
-  </div><!-- BANNER-->
+  </div>
+  <!-- BANNER-->
 
 <span class="br"></span>
 
@@ -76,19 +106,5 @@
 </fieldset>
 </div>
 
-
     </body>
-          <script type="text/javascript">
-            function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.classList.toggle("change");
-  x.style.background='#000000';
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-
-        </script>
 </html>
