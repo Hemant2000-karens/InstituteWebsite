@@ -20,20 +20,49 @@
             <a href="#">Link 3</a>
           </div>
           <div class="column">
-            <h3>Category 2</h3>
+            <div class="dropdown-menu-content">
+            <h2>Mega Menu</h2>
+              </div>
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
           </div>
-          <div class="column">
-            <h3>Category 3</h3>
+            <div class="column">
+            <div class="dropdown-menu-content">
+            <h2>Mega Menu</h2>
+              </div>
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
           </div>
       </div>
 
-      
+<div class="row">
+          <div class="column">
+              <div class="dropdown-menu-content">
+            <h2>Mega Menu</h2>
+              </div> 
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <div class="column">
+            <div class="dropdown-menu-content">
+            <h2>Mega Menu</h2>
+              </div>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+            <div class="column">
+            <div class="dropdown-menu-content">
+            <h2>Mega Menu</h2>
+              </div>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+      </div>
 
     </div>
   </div> 

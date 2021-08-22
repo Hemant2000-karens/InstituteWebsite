@@ -56,7 +56,6 @@
 
 
 @media screen and (max-width: 600px){
-
 body{
     background-color:#f2f3f3;
     padding: 5px 5px 0px 5px;
@@ -84,6 +83,7 @@ body{
 .dropdown-content
 {
   background-color: #e4e4e4;
+  height:300px ;
 }
 .dropdown-content a
 {
@@ -131,12 +131,9 @@ body{
     display: block;
   }
   .banner
-{
-  border: 1px solid black;
-  height: 310px;
+  {
+    border: 1px solid black;
+    height: 310px;
+  }  
 }
-.column {
-    width: 100%;
-    height: auto;
-  }
-}
+
