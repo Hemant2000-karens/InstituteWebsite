@@ -1,5 +1,5 @@
 <div class="topnav" id="myTopnav">
-  <a href="#" class="active">Home</a>
+  <a href="https://www.iiitdmj.ac.in" class="active">Home</a>
   <a href="#">Academics</a>
   <a href="#">Contact</a>
   <!-- DropDown Menu -->
