@@ -40,7 +40,7 @@ body{
 .topnav 
 {
   overflow: hidden;
-  background-color: #DDDDDD;
+  background-color: #b7b7a4;
   border-radius: 8px;
 }
 
@@ -48,7 +48,7 @@ body{
     font-family: 'Atkinson Hyperlegible', sans-serif;
   float: left;
   display: block;
-  color: #000000;
+  color: #FFFFFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -56,8 +56,7 @@ body{
 }
 
 .active {
-  background-color: #212121;
-  color: white !important;
+  background-color: #6b705c;
 }
 
 .topnav .icon {
@@ -73,9 +72,9 @@ body{
   font-size: 17px;    
   border: none;
   outline: none;
-  color: #000000;
+  color: #ffffff;
   padding: 14px 16px;
-  background-color: inherit;
+  background-color: #b7b7a4;
   margin: 0;
 }
 
@@ -101,7 +100,7 @@ body{
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: gray;
+  background-color: #283618;
   color: white;
   border-radius: 10px;
 }
@@ -172,7 +171,7 @@ body{
   float: left;
   width: 30%;
   padding: 10px 20px 10px 20px;
-  background-color: #ccc;
+  background-color: #b7b7a4;
   height: auto;
 }
 
@@ -209,7 +208,7 @@ body{
   color: white;
   border-radius: 5px;
   padding: 0.4px 0px 0.4px 12px ;
-  background-color: #303030;
+  background-color: #3d442a;
 }
 
 @media screen and (max-width: 600px)

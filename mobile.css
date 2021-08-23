@@ -82,7 +82,7 @@ body{
 }
 .dropdown-content
 {
-  background-color: #e4e4e4;
+  background-color: #6b705c;
   height:300px ;
 }
 .dropdown-content a
@@ -90,13 +90,13 @@ body{
   color: black !important;
 }
 .dropdown-content a:hover {
-  background-color: gray;
-  color: white !important;
+  background-color: #283618;
+  color: white;
 }
 
 .topnav
 {
-  background-color: #212121;
+  background-color: #6b705c;
 }
 .topnav a{
   color: white;
