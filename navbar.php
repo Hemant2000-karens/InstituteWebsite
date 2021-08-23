@@ -13,7 +13,7 @@
       <div class="row">
           <div class="column">
               <div class="dropdown-menu-content">
-            <h2>Mega Menu</h2>
+            <h3>Mega Menu</h3>
               </div> 
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
@@ -21,7 +21,7 @@
           </div>
           <div class="column">
             <div class="dropdown-menu-content">
-            <h2>Mega Menu</h2>
+            <h3>Mega Menu</h3>
               </div>
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
@@ -29,7 +29,7 @@
           </div>
             <div class="column">
             <div class="dropdown-menu-content">
-            <h2>Mega Menu</h2>
+            <h3>Mega Menu</h3>
               </div>
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
@@ -40,7 +40,7 @@
 <div class="row">
           <div class="column">
               <div class="dropdown-menu-content">
-            <h2>Mega Menu</h2>
+            <h3>Mega Menu</h3>
               </div> 
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
@@ -48,7 +48,7 @@
           </div>
           <div class="column">
             <div class="dropdown-menu-content">
-            <h2>Mega Menu</h2>
+            <h3>Mega Menu</h3>
               </div>
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
@@ -56,7 +56,7 @@
           </div>
             <div class="column">
             <div class="dropdown-menu-content">
-            <h2>Mega Menu</h2>
+            <h3>Mega Menu</h3>
               </div>
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
