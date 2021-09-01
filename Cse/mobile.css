@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+    .header
+    {
+      height: 100px;
+      padding-bottom: 10px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  .header img 
+  {
+      width: 59px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 15px;
+      height: 59px;
+  }
+  .header h1
+  {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 11px;
+    height: 70%;
+    font-size: 18px
+  }
+}
