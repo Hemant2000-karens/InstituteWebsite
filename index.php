@@ -7,10 +7,14 @@
         <link rel="stylesheet" href="style.css">
        <link rel="stylesheet" type="text/css" href="mobile.css">
       <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap" rel="stylesheet">
       <script src="script.js"></script>
     </head>
     
     <body>
+      <div class="topheader">
+        Government of India <div class="vl"></div> MHRD 
+      </div>
     <div class="header">
     <img src="logo_college.png"/>
         <h1>
