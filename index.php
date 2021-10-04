@@ -28,7 +28,7 @@
 
 <div class="banner">
   
-  
+  <img src="group.jpg" style="height:100%; width: 100%;">
   
   </div>
   <!-- BANNER-->
