@@ -13,7 +13,7 @@
     
     <body>
       <div class="topheader">
-        Government of India <div class="vl"></div> MHRD 
+        Government of India | MHRD 
       </div>
     <div class="header">
     <img src="logo_college.png"/>

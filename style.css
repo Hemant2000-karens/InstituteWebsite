@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 
 body{
+
     background-color:#f2f3f3;
-    padding: 20px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
 }
 .topheader
 {
-    ackground: rgb(251,251,251);
+    padding-top: 0px;
+    display: inline-flex;
     color: rgb(0,0,0);
     font-size: 0.95em;
     border-bottom: 1px solid rgb(238,238,238);
     width: 100%;
 }
-.vl {
+.vl
+{
   border-left: 0.5px solid green;
-  height: 50px;
+  height: 10px;
   position: absolute;
-  left: 10%;
+  left: 50%;
   margin-left: -3px;
   top: 0;
 }
+
 .header{
     font-family: 'Atkinson Hyperlegible', sans-serif;
     display: inline-flex;
