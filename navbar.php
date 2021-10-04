@@ -1,84 +1,70 @@
 <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  
 
-  <h3><a href="https://www.iiitdmj.ac.in" class="active">Home</a></h3>
-  <a href="#">Academics</a>
-  <a href="#">Contact</a>
-  <!-- DropDown Menu -->
   <div class="dropdown">
     <button class="dropbtn">Dropdown 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-<!-- Conent of the menu-->
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
 
+<div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      
+      <!-- Mega Menu -->
+      <div class="meganews">
+        <h2>Mega Menu</h2>
+      </div>   
       <div class="row">
-          <div class="column">
-              <div class="dropdown-menu-content">
-            <h3>Mega Menu</h3>
-              </div>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-          <div class="column">
-            <div class="dropdown-menu-content">
-            <h3>Mega Menu</h3>
-              </div>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-            <div class="column">
-            <div class="dropdown-menu-content">
-            <h3>Mega Menu</h3>
-              </div>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
+        <div class="column">
+          <h3>Category 1</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        <div class="column">
+          <h3>Category 2</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        <div class="column">
+          <h3>Category 3</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
       </div>
 
-<div class="row">
-          <div class="column">
-              <div class="dropdown-menu-content">
-            <h3>Mega Menu</h3>
-              </div> 
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-          <div class="column">
-            <div class="dropdown-menu-content">
-            <h3>Mega Menu</h3>
-              </div>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-            <div class="column">
-            <div class="dropdown-menu-content">
-            <h3>Mega Menu</h3>
-              </div>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-      </div>
+      <!-- Mega Menu Ends -->
 
     </div>
   </div> 
 
 
-
-
-
-  <!-- DropDown Menu -->
-  <a href="#">Research</a>
-  <a href="#">About</a>
   <a href="#about">About</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">
-    <div class="bar1"/></div>
-  <div class="bar2"/></div>
-  <div class="bar3"/></div>
-</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+      
