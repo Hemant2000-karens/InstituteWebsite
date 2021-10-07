@@ -252,6 +252,7 @@ body{
   justify-content: center;
   align-content: center;
 }
+
  .dropdown-menu-content
 {
   color: white;
@@ -270,4 +271,12 @@ body{
   {
     display: inline-block;
   }
+}
+
+.footer
+{
+  background-color: #606c38;
+  padding-top: 15px;
+  width: 100%;
+  height: auto;
 }
