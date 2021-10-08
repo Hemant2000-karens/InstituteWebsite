@@ -58,7 +58,6 @@
   <div><h1>Hello</h1></div>
 </fieldset>
 </div>
-
 <? include './footer.php';?>
-    </body>
+</body>
 </html>
