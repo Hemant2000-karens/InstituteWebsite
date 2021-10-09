@@ -12,9 +12,7 @@
     </head>
     
     <body>
-      <div class="topheader">
-        Government of India | MHRD 
-      </div>
+      <?include 'topheader.php';?>
     <div class="header">
     <img src="logo_college.png"/>
         <h1>
