@@ -36,7 +36,7 @@
   <div class="thought_for_Day">
     <fieldset>
       <legend>Thought for the Day</legend>
-        <div><h1>Hello</h1></div>
+        <div><center><h1>It is very easy to defeat someone, But it is very hard to win Someone.</h1></center></div>
     </fieldset>
   </div>
 
