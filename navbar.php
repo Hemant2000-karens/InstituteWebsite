@@ -6,8 +6,7 @@
   <a href="#contact">Contact</a>
 
   <div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
+    <button class="dropbtn">About Us 
     </button>
     <div class="dropdown-content">
       <a href="#">Link 1</a>
@@ -18,7 +17,6 @@
 
   <div class="dropdown">
     <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
       <a href="#">Link 1</a>
@@ -27,10 +25,8 @@
     </div>
   </div> 
 
-
   <div class="dropdown">
     <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
       <a href="#">Link 1</a>
@@ -41,7 +37,6 @@
 
 <div class="dropdown">
     <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
       
@@ -83,7 +78,7 @@
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
+  if (x.className == "topnav") {
     x.className += " responsive";
   } else {
     x.className = "topnav";
