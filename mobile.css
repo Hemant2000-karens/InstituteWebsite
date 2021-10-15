@@ -1,8 +1,12 @@
 @media screen and (max-width: 600px) {
+  body{
+    background-color:#f2f3f3;
+    padding: 0px 5px 0px 5px;
+    }
     .header
     {
       height: 100px;
-      padding-bottom: 10px; /* The width is 100%, when the viewport is 800px or smaller */
+      padding-bottom: 10px;
     }
   .header img 
   {
@@ -14,22 +18,46 @@
   }
   .header h1
   {
-    font-family: 'Atkinson Hyperlegible', sans-serif;
     position: relative;
     padding-top: 0px;
     padding-left: 11px;
     height: 70%;
     font-size: 18px
   }
+.topheader
+{
+  padding-left: 10px;
+  display: inline-flex;
+  color: rgb(0,0,0);
+  font-size: 10;
+  width: 97%;
+}
+.headname
+{
+  padding-top: 5px;
+  font-weight: 600;
+  width:25%;
+  font-size: 11px;
+  font-family: 'Kalam', cursive;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  padding-right: 15px;
+  display: inline-grid;
+  border-right: 1px solid black;
+  justify-items: end;
+}
+.Ministry
+{
+  font-weight: 600;
+  font-family: 'Kalam', cursive;
+  font-size: 11px;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  padding-left: 15px;
+  display: inline-grid;
+  justify-items: start;
+}
 }
 
 @media screen and (max-width: 600px){
-
-body{
-    background-color:#f2f3f3;
-    padding: 5px 5px 0px 5px;
-    }
-
 .active a
 {
   padding-top: 5px;
@@ -64,9 +92,14 @@ body{
     position: relative;
     display: block;
   }
+  .article fieldset
+{
+  height: auto;
+  width: 92.5%;
+}
   .banner
   {
-    height: 45%;
+    height: 65%;
   }  
 }
 
