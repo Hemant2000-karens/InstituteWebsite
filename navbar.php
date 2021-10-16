@@ -13,6 +13,11 @@
       <a href="#">Link 2</a>
       <a href="#">Link 3</a>
       <a href="#" id="newMenu">Link 4</a>
+          <div class="finalClass">
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+          <a href="#">Link 7</a>
+          </div>
     </div>
   </div> 
 

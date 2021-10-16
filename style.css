@@ -140,10 +140,28 @@ body{
   text-align: left;
 }
 
-
-
-
+.finalClass {
+ display: none;
+ position: absolute;
+ left: 100%;
+ top: 75%;
+ width:160px;
+ margin-top: -20;
+ background-color: #f9f9f9;
 }
+
+.finalClass a
+{
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+#newMenu:hover::after +.finalClass{
+  display: block;
+  }
 
 /* Hover Here */
 .topnav a:hover, .dropdown:hover .dropbtn {
