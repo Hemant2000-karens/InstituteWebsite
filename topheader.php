@@ -9,8 +9,8 @@
         </div>
        <div class="lang">
         <ol>
-                <li><a class="button" onclick="openTabs(event,'id_03')" >Eng</a></li>
-                <li><a class="button" onclick="openTabs(event,'id_02')">हिन्दी</a></li>
+                <li><a href="">Eng</a></li>
+                <li><a href="">हिन्दी</a></li>
         </ol>
         </div>
 </div>
