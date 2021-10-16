@@ -8,12 +8,40 @@ body{
 .topheader
 {
   background-color: #FFFFFF;
-  padding-left: 10px;
   display: inline-flex;
-  color: rgb(0,0,0);
+  color: #7e7e7e;
   font-size: 10;
   border-bottom: 1px solid rgb(238,238,238);
   width: 100%;
+}
+.lang ol
+{
+   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+
+}
+
+.lang li
+{
+   float: right;
+    padding: 0px 10px 0px 10px;
+}
+
+.lang li a
+{
+   display: block;
+   text-align: center;
+  padding: 14px 16px;
+
+}
+.lang li a:hover
+{
+   cursor: ;
+   background-color: #636161c4;
+   color: antiquewhite;
+   border-radius: 8px;
 }
 .headname
 {
@@ -21,6 +49,8 @@ body{
   font-family: 'Kalam', cursive;
   /*font-family: 'Source Sans Pro', sans-serif;*/
   padding-right: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
   display: inline-grid;
   border-right: 1px solid black;
   justify-items: end;
@@ -34,6 +64,10 @@ body{
   padding-right: 15px;
   display: inline-grid;
   justify-items: start;
+}
+.lang
+{
+  float: right;
 }
 .header
 {
