@@ -15,7 +15,7 @@
 
 <?php include "./navbar.php" ?>
 
-<span class="br"></span>
+<span class="br"></span> <!--Horizontal rule -->
 	
 	<div class="SecondaryNav">
 		<a href="#">Dean Academic</a>
