@@ -36,6 +36,16 @@
     </fieldset>
   </div>
 
+<!-- Message from Director and Deans-->
+  <div class="about">
+    <div class="heading">
+
+    </div>
+    <div class="Mcontent">
+
+    </div>
+  </div>
+
 <div class="article">
 <fieldset>
   <legend>Notice</legend>
@@ -52,6 +62,14 @@
   <div><h1>Hello</h1></div>
 </fieldset>
 </div>
+
+
+
+
+
+
+
+
  <script  type="text/javascript">
         var myIndex = 0;
 carousel();
@@ -61,6 +79,8 @@ function carousel() {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
+
+  
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
