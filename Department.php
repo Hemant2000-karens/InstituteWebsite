@@ -23,11 +23,11 @@
 <span class="br"></span>
 	
 	<div class="SecondaryNav">
-		<a href="#">Computer Science and Engineering(CSE)</a>
-		<a href="#">Mechanical Engineering(ME)</a>
-		<a href="#">Electronics and Communication Engineering(ECE)</a>
-		<a href="#">Natural Science(NS)</a>
-		<a href="#">Desing (DES)</a>
+		<a href="#"><img src="icons/cs.png"/>Computer Science and Engineering(CSE)</a>
+		<a href="#"><img src="icons/me.png"/>Mechanical Engineering(ME)</a>
+		<a href="#"><img src="icons/ec.png"/>Electronics and Communication Engineering(ECE)</a>
+		<a href="#"><img src="icons/ns.png"/>Natural Science(NS)</a>
+		<a href="#"><img src="icons/de.png"/>Design(DES)</a>
 	</div>
 
 </body>

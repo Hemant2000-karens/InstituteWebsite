@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   body{
     background-color:#f2f3f3;
     padding: 0px 5px 0px 5px;
@@ -56,7 +56,7 @@
 }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 960px){
 .active a
 {
   padding-top: 5px;
@@ -101,18 +101,26 @@
   {
     height: 200px;
   }
+}
 
-
+@media screen and (max-width: 600px)
+{
+  .SecondaryNav
+{
+  display: inline-flex;
+  width: -webkit-fill-available;
+  overflow-x: scroll;
+}
   .SecondaryNav a
   {
-    display: block;  
+    display: grid;  
   }
 }
 
 
 /* NavBar */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -122,7 +130,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .topnav.responsive {
     position: relative;
   }
@@ -150,7 +158,7 @@
 }
 
 
-@media screen and (max-width: 450px)
+@media screen and (max-width: 960px)
 {
   .column
   {
