@@ -18,11 +18,10 @@
 <span class="br"></span>
 	
 	<div class="SecondaryNav">
-		<a href="#">Computer Science and Engineering(CSE)</a>
-		<a href="#">Mechanical Engineering(ME)</a>
-		<a href="#">Electronics and Communication Engineering(ECE)</a>
-		<a href="#">Natural Science(NS)</a>
-		<a href="#">Design(DES)</a>
+		<a href="#">Dean Academic</a>
+		<a href="#">Dean Students</a>
+		<a href="#">Dean RSPC</a>
+		<!--<a href="#">Dean PND</a> Dean PND --> 
 	</div>
 
 </body>
