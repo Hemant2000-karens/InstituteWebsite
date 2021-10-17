@@ -1,8 +1,8 @@
 <div class="topnav" id="myTopnav">
   <a href="index.php" class="active">Home</a>
   <a href="Department.php">Department</a>
-  <a href="#contact">Contact</a>
-  <a href="#news">News</a>
+  <a href="Acd.php">Academics</a>
+  <a href="Dean.php">Dean</a>
   <a href="#contact">Contact</a>
 
   <div class="dropdown">
