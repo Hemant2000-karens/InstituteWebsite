@@ -21,6 +21,14 @@
 <?php include "./navbar.php" ?>
 
 <span class="br"></span>
+	
+	<div class="SecondaryNav">
+		<a href="#">Computer Science and Engineering(CSE)</a>
+		<a href="#">Mechanical Engineering(ME)</a>
+		<a href="#">Electronics and Communication Engineering(ECE)</a>
+		<a href="#">Natural Science(NS)</a>
+		<a href="#">Desing (DES)</a>
+	</div>
 
 </body>
 </html>
