@@ -39,10 +39,10 @@
 <!-- Message from Director and Deans-->
   <div class="about">
     <div class="heading">
-
+      About Us
     </div>
     <div class="Mcontent">
-
+      
     </div>
   </div>
 

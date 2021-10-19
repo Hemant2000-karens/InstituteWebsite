@@ -114,6 +114,7 @@
   .SecondaryNav a
   {
     display: grid;  
+    text-overflow:hidden;
   }
 }
 

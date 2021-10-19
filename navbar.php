@@ -72,7 +72,7 @@
 
 
   <a href="#about">About</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  <a href="javascript:void(0);" style="font-size:18px; color: #f2f2f2" class="icon" onclick="myFunction()">&#9778;</a>
 </div>
 
 <script>
