@@ -24,36 +24,36 @@
     height: 70%;
     font-size: 18px
   }
-.topheader
-{
-  display: inline-flex;
-  font-size: 10;
-  width: -webkit-fill-available;
-}
-.headname
-{
-  font-weight: 600;
-  width:35%;
-  font-size: 11px;
-  font-family: 'Kalam', cursive;
-  /*font-family: 'Source Sans Pro', sans-serif;*/
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 15px;
-  display: inline-grid;
-  border-right: 1px solid black;
-  justify-items: end;
-}
-.Ministry
-{
-  font-weight: 600;
-  font-family: 'Kalam', cursive;
-  font-size: 11px;
-  /*font-family: 'Source Sans Pro', sans-serif;*/
-  padding-left: 15px;
-  display: inline-grid;
-  justify-items: start;
-}
+  .topheader
+  {
+    display: inline-flex;
+    font-size: 10;
+    width: -webkit-fill-available;
+  }
+  .headname
+  {
+    font-weight: 600;
+    width:35%;
+    font-size: 11px;
+    font-family: 'Kalam', cursive;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    display: inline-grid;
+    border-right: 1px solid black;
+    justify-items: end;
+  }
+  .Ministry
+  {
+    font-weight: 600;
+    font-family: 'Kalam', cursive;
+    font-size: 11px;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    padding-left: 15px;
+    display: inline-grid;
+    justify-items: start;
+  }
 }
 
 @media screen and (max-width: 960px){

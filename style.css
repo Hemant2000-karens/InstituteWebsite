@@ -16,11 +16,12 @@ body{
 }
 
 
+
 .headname
 {
+    /*font-family: 'Source Sans Pro', sans-serif;*/
   font-weight: 600;
   font-family: 'Kalam', cursive;
-  /*font-family: 'Source Sans Pro', sans-serif;*/
   padding-right: 15px;
   padding-top: 10px;
   padding-left: 10px;
@@ -30,9 +31,10 @@ body{
 }
 .Ministry
 {
+    /*font-family: 'Source Sans Pro', sans-serif;*/
   font-weight: 600;
   font-family: 'Kalam', cursive;
-  /*font-family: 'Source Sans Pro', sans-serif;*/
+  padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
   display: inline-grid;
@@ -41,6 +43,11 @@ body{
 .lang
 {
   float: right;
+}
+.lang li
+{
+  float: right;
+  padding: 0px 10px 0px 10px;
 }
 .header
 {
