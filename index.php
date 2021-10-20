@@ -47,26 +47,21 @@
   </div>
 
 <div class="article">
-<fieldset>
-  <legend>Notice</legend>
-  <div><h1>Hello</h1></div>
-</fieldset>
+    <fieldset>
+      <legend>Notice</legend>
+      <div><h1>Hello</h1></div>
+    </fieldset>
 
-<fieldset>
-  <legend>Notice</legend>
-  <div><h1>Hello</h1></div>
-</fieldset>
+    <fieldset>
+      <legend>Notice</legend>
+      <div><h1>Hello</h1></div>
+    </fieldset>
 
-<fieldset>
-  <legend>Notice</legend>
-  <div><h1>Hello</h1></div>
-</fieldset>
+    <fieldset>
+      <legend>Notice</legend>
+      <div><h1>Hello</h1></div>
+    </fieldset>
 </div>
-
-
-
-
-
 
 
 

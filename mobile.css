@@ -1,6 +1,6 @@
 @media screen and (max-width: 960px) {
   body{
-    background-color:#f2f3f3;
+    background-color:#fdfdfd;
     padding: 0px 5px 0px 5px;
     }
     .header
@@ -28,7 +28,7 @@
 {
   display: inline-flex;
   font-size: 10;
-  width: 97%;
+  width: -webkit-fill-available;
 }
 .headname
 {

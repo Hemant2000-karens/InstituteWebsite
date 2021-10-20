@@ -16,19 +16,18 @@
 <?php include "./navbar.php" ?>
 
 <span class="br"></span> <!--Horizontal rule -->
-	
+	<br>
 	<div class="DeanNav">
 		<a href="#">Dean Academic</a>
 		<a href="#">Dean Students</a>
 		<a href="#">Dean RSPC</a>
 		<a href="#">Dean PND</a>
 	</div>
-
 <br>
 
 <div class="bodyContent">
 	<table>
-		<
+		
 	</table>
 </div>
 

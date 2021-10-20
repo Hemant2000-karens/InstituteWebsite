@@ -389,10 +389,10 @@ ul.breadcrumb li a:hover {
 {
   width: -webkit-fill-available;
   display: inline-flex;
-  box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 20%), 0px 0px 1px 0 rgb(0 0 0 / 20%);
+ /* box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 20%), 0px 0px 1px 0 rgb(0 0 0 / 20%);*/
   height: auto;
   padding: 5px 5px 5px 5px;
-  background-color: #dfdfdf;
+  border-bottom: 1px solid #bfbfbf;
   
 }
 .DeanNav a
@@ -403,6 +403,10 @@ ul.breadcrumb li a:hover {
   color: #464646;
   text-decoration: none;
   font-family: 'Rubik', sans-serif;;
+}
+.DeanNav:hover
+{
+  border-bottom: 1px solid black;
 }
 
 .bodyContent
