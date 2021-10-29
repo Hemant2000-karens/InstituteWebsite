@@ -44,8 +44,13 @@ body{
 {
   float: right;
 }
+.hind
+{
+  border-right: 1px solid black;
+}
 .lang li
 {
+  list-style-type: none;
   float: right;
   padding: 0px 10px 0px 10px;
 }
@@ -411,11 +416,11 @@ ul.breadcrumb li a:hover {
   text-decoration: none;
   font-family: 'Rubik', sans-serif;;
 }
-.DeanNav:hover
-{
-  border-bottom: 1px solid black;
-}
 
+.DeanNav a:hover
+{
+  
+}
 .bodyContent
 {
   padding: 5px;

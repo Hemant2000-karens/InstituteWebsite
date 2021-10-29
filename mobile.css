@@ -26,9 +26,14 @@
   }
   .topheader
   {
+    height: auto;
     display: inline-flex;
     font-size: 10;
     width: -webkit-fill-available;
+  }
+  .lang
+  {
+    display: block;
   }
   .headname
   {

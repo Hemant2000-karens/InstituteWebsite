@@ -10,7 +10,8 @@
        <div class="lang">
         <ol>
                 <li><a href="">Eng</a></li>
-                <li><a href="">हिन्दी</a></li>
+                
+                <li class="hind"><a href="">हिन्दी</a></li>
         </ol>
         </div>
 </div>
