@@ -8,7 +8,7 @@
       height: 100px;
       padding-bottom: 10px;
     }
-  .header img 
+  .header img
   {
       width: 59px;
       padding-left: 0px;
@@ -67,13 +67,13 @@
   padding-top: 5px;
 }
 
-.header 
+.header
   {
     display: inline-flex;
     height: 120px;
-    padding-bottom: 15px; 
+    padding-bottom: 15px;
   }
-  .header img 
+  .header img
   {
     justify-content: center;
     width: 50px;
@@ -89,7 +89,7 @@
     padding-top: 0px;
     padding-left: 12px;
     height: 90%;
-    
+
   }
   .article
   {
@@ -118,7 +118,7 @@
 }
   .SecondaryNav a
   {
-    display: grid;  
+    display: grid;
     text-overflow:hidden;
   }
 }
@@ -174,4 +174,3 @@
 }
 
 /* NavBar Ends */
-

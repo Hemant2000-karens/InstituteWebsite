@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Source+Sans+Pro:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 body{
 
     background-color:#fdfdfd;
@@ -64,7 +65,7 @@ body{
   padding-bottom: 50px;
   height: 90px;
 }
-.header img 
+.header img
 {
     width: 89px;
     padding-left: 0px;
@@ -91,7 +92,7 @@ body{
 
 .topnav {
   overflow: hidden;
-  background-color: #565656;
+  background-color: #1b3a4b;
   border-radius: 5px;
   box-shadow: 0px 0px 6px 0 rgb(0 0 0 / 20%), 0px 0px 13px 0 rgb(0 0 0 / 19%);
 }
@@ -109,7 +110,7 @@ body{
 }
 
 .active {
-  background-color: #565656;
+  background-color: #1b3a4b;
   color: #f2f2f2;
 }
 
@@ -123,7 +124,7 @@ body{
 }
 
 .dropdown .dropbtn {
-  font-size: 17px;    
+  font-size: 17px;
   border: none;
   outline: none;
   color: #f2f2f2;
@@ -154,18 +155,18 @@ body{
 
 /* Hover Here */
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #2a2a2a;
+  background-color: #0a0908;
   color: #FFFFFF;
   text-shadow: 0px 0px 0px #646464, 0 0 0px #e1e1e1;
-  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%), 0px 0px 9px 0 rgb(0 0 0 / 19%);
+  box-shadow: 0px 0px 4px 0px rgb(10 10 8), 0px 0px 7px 1px rgb(0 0 0 / 33%);
   border-radius: 5px;
   cursor: hand;
 }
 
 .dropbtn:hover
 {
-    text-shadow: 0px 0px 0px #646464, 0 0 0px #e1e1e1;
-  box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 20%), 0px 0px 20px 0 rgb(0 0 0 / 19%);
+  text-shadow: 0px 0px 0px #646464, 0 0 0px #e1e1e1;
+  box-shadow: 0px 0px 4px 0px rgb(10 10 8), 0px 0px 7px 1px rgb(0 0 0 / 33%);
   cursor: hand;
 }
 
@@ -239,7 +240,7 @@ body{
   border: 1px solid black;
   height: 420px;
 }
-.thought_for_Day 
+.thought_for_Day
 {
   background-color: #e3e3e3;
   border-radius: 6px;
@@ -329,7 +330,7 @@ body{
 {
   animation:fading 10s infinite;
 }
-@keyframes 
+@keyframes
 fading
 {
     0%
@@ -383,7 +384,7 @@ ul.breadcrumb li a:hover {
   height: auto;
   padding: 10px 5px 10px 20px;
   background-color: #dfdfdf;
-  
+
 }
 .SecondaryNav a
 {
@@ -405,7 +406,7 @@ ul.breadcrumb li a:hover {
   height: auto;
   padding: 5px 5px 5px 5px;
   border-bottom: 1px solid #bfbfbf;
-  
+
 }
 .DeanNav a
 {
@@ -419,7 +420,7 @@ ul.breadcrumb li a:hover {
 
 .DeanNav a:hover
 {
-  
+
 }
 .bodyContent
 {

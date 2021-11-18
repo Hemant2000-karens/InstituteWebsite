@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="style.css">
        <link rel="stylesheet" type="text/css" href="mobile.css">
       <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
-     
+
     </head>
     <?include 'topheader.php';?>
     <body>
@@ -18,12 +18,12 @@
 <span class="br"></span>
 
 <div class="banner">
-  
+
   <img class="SlideShowImage fading" src="Images/img01.jpg" style="height:inherit; width: 100%;"/>
   <img class="SlideShowImage fading" src="Images/img02.jpg" style="height:inherit; width: 100%;"/>
   <img class="SlideShowImage fading" src="Images/img03.jpg" style="height:inherit; width: 100%;"/>
   <img class="SlideShowImage fading" src="Images/img04.jpg" style="height:inherit; width: 100%;"/>
-  
+
   </div>
   <!-- BANNER-->
 
@@ -32,7 +32,8 @@
   <div class="thought_for_Day">
     <fieldset>
       <legend>Thought for the Day</legend>
-        <div><center><h1>It is very easy to defeat someone, But it is very hard to win Someone.</h1></center></div>
+        <div><center><h1>It is very easy to defeat someone,
+          But it is very hard to win Someone.</h1></center></div>
     </fieldset>
   </div>
 
@@ -42,7 +43,7 @@
       About Us
     </div>
     <div class="Mcontent">
-      
+
     </div>
   </div>
 
@@ -72,13 +73,13 @@ function carousel() {
   var i;
   var x = document.getElementsByClassName("SlideShowImage");
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+    x[i].style.display = "none";
   }
 
-  
+
   myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
   setTimeout(carousel, 7000); // Change image every 2 seconds
 }
       </script>
