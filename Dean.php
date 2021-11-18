@@ -11,10 +11,11 @@
 	    
 	    <body>
 
-		
 
-<div class ="main">
-<?php include './topheader.php';?>
+		<?php include './topheader.php';?>
+
+<div class ="container">
+
     <?php include './header.php'?>
 
 <?php include "./navbar.php" ?>

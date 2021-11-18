@@ -4,11 +4,11 @@
     <div class="main-group">
         <div class="group">
             <p>भारत सरकार</p>
-            <p>Government of India</p>
+            <p>GOVERNMENT OF INDIA</p>
         </div>
         <div class="dept">
             <p>मानव संसाधन विकास मंत्रालय</p>
-            <p>Ministry of Human Resources and Development</p>
+            <p>MINISTRY OF HUMAN RESOURCES AND DEVELOPMENT</p>
         </div>
     </div>
 

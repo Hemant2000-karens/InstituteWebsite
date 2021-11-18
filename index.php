@@ -8,8 +8,10 @@
       <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
 
     </head>
-    <?include 'topheader.php';?>
+    
     <body>
+    <?php include 'topheader.php';?>
+    <div class="container">
    <?php include 'Header.php'?>
 
 <?php include "./navbar.php" ?>
@@ -62,7 +64,7 @@
       <div><h1>Hello</h1></div>
     </fieldset>
 </div>
-
+</div>
 
 
  <script  type="text/javascript">
