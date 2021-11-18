@@ -1,19 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Source+Sans+Pro:wght@300&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-body{
 
-    background-color:#fdfdfd;
-    padding: 0px 10px 0px 10px;
+
+.topheader p{
+  margin: 0;
 }
-.topheader
-{
-  background-color: #FFFFFF;
-  display: inline-flex;
-  color: #7e7e7e;
-  font-size: 10;
-  border-bottom: 1px solid rgb(238,238,238);
-  width: -webkit-fill-available;
+
+body{
+    background-color:#fdfdfd;
+    padding: 0px 10px 0px 10px !important;
+}
+
+.topheader{
+  background: lightgrey;
+  height: 50px;
+  font-family:'Rubik', sans-serif;
+}
+
+.topheader .main-group{
+  margin-left:30px;
+}
+
+.topheader .group{
+  float: left;
+  border-right: 1px solid;
+  margin: 4.5px;
+  padding-right: 10px;
+  
+}
+
+.topheader .dept{
+  float: left;
+  margin: 4.5px;
+}
+
+.topheader .language{
+  float: right;
+  margin: 12px 15px;
 }
 
 
@@ -23,12 +47,10 @@ body{
     /*font-family: 'Source Sans Pro', sans-serif;*/
   font-weight: 600;
   font-family: 'Kalam', cursive;
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-left: 10px;
-  display: inline-grid;
+  padding: 10px 15px 0px 10px;
+  
   border-right: 1px solid black;
-  justify-items: end;
+  
 }
 .Ministry
 {

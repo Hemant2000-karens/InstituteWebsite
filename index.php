@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>IIITDMJ | Home</title>
-         <meta http-equiv="refresh" content="3000">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
        <link rel="stylesheet" type="text/css" href="mobile.css">
@@ -19,10 +18,10 @@
 
 <div class="banner">
 
-  <img class="SlideShowImage fading" src="Images/img01.jpg" style="height:inherit; width: 100%;"/>
-  <img class="SlideShowImage fading" src="Images/img02.jpg" style="height:inherit; width: 100%;"/>
-  <img class="SlideShowImage fading" src="Images/img03.jpg" style="height:inherit; width: 100%;"/>
-  <img class="SlideShowImage fading" src="Images/img04.jpg" style="height:inherit; width: 100%;"/>
+  <img class="SlideShowImage fading" src="Images/img01.jpg" style="height:inherit; width: 100%;" alt="image"/>
+  <img class="SlideShowImage fading" src="Images/img02.jpg" style="height:inherit; width: 100%;" alt="image"/>
+  <img class="SlideShowImage fading" src="Images/img03.jpg" style="height:inherit; width: 100%;" alt="image"/>
+  <img class="SlideShowImage fading" src="Images/img04.jpg" style="height:inherit; width: 100%;" alt="image"/>
 
   </div>
   <!-- BANNER-->
@@ -32,8 +31,8 @@
   <div class="thought_for_Day">
     <fieldset>
       <legend>Thought for the Day</legend>
-        <div><center><h1>It is very easy to defeat someone,
-          But it is very hard to win Someone.</h1></center></div>
+        <div><h1 style="text-align:center;">It is very easy to defeat someone,
+          But it is very hard to win Someone.</h1></div>
     </fieldset>
   </div>
 

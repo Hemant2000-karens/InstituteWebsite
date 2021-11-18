@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Dean | IIITDMJ</title>
-		<meta http-equiv="refresh" content="3000">
+		
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
        <link rel="stylesheet" type="text/css" href="mobile.css">
 </head>
-	    <?php include 'topheader.php';?>
+	    
 	    <body>
+
+		
+
+<div class ="main">
+<?php include './topheader.php';?>
     <?php include './header.php'?>
 
 <?php include "./navbar.php" ?>
@@ -25,9 +30,8 @@
 <br>
 
 <div class="bodyContent">
-	<table>
-
-	</table>
+	
+</div>
 </div>
 
 </body>
