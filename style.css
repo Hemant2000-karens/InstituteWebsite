@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Source+Sans+Pro:wght@300&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 .topheader p{
   margin: 0;
@@ -14,7 +14,7 @@ body{
 
 .topheader{
   background: lightgrey;
-  height: 50px;
+  height: 55px;
   font-family:'Rubik', sans-serif;
 }
 
@@ -27,7 +27,7 @@ body{
   border-right: 1px solid;
   margin: 4.5px;
   padding-right: 10px;
-  
+
 }
 
 .topheader .dept{
@@ -48,9 +48,9 @@ body{
   font-weight: 600;
   font-family: 'Kalam', cursive;
   padding: 10px 15px 0px 10px;
-  
+
   border-right: 1px solid black;
-  
+
 }
 .Ministry
 {
