@@ -174,3 +174,28 @@
 }
 
 /* NavBar Ends */
+
+
+/* Dean Page Setting */
+@media screen and (max-width: 960px) {
+  .tableContainer{
+    display: block;
+    text-align: center;
+  }
+  .rowDean
+  {
+    display: inline;
+    padding: 6px 10px;
+  }
+  .sticky
+  {
+    width: 80%;
+  }
+}
+
+/* footer Setting - rishabh will do */
+.footer .footer-heading
+{
+  height: auto;
+  display: block;
+}

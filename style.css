@@ -347,7 +347,7 @@ body .container{
 }
 
 .footer{
-  
+
   font-family: 'Noto Sans';
 }
 
@@ -417,7 +417,7 @@ body .container{
 .footer-main .footer-subgroup a{
   text-decoration: none;
   color: #e4eff8;
-  font-size: small;   
+  font-size: small;
 }
 
 .footer-secondary{
@@ -434,7 +434,7 @@ body .container{
   color: #7a839a;
   padding:0 15px;
   font-size: small;
-} 
+}
 
 .SlideShowImage
 {
@@ -547,4 +547,53 @@ ul.breadcrumb li a:hover {
   background-color:#FFFFFF ;
   border:#FFFFFF;
   display: none;
+}
+
+
+
+
+
+
+
+
+/* Dean Page Layout Table*/
+.deanHeader
+{
+  padding-left: 20px;
+  border-bottom: 0.1px solid #ccc;
+}
+.deanHeader h2
+{
+  font-size: 15px;
+  font-family: ;
+}
+.sticky {
+  background-color: #f9f9f99e;
+  backdrop-filter: blur(8px);;
+  position: fixed;
+  top: 0;
+  width:96%;
+}
+.sticky + .rowDean {
+  padding-top: 30px;
+}
+.rowDean
+{
+  width: 100%;
+  padding:5px 10px;
+  display: flex;
+}
+.columnDean
+{
+  padding: 10px 20px;
+}
+.rowDean img
+{
+  height: 250px;
+  width: 250px;
+}
+.tableContainer{
+  width: 65%;
+  display:grid | inline-grid;
+   margin:0 auto;
 }
