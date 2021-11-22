@@ -84,6 +84,6 @@ function carousel() {
   setTimeout(carousel, 7000); // Change image every 2 seconds
 }
       </script>
-<? include './footer.php';?>
+<?php include './footer.php';?>
 </body>
 </html>
