@@ -1,7 +1,7 @@
 @media screen and (max-width: 960px) {
   body{
     background-color:#fdfdfd;
-    padding: 0px 5px 0px 5px;
+    padding: 0px;
     }
     .header
     {
@@ -177,7 +177,7 @@
 
 
 /* Dean Page Setting */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 460px) {
   .tableContainer{
     display: block;
     text-align: center;
@@ -193,9 +193,100 @@
   }
 }
 
-/* footer Setting - rishabh will do */
-.footer .footer-heading
+
+/* tabletView Dean  ipad  and ipad pro 12" */
+@media screen and (max-width:1200px)
 {
-  height: auto;
-  display: block;
+  .tableContainer
+  {
+    width: -webkit-fill-available;
+    padding: 20px 30px 20px 20px;
+    align-items: center;
+  }
+  .footer
+  {
+    height: auto;
+  }
+  .footer .footer-main
+  {
+    height: 350px;
+    display: block;
+  }
+  .footer-secondary
+  {
+    display: block;
+    padding: 10px;
+    width: -webkit-fill-available;
+    height: auto;
+  }
+  .footer-secondary-links {
+    padding: 6px 5px;
+    display: inline-block;
+}
+.footer-secondary-links a {
+    padding: 0 15px;
+    font-size: small;
+}
+}
+@media screen and (max-width:960px)
+{
+  .tableContainer
+  {
+    width: -webkit-fill-available;
+    padding: 20px 30px 20px 20px;
+    align-items: center;
+  }
+  .footer
+  {
+    height: auto;
+  }
+  .footer .footer-main
+  {
+    height: 350px;
+    display: block;
+  }
+  .footer-secondary
+  {
+    display: block;
+    padding: 10px;
+    width: -webkit-fill-available;
+    height: auto;
+  }
+  .footer-secondary-links {
+    padding: 6px 5px;
+    display: inline-block;
+}
+.footer-secondary-links a {
+    padding: 0 15px;
+    font-size: small;
+}
+}
+
+/* footer Setting - rishabh will do */
+@media screen and (max-width:460px)
+{
+  .footer
+  {
+    height: auto;
+  }
+  .footer .footer-main
+  {
+    height: 1000px;
+    display: block;
+  }
+  .footer-secondary
+  {
+    display: block;
+    padding: 10px;
+    width: -webkit-fill-available;
+    height: auto;
+  }
+  .footer-secondary-links {
+    padding: 6px 5px;
+    display: inline-block;
+}
+.footer-secondary-links a {
+    padding: 0 15px;
+    font-size: small;
+}
 }

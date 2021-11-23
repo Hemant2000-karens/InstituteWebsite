@@ -37,7 +37,6 @@
 		<br>
 
 <div class = "tableContainer">
-
 			<div class="rowDean">
 				<div class="columnDean">
     			<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >

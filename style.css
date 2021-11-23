@@ -421,7 +421,7 @@ body .container{
 }
 
 .footer-secondary{
-  height: 40px !important;
+  height: 40px;
   background: #1a1e2c;
 }
 
@@ -593,7 +593,7 @@ ul.breadcrumb li a:hover {
   width: 250px;
 }
 .tableContainer{
-  width: 65%;
+  width: 100%;
   display:grid | inline-grid;
    margin:0 auto;
 }
