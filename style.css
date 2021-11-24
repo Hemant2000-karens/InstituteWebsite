@@ -436,6 +436,10 @@ body .container{
   font-size: small;
 }
 
+
+
+/* Footer Ending */
+
 .SlideShowImage
 {
   display: none;
@@ -597,3 +601,4 @@ ul.breadcrumb li a:hover {
   display:grid | inline-grid;
    margin:0 auto;
 }
+

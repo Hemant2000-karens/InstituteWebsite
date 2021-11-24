@@ -105,6 +105,8 @@
 
 </body>
 <?php include './footer.php'?>
+
+
 <script>
 function openCity(evt, pageName) {
   var i, tabcontent, tablinks;
@@ -120,8 +122,9 @@ function openCity(evt, pageName) {
   evt.currentTarget.className += " active1";
 }
 
-window.onscroll = function() {myFunction()};
-
+window.onscroll = function(){
+	myFunction()
+};
 var navbar = document.getElementById("NameofDean");
 var sticky = navbar.offsetTop;
 
