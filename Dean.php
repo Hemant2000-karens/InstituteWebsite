@@ -23,10 +23,10 @@
 <span class="br"></span> <!--Horizontal rule -->
 	<br>
 	<div class="DeanNav">
-		<a href="#" class="tablinks active1" onclick="openCity(event, 'deanACD');">Dean Academic</a>
-		<a href="#" class="tablinks" onclick="openCity(event, 'deanAStd');">Dean Students</a>
-		<a href="#" class="tablinks" onclick="openCity(event, 'deanrpSC');">Dean RSPC</a>
-		<a href="#" class="tablinks" onclick="openCity(event, 'deanPND');">Dean PND</a>
+		<a href="#" class="tablinks active1" onclick="openTab(event, 'deanACD');">Dean Academic</a>
+		<a href="#" class="tablinks" onclick="openTab(event, 'deanAStd');">Dean Students</a>
+		<a href="#" class="tablinks" onclick="openTab(event, 'deanrpSC');">Dean RSPC</a>
+		<a href="#" class="tablinks" onclick="openTab(event, 'deanPND');">Dean PND</a>
 	</div>
 <br>
 
@@ -108,7 +108,7 @@
 
 
 <script>
-function openCity(evt, pageName) {
+function openTab(evt, pageName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("bodyContent");
   for (i = 0; i < tabcontent.length; i++) {
