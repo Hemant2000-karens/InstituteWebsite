@@ -9,8 +9,11 @@
        <link rel="stylesheet" type="text/css" href="mobile.css">
       <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
 </head>
+
 	    <?include 'topheader.php';?>
 	    <body>
+
+	    	<div class="container">
     <div class="header">
     <img src="logo_college.png"/>
         <h1>
@@ -29,6 +32,9 @@
 		<a href="#"><img src="icons/ns.png"/>Natural Science(NS)</a>
 		<a href="#"><img src="icons/de.png"/>Design(DES)</a>
 	</div>
-
+</div>
 </body>
+</div>
+<?php include './footer.php'?>
+
 </html>

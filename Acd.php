@@ -10,6 +10,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
 </head>
 	    <?php include 'topheader.php';?>
+	    <div class="container">
 	    <body>
 	    	<?php include 'Header.php';?>
 			<?php include "./navbar.php" ?>
@@ -25,4 +26,7 @@
 	</div>
 
 </body>
+</div>
+
+<?php include './footer.php'?>
 </html>
