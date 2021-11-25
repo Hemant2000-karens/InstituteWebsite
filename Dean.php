@@ -8,19 +8,15 @@
         <link rel="stylesheet" type="text/css" href="style.css">
        <link rel="stylesheet" type="text/css" href="mobile.css">
 </head>
+<?php include './topheader.php';?>
+<div class = "container">
+<body>
 
-	    <body>
+	<?php include "./Header.php" ;?>
 
+	<?php include "./navbar.php" ;?>
 
-		<?php include './topheader.php';?>
-
-<div class ="container">
-
-    <?php include './header.php'?>
-
-<?php include "./navbar.php" ?>
-
-<span class="br"></span> <!--Horizontal rule -->
+	<span class="br"></span> <!--Horizontal rule -->
 	<br>
 	<div class="DeanNav">
 		<a href="#" class="tablinks active1" onclick="openTab(event, 'deanACD');">Dean Academic</a>
@@ -28,7 +24,7 @@
 		<a href="#" class="tablinks" onclick="openTab(event, 'deanrpSC');">Dean RSPC</a>
 		<a href="#" class="tablinks" onclick="openTab(event, 'deanPND');">Dean PND</a>
 	</div>
-<br>
+	<br>
 
 	<div class="bodyContent" id = "deanACD" style="display:block">
 			<div class="deanHeader" id ="NameofDean">
@@ -36,7 +32,7 @@
 			</div>
 		<br>
 
-<div class = "tableContainer">
+		<div class = "tableContainer">
 			<div class="rowDean">
 				<div class="columnDean">
     			<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
@@ -81,29 +77,40 @@
     			<img src="./Images/DeanACD/irshad.jpg" alt="Mountains">
 					<h5>Mr. Irshad Ahmed</h5>
   			</div>
-			</div>
+		</div>
 
 
 	</div>
-</div>
 
 
-<div class="bodyContent" id = "deanAStd">
-	<div class="deanHeader" id ="NameofDean">
+	<div class="bodyContent" id = "deanAStd">
+		<div class="deanHeader" id ="NameofDean">
 		<h2>Dean Students</h2>
+		</div>
+
+
+	</div>
+	
+	<div class="bodyContent" id = "deanrpSC">
+		<div class="deanHeader" id ="NameofDean">
+		<h2>Dean RSPC</h2>
+		</div>
+	
+	
 	</div>
 
 
-</div>
-<div class="bodyContent" id = "deanrpSC">
-<h2>Dean RSPC</h2>
-</div>
-<div class="bodyContent" id = "deanPND">
-<h2>Dean PND</h2>
-</div>
-</div>
+	<div class="bodyContent" id = "deanPND">
+		<div class="deanHeader" id ="NameofDean">
+		<h2>Dean PND</h2>
+		</div>
 
-</body>
+
+	
+	</div>
+
+	</body>
+</div>
 <?php include './footer.php'?>
 
 
