@@ -1,21 +1,8 @@
 @media screen and (max-width: 960px) {
-  body{
+  body,html{
     background-color:#fdfdfd;
     padding: 0px;
     }
-    .header
-    {
-      height: 100px;
-      padding-bottom: 10px;
-    }
-  .header img
-  {
-      width: 59px;
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-top: 15px;
-      height: 59px;
-  }
   .header h1
   {
     position: relative;
@@ -72,15 +59,16 @@
     display: inline-flex;
     height: 120px;
     padding-bottom: 15px;
+    padding-left: 10px;
   }
   .header img
   {
     justify-content: center;
-    width: 50px;
+    width: 100px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 20px;
-    height: 50px;
+    height: 100px;
   }
   .header h1
   {
@@ -89,7 +77,6 @@
     padding-top: 0px;
     padding-left: 12px;
     height: 90%;
-
   }
   .article
   {
@@ -105,6 +92,41 @@
   .banner
   {
     height: 200px;
+  }
+}
+
+@media only screen and (min-width: 462px) and (max-width: 960px) 
+{
+  .header h1
+  {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width:390px)
+{
+  .header h1
+  {
+    padding-top: 05px;
+  }
+
+}
+
+@media screen and (max-width: 380px)
+{
+  .header img
+  {
+    height: 75px;
+    width: 75px;
+  }
+  .header h1
+  {
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+    padding-top: 3px;
+    padding-left: 12px;
+    height: 90%;
   }
 }
 
