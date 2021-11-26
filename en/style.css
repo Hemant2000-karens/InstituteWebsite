@@ -50,43 +50,6 @@ body .container{
   text-decoration: none;
 }
 
-
-
-.headname
-{
-    /*font-family: 'Source Sans Pro', sans-serif;*/
-  font-weight: 600;
-  font-family: 'Kalam', cursive;
-  padding: 10px 15px 0px 10px;
-
-  border-right: 1px solid black;
-
-}
-.Ministry
-{
-    /*font-family: 'Source Sans Pro', sans-serif;*/
-  font-weight: 600;
-  font-family: 'Kalam', cursive;
-  padding-top: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: inline-grid;
-  justify-items: start;
-}
-.lang
-{
-  float: right;
-}
-.hind
-{
-  border-right: 1px solid black;
-}
-.lang li
-{
-  list-style-type: none;
-  float: right;
-  padding: 0px 10px 0px 10px;
-}
 .header
 {
   text-shadow: 1px 0px 4px #a6a6a6;
