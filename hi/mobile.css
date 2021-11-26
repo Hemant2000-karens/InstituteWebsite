@@ -1,0 +1,328 @@
+@media screen and (max-width: 960px) {
+  body,html{
+    background-color:#fdfdfd;
+    padding: 0px;
+    }
+  .header h1
+  {
+    position: relative;
+    padding-top: 0px;
+    padding-left: 11px;
+    height: 70%;
+    font-size: 18px
+  }
+  .topheader
+  {
+    height: auto;
+    display: inline-flex;
+    font-size: 10;
+    width: -webkit-fill-available;
+  }
+  .lang
+  {
+    display: block;
+  }
+  .headname
+  {
+    font-weight: 600;
+    width:35%;
+    font-size: 11px;
+    font-family: 'Kalam', cursive;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    display: inline-grid;
+    border-right: 1px solid black;
+    justify-items: end;
+  }
+  .Ministry
+  {
+    font-weight: 600;
+    font-family: 'Kalam', cursive;
+    font-size: 11px;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    padding-left: 15px;
+    display: inline-grid;
+    justify-items: start;
+  }
+}
+
+@media screen and (max-width: 960px){
+.active a
+{
+  padding-top: 5px;
+}
+
+.header
+  {
+    display: inline-flex;
+    height: 120px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+  }
+  .header img
+  {
+    justify-content: center;
+    width: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    height: 100px;
+  }
+  .header h1
+  {
+    text-align: left;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 12px;
+    height: 90%;
+  }
+  .article
+  {
+    width: 100%;
+    position: relative;
+    display: block;
+  }
+  .article fieldset
+  {
+    height: auto;
+    width: 92.5%;
+  }
+  .banner
+  {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 462px) and (max-width: 960px) 
+{
+  .header h1
+  {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width:390px)
+{
+  .header h1
+  {
+    padding-top: 05px;
+  }
+
+}
+
+@media screen and (max-width: 380px)
+{
+  .header img
+  {
+    height: 75px;
+    width: 75px;
+  }
+  .header h1
+  {
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+    padding-top: 3px;
+    padding-left: 12px;
+    height: 90%;
+  }
+
+  .thought_for_Day h1
+  {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  .SecondaryNav
+{
+  display: inline-flex;
+  width: -webkit-fill-available;
+  overflow-x: scroll;
+}
+  .SecondaryNav a
+  {
+    display: grid;
+    text-overflow:hidden;
+  }
+}
+
+
+/* NavBar */
+
+@media screen and (max-width: 960px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+@media screen and (max-width: 960px)
+{
+  .column
+  {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* NavBar Ends */
+
+
+/* Dean Page Setting */
+@media screen and (max-width: 460px) {
+  .tableContainer{
+    display: block;
+    text-align: center;
+  }
+  .rowDean
+  {
+    display: inline;
+    padding: 6px 10px;
+  }
+  .sticky
+  {
+    width: 80%;
+  }
+}
+
+
+/* tabletView Dean  ipad  and ipad pro 12" */
+@media screen and (max-width:1200px)
+{
+  .tableContainer
+  {
+    width: -webkit-fill-available;
+    padding: 20px 30px 20px 20px;
+    align-items: center;
+  }
+  .footer
+  {
+    height: auto;
+  }
+  .footer .footer-main
+  {
+    height: 350px;
+    display: block;
+  }
+  .footer-secondary
+  {
+    display: block;
+    padding: 10px;
+    width: -webkit-fill-available;
+    height: auto;
+  }
+  .footer-secondary-links {
+    padding: 6px 5px;
+    display: inline-block;
+}
+.footer-secondary-links a {
+    padding: 0 15px;
+    font-size: small;
+}
+}
+@media screen and (max-width:960px)
+{
+  .tableContainer
+  {
+    width: -webkit-fill-available;
+    padding: 20px 30px 20px 20px;
+    align-items: center;
+  }
+  .footer
+  {
+    height: auto;
+  }
+  .footer .footer-main
+  {
+    height: 350px;
+    display: block;
+  }
+  .footer-secondary
+  {
+    display: block;
+    padding: 10px;
+    width: -webkit-fill-available;
+    height: auto;
+  }
+  .footer-secondary-links {
+    padding: 6px 5px;
+    display: inline-block;
+}
+  .footer-secondary-links a {
+      padding: 0 15px;
+      font-size: small;
+  }
+
+
+  .chButton
+  {
+    display: none;
+  }
+}
+
+/* footer Setting - rishabh will do */
+
+@media screen and (max-width:460px)
+{
+  .footer
+  {
+    height: auto;
+  }
+  .footer .footer-main
+  {
+    height: 1000px;
+    display: block;
+  }
+  .footer-secondary
+  {
+    display: block;
+    padding: 10px;
+    width: -webkit-fill-available;
+    height: auto;
+  }
+  .footer-secondary-links 
+  {
+    padding: 6px 5px;
+    display: inline-block;
+  }
+  .footer-secondary-links a 
+  {
+      padding: 0 15px;
+      font-size: small;
+  }
+}

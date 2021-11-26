@@ -128,6 +128,11 @@
     padding-left: 12px;
     height: 90%;
   }
+
+  .thought_for_Day h1
+  {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 600px)
@@ -278,10 +283,16 @@
     padding: 6px 5px;
     display: inline-block;
 }
-.footer-secondary-links a {
-    padding: 0 15px;
-    font-size: small;
-}
+  .footer-secondary-links a {
+      padding: 0 15px;
+      font-size: small;
+  }
+
+
+  .chButton
+  {
+    display: none;
+  }
 }
 
 /* footer Setting - rishabh will do */
