@@ -271,7 +271,7 @@ body .container{
 
 .banner
 {
-  border: 1px solid black;
+  border: 0.24px solid #ccc;
   height: 420px;
 }
 .thought_for_Day
@@ -283,13 +283,13 @@ body .container{
 }
 .thought_for_Day fieldset legend
 {
-  font-family: 'Klee One', cursive;
+  font-family: 'Varela Round', sans-serif;
   font-size: 20px;
 }
 
 .br {
       display: block;
-      margin-bottom: 0.5em;
+      margin-bottom: 0.6em;
     }
 /* Create three equal columns that floats next to each other */
 .column {
