@@ -1,13 +1,13 @@
 <div class="messageDesk">
 	<div class="mesageContent">
 		 <div class="personImage">
-		 	<img src=""/>
+		 	<img src="./Images/director_msg.jpg"/>
 		 </div>
 		 <div class="messageTitle">
-		 	Message from Desk
-		 </div>
+		 	<span class="mesage">Message from</span><span class="desk">Desk</span>
 		 <div class="chButton">
-		 	<a href=""></a>|<a href=""></a>
+		 	<a href="">&lt;</a><a href="">&gt;</a>
+		 </div>
 		 </div>
 	</div>
 </div>

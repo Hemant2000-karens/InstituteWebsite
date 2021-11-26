@@ -204,9 +204,11 @@ body .container{
 
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background: none;
+  box-shadow: none;
   color: black;
 }
+
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -448,7 +450,7 @@ body .container{
 
 .fading
 {
-  animation:fading 10s infinite;
+  animation:fading 20s infinite;
 }
 @keyframes
 fading
@@ -603,6 +605,48 @@ ul.breadcrumb li a:hover {
 {
   padding: 10px 15px;
   background-color: #f2f2f2;
+}
+.messageTitle
+{
+  display: inline-flex;
+}
+.mesageContent
+{
+  width: 100%;
+  display: -webkit-inline-box;
+}
+.personImage
+{
+  padding: 10px;
+}
+.personImage img
+{
+  height: 240px;
+  width: 420px;
+}
+.chButton a
+{
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  text-align: center;
+  color: #ccc;
+}
+.mesage
+{
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  color: ;
+
+}
+.desk
+{
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  color: ;  
 }
    /* display: block;
     width: 120px;
