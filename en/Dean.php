@@ -35,17 +35,17 @@
 		<div class = "tableContainer">
 			<div class="rowDean">
 				<div class="columnDean">
-    			<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
+    				<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
 					<h5>Prof. Vijay Kumar Gupta</h5>
-  			</div>
-  			<div class="columnDean">
-    			<img src="./Images/DeanACD/santosh.jpg" alt="Santoash">
+  				</div>
+  				<div class="columnDean">
+    				<img src="./Images/DeanACD/santosh.jpg" alt="Santoash">
 					<h5>Mr. Santosh Mahobia</h5>
-  			</div>
-  			<div class="columnDean">
-    			<img src="./Images/DeanACD/sandeep.jpg" alt="Sandeep">
+  				</div>
+  				<div class="columnDean">
+    				<img src="./Images/DeanACD/sandeep.jpg" alt="Sandeep">
 					<h5>Mr. Sandeep Awasthi</h5>
-  			</div>
+  				</div>
 			</div>
 
 
@@ -66,20 +66,19 @@
 
 			<div class="rowDean">
 				<div class="columnDean">
-    			<img src="./Images/DeanACD/simran.jpg" alt="Snow">
+    				<img src="./Images/DeanACD/simran.jpg" alt="Snow">
 					<h5>Ms. Simran Kaur Kalra</h5>
-  			</div>
-  			<div class="columnDean">
-    			<img src="./Images/DeanACD/shashank.jpg" alt="Forest">
+  				</div>
+  				<div class="columnDean">
+    				<img src="./Images/DeanACD/shashank.jpg" alt="Forest">
 					<h5>Mr. Shashank Patel</h5>
-  			</div>
-  			<div class="columnDean">
-    			<img src="./Images/DeanACD/irshad.jpg" alt="Mountains">
+  				</div>
+  				<div class="columnDean">
+    				<img src="./Images/DeanACD/irshad.jpg" alt="Mountains">
 					<h5>Mr. Irshad Ahmed</h5>
-  			</div>
+  				</div>
+			</div>
 		</div>
-
-
 	</div>
 
 
@@ -89,15 +88,30 @@
 		</div>
 
 
+
 	</div>
 	
 	<div class="bodyContent" id = "deanrpSC">
 		<div class="deanHeader" id ="NameofDean">
-		<h2>Dean RSPC</h2>
+			<h2>Dean RSPC</h2>
 		</div>
-	
-	
+		<div class = "tableContainer">
+			<div class="rowDean">
+				<div class="columnDean">
+    			<img src="./Images/DeanRSPC/pkpadhy.png" alt="Prabin" >
+					<h5>Prof. Prabin Kumar Padhy</h5>
+  			</div>
+  			<div class="columnDean">
+    			<img src="./Images/DeanRSPC/Priti.jpg" alt="Priti">
+					<h5>Ms. Priti Patel</h5>
+  			</div>
+  			<div class="columnDean">
+    			<img src="./Images/DeanRSPC/prashant.png" alt="Sandeep">
+					<h5>Mr. Prashant Agnihotri</h5>
+  			</div>
+			</div>
 	</div>
+</div>
 
 
 	<div class="bodyContent" id = "deanPND">
@@ -111,6 +125,8 @@
 
 	</body>
 </div>
+
+
 <?php include './footer.php'?>
 
 
@@ -129,7 +145,8 @@ function openTab(evt, pageName) {
   evt.currentTarget.className += " active1";
 }
 
-window.onscroll = function(){
+window.onscroll = function()
+{
 	myFunction()
 };
 var navbar = document.getElementById("NameofDean");

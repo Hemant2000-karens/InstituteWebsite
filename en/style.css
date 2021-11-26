@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@300&family=Varela+Round&family=Bitter&display=swap');
 
 .topheader p{
   margin: 0;
@@ -577,7 +577,8 @@ ul.breadcrumb li a:hover {
 }
 .personImage
 {
-  padding: 10px;
+
+  padding: 20px 10px;
 }
 .personImage img
 {
@@ -599,18 +600,18 @@ ul.breadcrumb li a:hover {
 }
 .mesage
 {
-  font-family: ;
-  font-size: ;
-  font-weight: ;
-  color: ;
-
+  font-family:'noto sans',sans-serif ;
+  font-size: 40px;
+  font-weight: 400;
+  color: #545454;
+  padding-right: 10px;
 }
 .desk
 {
-  font-family: ;
-  font-size: ;
-  font-weight: ;
-  color: ;  
+  font-family:'Bitter', serif;
+  font-size: 50px ;
+  font-weight:400 ;
+  color: #00034f;  
 }
    /* display: block;
     width: 120px;
