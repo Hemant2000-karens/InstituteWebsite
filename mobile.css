@@ -282,12 +282,14 @@
     width: -webkit-fill-available;
     height: auto;
   }
-  .footer-secondary-links {
+  .footer-secondary-links 
+  {
     padding: 6px 5px;
     display: inline-block;
-}
-.footer-secondary-links a {
-    padding: 0 15px;
-    font-size: small;
-}
+  }
+  .footer-secondary-links a 
+  {
+      padding: 0 15px;
+      font-size: small;
+  }
 }
