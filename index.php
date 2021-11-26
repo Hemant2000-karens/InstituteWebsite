@@ -33,20 +33,18 @@
   <div class="thought_for_Day">
     <fieldset>
       <legend>Thought for the Day</legend>
-        <div><h1 style="text-align:center;">It is very easy to defeat someone,
-          But it is very hard to win Someone.</h1></div>
+        <h1 style="text-align:center; color:#6b6b6b;font-family:'Noto Sans', sans-serif;
+  font-weight: 250;">It is very easy to defeat someone,
+          But it is very hard to win Someone.</h1>
     </fieldset>
   </div>
 
 <!-- Message from Director and Deans-->
-  <div class="about">
-    <div class="heading">
-      About Us
-    </div>
-    <div class="Mcontent">
+<!--<?php include 'file';?>-->
+<span class="br"></span>
+<?php include './messageDesk.php'; ?>
 
-    </div>
-  </div>
+
 
 <div class="article">
     <fieldset>

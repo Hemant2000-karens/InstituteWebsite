@@ -274,7 +274,7 @@ body .container{
 }
 .thought_for_Day
 {
-  background-color: #e3e3e3;
+  background-color: #f2f2f2;
   border-radius: 6px;
   padding: 10px;
   height: auto;
@@ -284,6 +284,7 @@ body .container{
   font-family: 'Klee One', cursive;
   font-size: 20px;
 }
+
 .br {
       display: block;
       margin-bottom: 0.5em;
@@ -553,13 +554,6 @@ ul.breadcrumb li a:hover {
   display: none;
 }
 
-
-
-
-
-
-
-
 /* Dean Page Layout Table*/
 .deanHeader
 {
@@ -602,3 +596,26 @@ ul.breadcrumb li a:hover {
    margin:0 auto;
 }
 
+
+/* MessageDesk.php */
+
+.messageDesk
+{
+  padding: 10px 15px;
+  background-color: #f2f2f2;
+}
+   /* display: block;
+    width: 120px;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #828282;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 40px;
+    border: 1px solid #b9b9b9;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+    */
