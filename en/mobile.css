@@ -315,7 +315,10 @@ body,html{
 
 @media screen and (max-width:460px)
 {
-
+  .footer .footer-heading
+  {
+    padding: 20px 70px !important;
+  }
   .footer-subheader
   {
     width: 220px;
