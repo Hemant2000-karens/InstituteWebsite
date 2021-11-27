@@ -176,40 +176,21 @@ body,html{
 
 
 /* Dean Page Setting */
-@media screen and (max-width: 460px) {
-  .tableContainer{
-    margin-left: auto;
-    margin-right: auto;
-    width: 87.5%;
-  }
-  .columnDean h5
-{
-  font-size: smaller;
-}
-.columnDean h4
-{
-  font-size: smaller;
-}
-  .rowDean
-  {
-    display: inline;
-    padding: 6px 10px;
-  }
-  .sticky
-  {
-    width: 80%;
-  }
-}
-
 
 /* tabletView Dean  ipad  and ipad pro 12" */
 @media screen and (max-width:1200px)
 {
-  .tableContainer
+  .bodyContent
   {
     margin-left: auto;
     margin-right: auto;
     width: 892px;
+  }
+  .tableContainer
+  {
+    margin-right: auto;
+    margin-left: auto;
+    width:480px;
   }
   .footer
   {
@@ -236,13 +217,20 @@ body,html{
     font-size: small;
 }
 }
+
 @media screen and (max-width:960px)
 {
-  .tableContainer
+  .bodyContent
   {
     margin-left: auto;
     margin-right: auto;
     width: 892px;
+  }
+.tableContainer
+  {
+    margin-right: auto;
+    margin-left: auto;
+    width:280px;
   }
   .footer
   {
@@ -276,11 +264,41 @@ body,html{
   }
 }
 
+@media screen and (max-width: 460px) {
+  .bodyContent{
+    margin-left: auto;
+    margin-right: auto;
+    width: 87.5%;
+  }
+  .tableContainer
+  {
+    margin-right: auto;
+    margin-left: auto;
+    width:300px;
+  }
+  .columnDean h5
+{
+  font-size: smaller;
+}
+.columnDean h4
+{
+  font-size: smaller;
+}
+  .rowDean
+  {
+    display: inline;
+    padding: 6px 10px;
+  }
+  .sticky
+  {
+    width: 100%;
+  }
+}
+
 /* footer Setting - rishabh will do */
 
 @media screen and (max-width:460px)
 {
-
   .footer
   {
     height: auto;

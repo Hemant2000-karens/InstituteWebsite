@@ -532,7 +532,7 @@ ul.breadcrumb li a:hover {
   backdrop-filter: blur(8px);;
   position: fixed;
   top: 0;
-  width:96%;
+  width:100%;
 }
 .sticky + .rowDean {
   padding-top: 30px;
