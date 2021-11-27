@@ -297,18 +297,6 @@ body .container{
   background-color: #3d442a;
 }
 
-@media screen and (max-width: 600px)
-{
-    .column {
-    width: 90%;
-    height: auto;
-  }
-  .row
-  {
-    display: inline-block;
-  }
-}
-
 .footer{
 
   font-family: 'Noto Sans';
@@ -399,6 +387,10 @@ body .container{
   font-size: small;
 }
 
+.collaps,.content,.footerSecondary
+{
+  display: none;
+}
 
 
 /* Footer Ending */

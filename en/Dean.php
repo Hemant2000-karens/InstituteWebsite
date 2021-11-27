@@ -159,12 +159,12 @@ function openTab(evt, pageName) {
 
 window.onscroll = function()
 {
-	myFunction()
+	stickyFunction()
 };
 var navbar = document.getElementById("NameofDean");
 var sticky = navbar.offsetTop;
 
-function myFunction() {
+function stickyFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {

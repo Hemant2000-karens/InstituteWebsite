@@ -22,6 +22,63 @@
 
     </div>
 
+
+    <button type="button" class="collaps">Admission</button>
+      <div class="content">
+        <a href="#">Admission</a><br>
+        <a href="#">Undergraduate</a><br>
+        <a href="#">Postgraduate</a><br>
+        <a href="#">Fees Structure</a><br>
+        <a href="#">Seat Matrix</a><br>
+        <a href="#">Academic Guidelines</a><br>
+        <a href="#">Curriculum</a><br>
+</div>
+
+<button  type="button" onclick="function()" class="collaps">Important Links</button>
+<div class="content">
+        <a href="#">Academic Calendar</a><br>
+        <a href="#">Useful Information</a><br>
+        <a href="#">Refund Rule</a><br>
+        <a href="#">Convocation</a><br>
+        <a href="#">Important Forms</a><br>
+        <a href="#">Internal Circulars</a><br>
+        <a href="#">External Circulars</a><br>
+</div>
+
+<button type="button" class="collaps">OTHERS</button>
+<div class="content">
+        <a href="#">SC/ST and Minority Cell</a><br>
+        <a href="#">Women Cell</a><br>
+        <a href="#">Grievance Redressal Cell</a><br>
+        <a href="#">Anti Ragging Squad</a><br>
+        <a href="#">Seat Matrix</a><br>
+        <a href="#">Tenders</a><br>
+        <a href="#">Jobs</a><br>
+</div>
+
+
+<div class="footerSecondary">
+  <button class="officals">For Officials
+  </button>
+    <div class="office">
+      <a href="#">E-TENDER</a> |
+      <a href="#">PLACEMENT</a>|
+      <a href="#">RAJBHASA</a>|
+      <a href="#">ORDINANCES</a>|
+      <a href="#">QIP PROGRAMS</a>|
+      <a href="#">TENDERS</a>|
+      <a href="#">JOBS</a>|
+      <a href="#">INTRAWEB</a>|
+      <a href="#">IIITDMJ E-MAIL</a>|
+      <a href="#">IIIT COUNCIL</a>
+    </div>
+</div>
+
+
+
+
+<!-- Desktop, and larger screen -->
+
     <div class="footer-subgroup">
       <h4>ADMISSIONS</h4>
       <div class = "footer-subgroup-links">
@@ -77,3 +134,45 @@
     </div>
   </div>
 </div>
+
+
+
+
+
+<script>
+  var coll = document.getElementsByClassName("collaps");
+
+var i;
+
+for (i = 0; i < coll.length; i++) 
+{
+  coll[i].addEventListener("click",function() 
+  {
+    this.classList.toggle("active2");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+var secn = document.getElementsByClassName("officals");
+
+var i;
+
+for (i = 0; i < coll.length; i++) 
+{
+  secn[i].addEventListener("click",function() 
+  {
+    this.classList.toggle("active3");
+    var office = this.nextElementSibling;
+    if (office.style.display == "block") {
+      office.style.display = "none";
+    } else {
+      office.style.display = "block";
+    }
+  });
+}
+</script>

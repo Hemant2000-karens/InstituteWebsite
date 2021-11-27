@@ -230,7 +230,12 @@ body,html{
   {
     margin-right: auto;
     margin-left: auto;
-    width:280px;
+    width:730px;
+    justify-content: center;
+  }
+  .rowDean
+  {
+    justify-content: center;
   }
   .footer
   {
@@ -295,34 +300,135 @@ body,html{
   }
 }
 
+@media screen and (max-width: 600px)
+{
+    .column {
+    width: 90%;
+    height: auto;
+  }
+  .row
+  {
+    display: inline-block;
+  }
+}
 /* footer Setting - rishabh will do */
 
 @media screen and (max-width:460px)
 {
-  .footer
+  .footer-subheader
   {
-    height: auto;
+    width: 220px;
   }
-  .footer .footer-main
+  .footer-heading .header-block h3
   {
-    height: 1000px;
+    padding: 0px 70px;
+  }
+  .footer-heading .socials
+  {
+    width: 180px;
+    margin-left: 40%;
+  }
+  .footer .footer-main {
+    height: auto;
     display: block;
   }
-  .footer-secondary
+  
+}
+
+@media screen and (max-width: 770px)
+{
+  .footer-subgroup,.footer-secondary
   {
-    display: block;
-    padding: 10px;
-    width: -webkit-fill-available;
+    display: none;
+  }
+  .collaps {
+  display: block;
+  background-color: inherit;
+  color: white;
+  cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: 0.5px solid #1a1e2c;
+  border-left-style: none;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  }
+  .collaps:after {
+      content: '+';
+      float: right;
+      font-size: 15px;
+      font-weight: normal;
+    }
+    .active2:after {
+    content: "-";
+  }
+    .content {
+    padding: 10px 18px;
     height: auto;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #000a22;
   }
-  .footer-secondary-links 
+  .officals
   {
-    padding: 6px 5px;
-    display: inline-block;
+    background-color: inherit;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  padding: 15px;
   }
-  .footer-secondary-links a 
+  .office
   {
-      padding: 0 15px;
-      font-size: small;
+    padding: 10px 18px;
+    height: auto;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #1a1e2c;
+  }
+  .officals:after
+  {
+    content: '+';
+    float: right;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  .active3:after
+  {
+    content: "-";
+  }
+  .content a
+  {
+    padding: 15px 10px ;
+    text-decoration: none;
+    color: #e4eff8;
+    font-size: small;
+  }
+  .footerSecondary
+  {
+    display:block;
+    padding: 0px;
+    height: 30px;
+    padding-bottom: 5px;
+    background-color: #1a1e2c;
+  }
+  .office a{
+    color: #7a839a;
+    text-decoration: none;
+    display: inline-grid;
+    padding: 5px 12px;
+    font-size: 12px;
   }
 }
