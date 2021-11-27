@@ -315,6 +315,7 @@ body,html{
 
 @media screen and (max-width:460px)
 {
+
   .footer-subheader
   {
     width: 220px;
@@ -337,6 +338,18 @@ body,html{
 
 @media screen and (max-width: 770px)
 {
+  .footer-subheader
+  {
+    width: 220px;
+  }
+  .footer-heading .header-block h3
+  {
+    padding: 0px 70px;
+  }
+  .footer .footer-heading
+  {
+    padding: 20px 255px;
+  }
   .footer-subgroup,.footer-secondary
   {
     display: none;
