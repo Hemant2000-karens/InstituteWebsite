@@ -1,8 +1,8 @@
-@media screen and (max-width: 960px) {
-  body,html{
+body,html{
     background-color:#fdfdfd;
     padding: 0px;
     }
+@media screen and (max-width: 960px) {
   .header h1
   {
     position: relative;
@@ -178,9 +178,18 @@
 /* Dean Page Setting */
 @media screen and (max-width: 460px) {
   .tableContainer{
-    display: block;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 87.5%;
   }
+  .columnDean h5
+{
+  font-size: smaller;
+}
+.columnDean h4
+{
+  font-size: smaller;
+}
   .rowDean
   {
     display: inline;
@@ -198,9 +207,9 @@
 {
   .tableContainer
   {
-    width: -webkit-fill-available;
-    padding: 20px 30px 20px 20px;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 892px;
   }
   .footer
   {
@@ -231,9 +240,9 @@
 {
   .tableContainer
   {
-    width: -webkit-fill-available;
-    padding: 20px 30px 20px 20px;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 892px;
   }
   .footer
   {
@@ -271,6 +280,7 @@
 
 @media screen and (max-width:460px)
 {
+
   .footer
   {
     height: auto;
