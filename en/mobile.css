@@ -311,10 +311,33 @@ body,html{
     display: inline-block;
   }
 }
-/* footer Setting - rishabh will do */
 
 @media screen and (max-width:460px)
 {
+  .mesageContent
+  {
+    display: block;
+  }
+  .personImage img
+  {
+    height: 35%;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Footer for iphone and mobile */
   .footer .footer-heading
   {
     padding: 20px 70px !important;
