@@ -318,6 +318,8 @@ body,html{
   .footer .footer-heading
   {
     padding: 20px 70px !important;
+    margin-right: auto;
+    margin-left: auto;
   }
   .footer-subheader
   {
@@ -335,8 +337,8 @@ body,html{
     height: auto;
     display: block;
   }
-  
 }
+
 
 @media screen and (max-width: 770px)
 {
@@ -350,6 +352,8 @@ body,html{
   }
   .footer .footer-heading
   {
+    margin-right: auto;
+    margin-left: auto;
     padding: 20px 255px;
   }
   .footer-subgroup,.footer-secondary
