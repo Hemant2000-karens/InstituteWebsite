@@ -9,12 +9,12 @@ body{
     margin: 0;
 }
 
-body .container{
+.container{
   margin: 8px 18px 8px 18px !important;
 }
 
 .topheader{
-  background: lightgrey;
+  background: #f1f1f1;
   height: 50px;
   font-family: 'Noto Sans', sans-serif;
   font-size: small;
@@ -27,14 +27,15 @@ body .container{
 
 .topheader .group{
   float: left;
-  border-right: 1px solid;
   margin: 5.5px;
   padding-right: 10px;
 }
 
 .topheader .dept{
+  border-left: 1px solid;
   float: left;
   margin: 5.5px;
+  padding-left: 6px;
 }
 
 .topheader .language{
@@ -45,6 +46,7 @@ body .container{
 .topheader .language a{
   color: #000000;
   text-decoration: none;
+  padding: 0px 16px;
 }
 
 .header

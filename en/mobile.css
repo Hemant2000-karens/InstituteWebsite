@@ -298,6 +298,24 @@ body,html{
   {
     width: 100%;
   }
+
+   .topheader .main-group
+  {
+    display: contents;
+  }
+  .topheader
+  {
+    display: block;
+  }
+  .topheader .group
+  {
+    font-size: 8px;
+  }
+  .topheader .dept
+  {
+    width: 50%;
+    font-size: 8px;
+  }
 }
 
 @media screen and (max-width: 600px)
@@ -310,13 +328,17 @@ body,html{
   {
     display: inline-block;
   }
+  .mesageContent
+  {
+    display: inline-block;
+  }
 }
 
 @media screen and (max-width:460px)
 {
   .mesageContent
   {
-    display: block;
+    display: inline-block;
   }
   .personImage img
   {
@@ -365,6 +387,11 @@ body,html{
 
 @media screen and (max-width: 770px)
 {
+    .topheader .main-group {
+    margin-left: 45px;
+    font-size: 12px;
+    display: inline-flex;
+}
   .footer-subheader
   {
     width: 220px;
