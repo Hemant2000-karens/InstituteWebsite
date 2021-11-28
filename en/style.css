@@ -494,8 +494,8 @@ fading
 }
 .deanHeader h2
 {
-  font-size: 15px;
-  font-family: ;
+  font-size: 20px;
+  font-family:'varela round',sans-serif;
 }
 .sticky {
   background-color: #f9f9f99e;
@@ -544,6 +544,38 @@ fading
   margin-left: auto;
   margin-right: auto;
   width: 960px;
+}
+.externalLink
+{
+  width: 100%;
+  height: auto;
+  padding: 5px 8px;
+  overflow: hidden;
+}
+.externalheading
+{
+  font-family:'Noto sans',sans-serif;
+  font-size: 25px;
+}
+.externalLink p
+{
+  font-family: 'rubik',sans-serif;
+}
+.fLink
+{
+  width: 150px;
+  font-family: 'Varela Round',sans-serif;
+}
+.fLink a
+{
+  font-weight: 200;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+.fLink a:hover
+{
+  background-color: #fff70090;
+  color:#004acf ;
 }
 
 
