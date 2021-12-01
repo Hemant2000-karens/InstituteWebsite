@@ -270,6 +270,15 @@ body,html{
 }
 
 @media screen and (max-width: 460px) {
+
+  .topnav a
+  {
+    font-size: 15px;
+  }
+  .dropdown .dropbtn
+  {
+    font-size: 15px;
+  }
   .bodyContent{
     margin-left: auto;
     margin-right: auto;

@@ -341,6 +341,7 @@ body{
 }
 
 .footer-heading .footer-subheader a{
+  font-size: 13px;
   text-decoration: none;
   color: #7a839a;
   line-height: 1.5rem;
@@ -356,6 +357,7 @@ body{
 }
 
 .footer-main .footer-subgroup{
+  font-family: 'Varela Round';
   width:18%;
   margin: 0 auto;
   float: left;
