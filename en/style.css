@@ -375,6 +375,12 @@ body{
   font-size: small;
 }
 
+.footer-main .footer-subgroup a:hover
+{
+  color: white;
+  font-size: 19px;
+}
+
 .footer-secondary{
   height: 40px;
   background: #1a1e2c;
