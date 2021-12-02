@@ -396,11 +396,25 @@ body,html{
 
 @media screen and (max-width: 770px)
 {
-    .topheader .main-group {
-    margin-left: 45px;
-    font-size: 12px;
-    display: inline-flex;
-}
+  .topheader{
+    font-size: xx-small;
+  }
+
+
+  .topheader .language a{
+    padding:10px;
+    font-size: xx-small;
+  }
+  
+  .topheader .main-group {
+    padding-top:4px;
+    padding-left:1px;
+    margin-left: 0;
+  }
+
+  .topheader .main-group .dept{
+    margin-right: 16px;
+  }
   .footer-subheader
   {
     width: 220px;
