@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+       <link rel="icon" type="jpg/png" href="./logo_college.png" sizes="16x16">
         <title>IIITDMJ | Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
@@ -34,8 +35,7 @@
     <fieldset>
       <legend>Thought for the Day</legend>
         <h1 style="text-align:center; color:#6b6b6b;font-family:'Noto Sans', sans-serif;
-  font-weight: 250;">It is very easy to defeat someone,
-          But it is very hard to win Someone.</h1>
+  font-weight: 250;">When love is unconditional, there's no attachment, expectation, hidden agenda, or bookkeeping of who gives what to whom. Our love is unconditional for whatever we are and whatever they are. It is given without requirements.</h1>
     </fieldset>
   </div>
 

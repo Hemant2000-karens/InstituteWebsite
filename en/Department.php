@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	 <link rel="icon" type="jpg/png" href="./logo_college.png" sizes="16x16">
 	<meta charset="utf-8">
 	<title>Department | IIITDMJ</title>
 		<meta http-equiv="refresh" content="3000">

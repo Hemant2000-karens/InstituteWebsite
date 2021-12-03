@@ -1,6 +1,6 @@
 <div class="messageDesk">
 	<div class="deskImage">
-		<img src="/en/images/director_msg.jpg" alt="desk"/>
+		<img src="./Images/director_msg.jpeg" alt="desk"/>
 	</div>
 	<div class="deskDetails">
 		<div class="deskControls">
