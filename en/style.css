@@ -591,70 +591,43 @@ fading
 
 /* MessageDesk.php */
 
-.messageDesk
-{
-  padding: 10px 15px;
-  background-color: #f2f2f2;
+.messageDesk{
+  background: #f2f2f2;
+  padding:50px;
+  height: 320px;
+  font-family: 'Noto Sans';
 }
-.messageTitle
-{
-  display: inline-flex;
+.deskImage img{
+  width: 600px;
 }
-.mesageContent
-{
-  width: 100%;
-  display: -webkit-inline-box;
-}
-.personImage
-{
 
-  padding: 20px 10px;
+.deskImage {
+  float:left;
 }
-.personImage img
-{
-  height: 240px;
-  width: 420px;
+
+.deskTitle{
+  float:left;
+  padding-left: 100px;
+  font-size:xx-large;
+  font-weight: 500;
+  letter-spacing: 0.11rem;
+  color: #1a1e2c;
 }
-.chButton
-{
-  padding: 15px 20px;
+
+.deskTitle strong{
+  font-weight: 900;
 }
-.chButton a
-{
-  padding: 10px;
-  border-radius: 2px;
-  border: 1px solid #ccc;
-  text-decoration: none;
+
+.deskNav{
+  float:right;
+  padding-right: 40px;
+}
+
+.deskNav button{
   text-align: center;
-  color: #ccc;
+  padding:14px 18px 12px 18px;
+  font-size:20px;
+  font-weight: bold;
+  border: rgba(26,30,44, 0.2) 1px solid;
+  color: rgba(26,30,44, 0.6);
 }
-.mesage
-{
-  font-family:'noto sans',sans-serif ;
-  font-size: 40px;
-  font-weight: 400;
-  color: #545454;
-  padding-right: 10px;
-}
-.desk
-{
-  font-family:'Bitter', serif;
-  font-size: 50px ;
-  font-weight:400 ;
-  color: #00034f;  
-}
-   /* display: block;
-    width: 120px;
-    margin: 0 auto;
-    font-size: 15px;
-    color: #828282;
-    text-decoration: none;
-    position: relative;
-    text-align: center;
-    box-sizing: border-box;
-    overflow: hidden;
-    line-height: 40px;
-    border: 1px solid #b9b9b9;
-    border-radius: 10px;
-    transition: .2s ease-in-out;
-    */

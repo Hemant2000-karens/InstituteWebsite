@@ -43,9 +43,6 @@
 <!--<?php include 'file';?>-->
 <span class="br"></span>
 
-<?php include './messageDesk.php'; ?>
-
-
 
 <div class="article">
     <fieldset>
@@ -63,7 +60,10 @@
       <div><h1>Hello</h1></div>
     </fieldset>
 </div>
+
+<?php include './messageDesk.php'; ?>
 </div>
+
 
 
  <script  type="text/javascript">
