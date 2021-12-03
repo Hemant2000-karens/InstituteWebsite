@@ -126,10 +126,12 @@ body,html{
 /* NavBar */
 
 @media screen and (max-width: 960px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+  .topnav a:not(:first-child), .dropdown .dropbtn 
+  {
     display: none;
   }
-  .topnav a.icon {
+  .topnav a.icon 
+  {
     float: right;
     display: block;
   }
