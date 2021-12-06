@@ -238,7 +238,7 @@ body{
 }
 .thought_for_Day
 {
-  background-color: #f2f2f2;
+  background: url("./Images/messageBackground.png");
   border-radius: 6px;
   padding: 10px;
   height: auto;
