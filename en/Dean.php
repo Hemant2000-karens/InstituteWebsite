@@ -112,7 +112,7 @@
 					<h4>Dean of RSPC</h4>
   			</div>
   			<div class="columnDean">
-    			<img src="./Images/DeanRSPC/Priti.jpg" alt="Priti">
+    			<img src="./Images/DeanRSPC/Priti.png" alt="Priti">
 					<h5>Ms. Priti Patel</h5>
 					<h4>Assistant Registrar</h4>
   			</div>
