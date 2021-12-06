@@ -5,6 +5,7 @@
 	<div class="deskDetails">
 		<div class="deskControls">
 			<div class="deskTitle">
+				<img src="./Images/Messages1.png">
 				Message from <strong>Desk</strong>
 			</div>
 			<div class="deskNav">
