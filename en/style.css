@@ -594,10 +594,11 @@ fading
 .messageDesk{
   background: #f2f2f2;
   padding:50px;
-  height: 320px;
+  height: 420px;
   font-family: 'Noto Sans';
 }
 .deskImage img{
+  padding-top: 50px;
   width: 600px;
 }
 
@@ -623,14 +624,38 @@ fading
   padding-right: 40px;
 }
 
-.deskNav button{
+.deskNav a{
+  text-decoration: none;
   text-align: center;
   padding:14px 18px 12px 18px;
   font-size:20px;
   font-weight: bold;
   border: rgba(26,30,44, 0.2) 1px solid;
+  border-radius: 8px;
   color: rgba(26,30,44, 0.6);
 }
 
+.deskControls{
+  width: auto;
+  height: 60px;
+}
 
+.deskTabs a:first-child{
+padding-left:380px;
+}
+
+.deskTabs a{
+  text-decoration: none;
+  text-align: center;
+  padding:8px;
+  font-size:22px;
+  color: rgba(26,30,44, 0.6);
+}
+
+.deskSpeech{
+  margin-top:50px;
+  text-align: justify;
+  padding: 0 80px 0 720px;
+  line-height: 1.8rem;
+}
 /*  */
