@@ -44,22 +44,11 @@
 <span class="br"></span>
 
 
-<div class="article">
-    <fieldset>
-      <legend>Notice</legend>
-      <div><h1>Hello</h1></div>
-    </fieldset>
+<?php include './notice.php';?>
 
-    <fieldset>
-      <legend>Notice</legend>
-      <div><h1>Hello</h1></div>
-    </fieldset>
 
-    <fieldset>
-      <legend>Notice</legend>
-      <div><h1>Hello</h1></div>
-    </fieldset>
-</div>
+<span class="br"></span>
+
 
 <?php include './messageDesk.php'; ?>
 </div>

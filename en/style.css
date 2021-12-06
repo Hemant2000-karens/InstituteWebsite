@@ -592,7 +592,7 @@ fading
 /* MessageDesk.php */
 
 .messageDesk{
-  background: #f2f2f2;
+  background:url("./Images/messageBackground.png");
   padding:50px;
   height: 420px;
   font-family: 'Noto Sans';
@@ -658,4 +658,22 @@ padding-left:380px;
   padding: 0 80px 0 720px;
   line-height: 1.8rem;
 }
-/*  */
+/* Notice Page */
+
+.noticebody
+{
+  padding: 20px 0;
+  width: 85%;
+  margin-left: 100px;
+  background: url("./Images/noticebackground.jpg");
+}
+
+
+
+
+
+
+
+
+
+
