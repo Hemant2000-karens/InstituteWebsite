@@ -4,8 +4,6 @@
 		<span style="padding: 0 18px;"><a href="#">View All</a></span>
 	</div>
 
-
-	
 	<div class="noticeSlider">
 	<img class="prev" src="./Images/left_arr.png"/>
 	<div class="noticeContent">Hello I am here</div>
@@ -18,8 +16,7 @@
 	<div class="noticeContent">You are not 4</div>
 	<div class="noticeContent">Hello I am here 5</div>
 	<div class="noticeContent">You are not 5</div>
-	
-	
+
 	<img src="./Images/right_Arr.png" class="forw"/>
 	</div>
 </div>
