@@ -684,6 +684,7 @@ padding-left:380px;
 {
   padding: 22px 29px;
   display: inline-grid;
+  float:left;
 }
 .noticeTitle a
 {
@@ -692,20 +693,34 @@ padding-left:380px;
 }
 .noticeContent
 {
-  width: 700px;
-  height: 100%;
-  position: relative;
-  float: right;
+  padding:0 20px;
   display: inline-flex;
   align-content: center;
   justify-content: center;
   align-items: center;
 }
+
+.noticeSlider{
+  float: right;
+}
+
 .prev,.forw
 {
-  padding: 50px;
+  padding-top:25px;
   position: relative;
   cursor: pointer;
+}
+.prev{
+  float:left;
+}
+
+}
+.forw{
+  float:right;
+}
+
+.noticeContent{
+  float: left;
 }
 
 
