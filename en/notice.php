@@ -5,7 +5,9 @@
 	</div>
 
 	<div class="noticeSlider">
-	<img class="prev" src="./Images/left_arr.png"/>
+	<img class="prev" src="./Images/left_arr.png" onclick="showSlides()" />
+
+
 	<div class="noticeContent">Hello I am here</div>
 	<div class="noticeContent">You are not</div>
 	<div class="noticeContent">Hello I am here 2</div>
@@ -17,9 +19,12 @@
 	<div class="noticeContent">Hello I am here 5</div>
 	<div class="noticeContent">You are not 5</div>
 
-	<img src="./Images/right_Arr.png" class="forw"/>
+	<img src="./Images/right_Arr.png" class="forw" onclick="showSlides()" />
 	</div>
 </div>
+
+
+
 
 <script>
 var slideIndex = 0;
