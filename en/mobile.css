@@ -542,12 +542,6 @@ body,html{
     height: 220px;
   }
 
-  /* Message Setting */
-
-  .deskImage img{
-    width: 400px;
-  }
-
   .noticeContent{
     width: 240px;
   }
@@ -565,6 +559,14 @@ body,html{
     text-align: center;
     float: none;
   }
+  
+  /* Message Setting */
+
+  .deskImage img{
+    width: 400px;
+  }
+
+
 }
 
 
