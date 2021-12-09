@@ -10,7 +10,7 @@
 
 	<div class="noticeContent">
 	<p>
-		<img src="/en/icons/clock.png" alt= "date"/>
+		<img src="./icons/clock.png" alt= "date"/>
 		<span class="date">8
 			<sup style="text-transform: lowercase">th</sup>
 			May,2021
@@ -22,7 +22,7 @@
 	</div>
 	<div class="noticeContent">
 	<p>
-		<img src="/en/icons/clock.png" alt= "date"/>
+		<img src="./icons/clock.png" alt= "date"/>
 		<span class="date">9
 			<sup style="text-transform: lowercase">th</sup>
 			May,2021
@@ -34,7 +34,7 @@
 	</div>
 	<div class="noticeContent">
 	<p>
-		<img src="/en/icons/clock.png" alt= "date"/>
+		<img src="./icons/clock.png" alt= "date"/>
 		<span class="date">10
 			<sup style="text-transform: lowercase">th</sup>
 			May,2021
@@ -46,7 +46,7 @@
 	</div>
 	<div class="noticeContent">
 	<p>
-		<img src="/en/icons/clock.png" alt= "date"/>
+		<img src="./icons/clock.png" alt= "date"/>
 		<span class="date">11
 			<sup style="text-transform: lowercase">th</sup>
 			May,2021
@@ -58,7 +58,7 @@
 	</div>
 	<div class="noticeContent">
 	<p>
-		<img src="/en/icons/clock.png" alt= "date"/>
+		<img src="./icons/clock.png" alt= "date"/>
 		<span class="date">12
 			<sup style="text-transform: lowercase">th</sup>
 			May,2021
@@ -70,7 +70,7 @@
 	</div>
 	<div class="noticeContent">
 	<p>
-		<img src="/en/icons/clock.png" alt= "date"/>
+		<img src="./icons/clock.png" alt= "date"/>
 		<span class="date">13
 			<sup style="text-transform: lowercase">th</sup>
 			May,2021
@@ -82,7 +82,7 @@
 	</div>
 	<div class="noticeContent">
 	<p>
-		<img src="/en/icons/clock.png" alt= "date"/>
+		<img src="./icons/clock.png" alt= "date"/>
 		<span class="date">14
 			<sup style="text-transform: lowercase">th</sup>
 			May,2021

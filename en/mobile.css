@@ -567,6 +567,16 @@ body,html{
   }
 
 
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -576,10 +586,35 @@ body,html{
 }
 @media screen and (max-width: 960px)
 {
+  /* Notice Page Setting */
+  .noticebody
+  {
+    margin-left: 65px;
+  }
+  .noticeTitle
+  {
+    margin-left: 20px;
+  }
+
+
+/* Meesage Page Setting */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 @media screen and (max-width: 550px)
 {
 
 }
-
