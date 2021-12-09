@@ -5,7 +5,7 @@
 	</div>
 
 	<div class="noticeSlider">
-	<img class="prev" src="./Images/left_arr.png" onclick="showSlides()" />
+	<img class="prev" src="./Images/left_arr.png" />
 
 
 	<div class="noticeContent">
@@ -94,7 +94,7 @@
 	</div>
 	
 
-	<img src="./Images/right_Arr.png" class="forw" onclick="showSlides()" />
+	<img src="./Images/right_arr.png" class="forw"/>
 	</div>
 </div>
 
@@ -118,7 +118,7 @@ function showSlides() {
   if(window.screen.width > 1024)
   slides[slideIndex].style.display = "inline-flex";  
   
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
 
 }
 </script>
