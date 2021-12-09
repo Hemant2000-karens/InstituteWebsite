@@ -8,16 +8,91 @@
 	<img class="prev" src="./Images/left_arr.png" onclick="showSlides()" />
 
 
-	<div class="noticeContent">Hello I am here</div>
-	<div class="noticeContent">You are not</div>
-	<div class="noticeContent">Hello I am here 2</div>
-	<div class="noticeContent">You are not 2</div>
-	<div class="noticeContent">Hello I am here 3</div>
-	<div class="noticeContent">You are not 3</div>
-	<div class="noticeContent">Hello I am here 4</div>
-	<div class="noticeContent">You are not 4</div>
-	<div class="noticeContent">Hello I am here 5</div>
-	<div class="noticeContent">You are not 5</div>
+	<div class="noticeContent">
+	<p>
+		<img src="/en/icons/clock.png" alt= "date"/>
+		<span class="date">8
+			<sup style="text-transform: lowercase">th</sup>
+			May,2021
+		</span>
+		<span class="message">
+		Hello I am here 1
+		</span>
+	</p>
+	</div>
+	<div class="noticeContent">
+	<p>
+		<img src="/en/icons/clock.png" alt= "date"/>
+		<span class="date">9
+			<sup style="text-transform: lowercase">th</sup>
+			May,2021
+		</span>
+		<span class="message">
+		Hello I am here 2
+		</span>
+	</p>
+	</div>
+	<div class="noticeContent">
+	<p>
+		<img src="/en/icons/clock.png" alt= "date"/>
+		<span class="date">10
+			<sup style="text-transform: lowercase">th</sup>
+			May,2021
+		</span>
+		<span class="message">
+		Hello I am here 3
+		</span>
+	</p>
+	</div>
+	<div class="noticeContent">
+	<p>
+		<img src="/en/icons/clock.png" alt= "date"/>
+		<span class="date">11
+			<sup style="text-transform: lowercase">th</sup>
+			May,2021
+		</span>
+		<span class="message">
+		Hello I am here 4
+		</span>
+	</p>
+	</div>
+	<div class="noticeContent">
+	<p>
+		<img src="/en/icons/clock.png" alt= "date"/>
+		<span class="date">12
+			<sup style="text-transform: lowercase">th</sup>
+			May,2021
+		</span>
+		<span class="message">
+		Hello I am here 5
+		</span>
+	</p>
+	</div>
+	<div class="noticeContent">
+	<p>
+		<img src="/en/icons/clock.png" alt= "date"/>
+		<span class="date">13
+			<sup style="text-transform: lowercase">th</sup>
+			May,2021
+		</span>
+		<span class="message">
+		Hello I am here 6
+		</span>
+	</p>
+	</div>
+	<div class="noticeContent">
+	<p>
+		<img src="/en/icons/clock.png" alt= "date"/>
+		<span class="date">14
+			<sup style="text-transform: lowercase">th</sup>
+			May,2021
+		</span>
+		<span class="message">
+		Hello I am here 7
+		</span>
+	</p>
+	</div>
+	
 
 	<img src="./Images/right_Arr.png" class="forw" onclick="showSlides()" />
 	</div>
@@ -38,8 +113,9 @@ function showSlides() {
   }
 
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1} 
+  if (slideIndex >= slides.length) {slideIndex = 1} 
   slides[slideIndex-1].style.display = "inline-flex";
+  if(window.screen.width > 1024)
   slides[slideIndex].style.display = "inline-flex";  
   
   setTimeout(showSlides, 2000); // Change image every 2 seconds
