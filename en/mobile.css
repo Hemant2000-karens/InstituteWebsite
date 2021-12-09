@@ -539,14 +539,32 @@ body,html{
     margin: 0;
     width: 100%;
     display: block;
+    height: 220px;
   }
 
   /* Message Setting */
 
+  .deskImage img{
+    width: 400px;
+  }
 
+  .noticeContent{
+    width: 240px;
+  }
 
+  .noticeSlider{
+    width: 100%;
+    margin-left: 0;
+    margin: 40px 60px;
+    float: none;
+  }
 
-
+  .noticeTitle{
+    padding: 22px 0;
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
 }
 
 
