@@ -533,6 +533,13 @@ body,html{
 /* Notice and Message for multiple resolution (mobile and tablet iPad)*/
 @media screen and (max-width: 460px)
 {
+  /* Thought of day */
+.thought_for_Day fieldset legend h1
+{
+  font-size: initial;
+}
+
+
   /* Notice Setting */
   .noticebody
   {
@@ -548,7 +555,7 @@ body,html{
 
   .noticeSlider{
     width: 100%;
-    margin: 40px 60px;
+    margin: 40px 80px;
     float: none;
   }
 
@@ -563,23 +570,46 @@ body,html{
   /* Message Setting */
 
   .deskImage img{
-    width: 400px;
+    width: 100%;
   }
-
-
-
-
-
-
-
-
-
-
-
-
+  .messageDesk
+  {
+    display: none;
+  }
+  .messageDesk1
+  {
+  display: block;
+  background:url("./Images/messageBackground.png");
+  background-repeat: no-repeat;
+  background-size:  100% 100%;
+  padding:0;
+  height: 420px;
+  font-family: 'Noto Sans';
+  }
+  .deskTitle
+  {
+    padding-left: 50px;
+    padding-top: 20px; 
+  }
+  .deskTabs a:first-child
+  {
+    padding-left: 10px;
+  }
+  .deskTabs a
+  {
+    font-size: 20px;
+  }
 }
 
-@media screen and (max-width: 560px)
+@media screen and (max-width: 425px)
+{
+  .deskTabs a
+  {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 660px)
 {
   .noticebody
   {

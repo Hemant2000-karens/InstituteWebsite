@@ -601,6 +601,10 @@ fading
   height: 420px;
   font-family: 'Noto Sans';
 }
+.messageDesk1
+{
+  display: none;
+}
 .deskImage img{
   padding-top: 50px;
   width: 600px;
@@ -749,6 +753,6 @@ padding-left:380px;
   float:none;
   display: block;
 }
-
+.
 
 

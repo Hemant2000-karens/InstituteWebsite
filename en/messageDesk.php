@@ -1,3 +1,18 @@
+<div class="messageDesk1">
+	<div class="deskControls">
+		<div class="deskTitle">
+			Message from <strong>Desk</strong>
+			<div class="deskTabs">
+				<a href="#">Director</a><strong>|</strong><a href="#">Assistant Director</a>
+			</div>
+		</div>
+		<div class="deskImage">
+		<img src="./Images/director_msg.jpeg" alt="desk"/>
+	</div>
+	</div>
+</div>
+
+
 <div class="messageDesk">
 	<div class="deskImage">
 		<img src="./Images/director_msg.jpeg" alt="desk"/>
