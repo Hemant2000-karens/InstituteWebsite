@@ -152,8 +152,8 @@
 <?php include './footer.php'?>
 
 
-<script>
-function openTab(evt, pageName) {
+<script src="script.js">
+	function openTab(evt, pageName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("bodyContent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -169,7 +169,7 @@ function openTab(evt, pageName) {
 
 window.onscroll = function()
 {
-	stickyFunction()
+  stickyFunction()
 };
 var navbar = document.getElementById("NameofDean");
 var sticky = navbar.offsetTop;

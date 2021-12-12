@@ -112,10 +112,8 @@
 
 
 
-
-<script>
-
-var slideIndex = 0;
+<script type="text/javascript">
+	var slideIndex = 0;
 showSlides();
 
 function showSlides() {
@@ -129,7 +127,6 @@ function showSlides() {
   slides[slideIndex-1].style.display = "inline-flex";
   if(window.screen.width > 1024)
   slides[slideIndex].style.display = "inline-flex";  
-  
   setTimeout(showSlides, 3000); // Change image every 3 seconds
 
 }

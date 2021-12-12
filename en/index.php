@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
        <link rel="icon" type="jpg/png" href="./logo_college.png" sizes="16x16">
         <title>IIITDMJ | Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
        <link rel="stylesheet" type="text/css" href="mobile.css">
-      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
-
     </head>
     
     <body>
@@ -21,7 +20,7 @@
 
 <div class="banner">
 
-
+<?php include "./SlideShow.php" ?>
   </div>
   <!-- BANNER-->
 
@@ -51,8 +50,8 @@
 
 
 
- <script  type="text/javascript">
-        var myIndex = 0;
+ <script>
+   var myIndex = 0;
 carousel();
 function carousel() {
   var i;
@@ -61,13 +60,12 @@ function carousel() {
     x[i].style.display = "none";
   }
 
-
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 7000); // Change image every 2 seconds
 }
-      </script>
-<?php include './footer.php';?>
+ </script>
+ <?php include './footer.php';?>
 </body>
 </html>
