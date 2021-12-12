@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+      <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="./engine1/style.css" />
+<script type="text/javascript" src="./engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
        <link rel="icon" type="jpg/png" href="./logo_college.png" sizes="16x16">
         <title>IIITDMJ | Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,10 +26,25 @@
 
 <div class="banner">
 
-  <img class="SlideShowImage fading" src="Images/img01.jpg" style="height:inherit; width: 100%;" alt="image"/>
-  <img class="SlideShowImage fading" src="Images/img02.jpg" style="height:inherit; width: 100%;" alt="image"/>
-  <img class="SlideShowImage fading" src="Images/img03.jpg" style="height:inherit; width: 100%;" alt="image"/>
-  <img class="SlideShowImage fading" src="Images/img04.jpg" style="height:inherit; width: 100%;" alt="image"/>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+    <li><img src="data1/images/img01.jpg" alt="Administrative Building" title="Administrative Building" id="wows1_0"/></li>
+    <li><img src="data1/images/img02.jpg" alt="Side View" title="Side View" id="wows1_1"/></li>
+    <li><a href="http://wowslider.net"><img src="data1/images/img03.jpg" alt="jquery slideshow" title="Front View IIITDMJ" id="wows1_2"/></a></li>
+    <li><img src="data1/images/img04.jpg" alt="Group Pictures" title="Group Pictures" id="wows1_3"/></li>
+  </ul></div>
+  <div class="ws_bullets"><div>
+    <a href="#" title="Administrative Building"><span><img src="data1/tooltips/img01.jpg" alt="Administrative Building"/>1</span></a>
+    <a href="#" title="Side View"><span><img src="data1/tooltips/img02.jpg" alt="Side View"/>2</span></a>
+    <a href="#" title="Front View IIITDMJ"><span><img src="data1/tooltips/img03.jpg" alt="Front View IIITDMJ"/>3</span></a>
+    <a href="#" title="Group Pictures"><span><img src="data1/tooltips/img04.jpg" alt="Group Pictures"/>4</span></a>
+  </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">responsive slider</a> by WOWSlider.com v9.0m</div>
+<div class="ws_shadow"></div>
+</div>  
+<script type="text/javascript" src="./engine1/wowslider.js"></script>
+<script type="text/javascript" src="./engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
 
   </div>
   <!-- BANNER-->

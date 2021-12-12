@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@300&family=Varela+Round&family=Bitter&display=swap');
-
-.topheader p{
-  margin: 0;
+::-moz-selection 
+{ 
+  background: #2e3547;
+  color: #ccd7e1;
 }
 
+::selection {
+  background: #2e3547;
+  color: #ccd7e1;
+}
+*
+{
+  cursor: url("./icons/cursor.png"), auto;
+}
 body{
     background-color:#fdfdfd;
     margin: 0;
+}
+
+.topheader p{
+  margin: 0;
 }
 
 .container{
@@ -753,6 +766,10 @@ padding-left:380px;
   float:none;
   display: block;
 }
-.
+.Copyright
+{
+  color: #7a839a;
+  padding-top: 8px;
+}
 
 

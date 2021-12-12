@@ -72,6 +72,13 @@
       <a href="#">IIITDMJ E-MAIL</a>|
       <a href="#">IIIT COUNCIL</a>
     </div>
+    <div class="footerSecondary">
+    <div class="Copyright">
+      <center>
+        Copyright © 2021 Apple Inc. All rights reserved.
+      </center>
+    </div>
+  </div>
 </div>
 
 
@@ -131,6 +138,13 @@
       <a href="#">INTRAWEB</a>
       <a href="#">IIITDMJ E-MAIL</a>
       <a href="#">IIIT COUNCIL</a>
+    </div>
+  </div>
+  <div class="footer-secondary">
+    <div class="Copyright">
+      <center>
+        Copyright © 2022 IIITDMJ. All rights reserved.
+      </center>
     </div>
   </div>
 </div>
