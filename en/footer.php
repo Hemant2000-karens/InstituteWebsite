@@ -75,7 +75,7 @@
     <div class="footerSecondary">
     <div class="Copyright">
       <center>
-        Copyright © 2021 Apple Inc. All rights reserved.
+        Copyright © 2021 IIITDMJ | All rights reserved.
       </center>
     </div>
   </div>
@@ -143,7 +143,7 @@
   <div class="footer-secondary">
     <div class="Copyright">
       <center>
-        Copyright © 2022 IIITDMJ. All rights reserved.
+        Copyright © 2022 IIITDMJ | All rights reserved.
       </center>
     </div>
   </div>
