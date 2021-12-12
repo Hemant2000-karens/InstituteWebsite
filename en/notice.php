@@ -5,7 +5,7 @@
 	</div>
 
 	<div class="noticeSlider">
-	<img class="prev" src="./Images/left_arr.png" />
+	<img class="prev" src="./Images/left_arr.png" onclick="plusSlides(-1)" />
 
 
 	<div class="noticeContent">
@@ -94,7 +94,7 @@
 	</div>
 	
 
-	<img src="./Images/right_arr.png" class="forw"/>
+	<img src="./Images/right_arr.png" class="forw" onclick="plusSlides(1)"/>
 	</div>
 </div>
 
@@ -102,8 +102,13 @@
 
 
 <script>
+
 var slideIndex = 0;
 showSlides();
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
 function showSlides() {
   var i;
