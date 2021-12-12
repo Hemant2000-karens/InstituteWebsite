@@ -353,7 +353,7 @@ body,html{
   background:url("./Images/messageBackground.png");
   background-repeat: no-repeat;
   background-size:  100% 100%;
-  padding:0;
+  padding:0 0 20px 0;
   height: auto;
   font-family: 'Noto Sans';
 }
@@ -582,7 +582,9 @@ and (max-width: 770px)
   }
   .deskTitle
   {
-    padding-left: 50px;
+    font-weight: 600;
+    font-size: x-large;
+    padding-left: 10px;
     padding-top: 20px; 
   }
   .deskTabs a:first-child
@@ -592,6 +594,10 @@ and (max-width: 770px)
   .deskTabs a
   {
     font-size: 20px;
+  }
+  .deskTabs
+  {
+    width: max-content;
   }
 }
 
@@ -767,8 +773,8 @@ and (max-device-width : 1024px)
   background:url("./Images/messageBackground.png");
   background-repeat: no-repeat;
   background-size:  100% 100%;
-  padding:0;
-  height: -webkit-fill-available;
+  padding:0 0 20px 0;
+  height: auto;
   font-family: 'Noto Sans';
   }
  .deskImage img{
