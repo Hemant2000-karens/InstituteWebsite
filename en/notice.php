@@ -93,6 +93,18 @@
 	</p>
 	</div>
 	
+	<div class="noticeContent">
+	<p>
+		<img src="./icons/clock.png" alt= "date"/>
+		<span class="date">15
+			<sup style="text-transform: lowercase">th</sup>
+			May,2021
+		</span>
+		<span class="message">
+		Hello I am here 8
+		</span>
+	</p>
+	</div>
 
 	<img src="./Images/right_arr.png" class="forw" onclick="plusSlides(1)"/>
 	</div>
@@ -106,18 +118,13 @@
 var slideIndex = 0;
 showSlides();
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
 function showSlides() {
   var i;
+
   var slides = document.getElementsByClassName("noticeContent");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
-  }
-
-  slideIndex++;
+  }slideIndex++;
   if (slideIndex >= slides.length) {slideIndex = 1} 
   slides[slideIndex-1].style.display = "inline-flex";
   if(window.screen.width > 1024)
