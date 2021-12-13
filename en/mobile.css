@@ -265,8 +265,6 @@ and (max-width:960px)
       padding: 0 15px;
       font-size: small;
   }
-
-
   .chButton
   {
     display: none;
@@ -584,10 +582,6 @@ and (max-width: 770px)
 
 @media screen and (max-width: 660px)
 {
-  .noticebody
-  {
-    margin-left: 40px;
-  }
   .noticeTitle
   {
     margin-left: 10px;
@@ -805,7 +799,7 @@ and (orientation: portrait)
 {
   .footer .footer-heading
   {
-    padding: 20px 30px;
+    padding: 20px 30px !important;
   }
 }
 
@@ -821,7 +815,7 @@ and (orientation: portrait)
 {
   .footer .footer-heading
   {
-    padding: 20px 172px !important;
+    padding: 20px 192px;
   }
   .noticebody
   {
@@ -864,8 +858,8 @@ and (orientation: landscape)
   }
   .deskImage img
   {
-    width: 10 0% !important;
-    margin-left: 110px;
+    width: 100% !important;
+    margin-left: 54px;
   }
 }
 
@@ -890,6 +884,17 @@ and (orientation: landscape)
   }
 }
 
+@media only screen
+and (min-width: 855px)
+and (max-width: 1024px)
+{
+  .deskImage img
+  {
+    margin-left: 53px;
+    width: 130%;
+    max-width: inherit;
+  }
+}
 
 @media only screen
 and (min-width: 375px)
@@ -969,21 +974,57 @@ and (orientation: landscape)
  } 
 }
 
-  
 /* Redmi Settings Ends */
 
 /* Old Desktops and laptops ------------------ */
 @media only screen 
-and (min-width : 1025px) 
+and (min-width : 800px)
+and (max-width: 1280px)
+and (orientation: landscape) 
 {
-/* Add Your CSS Styling Here */
+  .deskTitle
+  {
+    padding: 0;
+  }
+  .deskSpeech
+  {
+    padding: 0 0 0 621px;
+    margin-top: 13px;
+  }
+  .deskNav
+  {
+    display: none;
+  }
+  .deskTabs a:first-child
+  {
+    padding-left: 95px;
+  }
+  .noticeTitle
+  {
+    margin-left: 11px;
+  }
+  /* Add Your CSS Styling Here */
 }
 
 /* Desktops ------------------ */
 @media only screen 
-and (min-width : 1201px) 
+and (min-width : 640px)
+and (max-width: 1024px)
+and (orientation: landscape) 
 {
-/* Add Your CSS Styling Here */
+  .noticeContent
+  {
+    width: 500px;
+  }
+  .noticebody
+  {
+    margin-left: 90px;
+  }
+  .deskSpeech
+  {
+    padding: 0 31px 0 52px;
+  }
+  /* Add Your CSS Styling Here */
 }
 
 
