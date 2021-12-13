@@ -11,7 +11,7 @@
       <a href="design.iiitdmj.ac.in">Design(B.Des)</a>
     </div>
   </div> 
-  
+
   <a href="Acd.php">Academics</a>
   <a href="Dean.php">Dean</a>
 
@@ -28,21 +28,41 @@
   </div> 
 
   <div class="dropdown">
-    <button class="dropbtn">Dropdown 
+    <button class="dropbtn">Media 
     </button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="#">Photo Gallery</a>
+      <a href="#">Video Gallery</a>
+      <a href="#">Magazines</a>
+      <a href="#">Social Sites Posts</a>
+      <a href="#">News Media</a>
     </div>
   </div> 
 
-<div class="dropdown">
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Students Corner 
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Hostels</a>
+      <a href="#">Students Mess</a>
+      <a href="#">Primary Health Center</a>
+      <a href="#">Activities</a>
+      <a href="#">Gymkhana</a>
+      <a href="#">Counseling</a>
+    </div>
+  </div> 
+
+
+<a href="#">Research</a>
+
+<!-- <div class="dropdown">
     <button class="dropbtn">Dropdown 
     </button>
     <div class="dropdown-content">
       
-      <!-- Mega Menu -->
+     // Mega Menu 
       <div class="meganews">
         <h2>Mega Menu</h2>
       </div>   
@@ -67,10 +87,10 @@
         </div>
       </div>
 
-      <!-- Mega Menu Ends -->
+    // Mega Menu Ends 
 
     </div>
-  </div> 
+  </div> -->
 
 
   <div class="dropdown">
