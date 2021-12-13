@@ -5,15 +5,6 @@
   <a href="Dean.php">Dean</a>
   <a href="#contact">Contact</a>
 
-  <div class="dropdown">
-    <button class="dropbtn">About Us 
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div> 
 
   <div class="dropdown">
     <button class="dropbtn">Dropdown 
@@ -71,7 +62,19 @@
   </div> 
 
 
-  <a href="#about">About</a>
+  <div class="dropdown">
+    <button class="dropbtn">About Us 
+    </button>
+    <div class="dropdown-content">
+      <a href="#">About Institute</a>
+      <a href="#">Board of Directors</a>
+      <a href="#">Administrations</a>
+      <a href="#">Building Works Committee</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+
   <a href="javascript:void(0);" style="font-size:18px; color: #f2f2f2" class="icon" onclick="myFunction()">&#9778;</a>
 </div>
 
