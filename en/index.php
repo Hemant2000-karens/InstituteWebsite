@@ -29,8 +29,8 @@
   <div class="thought_for_Day">
     <fieldset>
       <legend>Thought for the Day</legend>
-        <h1 style="text-align:center; color:#6b6b6b;font-family:'Noto Sans', sans-serif;
-  font-weight: 250;">When love is unconditional, there's no attachment, expectation, hidden agenda, or bookkeeping of who gives what to whom. Our love is unconditional for whatever we are and whatever they are. It is given without requirements.</h1>
+        <h1 style="text-align:center; color:#6b6b6b;font-family:'Varela Round', sans-serif;
+  font-weight: 250;">The Function Of Education Is To Teach One To Think Intensively And To Think Critically.</h1>
     </fieldset>
   </div>
 
