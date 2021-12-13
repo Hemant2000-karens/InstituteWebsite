@@ -16,12 +16,18 @@
 
 <span class="br"></span>
 	
-
-
-
-
-
-
+	<div class="AcademicsMain">
+		<div class="AcademicsNav">
+			<aside>
+				<li>B.Tech</li>
+			</aside>
+		</div>
+		<div class="AcademicsContents">
+			<section>
+				
+			</section>
+		</div>
+	</div>
 </body>
 </div>
 
