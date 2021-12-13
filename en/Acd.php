@@ -20,6 +20,7 @@
 		<div class="AcademicsNav">
 			<aside>
 				<li>B.Tech</li>
+				<li>M.Tech</li>
 			</aside>
 		</div>
 		<div class="AcademicsContents">
