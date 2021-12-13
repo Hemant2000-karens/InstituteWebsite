@@ -21,6 +21,7 @@
 			<aside>
 				<li>B.Tech</li>
 				<li>M.Tech</li>
+				<li>PhD</li>
 			</aside>
 		</div>
 		<div class="AcademicsContents">
