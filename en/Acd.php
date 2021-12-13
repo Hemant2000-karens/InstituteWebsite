@@ -20,12 +20,29 @@
 	<div class="AcMain">
 		<div class="AcademicsNav">
 			<aside>
+				<div class="AcTitle">
+					Academic programmes
+				</div>
 				<li>B.Tech</li>
 				<li>M.Tech</li>
+				<li>B.Des</li>
+				<li>M.Des</li>
 				<li>PhD</li>
+				<li>Integrated Master + PhD</li>
+				<li>Special Part time M.Tech/M.Des</li>
+				<div class="AcTitle">
+					Admission
+					<li>B.Tech</li>
+				<li>M.Tech</li>
+				<li>B.Des</li>
+				<li>M.Des</li>
+				<li>PhD</li>
+				<li>Integrated Master + PhD</li>
+				<li>Special Part time M.Tech/M.Des</li>
+				</div>
 			</aside>
 		</div>
-		<div class="AcademicsContents">
+		<div class="AcContents">
 			<section>
 				
 			</section>
