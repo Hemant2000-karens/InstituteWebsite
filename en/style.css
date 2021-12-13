@@ -474,7 +474,7 @@ body{
 }
 .home .caption h1{
   font-size:42px;
-  color:#000000;
+  color:#020056;
   margin:0;
   
 }
@@ -486,7 +486,7 @@ body{
 .home .caption p{
   font-size: 18px;
   margin:15px 0 30px;
-  color:#222222;
+  color:#020056;
 }
 .home .slide.active .caption p{
   opacity:0;
@@ -865,7 +865,6 @@ padding-left:380px;
 {
   padding-top:25px;
   position: relative;
-  cursor: pointer;
 }
 .prev{
   float:left;
@@ -911,3 +910,16 @@ padding-left:380px;
 }
 
 
+/* Other Parts - Portal and Birthday */
+.misc
+{
+  width: 100%;
+}
+.birthday
+{
+
+}
+.Moreoptions
+{
+
+}

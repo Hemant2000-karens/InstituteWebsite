@@ -16,17 +16,17 @@
                 </div>
             </div>
         </div>
-        <div class="slide" style="background-image: url('./Images/img03.jpg')">
+        <div class="slide" style="background-image: url('./Images/img04.jpg')">
             <div class="SlideshowContainer">
                 <div class="caption">
-                    <h1>3. Winter Collection 2020</h1>
-                    <p>Lorem ipsum dummy text goes here.</p>
+                    <h1>Group Photograph</h1>
+                    <p>Vice President</p>
                 </div>
             </div>
         </div>
 
 
-        <div class="slide" style="background-image: url('./Images/img04.jpg')">
+        <div class="slide" style="background-image: url('./Images/img03.jpg')">
             <div class="SlideshowContainer">
                 <div class="caption">
                     <h1>3. Winter Collection 2020</h1>

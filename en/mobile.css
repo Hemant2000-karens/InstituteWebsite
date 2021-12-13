@@ -821,6 +821,63 @@ and (max-device-width : 505px)
   }
 }
 
+
+
+
+/* Android Tablet Adjustment */
+@media only screen
+and (min-width: 534px)
+and (max-width: 854px)
+and (orientation: portrait)
+{
+  .footer .footer-heading
+  {
+    padding: 20px 172px;
+  }
+  .noticebody
+  {
+    width: 90%;
+    margin-left: 25px;
+  }
+  .noticeSlider
+  {
+    margin-left: 0!important;
+  }
+  .deskTitle
+  {
+    margin-left: 12px!important;
+  }
+  .deskImage img
+  {
+    width: 80% !important;
+  }
+}
+
+@media only screen
+and (min-width: 534px)
+and (max-width: 854px)
+and (orientation: landscape)
+{
+  .noticebody
+  {
+    width: 95% !important;
+    margin-left: 21px;
+  }
+  .noticeSlider
+  {
+    margin-left: 0!important;
+  }
+  .deskTitle
+  {
+    margin-left: 12px!important;
+  }
+  .deskImage img
+  {
+    width: 80% !important;
+  }
+}
+
+
 /* Old Desktops and laptops ------------------ */
 @media only screen 
 and (min-width : 1025px) 
@@ -833,4 +890,13 @@ and (min-width : 1025px)
 and (min-width : 1201px) 
 {
 /* Add Your CSS Styling Here */
+}
+
+
+/* Other Page Parts -  */
+@media only screen
+and (min-width: )
+and (max-width: )
+{
+
 }
