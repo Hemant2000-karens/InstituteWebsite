@@ -13,6 +13,7 @@
 	    <div class="container">
 	    <body>
 	    	<?php include './Header.php';?>
+
 			<?php include "./navbar.php" ?>
 
 <span class="br"></span>
@@ -23,23 +24,27 @@
 				<div class="AcTitle">
 					Academic programmes
 				</div>
-				<li>B.Tech</li>
-				<li>M.Tech</li>
-				<li>B.Des</li>
-				<li>M.Des</li>
-				<li>PhD</li>
-				<li>Integrated Master + PhD</li>
-				<li>Special Part time M.Tech/M.Des</li>
+					<li>B.Tech</li>
+					<li>M.Tech</li>
+					<li>B.Des</li>
+					<li>M.Des</li>
+					<li>PhD</li>
+					<li>Integrated Master + PhD</li>
+					<li>Special Part time M.Tech/M.Des</li>
 				<div class="AcTitle">
 					Admission
-					<li>B.Tech</li>
-				<li>M.Tech</li>
-				<li>B.Des</li>
-				<li>M.Des</li>
-				<li>PhD</li>
-				<li>Integrated Master + PhD</li>
-				<li>Special Part time M.Tech/M.Des</li>
 				</div>
+					<li>B.Tech</li>
+					<li>M.Tech</li>
+					<li>B.Des</li>
+					<li>M.Des</li>
+					<li>PhD</li>
+					<li>Integrated Master + PhD</li>
+					<li>Special Part time M.Tech/M.Des</li>
+				<div class="AcTitle">
+					Important Documents
+				</div>
+				
 			</aside>
 		</div>
 		<div class="AcContents">
