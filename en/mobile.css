@@ -349,13 +349,13 @@ body,html{
 {
 .messageDesk1
 {
-  display: block;
   background:url("./Images/messageBackground.png");
   background-repeat: no-repeat;
   background-size:  100% 100%;
+  font-family: 'Noto Sans';
+  display: block;
   padding:0 0 20px 0;
   height: auto;
-  font-family: 'Noto Sans';
 }
 .deskSpeech
 {
@@ -557,12 +557,6 @@ and (max-width: 770px)
     width: 240px;
   }
 
-  .noticeSlider{
-    width: 78%;
-    margin: 40px 65px;
-    float: none;
-  }
-
   .noticeTitle{
     margin-left: 0 !important;
     padding: 22px 0;
@@ -668,16 +662,7 @@ and (max-width: 780px)
 
 
 
-@media only screen 
-and (max-width : 380px)
-{
-    .noticeSlider
-    {
-      width: 100%;
-      margin: 15px 45px;
-    }
-  /* Add Your CSS Styling Here */
-}
+
 
 @media screen 
 and (min-width: 768px) 
@@ -773,22 +758,18 @@ and (max-device-width : 1024px)
   background:url("./Images/messageBackground.png");
   background-repeat: no-repeat;
   background-size:  100% 100%;
+  font-family: 'Noto Sans';
   padding:0 0 20px 0;
   height: auto;
-  font-family: 'Noto Sans';
   }
  .deskImage img{
     margin-left: 45px;
     width: 146%;
     max-width: fit-content;
   }
-  .messageDesk
-  {
-    display: none;
-  }
   .deskTitle
   {
-    margin-left: calc(30%);
+    margin-left: 30%;
     padding-left: 50px;
     padding-top: 20px; 
   }
@@ -821,7 +802,36 @@ and (max-device-width : 505px)
   }
 }
 
+/* iPad Air Setting for notice and message */
+@media only screen
+and (min-width: 834px)
+and (max-width: 1112px)
+and (orientation: landscape)
+{
+  .noticeSlider
+  {
+    margin-left: 15px;
+  }
+  .noticebody
+  {
+    margin-left: 21px;
+  }
+}
 
+
+@media only screen
+and (min-width: 834px)
+and (max-width: 1112px)
+and (orientation: portrait)
+{
+  .footer .footer-heading
+  {
+    padding: 20px 30px;
+  }
+}
+
+
+/* iPad Air Ends Here */
 
 
 /* Android Tablet Adjustment */
@@ -853,6 +863,7 @@ and (orientation: portrait)
   }
 }
 
+
 @media only screen
 and (min-width: 534px)
 and (max-width: 854px)
@@ -874,6 +885,74 @@ and (orientation: landscape)
   .deskImage img
   {
     width: 80% !important;
+  }
+}
+
+
+/* Lenovo Tab 8 */
+
+
+/* iPhone 6s Landscape Issue */
+@media only screen
+and (min-width: 375px)
+and (max-width: 814px)
+and (orientation: landscape)
+{
+  .messageDesk
+  {
+    display: none;
+  }
+  .noticeContent
+  {
+
+  }
+  .noticeSlider
+  {
+    margin: 12px 20px;
+  }
+  .noticeTitle
+  {
+    margin-left: 5px;
+  }
+  .messageDesk1
+  {
+  background:url("./Images/messageBackground.png");
+  background-repeat: no-repeat;
+  background-size:  100% 100%;
+  font-family: 'Noto Sans';
+  display: block;
+  }
+  .deskTitle
+  {
+    margin-left: 20%;
+  }
+  .deskSpeech
+  {
+    padding: 0 20px;
+  }
+  .deskTabs a:first-child
+  {
+    padding-left: 2px;
+  }
+  .footer .footer-heading
+  {
+    padding: 20px 210px;
+  }
+}
+
+@media only screen
+and (min-width: 375px)
+and (max-width: 814px)
+and (orientation: portrait)
+{ 
+  .noticeSlider
+  {
+    float: left;
+    margin: 12px 46px;
+  }
+  .footer .footer-heading
+  {
+    padding: 20px 100px !important;
   }
 }
 
