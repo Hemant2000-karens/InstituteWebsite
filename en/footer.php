@@ -9,7 +9,7 @@
 
       <div class="footer-subheader">
         <p><strong style="font-family: 'Noto Sans';">BORN FOR INNOVATION</strong><br>
-        <a href="https://goo.gl/maps/RdkPC6HoLTkbdweNA">Airport Rd, PDPM IIITDM Jabalpur Campus, <br>Khamaria, Jabalpur, <br>Madhya Pradesh 482005</a>
+        <a  target="_blank" href="https://goo.gl/maps/RdkPC6HoLTkbdweNA">Airport Rd, PDPM IIITDM Jabalpur Campus, <br>Khamaria, Jabalpur, <br>Madhya Pradesh 482005</a>
         </p>
       </div>
 

@@ -9,9 +9,10 @@
     <button class="dropbtn">Office Bearers 
     </button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="#">Faculties</a>
+      <a href="#">Research Staff</a>
+      <a href="#">Office Staff</a>
+      <a href="#">Other Staff</a>
     </div>
   </div> 
 
