@@ -3,11 +3,10 @@
   <a href="Department.php">Department</a>
   <a href="Acd.php">Academics</a>
   <a href="Dean.php">Dean</a>
-  <a href="#contact">Contact</a>
 
 
   <div class="dropdown">
-    <button class="dropbtn">Dropdown 
+    <button class="dropbtn">Office Bearers 
     </button>
     <div class="dropdown-content">
       <a href="#">Link 1</a>
@@ -69,9 +68,8 @@
       <a href="#">About Institute</a>
       <a href="#">Board of Directors</a>
       <a href="#">Administrations</a>
+      <a href="#">Local Administration</a>
       <a href="#">Building Works Committee</a>
-      <a href="#">Link 3</a>
-      <a href="#">Link 3</a>
     </div>
   </div> 
 
