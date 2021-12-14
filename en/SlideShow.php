@@ -3,16 +3,16 @@
         <div class="slide active" style="background-image: url('./Images/img01.jpg')">
             <div class="SlideshowContainer">
                 <div class="caption">
-                    <h1>1. Winter Collection 2020</h1>
-                    <p>Lorem ipsum dummy text goes here.</p>
+                    <h1>Lab Complex</h1>
+                    <p>Looking Cool</p>
                 </div>
             </div>
         </div>
         <div class="slide" style="background-image: url('./Images/img02.jpg')">
             <div class="SlideshowContainer">
                 <div class="caption">
-                    <h1>2. Winter Collection 2020</h1>
-                    <p>Lorem ipsum dummy text goes here.</p>
+                    <h1>Lab Complex 2</h1>
+                    <p>Looking Awesome</p>
                 </div>
             </div>
         </div>
@@ -20,7 +20,7 @@
             <div class="SlideshowContainer">
                 <div class="caption">
                     <h1>Group Photograph</h1>
-                    <p>Vice President</p>
+                    <p>with Vice President</p>
                 </div>
             </div>
         </div>
@@ -29,12 +29,20 @@
         <div class="slide" style="background-image: url('./Images/img03.jpg')">
             <div class="SlideshowContainer">
                 <div class="caption">
-                    <h1>3. Winter Collection 2020</h1>
-                    <p>Lorem ipsum dummy text goes here.</p>
+                    <h1>Institute Lectures Hall</h1>
+                    <p>Front View</p>
                 </div>
             </div>
         </div>
 
+ <div class="slide" style="background-image: url('./Images/img05.jpg')">
+            <div class="SlideshowContainer">
+                <div class="caption">
+                    <h1>Administrative Building</h1>
+                    <p> Side View</p>
+                </div>
+            </div>
+        </div>
 
 
 
