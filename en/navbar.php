@@ -98,11 +98,11 @@
     <button class="dropbtn">About Us 
     </button>
     <div class="dropdown-content">
-      <a href="#">About Institute</a>
-      <a href="#">Board of Directors</a>
-      <a href="#">Administrations</a>
-      <a href="#">Local Administration</a>
-      <a href="#">Building Works Committee</a>
+      <a href="about.php">About Institute</a>
+      <a href="bod.php">Board of Directors</a>
+      <a href="admins.php">Administrations</a>
+      <a href="lAdmins.php">Local Administration</a>
+      <a href="bwc.php">Building Works Committee</a>
     </div>
   </div> 
 
