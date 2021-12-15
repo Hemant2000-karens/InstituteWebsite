@@ -133,6 +133,13 @@
 					<h4>Office Assistant</h4>
 				</div>
 			</div>
+
+				<div class="body">
+
+  					Hearty congratulations on being taken a wise move of joining IIITDMJ community. I extend a warm welcome and assure you to take this treasured journey together in the right earnest. 
+						PDPM IIITDMJ is one of the unique academic Institutes with regard to its curriculum and emphasize on project-oriented learning. I am happy to write that Indian as well as Japanese industries are recognizing enhanced capabilities of our students due to the unique curriculum. The atmosphere on the campus is lively and I am sure you will enjoy every moment spent here and will cherish for the rest of your life. 
+
+  				</div>
 		</div>
 
 	</div>
@@ -185,7 +192,6 @@
 						<h5>Prof. Atul Gupta</h5>
 						<h4>Dean(Planning & Research)</h4>
   				</div>
-
 
 			</div>
 		</div>
