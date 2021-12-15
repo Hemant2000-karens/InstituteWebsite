@@ -14,10 +14,10 @@
       </div>
 
       <div class="socials">
-      <a href="https://twitter.com/iiitdmjbp"><img src="icons_twitter.png" alt="twitter" height="25 px"></a>
-      <a href="https://www.facebook.com/iiitdm.jbp/"><img src="icons_facebook.png" alt="facebook" height="25 px"></a>
-      <a href="https://www.youtube.com/channel/UCODKL--xMCqXIK31cRdOWOw"><img src="icons_youtube.png" alt="youtube" height="25 px"></a>
-      <a href="https://www.instagram.com/iiitdm_jabalpur/"><img src="icons_instagram.png" alt="instagram" height="25 px"></a>
+      <a href="https://twitter.com/iiitdmjbp"><img src="./icons/icons_twitter.png" alt="twitter" height="25 px"></a>
+      <a href="https://www.facebook.com/iiitdm.jbp/"><img src="./icons/icons_facebook.png" alt="facebook" height="25 px"></a>
+      <a href="https://www.youtube.com/channel/UCODKL--xMCqXIK31cRdOWOw"><img src="./icons/icons_youtube.png" alt="youtube" height="25 px"></a>
+      <a href="https://www.instagram.com/iiitdm_jabalpur/"><img src="./icons/icons_instagram.png" alt="instagram" height="25 px"></a>
       </div>
 
     </div>

@@ -969,3 +969,23 @@ padding-left:380px;
   font-size: 20px;
   font-family:'varela round',sans-serif;
 }
+.secondAbout
+{
+  display: block;
+}
+.otherPage
+{
+  display: flex;
+  height: auto;
+  width: auto;
+  margin: 0 30px;
+  padding: 20px;
+}
+.card
+{
+  height: 150px;
+  width: 150px;
+  border: 1px solid #CCC;
+}
+
+

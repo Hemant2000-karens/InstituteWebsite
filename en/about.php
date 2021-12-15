@@ -27,8 +27,30 @@
 				Undergraduate students are admitted through Joint Entrance Examination(Main) (JEE MAIN) and the UCEED, while post graduate students are admitted through GATE( for MTech Courses) and CEED( for Design course).
 			</div>
 
-			<section class="otherPage">
-				
+			<section class="secondAbout">
+				<div class="otherPage">
+					<div class="card">
+						<img src=""/>
+						<caption>Board Of Governors</caption>
+					</div>
+					<div class="card">
+						
+					</div>
+					<div class="card">
+						
+					</div>
+					</div>
+					<div class="otherPage">
+						<div class="card">
+							
+						</div>
+						<div class="card">
+							
+						</div>
+						<div class="card">
+							
+						</div>
+				</div>
 			</section>
 
 		</body>
