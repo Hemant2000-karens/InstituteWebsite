@@ -665,14 +665,16 @@ body{
   backdrop-filter: blur(8px);
   position: fixed;
   top: 0;
-  width:100%;
+  left: 0;
+  width:-webkit-fill-available;
 }
 .sticky + .rowDean {
   padding-top: 30px;
 }
 .rowDean
 {
-  width: 100%;
+  text-align: center;
+  width:100%;
   padding:5px 10px;
   display: flex;
 }
@@ -704,9 +706,8 @@ body{
 }
 .tableContainer
 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
+  margin: 10px 60px;
+  width: auto;
 }
 .externalLink
 {
@@ -945,5 +946,26 @@ padding-left:380px;
   margin-right: auto;
 }
 
+/* About us Page */
 
 
+.aboutHeader
+{
+  padding-left: 20px;
+  border-bottom: 0.1px solid #ccc;
+  background-color: #f9f9f99e;
+  backdrop-filter: blur(8px);
+  position: relative;
+  top: 0;
+  width:-webkit-fill-available;
+}
+.body
+{
+  width: auto;
+  margin: 10px 60px;
+}
+.aboutHeader h2
+{
+  font-size: 20px;
+  font-family:'varela round',sans-serif;
+}

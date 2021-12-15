@@ -35,7 +35,7 @@
             </div>
         </div>
 
- <div class="slide" style="background-image: url('./Images/img05.jpg')">
+ <div class="slide" style="background-image: url('./Images/img05.jpeg')">
             <div class="SlideshowContainer">
                 <div class="caption">
                     <h1>Administrative Building</h1>

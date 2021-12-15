@@ -192,7 +192,7 @@ body,html{
   {
     margin-right: auto;
     margin-left: auto;
-    width:480px;
+    width: auto;
   }
   .footer
   {
@@ -271,7 +271,79 @@ and (max-width:960px)
   }
 }
 
-@media screen and (max-width: 460px) {
+@media only screen 
+and (min-width: 320px)
+and (max-width: 375px)
+and (orientation: portrait) 
+{
+ .bodyContent
+  {
+    width: -webkit-fill-available;
+  } 
+  .tableContainer
+  {
+  padding: 0;
+  width: 95%;
+  margin: 0 -20px;
+  }
+  .rowDean
+  {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  .column
+  {
+    width: 80%;
+  }
+}
+@media only screen 
+and (min-width: 320px)
+and (max-width: 680px)
+and (orientation: landscape) 
+{
+  .bodyContent
+  {
+    width: -webkit-fill-available;
+  }
+  .tableContainer
+  {
+  padding: 0;
+  width: 95%;
+  margin: 0 20px;
+  }
+  .rowDean
+  {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media only screen 
+and (min-width: 461px)
+and (max-width: 770px)
+and (orientation: portrait) 
+{
+  .tableContainer
+  {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rowDean
+  {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen 
+and (min-width: 375px)
+and (max-width: 460px)
+and (orientation: portrait) 
+{
 
   .topnav a
   {
@@ -288,9 +360,10 @@ and (max-width:960px)
   }
   .tableContainer
   {
+    padding: 0 0 0 25px;
     margin-right: auto;
     margin-left: auto;
-    width:300px;
+    width: auto;
   }
   .columnDean h5
 {
@@ -307,7 +380,7 @@ and (max-width:960px)
   }
   .sticky
   {
-    width: 100%;
+    width: -webkit-fill-available;
   }
 
    .topheader .main-group

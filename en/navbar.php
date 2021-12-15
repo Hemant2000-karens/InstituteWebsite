@@ -102,6 +102,7 @@
       <a href="bod.php">Board of Directors</a>
       <a href="admins.php">Administrations</a>
       <a href="lAdmins.php">Local Administration</a>
+      <a href="senate.php">Members of Senate</a>
       <a href="bwc.php">Building Works Committee</a>
     </div>
   </div> 
