@@ -20,13 +20,15 @@ body,html{
   }
 }
 
-@media screen and (max-width: 960px){
-.active a
+@media screen 
+and (max-width: 960px)
 {
-  padding-top: 5px;
-}
+  .active a
+  {
+    padding-top: 5px;
+  }
 
-.header
+  .header
   {
     display: inline-flex;
     height: 120px;
@@ -67,7 +69,9 @@ body,html{
   }
 }
 
-@media only screen and (min-width: 462px) and (max-width: 960px) 
+@media only screen 
+and (min-width: 462px) 
+and (max-width: 960px) 
 {
   .header h1
   {
@@ -75,7 +79,9 @@ body,html{
   }
 }
 
-@media screen and (max-width:390px)
+@media screen 
+and (max-width:390px)
+and (orientation: portrait)
 {
   .header h1
   {
@@ -84,7 +90,9 @@ body,html{
 
 }
 
-@media screen and (max-width: 380px)
+@media screen 
+and (max-width: 380px)
+and (orientation: portrait)
 {
   .header img
   {
@@ -125,7 +133,8 @@ body,html{
 
 /* NavBar */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 960px)
+{
   .topnav a:not(:first-child), .dropdown .dropbtn 
   {
     display: none;
@@ -186,7 +195,7 @@ body,html{
   {
     margin-left: auto;
     margin-right: auto;
-    width: 892px;
+    width: 895px;
   }
   .tableContainer
   {
@@ -220,9 +229,28 @@ body,html{
 }
 }
 
+
+@media only screen
+and (max-width: 2560px)
+and (orientation: landscape)
+{
+  .bodyContent
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+  }
+  .rowDean
+  {
+    width: auto;
+    justify-content: center;
+  }
+}
+
 @media screen 
 and (min-width:770px)
 and (max-width:960px)
+and (orientation: portrait)
 {
   .bodyContent
   {
@@ -230,16 +258,22 @@ and (max-width:960px)
     margin-right: auto;
     width: 892px;
   }
+  .rowDean img
+  {
+    height: 210px;
+    width: 210px;
+  }
+
 .tableContainer
   {
     margin-right: auto;
     margin-left: auto;
-    width:730px;
+    width:100%;
     justify-content: center;
   }
   .rowDean
   {
-    justify-content: center;
+    
   }
   .footer
   {
@@ -325,6 +359,12 @@ and (min-width: 461px)
 and (max-width: 770px)
 and (orientation: portrait) 
 {
+  .bodyContent
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
   .tableContainer
   {
     width: 90%;
@@ -334,7 +374,7 @@ and (orientation: portrait)
   .rowDean
   {
     width: 100%;
-    display: inline-flex;
+    display: block;
     flex-wrap: wrap;
   }
 }
@@ -916,6 +956,19 @@ and (min-width: 534px)
 and (max-width: 854px)
 and (orientation: landscape)
 {
+
+/* Dean Page Setting */
+
+  .bodyContent
+  {
+    width: 100%;
+  }
+
+.rowDean img
+{
+
+}
+
   .noticebody
   {
     width: 95% !important;
@@ -937,7 +990,7 @@ and (orientation: landscape)
 }
 
 
-/* Lenovo Tab 8 */
+/* Lenovo Tab 8 Ends */
 
 
 /* iPhone 6s Landscape Issue */
