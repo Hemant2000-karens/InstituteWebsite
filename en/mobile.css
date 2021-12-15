@@ -1198,6 +1198,10 @@ and (max-width: )
 and (min-width:320px)
 and (max-width:665px)
 {
+  .card
+  {
+    margin: 20px auto;
+  }
   .body
   {
     width: auto;
