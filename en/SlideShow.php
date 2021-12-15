@@ -20,7 +20,7 @@
             <div class="SlideshowContainer">
                 <div class="caption">
                     <h1>Group Photograph</h1>
-                    <p>with Vice President</p>
+                    <p>All Faculty and Director sir with Vice President</p>
                 </div>
             </div>
         </div>
