@@ -90,7 +90,6 @@
 			case 'mv':
 				window.open('https://www.oracle.com', '_blank');
 				break;
-			default: break;
 		}
 		
 	}
