@@ -965,6 +965,8 @@ padding-left:380px;
 }
 .body
 {
+  font-family: 'noto sans',sans-serif;
+  line-height: 1.6em;
   width: auto;
   margin: 10px 60px;
 }

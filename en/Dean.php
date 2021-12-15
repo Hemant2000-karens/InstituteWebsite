@@ -37,7 +37,7 @@
 				<div class="columnDean">
     				<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
 					<h5>Prof. Vijay Kumar Gupta</h5>
-					<h4>Dean</h4>
+					<h4>Dean(Academics)</h4>
   				</div>
   				<div class="columnDean">
     				<img src="./Images/DeanACD/santosh.jpg" alt="Santoash">
@@ -96,7 +96,44 @@
 		<h2>Dean Students</h2>
 		</div>
 
+	<div class = "tableContainer">
+			<div class="rowDean">
+				<div class="columnDean">
+    				<img src="./Images/DeanStd/tanuja.png" alt="tanuja" >
+					<h5>Prof. Tanuja Sheroy</h5>
+					<h4>Dean(Students)</h4>
+  				</div>
+  				<div class="columnDean">
+    				<img src="./Images/DeanStd/santosh.jpg" alt="Santoash">
+					<h5>Mr. Santosh Mahobia</h5>
+					<h4>Assistant Registrar</h4>
+  				</div>
+  				<div class="columnDean">
+    				<img src="./Images/DeanStd/sandeep.jpg" alt="Sandeep">
+					<h5>Mr. Sandeep Awasthi</h5>
+					<h4>Junior Superintendent</h4>
+  				</div>
+			</div>
 
+
+			<div class="rowDean">
+				<div class="columnDean">
+					<img src="./Images/DeanACD/simanta.jpg" alt="Snow">
+					<h5>Mr. Rajesh Kanaujia</h5>
+					<h4>Senior Assistant</h4>
+				</div>
+				<div class="columnDean">
+					<img src="./Images/DeanACD/richard.jpg" alt="Forest">
+					<h5>Mr. Talib Ahmed</h5>
+					<h4>Clerk</h4>
+				</div>
+				<div class="columnDean">
+					<img src="./Images/DeanACD/nitin.jpg" alt="Mountains">
+					<h5>Mr. Amit Kashyap</h5>
+					<h4>Office Assistant</h4>
+				</div>
+			</div>
+		</div>
 
 	</div>
 	
@@ -138,9 +175,20 @@
 
 	<div class="bodyContent" id = "deanPND">
 		<div class="deanHeader" id ="NameofDean">
-		<h2>Dean PND</h2>
+		<h2>Dean P&D</h2>
 		</div>
 
+			<div class = "tableContainer">
+				<div class="rowDean">
+					<div class="columnDean">
+    				<img src="./Images/DeanPnD/atul.png" alt="atul" >
+						<h5>Prof. Atul Gupta</h5>
+						<h4>Dean(Planning & Research)</h4>
+  				</div>
+
+
+			</div>
+		</div>
 
 	
 	</div>
