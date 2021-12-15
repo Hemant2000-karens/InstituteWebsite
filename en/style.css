@@ -880,6 +880,7 @@ padding-left:380px;
 }
 
 .noticeContent p{
+  padding: 0 88px;
   font-family: 'Noto Sans';
   text-align: center;
 }
