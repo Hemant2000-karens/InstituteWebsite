@@ -1021,7 +1021,7 @@ padding-left:380px;
 
 .Directors
 {
-  display: inline-flex;
+  display: flex;
   height: auto;
   width: 930px;
   margin: auto;

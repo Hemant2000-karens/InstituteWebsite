@@ -43,6 +43,21 @@
 					<span class="designation">Member</span>
 					<span class="offAddrs"></span>
 				</div>
+				<div class="profile">
+					<span class="nameDirector">Dr. Jaideep Kumar Mishra</span>
+					<span class="designation">Member</span>
+					<span class="offAddrs"></span>
+				</div>
+				<div class="profile">
+					<span class="nameDirector">Dr. Jaideep Kumar Mishra</span>
+					<span class="designation">Member</span>
+					<span class="offAddrs"></span>
+				</div>
+				<div class="profile">
+					<span class="nameDirector">Dr. Jaideep Kumar Mishra</span>
+					<span class="designation">Member</span>
+					<span class="offAddrs"></span>
+				</div>
 			</div>
 
 

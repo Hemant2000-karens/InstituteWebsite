@@ -1122,6 +1122,44 @@ and (orientation: landscape)
 
 /* Redmi Settings Ends */
 
+/* Other Page Parts -  */
+@media only screen
+and (min-width: )
+and (max-width: )
+{
+
+}
+
+
+
+/* about us page */
+@media only screen
+and (min-width:320px)
+and (max-width:665px)
+{
+  .card
+  {
+    margin: 20px auto;
+  }
+  .body
+  {
+    width: auto;
+    margin: 10px 20px;
+  }
+
+  .otherPage
+  {
+    width: 200px;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
 /* Old Desktops and laptops ------------------ */
 @media only screen 
 and (min-width : 800px)
@@ -1182,36 +1220,21 @@ and (orientation: landscape)
   /* Add Your CSS Styling Here */
 }
 
-
-/* Other Page Parts -  */
 @media only screen
-and (min-width: )
-and (max-width: )
+and (min-width: 768px)
+and (max-width: 1366px)
+and (orientation: landscape)
 {
-
-}
-
-
-
-/* about us page */
-@media only screen
-and (min-width:320px)
-and (max-width:665px)
-{
-  .card
+  .deskSpeech
   {
-    margin: 20px auto;
+    padding: 0 15px 0 720px;
   }
-  .body
+  .deskNav
   {
-    width: auto;
-    margin: 10px 20px;
+    padding-right: -5px !important;
   }
-
-  .otherPage
+  .deskTabs a:first-child 
   {
-    width: 200px;
-    display: block;
+    padding-left: 150px;
   }
 }
-
