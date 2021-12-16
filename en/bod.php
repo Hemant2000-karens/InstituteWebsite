@@ -49,7 +49,7 @@
 			<section class="secondAbout">
 				<div class="otherPage">
 					<div class="card" onclick="linkOpen('bod')">
-						<img src="./icons/bod.png"/>
+						<img src="./icons/about.png"/>
 						<figcaption>About Us</figcaption>
 					</div>
 					<div class="card" onclick="linkOpen('adm')">
