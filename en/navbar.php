@@ -99,7 +99,7 @@
     </button>
     <div class="dropdown-content">
       <a href="about.php">About Institute</a>
-      <a href="bod.php">Board of Directors</a>
+      <a href="bod.php">Board of Governors</a>
       <a href="finc.php">Finance Commitee</a>
       <a href="admins.php">Administrations</a>
       <a href="lAdmins.php">Local Administration</a>

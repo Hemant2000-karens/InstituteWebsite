@@ -31,7 +31,7 @@
 				<div class="otherPage">
 					<div class="card" onclick="linkOpen('bod')">
 						<img src="./icons/bod.png"/>
-						<figcaption>Board Of Directors</figcaption>
+						<figcaption>Board Of Governors</figcaption>
 					</div>
 					<div class="card" onclick="linkOpen('adm')">
 						<img src="./icons/admins.png"/>

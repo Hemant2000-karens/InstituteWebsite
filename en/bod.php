@@ -17,7 +17,7 @@
 			<span class="br"></span>
 
 			<div class="aboutHeader">
-				<h2>Board of Directors</h2>
+				<h2>Board of Governors</h2>
 			</div>
 
 			<div class="Directors">
@@ -50,7 +50,7 @@
 				<div class="otherPage">
 					<div class="card" onclick="linkOpen('bod')">
 						<img src="./icons/bod.png"/>
-						<figcaption>Board Of Directors</figcaption>
+						<figcaption>About Us</figcaption>
 					</div>
 					<div class="card" onclick="linkOpen('adm')">
 						<img src="./icons/admins.png"/>

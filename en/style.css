@@ -9,6 +9,7 @@
   background: #2e3547;
   color: #ccd7e1;
 }
+
 *
 {
   cursor: url("./icons/cursor.png"), auto;
@@ -839,6 +840,7 @@ padding-left:380px;
 }
 .noticeTitle
 {
+   -webkit-transform: translate3d(0, 0, 0);
   padding: 22px 29px;
   margin-left: 100px;
   display: inline-grid;
@@ -851,6 +853,7 @@ padding-left:380px;
 }
 .noticeContent
 {
+   -webkit-transform: translate3d(0, 0, 0);
   padding:0 20px;
   display: inline-flex;
   align-content: center;
@@ -1016,7 +1019,7 @@ padding-left:380px;
 
 .Directors
 {
-  display: flex;
+  display: inline-flex;
   height: auto;
   width: 930px;
   margin: auto;
