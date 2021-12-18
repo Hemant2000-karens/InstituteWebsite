@@ -1021,19 +1021,29 @@ padding-left:380px;
 
 .Directors
 {
-  display: block;
-  height: auto;
-  width: 950px;
-  margin: auto;
-  padding: 20px;
+  padding: 12px 30px;
+  margin: 0 -5px;
+}
+.members
+{
+  font-family: ;
+  width: -webkit-fill-available;
+  padding: 16px;
+  text-align: center;
 }
 
 .profile
 {
-  padding: 15px;
-  margin: 10px 50px;
-  width: auto;
-  display: grid;
+  display: inline-flex;
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+}
+.Directors:after
+{
+  content: "";
+  display: table;
+  clear: both;
 }
 .nameDirector
 {

@@ -7,7 +7,7 @@
     <div class="dropdown-content">
       <a href="cse.iiitdmj.ac.in">Computer Science and Engineering(CS.E)</a>
       <a href="me.iiitdmj.ac.in">Mechanical Engineering(M.E)</a>
-      <a href="Ece.iiitdmj.ac.in">Electrical and Electronics Engineering(EC.E)</a>
+      <a href="ece.iiitdmj.ac.in">Electrical and Electronics Engineering(EC.E)</a>
       <a href="design.iiitdmj.ac.in">Design(B.Des)</a>
       <a href="ns.iiitdmj.ac.in">Natural Science(N.S)</a>
     </div>

@@ -21,7 +21,33 @@
 			</div>
 
 			<div class="Directors">
-				<div class=""></div>
+				<div class="profile">
+					<div class="members">
+						<h3>Shri Deepak Ghaisas</h3>
+					     <p>Chairman of the Board</p>
+					</div>
+					<div class="members">
+						<h3>Shri Manish Rastogi</h3>
+					     <p>Member</p>
+					     <p>Principal Secretary<br>Department of Science and Technology
+					     Government of MP</p>
+					</div>
+					<div class="members">
+						<h3>Shri Rakesh Ranjan</h3>
+					     <p>Member</p>
+					     <p>Additional Secretary<br>(IITs/IIITs/TE/TC/TEQUIP)
+					     </p>
+					</div>
+					<div class="members">
+						<h3>Card 1</h3>
+					     <p>Some text</p>
+					     <p>Some text</p>
+					</div><div class="members">
+						<h3>Card 1</h3>
+					     <p>Some text</p>
+					     <p>Some text</p>
+					</div>
+				</div>
 			</div>
 			<section class="secondAbout">
 				<div class="otherPage">
