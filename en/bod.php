@@ -21,46 +21,8 @@
 			</div>
 
 			<div class="Directors">
-				<div class="profile">
-					<span class="nameDirector">Shri Deepak Ghaisas</span>
-					<span class="designation">Chairman of the Board</span>
-					<span class="offAddrs">
-						
-					</span>
-				</div>
-				<div class="profile">
-					<span class="nameDirector">Shri Manish Rastogi</span>
-					<span class="designation">Member</span>
-					<span class="offAddrs"></span>
-				</div>
-				<div class="profile">
-					<span class="nameDirector">Shri Rakesh Ranjan</span>
-					<span class="designation">Member</span>
-					<span class="offAddrs"></span>
-				</div>
-				<div class="profile">
-					<span class="nameDirector">Dr. Jaideep Kumar Mishra</span>
-					<span class="designation">Member</span>
-					<span class="offAddrs"></span>
-				</div>
-				<div class="profile">
-					<span class="nameDirector">Dr. Jaideep Kumar Mishra</span>
-					<span class="designation">Member</span>
-					<span class="offAddrs"></span>
-				</div>
-				<div class="profile">
-					<span class="nameDirector">Dr. Jaideep Kumar Mishra</span>
-					<span class="designation">Member</span>
-					<span class="offAddrs"></span>
-				</div>
-				<div class="profile">
-					<span class="nameDirector">Dr. Jaideep Kumar Mishra</span>
-					<span class="designation">Member</span>
-					<span class="offAddrs"></span>
-				</div>
+				<div class=""></div>
 			</div>
-
-
 			<section class="secondAbout">
 				<div class="otherPage">
 					<div class="card" onclick="linkOpen('bod')">

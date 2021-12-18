@@ -2,6 +2,7 @@ body,html{
     background-color:#fdfdfd;
     padding: 0px;
     }
+
 @media screen and (max-width: 960px) {
   .header h1
   {
@@ -1154,11 +1155,13 @@ and (max-width:665px)
   }
 }
 
+/* BOD Page ---*/
+
+ 
 
 
 
-
-
+/* End of BOD page--- */
 
 /* Old Desktops and laptops ------------------ */
 @media only screen 

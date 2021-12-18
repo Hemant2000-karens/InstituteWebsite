@@ -1021,16 +1021,18 @@ padding-left:380px;
 
 .Directors
 {
-  display: flex;
+  display: block;
   height: auto;
-  width: 930px;
+  width: 950px;
   margin: auto;
   padding: 20px;
 }
+
 .profile
 {
+  padding: 15px;
   margin: 10px 50px;
-  width: 230px;
+  width: auto;
   display: grid;
 }
 .nameDirector
