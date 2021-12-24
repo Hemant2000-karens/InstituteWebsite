@@ -1213,6 +1213,17 @@ and (orientation: landscape)
 
 
 /* Desktops ------------------ */
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px)
+and (orientation: landscape)
+{
+  .deskSpeech
+  {
+    padding: 0 31px 0 43px !important;
+  }
+}
+
 @media only screen 
 and (min-width : 640px)
 and (max-width: 1024px)
@@ -1224,7 +1235,7 @@ and (orientation: landscape)
   }
   .deskSpeech
   {
-    padding: 0 31px 0 52px!important;
+    padding: 0 31px 0 52px !important;
   }
   /* Add Your CSS Styling Here */
 }
@@ -1236,7 +1247,7 @@ and (orientation: landscape)
 {
   .deskSpeech
   {
-    padding: 0 15px 0 720px;
+    padding: 0 15px 0 720px important;
   }
   .deskNav
   {
