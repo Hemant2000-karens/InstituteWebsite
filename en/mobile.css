@@ -1224,7 +1224,7 @@ and (orientation: landscape)
   }
   .deskSpeech
   {
-    padding: 0 31px 0 52px;
+    padding: 0 31px 0 52px!important;
   }
   /* Add Your CSS Styling Here */
 }
