@@ -32,7 +32,7 @@
     <button class="dropbtn">Media 
     </button>
     <div class="dropdown-content">
-      <a href="#">Photo Gallery</a>
+      <a href="gallery.php">Photo Gallery</a>
       <a href="#">Video Gallery</a>
       <a href="#">Magazines</a>
       <a href="#">Social Sites Posts</a>
