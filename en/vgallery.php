@@ -14,6 +14,20 @@
 		<?php include "./navbar.php" ?>
 		<span class="br"></span>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</body>
 </div>
 <?php include './footer.php'?>
