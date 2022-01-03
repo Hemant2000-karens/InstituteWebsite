@@ -33,10 +33,10 @@
     </button>
     <div class="dropdown-content">
       <a href="gallery.php">Photo Gallery</a>
-      <a href="#">Video Gallery</a>
-      <a href="#">Magazines</a>
-      <a href="#">Social Sites Posts</a>
-      <a href="#">News Media</a>
+      <a href="vgallery.php">Video Gallery</a>
+      <a href="magz.php">Magazines</a>
+      <a href="soc.php">Social Sites Posts</a>
+      <!--<a href="#">News Media</a>-->
     </div>
   </div> 
 
