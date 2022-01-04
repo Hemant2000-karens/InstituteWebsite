@@ -1,7 +1,7 @@
 <div class="noticebody">
 	<div class="noticeTitle">
 		<span>News & <strong>Notice</strong></span>
-		<span style="padding: 0 18px;"><a href="#">View All</a></span>
+		<span style="padding: 0 18px;"><a href="viewall.php">View All</a></span>
 	</div>
 
 	<div class="noticeSlider">
