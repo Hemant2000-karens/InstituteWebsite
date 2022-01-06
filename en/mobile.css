@@ -514,13 +514,14 @@ and (orientation: landscape)
 }
 
 
+
+
 @media screen 
 and (max-width: 770px)
 {
   .topheader{
     font-size: xx-small;
   }
-
 
   .topheader .language a{
     padding:10px;
@@ -640,7 +641,49 @@ and (max-width: 770px)
   }
 }
 
-
+@media (max-width: 786px) {
+   .timeline__event {
+    box-sizing: border-box;
+     flex-direction: column;
+     align-self: center;
+     width: 75vw;
+  }
+   .timeline__event__content {
+     width: 100%;
+     box-sizing: border-box;
+  }
+   .timeline__event__icon {
+     border-radius: 6px 6px 0 0;
+     width: 100%;
+     margin: 0;
+     box-sizing: border-box;
+     box-shadow: none;
+  }
+   .timeline__event__icon:before, .timeline__event__icon:after {
+     display: none;
+     box-sizing: border-box;
+  }
+   .timeline__event__date {
+     border-radius: 0;
+     padding: 20px;
+     box-sizing: border-box;
+  }
+   .timeline__event:nth-child(2n + 1) {
+     flex-direction: column;
+     align-self: center;
+     box-sizing: border-box;
+  }
+   .timeline__event:nth-child(2n + 1) .timeline__event__date {
+     border-radius: 0;
+     padding: 20px;
+     box-sizing: border-box;
+  }
+   .timeline__event:nth-child(2n + 1) .timeline__event__icon {
+     border-radius: 6px 6px 0 0;
+     margin: 0;
+     box-sizing: border-box;
+  }
+}
 
 
 /* Notice and Message for multiple resolution (mobile and tablet iPad)*/
