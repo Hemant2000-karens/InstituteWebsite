@@ -34,7 +34,7 @@
 					<div class="members">
 						<h3>Shri Rakesh Ranjan</h3>
 					     <p>Member</p>
-					     <p>Additional Secretary<br>(IITs/IIITs/TE/TC/TEQUIP)</p>
+					     <p>Additional Secretary<br>(IITs/IIITs/<br>TE/TC/TEQUIP)</p>
 					</div>
 					<div class="members">
 						<h3>Dr. Jaideep Kumar Mishra</h3>
@@ -87,7 +87,7 @@
 					<div class="members">
 						<h3>Prof. P.N Kondekar</h3>
 					     <p>Member</p>
-					     <p>Director(L/C)<br>PDPM IIITDM Jabaplpur</p>
+					     <p>Director(I/C)<br>PDPM IIITDM Jabaplpur</p>
 					</div>
 					<div class="members">
 						<h3>Ms. Swapnali D.Gadekar</h3>
@@ -95,7 +95,7 @@
 					     <p>Acting Registrar<br>PDPM IIITDM Jabalpur
 					     </p>
 					</div>
-				</div>				
+				</div>
 			</div>
 			<section class="secondAbout">
 				<div class="otherPage">
@@ -138,7 +138,7 @@
 	button.addEventListener("Click",linkOpen);
 
 
-	function linkOpen(str) 
+	function linkOpen(str)
 	{
 		switch(str)
 		{
@@ -161,7 +161,7 @@
 				window.open('https://www.oracle.com', '_blank');
 				break;
 		}
-		
+
 	}
 </script>
 </html>

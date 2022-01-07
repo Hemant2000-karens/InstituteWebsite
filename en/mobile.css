@@ -18,10 +18,10 @@ body,html{
     display: inline-flex;
     font-size: 10;
     width: -webkit-fill-available;
-  } 
+  }
 }
 
-@media screen 
+@media screen
 and (max-width: 960px)
 {
   .active a
@@ -70,9 +70,9 @@ and (max-width: 960px)
   }
 }
 
-@media only screen 
-and (min-width: 462px) 
-and (max-width: 960px) 
+@media only screen
+and (min-width: 462px)
+and (max-width: 960px)
 {
   .header h1
   {
@@ -80,7 +80,7 @@ and (max-width: 960px)
   }
 }
 
-@media screen 
+@media screen
 and (max-width:390px)
 and (orientation: portrait)
 {
@@ -91,7 +91,7 @@ and (orientation: portrait)
 
 }
 
-@media screen 
+@media screen
 and (max-width: 380px)
 and (orientation: portrait)
 {
@@ -118,12 +118,6 @@ and (orientation: portrait)
 
 @media screen and (max-width: 600px)
 {
-  .members
-  {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
   .SecondaryNav
 {
   display: inline-flex;
@@ -142,11 +136,11 @@ and (orientation: portrait)
 
 @media screen and (max-width: 960px)
 {
-  .topnav a:not(:first-child), .dropdown .dropbtn 
+  .topnav a:not(:first-child), .dropdown .dropbtn
   {
     display: none;
   }
-  .topnav a.icon 
+  .topnav a.icon
   {
     float: right;
     display: block;
@@ -254,7 +248,7 @@ and (orientation: landscape)
   }
 }
 
-@media screen 
+@media screen
 and (min-width:770px)
 and (max-width:960px)
 and (orientation: portrait)
@@ -280,7 +274,7 @@ and (orientation: portrait)
   }
   .rowDean
   {
-    
+
   }
   .footer
   {
@@ -312,15 +306,15 @@ and (orientation: portrait)
   }
 }
 
-@media only screen 
+@media only screen
 and (min-width: 320px)
 and (max-width: 375px)
-and (orientation: portrait) 
+and (orientation: portrait)
 {
  .bodyContent
   {
     width: -webkit-fill-available;
-  } 
+  }
   .tableContainer
   {
   padding: 0;
@@ -337,10 +331,10 @@ and (orientation: portrait)
     width: 80%;
   }
 }
-@media only screen 
+@media only screen
 and (min-width: 320px)
 and (max-width: 680px)
-and (orientation: landscape) 
+and (orientation: landscape)
 {
   .bodyContent
   {
@@ -361,10 +355,10 @@ and (orientation: landscape)
 }
 
 
-@media only screen 
+@media only screen
 and (min-width: 461px)
 and (max-width: 770px)
-and (orientation: portrait) 
+and (orientation: portrait)
 {
   .bodyContent
   {
@@ -386,10 +380,10 @@ and (orientation: portrait)
   }
 }
 
-@media only screen 
+@media only screen
 and (min-width: 375px)
 and (max-width: 460px)
-and (orientation: portrait) 
+and (orientation: portrait)
 {
 
   .topnav a
@@ -465,7 +459,7 @@ and (orientation: portrait)
   }
 }
 
-@media screen 
+@media screen
 and (max-width:460px)
 {
 .messageDesk1
@@ -509,14 +503,14 @@ and (orientation: landscape)
 {
   .noticebody
   {
-    margin-left: 14px; 
+    margin-left: 14px;
   }
 }
 
 
 
 
-@media screen 
+@media screen
 and (max-width: 770px)
 {
   .topheader{
@@ -527,7 +521,7 @@ and (max-width: 770px)
     padding:10px;
     font-size: xx-small;
   }
-  
+
   .topheader .main-group {
     padding-top:4px;
     padding-left:1px;
@@ -735,7 +729,7 @@ and (max-width: 770px)
     font-weight: 600;
     font-size: x-large;
     padding-left: 10px;
-    padding-top: 20px; 
+    padding-top: 20px;
   }
   .deskTabs a:first-child
   {
@@ -771,7 +765,7 @@ and (max-width: 770px)
   }
 }
 
-@media screen 
+@media screen
 and (min-width: 461px)
 and (max-width: 690px)
 {
@@ -791,7 +785,7 @@ and (max-width: 690px)
 }
 
 
-@media screen 
+@media screen
 and (min-width: 691px)
 and (max-width: 780px)
 {
@@ -816,8 +810,8 @@ and (max-width: 780px)
 
 
 
-@media screen 
-and (min-width: 768px) 
+@media screen
+and (min-width: 768px)
 and (max-width: 900px)
 {
   .noticeSlider
@@ -826,7 +820,7 @@ and (max-width: 900px)
   }
 }
 /* Smartphones (landscape) ---------------- */
-@media only screen 
+@media only screen
 and (min-width : 321px)
 and (max-width : 767px)
 {
@@ -838,7 +832,7 @@ and (max-width : 767px)
 
 
 /* Tablets (portrait) -------------------- */
-@media only screen 
+@media only screen
 and (min-width: 768px)
 and (max-device-width : 1024px)
 {
@@ -851,10 +845,10 @@ and (max-device-width : 1024px)
 
 
 /* Tablets (landscape) ------------------- */
-@media only screen 
-and (min-device-width : 568px) 
-and (max-device-width : 960px) 
-{ 
+@media only screen
+and (min-device-width : 568px)
+and (max-device-width : 960px)
+{
   .home .caption h1
   {
     font-size: 20px;
@@ -865,10 +859,10 @@ and (max-device-width : 960px)
   }
 }
 
-@media only screen 
-and (min-device-width : 659px) 
-and (max-device-width : 770px) 
-{ 
+@media only screen
+and (min-device-width : 659px)
+and (max-device-width : 770px)
+{
   .noticeSlider
   {
     margin-left:25px ;
@@ -880,10 +874,10 @@ and (max-device-width : 770px)
   }
 }
 
-@media only screen 
-and (min-device-width : 461px) 
-and (max-device-width : 658px) 
-{ 
+@media only screen
+and (min-device-width : 461px)
+and (max-device-width : 658px)
+{
   .noticeSlider
   {
     margin-left:25px ;
@@ -896,10 +890,10 @@ and (max-device-width : 658px)
 }
 
 
-@media only screen 
-and (min-device-width : 461px) 
-and (max-device-width : 1024px) 
-{ 
+@media only screen
+and (min-device-width : 461px)
+and (max-device-width : 1024px)
+{
   .messageDesk
   {
     display: none;
@@ -923,7 +917,7 @@ and (max-device-width : 1024px)
   {
     margin-left: 30%;
     padding-left: 50px;
-    padding-top: 20px; 
+    padding-top: 20px;
   }
   .deskTabs a:first-child
   {
@@ -940,10 +934,10 @@ and (max-device-width : 1024px)
   }
 }
 
-@media only screen 
-and (min-device-width : 461px) 
-and (max-device-width : 505px) 
-{ 
+@media only screen
+and (min-device-width : 461px)
+and (max-device-width : 505px)
+{
   .footer .footer-heading
   {
     padding: 0 150px;
@@ -1143,7 +1137,7 @@ and (orientation: landscape)
 and (min-width: 375px)
 and (max-width: 814px)
 and (orientation: portrait)
-{ 
+{
   .noticeSlider
   {
     float: left;
@@ -1167,7 +1161,7 @@ and (orientation: landscape)
  .footer .footer-heading
  {
   padding: 20px 34px;
- } 
+ }
 }
 
 /* Redmi Settings Ends */
@@ -1206,17 +1200,47 @@ and (max-width:665px)
 
 /* BOD Page ---*/
 
- 
-
+@media only screen
+and (min-width: 375px)
+and (max-width: 580px)
+and (orientation: portrait)
+{
+    .profile
+    {
+      width: auto;
+      display: block;
+    }
+    .Director
+    {
+      margin: 12px auto;
+    }
+    .members
+    {
+      width: 60vw;
+      display: block;
+      margin: 12px auto;
+    }
+}
 
 
 /* End of BOD page--- */
 
+
+/* administor page*/
+
+
+
+
+
+
+
+
+
 /* Old Desktops and laptops ------------------ */
-@media only screen 
+@media only screen
 and (min-width : 800px)
 and (max-width: 1280px)
-and (orientation: landscape) 
+and (orientation: landscape)
 {
   .deskTitle
   {
@@ -1242,10 +1266,10 @@ and (orientation: landscape)
   /* Add Your CSS Styling Here */
 }
 
-@media only screen 
+@media only screen
 and (min-width : 641px)
 and (max-width: 680px)
-and (orientation: landscape) 
+and (orientation: landscape)
 {
   .noticebody
   {
@@ -1267,10 +1291,10 @@ and (orientation: landscape)
   }
 }
 
-@media only screen 
+@media only screen
 and (min-width : 640px)
 and (max-width: 1024px)
-and (orientation: landscape) 
+and (orientation: landscape)
 {
   .noticeContent
   {
@@ -1296,7 +1320,7 @@ and (orientation: landscape)
   {
     padding-right: -5px !important;
   }
-  .deskTabs a:first-child 
+  .deskTabs a:first-child
   {
     padding-left: 150px;
   }
