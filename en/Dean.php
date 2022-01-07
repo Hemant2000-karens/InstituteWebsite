@@ -187,11 +187,19 @@
 
 			<div class = "tableContainer">
 				<div class="rowDean">
-					<div class="columnDean">
-    				<img src="./Images/DeanPnD/atul.png" alt="atul" >
-						<h5>Prof. Atul Gupta</h5>
+
+  				<div class="columnDean">
+    				<img src="./Images/DeanPnD/pnkon.png" alt="Prof. P.N Kondekar" >
+						<h5>Prof. P.N Kondekar</h5>
 						<h4>Dean(Planning & Research)</h4>
   				</div>
+
+					<div class="columnDean">
+    				<img src="./Images/DeanPnD/atul.png" alt="Prof, Atul" >
+						<h5>Prof. Atul Gupta</h5>
+						<h4>Associate Dean(Planning & Research)</h4>
+  				</div>
+
 
 			</div>
 		</div>
