@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>BOD | IIITDMJ</title>
+	<title>BOG | IIITDMJ</title>
 		<meta http-equiv="refresh" content="3000">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
@@ -29,25 +29,73 @@
 					<div class="members">
 						<h3>Shri Manish Rastogi</h3>
 					     <p>Member</p>
-					     <p>Principal Secretary<br>Department of Science and Technology
-					     Government of MP</p>
+					     <p>Principal Secretary<br>Department of Science and Technology Government of MP</p>
 					</div>
 					<div class="members">
 						<h3>Shri Rakesh Ranjan</h3>
 					     <p>Member</p>
-					     <p>Additional Secretary<br>(IITs/IIITs/TE/TC/TEQUIP)
-					     </p>
+					     <p>Additional Secretary<br>(IITs/IIITs/TE/TC/TEQUIP)</p>
 					</div>
 					<div class="members">
-						<h3>Card 1</h3>
-					     <p>Some text</p>
-					     <p>Some text</p>
-					</div><div class="members">
-						<h3>Card 1</h3>
-					     <p>Some text</p>
-					     <p>Some text</p>
+						<h3>Dr. Jaideep Kumar Mishra</h3>
+					     <p>Member</p>
+					     <p>Joint Secretary & Group Coordinator<br>Ministry of Electronics and Information Technology</p>
+					</div>
+
+
+					<div class="members">
+						<h3>Prof. R. V. Raja kumar</h3>
+					     <p>Member</p>
+					     <p> Director<br>Indian Institute of Technology Bhubaneswar</p>
 					</div>
 				</div>
+
+				<div class="profile">
+					<div class="members">
+						<h3>Prof. Shailendra Singh</h3>
+					     <p>Member</p>
+					     <p>Director<br>IIM Ranchi</p>
+					</div>
+					<div class="members">
+						<h3>Ms. Atreyee Borooah Thekedath</h3>
+					     <p>Member</p>
+					     <p>Director<br>Web.com (India) Pvt. Ltd.</p>
+					</div>
+					<div class="members">
+						<h3>Shri Prashant Pole</h3>
+					     <p>Member</p>
+					     <p>Director<br>Disha Consultants, Jabalpur</p>
+					</div>
+					<div class="members">
+						<h3>Shri Subrahmanya S V</h3>
+					     <p>Member</p>
+					     <p>Former VC<br>Infosys Ltd. Bengluru</p>
+					</div>
+					<div class="members">
+						<h3>Prof. Prashant K. Jain</h3>
+					     <p>Member</p>
+					     <p>Professor<br>PDPM IIITDM Jabaplpur</p>
+					</div>
+				</div>
+
+				<div class="profile">
+					<div class="members">
+						<h3>Prof. Sanjeev N. Sharma</h3>
+					     <p>Member</p>
+					     <p>Professor<br>PDPM IIITDM Jabaplpur</p>
+					</div>
+					<div class="members">
+						<h3>Prof. P.N Kondekar</h3>
+					     <p>Member</p>
+					     <p>Director(L/C)<br>PDPM IIITDM Jabaplpur</p>
+					</div>
+					<div class="members">
+						<h3>Ms. Swapnali D.Gadekar</h3>
+					     <p>Secretary</p>
+					     <p>Acting Registrar<br>PDPM IIITDM Jabalpur
+					     </p>
+					</div>
+				</div>				
 			</div>
 			<section class="secondAbout">
 				<div class="otherPage">
