@@ -10,7 +10,7 @@ if ($result->num_rows > 0) {
         echo $row['thought'];
     }
 } else {
-    echo "0 results";
+    echo "No Thought Today, Please Update";
 }
 
 $link ->close();
