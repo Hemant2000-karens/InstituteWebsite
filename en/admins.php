@@ -12,7 +12,7 @@
 	<div class="container">
 		<body>
 			<?php include './Header.php';?>
-			<?php include "./navbar.php" ?>
+			<?php include "./navbar.php"; ?>
 
 			<span class="br"></span>
 
@@ -21,7 +21,69 @@
 			</div>
 
 				<div class="administor">
-					
+						<div class="aboutHeader">
+							<h2>Director</h2>
+						</div>
+											<div class="adminProfile">
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+													<span class=""></span>
+												</div>
+											</div>
+						<div class="aboutHeader">
+							<h2>Dean</h2>
+						</div>
+											<div class="adminProfile">
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+											</div>
+						<div class="aboutHeader">
+							<h2>Head of Department</h2>
+						</div>
+											<div class="adminProfile">
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+											</div>
+						<div class="aboutHeader">
+							<h2>Registrar</h2>
+						</div>
+											<div class="adminProfile">
+												<div class="personDetails">
+													<img src="./Images/Administrators/pnkon.png"/>
+												</div>
+											</div>
 				</div>
 
 			<section class="secondAbout">
