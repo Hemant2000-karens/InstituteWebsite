@@ -1221,7 +1221,7 @@ padding-left:380px;
 }
 .aboutHeader h2
 {
-  font-size: 20px;
+  font-size: 25px;
   font-family:'varela round',sans-serif;
 }
 .secondAbout
@@ -1311,12 +1311,38 @@ padding-left:380px;
 /* BOD Ends*/
 
 /* Administration*/
-
 .administor
 {
   width: 100%;
+  margin: 20px auto;
 }
 .adminProfile
 {
-  
+  display: flex;
+}
+.personDetails
+{
+  margin: 20px auto;
+  justify-items: center;
+  justify-content: space-evenly;
+  display: grid;
+}
+.personDetails img
+{
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
+.adminName
+{
+  margin-top: 8px;
+  font-family: '',sans-serif;
+  color: #0070c9;
+}
+.adminPost
+{
+  text-align: center;
+  margin-top: 5px;
+  font-family: '',sans-serif;
+  color: black;
 }
