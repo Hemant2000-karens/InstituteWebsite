@@ -9,8 +9,11 @@
         <link rel="stylesheet" href="style.css">
        <link rel="stylesheet" type="text/css" href="mobile.css">
     </head>
-    
+
     <body>
+      <div id="overlay" onclick="off()">
+        <img  id="welcomeNotice" src="./Images/vaccination.jpg">
+    </div>
     <?php include 'topheader.php';?>
     <div class="container">
    <?php include 'Header.php'?>
@@ -26,7 +29,7 @@
   <!-- BANNER-->
 
 <span class="br"></span>
-    
+
 
   <div class="thought_for_Day">
     <fieldset>
@@ -48,9 +51,17 @@
 
 <?php include './messageDesk.php'; ?>
 <span class="br"></span>
+<?php include './';?>
 <?php include './other.php'?>
-</div>
 
- <?php include './footer.php';?>
+</div>
 </body>
+<?php include './footer.php';?>
+<script>
+
+document.getElementById("overlay").style.display = "block";
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
 </html>
