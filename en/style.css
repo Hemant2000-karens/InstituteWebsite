@@ -1316,46 +1316,14 @@ padding-left:380px;
   font-size:large;
   color: #4c4c4c;
   width: max-content;
-  font-family: 'noto Sans', sans-serif;;
+  font-family: 'noto Sans', sans-serif;
 }
 
 /* BOD Ends*/
 
 /* Administration*/
-.administor
-{
-  width: 100%;
-  margin: 20px auto;
-}
-.adminProfile
-{
-  display: flex;
-}
-.personDetails
-{
-  margin: 20px auto;
-  justify-items: center;
-  justify-content: space-evenly;
-  display: grid;
-}
-.personDetails img
-{
-    border-radius: 5px;
-    height: 200px;
-    width: 200px;
-}
-.adminName
-{
-  margin-top: 8px;
-  font-family: 'varela round',sans-serif;
-  color: #0070c9;
-}
-.adminPost
-{
-  text-align: center;
-  margin-top: 5px;
-  font-family: 'varela round',sans-serif;
-  color: black;
-}
+
+
+
 
 /* Local Administrators */

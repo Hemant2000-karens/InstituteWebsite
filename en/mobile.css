@@ -1238,6 +1238,30 @@ and (orientation: portrait)
 
 /* Old Desktops and laptops ------------------ */
 @media only screen
+and (min-width:1080px)
+and (max-width: 1920px)
+and (orientation: portrait)
+{
+  .deskTitle
+  {
+    padding-left:0;
+
+  }
+  .deskTabs a:first-child
+  {
+    padding-left: 80px;
+  }
+  .deskSpeech
+  {
+    padding: 0 7px 0 214px;
+  }
+}
+
+
+
+
+
+@media only screen
 and (min-width : 800px)
 and (max-width: 1280px)
 and (orientation: landscape)
