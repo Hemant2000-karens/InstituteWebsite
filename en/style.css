@@ -37,6 +37,8 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
+  height: auto;
+  width: auto;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
 }
@@ -1327,3 +1329,14 @@ padding-left:380px;
 
 
 /* Local Administrators */
+
+
+/* Senate Settings*/
+
+.footerContent
+{
+  margin: 0;
+  padding: 20px 40px;
+  color: #eee;
+  background-color:#979bad;
+}

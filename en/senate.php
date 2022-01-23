@@ -21,6 +21,10 @@
 			</div>
 
 
+			<div class="senate">
+					
+			</div>
+
 			<section class="secondAbout">
 				<div class="otherPage">
 					<div class="card" onclick="linkOpen('bod')">
@@ -53,19 +57,22 @@
 			</section>
 
 		</body>
-<div>
-	
-</div>
 
 	</div>
-	//body ends here
+<!--body ends here-->
+<div class="footerContent">
+		<ol start="1">
+			<li><a href="#"> Matter</a></li>
+			<li><a href="#"> Matter</a></li>
+			<li><a href="#"> Matter</a></li>
+		</ol>
+</div>
 
 <?php include './footer.php'?>
 
 <script type="text/javascript">
 	var button = document.getElementsByClassName("card");
 	button.addEventListener("Click",linkOpen);
-
 
 	function linkOpen(str)
 	{
@@ -90,7 +97,6 @@
 				window.open('https://www.oracle.com', '_blank');
 				break;
 		}
-
 	}
 </script>
 </html>
