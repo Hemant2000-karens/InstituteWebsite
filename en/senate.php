@@ -20,9 +20,8 @@
 				<h2>Senate</h2>
 			</div>
 
-
 			<div class="senate">
-					
+
 			</div>
 
 			<section class="secondAbout">
@@ -61,6 +60,7 @@
 	</div>
 <!--body ends here-->
 <div class="footerContent">
+	<span class=""><sup style="font-size:bolder" >*</sup> Constitution Of The Following New Senate Under Clause 16(I) Of The IIIT Act 2014</span>
 		<ol start="1">
 			<li><a href="#"> Matter</a></li>
 			<li><a href="#"> Matter</a></li>

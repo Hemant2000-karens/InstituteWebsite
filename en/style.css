@@ -1234,6 +1234,7 @@ padding-left:380px;
 }
 .aboutHeader h2
 {
+  color:#5b5b5e;
   font-size: 25px;
   font-family:'varela round',sans-serif;
 }
@@ -1337,6 +1338,11 @@ padding-left:380px;
 {
   margin: 0;
   padding: 20px 40px;
-  color: #eee;
-  background-color:#979bad;
+  color: #7a7a7a;
+  background-color:#cdcdcd;
+}
+.footerContent a
+{
+  text-decoration: none;
+  color: #7a7a7a;
 }
