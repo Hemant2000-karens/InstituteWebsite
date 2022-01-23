@@ -662,7 +662,8 @@ and (max-width: 770px)
 }
 
 
-/* Notice and Message for multiple resolution (mobile and tablet iPad)*/
+/* Notice and Message for multiple
+resolution (mobile and tablet iPad)*/
 @media screen and (max-width: 460px)
 {
   /* Thought of day */
