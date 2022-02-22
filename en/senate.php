@@ -21,7 +21,7 @@
 			</div>
 
 			<div class="senate">
-
+				
 			</div>
 
 			<section class="secondAbout">
@@ -50,7 +50,7 @@
 						</div>
 						<div class="card" onclick="linkOpen('mv')">
 							<img src="./icons/mivi.png"/>
-						<figcaption>Mission & Vision</figcaption>
+						<figcaption>Mission & Vision</figcaption>  
 						</div>
 				</div>
 			</section>
