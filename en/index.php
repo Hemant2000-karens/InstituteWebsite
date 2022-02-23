@@ -6,7 +6,7 @@
        <link rel="icon" type="jpg/png" href="./logo_college.png" sizes="16x16">
         <title>IIITDMJ | Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
        <link rel="stylesheet" type="text/css" href="mobile.css">
     </head>
 
@@ -51,14 +51,11 @@
 
 <?php include './messageDesk.php'; ?>
 <span class="br"></span>
-<?php include './';?>
-<?php include './other.php'?>
-
+<?php include './misc.php';?>
 </div>
 </body>
 <?php include './footer.php';?>
 <script>
-
 document.getElementById("overlay").style.display = "block";
 function off() {
   document.getElementById("overlay").style.display = "none";

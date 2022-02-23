@@ -44,6 +44,14 @@
             </div>
         </div>
 
+<div class="slide" style="background-image: url('./Images/img06.jpg')">
+            <div class="SlideshowContainer">
+                <div class="caption">
+                    <h1>Design Workshop</h1>
+                    <p>Detailed View</p>
+                </div>
+            </div>
+        </div>
 
 
      </div>

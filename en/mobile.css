@@ -154,11 +154,11 @@ and (orientation: portrait)
 @media screen and (max-width: 600px)
 {
   .SecondaryNav
-{
-  display: inline-flex;
-  width: -webkit-fill-available;
-  overflow-x: scroll;
-}
+  {
+    display: inline-flex;
+    width: -webkit-fill-available;
+    overflow-x: scroll;
+  }
   .SecondaryNav a
   {
     display: grid;
@@ -167,6 +167,26 @@ and (orientation: portrait)
 }
 
 
+@media screen and (max-width: 560px)
+{
+  .misc
+  {
+    display: table;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 420px)
+{
+  .bi.bi-camera-fill,.bi-mortarboard-fill,.bi-calendar-week-fill
+{
+  font-size: 45px;
+}
+  .circle
+  {
+    height:120px;
+    width: 120px;
+  }
+}
 /* NavBar */
 
 /* Dean Page Setting */
