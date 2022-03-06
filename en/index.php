@@ -30,12 +30,15 @@
 
 <span class="br"></span>
 
+<div class="current_update">
+  
+</div>
 
   <div class="thought_for_Day">
     <fieldset>
       <legend>Thought for the Day</legend>
       <h1 style="text-align:center; color:#6b6b6b;font-family:'Varela Round', sans-serif;font-weight: 250;">
-      "<?php include 'thought.php' ?>"
+      "<?php include 'thought.php' ?>" 
       </h1>
     </fieldset>
   </div>
