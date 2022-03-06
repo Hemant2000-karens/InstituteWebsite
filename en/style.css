@@ -280,6 +280,8 @@ body{
 .current_update
 {
   width: 100%;
+  background: url();
+  background-repeat: no-repeat;
 }
 
 .thought_for_Day
