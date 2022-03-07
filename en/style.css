@@ -276,13 +276,18 @@ body{
   border: 0.24px solid #ccc;
   height: 420px;
 }
+/* Current Update*/
 
 .current_update
 {
   width: 100%;
-  background: url();
+  background: url("./Images/messageBackground.png");
+  background-size:  100% 100%;
   background-repeat: no-repeat;
 }
+
+/* End of Update */
+
 
 .thought_for_Day
 {
