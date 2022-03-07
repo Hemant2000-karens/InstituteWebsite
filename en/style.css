@@ -1261,8 +1261,54 @@ padding-left:380px;
 
 /* Other Parts - Portal and Birthday */
 
+/* Gallery Pages */
 
 
+
+
+
+
+
+
+
+
+/* Gallery Pages Settings */
+
+/* Video Gallery */
+.vcontainer
+{
+
+  width:-webkit-fill-available;
+  height: auto;
+  padding: 10px 15px;
+  background: #ececec;
+}
+.vCaption
+{
+  margin: 8px;
+  display: inline-grid;
+  justify-items: center;
+}
+.vCaption span
+{
+  color:#001153;
+  margin-top: 10px;
+  font-size: 16.5px;
+  font-family:'Varela Round', sans-serif;
+}
+
+
+/* Video Gallery */
+
+
+
+
+
+
+
+
+
+/* Gallery Pages settings ends */
 
 /* Academics Page */
 
