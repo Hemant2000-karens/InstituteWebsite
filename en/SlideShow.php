@@ -8,6 +8,8 @@
                 </div>
             </div>
         </div>
+
+        
         <div class="slide" style="background-image: url('./Images/img02.jpg')">
             <div class="SlideshowContainer">
                 <div class="caption">
@@ -16,6 +18,7 @@
                 </div>
             </div>
         </div>
+
         <div class="slide" style="background-image: url('./Images/img04.jpg')">
             <div class="SlideshowContainer">
                 <div class="caption">

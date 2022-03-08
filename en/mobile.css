@@ -1160,6 +1160,18 @@ and (orientation: portrait)
   }
 }
 
+@media only screen 
+and (min-width: 810px) 
+and (max-width: 1080px) 
+and (orientation: portrait)
+{
+  .footer .footer-heading 
+  {
+    padding: 20px 22px;
+  }
+}
+
+
 /* iPhone Setting Ends */
 
 /* Redmi Setting 873x393 landscape */

@@ -85,7 +85,7 @@
 
 
 <!-- Desktop, and larger screen -->
-
+<div class="footercolumn">
     <div class="footer-subgroup">
       <h4>ADMISSIONS</h4>
       <div class = "footer-subgroup-links">
@@ -125,6 +125,16 @@
       </div>
     </div>
   </div>
+
+</div>
+
+
+
+
+
+
+
+
 
   <div class="footer-secondary">
     <div class="footer-secondary-links">
