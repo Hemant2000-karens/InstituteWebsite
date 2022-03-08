@@ -119,7 +119,9 @@ and (max-width: 960px)
   }
 
 /* Video Gallery Settings */
-
+.vCaption:nth-child(even){
+  margin-left: 0;
+}
 .vCaption
 {
   margin:12px;
