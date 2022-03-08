@@ -110,7 +110,7 @@ body,html{
 }
 
 @media only screen
-and (min-width: 462px)
+and (min-width: 375px)
 and (max-width: 960px)
 {
   .header h1
@@ -154,7 +154,7 @@ and (orientation: portrait)
   }
   .header h1
   {
-    padding-top: 05px;
+    padding-top: 5px;
   }
 
 }
