@@ -1277,7 +1277,6 @@ padding-left:380px;
 /* Video Gallery */
 .vcontainer
 {
-
   width:-webkit-fill-available;
   height: auto;
   padding: 10px 15px;
@@ -1288,6 +1287,15 @@ padding-left:380px;
   margin: 8px;
   display: inline-grid;
   justify-items: center;
+}
+.vCaption:nth-child(even)
+{
+  margin-left: 12px;
+}
+.vCaption iframe
+{
+  width: 640;
+  height: 400;
 }
 .vCaption span
 {

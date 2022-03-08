@@ -1281,6 +1281,16 @@ and (orientation: portrait)
 }
 
 
+@media only screen
+and (min-width:1024)
+and (max-width: 1080px)
+and (orientation: portrait)
+{
+  
+}
+
+
+
 
 
 

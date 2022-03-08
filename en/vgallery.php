@@ -17,7 +17,7 @@
 <div class="vcontainer">
 
 	<div class="vCaption">
-		<iframe width="640" height="400" src="https://www.youtube.com/embed/_4X9CcLmo7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+		<iframe src="https://www.youtube.com/embed/_4X9CcLmo7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 		</iframe>
 
 		<span class="text">
@@ -27,7 +27,7 @@
 
 
 <div class="vCaption">
-		<iframe width="640" height="400" src="https://www.youtube.com/embed/i1bjtCPNkwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+		<iframe src="https://www.youtube.com/embed/i1bjtCPNkwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 		</iframe>
 		<span class="text">
 			Van Mahotsav 2021 || PDPM IIITDM Jabalpur 
@@ -35,7 +35,7 @@
 	</div>
 
 <div class="vCaption">
-		<iframe width="640" height="400" src="https://www.youtube.com/embed/793FXs-LiT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+		<iframe src="https://www.youtube.com/embed/793FXs-LiT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 		</iframe>
 		<span class="text">
 			Celebration of International Yoga Day 2021i
@@ -43,7 +43,7 @@
 	</div>
 
 <div class="vCaption">
-		<iframe width="640" height="400" src="https://www.youtube.com/embed/P1DHOVwkTsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+		<iframe src="https://www.youtube.com/embed/P1DHOVwkTsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 		</iframe>
 		<span class="text">
 			11th Convocation IIITDM Jabalpur 
