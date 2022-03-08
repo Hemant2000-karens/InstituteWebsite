@@ -128,8 +128,8 @@ and (max-width: 960px)
 }
 .vCaption iframe
 {
-  width: 100%;
-  height: 400px;
+  width: -webkit-fill-available;
+  height: 350px;
 }
 
 
