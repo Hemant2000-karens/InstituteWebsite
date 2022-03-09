@@ -867,13 +867,21 @@ padding-left:380px;
 
 /* Notice Page */
 
+.noticeMain
+{
+  width: -webkit-fill-available;
+  height: auto;
+  padding: 0 80px;
+
+}
+
+
 .noticebody
 {
   display: -webkit-inline-box;
   padding: 20px 0;
   height: 80px;
-  width: 85%;
-  margin-left: 100px;
+  width: -webkit-fill-available;
   border-radius: 4px;
   background: url("./Images/noticebackground.jpg");
 }
@@ -881,7 +889,7 @@ padding-left:380px;
 {
    -webkit-transform: translate3d(0, 0, 0);
   padding: 22px 29px;
-  margin-left: 100px;
+  margin-left: 85px;
   display: inline-grid;
   float:left;
 }
