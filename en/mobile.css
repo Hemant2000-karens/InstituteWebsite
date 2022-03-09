@@ -741,7 +741,7 @@ resolution (mobile and tablet iPad)*/
     margin-left: 0 !important;
     width: 100%;
     display: block;
-    height: 220px;
+    height: 170px;
   }
   .noticeContent p
   {
@@ -1177,7 +1177,7 @@ and (orientation: portrait)
   .noticeSlider
   {
     float: left;
-    margin: 12px 46px;
+    margin: 12px 34px;
   }
   .footer .footer-heading
   {
