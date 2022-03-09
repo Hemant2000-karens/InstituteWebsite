@@ -1,11 +1,16 @@
-body,html{
-    background-color:#fdfdfd;
-    padding: 0px;
-    }
+body,html
+{
+  background-color:#fdfdfd;
+  padding: 0px;
+}
 
-
-
-
+@media screen and (max-width: 560px)
+{
+  .noticeMain
+  {
+    padding: 0 10px !important;
+  }
+}
 
 @media screen and (max-width: 960px) {
   .header h1
@@ -106,6 +111,10 @@ body,html{
   {
     width: 100%;
     height: auto;
+  }
+  .noticeMain
+  {
+    padding: 0 40px;
   }
 }
 
@@ -825,10 +834,6 @@ and (max-width: 690px)
 and (min-width: 691px)
 and (max-width: 780px)
 {
-  .noticebody
-  {
-    margin-left: 45px;
-  }
   /* Notice Page Setting */
   .noticeTitle
   {
@@ -1029,11 +1034,6 @@ and (orientation: portrait)
   .footer .footer-heading
   {
     padding: 20px 192px;
-  }
-  .noticebody
-  {
-    width: 90%;
-    margin-left: 25px;
   }
   .noticeSlider
   {
