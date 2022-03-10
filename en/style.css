@@ -284,7 +284,31 @@ body{
   background: url("./Images/messageBackground.png");
   background-size:  100% 100%;
   background-repeat: no-repeat;
+  height: auto;
 }
+.current_update fieldset
+{
+  height: 33px;
+}
+.current_update fieldset legend
+{
+  font-family: 'Varela Round', sans-serif; 
+  font-size: 18px;
+}
+.current_update h4
+{
+  text-align:center; 
+  color:#6b6b6b;
+  font-family:'Varela Round', sans-serif;
+  font-weight:normal; 
+  margin: 0;
+}
+
+.current_update a
+{
+  text-decoration: none;
+}
+
 
 /* End of Update */
 
@@ -900,7 +924,7 @@ padding-left:380px;
 }
 .noticeContent
 {
-  -webkit-transform: translate3d(0, 0, 0);
+   -webkit-transform: translate3d(0, 0, 0);
   padding:0 20px;
   display: inline-flex;
   align-content: center;

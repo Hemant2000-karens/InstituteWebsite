@@ -813,12 +813,7 @@ resolution (mobile and tablet iPad)*/
 @media screen
 and (min-width: 461px)
 and (max-width: 690px)
-{
-  .noticebody
-  {
-    margin-left: 20px;
-  }
-  /* Notice Page Setting */
+{  /* Notice Page Setting */
   .noticeTitle
   {
     margin-left: 20px;
@@ -1157,11 +1152,11 @@ and (orientation: landscape)
   }
   .messageDesk1
   {
-  background:url("./Images/messageBackground.png");
-  background-repeat: no-repeat;
-  background-size:  100% 100%;
-  font-family: 'Noto Sans';
-  display: block;
+    background:url("./Images/messageBackground.png");
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    font-family: 'Noto Sans';
+    display: block;
   }
   .deskTitle
   {

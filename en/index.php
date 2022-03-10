@@ -31,8 +31,20 @@
 <span class="br"></span>
 
 <div class="current_update">
-  
+  <fieldset>
+    <legend>Current updates</legend>
+      <marquee behavior="scroll" direction="right" 
+                 Scrollamount=3>
+        <a href="<?php echo("Null");?>">
+          <h4>
+            <?php include 'currentupdate.php' ?>
+          </h4>
+        </a>
+      </marquee>
+  </fieldset>
 </div>
+
+<br>
 
   <div class="thought_for_Day">
     <fieldset>
