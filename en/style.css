@@ -887,7 +887,7 @@ padding-left:380px;
 }
 .noticeTitle
 {
-   -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
   padding: 22px 29px;
   margin-left: 85px;
   display: inline-grid;
@@ -900,7 +900,7 @@ padding-left:380px;
 }
 .noticeContent
 {
-   -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
   padding:0 20px;
   display: inline-flex;
   align-content: center;
