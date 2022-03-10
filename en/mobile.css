@@ -1165,7 +1165,20 @@ and (orientation: landscape)
   }
   .footer .footer-heading
   {
+    width: -webkit-fill-available;
     padding: 20px 210px;
+  }
+}
+
+@media only screen
+and(min-width: 450px)
+and(max-width: 977px)
+and(orientation: portrait)
+{
+  .noticeSlider
+  {
+    float: left;
+    margin: 12px 34px !important;
   }
 }
 
@@ -1174,11 +1187,6 @@ and (min-width: 375px)
 and (max-width: 814px)
 and (orientation: portrait)
 {
-  .noticeSlider
-  {
-    float: left;
-    margin: 12px 34px;
-  }
   .footer .footer-heading
   {
     padding: 20px 100px;
