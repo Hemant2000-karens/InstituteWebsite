@@ -309,6 +309,32 @@ body{
   text-decoration: none;
 }
 
+.glow {
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 
+    0 0 10px #fff, 
+    0 0 20px #fff,
+    0 0 30px #e2e2e2, 
+    0 0 40px #e2e2e2, 
+    0 0 50px #e2e2e2, 
+    0 0 60px #e2e2e2, 
+    0 0 70px #e2e2e2;
+  }
+  to {
+    text-shadow: 
+    0 0 20px #fff, 
+    0 0 30px #2e3547, 
+    0 0 40px #2e3547, 
+    0 0 50px #2e3547,
+    0 0 60px #2e3547, 
+    0 0 70px #2e3547, 
+    0 0 80px #2e3547;
+  }
+}
 
 /* End of Update */
 

@@ -763,7 +763,7 @@ resolution (mobile and tablet iPad)*/
   /* Message Setting */
 
   .deskImage img{
-    width: 100%;
+    width: 95%;
   }
   .messageDesk
   {
@@ -1124,7 +1124,6 @@ and(max-width: 430px)
 {
   .noticeSlider
   {
-    float: left;
     margin: 12px 34px !important;
   }
 }

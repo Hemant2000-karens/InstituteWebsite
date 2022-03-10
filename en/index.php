@@ -37,7 +37,7 @@
                  Scrollamount=3>
         <a href="<?php echo("Null");?>">
           <h4>
-            <?php include 'currentupdate.php' ?>
+            <?php include 'currentupdate.php' ?><sup class="glow">New</sup>
           </h4>
         </a>
       </marquee>
