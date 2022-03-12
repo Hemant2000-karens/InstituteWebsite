@@ -11,7 +11,7 @@
 <div class="container">
 	<body>
 		<?php include './Header.php';?>
-		<?php include "./navbar.php" ?>
+		<?php include './navbar.php';?>
 		<span class="br"></span>
 
 <div class="social_media_posts">

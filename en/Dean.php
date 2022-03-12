@@ -27,7 +27,9 @@
 	<br>
 
 	<div class="bodyContent" id = "deanACD" style="display:block">
-			<div class="deanHeader" id ="NameofDean">
+
+			<div class="deanHeader" id ="NameofDean-0">
+
 				<h2>Dean Academic</h2>
 			</div>
 		<br>
@@ -92,9 +94,11 @@
 
 
 	<div class="bodyContent" id = "deanAStd">
-		<div class="deanHeader" id ="NameofDean">
+
+		<div class="deanHeader" id ="NameofDean-1">
 		<h2>Dean Students</h2>
 		</div>
+		<br>
 
 	<div class = "tableContainer">
 			<div class="rowDean">
@@ -145,7 +149,8 @@
 	</div>
 
 	<div class="bodyContent" id = "deanrpSC">
-		<div class="deanHeader" id ="NameofDean">
+
+		<div class="deanHeader" id ="NameofDean-2">
 			<h2>Dean RSPC</h2>
 		</div>
 		<div class = "tableContainer">
@@ -181,8 +186,9 @@
 
 
 	<div class="bodyContent" id = "deanPND">
-		<div class="deanHeader" id ="NameofDean">
-		<h2>Dean P&D</h2>
+
+		<div class="deanHeader" id ="NameofDean-3">
+			<h2>Dean P&D</h2>
 		</div>
 
 			<div class = "tableContainer">
@@ -212,16 +218,21 @@
 
 
 <script>
-	function openTab(evt, pageName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("bodyContent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
+
+	function openTab(evt, pageName) 
+	{
+  	var i, tabcontent, tablinks;
+  	tabcontent = document.getElementsByClassName("bodyContent");
+  	for (i = 0; i < tabcontent.length; i++) 
+  	{
+    	tabcontent[i].style.display = "none";
+  	}
+  	tablinks = document.getElementsByClassName("tablinks");
+  	for (i = 0; i < tablinks.length; i++) 
+  	{
     tablinks[i].className = tablinks[i].className.replace(" active1", "");
   }
+
   document.getElementById(pageName).style.display = "block";
   evt.currentTarget.className += " active1";
 }
@@ -230,15 +241,32 @@ window.onscroll = function()
 {
   stickyFunction()
 };
-var navbar = document.getElementById("NameofDean");
-var sticky = navbar.offsetTop;
+
+
+
+
+var navbar = document.getElementById("NameofDean-0");
+var navbar1 = document.getElementById("NameofDean-1");
+var navbar2 = document.getElementById("NameofDean-2");
+var navbar3 = document.getElementById("NameofDean-3");
+
+	var sticky = navbar.offsetTop;
+	var sticky1 = navbar1.offsetTop;
+	var sticky2 = navbar2.offsetTop;
+	var sticky3 = navbar3.offsetTop;
 
 function stickyFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    navbar.classList.add("sticky");
+    navbar1.classList.add("sticky");
+    navbar2.classList.add("sticky");
+    navbar3.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
-  }
-}
+    navbar1.classList.remove("sticky");
+    navbar2.classList.remove("sticky");
+    navbar3.classList.remove("sticky");
+ 		}
+	}
 </script>
 </html>
