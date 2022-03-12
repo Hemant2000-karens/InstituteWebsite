@@ -442,7 +442,7 @@ and (orientation: portrait)
   .bodyContent{
     margin-left: auto;
     margin-right: auto;
-    width: 87.5%;
+    width: -webkit-fill-available !important;
   }
   .tableContainer
   {
