@@ -513,6 +513,11 @@ and (orientation: portrait)
 @media screen
 and (max-width:460px)
 {
+  .noticeSlider
+  {
+    float: left;
+    margin: 0 9.56vw;
+  }
 .messageDesk1
 {
   background:url("./Images/messageBackground.png");
@@ -1037,10 +1042,6 @@ and (orientation: portrait)
   {
     padding: 20px 192px;
   }
-  .noticeSlider
-  {
-    margin-left: 0!important;
-  }
   .deskTitle
   {
     margin-left: 12px!important;
@@ -1075,10 +1076,6 @@ and (orientation: landscape)
   {
     width: 95% !important;
     margin-left: 21px;
-  }
-  .noticeSlider
-  {
-    margin-left: 0!important;
   }
   .deskTitle
   {
@@ -1125,15 +1122,6 @@ and (max-width: 1024px)
 }
 
 
-@media only screen
-and(min-width: 376px)
-and(max-width: 430px)
-{
-  .noticeSlider
-  {
-    margin: 12px 34px !important;
-  }
-}
 
 @media only screen
 and (min-width: 375px)
@@ -1147,10 +1135,6 @@ and (orientation: landscape)
   .noticeContent
   {
     width: auto;
-  }
-  .noticeSlider
-  {
-    margin: 12px 20px;
   }
   .noticeTitle
   {
