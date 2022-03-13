@@ -354,10 +354,11 @@ body{
   font-size: 20px;
 }
 
-.br {
-      display: block;
-      margin-bottom: 0.6em;
-    }
+.br 
+{
+  display: block;
+  margin-bottom: 0.6em;
+}
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;

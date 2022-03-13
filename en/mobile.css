@@ -6,6 +6,11 @@ body,html
 
 @media screen and (max-width: 560px)
 {
+  #welcomeNotice
+  {
+    height: 200px;
+    width: 350px;
+  }
   .noticeMain
   {
     padding: 0 10px !important;
@@ -439,7 +444,8 @@ and (orientation: portrait)
   {
     font-size: 15px;
   }
-  .bodyContent{
+  .bodyContent
+  {
     margin-left: auto;
     margin-right: auto;
     width: -webkit-fill-available !important;
@@ -459,38 +465,38 @@ and (orientation: portrait)
 {
   font-size: smaller;
 }
-  .rowDean
-  {
-    display: inline;
-    padding: 6px 10px;
-  }
-  .sticky
-  {
-    width: -webkit-fill-available;
-  }
-
-   .topheader .main-group
-  {
-    display: contents;
-  }
-  .topheader
-  {
-    display: block;
-  }
-  .topheader .group
-  {
-    font-size: 8px;
-  }
-  .topheader .dept
-  {
-    width: 50%;
-    font-size: 8px;
-  }
+.rowDean
+{
+  display: inline;
+  padding: 6px 10px;
+}
+.sticky
+{
+  width: -webkit-fill-available;
+}
+.topheader .main-group
+{
+  display: contents;
+}
+.topheader
+{
+  display: block;
+}
+.topheader .group
+{
+  font-size: 8px;
+}
+.topheader .dept
+{
+  width: 50%;
+  font-size: 8px;
+}
 }
 
 @media screen and (max-width: 600px)
 {
-  .column {
+  .column 
+  {
     width: 90%;
     height: auto;
   }

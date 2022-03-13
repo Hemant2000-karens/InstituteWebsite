@@ -243,8 +243,6 @@ window.onscroll = function()
 };
 
 
-
-
 var navbar = document.getElementById("NameofDean-0");
 var navbar1 = document.getElementById("NameofDean-1");
 var navbar2 = document.getElementById("NameofDean-2");
