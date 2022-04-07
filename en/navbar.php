@@ -14,6 +14,19 @@
   </div> 
 
   <a href="Acd.php">Academics</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">Admission 
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Undergraduate</a>
+      <a href="#">Post Graduate</a>
+      <a href="#">Doctorate</a>
+      <!--<a href="#">Other Staff</a>-->
+    </div>
+  </div> 
+
+
   <a href="Dean.php">Dean</a>
 
 
@@ -57,7 +70,7 @@
 
 
 <a href="#">Research</a>
-
+<a href="#">Placement</a>
 <!-- <div class="dropdown">
     <button class="dropbtn">Dropdown 
     </button>
