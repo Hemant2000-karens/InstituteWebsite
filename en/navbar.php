@@ -122,8 +122,6 @@
 
   <a href="#">Placement</a>
 
-<a href="./Jobs/">Jobs</a>
-
   <a href="javascript:void(0);" style="font-size:18px; color: #f2f2f2" class="icon" onclick="myFunction()">&#9778;</a>
 </div>
 
