@@ -1,5 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@300&family=Varela+Round&family=Bitter&=Open+Sans:wght@400;600&&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 *
 {
 	box-sizing: border-box;
-	
+	cursor: url(./Images/cursor.png);
+
+}
+::-moz-selection
+{
+  background: #2e3547;
+  color: #ccd7e1;
+}
+
+::selection {
+  background: #2e3547;
+  color: #ccd7e1;
+}
+body{
+    background-color:#fdfdfd;
+    margin: 0;
+}
+.container
+{
+	padding: 5px 12px;
+}
+.footer
+{
+	margin: 0;
+	padding: 8px 14px;
 }

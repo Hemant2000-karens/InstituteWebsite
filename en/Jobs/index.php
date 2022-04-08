@@ -6,8 +6,13 @@
 	<title>Jobs@IIITDMJ</title>
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<link rel="stylesheet" type="text/css" href="./mobile.css">
-</head>
-<body>
 
+</head>
+<?php include './header.php'; ?>
+<body>
+	<div class="container">
+		
+	</div>
 </body>
+<?php include './footer.php';?>
 </html>
