@@ -203,7 +203,7 @@
 					<div class="columnDean">
     				<img src="./Images/DeanPnD/atul.png" alt="Prof, Atul" >
 						<h5>Prof. Atul Gupta</h5>
-						<h4>Associate Dean(Planning & Research</h4>
+						<h4>Associate Dean(Planning & Research)</h4>
   				</div>
 
 			</div>
