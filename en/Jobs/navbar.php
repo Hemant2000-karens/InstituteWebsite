@@ -4,6 +4,9 @@
     IIITDMJ
   </a>
 
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Back to IIITDMJ Website</button>
-    
+
+<a class="navbar-link">Back to IIITDMJ Website</a>
+<a class="navbar-link mobile" href="">
+  <- Official Site
+</a>
 </nav>
