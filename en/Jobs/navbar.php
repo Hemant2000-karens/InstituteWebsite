@@ -4,7 +4,6 @@
     IIITDMJ
   </a>
 
-  <form class="form-inline">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Back to IIITDMJ Website</button>
-  </form>
+    
 </nav>

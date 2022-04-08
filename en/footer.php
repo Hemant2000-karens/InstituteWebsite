@@ -53,7 +53,7 @@
         <a href="#">Anti Ragging Squad</a><br>
         <a href="#">Seat Matrix</a><br>
         <a href="#">Tenders</a><br>
-        <a href="./Jobs/">Jobs</a><br>
+        <a href="./Jobs/">Career Opportunities</a><br>
 </div>
 
 
@@ -120,7 +120,7 @@
         <a href="#">Anti Ragging Squad</a><br>
         <a href="#">Seat Matrix</a><br>
         <a href="#">Tenders</a><br>
-        <a href="./Jobs/">Jobs</a><br>
+        <a href="./Jobs/">Career Opportunities</a><br>
       </div>
     </div>
   </div>
