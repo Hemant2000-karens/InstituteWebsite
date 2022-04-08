@@ -8,10 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="./mobile.css">
 
 </head>
-<?php include './header.php'; ?>
+<?php include './navbar.php'; ?>
 <body>
 	<div class="container">
-		
+
 	</div>
 </body>
 <?php include './footer.php';?>
