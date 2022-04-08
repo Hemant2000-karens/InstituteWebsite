@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@300&family=Varela+Round&family=Bitter&=Open+Sans:wght@400;600&&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+/* General Setting */
 *
 {
 	box-sizing: border-box;
@@ -29,3 +31,10 @@ body{
 	margin: 0;
 	padding: 8px 14px;
 }
+
+
+
+
+/* Navbar Setting*/
+
+
