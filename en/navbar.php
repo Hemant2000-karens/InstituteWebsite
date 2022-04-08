@@ -22,6 +22,10 @@
       <a href="#">Undergraduate</a>
       <a href="#">Post Graduate</a>
       <a href="#">Doctorate</a>
+      <a href="#">Fees Structure</a>
+      <a href="#">Seat Matrix</a>
+      <a href="#">Academic Guidelines</a>
+      <a href="#">Curriculum</a><br>
       <!--<a href="#">Other Staff</a>-->
     </div>
   </div> 
