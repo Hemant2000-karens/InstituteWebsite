@@ -70,9 +70,6 @@
 
 
 <a href="#">Research</a>
-<a href="#">Placement</a>
-
-<a href="#">Jobs</a>
 <!-- <div class="dropdown">
     <button class="dropbtn">Dropdown 
     </button>
@@ -122,6 +119,10 @@
       <a href="bwc.php">Building Works Committee</a>
     </div>
   </div> 
+
+  <a href="#">Placement</a>
+
+<a href="#">Jobs</a>
 
   <a href="javascript:void(0);" style="font-size:18px; color: #f2f2f2" class="icon" onclick="myFunction()">&#9778;</a>
 </div>
