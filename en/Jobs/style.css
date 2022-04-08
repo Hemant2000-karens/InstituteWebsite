@@ -3,7 +3,7 @@
 *
 {
 	box-sizing: border-box;
-	cursor: url(./Images/cursor.png);
+	cursor: url("./Images/cursor.png"),auto;
 
 }
 ::-moz-selection
