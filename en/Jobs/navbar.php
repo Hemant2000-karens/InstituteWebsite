@@ -5,8 +5,8 @@
   </a>
 
 
-<a class="navbar-link">Back to IIITDMJ Website</a>
-<a class="navbar-link mobile" href="">
+<a class="nlink" href="#">Back to IIITDMJ Website</a>
+<a class="navbar-link-mobile" href="">
   <- Official Site
 </a>
 </nav>
