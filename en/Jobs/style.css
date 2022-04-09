@@ -38,8 +38,21 @@ body
 	float: right;
 	border: 1px solid #adfc00;
 	padding: 8px;
+	border-radius: 10px;
+	color: #adfc00;
+	font-family: 'Varela Round', sans-serif;
 }
 
+.navbar-link-mobile
+{
+	display: none;
+}
+
+.navbar-link:hover
+{
+	background: #adfc00;
+	color: white;
+}
 
 
 /* Navbar Setting*/

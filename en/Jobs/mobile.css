@@ -1,9 +1,18 @@
 @media only screen
 and(max-width: 374px)
 {
-	
-	.btn
+	.navbar-link
 	{
-		
+		display: none;
 	}
+
+	.navbar-link-mobile
+{
+	float: right;
+	border: 1px solid #adfc00;
+	padding: 8px;
+	border-radius: 10px;
+	color: #adfc00;
+	font-family: 'Varela Round', sans-serif;
+}
 }
