@@ -33,7 +33,7 @@ body
 	margin: 0;
 	padding: 8px 14px;
 }
-.navbar_link
+.nlink
 {
 	float: right;
 	border: 1px solid #adfc00;
@@ -48,7 +48,7 @@ body
 	display: none;
 }
 
-.navbar_link:hover
+.nink:hover
 {
 	background: #adfc00;
 	color: white;
