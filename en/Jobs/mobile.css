@@ -7,12 +7,12 @@ and(max-width: 320px)
 	}
 
 	.navbar-link-mobile
-{
-	float: right;
-	border: 1px solid #adfc00;
-	padding: 8px;
-	border-radius: 10px;
-	color: #adfc00;
-	font-family: 'Varela Round', sans-serif;
-}
+	{
+		float: right;
+		border: 1px solid #adfc00;
+		padding: 8px;
+		border-radius: 10px;
+		color: #adfc00;
+		font-family: 'Varela Round', sans-serif;
+	}
 }
