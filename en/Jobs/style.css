@@ -36,10 +36,10 @@ body
 .nlink
 {
 	float: right;
-	border: 1px solid #adfc00;
-	padding: 8px;
-	border-radius: 10px;
-	color: #adfc00;
+	border: 2px solid #82ba07;
+	padding: 5px;
+	border-radius: 4px;
+	color: #82ba07;
 	font-family: 'Varela Round', sans-serif;
 }
 
@@ -47,11 +47,12 @@ body
 {
 	display: none;
 }
-
+	
 .nink:hover
 {
-	background: #adfc00;
 	color: white;
+  background: #82ba07;
+  text-decoration: none;
 }
 
 
