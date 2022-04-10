@@ -13,3 +13,5 @@ Nor i will use any kind of advance framwork, or external Help. Nor Even i have s
 
 I have started creating it From October 2021, and it might be go to August of 2022, and I wish that this should be create as much as possible in great way.
 
+
+Deadline given by authority is 15th July 2022, and we have to create 2-3 extra sites for this.
