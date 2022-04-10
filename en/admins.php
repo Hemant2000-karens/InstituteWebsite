@@ -19,12 +19,15 @@
 			<div class="aboutHeader">
 				<h2>Administration</h2>
 			</div>
+
+			<div class="bodyContent">
 					<br>
 
 
 
 
 
+			</div>
 
 
 			<section class="secondAbout">
