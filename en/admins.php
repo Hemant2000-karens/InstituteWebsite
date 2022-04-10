@@ -25,38 +25,49 @@
 				<button class="adminDetails">Director</button>
 					<div class="adminProfile">
 					  	<div class="columnDean">
-    				<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
-					<h5>Prof. Vijay Kumar Gupta</h5>
-					<h4>Dean(Academics)</h4>
-  				</div>
+    						<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
+							<h5>Prof. Vijay Kumar Gupta</h5>
+							<h4>Dean(Academics)</h4>
+  						</div>
 					</div>
+
+
 					<span class="br"></span>
+
+
 				<button class="adminDetails">Deans</button>
 					<div class="adminProfile">
 					  	<div class="columnDean">
-    				<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
-					<h5>Prof. Vijay Kumar Gupta</h5>
-					<h4>Dean(Academics)</h4>
+    						<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
+							<h5>Prof. Vijay Kumar Gupta</h5>
+							<h4>Dean(Academics)</h4>
+						</div>
 					</div>
+
+					
 					<span class="br"></span>
+
+
 				<button class="adminDetails">Head of Disciplines</button>
 					<div class="adminProfile">
 					  	<div class="columnDean">
-    				<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
-					<h5>Prof. Vijay Kumar Gupta</h5>
-					<h4>Dean(Academics)</h4>
+    					<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
+						<h5>Prof. Vijay Kumar Gupta</h5>
+						<h4>Dean(Academics)</h4>
+						</div>
 					</div>
+
+
 					<span class="br"></span>
 
 				<button class="adminDetails">Registrar</button>
 					<div class="adminProfile">
 					  	<div class="columnDean">
-    				<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
-					<h5>Prof. Vijay Kumar Gupta</h5>
-					<h4>Dean(Academics)</h4>
+    						<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
+							<h5>Prof. Vijay Kumar Gupta</h5>
+							<h4>Dean(Academics)</h4>
+						</div>
 					</div>
-					<span class="br"></span>
-
 
 			</div>
 
