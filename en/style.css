@@ -770,6 +770,8 @@ body{
 }
 .columnDean
 {
+  display: inline-grid;
+  justify-items: center;
   padding: 10px 20px;
 }
 .columnDean h5
