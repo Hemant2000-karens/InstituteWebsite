@@ -20,7 +20,7 @@
 				<h2>Administration</h2>
 			</div>
 
-			<div class="bodyContent" style="display:block">
+			<div class="adminPageContent" style="display:block">
 				<br>
 				<button class="adminDetails">Director</button>
 					<div class="adminProfile">
@@ -44,7 +44,7 @@
 						</div>
 					</div>
 
-					
+
 					<span class="br"></span>
 
 
