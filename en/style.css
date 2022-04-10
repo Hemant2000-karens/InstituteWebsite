@@ -1597,7 +1597,7 @@ input[type="radio"]{
 .adminPageContent
 {
   width: 100%;
-  margin: 0 20%;
+  margin: 0;
 }
 .adminDetails {
   background-color: #777;
