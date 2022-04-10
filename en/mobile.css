@@ -363,7 +363,7 @@ and (orientation: portrait)
 {
  .bodyContent
   {
-    width: -webkit-fill-available;
+    width: -webkit-fill-available !important;
   }
   .tableContainer
   {
