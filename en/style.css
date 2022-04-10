@@ -1602,7 +1602,7 @@ input[type="radio"]{
   margin: 0;
 }
 .adminDetails {
-  border-radius: 3px;
+  border-radius: 6px;
   background-color:#213e4e;
   color: white;
   cursor: pointer;
