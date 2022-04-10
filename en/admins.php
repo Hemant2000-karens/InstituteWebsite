@@ -30,18 +30,23 @@
 					<h4>Dean(Academics)</h4>
   				</div>
 					</div>
+					<span class="br"></span>
 				<button class="adminDetails">Deans</button>
 					<div class="adminProfile">
 					  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 					</div>
+					<span class="br"></span>
 				<button class="adminDetails">Head of Disciplines</button>
 					<div class="adminProfile">
 					  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 					</div>
+					<span class="br"></span>
+
 				<button class="adminDetails">Registrar</button>
 					<div class="adminProfile">
 					  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 					</div>
+					<span class="br"></span>
 
 
 			</div>
