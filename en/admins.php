@@ -21,10 +21,27 @@
 			</div>
 
 			<div class="bodyContent">
-					<br>
-
-
-
+				<br>
+				<button class="adminDetails">Director</button>
+					<div class="adminProfile">
+					  	<div class="columnDean">
+    				<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
+					<h5>Prof. Vijay Kumar Gupta</h5>
+					<h4>Dean(Academics)</h4>
+  				</div>
+					</div>
+				<button class="adminDetails">Deans</button>
+					<div class="adminProfile">
+					  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				<button class="adminDetails">Head of Disciplines</button>
+					<div class="adminProfile">
+					  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				<button class="adminDetails">Registrar</button>
+					<div class="adminProfile">
+					  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
 
 
 			</div>
@@ -67,6 +84,29 @@
 <?php include './footer.php'?>
 
 <script type="text/javascript">
+
+
+var collButton = document.getElementsByClassName("adminDetails");
+var i;
+
+for (i = 0; i < collButton.length; i++) {
+  collButton[i].addEventListener("click", function() {
+    this.classList.toggle("visibleldTab");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+
+
+
+
+
+
+
 	var button = document.getElementsByClassName("card");
 	button.addEventListener("Click",linkOpen);
 
