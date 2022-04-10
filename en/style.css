@@ -1602,6 +1602,7 @@ input[type="radio"]{
   margin: 0;
 }
 .adminDetails {
+  border-radius: 3px;
   background-color:#213e4e;
   color: white;
   cursor: pointer;
