@@ -24,11 +24,14 @@
 				<br>
 				<button class="adminDetails">Director</button>
 					<div class="adminProfile">
-					  	<div class="columnDean">
-    						<img src="./Images/DeanPnD/pnkon.png" alt="PnKondekar" >
-							<h5>Prof. P.N Kondekar</h5>
-							<h4>Director/Dean(P&D)</h4>
-  						</div>
+
+						<div class="rowDean">
+						  	<div class="columnDean">
+	    						<img src="./Images/DeanPnD/pnkon.png" alt="PnKondekar" >
+								<h5>Prof. P.N Kondekar</h5>
+								<h4>Director/Dean(P&D)</h4>
+	  						</div>
+	  					</div>
 					</div>
 
 
