@@ -42,6 +42,18 @@
 							<h5>Prof. Vijay Kumar Gupta</h5>
 							<h4>Dean(Academics)</h4>
 						</div>
+						<div class="adminProfile">
+					  	<div class="columnDean">
+    						<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
+							<h5>Prof. Vijay Kumar Gupta</h5>
+							<h4>Dean(Academics)</h4>
+						</div>
+						<div class="adminProfile">
+					  	<div class="columnDean">
+    						<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
+							<h5>Prof. Vijay Kumar Gupta</h5>
+							<h4>Dean(Academics)</h4>
+						</div>
 					</div>
 
 

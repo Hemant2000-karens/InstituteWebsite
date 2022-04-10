@@ -1634,12 +1634,12 @@ input[type="radio"]{
 
 .adminProfile
 {
-
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
   gap: 20px;
   padding: 0 18px;
   max-height: 0;
+  justify-items: center;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
