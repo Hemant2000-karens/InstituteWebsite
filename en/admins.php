@@ -25,9 +25,9 @@
 				<button class="adminDetails">Director</button>
 					<div class="adminProfile">
 					  	<div class="columnDean">
-    						<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
-							<h5>Prof. Vijay Kumar Gupta</h5>
-							<h4>Dean(Academics)</h4>
+    						<img src="./Images/DeanPnD/pnkon.png" alt="PnKondekar" >
+							<h5>Prof. P.N Kondekar</h5>
+							<h4>Director/Dean(P&D)</h4>
   						</div>
 					</div>
 

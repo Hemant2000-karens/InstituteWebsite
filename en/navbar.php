@@ -74,41 +74,8 @@
 
 
 <a href="#">Research</a>
-<!-- <div class="dropdown">
-    <button class="dropbtn">Dropdown 
-    </button>
-    <div class="dropdown-content">
-      
-     // Mega Menu 
-      <div class="meganews">
-        <h2>Mega Menu</h2>
-      </div>   
-      <div class="row">
-        <div class="column">
-          <h3>Category 1</h3>
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-        <div class="column">
-          <h3>Category 2</h3>
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-        <div class="column">
-          <h3>Category 3</h3>
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div>
 
-    // Mega Menu Ends 
-
-    </div>
-  </div> -->
-
+  <a href="#">Placement</a>
 
   <div class="dropdown">
     <button class="dropbtn">About Us 
@@ -123,8 +90,6 @@
       <a href="bwc.php">Building Works Committee</a>
     </div>
   </div> 
-
-  <a href="#">Placement</a>
 
   <a href="javascript:void(0);" style="font-size:18px; color: #f2f2f2" class="icon" onclick="myFunction()">&#9778;</a>
 </div>
