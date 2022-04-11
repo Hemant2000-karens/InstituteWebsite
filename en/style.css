@@ -539,7 +539,6 @@ body{
   border-top: none;
 }
 .newsTab button {
-  background-color: inherit;
   float: left;
   border: none;
   outline: none;
@@ -550,10 +549,6 @@ body{
 }
 .newsTab button:hover {
   background-color: #ddd;
-}
-
-.newsTab button.active {
-  background-color: #ccc;
 }
 
 
