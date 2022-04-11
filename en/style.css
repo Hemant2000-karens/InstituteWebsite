@@ -124,7 +124,7 @@ body{
 /* navBar */
 
 .topnav {
-  justify-content: center;
+  align-content: center;
   overflow: hidden;
   background-color: #1b3a4b;
   border-radius: 5px;
