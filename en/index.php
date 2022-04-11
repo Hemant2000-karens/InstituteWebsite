@@ -44,7 +44,7 @@
     <p>Paris is the capital of France.</p> 
   </div>
 
-  <div id="achievment" class="newsContent">
+  <div id="achievement" class="newsContent">
     <h3>Tokyo</h3>
     <p>Tokyo is the capital of Japan.</p>
   </div>
