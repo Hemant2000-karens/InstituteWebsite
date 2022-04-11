@@ -290,6 +290,7 @@ body{
 }
 .current_update fieldset
 {
+  border-radius: 8px;
   height: 90px;
 }
 .current_update fieldset legend
