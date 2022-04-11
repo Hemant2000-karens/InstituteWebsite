@@ -29,9 +29,9 @@
 
 <!--News Notice-->
   <div class="newsTab">
-    <button class="newsTab_button" onclick="openCity(event, 'news')" id="defaultOpen">News</button>
-    <button class="newsTab_button" onclick="openCity(event, 'notice')">Notice</button>
-    <button class="newsTab_button" onclick="openCity(event, 'achievement')">Achievment</button>
+    <button class="newsTab_button" onclick="openNews(event, 'news')" id="defaultOpen">News</button>
+    <button class="newsTab_button" onclick="openNews(event, 'notice')">Notice</button>
+    <button class="newsTab_button" onclick="openNews(event, 'achievement')">Achievment</button>
   </div>
 
   <div id="news" class="newsContent">
@@ -100,6 +100,26 @@
 </body>
 <?php include './footer.php';?>
 <script>
+
+function openNews(evt, tabname) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("newsContent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("newsTab_button");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+
 document.getElementById("overlay").style.display = "block";
 function off() {
   document.getElementById("overlay").style.display = "none";
