@@ -50,6 +50,24 @@
     <h3>Tokyo</h3>
     <p>Tokyo is the capital of Japan.</p>
   </div>
+
+
+    <div class="current_update_main">
+  <div class="current_update">
+    <fieldset>
+      <legend>Current updates</legend>
+        <marquee behavior="scroll" direction="up" 
+                   Scrollamount=3>
+          <a href="<?php //echo("Null");?>">
+            <h4>
+              <?php include 'currentupdate.php' ?><sup class="glow">New</sup>
+            </h4>
+          </a>
+        </marquee>
+    </fieldset>
+  </div>
+</div>
+
 </div>
 
 </div>
@@ -58,21 +76,7 @@
 
 <span class="br"></span>
 <!--
-<div class="current_update_main">
-  <div class="current_update">
-    <fieldset>
-      <legend>Current updates</legend>
-        <marquee behavior="scroll" direction="right" 
-                   Scrollamount=3>
-          <a href="<?php //echo("Null");?>">
-            <h4>
-              <?php //include 'currentupdate.php' ?><sup class="glow">New</sup>
-            </h4>
-          </a>
-        </marquee>
-    </fieldset>
-  </div>
-</div>-->
+-->
 <br>
 
   <!--<div class="thought_for_Day">
