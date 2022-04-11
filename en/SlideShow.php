@@ -1,6 +1,3 @@
-<div class="slideshowMain">
-
-
 <section class="home">
 <div class="slider">
         <div class="slide active" style="background-image: url('./Images/img01.jpg')">
@@ -69,7 +66,6 @@
 
 </section>
 
-</div>
 
      <script type="text/javascript">
          

@@ -22,10 +22,14 @@
 
 <span class="br"></span>
 
+
+<div class="slideshowMain">
 <div class="banner">
 
 <?php include "./SlideShow.php" ?>
   </div>
+
+</div>
   <!-- BANNER-->
 
 <span class="br"></span>

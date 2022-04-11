@@ -5,11 +5,13 @@
     <button class="dropbtn">Department 
     </button>
     <div class="dropdown-content">
-      <a target="_blank" href="https://cse.iiitdmj.ac.in">Computer Science and Engineering(CS.E)</a>
-      <a href="me.iiitdmj.ac.in">Mechanical Engineering(M.E)</a>
-      <a href="ece.iiitdmj.ac.in">Electrical and Electronics Engineering(EC.E)</a>
-      <a href="design.iiitdmj.ac.in">Design(B.Des)</a>
-      <a href="ns.iiitdmj.ac.in">Natural Science(N.S)</a>
+      <a target="_blank" href="https://cse.iiitdmj.ac.in">Computer Science and Engineering</a>
+      <a href="me.iiitdmj.ac.in">Mechanical Engineering</a>
+      <a href="ece.iiitdmj.ac.in">Electrical and Electronics Engineering</a>
+      <a href="design.iiitdmj.ac.in">Design</a>
+      <a href="ns.iiitdmj.ac.in">Natural Science</a>
+      <a href="ns.iiitdmj.ac.in">Natural Science</a>
+      <a href="ns.iiitdmj.ac.in">Liberal Arts</a>
     </div>
   </div> 
 
