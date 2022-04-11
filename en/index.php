@@ -87,7 +87,7 @@
 <span class="br"></span>
 
 
-<?php include './notice.php';?>
+<?php //include './notice.php';?>
 
 
 <span class="br"></span>
