@@ -50,9 +50,9 @@
 							</div>
 					
 							<div class="columnDean">
-	    						<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
-								<h5>Prof. Vijay Kumar Gupta</h5>
-								<h4>Dean(Academics)</h4>
+	    						<img src="./Images/DeanStd/tanuja.jpg" alt="tanuj" >
+								<h5>Prof. Tanuja Sheorey</h5>
+								<h4>Dean(Students)</h4>
 							</div>
 
 							<div class="columnDean">

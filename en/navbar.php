@@ -5,7 +5,7 @@
     <button class="dropbtn">Department 
     </button>
     <div class="dropdown-content">
-      <a href="cse.iiitdmj.ac.in">Computer Science and Engineering(CS.E)</a>
+      <a target="_blank" href="https://cse.iiitdmj.ac.in">Computer Science and Engineering(CS.E)</a>
       <a href="me.iiitdmj.ac.in">Mechanical Engineering(M.E)</a>
       <a href="ece.iiitdmj.ac.in">Electrical and Electronics Engineering(EC.E)</a>
       <a href="design.iiitdmj.ac.in">Design(B.Des)</a>
@@ -13,7 +13,20 @@
     </div>
   </div> 
 
-  <a href="Acd.php">Academics</a>
+  <!--<a href="Acd.php">Academics</a>-->
+<div class="dropdown">
+    <button class="dropbtn">Academics 
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Programmes</a>
+      <a href="#">Calander</a>
+      <a href="#">Scholarship</a>
+      <a href="#">Syllabus</a>
+    </div>
+  </div> 
+
+
+
 
   <div class="dropdown">
     <button class="dropbtn">Admission 
@@ -21,7 +34,7 @@
     <div class="dropdown-content">
       <a href="#">Undergraduate</a>
       <a href="#">Post Graduate</a>
-      <a href="#">Doctorate</a>
+      <a href="#">Ph.D</a>
       <a href="#">Fees Structure</a>
       <a href="#">Seat Matrix</a>
       <a href="#">Academic Guidelines</a>
@@ -37,7 +50,7 @@
     <button class="dropbtn">Office Bearers 
     </button>
     <div class="dropdown-content">
-      <a href="#">Faculties</a>
+      <a href="#">Faculty</a>
       <a href="#">Research Staff</a>
       <a href="#">Office Staff</a>
       <a href="#">Other Staff</a>
@@ -72,9 +85,12 @@
   </div> 
 
 
-<a href="#">Research</a>
+  <a href="#">Research</a>
 
   <a href="#">Placement</a>
+
+  <a href="#">MOU</a>
+
 
   <div class="dropdown">
     <button class="dropbtn">About Us 
