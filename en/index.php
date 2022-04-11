@@ -57,7 +57,7 @@
     <fieldset>
       <legend>Current updates</legend>
         <marquee behavior="scroll" direction="up" 
-                   Scrollamount=3>
+                   Scrollamount=3 style="height: -webkit-fill-available;">
           <a href="<?php //echo("Null");?>">
             <h4>
               <?php include 'currentupdate.php' ?><sup class="glow">New</sup>
