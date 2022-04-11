@@ -514,12 +514,26 @@ body{
 
 
 
+/* Combined View*/
+
+.combined
+{
+  display: inline-flex;
+  width: -webkit-fill-available;
+  padding: 0 80px;
+}
+.newsTab
+{
+  margin-left: 12px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
 /* Slideshows Starts */
 
 .slideshowMain
 {
   width: -webkit-fill-available;
-  padding: 0  550px 0 80px;
 }
 
 .home{

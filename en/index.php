@@ -22,14 +22,39 @@
 
 <span class="br"></span>
 
+<div class="combined">
+  
+  <div class="slideshowMain">
+    <div class="banner">
+      <?php include "./SlideShow.php" ?>
+  </div>
+</div>
 
-<div class="slideshowMain">
-<div class="banner">
-
-<?php include "./SlideShow.php" ?>
+<!--News Notice-->
+  <div class="newsTab">
+    <button class="newsTab_button" onclick="openCity(event, 'news')" id="defaultOpen">News</button>
+    <button class="newsTab_button" onclick="openCity(event, 'notice')">Notice</button>
+    <button class="newsTab_button" onclick="openCity(event, 'achievement')">Achievment</button>
   </div>
 
+  <div id="news" class="tabcontent">
+    <h3>London</h3>
+    <p>London is the capital city of England.</p>
+  </div>
+
+  <div id="notice" class="tabcontent">
+    <h3>Paris</h3>
+    <p>Paris is the capital of France.</p> 
+  </div>
+
+  <div id="achievment" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+
+
 </div>
+
   <!-- BANNER-->
 
 <span class="br"></span>
