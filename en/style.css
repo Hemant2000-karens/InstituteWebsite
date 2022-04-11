@@ -274,6 +274,7 @@ body{
 
 .banner
 {
+  width: 90%;
   border: 0.24px solid #ccc;
   height: 420px;
 }
@@ -557,10 +558,6 @@ body{
 
 /* Slideshows Starts */
 
-.slideshowMain
-{
-  width: -webkit-fill-available;
-}
 
 .home{
   height: 100%;

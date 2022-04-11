@@ -23,11 +23,8 @@
 <span class="br"></span>
 
 <div class="combined">
-  
-  <div class="slideshowMain">
     <div class="banner">
       <?php include "./SlideShow.php" ?>
-  </div>
 </div>
 
 <!--News Notice-->
