@@ -274,7 +274,7 @@ body{
 
 .banner
 {
-  width:75%;
+  width:60%;
   border: 0.24px solid #ccc;
   height: 420px;
 }
@@ -525,6 +525,7 @@ body{
 }
 .newsTab
 {
+  width: 100%;
   margin-left: 12px;
   overflow: hidden;
   border: 1px solid #ccc;
