@@ -28,6 +28,8 @@
 </div>
 
 <!--News Notice-->
+
+<div style="display:block">
   <div class="newsTab">
     <button class="newsTab_button" onclick="openNews(event, 'news')" id="defaultOpen">News</button>
     <button class="newsTab_button" onclick="openNews(event, 'notice')">Notice</button>
@@ -48,7 +50,7 @@
     <h3>Tokyo</h3>
     <p>Tokyo is the capital of Japan.</p>
   </div>
-
+</div>
 
 </div>
 
