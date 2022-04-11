@@ -515,6 +515,12 @@ body{
 
 /* Slideshows Starts */
 
+.slideshowMain
+{
+  width: -webkit-fill-available;
+  padding: 0  120px 0 80px;
+}
+
 .home{
   height: 100%;
   overflow:hidden;

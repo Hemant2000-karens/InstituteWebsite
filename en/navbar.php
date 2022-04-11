@@ -19,13 +19,11 @@
     </button>
     <div class="dropdown-content">
       <a href="#">Programmes</a>
-      <a href="#">Calander</a>
+      <a href="#">Academic Calander</a>
       <a href="#">Scholarship</a>
       <a href="#">Syllabus</a>
     </div>
   </div> 
-
-
 
 
   <div class="dropdown">
@@ -89,8 +87,15 @@
 
   <a href="#">Placement</a>
 
-  <a href="#">MOU</a>
-
+<div class="dropdown">
+    <button class="dropbtn">MoU 
+    </button>
+    <div class="dropdown-content">
+      <a href="#">International Institute</a>
+      <a href="#">Industry</a>
+      <a href="#">Indian Institute</a>
+    </div>
+  </div> 
 
   <div class="dropdown">
     <button class="dropbtn">About Us 
