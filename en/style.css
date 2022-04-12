@@ -124,7 +124,7 @@ body{
 /* navBar */
 
 .topnav {
-  padding: 0 80px;
+  padding: 0 12%;
   overflow: hidden;
   background-color: #1b3a4b;
   border-radius: 5px;
@@ -545,7 +545,7 @@ body{
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 50px;
+  padding: 14px auto;
   transition: 0.3s;
   font-size: 17px;
 }
