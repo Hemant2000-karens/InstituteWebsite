@@ -17,11 +17,11 @@
     <?php include 'topheader.php';?>
     <div class="container">
    <?php include 'Header.php'?>
-
+</div>
 <?php include "./navbar.php" ?>
 
 <span class="br"></span>
-
+<div class="container">
 <div class="combined">
     <div class="banner">
       <?php include "./SlideShow.php" ?>

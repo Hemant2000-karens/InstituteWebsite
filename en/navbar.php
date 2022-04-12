@@ -32,13 +32,13 @@
     <button class="dropbtn">Admission 
     </button>
     <div class="dropdown-content">
-      <a href="#">Undergraduate</a>
-      <a href="#">Post Graduate</a>
-      <a href="#">Ph.D</a>
-      <a href="#">Fees Structure</a>
-      <a href="#">Seat Matrix</a>
-      <a href="#">Academic Guidelines</a>
-      <a href="#">Curriculum</a>
+      <a target="_blank" href="https://admission.iiitdmj.ac.in/ug">Undergraduate</a>
+      <a target="_blank" href="https://admission.iiitdmj.ac.in/pg">Post Graduate</a>
+      <a target="_blank" href="https://admission.iiitdmj.ac.in/phd">Ph.D</a>
+      <a target="_blank" href="https://admission.iiitdmj.ac.in/feesStructurer">Fees Structure</a>
+      <a href="#">Seat Matrix(jossaa)</a>
+      <a target="_blank" href="https://admission.iiitdmj.ac.in/acdg">Academic Guidelines</a>
+      <a target="_blank" href="https://admission.iiitdmj.ac.in/acdcm">Curriculum</a>
     </div>
   </div> 
 
@@ -87,7 +87,7 @@
 
   <a href="#">Research</a>
 
-  <a href="#">Placement</a>
+  <a target="_blank" href="https://www.iiitdmj.ac.in/placement.iiitdmj.ac.in/">Placement</a>
 
 <div class="dropdown">
     <button class="dropbtn">MoU 
