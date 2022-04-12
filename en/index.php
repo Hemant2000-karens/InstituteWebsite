@@ -29,7 +29,7 @@
 
 <!--News Notice-->
 
-<div style="display:block;margin-left: 12px;width: -webkit-fill-available;">
+<div style="display:block;margin-left: 12px;width:40%">
   <div class="newsTab">
     <button class="newsTab_button" onclick="openNews(event, 'news')" id="defaultOpen">News</button>
     <button class="newsTab_button" onclick="openNews(event, 'notice')">Notice</button>
