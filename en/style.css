@@ -522,7 +522,7 @@ body{
 {
   display: inline-flex;
   width: -webkit-fill-available;
-  padding: 0 80px;
+  padding: 0 10%;
 }
 .newsTab
 {
