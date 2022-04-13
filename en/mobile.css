@@ -285,6 +285,10 @@ and (orientation: portrait)
 and (max-width: 2560px)
 and (orientation: landscape)
 {
+  .topnav
+  {
+    padding: 0 27%;
+  }
   .bodyContent
   {
     margin-left: auto;
