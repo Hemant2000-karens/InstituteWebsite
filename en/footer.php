@@ -23,9 +23,9 @@
     </div>
 
 
-    <button type="button" class="collaps">Admission</button>
+    <button type="button" class="collaps">KNOW MORE</button>
       <div class="content">
-        <a href="#">Admission</a><br>
+        <a href="#">IIIT ACT</a><br>
         <a href="#">Undergraduate</a><br>
         <a href="#">Postgraduate</a><br>
         <a href="#">Fees Structure</a><br>
@@ -86,9 +86,9 @@
 
 <!-- Desktop, and larger screen -->
     <div class="footer-subgroup">
-      <h4>ADMISSIONS</h4>
+      <h4>KNOW MORE</h4>
       <div class = "footer-subgroup-links">
-        <a href="#">Admission</a><br>
+        <a href="#">IIIT ACT</a><br>
         <a href="#">Undergraduate</a><br>
         <a href="#">Postgraduate</a><br>
         <a href="#">Fees Structure</a><br>

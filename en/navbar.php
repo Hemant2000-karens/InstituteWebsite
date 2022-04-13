@@ -50,10 +50,10 @@
     <button class="dropbtn">Office Bearers 
     </button>
     <div class="dropdown-content">
-      <a href="#">Faculty</a>
-      <a href="#">Research Staff</a>
-      <a href="#">Office Staff</a>
-      <a href="#">Other Staff</a>
+      <a href="./faculty/">Faculty</a>
+      <a href="./res/">Research Staff</a>
+      <a href="./office_administration">Office Staff</a>
+      <a href="./other_staff/">Other Staff</a>
     </div>
   </div> 
 
