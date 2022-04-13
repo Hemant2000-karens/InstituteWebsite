@@ -12,11 +12,11 @@
 	<div class="container">
 		<body>
 			<?php include './Header.php';?>
-			<?php include "./navbar.php" ?>
+			<?php include "./navbar.php"; ?>
 
 			<span class="br"></span>
 
-			<div class="aboutHeader">
+			<div class="aboutHeader" id="adminHeader">
 				<h2>Local Administration</h2>
 			</div>
 
@@ -38,7 +38,7 @@
 					<span class="br"></span>
 
 
-				<button class="adminDetails">Deans</button>
+				<button class="adminDetails">Training & Placement</button>
 					<div class="adminProfile">
 
 
@@ -83,7 +83,7 @@
 					<span class="br"></span>
 
 
-				<button class="adminDetails">Head of Disciplines</button>
+				<button class="adminDetails">International Affairs</button>
 					<div class="adminProfile">
 					  	
 						<div class="rowDean"> 
@@ -141,7 +141,86 @@
 
 					<span class="br"></span>
 
-				<button class="adminDetails">Registrar</button>
+				<button class="adminDetails">Alumni Cell</button>
+					<div class="adminProfile">
+						<div class="rowDean">
+					  	<div class="columnDean">
+    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
+								<h5>Mrs. Swapnali Gadekar</h5>
+								<h4>Deputy Registrar</h4>
+							</div>
+						</div>
+					</div>
+
+					<span class="br"></span>
+
+				<button class="adminDetails">Innovation and Incubation Cell & Patent and Copyright Cell</button>
+					<div class="adminProfile">
+						<div class="rowDean">
+					  	<div class="columnDean">
+    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
+								<h5>Mrs. Swapnali Gadekar</h5>
+								<h4>Deputy Registrar</h4>
+							</div>
+						</div>
+					</div>
+
+					<span class="br"></span>
+
+				<button class="adminDetails">Communication Cell</button>
+					<div class="adminProfile">
+						<div class="rowDean">
+					  	<div class="columnDean">
+    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
+								<h5>Mrs. Swapnali Gadekar</h5>
+								<h4>Deputy Registrar</h4>
+							</div>
+						</div>
+					</div>
+
+					<span class="br"></span>
+
+				<button class="adminDetails">Science & Technology Counselor</button>
+					<div class="adminProfile">
+						<div class="rowDean">
+					  	<div class="columnDean">
+    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
+								<h5>Mrs. Swapnali Gadekar</h5>
+								<h4>Deputy Registrar</h4>
+							</div>
+						</div>
+					</div>
+
+					<span class="br"></span>
+
+				<button class="adminDetails">Registrar (Acting)Finance & Accounts</button>
+					<div class="adminProfile">
+						<div class="rowDean">
+					  	<div class="columnDean">
+    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
+								<h5>Mrs. Swapnali Gadekar</h5>
+								<h4>Deputy Registrar</h4>
+							</div>
+						</div>
+					</div>
+
+
+					<span class="br"></span>
+
+				<button class="adminDetails">Establishment, General Administration and Internal Audit</button>
+					<div class="adminProfile">
+						<div class="rowDean">
+					  	<div class="columnDean">
+    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
+								<h5>Mrs. Swapnali Gadekar</h5>
+								<h4>Deputy Registrar</h4>
+							</div>
+						</div>
+					</div>
+
+					<span class="br"></span>
+
+				<button class="adminDetails">Academics, Student Affairs, Official Language Officer, CPIO</button>
 					<div class="adminProfile">
 						<div class="rowDean">
 					  	<div class="columnDean">
@@ -153,7 +232,6 @@
 					</div>
 
 			</div>
-
 
 
 			<section class="secondAbout">
@@ -193,6 +271,45 @@
 <?php include './footer.php'?>
 
 <script type="text/javascript">
+
+window.onscroll = function()
+{
+  stickyFunction()
+};
+
+
+var nbar = document.getElementById("adminHeader");
+var sticky = nbar.offsetTop;
+function stickyFunction() {
+  if (window.pageYOffset >= sticky) {
+    nbar.classList.add("sticky");
+  } else {
+    nbar.classList.remove("sticky");
+ 		}
+	}
+
+
+var collButton = document.getElementsByClassName("adminDetails");
+var i;
+
+for (i = 0; i < collButton.length; i++) {
+  collButton[i].addEventListener("click", function() {
+    this.classList.toggle("visibleldTab");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+
+
+
+
+
+
+
 	var button = document.getElementsByClassName("card");
 	button.addEventListener("Click",linkOpen);
 
