@@ -121,6 +121,22 @@ body,html
   {
     padding: 0 40px;
   }
+
+  .combined
+  {
+    display: block;
+  }
+  .combined_2
+  {
+    display: block;
+    margin-top: 1.2%;
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+  .newsTab
+  {
+    width: 99.8%;
+  }
 }
 
 @media only screen

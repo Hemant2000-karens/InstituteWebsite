@@ -1,6 +1,6 @@
 <?php
 include 'connectionDB.php';
-$sqlF = "SELECT thought from thought_of WHERE Date = curdate();";
+$sqlF = "SELECT curr_update from c_update WHERE Date = curdate();";
 
 $result = $link->query($sqlF);
 

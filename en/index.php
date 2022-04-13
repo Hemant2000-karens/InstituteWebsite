@@ -15,13 +15,11 @@
         <img  id="welcomeNotice" src="./Images/vaccination.jpg">
     </div>
     <?php include 'topheader.php';?>
-    <div class="container">
    <?php include 'Header.php'?>
-</div>
+   <div class="container">
 <?php include "./navbar.php" ?>
 
 <span class="br"></span>
-<div class="container">
 <div class="combined">
     <div class="banner">
       <?php include "./SlideShow.php" ?>
@@ -29,7 +27,7 @@
 
 <!--News Notice-->
 
-<div style="display:block;margin-left: 12px;width:40%">
+<div class="combined_2"style="display:block;margin-left: 12px;width:40%">
   <div class="newsTab">
     <button class="newsTab_button" onclick="openNews(event, 'news')" id="defaultOpen">News</button>
     <button class="newsTab_button" onclick="openNews(event, 'notice')">Notice</button>
