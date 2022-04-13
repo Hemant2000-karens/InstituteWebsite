@@ -526,7 +526,7 @@ body{
 }
 .newsTab
 {
-  width: 100%;
+  width: 99%;
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
