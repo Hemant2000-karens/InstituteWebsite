@@ -1,10 +1,7 @@
 <div class="messageDesk1">
 	<div class="deskControls">
 		<div class="deskTitle">
-			Message from <strong>Desk</strong>
-			<div class="deskTabs">
-				<a href="#">Director</a><strong>|</strong><a href="#">Assistant Director</a>
-			</div>
+			Message from <strong>Director's Desk</strong>
 		</div>
 		<div class="deskImage">
 		<img src="./Images/director_msg.jpeg" alt="desk"/>
@@ -26,15 +23,8 @@
 		<div class="deskControls">
 			<div class="deskTitle">
 				<img src="./Images/Messages1.png">
-				Message from <strong>Desk</strong>
+				Message from <strong>Director's Desk</strong>
 			</div>
-			<div class="deskNav">
-				<a href="#"><</a>
-				<a href="#">></a>
-			</div>
-		</div>
-		<div class="deskTabs">
-			<a href="#">Director</a><strong>|</strong><a href="#">Assistant Director</a>
 		</div>
 		<div class="deskSpeech">
 			<img src="./icons/opquote.png" style = "height:20px; width: 20px">

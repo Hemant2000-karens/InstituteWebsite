@@ -526,6 +526,7 @@ body{
 }
 .newsTab
 {
+  display: flex;
   width: 99%;
   overflow: hidden;
   border: 1px solid #ccc;

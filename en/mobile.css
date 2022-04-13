@@ -135,6 +135,7 @@ body,html
   }
   .newsTab
   {
+    display: flex;
     width: 99.8%;
   }
 }
