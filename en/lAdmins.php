@@ -27,7 +27,7 @@
 
 						<div class="rowDean">
 						  	<div class="columnDean">
-	    						<img src="./Images/ladmin/aojha.png" alt="apojha" >
+	    						<img src="./Images/ladmins/aojha.jpg" alt="apojha" >
 								<h5>Prof. Aparajita Ojha</h5>
 								<h4>Head</h4>
 	  						</div>
