@@ -319,7 +319,7 @@ for (i = 0; i < collButton.length; i++) {
 		switch(str)
 		{
 			case 'bod':
-				window.open('https://www.google.com', '_blank');
+				window.open('./about.php', '_blank');
 				break;
 			case 'adm':
 				window.open('https://www.facebook.com', '_blank');
