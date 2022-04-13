@@ -30,8 +30,8 @@
 <div class="combined_2"style="display:block;margin-left: 12px;width:40%">
   <div class="newsTab">
     <button class="newsTab_button" onclick="openNews(event, 'news')" id="defaultOpen">News</button>
-    <button class="newsTab_button" onclick="openNews(event, 'notice')">Notice</button>
     <button class="newsTab_button" onclick="openNews(event, 'achievement')">Achievment</button>
+    <button class="newsTab_button" onclick="openNews(event, 'notice')">Notice</button>
   </div>
 
   <div id="news" class="newsContent">
