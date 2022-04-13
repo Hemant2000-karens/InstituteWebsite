@@ -539,6 +539,10 @@ and (orientation: portrait)
 @media screen
 and (max-width:460px)
 {
+  .newsContent
+  {
+    height: 150px;
+  }
   .noticeSlider
   {
     float: left;
