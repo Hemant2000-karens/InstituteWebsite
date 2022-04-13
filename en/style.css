@@ -530,6 +530,8 @@ body{
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .newsContent {
