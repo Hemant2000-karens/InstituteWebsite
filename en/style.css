@@ -656,7 +656,7 @@ body{
 .home .controls .prew,
 .home .controls .next{
  position: absolute;
- z-index:2;
+ z-index:0;
  top:50%;
  height:40px;
  width: 40px;

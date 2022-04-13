@@ -540,6 +540,14 @@ and (orientation: portrait)
 @media screen
 and (max-width:460px)
 {
+  .newsTab
+  {
+    width: 99.5%;
+  }
+  .combined
+  {
+    padding: 0 4%;
+  }
   .newsContent
   {
     height: 150px;
