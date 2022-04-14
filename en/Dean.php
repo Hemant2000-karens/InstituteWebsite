@@ -71,7 +71,7 @@
 				<div class="columnDean">
 					<img src="./Images/DeanACD/nitin.jpg" alt="Mountains">
 					<h5>Mr. Nitin Tripathi</h5>
-					<h4>Dean</h4>
+					<h4>Office Assistant</h4>
 				</div>
 			</div>
 
