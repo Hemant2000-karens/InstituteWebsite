@@ -44,35 +44,15 @@
 
 					  	<div class="rowDean"> 
 					  		<div class="columnDean">
-    							<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
-								<h5>Prof. Vijay Kumar Gupta</h5>
-								<h4>Dean(Academics)</h4>
+    							<img src="./Images/ladmins/pka.png" alt="Vijay" >
+								<h5>Prof. Pritee Khanna</h5>
+								<h4>Chairperson</h4>
 							</div>
 					
 							<div class="columnDean">
-	    						<img src="./Images/DeanStd/tanuja.png" alt="tanuj" >
-								<h5>Prof. Tanuja Sheorey</h5>
-								<h4>Dean(Students)</h4>
-							</div>
-
-							<div class="columnDean">
-	    						<img src="./Images/DeanPnD/pnkon.png" alt="P.N Kondekar" >
-								<h5>Prof. P.N Kondekar</h5>
-								<h4>Dean(Planning & Development)</h4>
-							</div>
-					  	</div>
-
-						<div class="rowDean">
-							<div class="columnDean">
-    							<img src="./Images/DeanRSPC/pkpadhy.png" alt="Vijay" >
-								<h5>Prof. Prabin Kumar Padhhy</h5>
-								<h4>Dean(RSPC)</h4>
-							</div>
-
-							<div class="columnDean">
-	    						<img src="./Images/DeanPnD/atul.png" alt="Vijay" >
-								<h5>Prof. Atul Gupta</h5>
-								<h4>Associate Dean(Planning & Development)</h4>
+	    						<img src="./Images/ladmins/omvir.png" alt="Omvir Singh" >
+								<h5>Mr. Omvir Singh Bhadauria </h5>
+								<h4>Placement Officer</h4>
 							</div>
 						</div>
 
@@ -88,56 +68,13 @@
 					  	
 						<div class="rowDean"> 
 					  		<div class="columnDean">
-    							<img src="./Images/DeanPnD/atul.png" alt="Atul Gupta" >
-								<h5>Prof. Atul Gupta</h5>
-								<h4>CSE</h4>
-							</div>
-					
-							<div class="columnDean">
-	    						<img src="./Images/Administrators/pkpadhy.png" alt="Dr.Prabir Mukhopadhyay" >
-								<h5>Dr. Prabir Mukhopadhyay</h5>
-								<h4>Design</h4>
-							</div>
-
-							<div class="columnDean">
-	    						<img src="./Images/Administrators/anilkr.png" alt="Anil Kumar" >
-								<h5>Dr. Anil Kumar</h5>
-								<h4>ECE</h4>
-							</div>
-					  	</div>
-
-						<div class="rowDean">
-							<div class="columnDean">
-    							<img src="./Images/Administrators/pkjain.png" alt="Prashant" >
-								<h5>Prof. Prashant K. Jain</h5>
-								<h4>ME</h4>
-							</div>
-
-							<div class="columnDean">
-	    						<img src="./Images/Administrators/mkroy.png" alt="Mukesh" >
-								<h5>Dr. Mukesh Kumar Roy</h5>
-								<h4>NS</h4>
-							</div>
-
-							<div class="columnDean">
-	    						<img src="./Images/Administrators/puneetT.png" alt="Puneet" >
-								<h5>Prof. Puneet Tandon</h5>
-								<h4>Smart Manufacturing</h4>
-							</div>
-
-						</div>
-
-						<div class="rowDean">
-							<div class="columnDean">
-								<img src="./Images/Administrators/sag.png" alt="Sunil" >
-								<h5>Dr. Sunil Agrawal</h5>
-								<h4>Liberal Arts</h4>
+    							<img src="./Images/ladmins/dineshk.png" alt="Dinesh K" >
+								<h5>Prof. Dinesh Kumar V</h5>
+								<h4>Professor In-charge</h4>
 							</div>
 						</div>
-
 
 					</div>
-
 
 					<span class="br"></span>
 
@@ -145,9 +82,9 @@
 					<div class="adminProfile">
 						<div class="rowDean">
 					  	<div class="columnDean">
-    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
-								<h5>Mrs. Swapnali Gadekar</h5>
-								<h4>Deputy Registrar</h4>
+    						<img src="./Images/ladmins/puneetT.png" alt="Puneet T" >
+								<h5>Prof. Puneet Tandon</h5>
+								<h4>Professor In-charge</h4>
 							</div>
 						</div>
 					</div>
@@ -158,9 +95,9 @@
 					<div class="adminProfile">
 						<div class="rowDean">
 					  	<div class="columnDean">
-    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
-								<h5>Mrs. Swapnali Gadekar</h5>
-								<h4>Deputy Registrar</h4>
+    						<img src="./Images/ladmins/rkjha.png" alt="Swapnali" >
+								<h5>Dr. Rakesh Kumar Jha </h5>
+								<h4>Professor In-charge</h4>
 							</div>
 						</div>
 					</div>
@@ -171,9 +108,9 @@
 					<div class="adminProfile">
 						<div class="rowDean">
 					  	<div class="columnDean">
-    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
-								<h5>Mrs. Swapnali Gadekar</h5>
-								<h4>Deputy Registrar</h4>
+    						<img src="./Images/ladmins/varunB.png" alt="Varun B" >
+								<h5>Dr. Varun Bajaj</h5>
+								<h4>Professor In-charge</h4>
 							</div>
 						</div>
 					</div>
@@ -184,9 +121,9 @@
 					<div class="adminProfile">
 						<div class="rowDean">
 					  	<div class="columnDean">
-    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
-								<h5>Mrs. Swapnali Gadekar</h5>
-								<h4>Deputy Registrar</h4>
+    						<img src="./Images/ladmins/akk.png" alt="Asish Kundu" >
+								<h5>Dr. Asish K. Kundu</h5>
+								<h4>Professor In-charge</h4>
 							</div>
 						</div>
 					</div>
@@ -197,7 +134,7 @@
 					<div class="adminProfile">
 						<div class="rowDean">
 					  	<div class="columnDean">
-    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
+    						<img src="./Images/ladmins/swapnali.png" alt="Swapnali" >
 								<h5>Mrs. Swapnali Gadekar</h5>
 								<h4>Deputy Registrar</h4>
 							</div>
@@ -211,8 +148,8 @@
 					<div class="adminProfile">
 						<div class="rowDean">
 					  	<div class="columnDean">
-    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
-								<h5>Mrs. Swapnali Gadekar</h5>
+    						<img src="./Images/ladmins/rizwanA.png" alt="rizwan A" >
+								<h5>Mr. Rizwan Ahmed</h5>
 								<h4>Deputy Registrar</h4>
 							</div>
 						</div>
@@ -224,9 +161,9 @@
 					<div class="adminProfile">
 						<div class="rowDean">
 					  	<div class="columnDean">
-    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
-								<h5>Mrs. Swapnali Gadekar</h5>
-								<h4>Deputy Registrar</h4>
+    						<img src="./Images/ladmins/santosh.png" alt="santosh M" >
+								<h5>Mr. Santosh Mahobia</h5>
+								<h4>Assistant Registrar</h4>
 							</div>
 						</div>
 					</div>
