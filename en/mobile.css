@@ -77,7 +77,10 @@ body,html
   {
     height: 200px;
   }
-
+  .topnav
+  {
+    padding: 0;
+  }
   .topnav a:not(:first-child), .dropdown .dropbtn
   {
     display: none;
