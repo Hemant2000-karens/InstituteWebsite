@@ -1616,6 +1616,10 @@ input[type="radio"]{
   padding: 16px;
   text-align: center;
 }
+.members img
+{
+  border-radius: 5px;
+}
 
 .profile
 {
