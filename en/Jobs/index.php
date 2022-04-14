@@ -11,7 +11,9 @@
 <?php include './navbar.php'; ?>
 <body>
 	<div class="container">
-
+		<div>
+			
+		</div>
 	</div>
 </body>
 <?php include './footer.php';?>

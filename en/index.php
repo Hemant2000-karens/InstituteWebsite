@@ -35,18 +35,15 @@
   </div>
 
   <div id="news" class="newsContent">
-    <h3>London</h3>
-    <p>London is the capital city of England.</p>
+    <?php include'./news.php';?>
   </div>
 
   <div id="notice" class="newsContent">
-    <h3>Paris</h3>
-    <p>Paris is the capital of France.</p> 
+    <?php include'notice.php';?>
   </div>
 
   <div id="achievement" class="newsContent">
-    <h3>Tokyo</h3>
-    <p>Tokyo is the capital of Japan.</p>
+    <?php include 'archievement.php';?>
   </div>
 
 
