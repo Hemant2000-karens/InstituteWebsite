@@ -6,7 +6,7 @@
 	</div>
 </a>
 
-<a href="" target="_blank">
+<a href="https://alumni.iiitdmj.ac.in" target="_blank">
 	<div class="circle">
 		<i class="bi bi-mortarboard-fill"></i>
 		<span>Alumni</span>

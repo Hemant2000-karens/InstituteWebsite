@@ -1354,7 +1354,15 @@ padding-left:380px;
 {
   
 }
+.misc a
+{
+  text-decoration: none;
+}
 
+.misc a:active
+{
+  text-decoration: none;
+}
 
 /* Misc Ends Here */
 
