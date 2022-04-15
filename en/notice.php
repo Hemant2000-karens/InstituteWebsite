@@ -15,7 +15,7 @@
 		{
 			echo "<div class='item1Content'>";
 			echo "<span class='br'></span><a href = '".$rows['notice_link']."'"."target='_blank'>".$rows['notice_text']."</a>"."<span class='br'></span> <div class='notice_date'> &nbsp; - ".$rows['date']."</div>";
-			echo "</div> <hr> ";
+			echo "</div> <hr style='border-top: 0.25px solid #00579f;'> ";
 		}
 
 		echo "<div class='item1Content0'>";
