@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@300&family=Varela+Round&family=Bitter&=Open+Sans:wght@400;600&&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&&family=Ubuntu&family=Rubik:wght@300&family=Varela+Round&family=Bitter&=Open+Sans:wght@400;600&&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 ::-moz-selection
 {
@@ -994,8 +994,8 @@ padding-left:380px;
 }
 .notice_date
 {
-  color: ;
-  font-family: ;
+  color:#545638;
+  font-family:'Ubuntu', sans-serif;;
 }
 .viewall
 {
