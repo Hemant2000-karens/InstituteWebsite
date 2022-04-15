@@ -1482,6 +1482,7 @@ input[type="radio"]{
 }
 .m_profile img
 {
+  border-radius: 2.67px;
   height: 100%;
   width:  100%;
 }
