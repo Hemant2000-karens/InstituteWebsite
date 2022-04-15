@@ -600,14 +600,14 @@ body{
    flex-grow: 1;
 }
 .home .caption{
-    background-color: #f9f9f99e;
-    backdrop-filter: blur(8px);
-    width: 65%;
-    padding-top: 10px;
-    padding-left: 22px;
-    margin-top: 100px;
-    position: absolute;
-    border-radius: 13px;
+  background-color: #f9f9f99e;
+  backdrop-filter: blur(8px);
+  width: 65%;
+  padding-top: 10px;
+  padding-left: 22px;
+  margin-top: 100px;
+  position: absolute;
+  border-radius: 13px;
 }
 .home .caption h1{
   font-size:42px;
@@ -1463,12 +1463,36 @@ input[type="radio"]{
 /* Video Gallery */
 
 
+/* Magazine Gallery */
+.magazine
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  justify-items: center;
+  margin: 0;
+  padding: 2% 10%;
+}
 
+.m_profile
+{
+  padding: 10px 2px;
+  height: auto;
+  width: 140px;
+  margin: 5.6px;
+}
+.m_profile img
+{
+  height: 100%;
+  width:  100%;
+}
 
+.m_profile a
+{
+  display: inline-grid;
+  justify-items: center;
+}
 
-
-
-
+/* Magazine Gallery */
 
 /* Gallery Pages settings ends */
 

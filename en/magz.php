@@ -14,16 +14,38 @@
 		<?php include "./navbar.php" ?>
 		<span class="br"></span>
 
+	<div class="magazine">
+		<div class="m_profile">
+			<a href="../Magazine/savitur-2022.pdf" target="_blank">
+			<img src="../Magazine/savitur-2022.png" />
+			<span>Savitur - 2022</span>
+			</a>
+		</div>
 
+		<div class="m_profile">
+			<a href="../Magazine/savitur-2022.pdf" target="_blank">
+			<img src="../Magazine/savitur-2022.png" />
+			<span>Savitur - 2022</span>
+			</a>
+		</div>
+		
+		<div class="m_profile">
+			<a href="../Magazine/savitur-2022.pdf" target="_blank">
+			<img src="../Magazine/savitur-2022.png" />
+			<span>Savitur - 2022</span>
+			</a>
+		</div>
 
+		<div class="m_profile">
+			<a href="../Magazine/savitur-2022.pdf" target="_blank">
+			<img src="../Magazine/savitur-2022.png" />
+			<span>Savitur - 2022</span>
+			</a>
+		</div>
 
+	</div>
 
-
-
-
-
-
-
+</div>
 
 	</body>
 </div>
