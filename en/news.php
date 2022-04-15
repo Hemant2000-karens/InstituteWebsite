@@ -2,7 +2,7 @@
 
 <?php include './connectionDB.php';
 
-	$sql_query = "SELECT * FROM Notice";
+	$sql_query = "SELECT * FROM news";
 
 
 	$result = $link->query($sql_query);
@@ -12,7 +12,7 @@
 		while($rows = $result -> fetch_assoc())
 		{
 			echo "<div class='item3Content'>";
-			echo "<span class='br'></span><a href = '".$rows['notice_link']."'"."target='_blank'>".$rows['notice_text']."</a>"."<span class='br'></span> <div class='notice_date'> &nbsp; - ".$rows['date']."</div>";
+			echo "<span class='br'></span><a href = '".$rows['n_link']."'"."target='_blank'>".$rows['news']."</a>"."<span class='br'></span> <div class='notice_date'> &nbsp; - ".$rows['date']."</div>";
 			echo "</div> <hr class='new1'> ";
 		}
 
