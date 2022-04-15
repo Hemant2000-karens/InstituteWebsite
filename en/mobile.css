@@ -300,7 +300,6 @@ and (orientation: portrait)
   }
 }
 
-
 @media only screen
 and(min-width: 2560px)
 and(orientation: landscape)

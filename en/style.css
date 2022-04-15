@@ -895,6 +895,14 @@ body{
   height: 420px;
   font-family: 'Noto Sans';
 }
+@media only screen
+and(min-width: 2560px)
+{
+  .messageDesk
+  {
+    padding: 50px 10% !important;
+  }
+}
 .messageDesk1
 {
   display: none;
@@ -966,7 +974,7 @@ padding-left:380px;
 }
 
 /* Notice Page */
-.item1
+.item1,.item2,.item3
 {
   margin: 0;
   height: 100%;
@@ -975,18 +983,23 @@ padding-left:380px;
   overflow-y: scroll;
   
 }
-.item1Content0
+.item1Content0,.item2Content0,.item3Content0
 {
   padding: 5px 0;
   display: flex;
   justify-content: center;
 
 }
-.item1Content
+.item1Content,.item2Content,.item3Content
 {
   /*background: #ccc;*/
 }
-.item1Content a, .item1Content0 a
+.item1Content a, 
+.item1Content0 a,
+.item2Content a,
+.item2Content0 a,
+.item3Content a,
+.item3Content0 a
 {
   font-family: 'varela round',sans-serif;
   text-decoration: none;
@@ -996,6 +1009,9 @@ padding-left:380px;
 {
   color:#545638;
   font-family:'Ubuntu', sans-serif;;
+}
+hr.new1 {
+  border-top: 0.25px solid #00579f;
 }
 .viewall
 {

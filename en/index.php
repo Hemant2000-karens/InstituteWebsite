@@ -39,11 +39,11 @@
   </div>
 
   <div id="notice" class="newsContent">
-    <?php include'notice.php';?>
+    <?php include'./notice.php';?>
   </div>
 
   <div id="achievement" class="newsContent">
-    <?php include 'archievement.php';?>
+    <?php include './ach.php';?>
   </div>
 
 
