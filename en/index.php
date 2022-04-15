@@ -12,7 +12,7 @@
 
     <body>
       <div id="overlay" onclick="off()">
-        <img  id="welcomeNotice" src="./Images/vaccination.jpg">
+        <img  id="welcomeNotice" src="./Images/csir.jpg">
     </div>
     <?php include 'topheader.php';?>
    <?php include 'Header.php'?>

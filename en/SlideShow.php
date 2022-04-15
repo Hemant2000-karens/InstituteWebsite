@@ -1,6 +1,6 @@
 <section class="home">
 <div class="slider">
-        <div class="slide active" style="background-image: url('./Images/img01.jpg')">
+        <div class="slide active" style="background-image: url('./Images/Slider/img01.jpg')">
             <div class="SlideshowContainer">
                 <div class="caption">
                     <h1>Lab Complex</h1>
@@ -10,7 +10,7 @@
         </div>
 
         
-        <div class="slide" style="background-image: url('./Images/img02.jpg')">
+        <div class="slide" style="background-image: url('./Images/Slider/img02.jpg')">
             <div class="SlideshowContainer">
                 <div class="caption">
                     <h1>Lab Complex 2</h1>
@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div class="slide" style="background-image: url('./Images/img04.jpg')">
+        <div class="slide" style="background-image: url('./Images/Slider/img04.jpg')">
             <div class="SlideshowContainer">
                 <div class="caption">
                     <h1>Group Photograph</h1>
@@ -29,7 +29,7 @@
         </div>
 
 
-        <div class="slide" style="background-image: url('./Images/img03.jpg')">
+        <div class="slide" style="background-image: url('./Images/Slider/img03.jpg')">
             <div class="SlideshowContainer">
                 <div class="caption">
                     <h1>Institute Lectures Hall</h1>
@@ -38,7 +38,7 @@
             </div>
         </div>
 
- <div class="slide" style="background-image: url('./Images/img05.jpeg')">
+<div class="slide" style="background-image: url('./Images/Slider/img05.jpeg')">
             <div class="SlideshowContainer">
                 <div class="caption">
                     <h1>Administrative Building</h1>
@@ -47,7 +47,7 @@
             </div>
         </div>
 
-<div class="slide" style="background-image: url('./Images/img06.jpg')">
+<div class="slide" style="background-image: url('./Images/Slider/img06.jpg')">
             <div class="SlideshowContainer">
                 <div class="caption">
                     <h1>Design Workshop</h1>
@@ -55,6 +55,15 @@
                 </div>
             </div>
         </div>
+
+<div class="slide" style="background-image: url('./Images/Slider/INTL_women.jpg')">
+    <div class="SlideshowContainer">
+        <div class="caption">
+            <h1>International Women's Day</h1>
+            <p>8<sup>th</sup>March 2022</p>
+        </div>
+    </div>
+</div>
 
 
      </div>
