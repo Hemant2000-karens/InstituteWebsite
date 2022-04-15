@@ -19,7 +19,7 @@
 
 		<?php include './connectionDB.php';
 
-			$sql_query = "SELECT * FROM magazine";
+			$sql_query = "SELECT * FROM magazine ORDER by magazine_year DESC";
 
 
 			$result = $link->query($sql_query);
