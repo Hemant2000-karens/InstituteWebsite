@@ -1488,8 +1488,16 @@ input[type="radio"]{
 
 .m_profile a
 {
+  text-decoration: none;
   display: inline-grid;
   justify-items: center;
+}
+
+.m_profile a span
+{
+  color: #303766;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 5px 2px;
 }
 
 /* Magazine Gallery */
