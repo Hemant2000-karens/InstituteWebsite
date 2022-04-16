@@ -16,7 +16,9 @@
 
 			<?php include "./navbar.php" ?>
 
-		<span class="br"></span>
+			<?php include './connectionDB.php';?>
+
+			<span class="br"></span>
 			
 			<div class="aboutHeader">
 				<h2>Academic Guidelines</h2>
@@ -24,39 +26,38 @@
 
 			<div class="acgdl">
 
-		<?php include './connectionDB.php';?>
-
-
 				<div class="aboutHeader">
 					<h4>Guidelines for UnderGraduate</h4>
 				</div>
 
 				<div class="acgl_ug">
 
-					<?
-						$sql_query0 = "SELECT * FROM guidelines where guideLine_type = 'UG' ORDER BY guideline_year DESC;";
+				<?php
 
-					$result0 = $link->query($sql_query);
+					$sql_query0 = "SELECT * FROM guidelines where guideLine_type = 'UG' ORDER BY guideline_year DESC;";
 
-					if($result -> num_rows > 0)
+					$result0 = $link->query($sql_query0);
+
+				if($result0 -> num_rows > 0)
+				{
+					while($rows0 = $result0 -> fetch_assoc())
 					{
-						while($rows0 = $result -> fetch_assoc())
-						{
-					echo "<span class='acgl_ug_link'>";
+						echo "<span class='acgl_ug_link'>";
 					
-					echo "<a href='../Documents/AG - ".$rows0['guideline_year'].".pdf' target='_blank'>";
+						echo "<a href='../Documents/AG-".$rows0['name']."-".$rows0['guideline_year'].".pdf' target='_blank'>";
 					
-					echo "Academic Guidelines for ".$rows0['guideLine_type']."(".$rows0['guideline_year'].")</a>";
-					echo "</span>";
+						echo "Academic Guidelines for ".$rows0['guideLine_type']."(".$rows0['guideline_year'].")</a>";
+						echo "</span>";
 
+					}
 				}
-			}
-			else
-			{
-				echo "View all - <a href='viewall.php'>View All</a>";
-			}
-
-			?>
+				else
+				{
+					echo "<span class='acgl_ug_link'>";
+					echo "<a href='#'> No Guidelines Available</a>";
+					echo "</span>";
+				}
+				?>
 
 				</div>
 
@@ -65,68 +66,74 @@
 				</div>
 				<div class="acgl_pg">
 
-
-		<?php 
+				<?php 
+					include './connectionDB.php';
 					$sql_query1 = "SELECT * FROM guidelines where guideLine_type = 'PG' ORDER BY guideline_year DESC;";
 
 					$result1 = $link->query($sql_query1);
 
-			if($result -> num_rows > 0)
-			{
-				while($rows1 = $result1 -> fetch_assoc())
+				if($result1 -> num_rows > 0)
 				{
-					echo "<span class='acgl_ug_link'>";
+					while($rows1 = $result1 -> fetch_assoc())
+					{
+						echo "<span class='acgl_pg_link'>";
 					
-					echo "<a href='../Documents/AG - ".$rows['guideline_year'].".pdf' target='_blank'>";
+						echo "<a href='../Documents/AG-".$rows1['name']."-".$rows1['guideline_year'].".pdf' target='_blank'>";
 					
-					echo "Academic Guidelines for ".$rows['guideLine_type']."(".$rows['guideline_year'].")</a>";
+						echo "Academic Guidelines for ".$rows1['guideLine_type']."(".$rows1['guideline_year'].")</a>";
+						echo "</span>";
+					}
+				}
+				else
+				{
+					echo "<span class='acgl_pg_link'>";
+					echo "<a href='#'> No Guidelines Available</a>";
 					echo "</span>";
 				}
-			}
-			else
-			{
-				echo "View all - <a href='viewall.php'>View All</a>";
-			}
-		?>
+				?>
 
+			</div>
 
+			<div class="aboutHeader">
+					<h4>Guidelines for Ph.D</h4>
 				</div>
 
-					<div class="aboutHeader">
-						<h4>Guidelines for Ph.D</h4>
-					</div>
 				<div class="acgl_phd">
 
+					<?php
 
-
-		<?php 
-				$sql_query2 = "SELECT * FROM guidelines where guideLine_type = 'PHD' ORDER BY guideline_year DESC;";
+						$sql_query2 = "SELECT * FROM guidelines where guideLine_type = 'PHD' ORDER BY guideline_year DESC;";
 
 					$result2 = $link->query($sql_query2);
 
-			if($result2 -> num_rows > 0)
-			{
-				while($rows2 = $result2 -> fetch_assoc())
-				{
-					echo "<span class='acgl_ug_link'>";
+					if($result2 -> num_rows > 0)
+					{
+						while($rows2 = $result2 -> fetch_assoc())
+						{
+					echo "<span class='acgl_phd_link'>";
 					
-					echo "<a href='../Documents/AG - ".$rows2['guideline_year'].".pdf' target='_blank'>";
+					echo "<a href='../Documents/AG-".$rows2['name']."-".$rows2['guideline_year'].".pdf' target='_blank'>";
 					
 					echo "Academic Guidelines for ".$rows2['guideLine_type']."(".$rows2['guideline_year'].")</a>";
 					echo "</span>";
+
 				}
 			}
 			else
 			{
-				echo "View all - <a href='viewall.php'>View All</a>";
+				echo "<span class='acgl_phd_link'>";
+				echo "<a href='#'> No Guidelines Available</a>";
+				echo "</span>";
 			}
-		?>
+
+			?>
 
 				</div>
+					
 
 			</div>
 		</body>
 	</div>
-
+	<?php $link -> close();?>
 	<?php include './footer.php'?>
 </html>
