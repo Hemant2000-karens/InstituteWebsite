@@ -530,7 +530,7 @@ body{
   width: 99%;
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  background-color: #efefef;
   align-items: center;
   justify-content: space-between;
 }
@@ -544,6 +544,7 @@ body{
   border-top: none;
 }
 .newsTab button {
+  text-shadow: 0px 0px 2px #646464, 0 0 2px #e1e1e1;
   float: left;
   border: none;
   outline: none;
@@ -553,8 +554,7 @@ body{
   font-size: 17px;
 }
 .newsTab button:hover {
-  background-color:#0a0a08;
-  color: whitesmoke;
+  text-shadow: 0px 0px 0px #646464, 0 0 0px #e1e1e1;
 }
 
 
@@ -1004,6 +1004,15 @@ padding-left:380px;
   font-family: 'varela round',sans-serif;
   text-decoration: none;
   color: #006694;
+}
+.item1Content a:hover, 
+.item1Content0 a:hover,
+.item2Content a:hover,
+.item2Content0 a:hover,
+.item3Content a:hover,
+.item3Content0 a:hover
+{
+  text-shadow: 0px 0px 2px #006694a1, 0 0 2px #6cabc89e;
 }
 .notice_date
 {
@@ -1503,7 +1512,8 @@ input[type="radio"]{
 
 /* Magazine Gallery */
 
-/* Gallery Pages settings ends */
+/* Gallery Pages setting
+s ends */
 
 /* Academics Page */
 
