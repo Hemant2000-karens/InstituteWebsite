@@ -20,7 +20,7 @@
     <button class="dropbtn">Academics 
     </button>
     <div class="dropdown-content">
-      <a href="#">Programmes</a>
+      <a href="./Acd.php">Programmes</a>
       <a href="#">Academic Calander</a>
       <a href="#">Scholarship</a>
       <a href="#">Syllabus</a>
@@ -37,7 +37,7 @@
       <a target="_blank" href="https://admission.iiitdmj.ac.in/phd">Ph.D</a>
       <a target="_blank" href="https://admission.iiitdmj.ac.in/feesStructurer">Fees Structure</a>
       <a href="#">Seat Matrix(jossaa)</a>
-      <a target="_blank" href="https://admission.iiitdmj.ac.in/acdg">Academic Guidelines</a>
+      <a target="_blank" href="./AcademicsGuidelines.php">Academic Guidelines</a>
       <a target="_blank" href="https://admission.iiitdmj.ac.in/acdcm">Curriculum</a>
     </div>
   </div> 
