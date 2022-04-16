@@ -1,0 +1,1430 @@
+body,html
+{
+  background-color:#fdfdfd;
+  padding: 0px;
+}
+
+@media screen and (max-width: 560px)
+{
+  #welcomeNotice
+  {
+    height: 200px;
+    width: 350px;
+  }
+  .noticeMain
+  {
+    padding: 0 10px !important;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header h1
+  {
+    position: relative;
+    padding-top: 0px;
+    padding-left: 11px;
+    height: 70%;
+    font-size: 18px
+  }
+  .topheader
+  {
+    height: auto;
+    display: inline-flex;
+    font-size: 10;
+    width: -webkit-fill-available;
+  }
+  .active a
+  {
+    padding-top: 5px;
+  }
+
+  .header
+  {
+    display: inline-flex;
+    height: 120px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+  }
+  .header img
+  {
+    justify-content: center;
+    width: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    height: 100px;
+  }
+  .header h1
+  {
+    text-align: left;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 12px;
+    height: 90%;
+  }
+  .article
+  {
+    width: 100%;
+    position: relative;
+    display: block;
+  }
+  .article fieldset
+  {
+    height: auto;
+    width: 92.5%;
+  }
+  .banner
+  {
+    height: 200px;
+  }
+  .topnav
+  {
+    padding: 0;
+  }
+  .topnav a:not(:first-child), .dropdown .dropbtn
+  {
+    display: none;
+  }
+  .topnav a.icon
+  {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .column
+  {
+    width: 100%;
+    height: auto;
+  }
+  .noticeMain
+  {
+    padding: 0 40px;
+  }
+
+  .combined
+  {
+    display: block;
+  }
+  .combined_2
+  {
+    display: block;
+    margin-top: 1.2%;
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+  .newsTab
+  {
+    display: flex;
+    width: 99.8%;
+  }
+}
+
+@media only screen
+and (min-width: 375px)
+and (max-width: 960px)
+{
+  .header h1
+  {
+    padding-top: 20px;
+  }
+
+/* Video Gallery Settings */
+.vCaption:nth-child(even){
+  margin-left: 0;
+}
+.vCaption
+{
+  margin:12px;
+}
+.vCaption iframe
+{
+  width: -webkit-fill-available;
+  height: 350px;
+}
+
+
+
+
+/* Video gallery Settings */
+
+
+
+
+
+
+}
+
+@media screen
+and (max-width:390px)
+and (orientation: portrait)
+{
+  .header
+  {
+    margin-bottom: 15px;
+  }
+  .header h1
+  {
+    padding-top: 5px;
+  }
+
+}
+
+@media screen
+and (max-width: 380px)
+and (orientation: portrait)
+{
+  .header img
+  {
+    height: 75px;
+    width: 75px;
+  }
+  .header h1
+  {
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+    padding-top: 3px;
+    padding-left: 12px;
+    height: 90%;
+  }
+
+  .thought_for_Day h1
+  {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  .SecondaryNav
+  {
+    display: inline-flex;
+    width: -webkit-fill-available;
+    overflow-x: scroll;
+  }
+  .SecondaryNav a
+  {
+    display: grid;
+    text-overflow:hidden;
+  }
+}
+
+
+@media screen and (max-width: 560px)
+{
+  .misc
+  {
+    display: table;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 420px)
+{
+  .bi.bi-camera-fill,.bi-mortarboard-fill,.bi-calendar-week-fill
+{
+  font-size: 45px;
+}
+  .circle
+  {
+    height:120px;
+    width: 120px;
+  }
+}
+/* NavBar */
+
+/* Dean Page Setting */
+
+/* tabletView Dean  ipad  and ipad pro 12" */
+
+@media screen and (max-width:1200px)
+{
+  .bodyContent
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 895px !important;
+  }
+  .tableContainer
+  {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+  }
+  .footer
+  {
+    height: auto;
+  }
+  .footer .footer-main
+  {
+    height: 350px;
+    display: block;
+  }
+  .footer-secondary
+  {
+    display: block;
+    padding: 10px;
+    width: -webkit-fill-available;
+    height: auto;
+  }
+  .footer-secondary-links {
+    padding: 6px 5px;
+    display: inline-block;
+}
+.footer-secondary-links a {
+    padding: 0 15px;
+    font-size: small;
+  }
+}
+
+@media only screen
+and(min-width: 2560px)
+and(orientation: landscape)
+{
+  .topnav
+  {
+    padding: 0 27%;
+  }
+}
+
+@media only screen
+and (max-width: 2560px)
+and (orientation: landscape)
+{
+  .bodyContent
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+  }
+  .rowDean
+  {
+    width: auto;
+    justify-content: center;
+  }
+}
+
+@media screen
+and (min-width:770px)
+and (max-width:960px)
+and (orientation: portrait)
+{
+  .bodyContent
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 892px;
+  }
+  .rowDean img
+  {
+    height: 210px;
+    width: 210px;
+  }
+
+.tableContainer
+  {
+    margin-right: auto;
+    margin-left: auto;
+    width:100%;
+    justify-content: center;
+  }
+  .rowDean
+  {
+
+  }
+  .footer
+  {
+    height: auto;
+  }
+  .footer .footer-main
+  {
+    height: 310px;
+    display: block;
+  }
+  .footer-secondary
+  {
+    display: block;
+    padding: 10px;
+    width: -webkit-fill-available;
+    height: auto;
+  }
+  .footer-secondary-links {
+    padding: 6px 5px;
+    display: inline-block;
+}
+  .footer-secondary-links a {
+      padding: 0 15px;
+      font-size: small;
+  }
+  .chButton
+  {
+    display: none;
+  }
+}
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 375px)
+and (orientation: portrait)
+{
+ .bodyContent
+  {
+    width: -webkit-fill-available;
+  }
+  .tableContainer
+  {
+  padding: 0;
+  width: 95%;
+  margin: 0 -20px;
+  }
+  .rowDean
+  {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  .column
+  {
+    width: 80%;
+  }
+}
+@media only screen
+and (min-width: 320px)
+and (max-width: 680px)
+and (orientation: landscape)
+{
+  .bodyContent
+  {
+    width: -webkit-fill-available;
+  }
+  .tableContainer
+  {
+  padding: 0;
+  width: 95%;
+  margin: 0 20px;
+  }
+  .rowDean
+  {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media only screen
+and (min-width: 461px)
+and (max-width: 770px)
+and (orientation: portrait)
+{
+  .bodyContent
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+  .tableContainer
+  {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rowDean
+  {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen
+and (min-width: 375px)
+and (max-width: 460px)
+and (orientation: portrait)
+{
+
+  .topnav a
+  {
+    font-size: 15px;
+  }
+  .dropdown .dropbtn
+  {
+    font-size: 15px;
+  }
+  .bodyContent
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: -webkit-fill-available !important;
+  }
+  .tableContainer
+  {
+    padding: 0 0 0 25px;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+  }
+  .columnDean h5
+{
+  font-size: smaller;
+}
+.columnDean h4
+{
+  font-size: smaller;
+}
+.rowDean
+{
+  display: inline;
+  padding: 6px 10px;
+}
+.sticky
+{
+  width: -webkit-fill-available;
+}
+.topheader .main-group
+{
+  display: contents;
+}
+.topheader
+{
+  display: block;
+}
+.topheader .group
+{
+  font-size: 8px;
+}
+.topheader .dept
+{
+  width: 50%;
+  font-size: 8px;
+}
+}
+
+@media screen and (max-width: 600px)
+{
+  .column 
+  {
+    width: 90%;
+    height: auto;
+  }
+  .row
+  {
+    display: inline-block;
+  }
+  .mesageContent
+  {
+    display: inline-block;
+  }
+}
+
+@media screen
+and (max-width:460px)
+{
+  .newsTab
+  {
+    width: 99.5%;
+  }
+  .combined
+  {
+    padding: 0 4%;
+  }
+  .newsContent
+  {
+    height: 150px;
+  }
+  .noticeSlider
+  {
+    float: left;
+    margin: 0 9.56vw;
+  }
+.messageDesk1
+{
+  background:url("./Images/messageBackground.png");
+  background-repeat: no-repeat;
+  background-size:  100% 100%;
+  font-family: 'Noto Sans';
+  display: block;
+  padding:0 0 20px 0;
+  height: auto;
+}
+.deskSpeech
+{
+  padding: 0 20px 0 20px;
+}
+
+  /* Footer for iphone and mobile */
+  .footer-subheader
+  {
+    width: 220px;
+  }
+  .footer-heading .header-block h3
+  {
+    padding: 0px 70px;
+  }
+  .footer-heading .socials
+  {
+    width: 180px;
+  }
+  .footer .footer-main {
+    height: auto;
+    display: block;
+  }
+}
+
+@media only screen
+and (min-width: 681px)
+and (max-width: 855px)
+and (orientation: landscape)
+{
+  .noticebody
+  {
+    margin-left: 14px;
+  }
+}
+
+
+
+
+@media screen
+and (max-width: 770px)
+{
+  .topheader{
+    font-size: xx-small;
+  }
+
+  .topheader .language a{
+    padding:10px;
+    font-size: xx-small;
+  }
+
+  .topheader .main-group {
+    padding-top:4px;
+    padding-left:1px;
+    margin-left: 0;
+  }
+
+  .topheader .main-group .dept{
+    margin-right: 16px;
+  }
+  .footer-subheader
+  {
+    width: 220px;
+  }
+  .footer-heading .header-block h3
+  {
+    padding: 0px 70px;
+  }
+  .footer-subgroup,.footer-secondary
+  {
+    display: none;
+  }
+  .collaps {
+  display: block;
+  background-color: inherit;
+  color: white;
+  cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: 0.5px solid #1a1e2c;
+  border-left-style: none;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  }
+  .collaps:after {
+      content: '+';
+      float: right;
+      font-size: 15px;
+      font-weight: normal;
+    }
+    .active2:after {
+    content: "-";
+  }
+    .content {
+    padding: 10px 18px;
+    height: auto;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #000a22;
+  }
+  .officals
+  {
+    background-color: inherit;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  padding: 15px;
+  }
+  .office
+  {
+    padding: 10px 18px;
+    height: auto;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #1a1e2c;
+  }
+  .officals:after
+  {
+    content: '+';
+    float: right;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  .active3:after
+  {
+    content: "-";
+  }
+  .content a
+  {
+    padding: 15px 10px ;
+    text-decoration: none;
+    color: #e4eff8;
+    font-size: small;
+  }
+  .footerSecondary
+  {
+    display:block;
+    padding: 0px;
+    height: 30px;
+    padding-bottom: 5px;
+    background-color: #0d101c;
+  }
+  .office a{
+    color: #7a839a;
+    text-decoration: none;
+    display: inline-grid;
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 786px) {
+   .timeline__event {
+    box-sizing: border-box;
+     flex-direction: column;
+     align-self: center;
+     width: 75vw;
+  }
+   .timeline__event__content {
+     width: 100%;
+     box-sizing: border-box;
+  }
+   .timeline__event__icon {
+     border-radius: 6px 6px 0 0;
+     width: 100%;
+     margin: 0;
+     box-sizing: border-box;
+     box-shadow: none;
+  }
+   .timeline__event__icon:before, .timeline__event__icon:after {
+     display: none;
+     box-sizing: border-box;
+  }
+   .timeline__event__date {
+     border-radius: 0;
+     padding: 20px;
+     box-sizing: border-box;
+  }
+   .timeline__event:nth-child(2n + 1) {
+     flex-direction: column;
+     align-self: center;
+     box-sizing: border-box;
+  }
+   .timeline__event:nth-child(2n + 1) .timeline__event__date {
+     border-radius: 0;
+     padding: 20px;
+     box-sizing: border-box;
+  }
+   .timeline__event:nth-child(2n + 1) .timeline__event__icon {
+     border-radius: 6px 6px 0 0;
+     margin: 0;
+     box-sizing: border-box;
+  }
+}
+
+
+/* Notice and Message for multiple
+resolution (mobile and tablet iPad)*/
+@media screen and (max-width: 460px)
+{
+  /* Thought of day */
+.thought_for_Day fieldset legend h1
+{
+  font-size: initial;
+}
+
+
+  /* Notice Setting */
+  .noticebody
+  {
+    margin-left: 0 !important;
+    width: 100%;
+    display: block;
+    height: 170px;
+  }
+  .noticeContent p
+  {
+    padding: 0 20px;
+  }
+
+  .noticeContent{
+    width: 240px;
+  }
+
+  .noticeTitle{
+    margin-left: 0 !important;
+    padding: 22px 0;
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+
+  /* Message Setting */
+
+  .deskImage img{
+    width: 95%;
+  }
+  .messageDesk
+  {
+    display: none;
+  }
+  .deskTitle
+  {
+    font-weight: 600;
+    font-size: x-large;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  .deskTabs a:first-child
+  {
+    padding-left: 10px;
+  }
+  .deskTabs a
+  {
+    font-size: 20px;
+  }
+  .deskTabs
+  {
+    width: max-content;
+  }
+}
+
+@media screen and (max-width: 425px)
+{
+  .deskTabs a
+  {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 660px)
+{
+  .noticeTitle
+  {
+    margin-left: 10px;
+  }
+  .noticeContent
+  {
+    width: 180px;
+  }
+}
+
+@media screen
+and (min-width: 461px)
+and (max-width: 690px)
+{  /* Notice Page Setting */
+  .noticeTitle
+  {
+    margin-left: 20px;
+  }
+
+
+/* Meesage Page Setting */
+
+}
+
+
+@media screen
+and (min-width: 691px)
+and (max-width: 780px)
+{
+  /* Notice Page Setting */
+  .noticeTitle
+  {
+    margin-left: 60px;
+  }
+
+
+/* Meesage Page Setting */
+
+}
+
+
+
+
+
+
+
+@media screen
+and (min-width: 768px)
+and (max-width: 900px)
+{
+  .noticeSlider
+  {
+    margin-left: 4px;
+  }
+}
+/* Smartphones (landscape) ---------------- */
+@media only screen
+and (min-width : 321px)
+and (max-width : 767px)
+{
+  .thought_for_Day fieldset h1
+  {
+    font-size: large;
+  }
+}
+
+
+/* Tablets (portrait) -------------------- */
+@media only screen
+and (min-width: 768px)
+and (max-device-width : 1024px)
+{
+  .home .caption
+  {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+
+
+/* Tablets (landscape) ------------------- */
+@media only screen
+and (min-device-width : 568px)
+and (max-device-width : 960px)
+{
+  .home .caption h1
+  {
+    font-size: 20px;
+  }
+  .home .caption
+  {
+    width: 40%;
+  }
+}
+
+@media only screen
+and (min-device-width : 659px)
+and (max-device-width : 770px)
+{
+  .noticeSlider
+  {
+    margin-left:25px ;
+  }
+  .noticeContent
+  {
+    margin-left: -65px;
+    margin-right: -65px;
+  }
+}
+
+@media only screen
+and (min-device-width : 461px)
+and (max-device-width : 658px)
+{
+  .noticeSlider
+  {
+    margin-left:25px ;
+  }
+  .noticeContent
+  {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+}
+
+
+@media only screen
+and (min-device-width : 461px)
+and (max-device-width : 1024px)
+{
+  .messageDesk
+  {
+    display: none;
+  }
+  .messageDesk1
+  {
+  display: block;
+  background:url("./Images/messageBackground.png");
+  background-repeat: no-repeat;
+  background-size:  100% 100%;
+  font-family: 'Noto Sans';
+  padding:0 0 20px 0;
+  height: auto;
+  }
+ .deskImage img{
+    margin-left: 45px;
+    width: 146%;
+    max-width: fit-content;
+  }
+  .deskTitle
+  {
+    margin-left: 30%;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+  .deskTabs a:first-child
+  {
+    padding-left: 10px;
+  }
+  .deskTabs a
+  {
+    font-size: 20px;
+  }
+  .deskSpeech
+  {
+    display: inline-block;
+    padding: 0 30px 0 20px;
+  }
+}
+
+@media only screen
+and (min-device-width : 461px)
+and (max-device-width : 505px)
+{
+  .footer .footer-heading
+  {
+    padding: 0 150px;
+  }
+  .footer-heading .socials
+  {
+    width: 200px;
+  }
+}
+
+/* iPad Air Setting for notice and message */
+@media only screen
+and (min-width: 834px)
+and (max-width: 1112px)
+and (orientation: landscape)
+{
+  .noticeSlider
+  {
+    margin-left: 15px;
+  }
+  .noticebody
+  {
+    margin-left: 21px;
+  }
+}
+
+
+@media only screen
+and (min-width: 834px)
+and (max-width: 1112px)
+and (orientation: portrait)
+{
+  .footer .footer-heading
+  {
+    padding: 20px 30px !important;
+  }
+}
+
+
+/* iPad Air Ends Here */
+
+
+/* Android Tablet Adjustment */
+@media only screen
+and (min-width: 534px)
+and (max-width: 854px)
+and (orientation: portrait)
+{
+  .noticeContent p
+  {
+    padding: 0 20px;
+  }
+  .footer .footer-heading
+  {
+    padding: 20px 192px;
+  }
+  .deskTitle
+  {
+    margin-left: 12px!important;
+  }
+  .deskImage img
+  {
+    width: 80% !important;
+    margin-left: 60px;
+  }
+}
+
+
+@media only screen
+and (min-width: 534px)
+and (max-width: 854px)
+and (orientation: landscape)
+{
+
+/* Dean Page Setting */
+
+  .bodyContent
+  {
+    width: 100%;
+  }
+
+.rowDean img
+{
+
+}
+
+  .noticebody
+  {
+    width: 95% !important;
+    margin-left: 21px;
+  }
+  .deskTitle
+  {
+    margin-left: 12px!important;
+  }
+  .deskImage img
+  {
+    width: 100% !important;
+    margin-left: 54px;
+  }
+}
+
+
+/* Lenovo Tab 8 Ends */
+
+
+/* iPhone 6s Landscape Issue */
+
+@media only screen
+and (min-width: 375px)
+and (max-width: 667px)
+and (orientation: landscape)
+{
+  .footer .footer-heading
+  {
+    padding: 20px 100px;
+  }
+  .deskImage img
+  {
+    margin-left: 0;
+  }
+}
+
+@media only screen
+and (min-width: 855px)
+and (max-width: 1024px)
+{
+  .deskImage img
+  {
+    margin-left: 53px;
+    width: 130%;
+    max-width: inherit;
+  }
+}
+
+
+
+@media only screen
+and (min-width: 375px)
+and (max-width: 814px)
+and (orientation: landscape)
+{
+  .messageDesk
+  {
+    display: none;
+  }
+  .noticeContent
+  {
+    width: auto;
+  }
+  .noticeTitle
+  {
+    margin-left: 5px;
+  }
+  .messageDesk1
+  {
+    background:url("./Images/messageBackground.png");
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    font-family: 'Noto Sans';
+    display: block;
+  }
+  .deskTitle
+  {
+    margin-left: 20%;
+  }
+  .deskSpeech
+  {
+    padding: 0 20px;
+  }
+  .deskTabs a:first-child
+  {
+    padding-left: 2px;
+  }
+  .footer .footer-heading
+  {
+    width: -webkit-fill-available;
+    padding: 20px 210px;
+  }
+}
+
+
+@media only screen
+and (min-width: 375px)
+and (max-width: 814px)
+and (orientation: portrait)
+{
+  .footer .footer-heading
+  {
+    padding: 20px 100px;
+  }
+}
+
+@media only screen 
+and (min-width: 810px) 
+and (max-width: 1080px) 
+and (orientation: portrait)
+{
+  .footer .footer-heading 
+  {
+    padding: 20px 22px;
+  }
+}
+
+
+/* iPhone Setting Ends */
+
+/* Redmi Setting 873x393 landscape */
+
+@media only screen
+and (min-width: 771px)
+and (max-width: 813px)
+and (orientation: landscape)
+{
+ .footer .footer-heading
+ {
+  padding: 20px 34px;
+ }
+}
+
+/* Redmi Settings Ends */
+
+/* Other Page Parts -  */
+@media only screen
+and (min-width: )
+and (max-width: )
+{
+
+}
+
+
+
+/* about us page */
+@media only screen
+and (min-width:320px)
+and (max-width:665px)
+{
+  .card
+  {
+    margin: 20px auto;
+  }
+  .body
+  {
+    width: auto;
+    margin: 10px 20px;
+  }
+
+  .otherPage
+  {
+    width: 200px;
+    display: block;
+  }
+}
+
+/* BOD Page ---*/
+
+@media only screen
+and (min-width: 375px)
+and (max-width: 580px)
+and (orientation: portrait)
+{
+    .profile
+    {
+      width: auto;
+      display: block;
+    }
+    .Director
+    {
+      margin: 12px auto;
+    }
+    .members
+    {
+      width: 60vw;
+      display: block;
+      margin: 12px auto;
+    }
+}
+
+
+/* End of BOD page--- */
+
+
+/* administor page*/
+
+
+
+
+
+
+
+
+
+/* Old Desktops and laptops ------------------ */
+@media only screen
+and (min-width:1080px)
+and (max-width: 1920px)
+and (orientation: portrait)
+{
+  .deskTitle
+  {
+    padding-left:0;
+
+  }
+  .deskTabs a:first-child
+  {
+    padding-left: 80px;
+  }
+  .deskSpeech
+  {
+    padding: 0 7px 0 214px;
+  }
+}
+
+@media only screen
+and (min-width : 800px)
+and (max-width: 1280px)
+and (orientation: landscape)
+{
+  .deskTitle
+  {
+    padding: 0;
+  }
+  .deskSpeech
+  {
+    padding: 0 0 0 621px;
+    margin-top: 13px;
+  }
+  .deskNav
+  {
+    display: none;
+  }
+  .deskTabs a:first-child
+  {
+    padding-left: 95px;
+  }
+  .noticeTitle
+  {
+    margin-left: 11px;
+  }
+  /* Add Your CSS Styling Here */
+}
+
+@media only screen
+and (min-width : 641px)
+and (max-width: 680px)
+and (orientation: landscape)
+{
+  .noticebody
+  {
+    margin-left: 4px !important;
+  }
+}
+
+
+
+/* Desktops ------------------ */
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px)
+and (orientation: landscape)
+{
+  .deskSpeech
+  {
+    padding: 0 31px 0 43px !important;
+  }
+}
+
+@media only screen
+and (min-width : 640px)
+and (max-width: 1024px)
+and (orientation: landscape)
+{
+  .noticeContent
+  {
+    width: auto;
+  }
+  .deskSpeech
+  {
+    padding: 0 31px 0 52px !important;
+  }
+  /* Add Your CSS Styling Here */
+}
+
+@media only screen
+and (min-width: 768px)
+and (max-width: 1366px)
+and (orientation: landscape)
+{
+  .deskSpeech
+  {
+    padding: 0 15px 0 720px important;
+  }
+  .deskNav
+  {
+    padding-right: -5px !important;
+  }
+  .deskTabs a:first-child
+  {
+    padding-left: 150px;
+  }
+}
