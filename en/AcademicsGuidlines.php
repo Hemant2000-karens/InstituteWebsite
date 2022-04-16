@@ -24,24 +24,39 @@
 
 			<div class="acgdl">
 
+		<?php include './connectionDB.php';?>
+
 
 				<div class="aboutHeader">
 					<h4>Guidelines for UnderGraduate</h4>
 				</div>
+
 				<div class="acgl_ug">
 
+					<?
+						$sql_query0 = "SELECT * FROM guidelines where guideLine_type = 'UG' ORDER BY guideline_year DESC;";
 
-					<span class="acgl_ug_link">
-						<a href="#">Academic Guidelines for UG(2022)</a>
-					</span>
+					$result0 = $link->query($sql_query);
+
+					if($result -> num_rows > 0)
+					{
+						while($rows0 = $result -> fetch_assoc())
+						{
+					echo "<span class='acgl_ug_link'>";
 					
-					<span class="acgl_ug_link">
-						<a href="#">Academic Guidelines for UG(2021)</a>
-					</span>
+					echo "<a href='../Documents/AG - ".$rows0['guideline_year'].".pdf' target='_blank'>";
+					
+					echo "Academic Guidelines for ".$rows0['guideLine_type']."(".$rows0['guideline_year'].")</a>";
+					echo "</span>";
 
-					<span class="acgl_ug_link">
-						<a href="#">Academic Guidelines for UG(2020)</a>
-					</span>
+				}
+			}
+			else
+			{
+				echo "View all - <a href='viewall.php'>View All</a>";
+			}
+
+			?>
 
 				</div>
 
@@ -51,20 +66,29 @@
 				<div class="acgl_pg">
 
 
-					<span class="acgl_pg_link">
-					<a href="#">Academic Guidelines for PG(2022)</a>
-					</span>
+		<?php 
+					$sql_query1 = "SELECT * FROM guidelines where guideLine_type = 'PG' ORDER BY guideline_year DESC;";
 
+					$result1 = $link->query($sql_query1);
 
-					<span class="acgl_pg_link">
-					<a href="#">Academic Guidelines for PG(2021)</a>
-					</span>
+			if($result -> num_rows > 0)
+			{
+				while($rows1 = $result1 -> fetch_assoc())
+				{
+					echo "<span class='acgl_ug_link'>";
+					
+					echo "<a href='../Documents/AG - ".$rows['guideline_year'].".pdf' target='_blank'>";
+					
+					echo "Academic Guidelines for ".$rows['guideLine_type']."(".$rows['guideline_year'].")</a>";
+					echo "</span>";
+				}
+			}
+			else
+			{
+				echo "View all - <a href='viewall.php'>View All</a>";
+			}
+		?>
 
-
-					<span class="acgl_pg_link">
-					<a href="#">Academic Guidelines for PG(2020)</a>
-					</span>
-			
 
 				</div>
 
@@ -73,20 +97,32 @@
 					</div>
 				<div class="acgl_phd">
 
-					<span class="acgl_phd_link">
-					<a href="#">Academic Guidelines for Ph.D(2022)</a>
-					</span>
 
 
-					<span class="acgl_phd_link">
-					<a href="#">Academic Guidelines for Ph.D(2021)</a>
-					</span>
+		<?php 
+				$sql_query2 = "SELECT * FROM guidelines where guideLine_type = 'PHD' ORDER BY guideline_year DESC;";
 
-					<span class="acgl_phd_link">
-					<a href="#">Academic Guidelines for Ph.D(2020)</a>
-					</span>	
+					$result2 = $link->query($sql_query2);
+
+			if($result2 -> num_rows > 0)
+			{
+				while($rows2 = $result2 -> fetch_assoc())
+				{
+					echo "<span class='acgl_ug_link'>";
+					
+					echo "<a href='../Documents/AG - ".$rows2['guideline_year'].".pdf' target='_blank'>";
+					
+					echo "Academic Guidelines for ".$rows2['guideLine_type']."(".$rows2['guideline_year'].")</a>";
+					echo "</span>";
+				}
+			}
+			else
+			{
+				echo "View all - <a href='viewall.php'>View All</a>";
+			}
+		?>
+
 				</div>
-
 
 			</div>
 		</body>
