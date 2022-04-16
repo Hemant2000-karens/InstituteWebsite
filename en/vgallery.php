@@ -14,6 +14,10 @@
 		<?php include "./navbar.php" ?>
 		<span class="br"></span>
 
+			<div class="aboutHeader" id="adminHeader">
+				<h2>Video Gallery</h2>
+			</div>
+
 <div class="vcontainer">
 
 	<div class="vCaption">

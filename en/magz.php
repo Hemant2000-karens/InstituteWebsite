@@ -14,9 +14,12 @@
 		<?php include "./navbar.php" ?>
 		<span class="br"></span>
 
+		<div class="aboutHeader">
+				<h2>Magazine</h2>
+			</div>
+
 	<div class="magazine">
 		
-
 		<?php include './connectionDB.php';
 
 			$sql_query = "SELECT * FROM magazine ORDER by magazine_year DESC";

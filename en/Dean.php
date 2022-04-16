@@ -220,7 +220,7 @@
 <?php include './footer.php'?>
 
 
-<script>
+<script type="text/javascript">
 
 	function openTab(evt, pageName) 
 	{
