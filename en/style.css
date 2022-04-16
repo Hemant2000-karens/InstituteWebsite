@@ -531,7 +531,7 @@ body{
 .newsTab
 {
   display: flex;
-  width: 99%;
+  width: 99.4%;
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #efefef;
@@ -548,6 +548,7 @@ body{
   border-top: none;
 }
 .newsTab button {
+  margin: 0;
   background: #efefef;
   text-shadow: 0px 0px 2px #646464, 0 0 2px #e1e1e1;
   float: left;
