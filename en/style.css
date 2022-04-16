@@ -1518,6 +1518,8 @@ s ends */
 /* Academics Page */
 
 
+
+
 .AcMain
 {
  margin-left: auto;
@@ -1535,6 +1537,51 @@ s ends */
   margin-left: auto;
   margin-right: auto;
 } 
+
+
+/* Admission */
+.acgdl
+{
+  display:block;
+  width: -webkit-fill-available;
+  padding: 0 10%;
+}
+.acgl_ug,
+.acgl_pg,
+.acgl_phd
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+}
+
+.acgl_ug_link,
+.acgl_pg_link,
+.acgl_phd_link
+{
+  display: inline-flex;
+  justify-items: center;
+  padding: 12px 16px;
+
+}
+
+
+.acgl_ug_link a,
+.acgl_pg_link a,
+.acgl_phd_link a
+{
+  text-decoration: none;
+  color:#1d5577;
+  font-family:'ubuntu' ,sans-serif;
+}
+
+.acgl_ug_link a:hover,
+.acgl_pg_link a:hover,
+.acgl_phd_link a:hover
+{
+  text-shadow: 0px 0px 2px #646464, 0 0 0px #e1e1e1;
+}
+
+/* Admission Ends */
 
 /* About us Page */
 
@@ -1560,6 +1607,12 @@ s ends */
 {
   color:#5b5b5e;
   font-size: 25px;
+  font-family:'varela round',sans-serif;
+}
+
+.aboutHeader h4
+{
+  color:#454545;
   font-family:'varela round',sans-serif;
 }
 .secondAbout

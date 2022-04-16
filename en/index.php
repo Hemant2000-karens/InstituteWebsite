@@ -15,9 +15,9 @@
         <img  id="welcomeNotice" src="./Images/csir.jpg">
     </div>
     <?php include 'topheader.php';?>
-   <?php include 'Header.php'?>
-   <div class="container">
-<?php include "./navbar.php" ?>
+    <?php include 'Header.php'?>
+<div class="container">
+    <?php include "./navbar.php" ?>
 
 <span class="br"></span>
 <div class="combined">
