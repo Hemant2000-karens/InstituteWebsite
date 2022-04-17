@@ -21,19 +21,11 @@
 			</div>
 			
 
-			
+			<div class="faculty">
 		
-
-
-
-
-
-
-
-
-
-
+			</div>
 
 		</body>
 	</div>
+	<?php include './footer.php';?>
 </html>
