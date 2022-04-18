@@ -1556,7 +1556,6 @@ s ends */
 }
 .acdpB:after {
   content: '\02795';
-  font-size: 13px;
   color: white;
   float: right;
   margin-left: 5px;
@@ -1567,8 +1566,19 @@ s ends */
 }
 .btechAcademic
 {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #fbfbfb;
   height: auto;
-  
+  font-family: 'ubuntu',sans-serif;
+  color: #747474;
+}
+
+.btechAcademic ul
+{
+  list-style: none
 }
 
 

@@ -25,8 +25,68 @@
 
 
 				<div class="AcMain">
+
+					<p>
+						The Institute offers academic programmes, at undergraduate and postgraduate levels, which encourage students to not only excel in course work but also carry out research in a chosen specialization.
+					</p>
 					<div class="AcademicsNav">
 						<button class="acdpB">B.Tech Programmes</button>
+						<div class="btechAcademic">
+							<h4>
+								Institute offers Four Year Undergraduate degree (B.Tech.) programme in:
+							</h4>
+							<ul>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Computer Science and Engineering
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Electronics and Communication Engineering
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Mechanical Engineering
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Smart Manufacturing
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Bachelor of Designing
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Liberal Arts
+								</li>
+							</ul>
+						</div>
+						<br>
+						<button class="acdpB">B.Des Programmes</button>
+						<div class="btechAcademic">
+							
+						</div>
+						<br>
+						<button class="acdpB">M.Tech Programmes</button>
+						<div class="btechAcademic">
+							
+						</div>
+						<br>
+						<button class="acdpB">M.Des Programmes</button>
+						<div class="btechAcademic">
+							
+						</div>
+						<br>
+						<button class="acdpB">Ph.D Programmes</button>
+						<div class="btechAcademic">
+							
+						</div>
+						<button class="acdpB">Ph.D Programmes</button>
+						<div class="btechAcademic">
+							
+						</div>
+						<button class="acdpB">Ph.D Programmes</button>
 						<div class="btechAcademic">
 							
 						</div>

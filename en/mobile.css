@@ -537,11 +537,19 @@ and (orientation: portrait)
   {
     display: inline-block;
   }
+  .acdpB
+  {
+    font-size: 20px;
+  }
 }
 
 @media screen
 and (max-width:460px)
 {
+  .AcMain
+  {
+    padding: 0 4%;
+  }
   .newsTab
   {
     width: 99.3%;
