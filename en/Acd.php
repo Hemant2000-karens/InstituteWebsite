@@ -10,29 +10,46 @@
 </head>
 
 	    <?php include './topheader.php';?>
-	    <div class="container">
-	    <body>
-	    	<?php include './Header.php';?>
+	   	<div class="container">
+	    	<body>
+	    		<?php include './Header.php';?>
 
-			<?php include "./navbar.php" ?>
+				<?php include "./navbar.php";?>
 
-<span class="br"></span>
+				<span class="br"></span>
 	
-			<div class="aboutHeader">
-				<h2>Academic Programmes</h2>
-			</div>
+				<div class="aboutHeader">
+					<h2>Academic Programmes</h2>
+				</div>
 
 
 
-	<div class="AcMain">
-		<div class="AcademicsNav">
-			<aside>
-					
-			</aside>
+				<div class="AcMain">
+					<div class="AcademicsNav">
+						<button class="acdpB">B.Tech Programmes</button>
+						<div class="btechAcademic">
+							
+						</div>
+					</div>
+				</div>
+			</body>
 		</div>
-	</div>
-</body>
-</div>
 
 <?php include './footer.php'?>
+<script>
+var coll = document.getElementsByClassName("acdpB");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("show");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </html>

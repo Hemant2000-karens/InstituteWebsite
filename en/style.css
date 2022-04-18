@@ -1535,9 +1535,41 @@ s ends */
   margin-left: auto;
   margin-right: auto;
 } 
+.acdpB
+{
+  width: 100%;
+  background:url("./Images/acdB.jpg");
+  backdrop-filter: blur(8px);
+  background-size:  100% 100%;
+  background-repeat: no-repeat;
+  font-family:'ubuntu',sans-serif;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #161616;
+  padding: 18px;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  color: #817f7f;
+  border-radius: 2.6px;
+}
+.acdpB:after {
+  content: '\02795';
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
 
-
-
+.show:after {
+  content: "\2796";
+}
+.btechAcademic
+{
+  height: auto;
+  
+}
 
 
 /* Admission */
@@ -1723,7 +1755,7 @@ s ends */
   text-align: left;
   outline: none;
   font-size: 18px;
-    font-family: 'varela round',sans-serif;
+  font-family: 'varela round',sans-serif;
 }
 
 .visibleldTab, .adminDetails:hover {
