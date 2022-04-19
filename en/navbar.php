@@ -10,7 +10,6 @@
       <a href="ece.iiitdmj.ac.in">Electrical and Electronics Engineering</a>
       <a href="design.iiitdmj.ac.in">Design</a>
       <a href="ns.iiitdmj.ac.in">Natural Science</a>
-      <a href="ns.iiitdmj.ac.in">Natural Science</a>
       <a href="ns.iiitdmj.ac.in">Liberal Arts</a>
     </div>
   </div> 

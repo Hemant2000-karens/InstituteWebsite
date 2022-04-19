@@ -64,17 +64,17 @@
 						</div>
 						<br>
 						<button class="acdpB">B.Des Programmes</button>
-						<div class="btechAcademic">
+						<div class="bdesAcademic">
 							
 						</div>
 						<br>
 						<button class="acdpB">M.Tech Programmes</button>
-						<div class="btechAcademic">
+						<div class="mtechAcademic">
 							
 						</div>
 						<br>
 						<button class="acdpB">M.Des Programmes</button>
-						<div class="btechAcademic">
+						<div class="mdesAcademic">
 							
 						</div>
 						<br>
