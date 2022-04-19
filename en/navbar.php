@@ -20,7 +20,7 @@
     </button>
     <div class="dropdown-content">
       <a href="./Acd.php">Programmes</a>
-      <a href="#">Academic Calander</a>
+      <a href="./AcdCal.php">Academic Calander</a>
       <a href="#">Scholarship</a>
       <a href="#">Syllabus</a>
     </div>
@@ -74,7 +74,7 @@
     <button class="dropbtn">Students Corner 
     </button>
     <div class="dropdown-content">
-      <a href="#">Hostels</a>
+      <a href="./hostel.php">Hostels</a>
       <a href="#">Students Mess</a>
       <a href="#">Primary Health Center</a>
       <a href="#">Activities</a>
