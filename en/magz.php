@@ -32,8 +32,8 @@
 				while($rows = $result -> fetch_assoc())
 				{
 					echo "<div class='m_profile'>";
-					
-					echo "<a href='../Magazine/savitur-".$rows['magazine_year'].".pdf' target='_blank'>";
+
+					echo "<a href='".$rows['magazine_link']."' target='_blank'>";
 					
 					echo "<img src='../Magazine/savitur-".$rows['magazine_year'].".png'/>";
 					echo"<span>Savitur - ".$rows['magazine_year']."</span>";
