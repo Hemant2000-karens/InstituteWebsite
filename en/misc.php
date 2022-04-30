@@ -24,7 +24,7 @@
 <a href="" target="_blank">
 	<div class="circle">
 		<i class="bi bi-calendar-week-fill"></i>
-		<span>Canvas Login</span>
+		<span>Fusion Login</span>
 	</div>
 </a>
 </div>
