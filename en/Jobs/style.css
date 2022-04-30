@@ -48,11 +48,11 @@ body
 	display: none;
 }
 	
-.nink:hover
+.navbar a:hover
 {
-	color: white;
-  background: #82ba07;
-  text-decoration: none;
+	background: #82ba21;
+  color: #ffffff !important;
+  text-decoration: none !important;
 }
 
 

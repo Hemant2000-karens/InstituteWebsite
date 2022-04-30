@@ -22,7 +22,7 @@
       <a href="./Acd.php">Programmes</a>
       <a href="./AcdCal.php">Academic Calander</a>
       <a href="#">Scholarship</a>
-      <a href="#">Syllabus</a>
+      <a href="./syl.php">Syllabus</a>
     </div>
   </div> 
 
@@ -75,7 +75,7 @@
     </button>
     <div class="dropdown-content">
       <a href="./hostel.php">Hostels</a>
-      <a href="#">Students Mess</a>
+      <a href="./c_mess.php">Students Mess</a>
       <a href="#">Primary Health Center</a>
       <a href="#">Activities</a>
       <a href="#">Gymkhana</a>
