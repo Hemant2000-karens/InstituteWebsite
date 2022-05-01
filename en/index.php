@@ -51,7 +51,8 @@
   <div class="current_update">
     <fieldset>
       <legend>Current updates</legend>
-        <marquee behavior="scroll" direction="up" Scrollamount=3 style="height: -webkit-fill-available;">
+        <marquee behavior="scroll" direction="up" onmouseover="this.setAttribute('Scrollamount',2, 0);"
+           onmouseout="this.setAttribute('Scrollamount', 5, 0);" style="height: -webkit-fill-available;">
                 <?php include './currentupdate.php';?>
         </marquee>
     </fieldset>
