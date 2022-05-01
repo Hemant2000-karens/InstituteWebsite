@@ -151,6 +151,7 @@ body{
   padding: 14px 14px;
   text-decoration: none;
   font-size: 15px;
+  transition-duration: 600ms;
 }
 
 .active {
@@ -181,6 +182,7 @@ body{
   background-color: inherit;
   font-family:'Rubik', sans-serif;
   margin: 0;
+  transition-duration: 600ms;
 }
 
 .dropdown-content {
@@ -190,6 +192,7 @@ body{
   background-color: #f9f9f9;
   min-width: 160px;
   z-index: 1;
+  transition-duration: 600ms;
 }
 
 .dropdown-content a {
@@ -495,6 +498,7 @@ body{
   text-decoration: none;
   color: #e4eff8;
   font-size: small;
+   transition-duration: 730ms;
 }
 
 .footer-main .footer-subgroup a:hover
@@ -890,6 +894,7 @@ body{
   font-weight: 200;
   text-decoration: none;
   color: cornflowerblue;
+  transition-duration: 600ms;
 }
 .fLink a:hover
 {
@@ -984,6 +989,7 @@ body{
   font-family: 'varela round',sans-serif;
   text-decoration: none;
   color: #006694;
+  transition-duration: 400ms;
 }
 .item1Content a:hover, 
 .item1Content0 a:hover,
@@ -1278,6 +1284,7 @@ hr.new1 {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+  transition-duration: 550ms;
 }
 .circle:hover
 {
