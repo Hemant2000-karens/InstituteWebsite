@@ -904,34 +904,26 @@ body{
   background:url("./Images/messageBackground.png");
   background-repeat: no-repeat;
   background-size:  100% 100%;
-  padding:50px;
-  height: 420px;
+  padding:40px 10%;
+  height: auto;
   font-family: 'Noto Sans';
 }
-@media only screen
-and(min-width: 2560px)
+
+.messageDeskCombined
 {
-  .messageDesk
-  {
-    padding: 50px 10% !important;
-  }
-}
-.messageDesk1
-{
-  display: none;
-}
-.deskImage img{
-  padding-top: 50px;
-  width: 600px;
+  display: grid;
+  height: auto;
+  width: 100%;
 }
 
 .deskImage {
   float:left;
+  width: 50%;
 }
 
 .deskTitle{
-  float:left;
-  padding-left: 100px;
+  float:right;
+  padding-right:4%;
   font-size:xx-large;
   font-weight: 500;
   letter-spacing: 0.11rem;
@@ -982,7 +974,6 @@ padding-left:380px;
 .deskSpeech{
   margin-top:50px;
   text-align: justify;
-  padding: 0 80px 0 720px;
   line-height: 1.8rem;
   font-family:'Noto Sans',sans-serif;
   color: #61731d;

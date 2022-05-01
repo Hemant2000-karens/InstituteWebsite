@@ -1,4 +1,4 @@
-body,html
+  body,html
 {
   background-color:#fdfdfd;
   padding: 0px;
@@ -563,20 +563,6 @@ and (max-width:460px)
     float: left;
     margin: 0 9.56vw;
   }
-.messageDesk1
-{
-  background:url("./Images/messageBackground.png");
-  background-repeat: no-repeat;
-  background-size:  100% 100%;
-  font-family: 'Noto Sans';
-  display: block;
-  padding:0 0 20px 0;
-  height: auto;
-}
-.deskSpeech
-{
-  padding: 0 20px 0 20px;
-}
 
   /* Footer for iphone and mobile */
   .footer-subheader
@@ -631,6 +617,12 @@ and (max-width: 770px)
 
   .topheader .main-group .dept{
     margin-right: 16px;
+  }
+
+  .footer .footer-heading
+  {
+    width: -webkit-fill-available;
+    padding: 20px 30%;
   }
   .footer-subheader
   {
@@ -818,42 +810,8 @@ resolution (mobile and tablet iPad)*/
   }
 
   /* Message Setting */
-
-  .deskImage img{
-    width: 95%;
-  }
-  .messageDesk
-  {
-    display: none;
-  }
-  .deskTitle
-  {
-    font-weight: 600;
-    font-size: x-large;
-    padding-left: 10px;
-    padding-top: 20px;
-  }
-  .deskTabs a:first-child
-  {
-    padding-left: 10px;
-  }
-  .deskTabs a
-  {
-    font-size: 20px;
-  }
-  .deskTabs
-  {
-    width: max-content;
-  }
 }
 
-@media screen and (max-width: 425px)
-{
-  .deskTabs a
-  {
-    font-size: 18px;
-  }
-}
 
 @media screen and (max-width: 660px)
 {
@@ -887,45 +845,19 @@ and (max-width: 690px)
 
 
 @media screen
-and (min-width: 691px)
-and (max-width: 780px)
+and (max-width: 778px)
 {
-  /* Notice Page Setting */
-  .noticeTitle
+  .deskTitle
   {
-    margin-left: 60px;
-  }
-
-
-/* Meesage Page Setting */
-
-}
-
-
-
-
-
-
-
-@media screen
-and (min-width: 768px)
-and (max-width: 900px)
-{
-  .noticeSlider
-  {
-    margin-left: 4px;
+    font-size: 30px;
   }
 }
+
+
+
+
+
 /* Smartphones (landscape) ---------------- */
-@media only screen
-and (min-width : 321px)
-and (max-width : 767px)
-{
-  .thought_for_Day fieldset h1
-  {
-    font-size: large;
-  }
-}
 
 
 /* Tablets (portrait) -------------------- */
@@ -960,85 +892,21 @@ and (max-device-width : 960px)
 and (min-device-width : 659px)
 and (max-device-width : 770px)
 {
-  .noticeSlider
-  {
-    margin-left:25px ;
-  }
-  .noticeContent
-  {
-    margin-left: -65px;
-    margin-right: -65px;
-  }
+
 }
 
 @media only screen
 and (min-device-width : 461px)
 and (max-device-width : 658px)
 {
-  .noticeSlider
-  {
-    margin-left:25px ;
-  }
-  .noticeContent
-  {
-    margin-left: -8px;
-    margin-right: -8px;
-  }
+
 }
 
-
-@media only screen
-and (min-device-width : 461px)
-and (max-device-width : 1024px)
-{
-  .messageDesk
-  {
-    display: none;
-  }
-  .messageDesk1
-  {
-  display: block;
-  background:url("./Images/messageBackground.png");
-  background-repeat: no-repeat;
-  background-size:  100% 100%;
-  font-family: 'Noto Sans';
-  padding:0 0 20px 0;
-  height: auto;
-  }
- .deskImage img{
-    margin-left: 45px;
-    width: 146%;
-    max-width: fit-content;
-  }
-  .deskTitle
-  {
-    margin-left: 30%;
-    padding-left: 50px;
-    padding-top: 20px;
-  }
-  .deskTabs a:first-child
-  {
-    padding-left: 10px;
-  }
-  .deskTabs a
-  {
-    font-size: 20px;
-  }
-  .deskSpeech
-  {
-    display: inline-block;
-    padding: 0 30px 0 20px;
-  }
-}
 
 @media only screen
 and (min-device-width : 461px)
 and (max-device-width : 505px)
 {
-  .footer .footer-heading
-  {
-    padding: 0 150px;
-  }
   .footer-heading .socials
   {
     width: 200px;
@@ -1051,56 +919,13 @@ and (min-width: 834px)
 and (max-width: 1112px)
 and (orientation: landscape)
 {
-  .noticeSlider
-  {
-    margin-left: 15px;
-  }
-  .noticebody
-  {
-    margin-left: 21px;
-  }
+
 }
-
-
-@media only screen
-and (min-width: 834px)
-and (max-width: 1112px)
-and (orientation: portrait)
-{
-  .footer .footer-heading
-  {
-    padding: 20px 30px !important;
-  }
-}
-
 
 /* iPad Air Ends Here */
 
 
 /* Android Tablet Adjustment */
-@media only screen
-and (min-width: 534px)
-and (max-width: 854px)
-and (orientation: portrait)
-{
-  .noticeContent p
-  {
-    padding: 0 20px;
-  }
-  .footer .footer-heading
-  {
-    padding: 20px 192px;
-  }
-  .deskTitle
-  {
-    margin-left: 12px!important;
-  }
-  .deskImage img
-  {
-    width: 80% !important;
-    margin-left: 60px;
-  }
-}
 
 
 @media only screen
@@ -1115,26 +940,6 @@ and (orientation: landscape)
   {
     width: 100%;
   }
-
-.rowDean img
-{
-
-}
-
-  .noticebody
-  {
-    width: 95% !important;
-    margin-left: 21px;
-  }
-  .deskTitle
-  {
-    margin-left: 12px!important;
-  }
-  .deskImage img
-  {
-    width: 100% !important;
-    margin-left: 54px;
-  }
 }
 
 
@@ -1143,127 +948,17 @@ and (orientation: landscape)
 
 /* iPhone 6s Landscape Issue */
 
-@media only screen
-and (min-width: 375px)
-and (max-width: 667px)
-and (orientation: landscape)
-{
-  .footer .footer-heading
-  {
-    padding: 20px 100px;
-  }
-  .deskImage img
-  {
-    margin-left: 0;
-  }
-}
 
-@media only screen
-and (min-width: 855px)
-and (max-width: 1024px)
-{
-  .deskImage img
-  {
-    margin-left: 53px;
-    width: 130%;
-    max-width: inherit;
-  }
-}
-
-
-
-@media only screen
-and (min-width: 375px)
-and (max-width: 814px)
-and (orientation: landscape)
-{
-  .messageDesk
-  {
-    display: none;
-  }
-  .noticeContent
-  {
-    width: auto;
-  }
-  .noticeTitle
-  {
-    margin-left: 5px;
-  }
-  .messageDesk1
-  {
-    background:url("./Images/messageBackground.png");
-    background-repeat: no-repeat;
-    background-size:  100% 100%;
-    font-family: 'Noto Sans';
-    display: block;
-  }
-  .deskTitle
-  {
-    margin-left: 20%;
-  }
-  .deskSpeech
-  {
-    padding: 0 20px;
-  }
-  .deskTabs a:first-child
-  {
-    padding-left: 2px;
-  }
-  .footer .footer-heading
-  {
-    width: -webkit-fill-available;
-    padding: 20px 210px;
-  }
-}
-
-
-@media only screen
-and (min-width: 375px)
-and (max-width: 814px)
-and (orientation: portrait)
-{
-  .footer .footer-heading
-  {
-    padding: 20px 100px;
-  }
-}
-
-@media only screen 
-and (min-width: 810px) 
-and (max-width: 1080px) 
-and (orientation: portrait)
-{
-  .footer .footer-heading 
-  {
-    padding: 20px 22px;
-  }
-}
 
 
 /* iPhone Setting Ends */
 
 /* Redmi Setting 873x393 landscape */
 
-@media only screen
-and (min-width: 771px)
-and (max-width: 813px)
-and (orientation: landscape)
-{
- .footer .footer-heading
- {
-  padding: 20px 34px;
- }
-}
 
 /* Redmi Settings Ends */
 
 /* Other Page Parts -  */
-@media only screen
-and (min-width: )
-and (max-width: )
-{
-
-}
 
 
 
@@ -1328,111 +1023,7 @@ and (orientation: portrait)
 
 
 /* Old Desktops and laptops ------------------ */
-@media only screen
-and (min-width:1080px)
-and (max-width: 1920px)
-and (orientation: portrait)
-{
-  .deskTitle
-  {
-    padding-left:0;
-
-  }
-  .deskTabs a:first-child
-  {
-    padding-left: 80px;
-  }
-  .deskSpeech
-  {
-    padding: 0 7px 0 214px;
-  }
-}
-
-@media only screen
-and (min-width : 800px)
-and (max-width: 1280px)
-and (orientation: landscape)
-{
-  .deskTitle
-  {
-    padding: 0;
-  }
-  .deskSpeech
-  {
-    padding: 0 0 0 621px;
-    margin-top: 13px;
-  }
-  .deskNav
-  {
-    display: none;
-  }
-  .deskTabs a:first-child
-  {
-    padding-left: 95px;
-  }
-  .noticeTitle
-  {
-    margin-left: 11px;
-  }
-  /* Add Your CSS Styling Here */
-}
-
-@media only screen
-and (min-width : 641px)
-and (max-width: 680px)
-and (orientation: landscape)
-{
-  .noticebody
-  {
-    margin-left: 4px !important;
-  }
-}
 
 
 
 /* Desktops ------------------ */
-@media only screen
-and (min-width: 768px)
-and (max-width: 1024px)
-and (orientation: landscape)
-{
-  .deskSpeech
-  {
-    padding: 0 31px 0 43px !important;
-  }
-}
-
-@media only screen
-and (min-width : 640px)
-and (max-width: 1024px)
-and (orientation: landscape)
-{
-  .noticeContent
-  {
-    width: auto;
-  }
-  .deskSpeech
-  {
-    padding: 0 31px 0 52px !important;
-  }
-  /* Add Your CSS Styling Here */
-}
-
-@media only screen
-and (min-width: 768px)
-and (max-width: 1366px)
-and (orientation: landscape)
-{
-  .deskSpeech
-  {
-    padding: 0 15px 0 720px important;
-  }
-  .deskNav
-  {
-    padding-right: -5px !important;
-  }
-  .deskTabs a:first-child
-  {
-    padding-left: 150px;
-  }
-}
