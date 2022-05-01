@@ -6,6 +6,10 @@
 
 @media screen and (max-width: 560px)
 {
+  .combined
+  {
+    padding: 0 4%;
+  }
   #welcomeNotice
   {
     height: 200px;

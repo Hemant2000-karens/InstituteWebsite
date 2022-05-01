@@ -939,39 +939,6 @@ body{
   font-weight: 900;
 }
 
-.deskNav{
-  float:right;
-  padding-right: 40px;
-}
-
-.deskNav a{
-  text-decoration: none;
-  text-align: center;
-  padding:14px 18px 12px 18px;
-  font-size:20px;
-  font-weight: bold;
-  border: rgba(26,30,44, 0.2) 1px solid;
-  border-radius: 8px;
-  color: rgba(26,30,44, 0.6);
-}
-
-.deskControls{
-  width: auto;
-  height: 60px;
-}
-
-.deskTabs a:first-child{
-padding-left:380px;
-}
-
-.deskTabs a{
-  text-decoration: none;
-  text-align: center;
-  padding:8px;
-  font-size:22px;
-  color: #1a1e2c;
-}
-
 .deskSpeech{
   margin-top:50px;
   text-align: justify;
@@ -981,7 +948,9 @@ padding-left:380px;
 }
 
 /* Notice Page */
-.item1,.item2,.item3
+.item1,
+.item2,
+.item3
 {
   margin: 0;
   height: 100%;
@@ -990,14 +959,18 @@ padding-left:380px;
   overflow-y: scroll;
   
 }
-.item1Content0,.item2Content0,.item3Content0
+.item1Content0,
+.item2Content0,
+.item3Content0
 {
   padding: 5px 0;
   display: flex;
   justify-content: center;
 
 }
-.item1Content,.item2Content,.item3Content
+.item1Content,
+.item2Content,
+.item3Content
 {
   /*background: #ccc;*/
 }
