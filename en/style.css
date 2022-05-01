@@ -901,6 +901,7 @@ body{
 /* MessageDesk.php */
 
 .messageDesk{
+  display: block;
   background:url("./Images/messageBackground.png");
   background-repeat: no-repeat;
   background-size:  100% 100%;
