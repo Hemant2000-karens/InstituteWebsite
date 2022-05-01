@@ -183,6 +183,7 @@ body{
   font-family:'Rubik', sans-serif;
   margin: 0;
   transition-duration: 600ms;
+  transition-timing-function: ease-in-out;
 }
 
 .dropdown-content {
@@ -193,6 +194,7 @@ body{
   min-width: 160px;
   z-index: 1;
   transition-duration: 600ms;
+  transition-timing-function: ease-in-out;
 }
 
 .dropdown-content a {
@@ -233,15 +235,6 @@ body{
   display: block;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-
-
-.dropdown-content .meganews {
-  background: red;
-  padding: 16px;
-  color: white;
-}
-
-
 
 .column {
   float: left;
@@ -473,10 +466,27 @@ body{
   font-weight: 600;
 }
 
+.socials a
+{
+  text-decoration: none;
+  color: #677089;
+  transition-duration: 700ms;
+}
+.socials a:hover
+{
+  color: white;
+}
+.socials .bi
+{
+  font-size: 25px;
+}
 .footer-heading .socials{
   padding-top:8px;
 }
 
+.footer-heading .socials .bi{
+  padding:0 8px;
+}
 .footer-heading .socials img{
   padding:0 8px;
 }
@@ -499,6 +509,7 @@ body{
   color: #e4eff8;
   font-size: small;
    transition-duration: 730ms;
+   transition-timing-function: ease-in-out;
 }
 
 .footer-main .footer-subgroup a:hover
@@ -1285,6 +1296,7 @@ hr.new1 {
   width: 150px;
   height: 150px;
   transition-duration: 550ms;
+  transition-timing-function: ease-in-out;
 }
 .circle:hover
 {
