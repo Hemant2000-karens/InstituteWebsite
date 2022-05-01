@@ -133,6 +133,19 @@
   {
     display: block;
   }
+  .messageDeskCombined
+  {
+    padding: 5% 0;
+    display: grid;
+    height: auto;
+    width: 100%;
+  }
+  .imagedirector
+  {
+    margin-right: 1.25%;
+    height: auto;
+    width: 100%;
+  }
   .combined_2
   {
     display: block;
@@ -394,6 +407,11 @@ and (min-width: 320px)
 and (max-width: 375px)
 and (orientation: portrait)
 {
+
+  .deskTitle
+  {
+    font-size: 20px !important;
+  }
  .bodyContent
   {
     width: -webkit-fill-available;

@@ -905,23 +905,23 @@ body{
   background:url("./Images/messageBackground.png");
   background-repeat: no-repeat;
   background-size:  100% 100%;
-  padding:40px 10%;
+  padding:40px 5.5%;
   height: auto;
   font-family: 'Noto Sans';
 }
 
 .messageDeskCombined
 {
-  display: grid;
+  display: flex;
   height: auto;
   width: 100%;
 }
-
-.deskImage {
-  float:left;
+.imagedirector
+{
+  margin-right: 12px;
+  height: auto;
   width: 50%;
 }
-
 .deskTitle{
   float:right;
   padding-right:4%;
@@ -940,7 +940,7 @@ body{
 }
 
 .deskSpeech{
-  margin-top:50px;
+  margin-top:2.54%;
   text-align: justify;
   line-height: 1.8rem;
   font-family:'Noto Sans',sans-serif;
