@@ -162,6 +162,7 @@ body{
 .newsTab button.active {
   background-color: #1b3a4b;
   color: #f2f2f2;
+  transition-duration: 1050ms;
 }
 .topnav .icon {
   display: none;
@@ -1300,21 +1301,17 @@ hr.new1 {
 }
 .circle:hover
 {
-  color: wheat;
+  color: white;
   background:black;
   box-shadow:0px 0px 8px 0px #000000, 0 0 1px 0px #00000000;
 }
 
-.bi-camera-fill,
-.bi-mortarboard-fill,
-.bi-calendar-week-fill
+.circle .bi
 {
   font-size: 60px;
   color: gainsboro;
 }
-.bi.bi-camera-fill:hover,
-.bi-mortarboard-fill:hover,
-.bi-calendar-week-fill:hover
+.circle .bi:hover
 {
   color: white;
 }
