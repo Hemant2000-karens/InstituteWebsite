@@ -52,7 +52,7 @@
     <fieldset>
       <legend>Current updates</legend>
         <marquee behavior="scroll" Scrollamount="1.2" direction="up" onmouseover="this.stop();"
-           onmouseout="this.start();" style="height: -webkit-fill-available;">
+           onmouseout="this.start();" style="height: -webkit-fill-available;height: -moz-available;">
                 <?php include './currentupdate.php';?>
         </marquee>
     </fieldset>

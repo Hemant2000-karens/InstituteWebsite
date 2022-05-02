@@ -25,7 +25,7 @@
 				<div class="AcMain">
 
 					<div class="acdCalTabView">
-  						<button class="acdCalButton" onclick="openCity(event, 'London')" id="defaultOpen">B.Tech</button>
+  						<button class="acdCalButton" onclick="open(event, 'London')" id="defaultOpen">B.Tech</button>
   						<button class="acdCalButton" onclick="openCity(event, 'Paris')">Paris</button>
  					 		<button class="acdCalButton" onclick="openCity(event, 'Tokyo')">Tokyo</button>
 					</div>
