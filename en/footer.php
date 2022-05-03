@@ -82,7 +82,6 @@
       <a href="#">ORDINANCES</a>|
       <a href="#">QIP PROGRAMS</a>|
       <a href="#">TENDERS</a>|
-      <a href="#">JOBS</a>|
       <a href="#">INTRAWEB</a>|
       <a href="#">IIITDMJ E-MAIL</a>|
       <a href="#">IIIT COUNCIL</a>
@@ -148,7 +147,6 @@
       <a href="#">ORDINANCES</a>
       <a href="#">QIP PROGRAMS</a>
       <a href="#">TENDERS</a>
-      <a href="#">JOBS</a>
       <a href="#">INTRAWEB</a>
       <a href="#">IIITDMJ E-MAIL</a>
       <a href="#">IIIT COUNCIL</a>

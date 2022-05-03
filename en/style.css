@@ -533,8 +533,13 @@ body{
   color: #7a839a;
   padding:0 15px;
   font-size: small;
+  transition-duration: 700ms;
 }
 
+.footer-secondary-links a:hover
+{
+  color: #e4eff8;
+}
 .collaps,.content,.footerSecondary
 {
   display: none;
