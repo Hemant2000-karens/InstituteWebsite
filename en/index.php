@@ -52,7 +52,7 @@
     <fieldset>
       <legend>Current updates</legend>
         <marquee behavior="scroll" Scrollamount="1.2" direction="up" onmouseover="this.stop();"
-           onmouseout="this.start();" style="height: -webkit-fill-available;height: -moz-available;">
+           onmouseout="this.start();" style="height: -webkit-fill-available;height: 100%;overflow: hidden;">
                 <?php include './currentupdate.php';?>
         </marquee>
     </fieldset>
@@ -69,16 +69,6 @@
 <!--
 -->
 <br>
-
-  <!--<div class="thought_for_Day">
-    <fieldset>
-      <legend>Thought for the Day</legend>
-      <h1 style="text-align:center; color:#6b6b6b;font-family:'Varela Round', sans-serif;font-weight: 250;">
-      "<?php //   include 'thought.php' ?>" 
-      </h1>
-    </fieldset>
-  </div>-->
-
 
 <!-- Message from Director and Deans-->
 <span class="br"></span>
