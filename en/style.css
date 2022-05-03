@@ -465,8 +465,13 @@ body{
   color: #7a839a;
   line-height: 1.5rem;
   font-weight: 600;
+  transition-duration: 650ms;
 }
 
+.footer-heading .footer-subheader a:hover
+{
+  color: #e4eff8;
+}
 .socials a
 {
   text-decoration: none;
