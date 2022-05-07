@@ -821,18 +821,8 @@ and (max-width: 1000px)
     border-bottom: 1px solid #eee;
     position: relative;
     padding-left: 200px;
-    margin-left: 150px;
   }
-  .calTable td:before {
-    position: absolute;
-    top: 12px;
-    left: 6px;
-    width: 200px;
-    font-size: larger;
-    padding-right: 40px;
-    white-space: nowrap;
-    margin-left: -150px;
-  }
+  
   .calTable td:nth-of-type(1):before { content: "Events"; }
   .calTable td:nth-of-type(2):before { content: "Old UG + PG"; }
   .calTable td:nth-of-type(3):before { content: "M.Tech + P.hD"; }
