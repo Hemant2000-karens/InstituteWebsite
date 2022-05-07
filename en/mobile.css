@@ -827,6 +827,16 @@ and (max-width: 1000px)
   .calTable td:nth-of-type(2):before { content: ""; }
   .calTable td:nth-of-type(3):before { content: ""; }
   .calTable td:nth-of-type(4):before { content: ""; }
+  
+  .calTable table th:first-child
+  {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .calTable table th:last-child
+  {
+    border-top-right-radius: 0px;
+  }
 }
 
 /* Notice and Message for multiple
