@@ -837,6 +837,11 @@ and (max-width: 1000px)
   {
     border-top-right-radius: 0px;
   }
+  .calTable table caption
+  {
+    display: list-item;
+    list-style: none;
+  }
 }
 
 /* Notice and Message for multiple
