@@ -1651,6 +1651,7 @@ s ends */
 .calTable table tr:nth-child(odd)
 {
   background-color: #d5d5d5;
+  color: #003156;
 }
 .calTable table td
 {
