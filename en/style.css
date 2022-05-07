@@ -1650,7 +1650,7 @@ s ends */
 }
 .calTable table tr:nth-child(odd)
 {
-  background-color: #ededed;
+  background-color: #d5d5d5;
 }
 .calTable table td
 {
