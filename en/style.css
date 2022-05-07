@@ -1648,7 +1648,7 @@ s ends */
   color: whitesmoke;
   padding: 10px 6px;
 }
-.calTable table tr:nth-child(even)
+.calTable table tr:nth-child(odd)
 {
   background-color: #ededed;
 }
