@@ -805,6 +805,15 @@ and (max-width: 770px)
 }
 
 
+
+
+
+@media only screen
+and (max-width: 1000px)
+{
+  
+}
+
 /* Notice and Message for multiple
 resolution (mobile and tablet iPad)*/
 @media screen and (max-width: 460px)

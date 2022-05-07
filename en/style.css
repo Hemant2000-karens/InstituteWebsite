@@ -1648,6 +1648,10 @@ s ends */
   color: whitesmoke;
   padding: 10px 6px;
 }
+.calTable table tr:nth-child(even)
+{
+  background-color: #ededed;
+}
 .calTable table td
 {
   text-align: center; 
