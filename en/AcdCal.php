@@ -48,41 +48,53 @@
 
   								<tr>
     								<td>Pre-Registration</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
+
+
+    								<td>June 28 2021 - July 10 2021(Mon- Sat)</td>
+    								<td>-</td>
+    								<td>-</td>
   								</tr>
 
   								<tr>
     								<td>Online Registration/ Physical Reporting at the Institute [only if applicable]</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
+
+
+    								<td>July 16, 2021 (Fri)</td>
+    								<td>July 27, 2021 (Fri)</td>
+    								<td>As per CSAB</td>
   								</tr>
 
   								<tr>
     								<td>Late Physical Reporting</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
+
+
+    								<td>July 23, 2021 (Fri)</td>
+    								<td>-</td>
+    								<td>-</td>
   								</tr>
 
   								<tr>
     								<td>Orientation of New Students</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
+
+
+    								<td>-</td>
+    								<td>August 27-28, 2021 (Fr - Sat)</td>
+    								<td>Dec 13, 2021 (Mon)</td>
   								</tr>
 
   								<tr>
     								<td>Commencement of Classes</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
+
+
+    								<td>July 19, 2021 (Mon)</td>
+    								<td>August 31, 2021 (Mon)</td>
+    								<td>Dec 13, 2021 (Mon)</td>
   								</tr>
 
   								<tr>
     								<td>Last Date for Adding of courses</td>
+
+
     								<td>April 06-10, 2020 (Mon-Fri)</td>
     								<td>M.tech + P.hD</td>
     								<td>New UG</td>
@@ -94,14 +106,20 @@
     								<td>New UG</td>
   								</tr>
   								<tr>
+
     								<td>Last Date for Documents submission(New Admission)</td>
+
+
     								<td>April 06-10, 2020 (Mon-Fri)</td>
     								<td>M.tech + P.hD</td>
     								<td>New UG</td>
   								</tr>
 
   								<tr>
+
     								<td>Mid-Sem Examination</td>
+
+
     								<td>April 06-10, 2020 (Mon-Fri)</td>
     								<td>M.tech + P.hD</td>
     								<td>Feb 11, 2022(Fri)</td>
@@ -109,6 +127,8 @@
 
   								<tr>
     								<td>Mid-Sem Recess</td>
+
+
     								<td>April 06-10, 2020 (Mon-Fri)</td>
     								<td>M.tech + P.hD</td>
     								<td>Jan 24-29, 2022(Mon-Sat)</td>
@@ -118,6 +138,8 @@
     								<td>
     									Last Date for showing Mid-Sem answer sheets to students & display of<b>compiled marks upto Mid-Semester</b>
     								</td>
+
+    								
     								<td>April 06-10, 2020 (Mon-Fri)</td>
     								<td>M.tech + P.hD</td>
     								<td>New UG</td>
@@ -226,10 +248,10 @@
 											Monday Time table
 										</td>
 										<td>
-											19/09/2020 & 24/10/2020
+											18/12/2021 
 										</td>
 										<td>
-											28/11/2020 & 16/01/2021
+											05/02/2022
 										</td>
 									</tr>
 
@@ -238,10 +260,10 @@
 											Tuesday Time table
 										</td>
 										<td>
-											26/09/2020 & 07/11/2020
+											01/01/2022
 										</td>
 										<td>
-											05/12/2020 & 23/01/2021
+											12/02/2022
 										</td>
 									</tr>
 
@@ -250,10 +272,10 @@
 											Wednesday Time table
 										</td>
 										<td>
-											03/10/2020, 14/11/2020 & 05/12/2020
+											08/01/2022 
 										</td>
 										<td>
-											12/12/2020 & 30/01/2021
+											19/02/2022
 										</td>
 									</tr>
 
@@ -262,10 +284,10 @@
 											Thursday Time table
 										</td>
 										<td>
-											10/10/2020 & 21/11/2020
+											15/01/2022
 										</td>
 										<td>
-											26/12/2020 & 06/02/2021
+											26/02/2022
 										</td>
 									</tr>
 
@@ -274,15 +296,14 @@
 											Friday Time table
 										</td>
 										<td>
-											17/10/2020 & 28/11/2020
+											22/01/2022
 										</td>
 										<td>
-											Thursday Time table
+											 05/03/2022
 										</td>
 									</tr>
 
 								</table>
-
 							</div>
 
 
@@ -459,9 +480,82 @@
     								<td>M.tech + P.hD</td>
     								<td>New UG</td>
   								</tr>
-
-
 							</table>
+
+													<div class="calNotice">
+
+								<h4><sup>*</sup>It is mandatory to show answersheets and mark to students within 10 days of the evaluation</h4>
+
+
+								<table>
+
+									<tr>
+										<th colspan="3">Adjustment of Classes on Saturday</th>
+									</tr>
+
+									<tr>
+										<td>
+											Monday Time table
+										</td>
+										<td>
+											18/12/2021 
+										</td>
+										<td>
+											05/02/2022
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											Tuesday Time table
+										</td>
+										<td>
+											01/01/2022
+										</td>
+										<td>
+											12/02/2022
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											Wednesday Time table
+										</td>
+										<td>
+											08/01/2022 
+										</td>
+										<td>
+											19/02/2022
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											Thursday Time table
+										</td>
+										<td>
+											15/01/2022
+										</td>
+										<td>
+											26/02/2022
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											Friday Time table
+										</td>
+										<td>
+											22/01/2022
+										</td>
+										<td>
+											 05/03/2022
+										</td>
+									</tr>
+
+								</table>
+							</div>
+
 						</div>
 				</div>
 			</body>
