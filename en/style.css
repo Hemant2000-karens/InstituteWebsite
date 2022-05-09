@@ -652,6 +652,7 @@ body{
 .home .caption{
   background-color: #f9f9f99e;
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   width: 65%;
   padding-top: 10px;
   padding-left: 22px;
@@ -727,6 +728,7 @@ body{
  left:0;
  background:#0000001f;
  backdrop-filter: blur(9px);
+ -webkit-backdrop-filter: blur(9px);
  border-right: 5px;
  border-top-right-radius: 10px;
  border-bottom-right-radius: 10px;
@@ -735,6 +737,7 @@ body{
  right:0;
   background:#0000001f;
  backdrop-filter: blur(9px);
+ -webkit-backdrop-filter: blur(9px);
  border-top-left-radius: 10px;
  border-bottom-left-radius: 10px;
 }
@@ -851,6 +854,7 @@ body{
 .sticky {
   background-color: #f9f9f99e;
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   position: fixed;
   top: 0;
   width: -moz-available;
@@ -1025,6 +1029,7 @@ hr.new1 {
   padding-left: 20px;
   border-bottom: 0.1px solid #ccc;
   background-color: #f9f9f99e;
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   position: relative;
   top: 0;
@@ -1527,6 +1532,7 @@ s ends */
 {
   width: 100%;
   background:url("./Images/acdB.jpg");
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   background-size:  100% 100%;
   background-repeat: no-repeat;
@@ -1721,6 +1727,7 @@ s ends */
   border-bottom: 0.1px solid #ccc;
   background-color: #f9f9f99e;
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   width:-webkit-fill-available;
   width: -moz-available;
 }
