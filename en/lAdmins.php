@@ -20,18 +20,16 @@
 				<h2>Local Administration</h2>
 			</div>
 
-			<div class="adminPageContent" style="display:block">
+			<div class="adminPageContent">
 				<br>
 				<button class="adminDetails">Counseling Cell</button>
 					<div class="adminProfile">
 
-						<div class="rowDean">
-						  	<div class="columnDean">
-	    						<img src="./Images/ladmins/aojha.png" alt="apojha" >
+							<div class="members">
+	    					<img src="./Images/ladmins/aojha.png" alt="apojha" >
 								<h5>Prof. Aparajita Ojha</h5>
 								<h4>Head</h4>
 	  						</div>
-	  					</div>
 					</div>
 
 

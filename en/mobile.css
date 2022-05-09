@@ -6,9 +6,17 @@
 
 @media screen and (max-width: 560px)
 {
+  .body
+  {
+    padding: 10px 4%;
+  }
   .combined
   {
     padding: 0 4%;
+  }
+  .adminPageContent
+  {
+    padding: 2px 4%;
   }
   #welcomeNotice
   {
@@ -282,12 +290,6 @@ and (orientation: portrait)
 
 @media screen and (max-width:1200px)
 {
-  .bodyContent
-  {
-    margin-left: auto;
-    margin-right: auto;
-    width: 895px !important;
-  }
   .tableContainer
   {
     margin-right: auto;
@@ -846,43 +848,6 @@ and (max-width: 1000px)
 
 /* Notice and Message for multiple
 resolution (mobile and tablet iPad)*/
-@media screen and (max-width: 460px)
-{
-  /* Thought of day */
-.thought_for_Day fieldset legend h1
-{
-  font-size: initial;
-}
-
-
-  /* Notice Setting */
-  .noticebody
-  {
-    margin-left: 0 !important;
-    width: 100%;
-    display: block;
-    height: 170px;
-  }
-  .noticeContent p
-  {
-    padding: 0 20px;
-  }
-
-  .noticeContent{
-    width: 240px;
-  }
-
-  .noticeTitle{
-    margin-left: 0 !important;
-    padding: 22px 0;
-    width: 100%;
-    text-align: center;
-    float: none;
-  }
-
-  /* Message Setting */
-}
-
 
 @media screen and (max-width: 660px)
 {
@@ -899,21 +864,6 @@ resolution (mobile and tablet iPad)*/
     width: 180px;
   }
 }
-
-@media screen
-and (min-width: 461px)
-and (max-width: 690px)
-{  /* Notice Page Setting */
-  .noticeTitle
-  {
-    margin-left: 20px;
-  }
-
-
-/* Meesage Page Setting */
-
-}
-
 
 @media screen
 and (max-width: 778px)
@@ -958,21 +908,6 @@ and (max-device-width : 960px)
     width: 40%;
   }
 }
-
-@media only screen
-and (min-device-width : 659px)
-and (max-device-width : 770px)
-{
-
-}
-
-@media only screen
-and (min-device-width : 461px)
-and (max-device-width : 658px)
-{
-
-}
-
 
 @media only screen
 and (min-device-width : 461px)
