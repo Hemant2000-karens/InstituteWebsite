@@ -11,6 +11,10 @@
   color: #ccd7e1;
 }
 
+html
+{
+  scroll-behavior: smooth;
+}
 *
 {
   cursor: url("./icons/cursor.png"), auto;
