@@ -1062,11 +1062,6 @@ and (min-width: 375px)
 and (max-width: 580px)
 and (orientation: portrait)
 {
-    .profile
-    {
-      width: auto;
-      display: block;
-    }
     .Director
     {
       margin: 12px auto;
