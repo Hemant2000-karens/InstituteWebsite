@@ -35,71 +35,16 @@
 		<br>
 
 		<div class = "tableContainer">
-			<div class="rowDean">
-
-				<div class="columnDean">
-    				<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
-					<h5>Prof. Vijay Kumar Gupta</h5>
-					<h4>Dean(Academics)</h4>
-  				</div>
-  				<div class="columnDean">
-    				<img src="./Images/DeanACD/santosh.jpg" alt="Santoash">
-					<h5>Mr. Santosh Mahobia</h5>
-					<h4>Assistant Registrar</h4>
-  				</div>
-  				<div class="columnDean">
-    				<img src="./Images/DeanACD/sandeep.jpg" alt="Sandeep">
-					<h5>Mr. Sandeep Awasthi</h5>
-					<h4>Junior Superintendent</h4>
-  				</div>
-
-  				
-			</div>
 
 
-			<div class="rowDean">
-				<div class="columnDean">
-					<img src="./Images/DeanACD/simanta.jpg" alt="Snow">
-					<h5>Mr. Simanta Kar Gupta</h5>
-					<h4>Senior Assistant</h4>
-				</div>
-				<div class="columnDean">
-					<img src="./Images/DeanACD/richard.jpg" alt="Forest">
-					<h5>Mr. Richard Saberio</h5>
-					<h4>Senior Assistant</h4>
-				</div>
-				<div class="columnDean">
-					<img src="./Images/DeanACD/nitin.jpg" alt="Mountains">
-					<h5>Mr. Nitin Tripathi</h5>
-					<h4>Office Assistant</h4>
-				</div>
-			</div>
-
-			<div class="rowDean">
-				<div class="columnDean">
-    				<img src="./Images/DeanACD/simran.jpg" alt="Snow">
-					<h5>Ms. Simran Kaur Kalra</h5>
-					<h4>Office Assistant</h4>
-  				</div>
-  				<div class="columnDean">
-    				<img src="./Images/DeanACD/shashank.jpg" alt="Forest">
-					<h5>Mr. Shashank Patel</h5>
-					<h4>Office Assistant</h4>
-  				</div>
-  				<div class="columnDean">
-    				<img src="./Images/DeanACD/irshad.jpg" alt="Mountains">
-					<h5>Mr. Irshad Ahmed</h5>
-					<h4>Office Assistant</h4>
-  				</div>
-			</div>
+				
 		</div>
-	</div>
 
 
 	<div class="bodyContent" id = "deanAStd">
 
 		<div class="deanHeader" id ="NameofDean-1">
-		<h2>Dean Students</h2>
+			<h2>Dean Students</h2>
 		</div>
 		<br>
 
@@ -116,7 +61,7 @@
 					<h4>Assistant Registrar</h4>
   				</div>
   				<div class="columnDean">
-    				<img src="./Images/DeanStd/sandeep.jpg" alt="Sandeep">
+    				<img src="./Images/DeanStd/sandeep.jpg" alt ="Sandeep">
 					<h5>Mr. Sandeep Awasthi</h5>
 					<h4>Junior Superintendent</h4>
   				</div>
