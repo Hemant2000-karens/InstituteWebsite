@@ -16,7 +16,7 @@
 
 			<span class="br"></span>
 
-			<div class="aboutHeader">
+			<div class="aboutHeader" id="adminHeader">
 				<h2>Building & Works Committee</h2>
 			</div>
 
@@ -112,6 +112,24 @@
 <?php include './footer.php'?>
 
 <script type="text/javascript">
+
+	window.onscroll = function()
+{
+  stickyFunction()
+};
+
+
+var nbar = document.getElementById("adminHeader");
+var sticky = nbar.offsetTop;
+function stickyFunction() {
+  if (window.pageYOffset >= sticky) {
+    nbar.classList.add("sticky");
+  } else {
+    nbar.classList.remove("sticky");
+ 		}
+	}
+
+	
 	var button = document.getElementsByClassName("card");
 	button.addEventListener("Click",linkOpen);
 

@@ -29,7 +29,6 @@
 	<div class="bodyContent" id = "deanACD" style="display:block">
 
 			<div class="deanHeader" id ="NameofDean-0">
-
 				<h2>Dean Academic</h2>
 			</div>
 		<br>

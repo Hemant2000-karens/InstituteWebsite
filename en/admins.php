@@ -199,6 +199,12 @@ window.onscroll = function()
 };
 
 
+window.onscroll = function()
+{
+  stickyFunction()
+};
+
+
 var nbar = document.getElementById("adminHeader");
 var sticky = nbar.offsetTop;
 function stickyFunction() {
@@ -208,26 +214,6 @@ function stickyFunction() {
     nbar.classList.remove("sticky");
  		}
 	}
-
-
-var collButton = document.getElementsByClassName("adminDetails");
-var i;
-
-for (i = 0; i < collButton.length; i++) {
-  collButton[i].addEventListener("click", function() {
-    this.classList.toggle("visibleldTab");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-
-
-
-
 
 
 
