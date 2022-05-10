@@ -1533,8 +1533,6 @@ s ends */
 {
   width: 100%;
   background:url("./Images/acdB.jpg");
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
   background-size:  100% 100%;
   background-repeat: no-repeat;
   font-family:'ubuntu',sans-serif;

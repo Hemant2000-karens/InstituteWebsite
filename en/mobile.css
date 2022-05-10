@@ -238,15 +238,14 @@ and (orientation: portrait)
     padding-left: 12px;
     height: 90%;
   }
-
-  .thought_for_Day h1
-  {
-    font-size: 20px;
-  }
 }
 
 @media screen and (max-width: 600px)
 {
+  .aboutHeader h2
+  {
+    font-size: 20px;
+  }
   .SecondaryNav
   {
     display: inline-flex;
@@ -272,10 +271,12 @@ and (orientation: portrait)
 }
 @media screen and (max-width: 420px)
 {
-  .bi.bi-camera-fill,.bi-mortarboard-fill,.bi-calendar-week-fill
-{
-  font-size: 45px;
-}
+  .bi.bi-camera-fill,
+  .bi-mortarboard-fill,
+  .bi-calendar-week-fill
+  {
+    font-size: 45px;
+  }
   .circle
   {
     height:120px;
@@ -316,8 +317,8 @@ and (orientation: portrait)
   .footer-secondary-links {
     padding: 6px 5px;
     display: inline-block;
-}
-.footer-secondary-links a {
+  }
+  .footer-secondary-links a {
     padding: 0 15px;
     font-size: small;
   }
@@ -337,17 +338,7 @@ and(orientation: landscape)
 and (max-width: 2560px)
 and (orientation: landscape)
 {
-  .bodyContent
-  {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-  }
-  .rowDean
-  {
-    width: auto;
-    justify-content: center;
-  }
+  
 }
 
 @media screen
