@@ -1883,6 +1883,15 @@ s ends */
   margin-left: 5px;
 }
 
+.gridprofile
+{
+  display: grid;
+  grid-template-columns: 
+  repeat(auto-fit,minmax(275px,1fr));
+  width: 100%;
+  padding: 0 10px;
+}
+
 .visibleldTab:after {
   content: "\2212";
 }
@@ -1911,10 +1920,6 @@ s ends */
   margin: 2% 0;
   display: grid;
   justify-items: center;
-}
-.paddingFor
-{
-  padding: 10px 0;
 }
 .localAdminProfile img
 {
