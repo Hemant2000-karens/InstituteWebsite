@@ -25,11 +25,11 @@
 				<button class="adminDetails">Counseling Cell</button>
 					<div class="adminProfile">
 
-							<div class="members">
+							<div class="localAdminProfile">
 	    					<img src="./Images/ladmins/aojha.png" alt="apojha" >
 								<h5>Prof. Aparajita Ojha</h5>
 								<h4>Head</h4>
-	  						</div>
+	  					</div>
 					</div>
 
 
@@ -40,14 +40,14 @@
 					<div class="adminProfile">
 
 
-					  	<div class="rowDean"> 
-					  		<div class="columnDean">
+					  	<div class="profile"> 
+					  		<div class="localAdminProfile">
     							<img src="./Images/ladmins/pka.png" alt="Vijay" >
 								<h5>Prof. Pritee Khanna</h5>
 								<h4>Chairperson</h4>
 							</div>
 					
-							<div class="columnDean">
+							<div class="localAdminProfile">
 	    						<img src="./Images/ladmins/omvir.png" alt="Omvir Singh" >
 								<h5>Mr. Omvir Singh Bhadauria </h5>
 								<h4>Placement Officer</h4>
@@ -64,13 +64,12 @@
 				<button class="adminDetails">International Affairs</button>
 					<div class="adminProfile">
 					  	
-						<div class="rowDean"> 
-					  		<div class="columnDean">
+							<div class="localAdminProfile">
     							<img src="./Images/ladmins/dineshk.png" alt="Dinesh K" >
 								<h5>Prof. Dinesh Kumar V</h5>
 								<h4>Professor In-charge</h4>
 							</div>
-						</div>
+
 
 					</div>
 

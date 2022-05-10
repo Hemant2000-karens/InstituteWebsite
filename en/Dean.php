@@ -39,7 +39,7 @@
 				
 		</div>
 
-
+	</div>
 	<div class="bodyContent" id = "deanAStd">
 
 		<div class="deanHeader" id ="NameofDean-1">

@@ -198,12 +198,20 @@ window.onscroll = function()
   stickyFunction()
 };
 
+var collButton = document.getElementsByClassName("adminDetails");
+var i;
 
-window.onscroll = function()
-{
-  stickyFunction()
-};
-
+for (i = 0; i < collButton.length; i++) {
+  collButton[i].addEventListener("click", function() {
+    this.classList.toggle("visibleldTab");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
 
 var nbar = document.getElementById("adminHeader");
 var sticky = nbar.offsetTop;

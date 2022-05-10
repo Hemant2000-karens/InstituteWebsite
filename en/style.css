@@ -1906,6 +1906,18 @@ s ends */
 
 /* Local Administrators */
 
+.localAdminProfile
+{
+  display: grid;
+  justify-items: center;
+}
+.localAdminProfile img
+{
+  height:80%;
+  width: 60%;
+}
+
+
 
 /* Senate Settings*/
 
