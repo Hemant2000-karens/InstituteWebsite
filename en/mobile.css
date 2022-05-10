@@ -334,40 +334,19 @@ and(orientation: landscape)
   }
 }
 
-@media only screen
-and (max-width: 2560px)
-and (orientation: landscape)
-{
-  
-}
 
 @media screen
 and (min-width:770px)
 and (max-width:960px)
 and (orientation: portrait)
 {
-  .bodyContent
-  {
-    margin-left: auto;
-    margin-right: auto;
-    width: 892px;
-  }
-  .rowDean img
-  {
-    height: 210px;
-    width: 210px;
-  }
 
-.tableContainer
+  .tableContainer
   {
     margin-right: auto;
     margin-left: auto;
     width:100%;
     justify-content: center;
-  }
-  .rowDean
-  {
-
   }
   .footer
   {
@@ -389,14 +368,10 @@ and (orientation: portrait)
   .footer-secondary-links {
     padding: 6px 5px;
     display: inline-block;
-}
+    }
   .footer-secondary-links a {
       padding: 0 15px;
       font-size: small;
-  }
-  .chButton
-  {
-    display: none;
   }
 }
 
@@ -409,11 +384,6 @@ and (orientation: portrait)
   .deskTitle
   {
     font-size: 20px !important;
-  }
- .bodyContent
-  {
-    width: -webkit-fill-available;
-    width: -moz-available;
   }
   .tableContainer
   {

@@ -12,40 +12,38 @@
 	  <?php include './topheader.php';?>
 	   	<div class="container">
 	    	<body>
-    		<?php include './Header.php';?>
+    			<?php include './Header.php';?>
 
-				<?php include "./navbar.php";?>
+					<?php include "./navbar.php";?>
 
-				<span class="br"></span>
+					<span class="br"></span>
 	
-				<div class="aboutHeader">
-					<h2>Hostels@iiitdmj</h2>
-				</div>
+					<div class="aboutHeader">
+						<h2>Hostels@iiitdmj</h2>
+					</div>
 
-				<div class="AcMain">
+					<div class="AcMain">
 						
 						
+					</div>
+				</body>
 			</div>
 
+		<?php include './footer.php'?>
+		<script>
+		var coll = document.getElementsByClassName("acdpB");
+		var i;
 
-			</body>
-		</div>
-
-<?php include './footer.php'?>
-<script>
-var coll = document.getElementsByClassName("acdpB");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("show");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("show");
+		    var content = this.nextElementSibling;
+		    if (content.style.maxHeight){
+		      content.style.maxHeight = null;
+	    	} else {
+	      	content.style.maxHeight = content.scrollHeight + "px";
+	    	} 
+	  	});
+		}
+	</script>
 </html>
