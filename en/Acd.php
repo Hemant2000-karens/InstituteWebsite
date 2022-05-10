@@ -155,14 +155,17 @@
 						<div class="phdAcademic">
 							
 						</div>
-						<button class="acdpB">Ph.D Programmes</button>
+						<br>
+						<button class="acdpB">Integrated Master + Ph.D</button>
 						<div class="btechAcademic">
 							
 						</div>
-						<button class="acdpB">Ph.D Programmes</button>
+						<br>
+						<button class="acdpB">Special Part Time M.Tech / M.Des</button>
 						<div class="btechAcademic">
 							
 						</div>
+						<br>
 					</div>
 				</div>
 			</body>
