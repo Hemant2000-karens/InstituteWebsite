@@ -38,20 +38,18 @@
 						<img src="./icons/locala.png"/>
 						<figcaption>Local Administration</figcaption>
 					</div>
-					</div>
-					<div class="otherPage">
-						<div class="card" onclick="linkOpen('ms')">
-							<img src="./icons/senate.png"/>
+					<div class="card" onclick="linkOpen('ms')">
+						<img src="./icons/senate.png"/>
 						<figcaption>Members of Senate</figcaption>
-						</div>
-						<div class="card" onclick="linkOpen('fc')">
-							<img src="./icons/finc.png"/>
+					</div>
+					<div class="card" onclick="linkOpen('fc')">
+						<img src="./icons/finc.png"/>
 						<figcaption>Finance Commitee</figcaption>
-						</div>
-						<div class="card" onclick="linkOpen('mv')">
-							<img src="./icons/mivi.png"/>
+					</div>
+					<div class="card" onclick="linkOpen('mv')">
+						<img src="./icons/mivi.png"/>
 						<figcaption>Mission & Vision</figcaption>  
-						</div>
+					</div>
 				</div>
 			</section>
 

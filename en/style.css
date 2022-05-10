@@ -1753,15 +1753,22 @@ s ends */
 }
 .secondAbout
 {
-  display: block;
+  height: auto;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  margin:0;
+  padding: 2px 10%;
 }
 .otherPage
 {
-  display: flex;
+  justify-items: safe center;
+  padding: 0 8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,
+    minmax(281px,1fr));
   height: auto;
-  width: 600px;
-  margin: auto;
-  padding: 20px;
+  width: -webkit-fill-available;
+  width: -moz-available;
 }
 .card
 {
@@ -1814,7 +1821,7 @@ s ends */
 {
   display: grid;
   grid-template-columns: 
-  repeat(auto-fit,minmax(252px,1fr));
+  repeat(auto-fit,minmax(345px,1fr));
   width: 100%;
   padding: 0 10px;
 }

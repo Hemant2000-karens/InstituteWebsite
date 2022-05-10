@@ -42,10 +42,6 @@
 					     <p>Director<br>Disha Consultants, Jabalpur</p>
 					</div>
 
-				</div>
-
-				<div class="profile">
-
 					<div class="members">
 						<h3>Shri Rakesh Ranjan</h3>
 					     <p>Member</p>
@@ -57,7 +53,6 @@
 					     <p>Member</p>
 					     <p>Director(Finance)<br>Integrated Finance Division</p>
 					</div>
-
 
           			<div class="members">
           				<img src="./Images/FC/pnkon.png">
@@ -79,6 +74,7 @@
 			</div>
 			<section class="secondAbout">
 				<div class="otherPage">
+
 					<div class="card" onclick="linkOpen('bod')">
 						<img src="./icons/about.png"/>
 						<figcaption>About Us</figcaption>
@@ -91,19 +87,17 @@
 						<img src="./icons/locala.png"/>
 						<figcaption>Local Administration</figcaption>
 					</div>
-					</div>
-					<div class="otherPage">
-						<div class="card" onclick="linkOpen('ms')">
-							<img src="./icons/senate.png"/>
+					<div class="card" onclick="linkOpen('ms')">
+						<img src="./icons/senate.png"/>
 						<figcaption>Members of Senate</figcaption>
-						</div>
+					</div>
 						<div class="card" onclick="linkOpen('fc')">
 							<img src="./icons/finc.png"/>
-						<figcaption>Finance Commitee</figcaption>
+							<figcaption>Finance Commitee</figcaption>
 						</div>
 						<div class="card" onclick="linkOpen('mv')">
 							<img src="./icons/mivi.png"/>
-						<figcaption>Mission & Vision</figcaption>
+							<figcaption>Mission & Vision</figcaption>
 						</div>
 				</div>
 			</section>

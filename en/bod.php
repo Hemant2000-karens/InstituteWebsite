@@ -21,7 +21,9 @@
 			</div>
 
 			<div class="Directors">
+
 				<div class="profile">
+
 					<div class="members">
 						<img src="./Images/BOD/dpgs.png">
 						<h3>Shri Deepak Ghaisas</h3>
@@ -44,39 +46,38 @@
 					     <p>Joint Secretary & Group Coordinator<br>Ministry of Electronics and Information Technology</p>
 					</div>
 
-
 					<div class="members">
 						<img src="./Images/BOD/prvj.png">
 						<h3>Prof. R. V. Raja kumar</h3>
 					     <p>Member</p>
 					     <p> Director<br>Indian Institute of Technology Bhubaneswar</p>
 					</div>
-				</div>
 
-				<div class="profile">
 					<div class="members">
 						<img src="./Images/BOD/psh.png">
 						<h3>Prof. Shailendra Singh</h3>
 					     <p>Member</p>
 					     <p>Director<br>IIM Ranchi</p>
 					</div>
+
 					<div class="members">
 						<img src="./Images/BOD/ABT.png">
 						<h3>Ms. Atreyee Borooah Thekedath</h3>
-					     <p>Member</p>
-					     <p>Director<br>Web.com (India) Pvt. Ltd.</p>
+					  <p>Member</p>
+					  <p>Director<br>Web.com (India) Pvt. Ltd.</p>
 					</div>
+
 					<div class="members">
 						<img src="./Images/BOD/pkp.png">
 						<h3>Shri Prashant Pole</h3>
-					     <p>Member</p>
-					     <p>Director<br>Disha Consultants, Jabalpur</p>
+					    <p>Member</p>
+					    <p>Director<br>Disha Consultants, Jabalpur</p>
 					</div>
 					<div class="members">
 						<img src="./Images/BOD/subsmy.png">
 						<h3>Shri Subrahmanya S V</h3>
-					     <p>Member</p>
-					     <p>Former VC<br>Infosys Ltd. Bengluru</p>
+					  <p>Member</p>
+					  <p>Former VC<br>Infosys Ltd. Bengluru</p>
 					</div>
 					<div class="members">
 						<img src="./Images/BOD/pkjain.png">
@@ -84,9 +85,6 @@
 					     <p>Member</p>
 					     <p>Professor<br>PDPM IIITDM Jabaplpur</p>
 					</div>
-				</div>
-
-				<div class="profile">
 					<div class="members">
 						<img src="./Images/BOD/sns.png">
 						<h3>Prof. Sanjeev N. Sharma</h3>
