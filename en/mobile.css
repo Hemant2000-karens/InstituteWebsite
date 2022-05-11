@@ -856,12 +856,6 @@ and (max-width:665px)
     width: auto;
     margin: 10px 20px;
   }
-
-  .otherPage
-  {
-    width: 200px;
-    display: block;
-  }
 }
 
 /* BOD Page ---*/
