@@ -388,7 +388,6 @@ and (min-width: 375px)
 and (max-width: 460px)
 and (orientation: portrait)
 {
-
   .topnav a
   {
     font-size: 15px;
@@ -399,8 +398,6 @@ and (orientation: portrait)
   }
   .bodyContent
   {
-    margin-left: auto;
-    margin-right: auto;
     width: -webkit-fill-available !important;
     width: -moz-available;
   }
@@ -412,36 +409,36 @@ and (orientation: portrait)
     width: auto;
   }
   .columnDean h5
-{
-  font-size: smaller;
-}
-.columnDean h4
-{
-  font-size: smaller;
-}
-.rowDean
-{
-  display: inline;
-  padding: 6px 10px;
-}
-.sticky
-{
-  width: -webkit-fill-available;
-  width: -moz-available;
-}
-.topheader .main-group
-{
-  display: contents;
-}
-.topheader .group
-{
-  font-size: 8px;
-}
-.topheader .dept
-{
-  width: 50%;
-  font-size: 8px;
-}
+  {
+    font-size: smaller;
+  }
+  .columnDean h4
+  {
+    font-size: smaller;
+  }
+  .rowDean
+  {
+    display: inline;
+    padding: 6px 10px;
+  }
+  .sticky
+  {
+    width: -webkit-fill-available;
+    width: -moz-available;
+  }
+  .topheader .main-group
+  {
+    display: contents;
+  }
+  .topheader .group
+  {
+    font-size: 8px;
+  }
+  .topheader .dept
+  {
+    width: 50%;
+    font-size: 8px;
+  }
 }
 
 @media screen and (max-width: 600px)
