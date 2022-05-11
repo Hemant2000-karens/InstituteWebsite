@@ -34,9 +34,10 @@
 		<br>
 
 		<div class = "tableContainer">
-
-
+			<div class="office_of_Dean">
+				<hr class="hr-text" data-content="Office of Dean(Academic)">
 				
+			</div>
 		</div>
 
 	</div>

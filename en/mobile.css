@@ -30,14 +30,7 @@
 }
 
 @media screen and (max-width: 960px) {
-  .header h1
-  {
-    position: relative;
-    padding-top: 0px;
-    padding-left: 11px;
-    height: 70%;
-    font-size: 18px
-  }
+
   .topheader
   {
     height: auto;
@@ -51,30 +44,6 @@
     padding-top: 5px;
   }
 
-  .header
-  {
-    display: inline-flex;
-    height: 120px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-  }
-  .header img
-  {
-    justify-content: center;
-    width: 100px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 20px;
-    height: 100px;
-  }
-  .header h1
-  {
-    text-align: left;
-    position: relative;
-    padding-top: 0px;
-    padding-left: 12px;
-    height: 90%;
-  }
   .article
   {
     width: 100%;
@@ -173,72 +142,31 @@
 and (min-width: 375px)
 and (max-width: 960px)
 {
-  .header h1
+
+  /* Video Gallery Settings */
+  .vCaption:nth-child(even){
+    margin-left: 0;
+  }
+  .vCaption
   {
-    padding-top: 1.2%;
+    margin:12px;
+  }
+  .vCaption iframe
+  {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    height: 350px;
   }
 
-/* Video Gallery Settings */
-.vCaption:nth-child(even){
-  margin-left: 0;
-}
-.vCaption
-{
-  margin:12px;
-}
-.vCaption iframe
-{
-  width: -webkit-fill-available;
-  width: -moz-available;
-  height: 350px;
+
+
+
+  /* Video gallery Settings */
 }
 
 
 
 
-/* Video gallery Settings */
-
-
-
-
-
-
-}
-
-@media screen
-and (max-width:390px)
-and (orientation: portrait)
-{
-  .header
-  {
-    margin-bottom: 15px;
-  }
-  .header h1
-  {
-    padding-top: 5px;
-  }
-
-}
-
-@media screen
-and (max-width: 380px)
-and (orientation: portrait)
-{
-  .header img
-  {
-    height: 75px;
-    width: 75px;
-  }
-  .header h1
-  {
-    font-size: 15px;
-    text-align: left;
-    position: relative;
-    padding-top: 3px;
-    padding-left: 12px;
-    height: 90%;
-  }
-}
 
 @media screen and (max-width: 600px)
 {
@@ -263,6 +191,14 @@ and (orientation: portrait)
 
 @media screen and (max-width: 650px)
 {
+  .header img {
+    width: 65px;
+    height: auto;
+  }
+  .header h1 {
+    height: 100%;
+    font-size: 14px;
+  }
   .misc
   {
     display: table;
@@ -380,7 +316,10 @@ and (min-width: 320px)
 and (max-width: 375px)
 and (orientation: portrait)
 {
-
+  .DeanNav
+  {
+    margin: 0;
+  }
   .deskTitle
   {
     font-size: 20px !important;
@@ -399,6 +338,11 @@ and (orientation: portrait)
   .column
   {
     width: 80%;
+  }
+  .footer .footer-heading 
+  {
+    padding-left: 25% !important;
+    padding-right: 25% !important;
   }
 }
 @media only screen
@@ -431,18 +375,6 @@ and (min-width: 461px)
 and (max-width: 770px)
 and (orientation: portrait)
 {
-  .bodyContent
-  {
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-  }
-  .tableContainer
-  {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
   .rowDean
   {
     width: 100%;
@@ -809,22 +741,6 @@ and (max-width: 1000px)
 
 /* Notice and Message for multiple
 resolution (mobile and tablet iPad)*/
-
-@media screen and (max-width: 660px)
-{
-  .topheader
-  {
-
-  }
-  .noticeTitle
-  {
-    margin-left: 10px;
-  }
-  .noticeContent
-  {
-    width: 180px;
-  }
-}
 
 @media screen
 and (max-width: 778px)

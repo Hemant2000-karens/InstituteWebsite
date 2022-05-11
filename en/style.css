@@ -106,26 +106,20 @@ body{
   text-shadow: 1px 0px 4px #a6a6a6;
   font-family: 'Varela Round', sans-serif;
   display: inline-flex;
-  padding-left: 29px;
-  padding-top: 10px;
-  padding-bottom: 50px;
-  height: 90px;
+  height: auto;
+  gap: 2.65%;
+  align-items: center;
+}
+
+.header h1
+{
+  height: 100%;
+  font-size: 24px;
 }
 .header img
 {
-    width: 89px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 15px;
-    height: 100%;
-}
-.header h1
-{
-    position: relative;
-    padding-top: 0px;
-    padding-left: 11px;
-    height: 100%;
-    font-size: 24px
+  width: 90px;
+  height: auto;
 }
 
   hr
@@ -873,7 +867,39 @@ body{
   width: auto;
 }
 
+.office_of_Dean .hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 1px solid #ffffff;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .9;
+  font-size: 24px;
+  /*text-transform:uppercase;*/
+}
 
+.office_of_Dean .hr-text:before {
+  content: '';
+  background: linear-gradient(to right, transparent, #818078, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+
+.office_of_Dean .hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0 .5em;
+  line-height: 1.5em;
+  color: #818078;
+  background-color: #fcfcfa;
+}
 
 .externalLink
 {
