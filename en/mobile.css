@@ -594,7 +594,7 @@ and (max-width: 770px)
   {
     display:block;
     padding: 0px;
-    height: 30px;
+    height: auto;
     padding-bottom: 5px;
     background-color: #0d101c;
   }

@@ -35,7 +35,7 @@
 
 		<div class = "tableContainer">
 			<div class="office_of_Dean">
-				<hr class="hr-text" data-content="Office of Dean(Academic)">
+				<h3><span>Office of Dean</span></h3>
 				
 			</div>
 		</div>
