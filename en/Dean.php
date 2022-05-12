@@ -273,7 +273,7 @@
 				<p>
 					The Office of Dean Research, Sponsored Projects and Consultancy (RSPC) is a unit of PDPM IIITDM Jabalpur specifically setup in the institute to provide specialized administrative and managerial support and awareness for the operation of Sponsored Research Projects, Consultancy, Fieldwork, IPR related issues as well as to co-ordinate and facilitates all Research & Development activities in the Institute.
 				</p>
-				<span class="fLink">For the Further Detail visit - <a href="https://www.iiitdmj.ac.in/rspc.iiitdmj.ac.in/index.php" target="_blank">https://www.iiitdmj.ac.in/rspc.iiitdmj.ac.in/index.php</a></span>
+				<span class="fLink">For the Further Detail visit - <a href="https://www.iiitdmj.ac.in/rspc.iiitdmj.ac.in/index.php" target="_blank">https://www.rspc.iiitdmj.ac.in</a></span>
 			</div>
 	</div>
 </div>
