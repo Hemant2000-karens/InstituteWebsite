@@ -919,7 +919,7 @@ body{
 .adminStaff
 {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(297px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(245px,1fr));
 }
 .externalLink
 {
@@ -939,7 +939,6 @@ body{
 }
 .fLink
 {
-  width: 150px;
   font-family: 'Varela Round',sans-serif;
 }
 .fLink a
