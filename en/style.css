@@ -888,22 +888,38 @@ body{
  background:#fff; 
     padding:0 10px;
 }
-.office_of_Dean.profile
+.office_of_Dean.profile1
 {
   font-family: 'Varela round',sans-serif;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  gap: 2.5%;
+  padding: 2px 7%;
 }
 .office_of_Dean.text
 {
   display: block;
 }
 
-.office_of_Dean .profile img
+.office_of_Dean.profile1 img,
+.office_of_Dean.profile2 img
 {
   height: 210px;
   width: 210px;
   border-radius: 5px;
+}
+.office_of_Dean.profile2
+{
+  display: block;
+  text-align: center;
+  font-family: 'Varela round',sans-serif;
+}
+
+.adminStaff
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(297px,1fr));
 }
 .externalLink
 {

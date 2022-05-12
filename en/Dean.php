@@ -37,7 +37,7 @@
 			<div class="office_of_Dean">
 				<h3 class="hrclass"><span>Office of Dean(Academics)</span></h3>
 
-				<div class="office_of_Dean profile">
+				<div class="office_of_Dean profile1">
 						<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
 						<div class="office_of_Dean text">
 							<h2>Prof. Vijay Kumar Gupta </h2>
@@ -51,23 +51,81 @@
 					<br>
 
 
-						<div class="">
-							<div class="office_of_Dean profile">
-									<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
+						<div class="adminStaff">
+							<div class="office_of_Dean profile2">
+									<img src="./Images/DeanACD/santosh.jpg" class="" alt="Dean Academic" />
 									<div class="office_of_Dean text">
-									<h2>Mr. Santosh mahobia</h2>
+									<h2>Mr. Santosh Mahobia</h2>
 									<h3>Assistant Registrar</h3>
 								</div>
 							</div>
-							<div class="office_of_Dean profile">
-								<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
+
+							<div class="office_of_Dean profile2">
+								<img src="./Images/DeanACD/sandeep.jpg" class="" alt="Dean Academic" />
 								<div class="office_of_Dean text">
 								<h2>Mr. Sandeep Awasthi </h2>
 								<h3>Junior Suprintendent</h3>
 								</div>
 							</div>
 						</div>
+
+						<br>
 					<h3 class="hrclass"><span>Supporting Staff</span></h3>
+						<br>
+
+					<div class="adminStaff">
+							
+
+							<div class="office_of_Dean profile2">
+									<img src="./Images/DeanACD/simanta.jpg" class="" alt="Dean Academic" />
+									<div class="office_of_Dean text">
+									<h2>Mr. Simanta Kar Gupta</h2>
+									<h3>Senior Assistant</h3>
+								</div>
+							</div>
+
+							<div class="office_of_Dean profile2">
+								<img src="./Images/DeanACD/richard.jpg" class="" alt="Dean Academic" />
+								<div class="office_of_Dean text">
+								<h2>Mr. Richard Saberio</h2>
+								<h3>Senior Assistant</h3>
+								</div>
+							</div>
+						
+							<div class="office_of_Dean profile2">
+									<img src="./Images/DeanACD/nitin.jpg" class="" alt="Dean Academic" />
+									<div class="office_of_Dean text">
+									<h2>Mr. Nitin Tripathi</h2>
+									<h3>Office Assistant</h3>
+								</div>
+							</div>
+
+							<div class="office_of_Dean profile2">
+								<img src="./Images/DeanACD/simran.jpg" class="" alt="Dean Academic" />
+								<div class="office_of_Dean text">
+								<h2>Ms. Simran Kaur Kalra</h2>
+								<h3>Office Assistant</h3>
+								</div>
+							</div>
+
+							<div class="office_of_Dean profile2">
+									<img src="./Images/DeanACD/shashank.jpg" class="" alt="Dean Academic" />
+									<div class="office_of_Dean text">
+									<h2>Mr. Shashank Patel</h2>
+									<h3>Office Assistant</h3>
+								</div>
+							</div>
+
+							<div class="office_of_Dean profile2">
+								<img src="./Images/DeanACD/irshad.jpg" class="" alt="Dean Academic" />
+								<div class="office_of_Dean text">
+								<h2>Mr. Irshad Ahmed</h2>
+								<h3>Office Assistant</h3>
+								</div>
+							</div>
+
+
+						</div>
 			</div>
 		</div>
 
@@ -81,11 +139,11 @@
 		</div>
 		<br>
 
-	<div class = "tableContainer">
+		<div class = "tableContainer">
 			<div class="office_of_Dean">
 				<h3 class="hrclass"><span>Office of Dean(Students)</span></h3>
 
-					<div class="office_of_Dean profile">
+					<div class="office_of_Dean profile1">
 						<img src="./Images/DeanStd/tanuja.png" class="" alt="Dean Students" />
 						<div class="office_of_Dean text">
 							<h2>Prof. Tanuja Sheroy </h2>
@@ -95,37 +153,65 @@
 					</div>
 
 					<br>
-
 					<h3 class="hrclass"><span>Adminstrative Staff</span></h3>
 					<br>
 
-			</div>
+						<div class="adminStaff">
 
-			<div class="rowDean">
-				<div class="columnDean">
-					<img src="./Images/DeanACD/simanta.jpg" alt="Snow">
-					<h5>Mr. Rajesh Kanaujia</h5>
-					<h4>Senior Assistant</h4>
-				</div>
-				<div class="columnDean">
-					<img src="./Images/DeanACD/richard.jpg" alt="Forest">
-					<h5>Mr. Talib Ahmed</h5>
-					<h4>Clerk</h4>
-				</div>
-				<div class="columnDean">
-					<img src="./Images/DeanACD/nitin.jpg" alt="Mountains">
-					<h5>Mr. Amit Kashyap</h5>
-					<h4>Office Assistant</h4>
-				</div>
-			</div>
+							<div class="office_of_Dean profile2">
+									<img src="./Images/DeanStd/santosh.jpg" class="" alt="Dean Academic" />
+									<div class="office_of_Dean text">
+										<h2>Mr. Santosh mahobia</h2>
+										<h3>Assistant Registrar</h3>
+								</div>
+							</div>
 
-				<div class="body">
+							<div class="office_of_Dean profile2">
+								<img src="./Images/DeanStd/sandeep.jpg" class="" alt="Dean Academic" />
+								<div class="office_of_Dean text">
+									<h2>Mr. Sandeep Awasthi </h2>
+									<h3>Junior Suprintendent</h3>
+								</div>
+							</div>
 
-  					Hearty congratulations on being taken a wise move of joining IIITDMJ community. I extend a warm welcome and assure you to take this treasured journey together in the right earnest.
-						PDPM IIITDMJ is one of the unique academic Institutes with regard to its curriculum and emphasize on project-oriented learning. I am happy to write that Indian as well as Japanese industries are recognizing enhanced capabilities of our students due to the unique curriculum. The atmosphere on the campus is lively and I am sure you will enjoy every moment spent here and will cherish for the rest of your life.
+						</div>
 
-  				</div>
-  			</div>
+					<br>
+					<h3 class="hrclass">
+						<span>Supporting Staff</span>
+					</h3>
+					<br>
+
+						<div class="adminStaff">
+
+							<div class="office_of_Dean profile2">
+									<img src="./Images/DeanStd/vijayG.jpg" class="" alt="Dean Students" />
+									<div class="office_of_Dean text">
+									<h2>Mr. Rajesh Kanaujia</h2>
+									<h3>Senior Assistant</h3>
+								</div>
+							</div>
+
+							<div class="office_of_Dean profile2">
+								<img src="./Images/DeanStd/vijayG.jpg" class="" alt="Dean Students" />
+								<div class="office_of_Dean text">
+									<h2>Mr. Amit Kashyap Awasthi </h2>
+									<h3>Office Assistant</h3>
+								</div>
+							</div>
+
+							<div class="office_of_Dean profile2">
+								<img src="./Images/DeanStd/vijayG.jpg" class="" alt="Dean Students" />
+								<div class="office_of_Dean text">
+									<h2>Mr. Monti Jatav </h2>
+									<h3>Peon</h3>
+							</div>
+
+							</div>
+
+						</div>
+  		</div>
+		</div>
 	</div>
 
 	<div class="bodyContent" id = "deanrpSC">
@@ -134,33 +220,61 @@
 			<h2>Dean RSPC</h2>
 		</div>
 		<div class = "tableContainer">
-			<div class="rowDean">
-				<div class="columnDean">
-    			<img src="./Images/DeanRSPC/pkpadhy.png" alt="Prabin" >
-					<h5>Prof. Prabin Kumar Padhy</h5>
-					<h4>Dean of RSPC</h4>
-  			</div>
-  			<div class="columnDean">
-    			<img src="./Images/DeanRSPC/Priti.png" alt="Priti">
-					<h5>Ms. Priti Patel</h5>
-					<h4>Assistant Registrar</h4>
-  			</div>
-  			<div class="columnDean">
-    			<img src="./Images/DeanRSPC/prashant.png" alt="Sandeep">
-					<h5>Mr. Prashant Agnihotri</h5>
-					<h4>Senior Assistant</h4>
-  			</div>
-			</div>
+			
+			<div class="office_of_Dean">
 
-<div class="externalLink">
+				<h3 class="hrclass"><span>Office of RSPC</span></h3>
+
+					<div class="office_of_Dean profile1">
+						<img src="./Images/DeanRSPC/pkpadhy.png" class="" alt="Dean RSPC" />
+						<div class="office_of_Dean text">
+							<h2>Prof. Prabin Kumar Padhy</h2>
+									<h3>Professor, Electronics & Communication Engineering<br>
+									Dean (Research, Sponsored Projects and Consultancy)</h3>
+						</div>
+					</div>
+
+					<br>
+					<h3 class="hrclass"><span>Adminstrative Staff</span></h3>
+					<br>
+
+						<div class="adminStaff">
+
+							<div class="office_of_Dean profile2">
+									<img src="./Images/DeanRSPC/Priti.png" class="" alt="Dean RSPC" />
+									<div class="office_of_Dean text">
+									<h2>Ms. Priti Patel</h2>
+									<h3>Assistant Registrar (RSPC)</h3>
+								</div>
+							</div>
+
+						</div>
+
+						<br>
+					<h3 class="hrclass"><span>Supporting Staff</span></h3>
+					<br>
+
+						<div class="adminStaff">
+
+							<div class="office_of_Dean profile2">
+									<img src="./Images/DeanRSPC/prashant.png" class="" alt="Dean RSPC" />
+									<div class="office_of_Dean text">
+									<h2>Mr. Prashant Agnihotri</h2>
+									<h3>Senior Assistant</h3>
+								</div>
+							</div>
+
+						</div>
+			</div>
+			<div class="externalLink">
 				<div class="externalheading">
 					<span>About RSPC Office</span>
 			</div>
-			<p>
-				The Office of Dean Research, Sponsored Projects and Consultancy (RSPC) is a unit of PDPM IIITDM Jabalpur specifically setup in the institute to provide specialized administrative and managerial support and awareness for the operation of Sponsored Research Projects, Consultancy, Fieldwork, IPR related issues as well as to co-ordinate and facilitates all Research & Development activities in the Institute.
-			</p>
-			<span class="fLink">For the Further Detail visit - <a href="https://www.iiitdmj.ac.in/rspc.iiitdmj.ac.in/index.php" target="_blank">https://www.iiitdmj.ac.in/rspc.iiitdmj.ac.in/index.php</a></span>
-	</div>
+				<p>
+					The Office of Dean Research, Sponsored Projects and Consultancy (RSPC) is a unit of PDPM IIITDM Jabalpur specifically setup in the institute to provide specialized administrative and managerial support and awareness for the operation of Sponsored Research Projects, Consultancy, Fieldwork, IPR related issues as well as to co-ordinate and facilitates all Research & Development activities in the Institute.
+				</p>
+				<span class="fLink">For the Further Detail visit - <a href="https://www.iiitdmj.ac.in/rspc.iiitdmj.ac.in/index.php" target="_blank">https://www.iiitdmj.ac.in/rspc.iiitdmj.ac.in/index.php</a></span>
+			</div>
 	</div>
 </div>
 
@@ -172,21 +286,31 @@
 		</div>
 
 			<div class = "tableContainer">
-				<div class="rowDean">
 
-  				<div class="columnDean">
-    				<img src="./Images/DeanPnD/pnkon.png" alt="Prof. P.N Kondekar" >
-						<h5>Prof. P.N Kondekar</h5>
-						<h4>Dean(Planning & Research)</h4>
-  				</div>
+				<div class="office_of_Dean">
 
-					<div class="columnDean">
-    				<img src="./Images/DeanPnD/atul.png" alt="Prof, Atul" >
-						<h5>Prof. Atul Gupta</h5>
-						<h4>Associate Dean(Planning & Research)</h4>
-  				</div>
+					<h3 class="hrclass"><span>Office of P&D</span></h3>
 
-			</div>
+					<div class="office_of_Dean profile1">
+						<img src="./Images/DeanPnD/pnkon.png" class="" alt="Dean RSPC" />
+						<div class="office_of_Dean text">
+							<h2>Prof. P.N Kondekar</h2>
+									<h3>Professor, Electronics & Communication Engineering<br>
+									Dean (Planning & Development)</h3>
+						</div>
+					</div>
+					<br>
+
+					<div class="office_of_Dean profile1">
+						<img src="./Images/DeanPnD/pnkon.png" class="" alt="Dean RSPC" />
+						<div class="office_of_Dean text">
+							<h2>Prof. Atul Gupta</h2>
+								<h3>Head of CSE</h3>
+								<h3>Professor, Computer Science and Engineering<br>
+									Associate Dean (Planning & Development)</h3>
+						</div>
+					</div>
+
 		</div>
 	</div>
 
