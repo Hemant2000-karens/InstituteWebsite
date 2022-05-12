@@ -9,12 +9,12 @@
     <link rel="stylesheet" type="text/css" href="./mobile.css">
 	</head>
 
-	  <?php include './topheader.php';?>
+	  <?php include './topheader.php'; ?>
 	   	<div class="container">
 	    	<body>
-    			<?php include './Header.php';?>
+    			<?php include './Header.php'; ?>
 
-					<?php include "./navbar.php";?>
+					<?php include "./navbar.php"; ?>
 
 					<span class="br"></span>
 	
@@ -29,7 +29,7 @@
 				</body>
 			</div>
 
-		<?php include './footer.php'?>
+		<?php include './footer.php' ?>
 		<script>
 		var coll = document.getElementsByClassName("acdpB");
 		var i;
