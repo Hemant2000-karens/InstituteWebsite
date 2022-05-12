@@ -725,13 +725,6 @@ and (max-device-width : 505px)
 }
 
 /* iPad Air Setting for notice and message */
-@media only screen
-and (min-width: 834px)
-and (max-width: 1112px)
-and (orientation: landscape)
-{
-
-}
 
 /* iPad Air Ends Here */
 
