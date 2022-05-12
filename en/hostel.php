@@ -23,8 +23,14 @@
 					</div>
 
 					<div class="AcMain">
-						
-						
+						<div class="hostel_main">
+
+							<div class="hostel_card"></div>
+							<div class="hostel_card"></div>
+							<div class="hostel_card"></div>
+							<div class="hostel_card"></div>
+							<div class="hostel_card"></div>
+						</div>
 					</div>
 				</body>
 			</div>
