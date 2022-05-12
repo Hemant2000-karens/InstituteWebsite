@@ -36,6 +36,7 @@
 		<div class = "tableContainer">
 			<div class="office_of_Dean">
 				<h3 class="hrclass"><span>Office of Dean(Academics)</span></h3>
+
 				<div class="office_of_Dean profile">
 						<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
 						<div class="office_of_Dean text">
@@ -44,9 +45,12 @@
 									Dean (Academic)</h3>
 						</div>
 					</div>
+
 					<br>
 					<h3 class="hrclass"><span>Adminstrative Staff</span></h3>
 					<br>
+
+
 						<div class="">
 							<div class="office_of_Dean profile">
 									<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
@@ -80,9 +84,22 @@
 	<div class = "tableContainer">
 			<div class="office_of_Dean">
 				<h3 class="hrclass"><span>Office of Dean(Students)</span></h3>
-					
+
+					<div class="office_of_Dean profile">
+						<img src="./Images/DeanStd/tanuja.png" class="" alt="Dean Students" />
+						<div class="office_of_Dean text">
+							<h2>Prof. Tanuja Sheroy </h2>
+									<h3>Professor, Mechanical Engineering Discipline<br>
+									Dean (Students)</h3>
+						</div>
+					</div>
+
+					<br>
+
+					<h3 class="hrclass"><span>Adminstrative Staff</span></h3>
+					<br>
+
 			</div>
-	</div>
 
 			<div class="rowDean">
 				<div class="columnDean">
@@ -108,6 +125,7 @@
 						PDPM IIITDMJ is one of the unique academic Institutes with regard to its curriculum and emphasize on project-oriented learning. I am happy to write that Indian as well as Japanese industries are recognizing enhanced capabilities of our students due to the unique curriculum. The atmosphere on the campus is lively and I am sure you will enjoy every moment spent here and will cherish for the rest of your life.
 
   				</div>
+  			</div>
 	</div>
 
 	<div class="bodyContent" id = "deanrpSC">
