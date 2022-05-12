@@ -35,12 +35,41 @@
 
 		<div class = "tableContainer">
 			<div class="office_of_Dean">
-				<h3><span>Office of Dean</span></h3>
-				
+				<h3 class="hrclass"><span>Office of Dean(Academics)</span></h3>
+				<div class="office_of_Dean profile">
+						<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
+						<div class="office_of_Dean text">
+							<h2>Prof. Vijay Kumar Gupta </h2>
+									<h3>Professor, Mechanical Engineering Discipline<br>
+									Dean (Academic)</h3>
+						</div>
+					</div>
+					<br>
+					<h3 class="hrclass"><span>Adminstrative Staff</span></h3>
+					<br>
+						<div class="">
+							<div class="office_of_Dean profile">
+									<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
+									<div class="office_of_Dean text">
+									<h2>Mr. Santosh mahobia</h2>
+									<h3>Assistant Registrar</h3>
+								</div>
+							</div>
+							<div class="office_of_Dean profile">
+								<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
+								<div class="office_of_Dean text">
+								<h2>Mr. Sandeep Awasthi </h2>
+								<h3>Junior Suprintendent</h3>
+								</div>
+							</div>
+						</div>
+					<h3 class="hrclass"><span>Supporting Staff</span></h3>
 			</div>
 		</div>
 
 	</div>
+
+
 	<div class="bodyContent" id = "deanAStd">
 
 		<div class="deanHeader" id ="NameofDean-1">
@@ -49,24 +78,11 @@
 		<br>
 
 	<div class = "tableContainer">
-			<div class="rowDean">
-				<div class="columnDean">
-    				<img src="./Images/DeanStd/tanuja.png" alt="tanuja" >
-					<h5>Prof. Tanuja Sheroy</h5>
-					<h4>Dean(Students)</h4>
-  				</div>
-  				<div class="columnDean">
-    				<img src="./Images/DeanStd/santosh.jpg" alt="Santoash">
-					<h5>Mr. Santosh Mahobia</h5>
-					<h4>Assistant Registrar</h4>
-  				</div>
-  				<div class="columnDean">
-    				<img src="./Images/DeanStd/sandeep.jpg" alt ="Sandeep">
-					<h5>Mr. Sandeep Awasthi</h5>
-					<h4>Junior Superintendent</h4>
-  				</div>
+			<div class="office_of_Dean">
+				<h3 class="hrclass"><span>Office of Dean(Students)</span></h3>
+					
 			</div>
-
+	</div>
 
 			<div class="rowDean">
 				<div class="columnDean">
@@ -92,8 +108,6 @@
 						PDPM IIITDMJ is one of the unique academic Institutes with regard to its curriculum and emphasize on project-oriented learning. I am happy to write that Indian as well as Japanese industries are recognizing enhanced capabilities of our students due to the unique curriculum. The atmosphere on the campus is lively and I am sure you will enjoy every moment spent here and will cherish for the rest of your life.
 
   				</div>
-		</div>
-
 	</div>
 
 	<div class="bodyContent" id = "deanrpSC">

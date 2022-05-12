@@ -870,7 +870,7 @@ body{
   padding: 10px 8%;
 }
 
-.office_of_Dean h3 {
+.office_of_Dean .hrclass {
   width: 100%;
   text-align: center;
   font-family: 'Noto Sans',sans-serif;
@@ -884,12 +884,27 @@ body{
   border-image: linear-gradient(#888888, white)1;
 } 
 
-.office_of_Dean h3 span{
+.office_of_Dean .hrclass span{
  background:#fff; 
     padding:0 10px;
 }
+.office_of_Dean.profile
+{
+  font-family: 'Varela round',sans-serif;
+  display: flex;
+  align-items: center;
+}
+.office_of_Dean.text
+{
+  display: block;
+}
 
-
+.office_of_Dean .profile img
+{
+  height: 210px;
+  width: 210px;
+  border-radius: 5px;
+}
 .externalLink
 {
   width: 100%;

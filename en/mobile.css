@@ -473,7 +473,15 @@ and (orientation: landscape)
 }
 
 
-
+@media only screen
+and (max-width: 740px)
+{
+  .office_of_Dean.profile
+  {
+    display: block;
+    text-align: center;
+  }
+}
 
 @media screen
 and (max-width: 770px)
