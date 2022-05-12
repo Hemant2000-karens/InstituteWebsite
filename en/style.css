@@ -881,7 +881,7 @@ body{
   border-top: none;
   border-right: none;
   border-left: none;
-  border-image: linear-gradient(#888888, white)1;
+  border-image: linear-gradient(#000000, #ffffff)1;
 } 
 
 .office_of_Dean .hrclass span{
@@ -1862,7 +1862,7 @@ s ends */
 {
   display: grid;
   grid-template-columns: 
-  repeat(auto-fit,minmax(350px,1fr));
+  repeat(auto-fit,minmax(260px,1fr));
   width: 100%;
   padding: var(--profileGridPadding);
   justify-content: space-evenly;
