@@ -22,10 +22,7 @@ and (max-width: 560px)
     height: 200px;
     width: 350px;
   }
-  .noticeMain
-  {
-    padding: 0 10px !important;
-  }
+
 }
 
 @media only screen 
@@ -102,11 +99,6 @@ and (max-width: 960px)
     width: 100%;
     height: auto;
   }
-  .noticeMain
-  {
-    padding: 0 40px;
-  }
-
   .combined
   {
     display: block;
@@ -350,18 +342,6 @@ and (orientation: landscape)
 }
 
 
-@media only screen
-and (min-width: 461px)
-and (max-width: 770px)
-and (orientation: portrait)
-{
-  .rowDean
-  {
-    width: 100%;
-    display: block;
-    flex-wrap: wrap;
-  }
-}
 
 @media only screen
 and (min-width: 375px)
@@ -460,18 +440,6 @@ and (max-width:460px)
     display: block;
   }
 }
-
-@media only screen
-and (min-width: 681px)
-and (max-width: 855px)
-and (orientation: landscape)
-{
-  .noticebody
-  {
-    margin-left: 14px;
-  }
-}
-
 
 @media only screen
 and (max-width: 740px)
