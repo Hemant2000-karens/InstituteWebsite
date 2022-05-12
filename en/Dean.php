@@ -8,13 +8,13 @@
         <link rel="stylesheet" type="text/css" href="style.css">
        <link rel="stylesheet" type="text/css" href="mobile.css">
 </head>
-<?php include './topheader.php';?>
+<?php include './topheader.php'; ?>
 <div class = "container">
 <body>
 
-	<?php include "./Header.php" ;?>
+	<?php include "./Header.php"; ?>
 
-	<?php include "./navbar.php" ;?>
+	<?php include "./navbar.php"; ?>
 
 	<span class="br"></span> <!--Horizontal rule -->
 	<br>
@@ -313,12 +313,12 @@
 
 		</div>
 	</div>
-
+</div>
 	</body>
 </div>
 
 
-<?php include './footer.php'?>
+<?php include './footer.php' ?>
 
 
 <script type="text/javascript">
