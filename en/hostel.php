@@ -162,7 +162,7 @@ var button = document.getElementsByClassName("hostel_card");
 		switch(str)
 		{
 			case 'hall1':
-				window.open('https://www.google.com', '_blank');
+				setTimeout(window.open('https://www.google.com', '_blank'),500);
 				break;
 			case 'hall3':
 				window.open('https://www.facebook.com', '_blank');
