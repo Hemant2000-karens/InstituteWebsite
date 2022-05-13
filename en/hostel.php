@@ -28,7 +28,7 @@
 
 					<div class="hostel_main">
 
-							<div class="hostel_card">
+							<div class="hostel_card" onclick="linkOpen('bod')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
@@ -39,7 +39,7 @@
 
 
 							
-							<div class="hostel_card">
+							<div class="hostel_card" onclick="linkOpen('bod')">
 									<div class="hostel_card_image">
 										<img src="./Images/Hostel/hall3.jpg" class="img" />
 									</div>
@@ -49,7 +49,7 @@
 							</div>
 
 
-							<div class="hostel_card">
+							<div class="hostel_card" onclick="linkOpen('bod')">
 									<div class="hostel_card_image">
 										<img src="./Images/Hostel/hall3.jpg" class="img" />
 									</div>
@@ -59,7 +59,7 @@
 							</div>
 
 
-							<div class="hostel_card">
+							<div class="hostel_card" onclick="linkOpen('bod')">
 									<div class="hostel_card_image">
 										<img src="./Images/Hostel/hall3.jpg" class="img" />
 									</div>
@@ -69,7 +69,7 @@
 							</div>
 
 
-							<div class="hostel_card">
+							<div class="hostel_card" onclick="linkOpen('bod')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
@@ -79,7 +79,7 @@
 							</div>
 
 
-							<div class="hostel_card">
+							<div class="hostel_card" onclick="linkOpen('bod')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
@@ -89,7 +89,7 @@
 							</div>
 
 
-							<div class="hostel_card">
+							<div class="hostel_card" onclick="linkOpen('bod')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
@@ -99,7 +99,7 @@
 							</div>
 
 
-							<div class="hostel_card">
+							<div class="hostel_card" onclick="linkOpen('bod')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
@@ -150,5 +150,37 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+
+
+
+var button = document.getElementsByClassName("hostel_card");
+	button.addEventListener("Click",linkOpen);
+
+
+	function linkOpen(str) 
+	{
+		switch(str)
+		{
+			case 'bod':
+				window.open('https://www.google.com', '_blank');
+				break;
+			case 'adm':
+				window.open('https://www.facebook.com', '_blank');
+				break;
+			case 'lad':
+				window.open('https://www.instagram.com', '_blank');
+				break;
+			case 'ms':
+				window.open('https://www.twitter.com', '_blank');
+				break;
+			case 'fc':
+				window.open('https://www.linkedin.com', '_blank');
+				break;
+			case 'mv':
+				window.open('https://www.oracle.com', '_blank');
+				break;
+		}
+		
+	}
 </script>
 </html>
