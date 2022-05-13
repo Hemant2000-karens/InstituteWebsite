@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Academics | IIITDMJ</title>
+	<title>Mess | IIITDMJ</title>
 		<meta http-equiv="refresh" content="3000">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
@@ -18,8 +18,8 @@
 
 				<span class="br"></span>
 	
-				<div class="aboutHeader">
-					<h2>Central Mess</h2>
+				<div class="aboutHeader" id="adminHeader">
+					<h2>Central Mess@iiitdmj</h2>
 				</div>
 
 				<div class="AcMain">
@@ -33,6 +33,22 @@
 
 <?php include './footer.php'?>
 <script>
+	window.onscroll = function()
+{
+  stickyFunction()
+};
+
+
+var nbar = document.getElementById("adminHeader");
+var sticky = nbar.offsetTop;
+function stickyFunction() {
+  if (window.pageYOffset >= sticky) {
+    nbar.classList.add("sticky");
+  } else {
+    nbar.classList.remove("sticky");
+ 	}
+}
+
 var coll = document.getElementsByClassName("acdpB");
 var i;
 
