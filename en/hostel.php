@@ -40,11 +40,51 @@
 
 							
 							<div class="hostel_card">
+									<div class="hostel_card_image">
+										<img src="./Images/Hostel/hall3.jpg" class="img" />
+									</div>
+									<div class="hostel_card_text">
+										<h4>Aryabhatta Hostel (Hall - 3)</h4>
+									</div>
+							</div>
+
+
+							<div class="hostel_card">
+									<div class="hostel_card_image">
+										<img src="./Images/Hostel/hall3.jpg" class="img" />
+									</div>
+									<div class="hostel_card_text">
+										<h4>Vivekananda Hostel (Hall - 4)</h4>
+									</div>
+							</div>
+
+
+							<div class="hostel_card">
+									<div class="hostel_card_image">
+										<img src="./Images/Hostel/hall3.jpg" class="img" />
+									</div>
+									<div class="hostel_card_text">
+										<h4>Panini Hostel (PG)</h4>
+									</div>
+							</div>
+
+
+							<div class="hostel_card">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
 								<div class="hostel_card_text">
-									<h4>Vasishtha Hostel (Hall - 1)</h4>
+									<h4>Nagarjuna Hostel (PG- Married)</h4>
+								</div>
+							</div>
+
+
+							<div class="hostel_card">
+								<div class="hostel_card_image">
+									<img src="./Images/Hostel/hall3.jpg" class="img" />
+								</div>
+								<div class="hostel_card_text">
+									<h4>Maa Saraswati Girls Hostel</h4>
 								</div>
 							</div>
 
@@ -65,54 +105,14 @@
 								</div>
 								<div class="hostel_card_text">
 									<h4>Vasishtha Hostel (Hall - 1)</h4>
-								</div>
-							</div>
-
-
-							<div class="hostel_card">
-								<div class="hostel_card_image">
-									<img src="./Images/Hostel/hall3.jpg" class="img" />
-								</div>
-								<div class="hostel_card_text">
-									<h4>Vasishtha Hostel (Hall - 1)</h4>
-								</div>
-							</div>
-
-
-							<div class="hostel_card">
-								<div class="hostel_card_image">
-									<img src="./Images/Hostel/hall3.jpg" class="img" />
-								</div>
-								<div class="hostel_card_text">
-									<h4>Vasishtha Hostel (Hall - 1)</h4>
-								</div>
-							</div>
-
-
-							<div class="hostel_card">
-								<div class="hostel_card_image">
-									<img src="./Images/Hostel/hall3.jpg" class="img" />
-								</div>
-								<div class="hostel_card_text">
-									<h4>Vasishtha Hostel (Hall - 1)</h4>
-								</div>
-							</div>
-
-
-							<div class="hostel_card">
-								<div class="hostel_card_image">
-									<img src="./Images/Hostel/hall3.jpg" class="img" />
-								</div>
-								<div class="hostel_card_text">
-									<h4>Vasishtha Hostel (Hall - 1)</h4>
-								</div>
+									</div>
 							</div>
 
 
 						</div>
 
 
-					
+
 				</div>
 			</body>
 		</div>
