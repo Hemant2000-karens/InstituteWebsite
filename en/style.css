@@ -1799,7 +1799,8 @@ s ends */
       text-align: center;
       font-family:'Noto Sans',sans-serif ; 
       border-radius: 0 0 10px 10px;
-      transition-duration: 500ms;
+      transition-duration: all 450ms ease-in-out;
+      -webkit-transition: all 450ms ease-in-out;
     }
     .hostel_card img
     {
@@ -1827,6 +1828,7 @@ s ends */
     {
       background: ;
       color: ;
+      -webkit-transform: scale(1.01);
     }
     .hostel_card a
     {
