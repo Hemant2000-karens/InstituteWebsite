@@ -188,7 +188,7 @@ var secn = document.getElementsByClassName("officals");
 
 var i;
 
-for (i = 0; i < coll.length; i++) 
+for (i = 0; i < secn.length; i++) 
 {
   secn[i].addEventListener("click",function() 
   {
