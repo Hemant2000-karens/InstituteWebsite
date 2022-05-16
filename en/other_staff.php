@@ -23,6 +23,7 @@
 				</div>
 
 				<div class="AcMain">
+					
 						<div class="calTable">
 							<table id="tb1">
 								  <tr>
@@ -33,87 +34,31 @@
   								</tr>
   								<!-- Heading of the tables-->
 
+  								<?php include './connectionDB.php';
+
+  								$sql_query = "SELECT * FROM staff";
+
+										$result = $link->query($sql_query);
+
+										if($result -> num_rows > 0)
+											{
+												while($rows = $result -> fetch_assoc())
+												{
+													echo "<tr>
+														<td>".$rows['name']."</td>
+														<td>".$rows['Designation']."</td>
+														<td>".
+													$rows['Department']."</td>
+													<td><a href='mailto:".$rows['contact']."'>".$rows['contact']."</a>
+													</td>
+													</tr>";
+												}
+											}
 
 
-  								<tr>
-    								<td>Aayesha Begam Mansoori</td>
-    								<td>Senior Technician</td>
-    								<td>Electronics <br>& Communication Engineering</td>
-    								<td><a href="mailto:ayesha@iiitdmj.ac.in">
-    								ayesha@iiitdmj.ac.in</a></td>
-  								</tr>
-
-  								<tr>
-    								<td>Abhishek Bawane</td>
-    								<td>Junior Assistant</td>
-    								<td>Purchase & Store</td>
-    								<td><a href="mailto:abhishekb@iiitdmj.ac.in">
-    								abhishekb@iiitdmj.ac.in</a></td>
-  								</tr>
-
-  								<tr>
-    								<td>Adesh Kumar</td>
-    								<td>Senior Technician</td>
-    								<td>Finance & Accounts</td>
-    								<td><a href="mailto:adesh@iiitdmj.ac.in">
-    								adesh@iiitdmj.ac.in</a></td>
-  								</tr>
-
-  								<tr>
-    								<td>Aayesha Begam Mansoori</td>
-    								<td>Senior Technician</td>
-    								<td>Electronics <br>& Communication Engineering</td>
-    								<td><a href="mailto:ayesha@iiitdmj.ac.in">
-    								ayesha@iiitdmj.ac.in</a></td>
-  								</tr>
-
-  								<tr>
-    								<td>Aayesha Begam Mansoori</td>
-    								<td>Senior Technician</td>
-    								<td>Electronics <br>& Communication Engineering</td>
-    								<td><a href="mailto:ayesha@iiitdmj.ac.in">
-    								ayesha@iiitdmj.ac.in</a></td>
-  								</tr>
-
-  								<tr>
-    								<td>Aayesha Begam Mansoori</td>
-    								<td>Senior Technician</td>
-    								<td>Electronics <br>& Communication Engineering</td>
-    								<td><a href="mailto:ayesha@iiitdmj.ac.in">
-    								ayesha@iiitdmj.ac.in</a></td>
-  								</tr>
-
-  								<tr>
-    								<td>Aayesha Begam Mansoori</td>
-    								<td>Senior Technician</td>
-    								<td>Electronics <br>& Communication Engineering</td>
-    								<td><a href="mailto:ayesha@iiitdmj.ac.in">
-    								ayesha@iiitdmj.ac.in</a></td>
-  								</tr>
-
-  								<tr>
-    								<td>Aayesha Begam Mansoori</td>
-    								<td>Senior Technician</td>
-    								<td>Electronics <br>& Communication Engineering</td>
-    								<td><a href="mailto:ayesha@iiitdmj.ac.in">
-    								ayesha@iiitdmj.ac.in</a></td>
-  								</tr>
-
-  								<tr>
-    								<td>Aayesha Begam Mansoori</td>
-    								<td>Senior Technician</td>
-    								<td>Electronics <br>& Communication Engineering</td>
-    								<td><a href="mailto:ayesha@iiitdmj.ac.in">
-    								ayesha@iiitdmj.ac.in</a></td>
-  								</tr>
-
-  								<tr>
-    								<td>Aayesha Begam Mansoori</td>
-    								<td>Senior Technician</td>
-    								<td>Electronics <br>& Communication Engineering</td>
-    								<td><a href="mailto:ayesha@iiitdmj.ac.in">
-    								ayesha@iiitdmj.ac.in</a></td>
-  								</tr>
+									$link -> close();
+  								?>
+  								
 							</table>
 						</div>
 				</div>

@@ -46,6 +46,8 @@
 			{
 				echo "View all - <a href='viewall.php'>View All</a>";
 			}
+
+			$link -> close();
 		?>
 	</div>
 

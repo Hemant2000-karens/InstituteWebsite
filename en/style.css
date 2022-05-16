@@ -1700,6 +1700,11 @@ s ends */
 {
   border-top-right-radius: 5px;
 }
+.calTable table td a
+{
+  text-decoration: none;
+  color: inherit;
+}
 .calNotice
 {
   width: -webkit-fill-available;
