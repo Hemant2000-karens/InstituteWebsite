@@ -1842,8 +1842,17 @@ s ends */
       margin: 0;
     }
 
-
-  /*  */
+    .hostel_brief
+    {
+      font-family: 'Noto Sans',serif;
+    }
+    .hostel_brief p
+    {
+      color: #042470;
+      line-height: 2;
+      letter-spacing: 1.2px;
+    }
+  /* Hotel Ends Here */
 /* Students Corners Ends */
 
 

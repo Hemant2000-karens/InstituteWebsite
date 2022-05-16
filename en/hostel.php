@@ -111,8 +111,8 @@
 
 						</div>
 
-						<div class=""> 
-
+						<div class="hostel_brief"> 
+							<p>IIITDM Jabalpur is a fully residential campus. All the students are required to be resident of Institute hostels. Hostel environment along with available amenities play very important role in students overall development during his/her stay at the campus. Presently Institute is having two hostels, Hall of Residence-1 "single seated" and Hall of Residence-3 " triple seated". Hall of Residence-4, a triple seated hostel will be made available. A team of two wardens in each hostel, one Warden-in-charge and the other mess-in-charge take care of hostel related matters.For all-round development of students, Institute promotes students to take part in smooth running of day-to-day activities of the hall. Each hostel is having an elected Hall president and Hall Executive Commitee (HEC), members for which are elected or nominated by the hall residents only. HEC is headed by respective Hall Wardens. In addition, for smooth running of all the amenities, there are other committees like mess Committee for each hall, bus committee, ambulance committee, reading room committee for each hall, etc.</p>
 						</div>
 
 				</div>
