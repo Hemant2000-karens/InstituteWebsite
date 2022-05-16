@@ -44,19 +44,19 @@
   								</tr>
 
   								<tr>
-    								<td>Aayesha Begam Mansoori</td>
-    								<td>Senior Technician</td>
-    								<td>Electronics <br>& Communication Engineering</td>
-    								<td><a href="mailto:ayesha@iiitdmj.ac.in">
-    								ayesha@iiitdmj.ac.in</a></td>
+    								<td>Abhishek Bawane</td>
+    								<td>Junior Assistant</td>
+    								<td>Purchase & Store</td>
+    								<td><a href="mailto:abhishekb@iiitdmj.ac.in">
+    								abhishekb@iiitdmj.ac.in</a></td>
   								</tr>
 
   								<tr>
-    								<td>Aayesha Begam Mansoori</td>
+    								<td>Adesh Kumar</td>
     								<td>Senior Technician</td>
-    								<td>Electronics <br>& Communication Engineering</td>
-    								<td><a href="mailto:ayesha@iiitdmj.ac.in">
-    								ayesha@iiitdmj.ac.in</a></td>
+    								<td>Finance & Accounts</td>
+    								<td><a href="mailto:adesh@iiitdmj.ac.in">
+    								adesh@iiitdmj.ac.in</a></td>
   								</tr>
 
   								<tr>
