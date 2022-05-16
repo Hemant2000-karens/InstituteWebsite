@@ -30,7 +30,7 @@
 
 							<div class="hostel_card" onclick="linkOpen('hall1')">
 								<div class="hostel_card_image">
-									<img src="./Images/Hostel/hall3.jpg" class="img" />
+									<img src="./Images/Hostel/hall1.jpg" class="img" />
 								</div>
 								<div class="hostel_card_text">
 									<h4>Vasishtha Hostel (Hall - 1)</h4>
@@ -51,7 +51,7 @@
 
 							<div class="hostel_card" onclick="linkOpen('hall4')">
 									<div class="hostel_card_image">
-										<img src="./Images/Hostel/hall3.jpg" class="img" />
+										<img src="./Images/Hostel/hall4.jpg" class="img" />
 									</div>
 									<div class="hostel_card_text">
 										<h4>Vivekananda Hostel (Hall - 4)</h4>
@@ -111,7 +111,9 @@
 
 						</div>
 
+						<div class=""> 
 
+						</div>
 
 				</div>
 			</body>
@@ -162,10 +164,10 @@ var button = document.getElementsByClassName("hostel_card");
 		switch(str)
 		{
 			case 'hall1':
-				setTimeout(window.open('https://www.google.com', '_blank'),500);
+				window.open('https://www.iiitdmj.ac.in/hall1.iiitdmj.ac.in/', '_blank');
 				break;
 			case 'hall3':
-				window.open('https://www.facebook.com', '_blank');
+				window.open('https://www.iiitdmj.ac.in/hall3.iiitdmj.ac.in/', '_blank');
 				break;
 			case 'hall4':
 				window.open('https://www.instagram.com', '_blank');
