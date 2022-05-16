@@ -23,36 +23,34 @@
 			<div class="vCaption">
 				<iframe src="https://www.youtube.com/embed/_4X9CcLmo7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 				</iframe>
-
-				<span class="text">
-					DeW 8.0 :Future of Design Thinking and 3D Printing in Healthcare: 3rd day 
-				</span>
+				<div class="videoTitle">
+					<h4>DeW 8.0 :Future of Design Thinking and 3D Printing in Healthcare: 3rd day </h4>
+				</div>
 			</div>
 
 			<div class="vCaption">
 				<iframe src="https://www.youtube.com/embed/i1bjtCPNkwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 				</iframe>
-
-				<span class="text">
-					Van Mahotsav 2021 || PDPM IIITDM Jabalpur 
-				</span>
+				<div class="videoTitle">
+					<h4>Van Mahotsav 2021 || PDPM IIITDM Jabalpur</h4>
+				</div>
 
 			</div>
 
 			<div class="vCaption">
 					<iframe src="https://www.youtube.com/embed/793FXs-LiT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 					</iframe>
-					<span class="text">
-						Celebration of International Yoga Day 2021i
-					</span>
+					<div class="videoTitle">
+						<h4>Celebration of International Yoga Day 2021</h4>
+					</div>
 				</div>
 
 				<div class="vCaption">
 					<iframe src="https://www.youtube.com/embed/P1DHOVwkTsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 					</iframe>
-					<span class="text">
-						11th Convocation IIITDM Jabalpur 
-					</span>
+					<div class="videoTitle">
+						<h4>11th Convocation IIITDM Jabalpur</h4>
+					</div>
 				</div>
 
 

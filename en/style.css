@@ -1505,12 +1505,15 @@ input[type="radio"]{
 {
   width: 100%;
 }
-.vCaption span
+.videoTitle
 {
-  color:#001153;
-  margin-top: 10px;
-  font-size: 16.5px;
-  font-family:'Varela Round', sans-serif;
+  font-family: 'varela round',sans-serif;
+  background: #ffffff;
+  color: #1c3a4b;
+  height: 100px;
+  padding: 10px;
+  width: inherit;
+  border-radius: 0 0 55px 5px;
 }
 
 
