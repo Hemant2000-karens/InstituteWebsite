@@ -50,9 +50,9 @@
     </button>
     <div class="dropdown-content">
       <a href="faculty.php">Faculty</a>
-      <a href="./res/">Research Staff</a>
-      <a href="./office_administration">Office Staff</a>
-      <a href="./other_staff/">Other Staff</a>
+      <a href="rch.php">Research Staff</a>
+      <a href="ofcstff.php">Office Staff</a>
+      <a href="other_staff.php">Other Staff</a>
     </div>
   </div> 
 
