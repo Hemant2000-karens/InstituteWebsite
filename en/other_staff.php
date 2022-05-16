@@ -49,7 +49,7 @@
 														<td>".$rows['Designation']."</td>
 														<td>".
 													$rows['Department']."</td>
-													<td><a href='mailto:".$rows['contact']."'>".$rows['contact']."</a>
+													<td><a href='mailto:".$rows['contact']."'>".$rows['contact']."</a>	
 													</td>
 													</tr>";
 												}
