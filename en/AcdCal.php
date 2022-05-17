@@ -22,6 +22,15 @@
 					<h2>Academic Calander</h2>
 				</div>
 
+				<span class="br"></span>
+				<div class="cal_Nav">
+					<button class="calTab" onclick="changeCal(event, 'odd')" id="defaultOpen">
+						Semester 1
+					</button>
+  				<button class="calTab" onclick="changeCal(event, 'even')">Semester 2
+  				</button>
+				</div>
+
 				<div class="AcMain">
 					<div class="calMain">
 						<h3>
@@ -33,7 +42,8 @@
 							?>
 						</h3>
 					</div>
-						<div class="calTable">
+
+						<div class="calTable" id="odd">
 							<table id="tb1">
 								 <caption>Semester &#x2160;</caption>
 								  <tr>
@@ -305,9 +315,10 @@
 
 								</table>
 							</div>
+						</div>
 
 
-
+							<div class="calTable" id="even">
 
 							<table id="tb2">
 								 <caption>Semester &#x2161;</caption>
@@ -578,5 +589,27 @@ function stickyFunction() {
     nbar.classList.remove("sticky");
  		}
 	}
+
+
+
+	function changeCal(evt, calName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("calTable");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("calTab");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(calName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+
 			</script>
 </html>
