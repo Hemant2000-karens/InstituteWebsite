@@ -1717,6 +1717,7 @@ s ends */
 }
 .calTable table td
 {
+  text-overflow: clip;
   text-align: center; 
   vertical-align: middle;
   padding: 10px 6px;
@@ -1760,7 +1761,7 @@ s ends */
 
 /* Admission */
 
-    /* Academic Guidelines */
+  /* Academic Guidelines */
     .acgdl
     {
       display:block;
@@ -1801,9 +1802,43 @@ s ends */
     {
       text-shadow: 0px 0px 2px #646464, 0 0 0px #e1e1e1;
     }
-    /* Academic Guidelines */
+  /* Academic Guidelines */
 
 
+  /* Fess Structure */
+    .fee_nav
+    {
+      width: -webkit-fill-available;
+      display: inline-flex;
+      justify-content: space-evenly;
+      overflow: hidden;
+      border-radius: 4px;
+      margin: 0 10%;
+      background-color: #e5e5e5;
+    }
+    .fee_nav button
+    {
+      width: inherit;
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      margin: 0;
+    }
+    .fee_nav button.active 
+    {
+      background-color: #1b3a4b;
+      color: #f2f2f2;
+      transition-duration: 2000ms;
+    }
+
+
+
+  /* Fees Structure */
 
 
 /* Admission Ends */

@@ -171,7 +171,7 @@
   								</tr>
 
   								<tr>
-    								<td>PG Presentation(Graduation/Research/Progress Seminar)</td>
+    								<td>PG Presentation(Graduation/<br>Research/Progress Seminar)</td>
     								<td>April 06-10, 2020 (Mon-Fri)</td>
     								<td>M.tech + P.hD</td>
     								<td>New UG</td>
@@ -423,7 +423,7 @@
   								</tr>
 
   								<tr>
-    								<td>PG Presentation(Graduation/Research/Progress Seminar)</td>
+    								<td>PG Presentation(Graduation<br>/Research/Progress Seminar)</td>
     								<td>April 06-10, 2020 (Mon-Fri)</td>
     								<td>M.tech + P.hD</td>
     								<td>New UG</td>
