@@ -22,6 +22,10 @@ and (max-width: 560px)
     height: 200px;
     width: 350px;
   }
+  .cal_Nav
+  {
+    margin: 0 4%;
+  }
 
 }
 
@@ -299,9 +303,9 @@ and (orientation: landscape)
   }
   .tableContainer
   {
-  padding: 0;
-  width: 95%;
-  margin: 0 20px;
+    padding: 0;
+    width: 95%;
+    margin: 0 20px;
   }
 }
 
