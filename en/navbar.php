@@ -16,8 +16,7 @@
 
   <!--<a href="Acd.php">Academics</a>-->
 <div class="dropdown">
-    <button class="dropbtn">Academics 
-    </button>
+    <button class="dropbtn">Academics</button>
     <div class="dropdown-content">
       <a href="./Acd.php">Programmes</a>
       <a href="./AcdCal.php">Academic Calander</a>
@@ -28,13 +27,12 @@
 
 
   <div class="dropdown">
-    <button class="dropbtn">Admission 
-    </button>
+    <button class="dropbtn">Admission</button>
     <div class="dropdown-content">
       <a target="_blank" href="https://admission.iiitdmj.ac.in/ug">Undergraduate</a>
       <a target="_blank" href="https://admission.iiitdmj.ac.in/pg">Post Graduate</a>
       <a target="_blank" href="https://admission.iiitdmj.ac.in/phd">Ph.D</a>
-      <a target="_blank" href="https://admission.iiitdmj.ac.in/feesStructurer">Fees Structure</a>
+      <a target="_blank" href="feesStructurer.php">Fees Structure</a>
       <a href="#">Seat Matrix(jossaa)</a>
       <a target="_blank" href="./AcademicsGuidlines.php">Academic Guidelines</a>
       <a target="_blank" href="https://admission.iiitdmj.ac.in/acdcm">Curriculum</a>
@@ -46,8 +44,7 @@
 
 
   <div class="dropdown">
-    <button class="dropbtn">Office Bearers 
-    </button>
+    <button class="dropbtn">Office Bearers</button>
     <div class="dropdown-content">
       <a href="faculty.php">Faculty</a>
       <a href="rch.php">Research Staff</a>
@@ -57,8 +54,7 @@
   </div> 
 
   <div class="dropdown">
-    <button class="dropbtn">Media 
-    </button>
+    <button class="dropbtn">Media</button>
     <div class="dropdown-content">
       <a href="gallery.php">Photo Gallery</a>
       <a href="vgallery.php">Video Gallery</a>
@@ -71,8 +67,7 @@
 
 
   <div class="dropdown">
-    <button class="dropbtn">Students Corner 
-    </button>
+    <button class="dropbtn">Students Corner</button>
     <div class="dropdown-content">
       <a href="./hostel.php">Hostels</a>
       <a href="./c_mess.php">Students Mess</a>
@@ -84,7 +79,7 @@
   </div> 
 
 
-  <a href="#">Research</a>
+  <!--<a href="#">Research</a>-->
 
   <a target="_blank" href="https://www.iiitdmj.ac.in/placement.iiitdmj.ac.in/">Placement</a>
 
