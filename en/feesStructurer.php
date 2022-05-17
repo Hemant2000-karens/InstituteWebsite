@@ -2,7 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Academics | IIITDMJ</title>
+	<link rel="icon" type="jpg/png" href="./logo_college.png" sizes="16x16">
+	<title>Fees | IIITDMJ</title>
 		<meta http-equiv="refresh" content="3000">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
@@ -19,7 +20,7 @@
 				<span class="br"></span>
 	
 				<div class="aboutHeader" id="adminHeader">
-					<h2>Academic Programmes</h2>
+					<h2>Fees Structures</h2>
 				</div>
 
 

@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gallery | IIITDMJ</title>
+	<link rel="icon" type="jpg/png" href="./logo_college.png" sizes="16x16">
  	<link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" type="text/css" href="./mobile.css">
 </head>
