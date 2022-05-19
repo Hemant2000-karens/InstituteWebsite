@@ -965,11 +965,16 @@ body{
   background:url("./Images/messageBackground.png");
   background-repeat: no-repeat;
   background-size:  100% 100%;
-  padding:40px 5.5%;
+  padding:60px 5.5%;
   height: auto;
   font-family: 'Noto Sans';
 }
 
+.messageDesk_main
+{
+  background: url("./Images/noticebackground.jpg");
+  padding: 20px;
+}
 .messageDeskCombined
 {
   display: flex;
