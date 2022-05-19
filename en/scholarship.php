@@ -19,7 +19,7 @@
 				<span class="br"></span>
 	
 				<div class="aboutHeader">
-					<h2>Syllabus</h2>
+					<h2>Scholarship</h2>
 				</div>
 
 				<div class="AcMain">
