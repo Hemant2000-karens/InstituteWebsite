@@ -20,7 +20,7 @@
     <div class="dropdown-content">
       <a href="./Acd.php">Programmes</a>
       <a href="./AcdCal.php">Academic Calander</a>
-      <a href="#">Scholarship</a>
+      <a href="./scholarship.php">Scholarship</a>
       <a href="./syl.php">Syllabus</a>
     </div>
   </div> 

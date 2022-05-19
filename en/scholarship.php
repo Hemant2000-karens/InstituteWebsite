@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Syllabus | IIITDMJ</title>
+	<title>Scholarships | IIITDMJ</title>
 		<meta http-equiv="refresh" content="3000">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
