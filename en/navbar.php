@@ -32,7 +32,7 @@
       <a target="_blank" href="../admission/undergrad.html">Undergraduate</a>
       <a target="_blank" href="../admission/postgraduate.html">Post Graduate</a>
       <a target="_blank" href="../admission/phd.html">Ph.D</a>
-      <a target="_blank" href="./admission.iiitdmj.ac.in/freesStr.html">Fees Structure</a>
+      <a target="_blank" href="../admission/freesStr.html">Fees Structure</a>
       <a href="#">Seat Matrix(jossaa)</a>
       <a target="_blank" href="./AcademicsGuidlines.php">Academic Guidelines</a>
       <a target="_blank" href="../admission/curriculum.html">Curriculum</a>
