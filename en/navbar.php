@@ -29,13 +29,13 @@
   <div class="dropdown">
     <button class="dropbtn">Admission</button>
     <div class="dropdown-content">
-      <a target="_blank" href="https://admission.iiitdmj.ac.in/undergrad.html">Undergraduate</a>
-      <a target="_blank" href="https://admission.iiitdmj.ac.in/postgraduate.html">Post Graduate</a>
-      <a target="_blank" href="https://admission.iiitdmj.ac.in/phd.html">Ph.D</a>
+      <a target="_blank" href="../admission/undergrad.html">Undergraduate</a>
+      <a target="_blank" href="../admission/postgraduate.html">Post Graduate</a>
+      <a target="_blank" href="../admission/phd.html">Ph.D</a>
       <a target="_blank" href="./admission.iiitdmj.ac.in/freesStr.html">Fees Structure</a>
       <a href="#">Seat Matrix(jossaa)</a>
       <a target="_blank" href="./AcademicsGuidlines.php">Academic Guidelines</a>
-      <a target="_blank" href="https://admission.iiitdmj.ac.in/acdcm">Curriculum</a>
+      <a target="_blank" href="../admission/curriculum.html">Curriculum</a>
     </div>
   </div> 
 
