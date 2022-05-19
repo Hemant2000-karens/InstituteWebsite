@@ -22,36 +22,22 @@
 			</div>
 			
 
-			<div class="faculty">
-				
-
+			<div class="faculty_grid_main">
 
 				
+				<div class="faculty_grid">
+					
+					<?php include './connectionDB.php';
+					
+					
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+					?>
+				</div>
 
 			</div>
 
