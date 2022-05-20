@@ -28,8 +28,8 @@
 				<div class="faculty_grid">
 					
 					<?php include './connectionDB.php';
-					
-					
+
+					$query 
 
 
 

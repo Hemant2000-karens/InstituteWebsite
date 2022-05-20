@@ -1,6 +1,22 @@
 <div class="topnav" id="myTopnav">
   <a href="index.php" class="active">Home</a>
   
+
+  <div class="dropdown">
+    <button class="dropbtn">Administration 
+    </button>
+    <div class="dropdown-content">
+      <a href="bod.php">Board of Governors</a>
+      <a href="finc.php">Finance Commitee</a>
+      <a href="admins.php">Administrations</a>
+      <a href="Dean.php">Dean</a>
+      <a href="lAdmins.php">Local Administration</a>
+      <a href="senate.php">Members of Senate</a>
+      <a href="bwc.php">Building Works Committee</a>
+    </div>
+  </div> 
+
+
   <div class="dropdown">
     <button class="dropbtn">Department 
     </button>
@@ -38,10 +54,6 @@
       <a target="_blank" href="../admission/curriculum.html">Curriculum</a>
     </div>
   </div> 
-
-
-  <a href="Dean.php">Dean</a>
-
 
   <div class="dropdown">
     <button class="dropbtn">Office Bearers</button>
@@ -93,6 +105,7 @@
     </div>
   </div> 
 
+<!--
   <div class="dropdown">
     <button class="dropbtn">About Us 
     </button>
@@ -106,7 +119,7 @@
       <a href="bwc.php">Building Works Committee</a>
     </div>
   </div> 
-
+-->
   <a href="javascript:void(0);" style="font-size:18px; color: #f2f2f2" class="icon" onclick="myFunction()">&#9778;</a>
 </div>
 
