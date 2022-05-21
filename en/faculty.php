@@ -29,7 +29,7 @@
 					
 					<?php include './connectionDB.php';
 
-					$query 
+					
 
 
 
