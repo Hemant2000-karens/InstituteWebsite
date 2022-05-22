@@ -986,16 +986,39 @@ body{
   {
     width: -webkit-fill-available;
     width: -moz-available;
-    padding: ;
+    padding: 2% 10%;
   }
   .secondPartGrid
   {
     width: -webkit-fill-available;
     width: -moz-available;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(35%,1fr));
+    grid-template-columns: repeat(2,1fr);
     gap: 10px;
   }
+
+
+  /* Research HighLights */
+  .reseachHighLights
+  {
+    height: auto;
+    background:#001742;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* MessageDesk.php */
 
   .messageDesk{
@@ -1009,7 +1032,6 @@ body{
 
   .messageDesk_main
   {
-    width: 50%;
     background: url("./Images/noticebackground.jpg");
     padding: 20px;
   }
