@@ -5,7 +5,7 @@
 		<div class="messageDesk">
 			<div class="messageDesk_main">
 			<div class="deskTitle">
-				<img src="./Images/Messages1.png">
+				
 					Message from <strong>Director's Desk</strong>
 			</div>
 
