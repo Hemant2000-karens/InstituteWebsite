@@ -978,60 +978,109 @@ body{
 
 /* Faculty Page Ends */
 
-/* MessageDesk.php */
+/* Second Part Main */
 
-.messageDesk{
-  display: block;
-  background:url("./Images/messageBackground.png");
-  background-repeat: no-repeat;
-  background-size:  100% 100%;
-  padding:60px 5.5%;
-  height: auto;
-  font-family: 'Noto Sans';
-}
+  /* Outer Body */
 
-.messageDesk_main
-{
-  background: url("./Images/noticebackground.jpg");
-  padding: 20px;
-}
-.messageDeskCombined
-{
-  display: flex;
-  height: auto;
-  width: 100%;
-}
-.imagedirector
-{
-  margin-right: 3.5%;
-  height: auto;
-  width: 50%;
-}
-.deskTitle{
-  float:right;
-  padding-right:4%;
-  font-size:xx-large;
-  font-weight: 500;
-  letter-spacing: 0.11rem;
-  color: #1a1e2c;
-}
-.deskTitle img
-{
-  height: 40px;
-  width: 60px;
-}
-.deskTitle strong{
-  font-weight: 900;
-}
+  .secondPartmain
+  {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    padding: ;
+  }
+  .secondPartGrid
+  {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(35%,1fr));
+    gap: 10px;
+  }
+  /* MessageDesk.php */
 
-.deskSpeech{
-  margin-top:2.54%;
-  text-align: justify;
-  line-height: 1.8rem;
-  font-family:'Noto Sans',sans-serif;
-  color: #61731d;
-  width: -moz-available;
-}
+  .messageDesk{
+    display: block;
+    background:url("./Images/messageBackground.png");
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    height: auto;
+    font-family: 'Noto Sans';
+  }
+
+  .messageDesk_main
+  {
+    width: 50%;
+    background: url("./Images/noticebackground.jpg");
+    padding: 20px;
+  }
+  .messageDeskCombined
+  {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+  }
+  .imagedirector
+  {
+    margin-right: 3.5%;
+    height: auto;
+    width: 50%;
+  }
+  .deskTitle{
+    align-self: center;
+    font-size:xx-large;
+    font-weight: 500;
+    letter-spacing: 0.11rem;
+    color: #1a1e2c;
+  }
+  .deskTitle img
+  {
+    height: 40px;
+    width: 60px;
+  }
+  .deskTitle strong{
+    font-weight: 900;
+  }
+
+  .deskSpeech{
+    margin-top:2.54%;
+    text-align: justify;
+    line-height: 1.8rem;
+    font-family:'Noto Sans',sans-serif;
+    color: #61731d;
+    width: -moz-available;
+  }
+
+  /* Message Desk Ends Here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Notice Page */
 .item1,
