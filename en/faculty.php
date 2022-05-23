@@ -70,21 +70,40 @@
 
 				</div>
 
+				<br>
 				<div class="deptHeading">
 					<h3>Mechanical Enginnering</h3>
 				</div>
+
+				<br>
 				<div class="faculty_grid">
 					
 					<?php include './connectionDB.php';
 
-					
-
-
-
-
-
-
 					?>
+
+					<div class="faculty_profile">
+						<div class="facultyUpper">
+							<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+						</div>
+						<div class="facultyLower">
+							<h4>Abhishek Verma</h4>
+							<h5>Assistant Professor</h5>			
+						</div>
+					</div>
+
+
+					<div class="faculty_profile">
+						<div class="facultyUpper">
+							<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+						</div>
+						<div class="facultyLower">
+							<h4>Abhishek Verma</h4>
+							<h5>Assistant Professor</h5>			
+						</div>
+					</div>
+
+
 				</div>
 
 				<div class="deptHeading">
