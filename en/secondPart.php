@@ -38,7 +38,7 @@
 		
 		<div class="reseachHighLights">
 			<div class="reseachHighLights_sub">
-				<h2>Research Highlight</h2>
+				<h2>To be Decided</h2>
 
 			</div>
 		</div>
@@ -46,7 +46,7 @@
 
 		<div class="reseachHighLights">
 			<div class="reseachHighLights_sub">
-				<h2>Research Highlight</h2>
+				<h2>To be Decided</h2>
 
 			</div>
 		</div>		
