@@ -48,11 +48,11 @@
 
 					<div class="faculty_profile">
 						<div class="facultyUpper">
-							<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+							<img src="./Images/faculty/cse/apoj.png" alt="Arpita Ojha">
 						</div>
 						<div class="facultyLower">
-							<h4>Abhishek Verma</h4>
-							<h5>Assistant Professor</h5>			
+							<h4>Arpita Ojha</h4>
+							<h5>Professor</h5>			
 						</div>
 					</div>
 
