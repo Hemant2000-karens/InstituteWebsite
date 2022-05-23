@@ -24,7 +24,9 @@
 
 			<div class="faculty_grid_main">
 
-				
+				<div class="deptHeading">
+
+				</div>
 				<div class="faculty_grid">
 					
 					<?php include './connectionDB.php';

@@ -973,7 +973,12 @@ body{
   repeat(auto-fit,minmax(0px,1fr));
   gap: 5px;
 }
+.deptHeading
+{
+  font-family: 'varela round',sans-serif;
+  height: auto;
 
+}
 
 
 
@@ -987,7 +992,7 @@ body{
   {
     width: -webkit-fill-available;
     width: -moz-available;
-    padding: 2%;
+    padding: 2% 0;
   }
   .secondPartGrid
   {
