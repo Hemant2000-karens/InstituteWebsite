@@ -25,7 +25,52 @@
 			<div class="faculty_grid_main">
 
 				<div class="deptHeading">
+					<h3>Computer Science and Enginnering</h3>
+				</div>
+				<div class="faculty_grid">
+					
+					<?php include './connectionDB.php';
+					?>
 
+
+
+					<div class="faculty_profile">
+						<div class="facultyUpper">
+							<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+						</div>
+						<div class="facultyLower">
+							<h4>Abhishek Verma</h4>
+							<h5>Assistant Professor</h5>			
+						</div>
+					</div>
+
+
+					<div class="faculty_profile">
+						<div class="facultyUpper">
+							<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+						</div>
+						<div class="facultyLower">
+							<h4>Abhishek Verma</h4>
+							<h5>Assistant Professor</h5>			
+						</div>
+					</div>
+
+
+					<div class="faculty_profile">
+						<div class="facultyUpper">
+							<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+						</div>
+						<div class="facultyLower">
+							<h4>Abhishek Verma</h4>
+							<h5>Assistant Professor</h5>			
+						</div>
+					</div>
+
+
+				</div>
+
+				<div class="deptHeading">
+					<h3>Mechanical Enginnering</h3>
 				</div>
 				<div class="faculty_grid">
 					
@@ -40,6 +85,75 @@
 
 					?>
 				</div>
+
+				<div class="deptHeading">
+					<h3>Electrical and Electronics Engineering</h3>
+				</div>
+				<div class="faculty_grid">
+					
+					<?php include './connectionDB.php';
+
+					
+
+
+
+
+
+
+					?>
+				</div>
+
+				<div class="deptHeading">
+					<h3>Design</h3>
+				</div>
+				<div class="faculty_grid">
+					
+					<?php include './connectionDB.php';
+
+					
+
+
+
+
+
+
+					?>
+				</div>
+
+				<div class="deptHeading">
+					<h3>Natural Science</h3>
+				</div>
+				<div class="faculty_grid">
+					
+					<?php include './connectionDB.php';
+
+					
+
+
+
+
+
+
+					?>
+				</div>
+
+				<div class="deptHeading">
+					<h3>Liberal Arts</h3>
+				</div>
+				<div class="faculty_grid">
+					
+					<?php include './connectionDB.php';
+
+					
+
+
+
+
+
+
+					?>
+				</div>
+
 
 			</div>
 

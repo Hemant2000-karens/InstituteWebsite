@@ -4,6 +4,7 @@
 {
   --DirectorPadding: 12px 10%;
  --profileGridPadding: 0 10px;
+ --facultyProfileBG: #f6f6f6;
 }
 
 ::-moz-selection
@@ -968,20 +969,52 @@ body{
 }
 .faculty_grid
 {
+  width: -webkit-fill-available;
+  width: -moz-available;
   display: grid;
   grid-template-columns: 
-  repeat(auto-fit,minmax(0px,1fr));
-  gap: 5px;
+  repeat(auto-fit,minmax(230px,1fr));
+  justify-items: center;
+  gap: 91px;
 }
 .deptHeading
 {
   font-family: 'varela round',sans-serif;
   height: auto;
-
+  border-bottom: 0.25px solid #d7d7d7;
+  color: #5b5b5e;
 }
 
+.faculty_profile
+{
+  width: auto;
+  height: auto;
+  padding: 1.25%;
 
+}
+.facultyUpper
+{
+  background: url(./Images/bg.svg),var(--facultyProfileBG);
+  text-align: center;
+  padding: 50px 80px;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  border-radius: 20px 20px 0 0;
+}
 
+.facultyUpper img
+{
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+.facultyLower
+{
+  background: var(--facultyProfileBG);
+  text-align: center;
+  padding: 2% 5px;
+  border-radius: 0 0 20px 20px;
+}
 /* Faculty Page Ends */
 
 /* Second Part Main */
