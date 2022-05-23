@@ -65,7 +65,20 @@
 						</div>
 						<div class="facultyLower">
 							<h4>Abhishek Verma</h4>
-							<h5>Assistant Professor</h5>			
+							<h5>Assistant Professor</h5>
+							<span>I/O Efficient Algorithms, BigData Clustering algorithms, Security Issues in Cloud Computing</span>			
+						</div>
+					</div>
+
+
+					<div class="faculty_profile">
+						<div class="facultyUpper">
+							<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+						</div>
+						<div class="facultyLower">
+							<h4>Abhishek Verma</h4>
+							<h5>Assistant Professor</h5>
+							<span>Hardware Security, Trustworthy IC Design Hardware Trojan, Hardware Accelerators, Machine Learning and IoT</span>			
 						</div>
 					</div>
 
