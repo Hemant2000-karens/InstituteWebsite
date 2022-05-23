@@ -574,8 +574,8 @@
 		</div>
 
 			<?php include './footer.php'?>
-			<script type="text/javascript">
-				window.onscroll = function()
+<script type="text/javascript">
+window.onscroll = function()
 {
   stickyFunction()
 };
@@ -612,5 +612,5 @@ document.getElementById("defaultOpen").click();
 
 
 
-			</script>
+</script>
 </html>
