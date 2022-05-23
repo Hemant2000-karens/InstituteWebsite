@@ -995,7 +995,7 @@ body{
     width: -moz-available;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 0.25%;
+    gap: 0 .25%;
   }
 
 
