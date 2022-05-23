@@ -967,6 +967,7 @@ body{
 {
   padding: 2% 10%;
 }
+
 .faculty_grid
 {
   width: -webkit-fill-available;
@@ -977,6 +978,7 @@ body{
   justify-items: center;
   gap: 91px;
 }
+
 .deptHeading
 {
   padding: 0 2%;
@@ -992,7 +994,12 @@ body{
   width: auto;
   height: auto;
   padding: 1.25%;
+}
 
+.faculty_profile:hover
+{
+  box-shadow: 0px 0px 5px 0px #afafaf;
+  
 }
 .facultyUpper
 {
