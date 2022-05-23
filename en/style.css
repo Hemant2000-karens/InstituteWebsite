@@ -979,10 +979,12 @@ body{
 }
 .deptHeading
 {
+  padding: 0 2%;
   font-family: 'varela round',sans-serif;
   height: auto;
   border-bottom: 0.25px solid #d7d7d7;
   color: #5b5b5e;
+  background: linear-gradient(#fff,#f6f6f6);
 }
 
 .faculty_profile

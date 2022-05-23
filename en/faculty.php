@@ -27,6 +27,7 @@
 				<div class="deptHeading">
 					<h3>Computer Science and Enginnering</h3>
 				</div>
+				<br>
 				<div class="faculty_grid">
 					
 					<?php include './connectionDB.php';
