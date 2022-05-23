@@ -1668,9 +1668,24 @@ input[type="radio"]{
 
 /* Magazine Gallery */
 
-/* Gallery Pages setting
-s ends */
+/* Gallery Pages settings ends */
 
+/* Social Media Posts */
+.social_media_posts_parents
+{
+  padding: 2% 6%;
+}
+.social_media_posts
+{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 
+  repeat(auto-fit,minmax(320px,1fr));
+  justify-items: center;
+}
+
+
+/* Social Media Posts */
 
 /* Academics Page */
 
