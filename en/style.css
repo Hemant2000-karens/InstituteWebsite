@@ -996,6 +996,7 @@ body{
   padding: 0;
   border-radius: 20px;
   transition-duration: 500ms;
+  font-family: 'Noto Sans',serif;
 }
 
 .faculty_profile:hover
@@ -1024,8 +1025,25 @@ body{
 {
   background: var(--facultyProfileBG);
   text-align: center;
-  padding: 2% 5px;
+  padding: 6% 5px;
   border-radius: 0 0 20px 20px;
+  margin-top: -45px;
+  text-shadow: 0 0 1px #0000008f;
+}
+.facultyLower h4
+{
+  font-weight: bold;
+  font-size: 22px;
+}
+.facultyLower h5
+{
+  font-weight: bolder;
+  font-size: 19px;
+}
+.facultyLower span
+{
+  font-weight: 500;
+  font-size: 18px;
 }
 /* Faculty Page Ends */
 

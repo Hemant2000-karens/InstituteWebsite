@@ -41,7 +41,8 @@
 						</div>
 						<div class="facultyLower">
 							<h4>Abhishek Verma</h4>
-							<h5>Assistant Professor</h5>			
+							<h5>Assistant Professor</h5>
+							<span>Computer Networks, Information Security</span>			
 						</div>
 					</div>
 
@@ -52,7 +53,8 @@
 						</div>
 						<div class="facultyLower">
 							<h4>Arpita Ojha</h4>
-							<h5>Professor</h5>			
+							<h5>Professor</h5>	
+							<span>Geometric Modelling, Computer Aided Geometric</span>	
 						</div>
 					</div>
 
