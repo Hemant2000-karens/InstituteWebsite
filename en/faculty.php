@@ -35,6 +35,60 @@
 
 
 					<!-- Profile card Starts-->
+					<div class="faculty_profile">
+
+						<div class="rotateCard">
+
+							<div class="facultyUpper">
+								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+							</div>
+
+
+							<div class="facultyLower">
+								<h4>Abhishek Verma</h4>
+								<h5>Assistant Professor</h5>
+								<span>Computer Networks, Information Security</span>
+							</div>
+
+
+							<div class="backLink">
+								<a href="#">Visit Profile</a>
+							</div>
+
+
+						</div>
+
+					</div>
+					<!-- Profile card Ends-->
+
+					<!-- Profile card Starts-->
+					<div class="faculty_profile">
+
+						<div class="rotateCard">
+
+							<div class="facultyUpper">
+								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+							</div>
+
+
+							<div class="facultyLower">
+								<h4>Abhishek Verma</h4>
+								<h5>Assistant Professor</h5>
+								<span>Computer Networks, Information Security</span>
+							</div>
+
+
+							<div class="backLink">
+								<a href="#">Visit Profile</a>
+							</div>
+
+
+						</div>
+
+					</div>
+					<!-- Profile card Ends-->
+
+					<!-- Profile card Starts-->
 					<div class="faculty_profile" onclick="changeActive(event);">
 
 						<div class="rotateCard">
@@ -62,61 +116,7 @@
 					<!-- Profile card Ends-->
 
 					<!-- Profile card Starts-->
-					<div class="faculty_profile">
-
-						<div class="rotateCard">
-
-							<div class="facultyUpper">
-								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
-							</div>
-
-
-							<div class="facultyLower">
-								<h4>Abhishek Verma</h4>
-								<h5>Assistant Professor</h5>
-								<span>Computer Networks, Information Security</span>
-							</div>
-
-
-							<div class="backLink">
-								<a href="#">Visit Profile</a>
-							</div>
-
-
-						</div>
-
-					</div>
-					<!-- Profile card Ends-->
-
-					<!-- Profile card Starts-->
-					<div class="faculty_profile">
-
-						<div class="rotateCard">
-
-							<div class="facultyUpper">
-								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
-							</div>
-
-
-							<div class="facultyLower">
-								<h4>Abhishek Verma</h4>
-								<h5>Assistant Professor</h5>
-								<span>Computer Networks, Information Security</span>
-							</div>
-
-
-							<div class="backLink">
-								<a href="#">Visit Profile</a>
-							</div>
-
-
-						</div>
-
-					</div>
-					<!-- Profile card Ends-->
-
-					<!-- Profile card Starts-->
-					<div class="faculty_profile">
+					<div class="faculty_profile" onclick="changeActive(event);">
 
 						<div class="rotateCard">
 
@@ -315,23 +315,5 @@
 
 		</body>
 	</div>
-	<script type="text/javascript">
-		var proCard, fac_grid;
-		proCard = document.getElementsByClassName("faculty_profile");
-
-		proCard.addEventListener("click",function(){
-			for (i = 0; i < proCard.length; i++) 
-  			{
-  				if(hasClass(proCard,' active'))
-  				{
-  					proCard[i].className = proCard[i].className.remove(" active");
-  				}
-  				else
-  				{
-  					proCard[i].className = proCard[i].className.add(" active");
-  				}
-  			}
-		});
-	</script>
 	<?php include './footer.php';?>
 </html>
