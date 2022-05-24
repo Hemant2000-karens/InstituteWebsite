@@ -14,7 +14,7 @@
 		<body>
 			<?php include './Header.php';?>
 			<?php include "./navbar.php" ?>
-
+			<?php include './connectionDB.php'; ?>
 			<span class="br"></span>
 
 			<div class="aboutHeader">
@@ -28,121 +28,47 @@
 					<h3>Computer Science and Enginnering</h3>
 				</div>
 				<br>
+
+
 				<div class="faculty_grid">
 					
-					<?php include './connectionDB.php';
+					<?php 
+
+						$query = "SELECT * from faculty where department = 'cse' order by name";
+						$result = $link ->query($query);
+
+						if($result -> num_rows > 0)
+						{
+							while ($rows = $result -> fetch_assoc()) 
+							{
+								echo "<div class='faculty_profile'>";
+
+								echo "<div class ='rotateCard'>";
+
+								echo "<div class='facultyUpper'>";
+
+								echo "<img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div>";
+
+								echo "<div class='facultyLower'>";
+
+								echo "<h4>".$rows['name']."</h4>";
+
+								echo "<h5>".$rows['position']."</h5>";
+
+								echo "<span>".$rows['Area_of_Research']."</span>";
+
+								echo "</div>";
+
+								echo "<div class='backLink'>";
+								echo "<a target='_blank' href='".$rows['Adm_No']."'>";
+								echo "Visit Profile</a> </div> </div> </div>";
+							}
+						}
+						$link -> close();
 					?>
 
-
-					<!-- Profile card Starts-->
-					<div class="faculty_profile">
-
-						<div class="rotateCard">
-
-							<div class="facultyUpper">
-								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
-							</div>
-
-
-							<div class="facultyLower">
-								<h4>Abhishek Verma</h4>
-								<h5>Assistant Professor</h5>
-								<span>Computer Networks, Information Security</span>
-							</div>
-
-
-							<div class="backLink">
-								<a href="#">Visit Profile</a>
-							</div>
-
-
-						</div>
-
-					</div>
 					<!-- Profile card Ends-->
-
-					<!-- Profile card Starts-->
-					<div class="faculty_profile">
-
-						<div class="rotateCard">
-
-							<div class="facultyUpper">
-								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
-							</div>
-
-
-							<div class="facultyLower">
-								<h4>Abhishek Verma</h4>
-								<h5>Assistant Professor</h5>
-								<span>Computer Networks, Information Security</span>
-							</div>
-
-
-							<div class="backLink">
-								<a href="#">Visit Profile</a>
-							</div>
-
-
-						</div>
-
-					</div>
-					<!-- Profile card Ends-->
-
-					<!-- Profile card Starts-->
-					<div class="faculty_profile" onclick="changeActive(event);">
-
-						<div class="rotateCard">
-
-							<div class="facultyUpper">
-								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
-							</div>
-
-
-							<div class="facultyLower">
-								<h4>Abhishek Verma</h4>
-								<h5>Assistant Professor</h5>
-								<span>Computer Networks, Information Security</span>
-							</div>
-
-
-							<div class="backLink">
-								<a href="#">Visit Profile</a>
-							</div>
-
-
-						</div>
-
-					</div>
-					<!-- Profile card Ends-->
-
-					<!-- Profile card Starts-->
-					<div class="faculty_profile" onclick="changeActive(event);">
-
-						<div class="rotateCard">
-
-							<div class="facultyUpper">
-								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
-							</div>
-
-
-							<div class="facultyLower">
-								<h4>Abhishek Verma</h4>
-								<h5>Assistant Professor</h5>
-								<span>Computer Networks, Information Security</span>
-							</div>
-
-
-							<div class="backLink">
-								<a href="#">Visit Profile</a>
-							</div>
-
-
-						</div>
-
-					</div>
-					<!-- Profile card Ends-->
-
-
+						
 				</div>
 
 				<br>
@@ -153,91 +79,40 @@
 				<br>
 				<div class="faculty_grid">
 					
-					<?php include './connectionDB.php';
+					<?php
 
+					$query = "SELECT * from faculty where department = 'cse' order by name";
+						$result = $link ->query($query);
+
+						if($result -> num_rows > 0)
+						{
+							while ($rows = $result -> fetch_assoc()) 
+							{
+								echo "<div class='faculty_profile'>";
+
+								echo "<div class ='rotateCard'>";
+
+								echo "<div class='facultyUpper'>";
+
+								echo "<img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div>";
+
+								echo "<div class='facultyLower'>";
+
+								echo "<h4>".$rows['name']."</h4>";
+
+								echo "<h5>".$rows['position']."</h5>";
+
+								echo "<span>".$rows['Area_of_Research']."</span>";
+
+								echo "</div>";
+
+								echo "<div class='backLink'>";
+								echo "<a target='_blank' href='".$rows['Adm_No']."'>";
+								echo "Visit Profile</a> </div> </div> </div>";
+							}
+						}
+						$link -> close();
 					?>
-
-
-				<!-- Profile card Starts-->
-					<div class="faculty_profile">
-
-						<div class="rotateCard">
-
-							<div class="facultyUpper">
-								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
-							</div>
-
-
-							<div class="facultyLower">
-								<h4>Abhishek Verma</h4>
-								<h5>Assistant Professor</h5>
-								<span>Computer Networks, Information Security</span>
-							</div>
-
-
-							<div class="backLink">
-								<a href="#">Visit Profile</a>
-							</div>
-
-
-						</div>
-
-					</div>
-					<!-- Profile card Ends-->
-
-					<!-- Profile card Starts-->
-					<div class="faculty_profile">
-
-						<div class="rotateCard">
-
-							<div class="facultyUpper">
-								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
-							</div>
-
-
-							<div class="facultyLower">
-								<h4>Abhishek Verma</h4>
-								<h5>Assistant Professor</h5>
-								<span>Computer Networks, Information Security</span>
-							</div>
-
-
-							<div class="backLink">
-								<a href="#">Visit Profile</a>
-							</div>
-
-
-						</div>
-
-					</div>
-					<!-- Profile card Ends-->
-
-					<!-- Profile card Starts-->
-					<div class="faculty_profile">
-
-						<div class="rotateCard">
-
-							<div class="facultyUpper">
-								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
-							</div>
-
-
-							<div class="facultyLower">
-								<h4>Abhishek Verma</h4>
-								<h5>Assistant Professor</h5>
-								<span>Computer Networks, Information Security</span>
-							</div>
-
-
-							<div class="backLink">
-								<a href="#">Visit Profile</a>
-							</div>
-
-
-						</div>
-
-					</div>
-					<!-- Profile card Ends-->
 
 
 				</div>
@@ -247,14 +122,39 @@
 				</div>
 				<div class="faculty_grid">
 					
-					<?php include './connectionDB.php';
+					<?php 
 
-					
+					$query = "SELECT * from faculty where department = 'cse' order by name";
+						$result = $link ->query($query);
 
+						if($result -> num_rows > 0)
+						{
+							while ($rows = $result -> fetch_assoc()) 
+							{
+								echo "<div class='faculty_profile'>";
 
+								echo "<div class ='rotateCard'>";
 
+								echo "<div class='facultyUpper'>";
 
+								echo "<img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div>";
 
+								echo "<div class='facultyLower'>";
+
+								echo "<h4>".$rows['name']."</h4>";
+
+								echo "<h5>".$rows['position']."</h5>";
+
+								echo "<span>".$rows['Area_of_Research']."</span>";
+
+								echo "</div>";
+
+								echo "<div class='backLink'>";
+								echo "<a target='_blank' href='".$rows['Adm_No']."'>";
+								echo "Visit Profile</a> </div> </div> </div>";
+							}
+						}
+						$link -> close();
 
 					?>
 				</div>
@@ -264,14 +164,39 @@
 				</div>
 				<div class="faculty_grid">
 					
-					<?php include './connectionDB.php';
+					<?php
 
-					
+					$query = "SELECT * from faculty where department = 'cse' order by name";
+						$result = $link ->query($query);
 
+						if($result -> num_rows > 0)
+						{
+							while ($rows = $result -> fetch_assoc()) 
+							{
+								echo "<div class='faculty_profile'>";
 
+								echo "<div class ='rotateCard'>";
 
+								echo "<div class='facultyUpper'>";
 
+								echo "<img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div>";
 
+								echo "<div class='facultyLower'>";
+
+								echo "<h4>".$rows['name']."</h4>";
+
+								echo "<h5>".$rows['position']."</h5>";
+
+								echo "<span>".$rows['Area_of_Research']."</span>";
+
+								echo "</div>";
+
+								echo "<div class='backLink'>";
+								echo "<a target='_blank' href='".$rows['Adm_No']."'>";
+								echo "Visit Profile</a> </div> </div> </div>";
+							}
+						}
+						$link -> close();
 
 					?>
 				</div>
@@ -281,15 +206,39 @@
 				</div>
 				<div class="faculty_grid">
 					
-					<?php include './connectionDB.php';
+					<?php 
 
-					
+					$query = "SELECT * from faculty where department = 'cse' order by name";
+						$result = $link ->query($query);
 
+						if($result -> num_rows > 0)
+						{
+							while ($rows = $result -> fetch_assoc()) 
+							{
+								echo "<div class='faculty_profile'>";
 
+								echo "<div class ='rotateCard'>";
 
+								echo "<div class='facultyUpper'>";
 
+								echo "<img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div>";
 
+								echo "<div class='facultyLower'>";
 
+								echo "<h4>".$rows['name']."</h4>";
+
+								echo "<h5>".$rows['position']."</h5>";
+
+								echo "<span>".$rows['Area_of_Research']."</span>";
+
+								echo "</div>";
+
+								echo "<div class='backLink'>";
+								echo "<a target='_blank' href='".$rows['Adm_No']."'>";
+								echo "Visit Profile</a> </div> </div> </div>";
+							}
+						}
+						$link -> close();
 					?>
 				</div>
 
@@ -298,8 +247,38 @@
 				</div>
 				<div class="faculty_grid">
 					
-					<?php include './connectionDB.php';
+					<?php
+						$query = "SELECT * from faculty where department = 'cse' order by name";
+						$result = $link ->query($query);
 
+						if($result -> num_rows > 0)
+						{
+							while ($rows = $result -> fetch_assoc()) 
+							{
+								echo "<div class='faculty_profile'>";
+
+								echo "<div class ='rotateCard'>";
+
+								echo "<div class='facultyUpper'>";
+
+								echo "<img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div>";
+
+								echo "<div class='facultyLower'>";
+
+								echo "<h4>".$rows['name']."</h4>";
+
+								echo "<h5>".$rows['position']."</h5>";
+
+								echo "<span>".$rows['Area_of_Research']."</span>";
+
+								echo "</div>";
+
+								echo "<div class='backLink'>";
+								echo "<a target='_blank' href='".$rows['Adm_No']."'>";
+								echo "Visit Profile</a> </div> </div> </div>";
+							}
+						}
+						$link -> close();
 					
 
 
