@@ -35,7 +35,7 @@
 
 
 					<!-- Profile card Starts-->
-					<div class="faculty_profile">
+					<div class="faculty_profile" onclick="changeActive(event);">
 
 						<div class="rotateCard">
 
@@ -315,5 +315,23 @@
 
 		</body>
 	</div>
+	<script type="text/javascript">
+		var proCard, fac_grid;
+		proCard = document.getElementsByClassName("faculty_profile");
+
+		proCard.addEventListener("click",function(){
+			for (i = 0; i < proCard.length; i++) 
+  			{
+  				if(hasClass(proCard,' active'))
+  				{
+  					proCard[i].className = proCard[i].className.remove(" active");
+  				}
+  				else
+  				{
+  					proCard[i].className = proCard[i].className.add(" active");
+  				}
+  			}
+		});
+	</script>
 	<?php include './footer.php';?>
 </html>
