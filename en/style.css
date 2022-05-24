@@ -1069,6 +1069,8 @@ body{
   backface-visibility: hidden;
   transition-duration: var(--800msDuration);
 }
+
+
 .backLink
 {
   padding-bottom: 80%;
@@ -1079,7 +1081,14 @@ body{
   text-align: center;
   z-index: 9;
   transform: rotateY(180deg);
-
+}
+.backLink a
+{
+  text-decoration: none;
+  font-family: 'varela round',sans-serif;
+  padding: 1.5%;
+  font-size: 22px;
+  color: #505050;
 }
 /* Faculty Page Ends */
 
