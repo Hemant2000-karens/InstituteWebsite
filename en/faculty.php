@@ -34,53 +34,113 @@
 					?>
 
 
-
+					<!-- Profile card Starts-->
 					<div class="faculty_profile">
-						<div class="facultyUpper">
-							<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+
+						<div class="rotateCard">
+
+							<div class="facultyUpper">
+								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+							</div>
+
+
+							<div class="facultyLower">
+								<h4>Abhishek Verma</h4>
+								<h5>Assistant Professor</h5>
+								<span>Computer Networks, Information Security</span>
+							</div>
+
+
+							<div class="backLink">
+								<a href="#">Visit Profile</a>
+							</div>
+
+
 						</div>
-						<div class="facultyLower">
-							<h4>Abhishek Verma</h4>
-							<h5>Assistant Professor</h5>
-							<span>Computer Networks, Information Security</span>			
-						</div>
+
 					</div>
+					<!-- Profile card Ends-->
 
-
+					<!-- Profile card Starts-->
 					<div class="faculty_profile">
-						<div class="facultyUpper">
-							<img src="./Images/faculty/cse/apoj.png" alt="Arpita Ojha">
+
+						<div class="rotateCard">
+
+							<div class="facultyUpper">
+								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+							</div>
+
+
+							<div class="facultyLower">
+								<h4>Abhishek Verma</h4>
+								<h5>Assistant Professor</h5>
+								<span>Computer Networks, Information Security</span>
+							</div>
+
+
+							<div class="backLink">
+								<a href="#">Visit Profile</a>
+							</div>
+
+
 						</div>
-						<div class="facultyLower">
-							<h4>Arpita Ojha</h4>
-							<h5>Professor</h5>	
-							<span>Geometric Modelling, Computer Aided Geometric</span>	
-						</div>
+
 					</div>
+					<!-- Profile card Ends-->
 
-
+					<!-- Profile card Starts-->
 					<div class="faculty_profile">
-						<div class="facultyUpper">
-							<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+
+						<div class="rotateCard">
+
+							<div class="facultyUpper">
+								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+							</div>
+
+
+							<div class="facultyLower">
+								<h4>Abhishek Verma</h4>
+								<h5>Assistant Professor</h5>
+								<span>Computer Networks, Information Security</span>
+							</div>
+
+
+							<div class="backLink">
+								<a href="#">Visit Profile</a>
+							</div>
+
+
 						</div>
-						<div class="facultyLower">
-							<h4>Abhishek Verma</h4>
-							<h5>Assistant Professor</h5>
-							<span>I/O Efficient Algorithms, BigData Clustering algorithms, Security Issues in Cloud Computing</span>			
-						</div>
+
 					</div>
+					<!-- Profile card Ends-->
 
-
+					<!-- Profile card Starts-->
 					<div class="faculty_profile">
-						<div class="facultyUpper">
-							<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+
+						<div class="rotateCard">
+
+							<div class="facultyUpper">
+								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+							</div>
+
+
+							<div class="facultyLower">
+								<h4>Abhishek Verma</h4>
+								<h5>Assistant Professor</h5>
+								<span>Computer Networks, Information Security</span>
+							</div>
+
+
+							<div class="backLink">
+								<a href="#">Visit Profile</a>
+							</div>
+
+
 						</div>
-						<div class="facultyLower">
-							<h4>Abhishek Verma</h4>
-							<h5>Assistant Professor</h5>
-							<span>Hardware Security, Trustworthy IC Design Hardware Trojan, Hardware Accelerators, Machine Learning and IoT</span>			
-						</div>
+
 					</div>
+					<!-- Profile card Ends-->
 
 
 				</div>
@@ -97,26 +157,87 @@
 
 					?>
 
+
+				<!-- Profile card Starts-->
 					<div class="faculty_profile">
-						<div class="facultyUpper">
-							<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
-						</div>
-						<div class="facultyLower">
-							<h4>Abhishek Verma</h4>
-							<h5>Assistant Professor</h5>			
-						</div>
-					</div>
+
+						<div class="rotateCard">
+
+							<div class="facultyUpper">
+								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+							</div>
 
 
-					<div class="faculty_profile">
-						<div class="facultyUpper">
-							<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+							<div class="facultyLower">
+								<h4>Abhishek Verma</h4>
+								<h5>Assistant Professor</h5>
+								<span>Computer Networks, Information Security</span>
+							</div>
+
+
+							<div class="backLink">
+								<a href="#">Visit Profile</a>
+							</div>
+
+
 						</div>
-						<div class="facultyLower">
-							<h4>Abhishek Verma</h4>
-							<h5>Assistant Professor</h5>			
-						</div>
+
 					</div>
+					<!-- Profile card Ends-->
+
+					<!-- Profile card Starts-->
+					<div class="faculty_profile">
+
+						<div class="rotateCard">
+
+							<div class="facultyUpper">
+								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+							</div>
+
+
+							<div class="facultyLower">
+								<h4>Abhishek Verma</h4>
+								<h5>Assistant Professor</h5>
+								<span>Computer Networks, Information Security</span>
+							</div>
+
+
+							<div class="backLink">
+								<a href="#">Visit Profile</a>
+							</div>
+
+
+						</div>
+
+					</div>
+					<!-- Profile card Ends-->
+
+					<!-- Profile card Starts-->
+					<div class="faculty_profile">
+
+						<div class="rotateCard">
+
+							<div class="facultyUpper">
+								<img src="./Images/faculty/cse/abv.jpg" alt="Abhishek Verma">
+							</div>
+
+
+							<div class="facultyLower">
+								<h4>Abhishek Verma</h4>
+								<h5>Assistant Professor</h5>
+								<span>Computer Networks, Information Security</span>
+							</div>
+
+
+							<div class="backLink">
+								<a href="#">Visit Profile</a>
+							</div>
+
+
+						</div>
+
+					</div>
+					<!-- Profile card Ends-->
 
 
 				</div>

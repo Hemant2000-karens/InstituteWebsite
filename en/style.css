@@ -5,6 +5,7 @@
   --DirectorPadding: 12px 10%;
  --profileGridPadding: 0 10px;
  --facultyProfileBG: #f6f6f6;
+ --800msDuration: 800ms;
 }
 
 ::-moz-selection
@@ -997,12 +998,25 @@ body{
   border-radius: 20px;
   transition-duration: 500ms;
   font-family: 'Noto Sans',serif;
+  transform-style: preserve-3d;
 }
 
-.faculty_profile:hover
+.rotateCard
+{
+  transition-duration: var(--800msDuration);
+  transform-style: preserve-3d;
+}
+.faculty_profile:hover, 
+.faculty_profile:active
 {
   box-shadow: 0px 0px 5px 0px #afafaf;
   transform: scale(1.01);
+}
+
+.faculty_profile:hover .rotateCard,
+.faculty_profile:active .rotateCard
+{
+  transform: rotateY(180deg); 
 }
 .facultyUpper
 {
@@ -1045,6 +1059,27 @@ body{
 {
   font-weight: 500;
   font-size: 18px;
+}
+
+.facultyUpper,
+.facultyLower,
+.backLink
+{
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition-duration: var(--800msDuration);
+}
+.backLink
+{
+  padding-bottom: 80%;
+  margin-top: -80%;
+  height: auto;
+  width: auto;
+  position: relative;
+  text-align: center;
+  z-index: 9;
+  transform: rotateY(180deg);
+
 }
 /* Faculty Page Ends */
 
