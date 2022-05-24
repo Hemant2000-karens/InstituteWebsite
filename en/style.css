@@ -1080,7 +1080,6 @@ body{
   width: auto;
   position: relative;
   text-align: center;
-  z-index: 9;
   transform: rotateY(180deg);
 }
 .backLink a

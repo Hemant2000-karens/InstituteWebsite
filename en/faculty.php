@@ -17,7 +17,7 @@
 			<?php include './connectionDB.php'; ?>
 			<span class="br"></span>
 
-			<div class="aboutHeader">
+			<div class="aboutHeader" id="adminHeader">
 				<h2>Faculty</h2>
 			</div>
 			
@@ -64,7 +64,7 @@
 								echo "Visit Profile</a> </div> </div> </div>";
 							}
 						}
-						$link -> close();
+						
 					?>
 
 					<!-- Profile card Ends-->
@@ -81,7 +81,7 @@
 					
 					<?php
 
-					$query = "SELECT * from faculty where department = 'cse' order by name";
+					$query = "SELECT * from faculty where department = 'me' order by name";
 						$result = $link ->query($query);
 
 						if($result -> num_rows > 0)
@@ -94,7 +94,7 @@
 
 								echo "<div class='facultyUpper'>";
 
-								echo "<img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div>";
+								echo "<img src='./Images/faculty/me/".$rows['photo']."' alt='".$rows['name']."'> </div>";
 
 								echo "<div class='facultyLower'>";
 
@@ -111,7 +111,7 @@
 								echo "Visit Profile</a> </div> </div> </div>";
 							}
 						}
-						$link -> close();
+						
 					?>
 
 
@@ -120,6 +120,7 @@
 				<div class="deptHeading">
 					<h3>Electrical and Electronics Engineering</h3>
 				</div>
+				<br>
 				<div class="faculty_grid">
 					
 					<?php 
@@ -154,14 +155,15 @@
 								echo "Visit Profile</a> </div> </div> </div>";
 							}
 						}
-						$link -> close();
 
 					?>
 				</div>
 
+				<br>
 				<div class="deptHeading">
 					<h3>Design</h3>
 				</div>
+				<br>
 				<div class="faculty_grid">
 					
 					<?php
@@ -196,14 +198,14 @@
 								echo "Visit Profile</a> </div> </div> </div>";
 							}
 						}
-						$link -> close();
 
 					?>
 				</div>
-
+				<br>
 				<div class="deptHeading">
 					<h3>Natural Science</h3>
 				</div>
+				<br>
 				<div class="faculty_grid">
 					
 					<?php 
@@ -238,13 +240,13 @@
 								echo "Visit Profile</a> </div> </div> </div>";
 							}
 						}
-						$link -> close();
 					?>
 				</div>
-
+				<br>
 				<div class="deptHeading">
 					<h3>Liberal Arts</h3>
 				</div>
+				<br>
 				<div class="faculty_grid">
 					
 					<?php
@@ -279,20 +281,31 @@
 							}
 						}
 						$link -> close();
-					
-
-
-
-
-
 
 					?>
 				</div>
-
+				<br>
 
 			</div>
 
 		</body>
 	</div>
+	<script>
+		window.onscroll = function()
+		{
+		  stickyFunction()
+		};
+
+
+var nbar = document.getElementById("adminHeader");
+var sticky = nbar.offsetTop;
+function stickyFunction() {
+  if (window.pageYOffset >= sticky) {
+    nbar.classList.add("sticky");
+  } else {
+    nbar.classList.remove("sticky");
+ 		}
+	}
+	</script>
 	<?php include './footer.php';?>
 </html>
