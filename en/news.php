@@ -11,20 +11,16 @@
 	{
 		while($rows = $result -> fetch_assoc())
 		{
-			echo "<div class='item3Content'>";
-			echo "<span class='br'></span><a href = '".$rows['n_link']."'"."target='_blank'>".$rows['news']."</a>"."<span class='br'></span> <div class='notice_date'> &nbsp; - ".$rows['date']."</div>";
-			echo "</div> <hr class='new1'> ";
+			echo ("<div class='item3Content'>"."<span class='br'></span><a href = '".$rows['n_link']."'"."target='_blank'>".$rows['news']."</a>"."<span class='br'></span> <div class='notice_date'> &nbsp; - ".$rows['date']."</div>"
+			 ."</div> <hr class='new1'> ");
 		}
 
-		echo "<div class='item3Content0'>";
-			echo "<span class='br'></span><a href = '"."./viewall.php"."'"."target='_blank'>"."View All"."</a>";
-			echo "</div>";
+		echo ("<div class='item3Content0'>"."<span class='br'></span><a href = '"."./viewall.php"."'"."target='_blank'>"."View All"."</a>"."</div>");
 	}
 	else
 	{
-		echo "<div class='item3Content0'>";
-		echo "<span class='br'></span><a href = '"."./viewall.php"."'"."target='_blank'>"."View All"."</a>";
-		echo "</div>";
+		echo ("<div class='item3Content0'>"."<span class='br'></span><a href = '"."./viewall.php"."'"."target='_blank'>"."View All"."</a>"
+		 ."</div>");
 	}
 ?>
 

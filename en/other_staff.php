@@ -45,14 +45,14 @@
 											{
 												while($rows = $result -> fetch_assoc())
 												{
-													echo "<tr>
+													echo ("<tr>
 														<td>".$rows['name']."</td>
 														<td>".$rows['Designation']."</td>
 														<td>".
 													$rows['Department']."</td>
 													<td><a href='mailto:".$rows['contact']."'>".$rows['contact']."</a>	
 													</td>
-													</tr>";
+													</tr>");
 												}
 											}
 

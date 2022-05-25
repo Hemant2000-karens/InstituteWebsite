@@ -32,15 +32,12 @@
 			{
 				while($rows = $result -> fetch_assoc())
 				{
-					echo "<div class='m_profile'>";
-
-					echo "<a href='".$rows['magazine_link']."' target='_blank'>";
+					echo ("<div class='m_profile'>"."<a href='".$rows['magazine_link']."' target='_blank'>"
 					
-					echo "<img src='../Magazine/savitur-".$rows['magazine_year'].".png'/>";
-					echo"<span>Savitur - ".$rows['magazine_year']."</span>";
-					echo "</a>";
-					echo "</div>";
-
+					 ."<img src='../Magazine/savitur-".$rows['magazine_year'].".png'/>"
+					 ."<span>Savitur - ".$rows['magazine_year']."</span>"
+					 ."</a>"
+					 ."</div>");
 				}
 			}
 			else
