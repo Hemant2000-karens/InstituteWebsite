@@ -41,27 +41,7 @@
 						{
 							while ($rows = $result -> fetch_assoc()) 
 							{
-								echo "<div class='faculty_profile'>";
-
-								echo "<div class ='rotateCard'>";
-
-								echo "<div class='facultyUpper'>";
-
-								echo "<img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div>";
-
-								echo "<div class='facultyLower'>";
-
-								echo "<h4>".$rows['name']."</h4>";
-
-								echo "<h5>".$rows['position']."</h5>";
-
-								echo "<span>".$rows['Area_of_Research']."</span>";
-
-								echo "</div>";
-
-								echo "<div class='backLink'>";
-								echo "<a target='_blank' href='".$rows['Adm_No']."'>";
-								echo "Visit Profile</a> </div> </div> </div>";
+								echo ("<div class='faculty_profile'>"."<div class ='rotateCard'> <div class='facultyUpper'> <img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div> <div class='facultyLower'> <h4>".$rows['name']."</h4> <h5>".$rows['position']."</h5> <span>".$rows['Area_of_Research']."</span> </div>". "<div class='backLink'> <a target='_blank' href='".$rows['Adm_No']."'>". "Visit Profile</a> </div> </div> </div>");
 							}
 						}
 						
@@ -88,27 +68,7 @@
 						{
 							while ($rows = $result -> fetch_assoc()) 
 							{
-								echo "<div class='faculty_profile'>";
-
-								echo "<div class ='rotateCard'>";
-
-								echo "<div class='facultyUpper'>";
-
-								echo "<img src='./Images/faculty/me/".$rows['photo']."' alt='".$rows['name']."'> </div>";
-
-								echo "<div class='facultyLower'>";
-
-								echo "<h4>".$rows['name']."</h4>";
-
-								echo "<h5>".$rows['position']."</h5>";
-
-								echo "<span>".$rows['Area_of_Research']."</span>";
-
-								echo "</div>";
-
-								echo "<div class='backLink'>";
-								echo "<a target='_blank' href='".$rows['Adm_No']."'>";
-								echo "Visit Profile</a> </div> </div> </div>";
+								echo ("<div class='faculty_profile'>"."<div class ='rotateCard'> <div class='facultyUpper'> <img src='./Images/faculty/me/".$rows['photo']."' alt='".$rows['name']."'> </div> <div class='facultyLower'> <h4>".$rows['name']."</h4> <h5>".$rows['position']."</h5> <span>".$rows['Area_of_Research']."</span> </div>". "<div class='backLink'> <a target='_blank' href='".$rows['Adm_No']."'>". "Visit Profile</a> </div> </div> </div>");
 							}
 						}
 						
@@ -132,27 +92,7 @@
 						{
 							while ($rows = $result -> fetch_assoc()) 
 							{
-								echo "<div class='faculty_profile'>";
-
-								echo "<div class ='rotateCard'>";
-
-								echo "<div class='facultyUpper'>";
-
-								echo "<img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div>";
-
-								echo "<div class='facultyLower'>";
-
-								echo "<h4>".$rows['name']."</h4>";
-
-								echo "<h5>".$rows['position']."</h5>";
-
-								echo "<span>".$rows['Area_of_Research']."</span>";
-
-								echo "</div>";
-
-								echo "<div class='backLink'>";
-								echo "<a target='_blank' href='".$rows['Adm_No']."'>";
-								echo "Visit Profile</a> </div> </div> </div>";
+								echo ("<div class='faculty_profile'>"."<div class ='rotateCard'> <div class='facultyUpper'> <img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div> <div class='facultyLower'> <h4>".$rows['name']."</h4> <h5>".$rows['position']."</h5> <span>".$rows['Area_of_Research']."</span> </div>". "<div class='backLink'> <a target='_blank' href='".$rows['Adm_No']."'>". "Visit Profile</a> </div> </div> </div>");
 							}
 						}
 
@@ -175,27 +115,7 @@
 						{
 							while ($rows = $result -> fetch_assoc()) 
 							{
-								echo "<div class='faculty_profile'>";
-
-								echo "<div class ='rotateCard'>";
-
-								echo "<div class='facultyUpper'>";
-
-								echo "<img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div>";
-
-								echo "<div class='facultyLower'>";
-
-								echo "<h4>".$rows['name']."</h4>";
-
-								echo "<h5>".$rows['position']."</h5>";
-
-								echo "<span>".$rows['Area_of_Research']."</span>";
-
-								echo "</div>";
-
-								echo "<div class='backLink'>";
-								echo "<a target='_blank' href='".$rows['Adm_No']."'>";
-								echo "Visit Profile</a> </div> </div> </div>";
+								echo ("<div class='faculty_profile'>"."<div class ='rotateCard'> <div class='facultyUpper'> <img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div> <div class='facultyLower'> <h4>".$rows['name']."</h4> <h5>".$rows['position']."</h5> <span>".$rows['Area_of_Research']."</span> </div>". "<div class='backLink'> <a target='_blank' href='".$rows['Adm_No']."'>". "Visit Profile</a> </div> </div> </div>");
 							}
 						}
 
@@ -217,27 +137,7 @@
 						{
 							while ($rows = $result -> fetch_assoc()) 
 							{
-								echo "<div class='faculty_profile'>";
-
-								echo "<div class ='rotateCard'>";
-
-								echo "<div class='facultyUpper'>";
-
-								echo "<img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div>";
-
-								echo "<div class='facultyLower'>";
-
-								echo "<h4>".$rows['name']."</h4>";
-
-								echo "<h5>".$rows['position']."</h5>";
-
-								echo "<span>".$rows['Area_of_Research']."</span>";
-
-								echo "</div>";
-
-								echo "<div class='backLink'>";
-								echo "<a target='_blank' href='".$rows['Adm_No']."'>";
-								echo "Visit Profile</a> </div> </div> </div>";
+								echo ("<div class='faculty_profile'>"."<div class ='rotateCard'> <div class='facultyUpper'> <img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div> <div class='facultyLower'> <h4>".$rows['name']."</h4> <h5>".$rows['position']."</h5> <span>".$rows['Area_of_Research']."</span> </div>". "<div class='backLink'> <a target='_blank' href='".$rows['Adm_No']."'>". "Visit Profile</a> </div> </div> </div>");
 							}
 						}
 					?>
@@ -257,27 +157,7 @@
 						{
 							while ($rows = $result -> fetch_assoc()) 
 							{
-								echo "<div class='faculty_profile'>";
-
-								echo "<div class ='rotateCard'>";
-
-								echo "<div class='facultyUpper'>";
-
-								echo "<img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div>";
-
-								echo "<div class='facultyLower'>";
-
-								echo "<h4>".$rows['name']."</h4>";
-
-								echo "<h5>".$rows['position']."</h5>";
-
-								echo "<span>".$rows['Area_of_Research']."</span>";
-
-								echo "</div>";
-
-								echo "<div class='backLink'>";
-								echo "<a target='_blank' href='".$rows['Adm_No']."'>";
-								echo "Visit Profile</a> </div> </div> </div>";
+								echo ("<div class='faculty_profile'>"."<div class ='rotateCard'> <div class='facultyUpper'> <img src='./Images/faculty/cse/".$rows['photo']."' alt='".$rows['name']."'> </div> <div class='facultyLower'> <h4>".$rows['name']."</h4> <h5>".$rows['position']."</h5> <span>".$rows['Area_of_Research']."</span> </div>". "<div class='backLink'> <a target='_blank' href='".$rows['Adm_No']."'>". "Visit Profile</a> </div> </div> </div>");
 							}
 						}
 						$link -> close();
