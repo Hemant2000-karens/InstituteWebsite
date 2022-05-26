@@ -19,9 +19,9 @@
 
 			<button class="active"><?php echo "Abhishek Verma"?></button>
 
-			<button class="faculty">Faculty</button>
+			<button id="nav_button" class="faculty"  onclick="linkOpen('faculty')">Faculty</button>
 
-			<button>
+			<button id="nav_button" onclick="linkOpen('home')">
 				<i class="bi bi-house-fill"></i>
 			</button>
 		</div>
@@ -31,4 +31,21 @@
 		
 	</div>
 </body>
+<script type="text/javascript">
+	var button = document.getElementsById("card");
+	button.addEventListener("nav_button",linkOpen);
+	function linkOpen(str)
+	{
+		switch(str)
+		{
+			case 'home':
+				window.open('./index.php');
+				break;
+			case 'faculty':
+				window.open('./faculty.php','_self');
+				break;
+		}
+
+	}
+</script>
 </html> 
