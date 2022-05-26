@@ -21,6 +21,8 @@
 
 html
 {
+  margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
   scrollbar-color: rebeccapurple green;
 }
@@ -1103,69 +1105,6 @@ body{
     color: #fff;
     background-position: left bottom;
   }
-
-
-
-
-
-  /* Full Profile */
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Faculty Page Ends */
 
