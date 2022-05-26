@@ -85,7 +85,7 @@
 					
 					<?php 
 
-					$query = "SELECT * from faculty where department = 'cse' order by name";
+					$query = "SELECT * from faculty where department = 'ece' order by name";
 						$result = $link ->query($query);
 
 						if($result -> num_rows > 0)
@@ -108,7 +108,7 @@
 					
 					<?php
 
-					$query = "SELECT * from faculty where department = 'cse' order by name";
+					$query = "SELECT * from faculty where department = 'des' order by name";
 						$result = $link ->query($query);
 
 						if($result -> num_rows > 0)

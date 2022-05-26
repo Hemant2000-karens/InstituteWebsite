@@ -28,7 +28,36 @@
 	</div>
 
 	<div class="container">
+		<div class="qualification">
+			<h2>Qualification</h2>
 		
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</div>
 </body>
 <script type="text/javascript">
