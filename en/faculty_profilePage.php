@@ -39,7 +39,7 @@
 		switch(str)
 		{
 			case 'home':
-				window.open('./index.php');
+				window.open('./index.php','_self');
 				break;
 			case 'faculty':
 				window.open('./faculty.php','_self');
