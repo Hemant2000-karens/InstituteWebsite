@@ -11,6 +11,22 @@
         <img src="./logo_college.png" alt="header"/>
         <h3>IIITDM JABALPUR</h3>
 	</div>
+	<span class="br"></span>
+
+	<div class="breadcrumbs_Main">
+
+		<div class="breadcrumbs">
+
+			<button class="active"><?php echo "Abhishek Verma"?></button>
+
+			<button class="faculty">Faculty</button>
+
+			<button>
+				<i class="bi bi-house-fill"></i>
+			</button>
+		</div>
+	</div>
+
 	<div class="container">
 		
 	</div>

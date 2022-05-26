@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 html,body
 {
 	margin: 0;
@@ -7,6 +8,11 @@ html,body
 *
 {
 	cursor: url("");
+}
+.br 
+{
+  display: block;
+  margin-bottom: 0.6em;
 }
 .faculty_Nav
 {
@@ -17,7 +23,6 @@ html,body
     color: white;
     gap: 6px;
     font-family: 'Roboto', sans-serif;
-
 }
 .faculty_Nav img
 {
@@ -29,4 +34,43 @@ html,body
 {
 	letter-spacing: 2.5px;
 	width: min-content;
+}
+.breadcrumbs_Main
+{
+	margin: 0;
+	padding: 0 2%;
+}
+.breadcrumbs
+{
+	width: fit-content;
+	padding: 0;
+	box-shadow: 0px 0px 3px 0px #d4ecff;
+	background:#003270;
+	font-family: 'Roboto',sans-serif;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+    justify-content: flex-start;
+	border-radius: 20px;
+	border: 0.21px solid #1235ae;
+}
+.breadcrumbs button
+{
+	color: #003270;
+	border-radius: inherit;
+	border: none;
+	padding: 2px 4px;
+	background: #ffffff;
+	font-size: 20px;
+	box-shadow: 1px 0 2px 0px #00457d;
+}
+.breadcrumbs button.active
+{
+	background: inherit;
+    color: white;
+}
+.faculty
+{
+	margin-left: -28px;
+    padding-left: 32px !important;
 }
