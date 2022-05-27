@@ -31,21 +31,41 @@
 		<div class="qualification">
 			<h2>Qualification</h2>
 		
+			<div class="edu_yr">
 
+				<fieldset>
+					<legend>2014</legend>
+					<h4>Uttar Pradesh Technical University Lucknow, India</h4>
+					<span>Bachelor of Technology</span>
+				</fieldset>
 
+				<fieldset>
+					<legend>2014</legend>
+					<h4>National Institute of Technology Kurukshetra, India</h4>
+					<span>Master of Technology</span>
+				</fieldset>
 
+				<fieldset>
+					<legend>2020</legend>
+					<h4>National Institute of Technology Kurukshetra, India</h4>
+					<span>PhD</span>
+				</fieldset>
 
-
-
-
-
-
-
-
+			</div>
 
 		</div>
 
-
+		<div class="interestArea">
+			<div class="interestBody">
+				<div class="arTitle">
+					<span>Area of Interest</span>
+				</div>
+				<div class="interestContent">
+					<span><?php echo "Internet of Things, Intrusion Detection, Network Security";?>
+					</span>
+				</div>
+			</div>
+		</div>
 
 
 

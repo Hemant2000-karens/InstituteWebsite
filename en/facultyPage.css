@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 html,body
 {
 	margin: 0;
@@ -76,6 +77,7 @@ html,body
 }
 .qualification h2
 {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
 	text-align: center;
 	margin: auto;
   width: fit-content;
@@ -92,3 +94,182 @@ html,body
   left: 20%;
   border-bottom: 1.25px solid #2e3547;
 }
+
+.edu_yr
+{
+  display: grid;
+  grid-template-columns: 
+  repeat(auto-fit,minmax(300px,1fr));
+  padding: 2% 4%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.edu_yr fieldset
+{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	padding: 4px 14px;
+	height: 100%;
+	border: 2px solid #060c9b;
+	clip-path: polygon(5% 0, 100% 0%, 100% 96%, 1% 93%);
+}
+.edu_yr fieldset legend
+{
+	font-size: 20px;
+	font-weight: 600;
+}
+.interestArea
+{
+	padding: 0 12%;
+}
+.edu_yr fieldset h4
+{
+	color: #050366;
+	font-size: 20px;
+}
+.edu_yr fieldset span
+{
+	color: #4c4c4c;
+	font-size: 18px;
+}
+.interestBody
+{
+	border: 1px solid black;
+	display: flex;
+	text-align: center;
+}
+.arTitle
+{
+	padding: 4px 30px;
+	background: #ccc;
+}
+.arTitle span
+{
+	font-size: 18px;
+}
+.interestContent
+{
+	text-align: center;
+	padding: 4px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
