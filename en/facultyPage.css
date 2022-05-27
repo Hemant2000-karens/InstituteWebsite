@@ -115,14 +115,15 @@ html,body
 }
 .interestBody
 {
-	border: 1px solid black;
+	border: 1px solid #00046b;
 	display: flex;
 	text-align: center;
 }
 .arTitle
 {
 	padding: 4px 30px;
-	background: #ccc;
+	background: #00046b;
+	color: white;
 }
 .arTitle span
 {
@@ -188,7 +189,7 @@ html,body
 .sub_year
 {
 	clip-path: polygon(9% 0, 100% 0%, 69% 100%, 0 100%);
-	background: #060c9b;
+	background: #00046b;
 	color: white;
 }
 .sub_degree
