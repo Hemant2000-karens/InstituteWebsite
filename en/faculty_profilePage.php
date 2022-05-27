@@ -33,27 +33,60 @@
 		
 			<div class="edu_yr">
 
-				<fieldset>
-					<legend>2014</legend>
-					<h4>Uttar Pradesh Technical University Lucknow, India</h4>
-					<span>Bachelor of Technology</span>
-				</fieldset>
+				<div class="yr">
+					<div class="sub_year">
+						<h3>
+							<?php echo "2013";?>
+						</h3>
+					</div>
+					<div class="sub_degree">
+						<span class="institution">
+							Uttar Pradesh Technical University Lucknow, India
+						</span>
+						<span class="degree">
+							Bachelor of Technology
+						</span>
+					</div>
+				</div>
 
-				<fieldset>
-					<legend>2014</legend>
-					<h4>National Institute of Technology Kurukshetra, India</h4>
-					<span>Master of Technology</span>
-				</fieldset>
+				<div class="yr">
+					<div class="sub_year">
+						<h3>
+							<?php echo "2014";?>
+						</h3>
+					</div>
+					<div class="sub_degree">
+						<span class="institution">
+							National Institute of Technology Kurukshetra, India
+						</span>
+						<span class="degree">
+							Master of Technology
+						</span>
+					</div>
+				</div>
 
-				<fieldset>
-					<legend>2020</legend>
-					<h4>National Institute of Technology Kurukshetra, India</h4>
-					<span>PhD</span>
-				</fieldset>
+				<div class="yr">
+					<div class="sub_year">
+						<h3>
+							<?php echo "2020";?>
+						</h3>
+					</div>
+					<div class="sub_degree">
+						<span class="institution">
+							National Institute of Technology Kurukshetra, India
+						</span>
+						<span class="degree">
+							Ph.D
+						</span>
+					</div>
+				</div>
+
 
 			</div>
 
 		</div>
+
+			<br>
 
 		<div class="interestArea">
 			<div class="interestBody">
@@ -67,11 +100,44 @@
 			</div>
 		</div>
 
+			<br>
+
+
+		<div class="faculty_Nav_more">
+
+			<div class="faculty_Nav_more_grid">
+
+				<div class="Contentbox">
+					<i class="bi bi-star"></i>
+					<span>Achievment</span>
+				</div>
+
+				<div class="Contentbox">
+					<i class="bi bi-journal"></i>
+					<span>Publications</span>
+				</div>
+
+				<div class="Contentbox">
+					<i class="bi bi-search"></i>
+					<span>Research</span>
+				</div>
+
+				<div class="Contentbox">
+					<i class="bi bi-journals"></i>
+					<span>Courses</span>
+				</div>
+
+			</div>
+		</div>
 
 
 
+		<div class="achievement" id="achieve">
+			<h2>Achievments</h2>
 
 
+
+		</div>
 
 
 
@@ -79,6 +145,11 @@
 
 
 	</div>
+<div class="footer">
+	<div class="footer_main">
+
+	</div>
+</div>
 </body>
 <script type="text/javascript">
 	var button = document.getElementsById("card");

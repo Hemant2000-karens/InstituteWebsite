@@ -75,7 +75,8 @@ html,body
 	margin-left: -28px;
   padding-left: 32px !important;
 }
-.qualification h2
+.qualification h2,
+.achievement h2
 {
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 	text-align: center;
@@ -84,7 +85,8 @@ html,body
 	/*border-bottom: 0.5px solid #2e3547;*/
 	position: relative;
 }
-.qualification h2:after
+.qualification h2:after,
+.achievement h2:after
 {
 	content: "";
   position: absolute;
@@ -103,35 +105,13 @@ html,body
   padding: 2% 4%;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
 }
 
 
-.edu_yr fieldset
-{
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-	padding: 4px 14px;
-	height: 100%;
-	border: 2px solid #060c9b;
-	clip-path: polygon(5% 0, 100% 0%, 100% 96%, 1% 93%);
-}
-.edu_yr fieldset legend
-{
-	font-size: 20px;
-	font-weight: 600;
-}
 .interestArea
 {
 	padding: 0 12%;
-}
-.edu_yr fieldset h4
-{
-	color: #050366;
-	font-size: 20px;
-}
-.edu_yr fieldset span
-{
-	color: #4c4c4c;
-	font-size: 18px;
 }
 .interestBody
 {
@@ -153,10 +133,83 @@ html,body
 	text-align: center;
 	padding: 4px 10px;
 }
-
-
-
-
+.faculty_Nav_more
+{
+	background: #dedede;
+	padding: 50px 4px;
+}
+.faculty_Nav_more_grid
+{
+	display: grid;
+	grid-template-columns: 
+	repeat(auto-fit,minmax(300px,1fr));
+	justify-content: space-evenly;
+	text-align: center;
+	justify-items: center;
+	gap: 18px;
+}
+.Contentbox
+{ 
+	background: linear-gradient(to right, #2e3547 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  height: 117px;
+  width: 117px;
+  display: grid;
+  padding: 8%;
+  grid-gap: 15px;
+  font-size: 20px;
+  align-items: center;
+  border-bottom: 5px solid #003270;
+  transition: all 500ms ease-out;
+}
+.Contentbox .bi
+{
+  font-size: 30px;
+}
+.Contentbox:hover
+{
+	background-position: left bottom;
+	color: #ffffff;
+	border-bottom: 5px solid #ffffff;
+}
+.yr
+{
+	clip-path: polygon(9% 0, 100% 0%, 91% 100%, 0 100%);
+	width: fit-content;
+	display: flex;
+	border: 0.25px solid #060c9b;
+}
+.sub_year,.sub_degree
+{
+	text-align: center;
+  padding: 2px 35px;
+}
+.sub_year
+{
+	clip-path: polygon(9% 0, 100% 0%, 69% 100%, 0 100%);
+	background: #060c9b;
+	color: white;
+}
+.sub_degree
+{
+	display: grid;
+	justify-items: center;
+  align-items: center;
+	color: #060c9b;
+}
+.institution
+{
+	color: #00046b;
+}
+.degree
+{
+	color: #003d6d;
+}
+.achievement
+{
+	padding: 2% 4%;
+}
 
 
 
