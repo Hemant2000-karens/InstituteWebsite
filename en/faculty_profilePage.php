@@ -134,7 +134,35 @@
 
 		<div class="achievement" id="achieve">
 			<h2>Achievments</h2>
+			<div class="slider">
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
 
+				
+				<div class="SliderBox">
+					<div class="subSlider1">
+
+					</div>
+					<div class="subSlider1">
+						
+					</div>
+				</div>
+				
+
+
+
+
+
+
+
+				
+				<a class="next" onclick="plusSlides(1)">❯</a>
+			</div>
+
+			<div style="text-align:center;    padding: 25px 0;">
+  				<span class="dot" onclick="currentSlide(1)"></span> 
+  				<span class="dot" onclick="currentSlide(2)"></span> 
+  				<span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
 
 
 		</div>
