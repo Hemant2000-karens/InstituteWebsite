@@ -218,17 +218,39 @@ html,body
 }
 .slider
 {
+	padding: 2% 0;
+	height: auto;
   position: relative;
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .SliderBox
 {
-	height: 500px;
-	width: 300px;
-	display: inline-block;
+	display: grid;
 	padding: 10px 16px;
+}
+.subSlider1
+{
+	color: #ffffff;
+	background: #358321;
+	font-size: xx-large;
+	padding: 40px;
+	justify-items: center;
+  align-items: center;
+	display: grid;
+}
+
+.subSlider2
+{
+	padding: 0 3%;
+	text-align: center;
+	background: #ccc;
+}
+.subSlider2 p
+{
+	padding: 10px 0;
 }
 .dot {
   cursor: pointer;
@@ -247,7 +269,6 @@ html,body
 }
 .prev, .next {
 	background: #05086b;
-  position: absolute;
   width: auto;
   padding: 16px;
   color: white;

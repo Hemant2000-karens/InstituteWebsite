@@ -135,14 +135,26 @@
 		<div class="achievement" id="achieve">
 			<h2>Achievments</h2>
 			<div class="slider">
-				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<div>
+					<a class="prev" onclick="plusSlides(-1)">❮</a>
+				</div>
 
-				
+
+
+
+
 				<div class="SliderBox">
 					<div class="subSlider1">
-
+						<i class="bi bi-award"></i>
+						<span>Awards</span>
 					</div>
-					<div class="subSlider1">
+					<div class="subSlider2">
+
+						<h3>Member of Advisory Board</h3>
+
+						<p>IoT-Center of Excellence at SKIT, Jaipur</p>
+
+						<h4>Read More</h4>
 						
 					</div>
 				</div>
@@ -155,7 +167,9 @@
 
 
 				
-				<a class="next" onclick="plusSlides(1)">❯</a>
+				<div>
+					<a class="next" onclick="plusSlides(1)">❯</a>
+				</div>
 			</div>
 
 			<div style="text-align:center;    padding: 25px 0;">
