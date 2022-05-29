@@ -183,12 +183,12 @@ html,body
 }
 .yr
 {
-	clip-path: polygon(9% 0, 100% 0%, 91% 100%, 0 100%);
+	clip-path: polygon(9% 0, 100% 0%, 100% 100%, 0 100%);
 	width: fit-content;
 	display: flex;
 	border: 0.25px solid #060c9b;
 }
-.sub_year,.sub_degree
+.sub_year
 {
 	text-align: center;
   padding: 2px 35px;
@@ -201,6 +201,8 @@ html,body
 }
 .sub_degree
 {
+	text-align: center;
+	padding: 2px 2.5%;
 	display: grid;
 	justify-items: center;
   align-items: center;
@@ -356,7 +358,8 @@ html,body
 
 .publicationBody
 {
-	
+	width: 100%;
+	padding: 12px 0;
 }
 
 

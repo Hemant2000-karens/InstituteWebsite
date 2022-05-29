@@ -224,9 +224,13 @@
 				</div>
 				<div class="publicationBody">
 					
+					<div class="tab">
+						<button>Books</button>
+						<button>Papers</button>
+						<button>Talks</button>
+					</div>
 
 
-					
 
 
 
@@ -234,7 +238,6 @@
 
 
 
-					
 				</div>
 				<div>
 					<a class="next" onclick="plusSlides(1)">❯</a>
