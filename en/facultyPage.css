@@ -113,6 +113,7 @@ html,body
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  justify-items: center;
 }
 
 
@@ -232,7 +233,7 @@ html,body
 }
 .sliderContent
 {
-	height: 380px;
+	height: 400px;
 	width: 100%;
 	overflow: hidden;
 	display: flex;
@@ -331,6 +332,8 @@ html,body
   font-size: 18px;
   transition: 0.6s ease;
   user-select: none;
+  text-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 4px 0px #7479ba;
 }
 
 .next {
@@ -359,14 +362,62 @@ html,body
 .publicationBody
 {
 	width: 100%;
-	padding: 12px 0;
+	padding: 25px 0;
 }
 
-
-
-
-
-
+.tab
+{
+	width: fit-content;
+	overflow: hidden;
+  background-color: #cacaca;
+  margin: 0 5%;
+}
+.tab button
+{
+	margin: 0 0.5px;
+	background-color: #fff;
+	color: #8694ae;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 15px;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.tab button:active
+{
+	color: #000361;
+	border-top: 1.5px solid #05086b;
+	padding: 13.1px 15px;
+}
+.tabcontent {
+	grid-template-columns: 
+	repeat(auto-fit,minmax(300px,1fr));
+	margin: 0 5%;
+  display: grid;
+  justify-items: center;
+  padding: 6px 12px;
+  border-top: 0.25px solid #c4c4c4;
+}
+.bookGrid
+{
+	display: flex;
+  align-items: center;
+	gap: 20px;
+	padding: 2.5%;
+	height: 150px;
+}
+.bookContent
+{
+	display: block;
+}
+.bookicon
+{
+	font-size: xxx-large;
+  text-align: center;
+  align-content: center;
+}
 
 
 

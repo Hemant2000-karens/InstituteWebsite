@@ -230,7 +230,185 @@
 						<button>Talks</button>
 					</div>
 
+					<div id="London" class="tabcontent">
+  						
 
+  					<!-- Starting OF book Page-->
+						<div class="bookGrid">
+
+
+							<div class="bookicon">
+								<i class="bi bi-book"></i>
+							</div>
+
+
+							<div class="bookContent">
+
+
+								<div class="bookName">
+									<span>
+										Network Expolitation
+									</span>
+								</div>
+
+									<div class="readMore">
+										<span>Read More</span>
+									</div>
+								
+								</div>
+
+
+							</div>
+
+						<!-- End of Book Page-->
+
+						<!-- Starting OF book Page-->
+						<div class="bookGrid">
+
+
+							<div class="bookicon">
+								<i class="bi bi-book"></i>
+							</div>
+
+
+							<div class="bookContent">
+
+
+								<div class="bookName">
+									<span>
+										Network Expolitation
+									</span>
+								</div>
+
+									<div class="readMore">
+										<span>Read More</span>
+									</div>
+								
+								</div>
+
+
+							</div>
+
+						<!-- End of Book Page-->
+
+						<!-- Starting OF book Page-->
+						<div class="bookGrid">
+
+
+							<div class="bookicon">
+								<i class="bi bi-book"></i>
+							</div>
+
+
+							<div class="bookContent">
+
+
+								<div class="bookName">
+									<span>
+										Network Expolitation
+									</span>
+								</div>
+
+									<div class="readMore">
+										<span>Read More</span>
+									</div>
+								
+								</div>
+
+
+							</div>
+
+						<!-- End of Book Page-->
+
+						<!-- Starting OF book Page-->
+						<div class="bookGrid">
+
+
+							<div class="bookicon">
+								<i class="bi bi-book"></i>
+							</div>
+
+
+							<div class="bookContent">
+
+
+								<div class="bookName">
+									<span>
+										Network Expolitation
+									</span>
+								</div>
+
+									<div class="readMore">
+										<span>Read More</span>
+									</div>
+								
+								</div>
+
+
+							</div>
+
+						<!-- End of Book Page-->
+
+						<!-- Starting OF book Page-->
+						<div class="bookGrid">
+
+
+							<div class="bookicon">
+								<i class="bi bi-book"></i>
+							</div>
+
+
+							<div class="bookContent">
+
+
+								<div class="bookName">
+									<span>
+										Network Expolitation
+									</span>
+								</div>
+
+									<div class="readMore">
+										<span>Read More</span>
+									</div>
+								
+								</div>
+
+
+							</div>
+
+						<!-- End of Book Page-->
+
+						<!-- Starting OF book Page-->
+						<div class="bookGrid">
+
+
+							<div class="bookicon">
+								<i class="bi bi-book"></i>
+							</div>
+
+
+							<div class="bookContent">
+
+
+								<div class="bookName">
+									<span>
+										Network Expolitation
+									</span>
+								</div>
+
+									<div class="readMore">
+										<span>Read More</span>
+									</div>
+								
+								</div>
+
+
+							</div>
+
+						<!-- End of Book Page-->
+						<!-- End of tabContent-->
+					</div>
+					<!-- End of tabContent-->
 
 
 
