@@ -140,10 +140,10 @@
 				</div>
 
 
+			<div class="sliderContent">
 
 
-
-				<div class="SliderBox">
+				<div class="SliderBox sliderbox1">
 					<div class="subSlider1">
 						<i class="bi bi-award"></i>
 						<span>Awards</span>
@@ -155,7 +155,41 @@
 						<p>IoT-Center of Excellence at SKIT, Jaipur</p>
 
 						<h4>Read More</h4>
-						
+
+					</div>
+				</div>
+
+
+				<div class="SliderBox sliderbox2">
+					<div class="subSlider1">
+						<i class="bi bi-award"></i>
+						<span>Awards</span>
+					</div>
+					<div class="subSlider2">
+
+						<h3>Member of Advisory Board</h3>
+
+						<p>IoT-Center of Excellence at SKIT, Jaipur</p>
+
+						<h4>Read More</h4>
+
+					</div>
+				</div>
+
+
+				<div class="SliderBox sliderbox3">
+					<div class="subSlider1">
+						<i class="bi bi-award"></i>
+						<span>Awards</span>
+					</div>
+					<div class="subSlider2">
+
+						<h3>Member of Advisory Board</h3>
+
+						<p>IoT-Center of Excellence at SKIT, Jaipur</p>
+
+						<h4>Read More</h4>
+
 					</div>
 				</div>
 				
@@ -163,7 +197,7 @@
 
 
 
-
+			</div>
 
 
 				
@@ -182,7 +216,32 @@
 		</div>
 
 
+		<div class="publication" id="Publications">
+			<h2>Publications</h2>
+			<div class="publicationContents">
+				<div>
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				</div>
+				<div class="publicationBody">
+					
 
+
+					
+
+
+
+
+
+
+
+					
+				</div>
+				<div>
+					<a class="next" onclick="plusSlides(1)">❯</a>
+				</div>
+
+			</div>
+		</div>
 
 
 

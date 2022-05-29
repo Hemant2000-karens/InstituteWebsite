@@ -80,7 +80,8 @@ html,body
 	font-family: 'Roboto',sans-serif;
 }
 .qualification h2,
-.achievement h2
+.achievement h2,
+.publication h2
 {
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 	text-align: center;
@@ -90,7 +91,8 @@ html,body
 	position: relative;
 }
 .qualification h2:after,
-.achievement h2:after
+.achievement h2:after,
+.publication h2:after
 {
 	content: "";
   position: absolute;
@@ -218,7 +220,7 @@ html,body
 }
 .slider
 {
-	padding: 2% 0;
+	padding: 3% 0;
 	height: auto;
   position: relative;
   margin: auto;
@@ -226,15 +228,57 @@ html,body
   align-items: center;
   justify-content: space-between;
 }
+.sliderContent
+{
+	height: 380px;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+	align-items: center;
+  justify-content: center;
+  align-content: center;
+	padding: 0 12px;
+}
 .SliderBox
 {
+	height: 375px;
+	width: 250px;
+	position: absolute;
 	display: grid;
-	padding: 10px 16px;
+	box-shadow: 0px 0px 10px 6px #9d9d9d;
+	transition: all 0.3s ease-in-out;
 }
+
+.sliderbox1 {
+	height: 360px;
+  left: 20%;
+  opacity: .4;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.sliderbox2
+{
+	height: 375px;
+	opacity: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.sliderbox3
+{
+	height: 360px;
+	opacity: .4;
+	left: 80%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
 .subSlider1
 {
 	color: #ffffff;
-	background: #358321;
+	background: rgb(122, 180, 83);
 	font-size: xx-large;
 	padding: 40px;
 	justify-items: center;
@@ -246,11 +290,20 @@ html,body
 {
 	padding: 0 3%;
 	text-align: center;
-	background: #ccc;
+	background: #f2f2f2;
 }
 .subSlider2 p
 {
 	padding: 10px 0;
+}
+.subSlider2 h3,
+.subSlider2 p
+{
+	color: #05086b;
+}
+.subSlider2 h4
+{
+	color: #005f8f;
 }
 .dot {
   cursor: pointer;
@@ -287,10 +340,24 @@ html,body
   background-color: rgba(0,0,0,0.8);
 }
 
+.publication
+{
+	background: #f2f2f2;
+	padding: 50px 0;
+}
 
+.publicationContents
+{
+	width: 100%;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+}
 
-
-
+.publicationBody
+{
+	
+}
 
 
 
