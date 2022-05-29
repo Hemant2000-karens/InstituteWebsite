@@ -378,6 +378,7 @@ html,body
 	background-color: #fff;
 	color: #8694ae;
   float: left;
+  font-family: 'M PLUS Rounded 1c',sans-serif;
   border: none;
   outline: none;
   cursor: pointer;
@@ -410,6 +411,7 @@ html,body
 }
 .bookContent
 {
+	font-family: 'M PLUS Rounded 1c',sans-serif;
 	display: block;
 }
 .bookicon
@@ -420,12 +422,18 @@ html,body
 }
 .bookName
 {
-	margin-bottom: 25%;
+	margin-bottom: 8%;
 }
-
-
-
-
+.bookName span
+{
+	font-size: 20px;
+	color: #002888;
+}
+.readMore span
+{
+	font-size: 18px;
+	color: #015383;
+}
 
 
 

@@ -424,9 +424,20 @@
 			</div>
 		</div>
 
+		<!-- End of Publication -->
 
 
-	</div>
+		<!-- Start of Research -->
+
+		<div class="research">
+			<h2>Research</h2>
+			<div class="researchContent">
+			
+
+			</div>
+		</div>
+		<!-- Start of Research -->
+	</div><!-- Container end tag -->
 <div class="footer">
 	<div class="footer_main">
 
