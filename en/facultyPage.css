@@ -381,7 +381,7 @@ html,body
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 15px;
+  padding: 14px 23px;
   transition: 0.3s;
   font-size: 20px;
 }
@@ -389,11 +389,11 @@ html,body
 {
 	color: #000361;
 	border-top: 1.5px solid #05086b;
-	padding: 13.1px 15px;
+	padding: 13.1px 23px;
 }
 .tabcontent {
 	grid-template-columns: 
-	repeat(auto-fit,minmax(300px,1fr));
+	repeat(auto-fit,minmax(290px,1fr));
 	margin: 0 5%;
   display: grid;
   justify-items: center;
@@ -418,7 +418,10 @@ html,body
   text-align: center;
   align-content: center;
 }
-
+.bookName
+{
+	margin-bottom: 25%;
+}
 
 
 
