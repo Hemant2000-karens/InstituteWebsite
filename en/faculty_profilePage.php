@@ -206,7 +206,7 @@
 				</div>
 			</div>
 
-			<div style="text-align:center;    padding: 25px 0;">
+			<div style="text-align:center;padding: 25px 0;">
   				<span class="dot" onclick="currentSlide(1)"></span> 
   				<span class="dot" onclick="currentSlide(2)"></span> 
   				<span class="dot" onclick="currentSlide(3)"></span> 
@@ -225,16 +225,17 @@
 				<div class="publicationBody">
 					
 					<div class="tab">
-						<button>Books</button>
-						<button>Papers</button>
-						<button>Talks</button>
+						<button id="defaultOpen"class="tabButton" onclick="openTabs(event, 'book')">Books</button>
+						<button class="tabButton" onclick="openTabs(event, 'papers')">Papers</button>
+						<button class="tabButton" onclick="openTabs(event, 'talks')">Talks</button>
 					</div>
 
-					<div id="London" class="tabcontent">
+					<div id="book" class="tabcontent">
   						
-
+						<div class="contentGridPublication">
+  					
   					<!-- Starting OF book Page-->
-						<div class="bookGrid">
+						<div class="bookFlex">
 
 
 							<div class="bookicon">
@@ -260,10 +261,39 @@
 
 							</div>
 
-						<!-- End of Book Page-->
+						<!-- End of Book Page FLex -->
+
+							<!-- Starting OF book Page-->
+						<div class="bookFlex">
+
+
+							<div class="bookicon">
+								<i class="bi bi-book"></i>
+							</div>
+
+
+							<div class="bookContent">
+
+
+								<div class="bookName">
+									<span>
+										Network Expolitation
+									</span>
+								</div>
+
+									<div class="readMore">
+										<span>Read More</span>
+									</div>
+								
+								</div>
+
+
+							</div>
+
+						<!-- End of Book Page FLex -->
 
 						<!-- Starting OF book Page-->
-						<div class="bookGrid">
+						<div class="bookFlex">
 
 
 							<div class="bookicon">
@@ -289,10 +319,10 @@
 
 							</div>
 
-						<!-- End of Book Page-->
+						<!-- End of Book Page FLex -->
 
 						<!-- Starting OF book Page-->
-						<div class="bookGrid">
+						<div class="bookFlex">
 
 
 							<div class="bookicon">
@@ -318,10 +348,10 @@
 
 							</div>
 
-						<!-- End of Book Page-->
+						<!-- End of Book Page FLex -->
 
 						<!-- Starting OF book Page-->
-						<div class="bookGrid">
+						<div class="bookFlex">
 
 
 							<div class="bookicon">
@@ -347,10 +377,10 @@
 
 							</div>
 
-						<!-- End of Book Page-->
+						<!-- End of Book Page FLex -->
 
 						<!-- Starting OF book Page-->
-						<div class="bookGrid">
+						<div class="bookFlex">
 
 
 							<div class="bookicon">
@@ -376,10 +406,11 @@
 
 							</div>
 
-						<!-- End of Book Page-->
+						<!-- End of Book Page FLex -->
+						
 
 						<!-- Starting OF book Page-->
-						<div class="bookGrid">
+						<div class="bookFlex">
 
 
 							<div class="bookicon">
@@ -405,15 +436,126 @@
 
 							</div>
 
+						<!-- End of Book Page FLex -->
+
+
+
+						<!-- Starting OF book Page-->
+						<div class="bookFlex">
+
+
+							<div class="bookicon">
+								<i class="bi bi-book"></i>
+							</div>
+
+
+							<div class="bookContent">
+
+
+								<div class="bookName">
+									<span>
+										Network Expolitation
+									</span>
+								</div>
+
+									<div class="readMore">
+										<span>Read More</span>
+									</div>
+								
+								</div>
+
+
+							</div>
+
+						<!-- End of Book Page FLex -->
+						
+
+
+						<!-- Starting OF book Page-->
+						<div class="bookFlex">
+
+
+							<div class="bookicon">
+								<i class="bi bi-book"></i>
+							</div>
+
+
+							<div class="bookContent">
+
+
+								<div class="bookName">
+									<span>
+										Network Expolitation
+									</span>
+								</div>
+
+									<div class="readMore">
+										<span>Read More</span>
+									</div>
+								
+								</div>
+
+
+							</div>
+
+						<!-- End of Book Page FLex -->
+						
+
+
+
+
+
+
+
+
+
+
 						<!-- End of Book Page-->
-						<!-- End of tabContent-->
+						
+
+
+
+
+
+						</div>
+						<!-- End of bookGrid -->
+					
+
+
+
 					</div>
 					<!-- End of tabContent-->
 
 
+					<div class="tabcontent" id="papers">
+						
+						<div class="contentGridPublication">
+							
 
 
 
+
+
+
+
+
+						</div>
+
+					</div>
+
+					<div class="tabcontent" id="talks">
+
+						<div class="contentGridPublication">
+
+
+
+
+
+
+
+						</div>
+
+					</div>
 
 
 				</div>
@@ -433,6 +575,34 @@
 			<h2>Research</h2>
 			<div class="researchContent">
 			
+				<div class="rSdate">
+					<span class="date">
+						2018-2020
+					</span>
+				</div>
+
+				<div class="researchBody">
+
+					<div class="researchImage">
+						<img src="./Images/rsImage/rs001.png"/>
+					</div>
+
+					<div class="researchText">
+						<span class="rStitle">
+							Device Free Target Localization in Wireless Networks Using Machine Learning
+						</span>
+						<span class="rsBody">
+							 Dr. Munesh Singh Agency: SEED Grant from IIITDM Kancheepuram Status: Completed Budget Rs: 8,00,000 Duration 3 Year (2018-2020)
+						</span>
+						<span class="rsReadMore">
+							Read More
+						</span>
+					</div>
+					<div class="navigation">
+						<button><</button>
+						<button>></button>
+					</div>
+				</div>
 
 			</div>
 		</div>
@@ -440,11 +610,13 @@
 	</div><!-- Container end tag -->
 <div class="footer">
 	<div class="footer_main">
-
+		<img src=""/>
+		<h3></h3>
 	</div>
 </div>
 </body>
 <script type="text/javascript">
+	document.getElementById("defaultOpen").click();
 	var button = document.getElementsById("card");
 	button.addEventListener("nav_button",linkOpen);
 	function linkOpen(str)
@@ -460,5 +632,19 @@
 		}
 
 	}
+
+	function openTabs(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tabButton");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
 </script>
 </html> 

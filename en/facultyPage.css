@@ -81,7 +81,8 @@ html,body
 }
 .qualification h2,
 .achievement h2,
-.publication h2
+.publication h2,
+.research h2
 {
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 	text-align: center;
@@ -92,7 +93,8 @@ html,body
 }
 .qualification h2:after,
 .achievement h2:after,
-.publication h2:after
+.publication h2:after,
+.research h2:after
 {
 	content: "";
   position: absolute;
@@ -386,13 +388,13 @@ html,body
   transition: 0.3s;
   font-size: 20px;
 }
-.tab button:active
+.tab button.active
 {
 	color: #000361;
 	border-top: 1.5px solid #05086b;
 	padding: 13.1px 23px;
 }
-.tabcontent {
+.contentGridPublication {
 	grid-template-columns: 
 	repeat(auto-fit,minmax(290px,1fr));
 	margin: 0 5%;
@@ -401,7 +403,7 @@ html,body
   padding: 6px 12px;
   border-top: 0.25px solid #c4c4c4;
 }
-.bookGrid
+.bookFlex
 {
 	display: flex;
   align-items: center;
@@ -434,10 +436,29 @@ html,body
 	font-size: 18px;
 	color: #015383;
 }
+.research
+{
+	padding: 50px 0;
+}
 
-
-
-
+.researchContent
+{
+	padding: 20px 5%;
+	width: 100%;
+}
+.researchBody
+{
+	width: 100%;
+}
+.researchImage
+{
+	width: fit-content;
+}
+.researchText
+{
+	display: block;
+	width: 100%;
+}
 
 
 
