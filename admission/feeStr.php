@@ -3,6 +3,7 @@
 
 <head>
     <title>About us - Brand</title>
+    <?php include './header.php';?>
 </head>
 
 <body>
@@ -32,7 +33,21 @@
             </div>
         </div>
     </div>
-    <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     <footer style="background: var(--bs-gray-700);">
         <div class="container">
             <div class="row">
