@@ -2,32 +2,14 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>About us - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <?php include './header.php';?>
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="../en">IIITDMJ</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./undergrad.html">Undergraduate&nbsp;</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./postgraduate.html">Postgraduate&nbsp;</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./phd.html">ph.d</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./feeStr.html">Fees Structure</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./curriculum.html">Curriculum</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+
+<?php include './navbar.php';?>
+
     <header class="masthead" style="background-image: url('assets/img/word-engineer-banner_66675-160.jpg');">
         <div class="overlay"></div>
         <div class="container">
@@ -59,6 +41,22 @@
             <div class="col-md-10 col-lg-8 mx-auto">
                 <div class="curriculum">
                     <h3>Undergraduate Curriculum</h3>
+                    <br>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Menu 1</a></li>
+                        <li><a href="#">Menu 2</a></li>
+                    </ul>
+
+                    <button data-toggle="collapse" data-target="#demo">Collapsible</button>
+
+                    <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+
+
                 </div>
                 <div class="curriculum">
                     <h3>Postgraduate Curriculum</h3>
