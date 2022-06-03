@@ -257,17 +257,19 @@
                 </div>
 
 
+            </div>
 
+            <div class="col">
+                <div>
+                    <fieldset>
+                        <legend class="fs-6 text-center">Reference</legend>
 
-
-
-
-
-                <div class="referece">
-
-
+                        <div class="d-flex d-md-flex justify-content-around align-items-md-center" style="margin: 0;padding: 0;text-align: center;">
+                            <div style="width: 10px;height: 12px;background: var(--bs-red);"></div><span class="text-center" style="font-size: 7px;">-</span>
+                            <h6 class="d-md-flex" style="font-size: 9px;">common to all</h6>
+                        </div>
+                    </fieldset>
                 </div>
-
             </div>
         </div>
     </div>
