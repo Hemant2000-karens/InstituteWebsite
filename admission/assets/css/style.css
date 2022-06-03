@@ -70,3 +70,24 @@
   font-weight: bold;
   padding: 1.2%;
 }
+
+.curriculumButton.active
+{
+  background: #0085a1;
+}
+.semNav
+{
+  display: flex;
+}
+.curriculumTable
+{
+  padding: 15px 0;
+}
+.sem
+{
+  text-align: center;
+}
+.tableContainer
+{
+  text-align: -webkit-center;
+}

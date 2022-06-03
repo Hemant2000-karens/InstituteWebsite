@@ -39,14 +39,56 @@
 
                     <br>
 
+                <div class="semNav">
                     <button class="curriculumButton" data-toggle="collapse" data-target="#demo">Odd Sem</button>
                     <button class="curriculumButton" data-toggle="collapse" data-target="#demo">Even Sem</button>
+                </div>
 
-                    <div id="demo" class="collapse">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <div class="curriculumTable">
+                    
+                    <div class="tableContainer" id="odd">
+
+
+                <?php include './curSem1.php';?>
+                <br/>
+
+                <?php include './curSem3.php';?>
+                <br/>
+
+                <?php include './curSem5.php';?>
+                <br/>
+                
+                <?php include './curSem7.php';?>
+                <br/>
+
+
                     </div>
+
+
+                    <div class="tableContainer" id="even">
+
+
+
+                <?php include './curSem2.php';?>
+                <br/>
+
+                <?php include './curSem4.php';?>
+                <br/>
+
+                <?php include './curSem6.php';?>
+                <br/>
+                
+                <?php include './curSem8.php';?>
+                <br/>
+
+
+
+
+
+                    </div>
+
+
+                </div>
 
 
                 </div>
