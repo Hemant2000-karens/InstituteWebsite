@@ -25,6 +25,7 @@
       <a target="_blank" href="https://cse.iiitdmj.ac.in">Computer Science and Engineering</a>
       <a href="me.iiitdmj.ac.in">Mechanical Engineering</a>
       <a href="ece.iiitdmj.ac.in">Electrical and Electronics Engineering</a>
+      <a href="sm.iiitdmj.ac.in">Smart Manufacturing</a>
       <a href="design.iiitdmj.ac.in">Design</a>
       <a href="ns.iiitdmj.ac.in">Natural Science</a>
       <a href="ns.iiitdmj.ac.in">Liberal Arts</a>
