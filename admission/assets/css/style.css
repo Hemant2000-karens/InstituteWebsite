@@ -80,7 +80,9 @@
 }
 .ugcr
 {
+  padding: 5px 0;
   max-height: 0;
+  height: auto;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
