@@ -40,9 +40,9 @@
                         <br>
 
                     <ul class="nav nav-tabs">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Menu 1</a></li>
-                        <li><a href="#">Menu 2</a></li>
+                        <li class="active"><a href="#">2020</a></li>
+                        <li><a href="#">2021</a></li>
+                        <li><a href="#">2022</a></li>
                     </ul>
 
                     <br>
