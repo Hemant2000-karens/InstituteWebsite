@@ -1,7 +1,7 @@
 <?php include '../en/connectionDB.php'; ?>
 
 <table class="table">
-	<caption>Semester 1</caption>
+	<caption>Semester 7</caption>
 
 	<thead>
 		<tr>
