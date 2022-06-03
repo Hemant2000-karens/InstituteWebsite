@@ -46,13 +46,13 @@
   <div class="dropdown">
     <button class="dropbtn">Admission</button>
     <div class="dropdown-content">
-      <a target="_blank" href="../admission/undergrad.html">Undergraduate</a>
-      <a target="_blank" href="../admission/postgraduate.html">Post Graduate</a>
-      <a target="_blank" href="../admission/phd.html">Ph.D</a>
-      <a target="_blank" href="../admission/feeStr.html">Fees Structure</a>
+      <a target="_blank" href="../admission/undergrad.php">Undergraduate</a>
+      <a target="_blank" href="../admission/postgraduate.php">Post Graduate</a>
+      <a target="_blank" href="../admission/phd.php">Ph.D</a>
+      <a target="_blank" href="../admission/feeStr.php">Fees Structure</a>
       <a href="#">Seat Matrix(jossaa)</a>
       <a target="_blank" href="./AcademicsGuidlines.php">Academic Guidelines</a>
-      <a target="_blank" href="../admission/curriculum.html">Curriculum</a>
+      <a target="_blank" href="../admission/curriculum.php">Curriculum</a>
     </div>
   </div> 
 

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>About us - Brand</title>
+    <title>Curriculum | IIITDMJ</title>
     <?php include './header.php';?>
 </head>
 
@@ -22,20 +22,9 @@
             </div>
         </div>
     </header>
+
+
     <div class="container">
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto">
@@ -48,13 +37,16 @@
                         <li><a href="#">Menu 2</a></li>
                     </ul>
 
-                    <button data-toggle="collapse" data-target="#demo">Collapsible</button>
+                    <br>
+
+                    <button class="curriculumButton" data-toggle="collapse" data-target="#demo">Odd Sem</button>
+                    <button class="curriculumButton" data-toggle="collapse" data-target="#demo">Even Sem</button>
 
                     <div id="demo" class="collapse">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
 
 
                 </div>

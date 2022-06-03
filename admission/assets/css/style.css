@@ -60,3 +60,13 @@
   padding: 20px 0;
   height: auto;
 }
+.curriculumButton
+{
+  width: 100%;
+  height: auto;
+  background: #0085a1;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 1.2%;
+}
