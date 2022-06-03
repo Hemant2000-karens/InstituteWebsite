@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
                     <div class="site-heading">
-                        <h1>Curriculum</h1><span class="subheading">This is what I do</span>
+                        <h1>Curriculum</h1>
                     </div>
                 </div>
             </div>
@@ -29,8 +29,16 @@
         <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto">
                 <div class="curriculum">
-                    <h3>Undergraduate Curriculum</h3>
-                    <br>
+
+
+
+                <button class="curriculumCollaps" 
+                ><h3>Undergraduate Curriculum</h3></button>
+
+                    <div class="ugcr" id="undergrad">
+
+                        <br>
+
                     <ul class="nav nav-tabs">
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#">Menu 1</a></li>
@@ -40,8 +48,11 @@
                     <br>
 
                 <div class="semNav">
-                    <button class="curriculumButton" data-toggle="collapse" data-target="#demo">Odd Sem</button>
-                    <button class="curriculumButton" data-toggle="collapse" data-target="#demo">Even Sem</button>
+
+                   <button onclick="changeCal(event,'odd')" id = "defaultOpen"
+                   class="curriculumButton">Odd Sem</button>
+                    <button onclick="changeCal(event,'even')" class="curriculumButton">Even Sem</button>
+
                 </div>
 
                 <div class="curriculumTable">
@@ -49,17 +60,17 @@
                     <div class="tableContainer" id="odd">
 
 
-                <?php include './curSem1.php';?>
-                <br/>
+                        <?php include './curSem1.php';?>
+                        <br/>
 
-                <?php include './curSem3.php';?>
-                <br/>
+                        <?php include './curSem3.php';?>
+                        <br/>
 
-                <?php include './curSem5.php';?>
-                <br/>
-                
-                <?php include './curSem7.php';?>
-                <br/>
+                        <?php include './curSem5.php';?>
+                        <br/>
+                        
+                        <?php include './curSem7.php';?>
+                        <br/>
 
 
                     </div>
@@ -68,21 +79,17 @@
                     <div class="tableContainer" id="even">
 
 
+                        <?php include './curSem2.php';?>
+                        <br/>
 
-                <?php include './curSem2.php';?>
-                <br/>
+                        <?php include './curSem4.php';?>
+                        <br/>
 
-                <?php include './curSem4.php';?>
-                <br/>
-
-                <?php include './curSem6.php';?>
-                <br/>
-                
-                <?php include './curSem8.php';?>
-                <br/>
-
-
-
+                        <?php include './curSem6.php';?>
+                        <br/>
+                        
+                        <?php include './curSem8.php';?>
+                        <br/>
 
 
                     </div>
@@ -92,12 +99,175 @@
 
 
                 </div>
+
+            </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
                 <div class="curriculum">
-                    <h3>Postgraduate Curriculum</h3>
+                   
+                    <button class="curriculumCollaps" 
+                ><h3>Postgraduate Curriculum</h3></button>
+
+                    <div class="ugcr" id="undergrad">
+
+                        <br>
+
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Menu 1</a></li>
+                        <li><a href="#">Menu 2</a></li>
+                    </ul>
+
+                    <br>
+
+                <div class="semNav">
+
+                    <button class="curriculumButton" data-toggle="collapse">Even Sem</button>
+
+                </div>
+
+                <div class="curriculumTable">
+                    
+                    <div class="tableContainer" id="odd">
+
+
+                        <?php include './curSem1.php';?>
+                        <br/>
+
+                        <?php include './curSem3.php';?>
+                        <br/>
+
+                        <?php include './curSem5.php';?>
+                        <br/>
+                        
+                        <?php include './curSem7.php';?>
+                        <br/>
+
+
+                    </div>
+
+
+                    <div class="tableContainer" id="even">
+
+
+                        <?php include './curSem2.php';?>
+                        <br/>
+
+                        <?php include './curSem4.php';?>
+                        <br/>
+
+                        <?php include './curSem6.php';?>
+                        <br/>
+                        
+                        <?php include './curSem8.php';?>
+                        <br/>
+
+
+                    </div>
+
+
+                </div>
+
+
+                </div>
+
+
                 </div>
                 <div class="curriculum">
-                    <h3>Ph.D Curriculum</h3>
+                     <button class="curriculumCollaps" 
+                ><h3>Ph.D Curriculum</h3></button>
+
+                    <div class="ugcr" id="undergrad">
+
+                        <br>
+
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Menu 1</a></li>
+                        <li><a href="#">Menu 2</a></li>
+                    </ul>
+
+                    <br>
+
+                <div class="semNav">
+
+                    <button class="curriculumButton" data-toggle="collapse">Even Sem</button>
+
                 </div>
+
+                <div class="curriculumTable">
+                    
+                    <div class="tableContainer" id="odd">
+
+
+                        <?php include './curSem1.php';?>
+                        <br/>
+
+                        <?php include './curSem3.php';?>
+                        <br/>
+
+                        <?php include './curSem5.php';?>
+                        <br/>
+                        
+                        <?php include './curSem7.php';?>
+                        <br/>
+
+
+                    </div>
+
+
+                    <div class="tableContainer" id="even">
+
+
+                        <?php include './curSem2.php';?>
+                        <br/>
+
+                        <?php include './curSem4.php';?>
+                        <br/>
+
+                        <?php include './curSem6.php';?>
+                        <br/>
+                        
+                        <?php include './curSem8.php';?>
+                        <br/>
+
+
+                    </div>
+
+
+                </div>
+
+
+                </div>
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+                <div class="referece">
+
+
+                </div>
+
             </div>
         </div>
     </div>
@@ -143,6 +313,42 @@
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/clean-blog.js"></script>
+    <script type="text/javascript">
+        var coll = document.getElementsByClassName("curriculumCollaps");
+        var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+
+
+
+
+    function changeCal(evt, calName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tableContainer");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("curriculumButton");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(calName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+    </script>
 </body>
 
 </html>

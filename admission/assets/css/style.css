@@ -60,19 +60,55 @@
   padding: 20px 0;
   height: auto;
 }
+
+.curriculumCollaps
+{
+  display: flex;
+  width: 100%;
+  border: none;
+  background: none;
+}
+.curriculumCollaps:after {
+  content: '\002B';
+  float: right;
+  margin-left: 5px;
+}
+.curriculumCollaps.active:after {
+  content: "\2212";
+}
+.ugcr
+{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .curriculumButton
 {
   width: 100%;
   height: auto;
-  background: #0085a1;
+  background: #cecece;
   border: none;
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
   padding: 1.2%;
+  transition-duration: 500ms;
 }
 
 .curriculumButton.active
 {
+  color: #ffffff;
   background: #0085a1;
 }
 .semNav
@@ -92,7 +128,12 @@
   text-align: -webkit-center;
 }
 
+.nav-tabs li
 
+{
+  text-decoration: none;
+  padding: 2% 4%;
+}
 @media only screen
 and (max-width: 1000px)
 {
