@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
                     <div class="site-heading">
-                        <h1 style="font-size: 60px;">Undergrad Admission</h1><span class="subheading">A Blog Theme by Start Bootstrap</span>
+                        <h1 style="font-size: 60px;">Undergrad Admission</h1>
                     </div>
                 </div>
             </div>
