@@ -588,12 +588,12 @@
 					</div>
 
 					<div class="researchText">
-						<span class="rStitle">
+						<h4 class="rStitle">
 							Device Free Target Localization in Wireless Networks Using Machine Learning
-						</span>
-						<span class="rsBody">
+						</h4>
+						<h5 class="rsBody">
 							 Dr. Munesh Singh Agency: SEED Grant from IIITDM Kancheepuram Status: Completed Budget Rs: 8,00,000 Duration 3 Year (2018-2020)
-						</span>
+						</h5>
 						<span class="rsReadMore">
 							Read More
 						</span>

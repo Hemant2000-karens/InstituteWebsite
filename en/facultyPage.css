@@ -444,7 +444,8 @@ html,body
 .researchContent
 {
 	padding: 20px 5%;
-	width: 100%;
+	width: -webkit-fill-available;
+	width: -moz-available;
 }
 .researchBody
 {
