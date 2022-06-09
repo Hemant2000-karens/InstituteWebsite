@@ -1159,6 +1159,13 @@ body{
     height: auto;
     background:url("./Images/aboutBG.jpg") no-repeat center;
     object-fit: scale-down;
+    
+  }
+  .aboutBackground
+  {
+    height: 100%;
+    background: #ffffff54;
+    backdrop-filter: blur(4px);
   }
   .aboutSub h2
   {
@@ -1167,6 +1174,8 @@ body{
     font-family: 'varela round',sans-serif;
     text-align: center;
     font-size: 1.9em;
+    margin: 0;
+    padding: 30px 0;
   }
   .aboutSub
   {
@@ -1176,13 +1185,12 @@ body{
   .aboutContent
   {
     padding: 1.2%;
-    backdrop-filter: blur(8px);
-    background: #f9f9f99e;
   }
   .aboutContent p
   {
-    color: #fff;
-    line-height: 4em;
+    color: #000;
+    line-height: 2em;
+    font-size: 20px;
     font-family: 'varela round',sans-serif;
   }
 
