@@ -718,20 +718,6 @@ and (orientation: landscape)
 /* Lenovo Tab 8 Ends */
 
 
-/* iPhone 6s Landscape Issue */
-
-
-
-
-/* iPhone Setting Ends */
-
-/* Redmi Setting 873x393 landscape */
-
-
-/* Redmi Settings Ends */
-
-/* Other Page Parts -  */
-
 
 
 /* about us page */
@@ -788,3 +774,17 @@ and (orientation: portrait)
 
 
 /* Desktops ------------------ */
+
+
+@media only screen
+and (min-width: 1600px)
+{
+  .secondPartmain
+  {
+    padding: 2% 10%;
+  }
+  .footer .footer-main
+  {
+    padding: 0 10%;
+  }
+}

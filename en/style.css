@@ -439,10 +439,8 @@ body{
 .footer .footer-main
 {
   background: #2f3546;
-  width: 100%;
   height: 300px;
-  margin:0;
-  /* float: left; */
+  margin: 0;
 }
 
 .footer .footer-heading{

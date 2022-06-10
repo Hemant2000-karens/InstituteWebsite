@@ -22,14 +22,492 @@
 					<h2>Syllabus</h2>
 				</div>
 
-				<div class="AcMain">
-
-						
+				<span class="br"></span>
+				<div class="cal_Nav">
+					<button class="calTab" onclick="changeCal(event, 'odd')" id="defaultOpen">
+						Odd Sem
+					</button>
+  				<button class="calTab" onclick="changeCal(event, 'even')">Even Sem
+  				</button>
 				</div>
 
+				<div class="AcMain">
 
-			</body>
-		</div>
+
+					<div class="calMain">
+						<h3>
+							Syllabus for UG 
+							<?php 
+							include 'connectionDB.php';
+							printf("2022-2023");
+    					mysqli_close($link);
+							?>
+						</h3>
+					</div>
+
+
+						<div class="calTable" id="odd">
+							
+
+							<table>
+								<caption>Semester &#x2160;</caption>
+								  <tr>
+    								<th>Branch</th>
+    								<th>Document Link</th>
+  								</tr>
+
+
+
+
+
+  								<tr>
+    								<td>Computer Science and Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+  								<tr>
+    								<td>Mechanical Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Electronics and Communication Engiinering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Smart Manufacuring</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Natural Science</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Design</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Liberal Arts</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+							</table>
+
+
+
+							<table>
+								<caption>Semester &#x2162;</caption>
+								  <tr>
+    								<th>Branch</th>
+    								<th>Document Link</th>
+  								</tr>
+
+
+
+
+
+  								<tr>
+    								<td>Computer Science and Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+  								<tr>
+    								<td>Mechanical Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Electronics and Communication Engiinering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Smart Manufacuring</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Natural Science</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Design</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Liberal Arts</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+							</table>
+
+
+
+							<table>
+								<caption>Semester &#x2164;</caption>
+								  <tr>
+    								<th>Branch</th>
+    								<th>Document Link</th>
+  								</tr>
+
+
+
+
+
+  								<tr>
+    								<td>Computer Science and Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+  								<tr>
+    								<td>Mechanical Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Electronics and Communication Engiinering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Smart Manufacuring</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Natural Science</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Design</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Liberal Arts</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+							</table>
+
+
+							<table>
+								<caption>Semester &#x2166;</caption>
+								  <tr>
+    								<th>Branch</th>
+    								<th>Document Link</th>
+  								</tr>
+
+
+
+
+
+  								<tr>
+    								<td>Computer Science and Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+  								<tr>
+    								<td>Mechanical Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Electronics and Communication Engiinering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Smart Manufacuring</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Natural Science</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Design</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Liberal Arts</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+							</table>
+						
+						</div>
+
+
+
+						<div class="calTable" id="even">
+							
+							<table>
+								<caption>Semester &#x2161;</caption>
+								  <tr>
+    								<th>Branch</th>
+    								<th>Document Link</th>
+  								</tr>
+
+
+
+
+
+  								<tr>
+    								<td>Computer Science and Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+  								<tr>
+    								<td>Mechanical Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Electronics and Communication Engiinering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Smart Manufacuring</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Natural Science</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Design</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Liberal Arts</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+							</table>
+
+
+
+							<table>
+								<caption>Semester &#x2163;</caption>
+								  <tr>
+    								<th>Branch</th>
+    								<th>Document Link</th>
+  								</tr>
+
+
+
+
+
+  								<tr>
+    								<td>Computer Science and Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+  								<tr>
+    								<td>Mechanical Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Electronics and Communication Engiinering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Smart Manufacuring</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Natural Science</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Design</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Liberal Arts</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+							</table>
+
+
+
+							<table>
+								<caption>Semester &#x2165;</caption>
+								  <tr>
+    								<th>Branch</th>
+    								<th>Document Link</th>
+  								</tr>
+
+
+
+
+
+  								<tr>
+    								<td>Computer Science and Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+  								<tr>
+    								<td>Mechanical Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Electronics and Communication Engiinering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Smart Manufacuring</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Natural Science</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Design</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Liberal Arts</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+							</table>
+
+
+							<table>
+								<caption>Semester &#x2167;</caption>
+								  <tr>
+    								<th>Branch</th>
+    								<th>Document Link</th>
+  								</tr>
+
+
+
+
+
+  								<tr>
+    								<td>Computer Science and Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+  								<tr>
+    								<td>Mechanical Engineering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Electronics and Communication Engiinering</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Smart Manufacuring</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Natural Science</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Design</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+  								<tr>
+    								<td>Liberal Arts</td>
+    								<td>Syllabus</td>
+  								</tr>
+
+
+							</table>
+
+						</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
+			</div>
+
+		</body>
+
+	</div>
 
 <?php include './footer.php'?>
 <script>
@@ -47,5 +525,23 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+
+
+function changeCal(evt, calName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("calTable");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("calTab");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(calName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 </script>
 </html>
