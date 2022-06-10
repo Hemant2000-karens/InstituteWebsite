@@ -58,7 +58,22 @@
 		<div class="reseachHighLights">
 			<div class="reseachHighLights_sub">
 				<h2>Research Highlight</h2>
+			</div>
+			<div class="reseachHighLightsContentMain">
+				
 
+				
+
+
+
+
+
+
+
+
+
+
+				
 			</div>
 		</div>
 
