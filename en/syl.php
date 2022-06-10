@@ -23,6 +23,7 @@
 				</div>
 
 				<span class="br"></span>
+				<br>
 				<div class="cal_Nav">
 					<button class="calTab" onclick="changeCal(event, 'odd')" id="defaultOpen">
 						Odd Sem
