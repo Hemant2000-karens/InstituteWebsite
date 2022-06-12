@@ -58,45 +58,7 @@
   								</tr>
 
 
-
-
-
-  								<tr>
-    								<td>Computer Science and Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-
-  								<tr>
-    								<td>Mechanical Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Electronics and Communication Engiinering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Smart Manufacuring</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Natural Science</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Design</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Liberal Arts</td>
-    								<td>Syllabus</td>
-  								</tr>
-
+  									<?php include './Syllabus/UG/oddSem/sem1/sem1.php';?>
 
 							</table>
 
@@ -109,45 +71,7 @@
     								<th>Document Link</th>
   								</tr>
 
-
-
-
-
-  								<tr>
-    								<td>Computer Science and Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-
-  								<tr>
-    								<td>Mechanical Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Electronics and Communication Engiinering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Smart Manufacuring</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Natural Science</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Design</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Liberal Arts</td>
-    								<td>Syllabus</td>
-  								</tr>
+  								<?php include './Syllabus/UG/oddSem/sem3/sem3.php';?>
 
 
 							</table>
@@ -163,43 +87,7 @@
 
 
 
-
-
-  								<tr>
-    								<td>Computer Science and Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-
-  								<tr>
-    								<td>Mechanical Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Electronics and Communication Engiinering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Smart Manufacuring</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Natural Science</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Design</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Liberal Arts</td>
-    								<td>Syllabus</td>
-  								</tr>
+  								<?php include './Syllabus/UG/oddSem/sem5/sem5.php';?>
 
 
 							</table>
@@ -212,45 +100,7 @@
     								<th>Document Link</th>
   								</tr>
 
-
-
-
-
-  								<tr>
-    								<td>Computer Science and Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-
-  								<tr>
-    								<td>Mechanical Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Electronics and Communication Engiinering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Smart Manufacuring</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Natural Science</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Design</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Liberal Arts</td>
-    								<td>Syllabus</td>
-  								</tr>
+  								<?php include './Syllabus/UG/oddSem/sem7/sem7.php';?>
 
 
 							</table>
@@ -268,46 +118,7 @@
     								<th>Document Link</th>
   								</tr>
 
-
-
-
-
-  								<tr>
-    								<td>Computer Science and Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-
-  								<tr>
-    								<td>Mechanical Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Electronics and Communication Engiinering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Smart Manufacuring</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Natural Science</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Design</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Liberal Arts</td>
-    								<td>Syllabus</td>
-  								</tr>
-
+  								<?php include './Syllabus/UG/evenSem/sem2/sem2.php';?>
 
 							</table>
 
@@ -320,45 +131,7 @@
     								<th>Document Link</th>
   								</tr>
 
-
-
-
-
-  								<tr>
-    								<td>Computer Science and Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-
-  								<tr>
-    								<td>Mechanical Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Electronics and Communication Engiinering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Smart Manufacuring</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Natural Science</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Design</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Liberal Arts</td>
-    								<td>Syllabus</td>
-  								</tr>
+  								<?php include './Syllabus/UG/evenSem/sem4/sem4.php';?>
 
 
 							</table>
@@ -373,44 +146,7 @@
   								</tr>
 
 
-
-
-
-  								<tr>
-    								<td>Computer Science and Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-
-  								<tr>
-    								<td>Mechanical Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Electronics and Communication Engiinering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Smart Manufacuring</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Natural Science</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Design</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Liberal Arts</td>
-    								<td>Syllabus</td>
-  								</tr>
+  								<?php include './Syllabus/UG/evenSem/sem6/sem6.php';?>
 
 
 							</table>
@@ -427,82 +163,12 @@
 
 
 
-  								<tr>
-    								<td>Computer Science and Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-
-  								<tr>
-    								<td>Mechanical Engineering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Electronics and Communication Engiinering</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Smart Manufacuring</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Natural Science</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Design</td>
-    								<td>Syllabus</td>
-  								</tr>
-
-  								<tr>
-    								<td>Liberal Arts</td>
-    								<td>Syllabus</td>
-  								</tr>
+  								<?php include './Syllabus/UG/evenSem/sem8/sem8.php';?>
 
 
 							</table>
 
 						</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 						
 			</div>
 
