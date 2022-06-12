@@ -118,7 +118,7 @@
     								<th>Document Link</th>
   								</tr>
 
-  								<?php include './Syllabus/UG/evenSem/sem2/sem2.php';?>
+  								<?php include './Syllabus/UG/EvenSem/sem2/sem2.php';?>
 
 							</table>
 
@@ -131,7 +131,7 @@
     								<th>Document Link</th>
   								</tr>
 
-  								<?php include './Syllabus/UG/evenSem/sem4/sem4.php';?>
+  								<?php include './Syllabus/UG/EvenSem/sem4/sem4.php';?>
 
 
 							</table>
@@ -146,7 +146,7 @@
   								</tr>
 
 
-  								<?php include './Syllabus/UG/evenSem/sem6/sem6.php';?>
+  								<?php include './Syllabus/UG/EvenSem/sem6/sem6.php';?>
 
 
 							</table>
@@ -163,7 +163,7 @@
 
 
 
-  								<?php include './Syllabus/UG/evenSem/sem8/sem8.php';?>
+  								<?php include './Syllabus/UG/EvenSem/sem8/sem8.php';?>
 
 
 							</table>

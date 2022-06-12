@@ -1,5 +1,7 @@
 <?php
-include 'connectionDB.php';
+
+include './connectionDB.php';
+
 $sqlF = "select * from syllabus where semester = 7 && programs = 'UG'";
 
 $result = $link->query($sqlF);
@@ -11,15 +13,20 @@ if ($result->num_rows > 0) {
         echo("<tr>
         		<td>".$row['fullName']."</td>
 	        	<td>
-	        		<a href='./Syllabus/UG/oddSem/sem".$row['semester']."/"."filename"."' target = '_blank'> View </a> 
+	        		<a href='./Syllabus/UG/EvenSem/sem".$row['semester']."/".$row['filename']."' target = '_blank'> View </a> 
 	        		| 
-	        		<a href='./Syllabus/UG/oddSem/sem".$row['semester']."/"."filename"."' download> Download </a> 
+
+	        		<a href='./Syllabus/UG/EvenSem/sem".$row['semester']."/".$row['filename']."' download> Download </a> 
 	        	</td>
         	</tr>");
     }
 } else {
-    echo "No Syllabus available for".$row['semester']."";
+
+   echo("<tr>
+        		<td colspan ='2'> Not Available
+	        	</td>
+        	</tr>");
 }
 
-$link ->close();
+	$link -> close();
 ?>
