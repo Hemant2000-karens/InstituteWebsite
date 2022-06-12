@@ -1120,7 +1120,7 @@ body{
     width: -webkit-fill-available;
     width: -moz-available;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 0.5%;
   }
 
@@ -1148,14 +1148,27 @@ body{
   {
     height: auto;
     padding: ;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
   }
 
-  .reseachHighLightsPrev
+  .rForwButton,
+  .rBackButton
   {
-
+    background: #6d6c6c;
+    padding: 0.5%;
   }
 
-
+  .rForwButton button,
+  .rBackButton button
+  {
+    background: inherit;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+  }
 
   /* About US */
 
@@ -1187,8 +1200,27 @@ body{
   .aboutSub
   {
     padding: 0;
+    padding-bottom: 12px;
   }
 
+  #viewAllButton
+  {
+    border-radius: 22px;
+    padding: 1%;
+    background: linear-gradient(to right, #383838 50%, #ffffff00 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border: 0.25px solid;
+    font-size: 18px;
+    font-family: 'varela round',sans-serif;
+    transition-duration: 600ms;
+  }
+
+   #viewAllButton:hover
+  {
+    background-position: left bottom;
+    color: #ffffff;
+  }
   .aboutContent
   {
     padding: 1.2%;
@@ -1200,6 +1232,7 @@ body{
     line-height: 2em;
     font-size: 20px;
     font-family: 'varela round',sans-serif;
+    margin: 0;
   }
 
 
@@ -1250,12 +1283,13 @@ body{
   }
 
   .deskSpeech{
-    margin-top:2.54%;
+    margin-top: 2.54%;
     text-align: justify;
     line-height: 1.8rem;
-    font-family:'Noto Sans',sans-serif;
-    color: #61731d;
+    font-family: 'Varela Round',sans-serif;
+    color: #000000;
     width: -moz-available;
+    text-shadow: 1px 0px 3px #b1b1b1;
   }
 
   /* Message Desk Ends Here */

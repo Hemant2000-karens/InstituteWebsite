@@ -12,16 +12,14 @@
 
 					<div class="aboutContent">
 				<p>
-				Founded in 2005 as the Jabalpur Engineering College, Indian Institute of Information Technology, Jabalpur focuses on Information Technology enabled Design and Manufacturing. It is a Institute of National Importance under the IIIT Act of the Government of India. The institute appears in the list of top 100 engineering colleges in India.
+				Founded in 2005 as the Jabalpur Engineering College, Indian Institute of Information Technology, Jabalpur focuses on Information Technology enabled Design and Manufacturing.
 
+					It is a Institute of National Importance under the IIIT Act of the Government of India. The institute appears in the list of top 100 engineering colleges in India.
 				</p>
-				<p>
-				The institute offers BTech program for computer science engineering, mechanical engineering and electronics and communication engineering and Bachelor course in Design.
-				</p>
-				<p>
-				Undergraduate students are admitted through Joint Entrance Examination(Main) (JEE MAIN) and the UCEED, while post graduate students are admitted through GATE( for MTech Courses) and CEED( for Design course).
-						</p>
 					</div>
+					<center>
+						<button onclick="viewMore()" id="viewAllButton">Read More</button>
+					</center>
 				</div>
 
 			</div>
@@ -43,8 +41,7 @@
 
 
 				<img src="./icons/opquote.png" style = "height:20px; width: 20px">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
+			I hope that our students and faculty will carry the flag of IIITDM Jabalpur to greater heights by applying their knowledge in an inter-disciplinary manner to provide solutions for various industrial, research and development projects. I hope they will stand as responsible and dedicated technocrats in the nation building.
 			<img src="./icons/clquote.png" style ="height:20px; width:20px;">
 			 ~ (Acting)
 			
@@ -59,21 +56,32 @@
 			<div class="reseachHighLights_sub">
 				<h2>Research Highlight</h2>
 			</div>
-			<div class="reseachHighLightsContentMain">
+			<div class="rContentMain">
+				
+				<div class="rBackButton">
+					<button> < </button>
+				</div>
+
+
+				<div class="rContentbody">
+					
+
+
+
+
 				
 
-				
-
-
-
-
-
-
-
-
-
 
 				
+
+				</div>
+
+
+				<div class="rForwButton">
+					<button> > </button>
+				</div>
+
+
 			</div>
 		</div>
 
@@ -100,6 +108,24 @@
 	</div>
 </div>
 
+
+<script>
+function viewMore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("viewAllButton");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
 
 
 
