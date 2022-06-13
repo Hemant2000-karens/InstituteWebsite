@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:wght@400;700&display=swap');
+html,body
+{
+	margin: 0;
+}
+
+.container
+{
+	padding: 2% 1.5%;
+	background: #f7f7f7;
+	height: 100vh;
+}
+.mainContent
+{
+	top: 50%;
+  left: 50%;
+	transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  position: absolute;
+  width: fit-content;
+	display: inline-grid;
+  justify-items: center;
+  align-items: center;
+}
+.image img
+{
+	height: 100px;
+	width: auto;
+	text-align: center;
+}
+.title
+{
+	text-shadow: 2px 0px 2px #909090, 0px 0px 20px #d5d5d5;
+	text-align: center;
+	font: 24px 'Charis SIL', serif;
+}
+button
+{
+	right: 5%;
+  float: right;
+  position: absolute;
+  bottom: 2.5%;
+  border: 0.2px solid #999;
+  background: none;
+  border-radius: 30px;
+  padding: 2px 2%;
+  font-size: large;
+}
+h4
+{
+	margin: 0;
+}

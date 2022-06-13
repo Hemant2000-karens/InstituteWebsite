@@ -1991,6 +1991,7 @@ input[type="radio"]{
 .cal_Nav
 {
   width: -webkit-fill-available;
+  width: -moz-available;
   display: inline-flex;
   justify-content: space-evenly;
   overflow: hidden;
