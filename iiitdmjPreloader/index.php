@@ -21,8 +21,15 @@
 				</div>
 			</div>
 
-			<button>Skip Preloader</button>
+			<button onClick="location.href='../en'">Skip Preloader</button>
 		</div>
 
 	</body>
+
+	<!-- <script type="text/javascript">
+		function open()
+		{
+			location.assign("../en");
+		}
+	</script> -->
 </html>

@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Charis+SIL:wght@400;700&display=swap');
 html,body
 {
+	background: #f7f7f7;
 	margin: 0;
 }
 
 .container
 {
 	padding: 2% 1.5%;
-	background: #f7f7f7;
 	height: 100%;
 }
 .mainContent

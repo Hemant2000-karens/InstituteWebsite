@@ -11,9 +11,9 @@
     </head>
 
     <body>
-      <div id="overlay" onclick="off()">
+      <!-- <div id="overlay" onclick="off()">
         <img  id="welcomeNotice" src="./Images/csir.jpg">
-    </div>
+    </div> -->
     <?php include 'topheader.php';?>
     <?php include 'Header.php'?>
 <div class="container">
@@ -109,9 +109,9 @@ document.getElementById("defaultOpen").click();
 
 
 
-document.getElementById("overlay").style.display = "block";
-function off() {
-  document.getElementById("overlay").style.display = "none";
-}
+// document.getElementById("overlay").style.display = "block";
+// function off() {
+//   document.getElementById("overlay").style.display = "none";
+// }
 </script>
 </html>
