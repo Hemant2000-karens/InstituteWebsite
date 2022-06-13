@@ -21,15 +21,21 @@
 				</div>
 			</div>
 
+
+			<div class="loader-wrapper">
+				<div class="loader">
+					<div class="loader loader-inner"></div>
+				</div>
+			</div>
+
 			<button onClick="location.href='../en'">Skip Preloader</button>
 		</div>
 
 	</body>
 
-	<!-- <script type="text/javascript">
-		function open()
-		{
-			location.assign("../en");
-		}
-	</script> -->
+	<script type="text/javascript">
+		setTimeout(function(){
+            window.location.href='../en';
+         }, 5000);
+	</script>
 </html>

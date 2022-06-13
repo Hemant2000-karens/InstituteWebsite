@@ -34,9 +34,12 @@ body{
   background-color:#fdfdfd;
   margin: 0;
   padding: 0;
+  animation: fadeInAnimation ease 2000ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-#overlay {
+/*#overlay {
   position: fixed;
   display: none;
   width: 100%;
@@ -58,8 +61,20 @@ body{
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
 }
+*/
 
 
+@keyframes fadeInAnimation 
+{
+  0% 
+  {
+    opacity: 0;
+  }
+  100% 
+  {
+    opacity: 1;
+  }
+}
 
 /* Government of India top header */
 
