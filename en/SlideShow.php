@@ -5,26 +5,24 @@
     <?php include './connectionDB.php';
 
 
-$sqlF = "SELECT * from slideshow;";
+    $sqlF = "SELECT * from slideshow;";
 
-$result = $link->query($sqlF);
+    $result = $link->query($sqlF);
 
-if ($result->num_rows > 0) {
-    
-    while($row = $result->fetch_assoc()) {
-    
+    if ($result->num_rows > 0) 
+    {
+        
+      while($row = $result->fetch_assoc()) 
+      {
         echo ("<div class = '".$row['class']."'"."style='background-image:url(\"./Images/Slider/".$row['image']."\")'>"."<div class='SlideshowContainer'><div class='caption'><h1>".$row['heading']."</h1><p>".$row['paragraph']."</p></div></div></div>");
+        }
+    } 
+    else 
+    {
+      echo "No Current update";
     }
-} else {
-    echo "No Current update";
-}
-
-
-
-$link ->close();
-
-
-?>
+    $link ->close();
+    ?>
 
      </div>
   <!-- controls  -->
