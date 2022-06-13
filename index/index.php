@@ -36,6 +36,6 @@
 	<script type="text/javascript">
 		setTimeout(function(){
             window.location.href='../en';
-         }, 5000);
+         }, 3000);
 	</script>
 </html>
