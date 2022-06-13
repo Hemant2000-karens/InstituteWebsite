@@ -1,70 +1,30 @@
 <section class="home">
 <div class="slider">
-        <div class="slide active" style="background-image: url('./Images/Slider/img01.jpg')">
-            <div class="SlideshowContainer">
-                <div class="caption">
-                    <h1>Lab Complex</h1>
-                    <p>Looking Cool</p>
-                </div>
-            </div>
-        </div>
-
         
-        <div class="slide" style="background-image: url('./Images/Slider/img02.jpg')">
-            <div class="SlideshowContainer">
-                <div class="caption">
-                    <h1>Lab Complex 2</h1>
-                    <p>Looking Awesome</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="slide" style="background-image: url('./Images/Slider/img04.jpg')">
-            <div class="SlideshowContainer">
-                <div class="caption">
-                    <h1>Group Photograph</h1>
-                    <p>All Faculty and Director sir with Vice President</p>
-                </div>
-            </div>
-        </div>
+    <?php include './connectionDB.php';
 
 
-        <div class="slide" style="background-image: url('./Images/Slider/img03.jpg')">
-            <div class="SlideshowContainer">
-                <div class="caption">
-                    <h1>Institute Lectures Hall</h1>
-                    <p>Front View</p>
-                </div>
-            </div>
-        </div>
+$sqlF = "SELECT * from slideshow;";
 
-<div class="slide" style="background-image: url('./Images/Slider/img05.jpeg')">
-            <div class="SlideshowContainer">
-                <div class="caption">
-                    <h1>Administrative Building</h1>
-                    <p> Side View</p>
-                </div>
-            </div>
-        </div>
+$result = $link->query($sqlF);
 
-<div class="slide" style="background-image: url('./Images/Slider/img06.jpg')">
-            <div class="SlideshowContainer">
-                <div class="caption">
-                    <h1>Design Workshop</h1>
-                    <p>Detailed View</p>
-                </div>
-            </div>
-        </div>
+if ($result->num_rows > 0) {
+    
+    while($row = $result->fetch_assoc()) {
+    
+        echo ("<div class = '".$row['class']."'"."style='background-image:url(\"./Images/Slider/".$row['image']."\")'>"."<div class='SlideshowContainer'><div class='caption'><h1>".$row['heading']."</h1><p>".$row['paragraph']."</p></div></div></div>");
+    }
+} else {
+    echo "No Current update";
+}
 
-<div class="slide" style="background-image: url('./Images/Slider/INTL_women.jpg')">
-    <div class="SlideshowContainer">
-        <div class="caption">
-            <h1>International Women's Day</h1>
-            <p>8<sup>th</sup>March 2022</p>
-        </div>
-    </div>
-</div>
 
+
+$link ->close();
+
+
+?>
 
      </div>
   <!-- controls  -->
