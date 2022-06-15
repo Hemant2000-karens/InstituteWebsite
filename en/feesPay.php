@@ -25,9 +25,20 @@
 				
 				<div class="AcMain">
 
+					<h4>To Pay Fee, Kindly visit Given Link</h4>
+
+					<b>Only for Existing students</b>
 
 
+					<br/>
 
+					<a href="https://easypay.axisbank.co.in/easyPay/makePayment?mid=MzY3NjY=">
+						Axis Bank Payment Gateway
+
+					</a>
+
+					<br>
+					New Addmission Students - Link 
 
 				</div>
 			</body>

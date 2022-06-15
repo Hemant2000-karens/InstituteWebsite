@@ -87,7 +87,7 @@
       <a href="./c_mess.php">Students Mess</a>
       <a href="./feesPay.php">Fees Payment</a>
       <a href="./antiRagg.php">Anti Ragging</a>
-      <a href="./commingSoon.html">Primary Health Center</a>
+      <a href="./comingSoon.html">Primary Health Center</a>
       <a href="./commingSoon.html">Activities</a>
       <a href="./commingSoon.html">Gymkhana</a>
       <a href="./commingSoon.html">Counseling</a>
