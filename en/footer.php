@@ -76,15 +76,15 @@
   <button class="officals">For Officials
   </button>
     <div class="office">
-      <a href="#">E-TENDER</a> |
-      <a href="#">PLACEMENT</a>|
-      <a href="#">RAJBHASA</a>|
-      <a href="#">ORDINANCES</a>|
-      <a href="#">QIP PROGRAMS</a>|
-      <a href="#">TENDERS</a>|
-      <a href="#">INTRAWEB</a>|
-      <a href="#">IIITDMJ E-MAIL</a>|
-      <a href="#">IIIT COUNCIL</a>
+      <a target="_blank" href="https://mhrd.euniwizarde.com/">E-TENDER</a> |
+      <a target="_blank" href="#">PLACEMENT</a> |
+      <a target="_blank" href="https://www.iiitdmj.ac.in/rajbhasha.iiitdmj.ac.in">RAJBHASA</a> |
+      <a target="_blank" href="https://www.iiitdmj.ac.in/administration/downloads/Ordinances%20of%20PDPM-IIITDM%20Jabalpur.pdf">ORDINANCES</a> |
+      <a target="_blank" href="https://www.iiitdmj.ac.in/QIP.php">QIP PROGRAMS</a> |
+      <a target="_blank" href="https://www.iiitdmj.ac.in/tenders.php">TENDERS</a> |
+      <a target="_blank" href="http://172.27.16.19/">INTRAWEB</a> |
+      <a target="_blank" href="https://mail.google.com/a/iiitdmj.ac.in">IIITDMJ E-MAIL</a> |
+      <a target="_blank" href="https://iiitcouncil.com/">IIIT COUNCIL</a>
     </div>
     <div class="footerSecondary">
     <div class="Copyright">
@@ -141,15 +141,15 @@
 
   <div class="footer-secondary">
     <div class="footer-secondary-links">
-      <a href="#">E-TENDER</a>
-      <a href="#">PLACEMENT</a>
-      <a href="#">RAJBHASA</a>
-      <a href="#">ORDINANCES</a>
-      <a href="#">QIP PROGRAMS</a>
-      <a href="#">TENDERS</a>
-      <a href="#">INTRAWEB</a>
-      <a href="#">IIITDMJ E-MAIL</a>
-      <a href="#">IIIT COUNCIL</a>
+      <a target="_blank" href="https://mhrd.euniwizarde.com/">E-TENDER</a>
+      <a target="_blank" href="#">PLACEMENT</a>
+      <a target="_blank" href="https://www.iiitdmj.ac.in/rajbhasha.iiitdmj.ac.in">RAJBHASA</a>
+      <a target="_blank" href="https://www.iiitdmj.ac.in/administration/downloads/Ordinances%20of%20PDPM-IIITDM%20Jabalpur.pdf">ORDINANCES</a>
+      <a target="_blank" href="https://www.iiitdmj.ac.in/QIP.php">QIP PROGRAMS</a>
+      <a target="_blank" href="https://www.iiitdmj.ac.in/tenders.php">TENDERS</a>
+      <a target="_blank" href="http://172.27.16.19/">INTRAWEB</a>
+      <a target="_blank" href="https://mail.google.com/a/iiitdmj.ac.in">IIITDMJ E-MAIL</a>
+      <a target="_blank" href="https://iiitcouncil.com/">IIIT COUNCIL</a>
     </div>
   </div>
   <div class="footer-secondary">
