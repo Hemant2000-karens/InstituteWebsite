@@ -190,6 +190,16 @@ and (max-width: 960px)
 /* Dean Page Setting */
 
 /* tabletView Dean  ipad  and ipad pro 12" */
+@media only screen 
+and (max-width: 1200px)
+and (min-width: 960px)
+{
+  .topnav
+  {
+    padding: 0 3%;
+  }
+}
+
 
 @media screen and (max-width:1200px)
 {
