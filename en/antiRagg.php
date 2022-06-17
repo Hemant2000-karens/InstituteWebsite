@@ -37,26 +37,26 @@
   								<tr>
   									<td>Dr. Tanuja Sheroy</td>
   									<td>Dean(Student)</td>
-  									<td><a href="tel:+917612794412">+91-761-2794412</a></td>
+  									<td><a href="tel:+917612794412">+91761-2794412</a></td>
   								</tr>
 
   								<tr>
   									<td>Dr. Tanuja Sheroy</td>
   									<td>Dean(Student)</td>
-  									<td><a href="tel:+917612794412">+91-761-2794412</a></td>
+  									<td><a href="tel:+917612794412">+91761-2794412</a></td>
   								</tr>
 
   								<tr>
   									<td>Dr. Tanuja Sheroy</td>
   									<td>Dean(Student)</td>
-  									<td><a href="tel:+917612794412">+91-761-2794412</a></td>
+  									<td><a href="tel:+917612794412">+91761-2794412</a></td>
   								</tr>
 
 
   								<tr>
   									<td>Dr. Tanuja Sheroy</td>
   									<td>Dean(Student)</td>
-  									<td><a href="tel:+917612794412">+91-761-2794412</a></td>
+  									<td><a href="tel:+917612794412">+91761-2794412</a></td>
   								</tr>
 
   					</table> 
