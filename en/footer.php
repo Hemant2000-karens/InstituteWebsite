@@ -40,7 +40,7 @@
 
     <button type="button" class="collaps">KNOW MORE</button>
       <div class="content">
-        <a href="#">IIIT ACT</a><br>
+        <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT ACT</a><br>
         <a href="#">Undergraduate</a><br>
         <a href="#">Postgraduate</a><br>
         <a href="#">Fees Structure</a><br>
@@ -102,7 +102,7 @@
     <div class="footer-subgroup">
       <h4>KNOW MORE</h4>
       <div class = "footer-subgroup-links">
-        <a href="#">IIIT ACT</a><br>
+        <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT ACT</a><br>
         <a href="#">Undergraduate</a><br>
         <a href="#">Postgraduate</a><br>
         <a href="#">Fees Structure</a><br>
