@@ -646,11 +646,6 @@ resolution (mobile and tablet iPad)*/
 @media screen
 and (max-width: 778px)
 {
-  .secondPartGrid
-  {
-    display: grid;
-    grid-template-columns: auto;
-  }
   .deskTitle
   {
     font-size: 30px;

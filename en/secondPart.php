@@ -87,9 +87,9 @@
 		</div>
 
 
-		<div class="reseachHighLights">
-			<div class="reseachHighLights_sub">
-				<h2>To be Decided</h2>
+		<div class="campusTour">
+			<div class="campusTour_sub">
+				<h2>Campus Tour</h2>
 
 			</div>
 		</div>		

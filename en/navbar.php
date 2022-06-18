@@ -90,7 +90,7 @@
       <a href="./comingSoon.html">Primary Health Center</a>
       <a href="./commingSoon.html">Activities</a>
       <a href="./commingSoon.html">Gymkhana</a>
-      <a href="./commingSoon.html">Counseling</a>
+      <a href="./counselling.php">Counseling</a>
     </div>
   </div> 
 

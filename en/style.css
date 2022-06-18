@@ -1134,7 +1134,8 @@ body{
     width: -webkit-fill-available;
     width: -moz-available;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 
+    repeat(auto-fit,minmax(344px,1fr));
     gap: 0.5%;
   }
 
@@ -1183,6 +1184,38 @@ body{
     color: #fff;
     font-size: 24px;
   }
+
+
+
+  /* Campus tour */
+
+
+  .campusTour
+  {
+    width: 100%;
+    height: auto;
+    background: #f3f3f3;
+  }
+  .campusTour h2
+  {
+    color: #262626;
+    text-shadow: 2px 0px 4px #646464, 
+    0px 0px 0px #000000;
+    font-family: 'varela round',sans-serif;
+    text-align: center;
+    font-size: 1.9em;
+  }
+  .campusTour_sub
+  {
+    padding: 1% 1.2%;
+  }
+
+
+
+
+
+
+
 
   /* About US */
 
@@ -2320,6 +2353,67 @@ input[type="radio"]{
     font-size: 20px;
   }
   /* ends Ragging */
+
+  
+  /* PHC */
+
+
+
+  /* PHC */
+
+
+  /* Activity */
+
+
+
+  /* Activity */
+
+
+  /* Gymkhana */
+
+
+
+  /* Gymkhana */
+
+
+  /* Counseling */
+
+  .counselingContent
+  {
+    padding: 0;
+  }
+
+  .counselingContent p
+  {
+    font-family: 'Varela Round';
+    font-size: 18.5px;
+    color: #534e4e;
+    text-shadow: 1px 0px 1px #777777;
+    line-height: 1.5em;
+    word-spacing: 3px;
+  }
+
+  ol.consell li
+  {
+    color: #565656;
+    padding: 1%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: ui-sans-serif;
+    font-size: 20px;
+  }
+
+
+  /* Counseling */
+
+
+
+
+
+
+
+
+
 
 /* Students Corners Ends */
 
