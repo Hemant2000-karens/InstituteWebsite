@@ -51,14 +51,14 @@
 
   								<tr>
   									<td>Dr. Vinod Kumar Jain</td>
-  									<td>Head Counseling Service</td>
+  									<td>Core Faculty Team</td>
   									<td><a href="tel:+917612794226">+9191761-2794226</a></td>
   									<td><a href="mailto:vkjain@iiitdmj.ac.in">vkjain@iiitdmj.ac.in</a></td>
   								</tr>
 
   								<tr>
   									<td>Dr. Manish Kumar Bajpai</td>
-  									<td>Head Counseling Service</td>
+  									<td>Core Faculty Team</td>
   									<td><a href="tel:+917612794227">+9191761-2794227</a></td>
   									<td><a href="mailto:mkbajpai@iiitdmj.ac.in">mkbajpai@iiitdmj.ac.in</a></td>
   								</tr>

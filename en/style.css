@@ -2385,7 +2385,7 @@ input[type="radio"]{
 
   .counselingContent p
   {
-    font-family: 'Varela Round';
+    font-family: 'Varela Round',sans-serif;
     font-size: 18.5px;
     color: #534e4e;
     text-shadow: 1px 0px 1px #777777;
@@ -2397,6 +2397,7 @@ input[type="radio"]{
   {
     color: #565656;
     padding: 1%;
+    font-family: 'Noto sans',sans-serif;
     word-spacing: 2px;
     letter-spacing: 1px;
     font-family: ui-sans-serif;
