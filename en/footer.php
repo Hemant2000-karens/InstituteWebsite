@@ -41,16 +41,16 @@
     <button type="button" class="collaps">KNOW MORE</button>
       <div class="content">
         <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT ACT</a><br>
-        <a href="#">Undergraduate</a><br>
+        <!-- <a href="#">Undergraduate</a><br>
         <a href="#">Postgraduate</a><br>
         <a href="#">Fees Structure</a><br>
         <a href="#">Seat Matrix</a><br>
         <a href="#">Academic Guidelines</a><br>
-        <a href="#">Curriculum</a><br>
-</div>
+        <a href="#">Curriculum</a><br> -->
+      </div>
 
-<button  type="button" onclick="function()" class="collaps">Important Links</button>
-<div class="content">
+    <button  type="button" onclick="function()" class="collaps">Important Links</button>
+      <div class="content">
         <a href="#">Academic Calendar</a><br>
         <a href="#">Useful Information</a><br>
         <a href="#">Refund Rule</a><br>
@@ -58,18 +58,18 @@
         <a href="#">Important Forms</a><br>
         <a href="#">Internal Circulars</a><br>
         <a href="#">External Circulars</a><br>
-</div>
+      </div>
 
-<button type="button" class="collaps">OTHERS</button>
-<div class="content">
-        <a href="#">SC/ST and Minority Cell</a><br>
-        <a href="#">Women Cell</a><br>
+      <button type="button" class="collaps">OTHERS</button>
+      <div class="content">
+        <a href="https://www.iiitdmj.ac.in/STSCCell/">SC/ST and Minority Cell</a><br>
+        <a href="https://www.iiitdmj.ac.in/womencell/">Women Cell</a><br>
         <a href="#">Grievance Redressal Cell</a><br>
         <a href="#">Anti Ragging Squad</a><br>
         <a href="#">Seat Matrix</a><br>
         <a href="#">Tenders</a><br>
         <a href="./Jobs/">Career Opportunities</a><br>
-</div>
+      </div>
 
 
 <div class="footerSecondary">
@@ -103,12 +103,12 @@
       <h4>KNOW MORE</h4>
       <div class = "footer-subgroup-links">
         <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT ACT</a><br>
-        <a href="#">Undergraduate</a><br>
+      <!--   <a href="#">Undergraduate</a><br>
         <a href="#">Postgraduate</a><br>
         <a href="#">Fees Structure</a><br>
         <a href="#">Seat Matrix</a><br>
         <a href="#">Academic Guidelines</a><br>
-        <a href="#">Curriculum</a><br>
+        <a href="#">Curriculum</a><br> -->
       </div>
     </div>
 
@@ -128,8 +128,8 @@
     <div class="footer-subgroup">
       <h4>OTHERS</h4>
       <div class = "footer-subgroup-links">
-        <a href="#">SC/ST and Minority Cell</a><br>
-        <a href="#">Women Cell</a><br>
+        <a href="https://www.iiitdmj.ac.in/STSCCell/">SC/ST and Minority Cell</a><br>
+        <a href="https://www.iiitdmj.ac.in/womencell/">Women Cell</a><br>
         <a href="#">Grievance Redressal Cell</a><br>
         <a href="#">Anti Ragging Squad</a><br>
         <a href="#">Seat Matrix</a><br>
