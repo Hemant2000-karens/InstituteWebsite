@@ -780,10 +780,20 @@ and (orientation: portrait)
 
 /* Desktops ------------------ */
 
+@media only screen
+and (min-width: 1200px)
+{
+  .facultyTabs
+  {
+    margin: 0 10%;
+  }
+}
+
 
 @media only screen
 and (min-width: 1600px)
 {
+
   .secondPartmain
   {
     padding: 2% 10%;

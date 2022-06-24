@@ -83,7 +83,7 @@ body{
 }
 
 .container{
-  margin: 8px 18px !important;
+  margin: 8px 13px !important;
 }
 
 .topheader{
@@ -982,6 +982,37 @@ body{
     padding: 2% 10%;
   }
 
+
+  .facultyTabs
+  {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    display: inline-flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    border-radius: 4px;
+    margin: 0;
+    background-color: #e5e5e5;
+  }
+  .facultyTabs button
+  {
+    width: inherit;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin: 0;
+  }
+  .facultyTabs button.active 
+  {
+    background-color: #1b3a4b;
+    color: #f2f2f2;
+    transition-duration: 2000ms;
+  }
   .faculty_grid
   {
     width: -webkit-fill-available;

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Blog Post - Brand</title>
+    <title>Admission | Ph.D</title>
     <?php include './header.php';?>
 </head>
 

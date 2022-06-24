@@ -384,7 +384,7 @@ html,body
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 23px;
+  padding: 14px 18px;
   transition: 0.3s;
   font-size: 20px;
 }
@@ -470,7 +470,14 @@ html,body
 
 
 
-
+@media only screen
+and (min-width: 1500px)
+{
+	.publicationBody
+	{
+		padding: 25px 10%;
+	}
+}
 
 
 

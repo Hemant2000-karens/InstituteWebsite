@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Home - Brand</title>
+    <title>Admission | Undergrad</title>
 
     <?php include './header.php';?>
 </head>

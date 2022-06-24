@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>About us - Brand</title>
+    <title>Admission | FeesStructure</title>
     <?php include './header.php';?>
 </head>
 
