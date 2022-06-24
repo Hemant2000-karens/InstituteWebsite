@@ -48,7 +48,6 @@
 					</div>
 					<br>
 
-
 					<div class="faculty_grid">
 						
 						<?php 
@@ -70,9 +69,6 @@
 							
 					</div>
 				</div>
-
-				<br>
-				
 				<div class="facultyList" id="me">
 					<div class="deptHeading">
 						<h3>Mechanical Enginnering</h3>
@@ -99,9 +95,6 @@
 
 					</div>
 				</div>
-
-				<br>
-
 				<div class="facultyList" id="ece">
 					<div class="deptHeading">
 						<h3>Electrical and Electronics Engineering</h3>
@@ -125,9 +118,6 @@
 						?>
 					</div>
 				</div>
-
-				<br>
-
 				<div class="facultyList" id="des">
 					<div class="deptHeading">
 						<h3>Design</h3>
@@ -151,8 +141,6 @@
 						?>
 					</div>
 				</div>
-
-				<br>
 				
 				<div class="facultyList" id="ns">
 					<div class="deptHeading">
@@ -177,13 +165,10 @@
 					</div>
 				</div>
 				
-				<br>
-
 				<div class="facultyList" id="la">
 				<div class="deptHeading">
 					<h3>Liberal Arts</h3>
 				</div>
-				<br>
 				<div class="faculty_grid">
 					
 					<?php
