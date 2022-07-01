@@ -127,12 +127,14 @@ body{
 /* Top  Header closed */
 
 
-.header
+.header a
 {
   text-shadow: 1px 0px 4px #a6a6a6;
   font-family: 'Varela Round', sans-serif;
   display: inline-flex;
   height: auto;
+  color: #000;
+  text-decoration: none;
   gap: 1.2%;
   padding: 0 4%;
   align-items: center;
@@ -140,12 +142,12 @@ body{
   width: -moz-available;
 }
 
-.header h1
+.header a h1
 {
   height: 100%;
   font-size: 24px;
 }
-.header img
+.header a img
 {
   width: 90px;
   height: auto;
