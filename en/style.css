@@ -691,7 +691,7 @@ body{
 }
 .home .slide.active .caption h1{
   opacity:0;
-  animation: captionText .8s ease forwards;
+  animation: captionText .7s ease forwards;
   /*animation-delay:1s;*/
 }
 .home .caption p{
@@ -701,7 +701,7 @@ body{
 }
 .home .slide.active .caption p{
   opacity:0;
-  animation: captionText .8s ease forwards;
+  animation: captionText .7s ease forwards;
   /*animation-delay:1.2s;*/
 }
 .home .caption a{
@@ -714,8 +714,8 @@ body{
 
 .home .slide.active .caption a{
   opacity:0;
-  animation: captionText .5s ease forwards;
-  animation-delay:1.4s;
+  animation: captionText .7s ease forwards;
+ /*animation-delay:1.4s;*/
 }
 
 @keyframes captionText{
