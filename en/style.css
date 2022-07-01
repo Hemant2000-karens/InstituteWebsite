@@ -672,6 +672,7 @@ body{
    flex-grow: 1;
 }
 .home .caption{
+  font-family: 'varela round',sans-serif;
   background-color: #f9f9f99e;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
