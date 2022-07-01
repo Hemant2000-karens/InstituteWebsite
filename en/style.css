@@ -539,15 +539,15 @@ body{
 .footer-main .footer-subgroup a{
   text-decoration: none;
   color: #e4eff8;
-  font-size: 10px;
-  transition-duration: 120ms;
+  font-size: 13px;
+  transition-duration: 60ms;
   transition-timing-function: ease-in-out;
 }
 
 .footer-main .footer-subgroup a:hover
 {
   color: white;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .footer-secondary{
@@ -563,8 +563,8 @@ body{
   text-decoration: none;
   color: #7a839a;
   padding:0 15px;
-  font-size: 10px;
-  transition-duration: 120ms;
+  font-size: 13px;
+  transition-duration: 60ms;
 }
 
 .footer-secondary-links a:hover
