@@ -38,7 +38,7 @@
     </div>
 
 
-    <button type="button" class="collaps">KNOW MORE</button>
+    <button type="button" class="collaps">Know More</button>
       <div class="content">
         <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT ACT</a><br>
         <!-- <a href="#">Undergraduate</a><br>
@@ -60,7 +60,7 @@
         <a href="#">External Circulars</a><br>
       </div>
 
-      <button type="button" class="collaps">OTHERS</button>
+      <button type="button" class="collaps">Others</button>
       <div class="content">
         <a href="https://www.iiitdmj.ac.in/STSCCell/">SC/ST and Minority Cell</a><br>
         <a href="https://www.iiitdmj.ac.in/womencell/">Women Cell</a><br>
