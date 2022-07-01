@@ -94,7 +94,7 @@
       // stop timer 
       clearInterval(timer);
       // then started again timer
-      timer=setInterval(autoPlay,8000);
+      timer=setInterval(autoPlay,7000);
    }
  
   
@@ -102,7 +102,7 @@
       nextSlide();
   }
 
-  let timer=setInterval(autoPlay,8000);
+  let timer=setInterval(autoPlay,7000);
 
 
      </script>
