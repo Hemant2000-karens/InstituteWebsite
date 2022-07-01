@@ -1271,8 +1271,9 @@ body{
   .aboutSub h2
   {
     color: #262626;
-    text-shadow: 1px 0px 2px #000000, 
-    0px 0px 2px #3057a0e0;
+    text-shadow: 
+    2px 0px 4px #646464, 
+    0px 0px 0px #000000;
     font-family: 'varela round',sans-serif;
     text-align: center;
     font-size: 1.9em;
@@ -1354,6 +1355,8 @@ body{
     font-weight: 500;
     letter-spacing: 0.11rem;
     color: #1a1e2c;
+    text-shadow: 2px 0px 4px #646464, 0px 0px 0px #000000;
+    font-family: 'Varela Round',sans-serif;
   }
   .deskTitle img
   {
