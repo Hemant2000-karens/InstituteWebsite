@@ -52,6 +52,16 @@
 
 
 
+
+
+			<div class="campusTour">
+			<div class="campusTour_sub">
+				<h2>Campus Tour</h2>
+
+			</div>
+		</div>	
+
+
 		<div class="reseachHighLights">
 			<div class="reseachHighLights_sub">
 				<h2>Research Highlight</h2>
@@ -85,25 +95,6 @@
 
 			</div>
 		</div>
-
-
-		<div class="campusTour">
-			<div class="campusTour_sub">
-				<h2>Campus Tour</h2>
-
-			</div>
-		</div>		
-
-
-
-
-
-
-
-
-
-
-
 
 
 	</div>
