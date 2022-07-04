@@ -75,7 +75,7 @@
 			</div>
 			<section class="secondAbout">
 				<div class="otherPage">
-					<a href="./bogMinutes">Finance Committee Minutes</a> <a href="./bogAgenda">Finance Committee Agenda</a>
+					<a href="./finanAgm.php">Finance Committee Agenda / Minutes</a>
 				</div>
 			</section>
 
@@ -85,34 +85,6 @@
 <?php include './footer.php'?>
 
 <script type="text/javascript">
-	var button = document.getElementsByClassName("card");
-	button.addEventListener("Click",linkOpen);
-
-
-	function linkOpen(str)
-	{
-		switch(str)
-		{
-			case 'bod':
-				window.open('https://www.google.com', '_blank');
-				break;
-			case 'adm':
-				window.open('https://www.facebook.com', '_blank');
-				break;
-			case 'lad':
-				window.open('https://www.instagram.com', '_blank');
-				break;
-			case 'ms':
-				window.open('https://www.twitter.com', '_blank');
-				break;
-			case 'fc':
-				window.open('https://www.linkedin.com', '_blank');
-				break;
-			case 'mv':
-				window.open('https://www.oracle.com', '_blank');
-				break;
-		}
-
-	}
+	
 </script>
 </html>
