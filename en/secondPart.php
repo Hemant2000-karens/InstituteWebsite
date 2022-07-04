@@ -112,13 +112,13 @@
 					<div class="resBody">
 
 						<div class="resImage">
-							<img src="./Images/rsImage/mlid.jpg">
+							<img src="./Images/rsImage/iot.jpg">
 						</div>
 						<div class="resText">
 							
-							<h4>Machine Learning Based Intrusion Detection Systems for IoT Applications</h4>
+							<h4>Security of RPL based 6LoWPAN Networks in the Internet of Things: A Review</h4>
 
-							<h5>Internet of Things (IoT) and its applications are the most popular research areas at present. The characteristics of IoT on one side make it easily applicable to real-life applications, whereas on the other side expose it to cyber threats.</h5>
+							<h5>Internet of Things (IoT) is one of the fastest emerging networking paradigms enabling a large number of applications for the benefit of mankind.</h5>
 
 								<button>Read More</button>
 						</div>
