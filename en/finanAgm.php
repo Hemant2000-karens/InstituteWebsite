@@ -80,8 +80,6 @@
 							<thead>
 								<tr>
     							<th>Events</th>
-    							<th>Anex - 1</th>
-    							<th>Anex - 2</th>
     							<th>Date</th>
   							</tr>
   							</thead>
@@ -89,7 +87,7 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM bogMinute";
+  								$sql_query = "SELECT * FROM financMinute";
 
 										$result = $link->query($sql_query);
 
