@@ -11,7 +11,7 @@
       <a href="admins.php">Administrations</a>
       <a href="Dean.php">Dean</a>
       <a href="lAdmins.php">Local Administration</a>
-      <a href="./commingSoon.html">Members of Senate</a>
+      <a href="./comingSoon.html">Members of Senate</a>
       <!--<a href="senate.php">Members of Senate</a>-->
       <a href="bwc.php">Building Works Committee</a>
     </div>
@@ -85,12 +85,12 @@
     <div class="dropdown-content">
       <a href="./hostel.php">Hostels</a>
       <!-- <a href="./c_mess.php">Students Mess</a> -->
-      <a href="./commingSoon.html">Student Mess</a>
+      <a href="./comingSoon.html">Student Mess</a>
       <a href="./feesPay.php">Fees Payment</a>
       <a href="./antiRagg.php">Anti Ragging</a>
       <a href="./comingSoon.html">Primary Health Center</a>
-      <a href="./commingSoon.html">Activities</a>
-      <a href="./commingSoon.html">Gymkhana</a>
+      <a href="./comingSoon.html">Activities</a>
+      <a href="./comingSoon.html">Gymkhana</a>
       <a href="./counselling.php">Counseling</a>
     </div>
   </div> 
@@ -104,9 +104,9 @@
     <button class="dropbtn">MoU 
     </button>
     <div class="dropdown-content">
-      <a href="./commingSoon.html">International Institute</a>
-      <a href="./commingSoon.html">Industry</a>
-      <a href="./commingSoon.html">Indian Institute</a>
+      <a href="./comingSoon.html">International Institute</a>
+      <a href="./comingSoon.html">Industry</a>
+      <a href="./comingSoon.html">Indian Institute</a>
     </div>
   </div> 
 

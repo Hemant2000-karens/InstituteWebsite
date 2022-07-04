@@ -2557,6 +2557,17 @@ input[type="radio"]{
   width: -webkit-fill-available;
   width: -moz-available;
 }
+.otherPage a
+{
+  padding: 12px 0;
+  text-decoration: none;
+  color: #025483;
+  font-size: 18px;
+}
+.otherPage a:hover
+{
+  color: #52290a;
+}
 .card
 {
   margin: 20px;
