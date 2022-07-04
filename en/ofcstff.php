@@ -28,69 +28,24 @@
 		<div class = "tableContainer">
 			<div class="office_of_Dean">
 
-				<div class="office_of_Dean profile1">
-					<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
-					<div class="office_of_Dean text">
-						<h2>Shri R P Dwivedi</h2>
-						<h3>Joint Registrar</h3>
-						<h3>Academics</h3>
-					</div>
-				</div>
+				<?php include './connectionDB.php';
 
-					<br>
+					$sql_query = "SELECT * FROM officeAdministration";
 
-					<div class="office_of_Dean profile1">
-					<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
-					<div class="office_of_Dean text">
-						<h2>Mrs. Swapnali D Gadekar</h2>
-						<h3>Deputy Registrar</h3>
-						<h3>Finance & Accounts</h3>
-					</div>
-				</div>
+					$result = $link->query($sql_query);
 
-						<br>
+					if ($result->num_rows > 0)
+					{
+					    while ($rows = $result->fetch_assoc())
+					    {
 
-					<div class="office_of_Dean profile1">
-					<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
-					<div class="office_of_Dean text">
-						<h2>Shri Rizwan Ahmed</h2>
-						<h3>Deputy Registrar</h3>
-						<h3>Establishment, <br>General Administration <br> and Internal Audit</h3>
-					</div>
-				</div>
+					    	echo("<div class='office_of_Dean profile1'>"."<img src='./Images/rsImage/researchStaffImg/".$rows['photo']."' alt ='".$rows['name']."'/><div class='office_of_Dean text'> <h2>".$rows['name']."</h2><h3>".$rows['post']."</h3>
+					    		<h3>".$rows['department']."</h3> </div></div> <br>");
 
-					<br>
-					
-					<div class="office_of_Dean profile1">
-					<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
-					<div class="office_of_Dean text">
-						<h2>Shri Santosh Mahobia</h2>
-						<h3>Assistant Registrar</h3>
-						<h3>Academics, Student Affairs,<br> Official Language Officer, CPIO</h3>
-					</div>
-				</div>
+					    }
+					}
 
-					<br>
-
-					<div class="office_of_Dean profile1">
-					<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
-					<div class="office_of_Dean text">
-						<h2>Shri Shailesh Sharma</h2>
-						<h3>Assistant Registrar</h3>
-						<h3>Purchase and Store & PS to Director</h3>
-					</div>
-				</div>
-
-					<br>
-
-					<div class="office_of_Dean profile1">
-					<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
-					<div class="office_of_Dean text">
-						<h2>Mrs. Priti Patel</h2>
-						<h3>Assistant Registrar</h3>
-						<h3>Research, <br> Sponsored Projects & Consultancy (RSPC),<br>  Innovation & Incubation Cell and Patent <br> & Copyright Cell, International Affairs</h3>
-					</div>
-				</div>
+					?>
 
 		</div>
 

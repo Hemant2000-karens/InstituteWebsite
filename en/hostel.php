@@ -79,35 +79,33 @@
 								</div>
 							</div>
 
-
-							<div class="hostel_card" onclick="linkOpen('ms')">
+							<div class="hostel_card" onclick="linkOpen('ng')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
 								<div class="hostel_card_text">
-									<h4>Maa Saraswati Girls Hostel</h4>
+									<h4>Nagarjuna Hostel (PG- Married)</h4>
 								</div>
 							</div>
 
-
-							<div class="hostel_card" onclick="linkOpen('bod')">
+							<div class="hostel_card" onclick="linkOpen('ng')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
 								<div class="hostel_card_text">
-									<h4>Vasishtha Hostel (Hall - 1)</h4>
+									<h4>Nagarjuna Hostel (PG- Married)</h4>
 								</div>
 							</div>
 
-
-							<div class="hostel_card" onclick="linkOpen('bod')">
+							<div class="hostel_card" onclick="linkOpen('ng')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
 								<div class="hostel_card_text">
-									<h4>Vasishtha Hostel (Hall - 1)</h4>
-									</div>
+									<h4>Nagarjuna Hostel (PG- Married)</h4>
+								</div>
 							</div>
+							
 
 
 						</div>

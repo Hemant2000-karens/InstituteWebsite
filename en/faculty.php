@@ -42,7 +42,7 @@
 			<div class="faculty_grid_main">
 
 
-				<div class="facultyList" id="cse">
+				<div class="facultyList animFade" id="cse">
 					<div class="deptHeading">
 						<h3>Computer Science and Enginnering</h3>
 					</div>
@@ -69,7 +69,7 @@
 							
 					</div>
 				</div>
-				<div class="facultyList" id="me">
+				<div class="facultyList animFade" id="me">
 					<div class="deptHeading">
 						<h3>Mechanical Enginnering</h3>
 					</div>
@@ -95,7 +95,7 @@
 
 					</div>
 				</div>
-				<div class="facultyList" id="ece">
+				<div class="facultyList animFade" id="ece">
 					<div class="deptHeading">
 						<h3>Electrical and Electronics Engineering</h3>
 					</div>
@@ -118,7 +118,7 @@
 						?>
 					</div>
 				</div>
-				<div class="facultyList" id="des">
+				<div class="facultyList animFade" id="des">
 					<div class="deptHeading">
 						<h3>Design</h3>
 					</div>
@@ -142,7 +142,7 @@
 					</div>
 				</div>
 				
-				<div class="facultyList" id="ns">
+				<div class="facultyList animFade" id="ns">
 					<div class="deptHeading">
 						<h3>Natural Science</h3>
 					</div>
@@ -165,7 +165,7 @@
 					</div>
 				</div>
 				
-				<div class="facultyList" id="la">
+				<div class="facultyList animFade" id="la">
 				<div class="deptHeading">
 					<h3>Liberal Arts</h3>
 				</div>

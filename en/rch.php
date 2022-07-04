@@ -28,40 +28,25 @@
 		<div class = "tableContainer">
 			<div class="office_of_Dean">
 
-				<div class="office_of_Dean profile1">
-						<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
-						<div class="office_of_Dean text">
-							<h2>Mr. Aditya Sharma</h2>
-							<h3>Technical Officer, <br>Computer Science and Engineering Discipline</h3>
-						</div>
-					</div>
 
-					<br>
+					<?php include './connectionDB.php';
 
-					<div class="office_of_Dean profile1">
-						<img src="./Images/DeanStd/tanuja.png" class="" alt="Dean Students" />
-						<div class="office_of_Dean text">
-							<h2>Mr. Awadhesh K. Singh</h2>
-							<h3>Technical Officer, <br>Mechanical Engineering Discipline</h3>
-							<h3>Design, Analysis and Development
-									of<br>Interdisciplinary Systems (Mechatronics, MEMS and NEMS)
-								</h3>
-						</div>
-					</div>
+					$sql_query = "SELECT * FROM researchStaff";
 
-						<br>
+					$result = $link->query($sql_query);
 
-					<div class="office_of_Dean profile1">
-						<img src="./Images/DeanStd/tanuja.png" class="" alt="Dean Students" />
-						<div class="office_of_Dean text">
-							<h2>Mr. Dada Saheb Ramteke</h2>
-							<h3>Technical Officer, <br>Mechanical Engineering Discipline</h3>
-							<h3>Rotor Dynamics, Tribology</h3>
-						</div>
-					</div>
+					if ($result->num_rows > 0)
+					{
+					    while ($rows = $result->fetch_assoc())
+					    {
 
-					<br>
-		
+					    	echo("<div class='office_of_Dean profile1'>"."<img src='./Images/rsImage/researchStaffImg/".$rows['photo']."' alt ='".$rows['name']."'/><div class='office_of_Dean text'> <h2>".$rows['name']."</h2><h3>".$rows['post_branch']."</h3>
+					    		<h3>".$rows['area_of_interest']."</h3> </div></div> <br>");
+
+					    }
+					}
+
+					?>		
 
 		</div>
 
