@@ -46,7 +46,7 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM financAgenda";
+  								$sql_query = "SELECT * FROM bwcAgenda";
 
 										$result = $link->query($sql_query);
 
@@ -87,7 +87,7 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM financMinute";
+  								$sql_query = "SELECT * FROM bwcMinute";
 
 										$result = $link->query($sql_query);
 

@@ -34,6 +34,12 @@
 		</body>
 
 	</div>
+
+	<section class="secondAbout">
+		<div class="otherPage">
+			<a href="./bogAm.php">Senate Agenda / Minutes</a>
+				</div>
+	</section>
 <!--body ends here-->
 <div class="footerContent">
 	<span class=""><sup style="font-size:bolder" >*</sup> Constitution Of The Following New Senate Under Clause 16(I) Of The IIIT Act 2014</span>
