@@ -132,7 +132,7 @@ body{
 /* Top  Header closed */
 
 
-.header a
+.header
 {
   text-shadow: 1px 0px 4px #a6a6a6;
   font-family: var(--varela);
@@ -147,7 +147,7 @@ body{
   width: -moz-available;
 }
 
-.header a h1
+.header h1
 {
   height: 100%;
   font-size: 24px;
