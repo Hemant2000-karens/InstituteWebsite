@@ -76,7 +76,12 @@
 				<div class="rContentbody">
 					
 
-					<div class="resBody animFade">
+
+
+
+					<!-- Contentshow/hide -->
+				<div class="resBodyParents animFade">
+					<div class="resBody">
 
 						<div class="resImage">
 							<img src="./Images/rsImage/mlid.jpg">
@@ -92,7 +97,19 @@
 
 					</div>
 
-					<div class="resBody animFade">
+				</div>
+
+			
+
+
+
+
+
+
+
+
+					<div class="resBodyParents animFade">
+					<div class="resBody">
 
 						<div class="resImage">
 							<img src="./Images/rsImage/mlid.jpg">
@@ -108,7 +125,12 @@
 
 					</div>
 
-				
+				</div>
+
+
+
+
+
 
 				</div>
 
@@ -155,21 +177,24 @@ function viewMore() {
 
 function changeResSlide(n) {
   let i;
-  let slides = document.getElementsByClassName("resBody");
+  let slides = document.getElementsByClassName("resBodyParents");
   if (n > slides.length) {reSlideIndex = 1}    
   if (n < 1) {reSlideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
-  // slides[reSlideIndex-1].style.display = "block";
-  if(1074 <= screen.width && screen.width <= 1425)
-  {
-  	slides[reSlideIndex-1].style.display = "flex";  
-  }
-  else
-  {
-  	slides[reSlideIndex-1].style.display = "block";
-  }
+  slides[reSlideIndex-1].style.display = "block";
+
+
+
+  // if(1074 <= screen.width && screen.width <= 1425)
+  // {
+  // 	slides[reSlideIndex-1].style.display = "flex";  
+  // }
+  // else
+  // {
+  // 	slides[reSlideIndex-1].style.display = "block";
+  // }
 }
 
 
