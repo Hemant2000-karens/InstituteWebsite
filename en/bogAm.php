@@ -20,6 +20,7 @@
 				<h2>BOG Agenda / Minutes</h2>
 			</div>
 
+				<br/>
 
 				<div class="cal_Nav">
 						<button class="calTab" onclick="changeCal(event, 'agenda')" id="defaultOpen">Agenda
