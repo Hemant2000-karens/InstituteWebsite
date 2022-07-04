@@ -102,7 +102,7 @@
 													echo ("<tr>
 														<td><a target ='_blank' href='../Documents/BOGminute/".$rows['link']."'>".$rows['EventName']."</a></td>
 														<td>
-															<a target ='_blank' href='../Documents/BOGminute/Anexture2/".$rows['link1']."'>".$rows['extra1']."</a></td>
+															<a target ='_blank' href='../Documents/BOGminute/Anexture1/".$rows['link1']."'>".$rows['extra1']."</a></td>
 															<td>
 															<a target ='_blank' href='../Documents/BOGminute/Anexture2/".$rows['link2']."'>".$rows['extra2']."</a></td>
 															<td>
