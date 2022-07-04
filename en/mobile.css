@@ -780,9 +780,19 @@ and (max-width: 1425px)
   {
     padding: 2% 0;
   }
+  .rContentMain
+  {
+    padding: 0;
+  }
   .resBody
   {
+    height: 321px;
     display: flex;
+  }
+  .resImage img
+  {
+    height: 100%;
+    width: auto;
   }
 }
 

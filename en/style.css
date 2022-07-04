@@ -1222,7 +1222,7 @@ body{
   }
   .resBody
   {
-    height: auto;
+    height: 450px;
     width: var(--fill);
     border-bottom: 1px solid #ccc;
     display: inline-grid;
