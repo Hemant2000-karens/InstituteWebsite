@@ -108,7 +108,7 @@
 			</div>
 			<section class="secondAbout">
 				<div class="otherPage">
-					<a href="./bogMinutes">BOG Minutes</a> <a href="./bogAgenda">BOG Agenda</a> <a href="./bogRemumbered">BOG Renumbered</a> 
+					<a href="./bogAm.php">BOG Agenda / Minutes</a><a href="./bogRemumbered">BOG Renumbered</a> 
 				</div>
 			</section>
 
