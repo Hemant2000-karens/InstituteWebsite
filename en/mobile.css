@@ -808,7 +808,10 @@ and (min-width: 1200px)
 @media only screen
 and (min-width: 1600px)
 {
-
+  .header
+  {
+    padding: 0 8%;
+  }
   .secondPartmain
   {
     padding: 2% 10%;
