@@ -39,7 +39,6 @@
 							<thead>
 								<tr>
     							<th>Events</th>
-    							<th>Extras</th>
     							<th>Date</th>
   							</tr>
   							</thead>
@@ -57,8 +56,6 @@
 												{
 													echo ("<tr>
 														<td><a target ='_blank' href='../Documents/BOGagenda/".$rows['link']."'>".$rows['EventName']."</a></td>
-														<td>
-															<a target ='_blank' href='../Documents/BOGagenda/".$rows['link1']."'>".$rows['extra']."</a></td>
 															<td>
 															".$rows['date']."
 														</td>
@@ -102,10 +99,6 @@
 												{
 													echo ("<tr>
 														<td><a target ='_blank' href='../Documents/BOGminute/".$rows['link']."'>".$rows['EventName']."</a></td>
-														<td>
-															<a target ='_blank' href='../Documents/BOGminute/Anexture1/".$rows['link1']."'>".$rows['extra1']."</a></td>
-															<td>
-															<a target ='_blank' href='../Documents/BOGminute/Anexture2/".$rows['link2']."'>".$rows['extra2']."</a></td>
 															<td>
 															".$rows['date']."
 														</td>
