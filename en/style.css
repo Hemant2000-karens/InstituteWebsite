@@ -2,6 +2,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 :root
 {
+  --fill: -webkit-fill-available;
   --DirectorPadding: 12px 10%;
   --profileGridPadding: 0 10px;
   --facultyProfileBG: #f6f6f6;
@@ -142,7 +143,7 @@ body{
   gap: 1.2%;
   padding: 0 4%;
   align-items: center;
-  width: -webkit-fill-available;
+  width: var(--fill);
   width: -moz-available;
 }
 
@@ -520,11 +521,8 @@ body{
   padding-top:8px;
 }
 
-.footer-heading .socials .bi{
-  padding:0 8px;
-}
-.footer-heading .socials img{
-  padding:0 8px;
+.footer-heading .socials .bi:first-child{
+  padding: 0 8px 0 0;
 }
 
 .footer-main .footer-subgroup{
@@ -590,7 +588,7 @@ body{
 .combined
 {
   display: inline-flex;
-  width: -webkit-fill-available;
+  width: var(--fill);
   width: -moz-available;
   padding: 0 10%;
 }
@@ -810,7 +808,7 @@ body{
 
 .SecondaryNav
 {
-  width: -webkit-fill-available;
+  width: var(--fill);
   width: -moz-available;
   display: inline-flex;
   box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 20%), 0px 0px 1px 0 rgb(0 0 0 / 20%);
@@ -1212,29 +1210,67 @@ body{
   .rContentMain
   {
     height: auto;
-    padding: ;
+    padding: 5% 0;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: space-between;
   }
-
-  .rForwButton,
-  .rBackButton
+  .rContentbody
   {
-    background: #6d6c6c;
-    padding: 0.5%;
+    padding: 0 3.5%;
+  }
+  .resBody
+  {
+    height: auto;
+    width: var(--fill);
+    border-bottom: 1px solid #ccc;
+    display: inline-grid;
+    justify-items: center;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .resImage img
+  {
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+  .resText
+  {
+    padding: 2%;
+    background: #fff;
   }
 
+  .resText button
+  {
+    margin-left: 6%;
+    border-radius: 22px;
+    border: 1px solid black;
+    text-align: center;
+    color: #000;
+    padding: 1%;
+  }
   .rForwButton button,
   .rBackButton button
   {
-    background: inherit;
     border: none;
     color: #fff;
     font-size: 24px;
+    background: #6d6c6c;
+    padding: 5px 10px;
+    position: relative;
   }
+.animFade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
 
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
 
 
   /* Campus tour */

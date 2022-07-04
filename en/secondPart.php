@@ -69,19 +69,44 @@
 			<div class="rContentMain">
 				
 				<div class="rBackButton">
-					<button> < </button>
+					<button onclick="moveRes(-1)"> < </button>
 				</div>
 
 
 				<div class="rContentbody">
 					
 
-					
+					<div class="resBody animFade">
 
+						<div class="resImage">
+							<img src="./Images/rsImage/mlid.jpg">
+						</div>
+						<div class="resText">
+							
+							<h4>Machine Learning Based Intrusion Detection Systems for IoT Applications</h4>
 
+							<h5>Internet of Things (IoT) and its applications are the most popular research areas at present. The characteristics of IoT on one side make it easily applicable to real-life applications, whereas on the other side expose it to cyber threats.</h5>
 
-				
+								<button>Read More</button>
+						</div>
 
+					</div>
+
+					<div class="resBody animFade">
+
+						<div class="resImage">
+							<img src="./Images/rsImage/mlid.jpg">
+						</div>
+						<div class="resText">
+							
+							<h4>Machine Learning Based Intrusion Detection Systems for IoT Applications</h4>
+
+							<h5>Internet of Things (IoT) and its applications are the most popular research areas at present. The characteristics of IoT on one side make it easily applicable to real-life applications, whereas on the other side expose it to cyber threats.</h5>
+
+								<button>Read More</button>
+						</div>
+
+					</div>
 
 				
 
@@ -89,7 +114,7 @@
 
 
 				<div class="rForwButton">
-					<button> > </button>
+					<button onclick="moveRes(1)"> > </button>
 				</div>
 
 
@@ -102,6 +127,14 @@
 
 
 <script>
+
+let reSlideIndex = 1;
+changeResSlide(reSlideIndex);
+
+function moveRes(n) {
+  changeResSlide(reSlideIndex += n);
+}
+
 function viewMore() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -117,11 +150,31 @@ function viewMore() {
     moreText.style.display = "inline";
   }
 }
+
+
+
+function changeResSlide(n) {
+  let i;
+  let slides = document.getElementsByClassName("resBody");
+  if (n > slides.length) {reSlideIndex = 1}    
+  if (n < 1) {reSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  // slides[reSlideIndex-1].style.display = "block";
+  if(1074 <= screen.width && screen.width <= 1425)
+  {
+  	slides[reSlideIndex-1].style.display = "flex";  
+  }
+  else
+  {
+  	slides[reSlideIndex-1].style.display = "block";
+  }
+}
+
+
+
 </script>
-
-
-
-
 
 
 

@@ -776,9 +776,24 @@ and (orientation: portrait)
 
 /* Old Desktops and laptops ------------------ */
 
+@media only screen
+and (min-width: 1074px)
+and (max-width: 1425px)
+{
+  .reseachHighLights
+  {
+    padding: 2% 0;
+  }
+  .resBody
+  {
+    display: flex;
+  }
+}
 
 
 /* Desktops ------------------ */
+
+
 
 @media only screen
 and (min-width: 1200px)
