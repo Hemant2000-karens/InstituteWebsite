@@ -71,7 +71,7 @@
 			</div>
 			<section class="secondAbout">
 				<div class="otherPage">
-					<a href="./bogMinutes">BWC Minutes</a> <a href="./bogAgenda">BWC Agenda</a>
+					<a href="./bwcAgm.php">BWC Agenda / Minutes</a>
 				</div>
 			</section>
 
