@@ -105,7 +105,7 @@
     </button>
     <div class="dropdown-content">
       <a href="./Intli.php">Institute</a>
-      <a href="./comingSoon.html">Industry</a>
+      <a href="./mouIndust.php">Industries</a>
     </div>
   </div> 
 

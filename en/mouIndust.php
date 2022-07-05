@@ -20,7 +20,7 @@
 				<span class="br"></span>
 	
 				<div class="aboutHeader" id="adminHeader">
-					<h2>MOU | Institute</h2>
+					<h2>MOU | Industries</h2>
 				</div>
 
 				<div class="AcMain">
