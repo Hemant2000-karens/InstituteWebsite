@@ -104,9 +104,8 @@
     <button class="dropbtn">MoU 
     </button>
     <div class="dropdown-content">
-      <a href="./comingSoon.html">International Institute</a>
+      <a href="./Intli.php">Institute</a>
       <a href="./comingSoon.html">Industry</a>
-      <a href="./comingSoon.html">Indian Institute</a>
     </div>
   </div> 
 

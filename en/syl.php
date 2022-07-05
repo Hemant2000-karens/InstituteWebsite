@@ -129,8 +129,20 @@
 
   									<?php include './Syllabus/PG/oddSem/sem1/sem1.php';?>
 
-							</table>
+								</table>
 
+
+								<table>
+								<caption>Semester &#x2162;</caption>
+								  <tr>
+    								<th>Branch</th>
+    								<th>Document Link</th>
+  								</tr>
+
+  								<?php include './Syllabus/PG/oddSem/sem3/sem3.php';?>
+
+
+							</table>
 
 								<!-- End of Odd Sem -->
 						
@@ -213,6 +225,20 @@
   								</tr>
 
   								<?php include './Syllabus/PG/EvenSem/sem2/sem2.php';?>
+
+							</table>
+
+
+
+							<table>
+								<caption>Semester &#x2163;</caption>
+								  <tr>
+    								<th>Branch</th>
+    								<th>Document Link</th>
+  								</tr>
+
+  								<?php include './Syllabus/PG/EvenSem/sem4/sem4.php';?>
+
 
 							</table>
 
