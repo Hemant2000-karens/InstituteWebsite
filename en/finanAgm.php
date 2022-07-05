@@ -55,7 +55,7 @@
 												while($rows = $result -> fetch_assoc())
 												{
 													echo ("<tr>
-														<td><a target ='_blank' href='../Documents/BOGagenda/".$rows['link']."'>".$rows['EventName']."</a></td>
+														<td><a target ='_blank' href='../Documents/finanAgenda/".$rows['link']."'>".$rows['EventName']."</a></td>
 															<td>
 															".$rows['date']."
 														</td>
@@ -96,7 +96,7 @@
 												while($rows = $result -> fetch_assoc())
 												{
 													echo ("<tr>
-														<td><a target ='_blank' href='../Documents/BOGminute/".$rows['link']."'>".$rows['EventName']."</a></td>
+														<td><a target ='_blank' href='../Documents/finanMinute/".$rows['link']."'>".$rows['EventName']."</a></td>
 															<td>
 															".$rows['date']."
 														</td>

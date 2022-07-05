@@ -11,7 +11,7 @@
       <a href="admins.php">Administrations</a>
       <a href="Dean.php">Dean</a>
       <a href="lAdmins.php">Local Administration</a>
-      <a href="./comingSoon.html">Members of Senate</a>
+      <a href="senate.php">Members of Senate</a>
       <!--<a href="senate.php">Members of Senate</a>-->
       <a href="bwc.php">Building Works Committee</a>
     </div>

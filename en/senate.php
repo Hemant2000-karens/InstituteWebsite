@@ -21,15 +21,218 @@
 				<h2>Senate</h2>
 			</div>
 
-			<div class="senate">
+			<div class="AcMain">
 				
-			</div>
+				<div class="profile">
+					
+					<div class="members">
+						<img src="./Images/senate/pnkon.png">
+						<h3>Prof. P.N Kondekar<sup><a href="#director">1</a></sup></h3>
+					    <p>Director(I/C)<br>PDPM IIITDM Jabaplpur</p>
+					</div>
 
-			<section class="secondAbout">
-				<div class="otherPage">
-				<a href="./bogMinutes">Senate Minutes</a> <a href="./bogAgenda">Senate Agenda</a>
 				</div>
-			</section>
+
+
+					<div class="profile">
+					
+					<div class="members">
+						<img src="./Images/senate/non.png">
+						<h3>to be Nomiated<sup><a href="#deptdirector">2</a></sup></h3>
+			    	<p>Deputy Director<br>PDPM IIITDM Jabaplpur</p>
+					</div>
+
+				</div>
+
+					<div class="profile">
+					
+					<div class="members">
+						<img src="./Images/senate/vijayG.jpg">
+						<h3>Prof. Vijay Kumar Gupta<sup><a href="#dean">3</a></sup></h3>
+			    	<p>Professor In-Charge(Academics)</p>
+			    	<p><a href="mailto:dean.acad@iiitdmj.ac.in">dean.acad@iiitdmj.ac.in</a></p>
+					</div>
+
+					<div class="members">
+						<img src="./Images/senate/tanuja.png">
+						<h3>Prof. Tanuja Sheroy<sup><a href="#dean">3</a></sup></h3>
+			    	<p>Professor In-Charge(Students)</p>
+			    	<p><a href="mailto:dean.s@iiitdmj.ac.in">dean.s@iiitdmj.ac.in</a></p>
+					</div>
+
+
+					<div class="members">
+						<img src="./Images/senate/pkpadhy.png">
+						<h3>Prof. Prabin Kumar Padhy<sup><a href="#dean">3</a></sup></h3>
+			    	<p>Professor In-Charge(RSPC)</p>
+			    	<p><a href="mailto:dean.research@iiitdmj.ac.in">dean.research@iiitdmj.ac.in</a></p>
+					</div>
+
+
+					<div class="members">
+						<img src="./Images/senate/pnkon.png">
+						<h3>Prof. P.N Kondekar<sup><a href="#dean">3</a></sup></h3>
+			    	<p>Professor In-Charge(P&D)</p>
+			    	<p><a href="mailto:dean.pnd@iiitdmj.ac.in">dean.pnd@iiitdmj.ac.in</a></p>
+					</div>
+
+				</div>
+
+				<div class="profile">
+					
+					<div class="members">
+						<img src="./Images/senate/pnkon.png">
+						<h3>Prof. Prashant K Jain<sup><a href="#headofdept">4</a></sup></h3>
+			    	<p>Head(ME)</p>
+			    	<p><a href="mailto:pkjain@iiitdmj.ac.in">pkjain@iiitdmj.ac.in</a></p>
+					</div>
+
+					<div class="members">
+						<img src="./Images/senate/pnkon.png">
+						<h3>Dr. Anil Kumar<sup><a href="#headofdept">4</a></sup></h3>
+			    	<p>Head(ECE)</p>
+			    	<p><a href="mailto:anilk@iiitdmj.ac.in">anilk@iiitdmj.ac.in</a></p>
+					</div>
+
+
+					<div class="members">
+						<img src="./Images/BOD/pnkon.png">
+						<h3>Dr. Prabir Mukhopadhyay<sup><a href="#headofdept">4</a></sup></h3>
+			    	<p>Head(Design)</p>
+			    	<p><a href="mailto:prabir@iiitdmj.ac.in">prabir@iiitdmj.ac.in</a></p>
+					</div>
+
+
+					<div class="members">
+						<img src="./Images/BOD/pnkon.png">
+						<h3>Prof. Atul Gupta<sup><a href="#headofdept">4</a></sup></h3>
+			    	<p>Head(CSE)</p>
+			    	<p><a href="mailto:atul@iiitdmj.ac.in">atul@iiitdmj.ac.in</a></p>
+					</div>
+
+
+					<div class="members">
+						<img src="./Images/BOD/pnkon.png">
+						<h3>Prof. Atul Gupta<sup><a href="#headofdept">4</a></sup></h3>
+			    	<p>Head(CSE)</p>
+			    	<p><a href="mailto:atul@iiitdmj.ac.in">atul@iiitdmj.ac.in</a></p>
+					</div>
+
+
+					<div class="members">
+						<img src="./Images/BOD/pnkon.png">
+						<h3>Dr. Mukesh Kumar Roy<sup><a href="#headofdept">4</a></sup></h3>
+			    	<p>Head(NS)</p>
+			    	<p><a href="mailto:mkroy@iiitdmj.ac.in">mkroy@iiitdmj.ac.in</a></p>
+					</div>
+
+
+					<div class="members">
+						<img src="./Images/BOD/pnkon.png">
+						<h3>Dr. Sunil Agrawal<sup><a href="#headofdept">4</a></sup></h3>
+			    	<p>Head(LA)</p>
+			    	<p><a href="mailto:sa@iiitdmj.ac.in">sa@iiitdmj.ac.in</a></p>
+					</div>
+
+				</div>
+
+
+
+				<div class="profile">
+					
+					<div class="members">
+						<img src="./Images/senate/pnkon.png">
+						<h3>Prof. Prashant K Jain<sup><a href="#headofdept">5</a></sup></h3>
+			    	<p><a href="mailto:pkjain@iiitdmj.ac.in">pkjain@iiitdmj.ac.in</a></p>
+					</div>
+
+					<div class="members">
+						<img src="./Images/senate/pnkon.png">
+						<h3>Dr. Anil Kumar<sup><a href="#headofdept">5</a></sup></h3>
+			    	<p><a href="mailto:anilk@iiitdmj.ac.in">anilk@iiitdmj.ac.in</a></p>
+					</div>
+
+
+					<div class="members">
+						<img src="./Images/BOD/pnkon.png">
+						<h3>Dr. Prabir Mukhopadhyay<sup><a href="#headofdept">5</a></sup></h3>
+			    	<p><a href="mailto:prabir@iiitdmj.ac.in">prabir@iiitdmj.ac.in</a></p>
+					</div>
+
+
+					<div class="members">
+						<img src="./Images/BOD/pnkon.png">
+						<h3>Prof. Atul Gupta<sup><a href="#headofdept">5</a></sup></h3>
+			    	<p><a href="mailto:atul@iiitdmj.ac.in">atul@iiitdmj.ac.in</a></p>
+					</div>
+
+				</div>
+
+				<div class="profile">
+					
+					<div class="members">
+						<img src="./Images/senate/pnkon.png">
+						<h3>Prof. Prashant K Jain<sup><a href="#headofdept">5</a></sup></h3>
+			    	<p><a href="mailto:pkjain@iiitdmj.ac.in">pkjain@iiitdmj.ac.in</a></p>
+					</div>
+
+					<div class="members">
+						<img src="./Images/senate/pnkon.png">
+						<h3>Dr. Anil Kumar<sup><a href="#headofdept">5</a></sup></h3>
+			    	<p><a href="mailto:anilk@iiitdmj.ac.in">anilk@iiitdmj.ac.in</a></p>
+					</div>
+
+
+					<div class="members">
+						<img src="./Images/BOD/pnkon.png">
+						<h3>Dr. Prabir Mukhopadhyay<sup><a href="#headofdept">5</a></sup></h3>
+			    	<p><a href="mailto:prabir@iiitdmj.ac.in">prabir@iiitdmj.ac.in</a></p>
+					</div>
+
+				</div>
+
+
+				<div class="profile">
+					
+					<div class="members">
+						<img src="./Images/senate/pnkon.png">
+						<h3>Prof. Prashant K Jain<sup><a href="#headofdept">5</a></sup></h3>
+			    	<p><a href="mailto:pkjain@iiitdmj.ac.in">pkjain@iiitdmj.ac.in</a></p>
+					</div>
+
+					<div class="members">
+						<img src="./Images/senate/pnkon.png">
+						<h3>Dr. Anil Kumar<sup><a href="#headofdept">5</a></sup></h3>
+			    	<p><a href="mailto:anilk@iiitdmj.ac.in">anilk@iiitdmj.ac.in</a></p>
+					</div>
+
+
+					<div class="members">
+						<img src="./Images/BOD/pnkon.png">
+						<h3>Dr. Prabir Mukhopadhyay<sup><a href="#headofdept">5</a></sup></h3>
+			    	<p><a href="mailto:prabir@iiitdmj.ac.in">prabir@iiitdmj.ac.in</a></p>
+					</div>
+
+				</div>
+
+				<div class="profile">
+					
+					<div class="members">
+						<img src="./Images/senate/pnkon.png">
+						<h3>Prof. Prashant K Jain<sup><a href="#headofdept">5</a></sup></h3>
+			    	<p><a href="mailto:pkjain@iiitdmj.ac.in">pkjain@iiitdmj.ac.in</a></p>
+					</div>
+
+				</div>
+
+
+
+
+
+
+
+
+			</div>
 
 		</body>
 
