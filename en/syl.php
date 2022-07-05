@@ -104,6 +104,35 @@
 
 
 							</table>
+
+
+
+							<div class="calMain">
+									<h3>
+										Syllabus for PG 
+										<?php 
+											include 'connectionDB.php';
+											printf("2022-2023");
+    									mysqli_close($link);
+										?>
+									</h3>
+								</div>
+
+
+								<table>
+								<caption>Semester &#x2160;</caption>
+								  <tr>
+    								<th>Branch</th>
+    								<th>Document Link</th>
+  								</tr>
+
+
+  									<?php include './Syllabus/PG/oddSem/sem1/sem1.php';?>
+
+							</table>
+
+
+								<!-- End of Odd Sem -->
 						
 						</div>
 
@@ -159,14 +188,36 @@
     								<th>Document Link</th>
   								</tr>
 
-
-
-
-
   								<?php include './Syllabus/UG/EvenSem/sem8/sem8.php';?>
 
+							</table>
+
+
+								<div class="calMain">
+									<h3>
+										Syllabus for PG 
+										<?php 
+											include 'connectionDB.php';
+											printf("2022-2023");
+    									mysqli_close($link);
+										?>
+									</h3>
+								</div>
+
+
+								<table>
+								<caption>Semester &#x2161;</caption>
+								  <tr>
+    								<th>Branch</th>
+    								<th>Document Link</th>
+  								</tr>
+
+  								<?php include './Syllabus/PG/EvenSem/sem2/sem2.php';?>
 
 							</table>
+
+						<!-- Even Call Table Ends Here -->
+					</div>
 
 						</div>
 						

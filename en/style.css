@@ -2618,13 +2618,25 @@ input[type="radio"]{
 {
   text-decoration: none;
   color: #525252;
-  font-size: inherit;
+  font-size: large;
+  font-weight: bold;
+  padding: 0 1px;
 }
+.members h3 sup a:hover
+{
+  color: #0071be;
+}
+
 .members img
 {
   border-radius: 5px;
 }
 
+.members p a
+{
+  text-decoration: none;
+  color: #0071be;
+}
 .profile
 {
   display: grid;
@@ -2768,8 +2780,8 @@ input[type="radio"]{
 {
   margin: 0;
   padding: 20px 40px;
-  color: #4d4545;
-  background-color: #eeeeee;
+  color: #7b7b7b;
+  background-color: #f5f5f5;
 }
 .footerContent a
 {
