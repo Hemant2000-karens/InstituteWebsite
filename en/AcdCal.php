@@ -39,12 +39,22 @@
 							<?php 
 							include 'connectionDB.php';
 							printf("2022-2023");
-    					mysqli_close($link);
+    					
 							?>
 						</h3>
 					</div>
 
 						<div class="calTable" id="odd">
+							
+
+							<?php 
+							$sql = "SELECT * from academicCalendar where semester = 1"; 
+							$result = $link->query($sql);
+							?>
+
+
+
+
 							<table id="tb1">
 								 <caption>Semester &#x2160;</caption>
 								  <tr>
@@ -56,190 +66,22 @@
   								<!-- Heading of the tables-->
 
 
+										<?php
 
-  								<tr>
-    								<td>Pre-Registration</td>
+  								if($result -> num_rows > 0)
+											{
+												while($rows = $result -> fetch_assoc())
+												{
+													echo ("<tr>
+														<td>".$rows['event']."</td>
+														<td>".$rows['dateFromUG']." to ".$rows['dateToUG']."</td>
+														<td>".$rows['dateFromPG']." to ".$rows['dateToPG']."</td>
+														<td>".$rows['dateFromNewUG']." to ".$rows['dateToNewPG']."</td>
+														</tr>");
+												}
+											}
 
-
-    								<td>June 28 2021 - July 10 2021(Mon- Sat)</td>
-    								<td>-</td>
-    								<td>-</td>
-  								</tr>
-
-  								<tr>
-    								<td>Online Registration/ Physical Reporting at the Institute [only if applicable]</td>
-
-
-    								<td>July 16, 2021 (Fri)</td>
-    								<td>July 27, 2021 (Fri)</td>
-    								<td>As per CSAB</td>
-  								</tr>
-
-  								<tr>
-    								<td>Late Physical Reporting</td>
-
-
-    								<td>July 23, 2021 (Fri)</td>
-    								<td>-</td>
-    								<td>-</td>
-  								</tr>
-
-  								<tr>
-    								<td>Orientation of New Students</td>
-
-
-    								<td>-</td>
-    								<td>August 27-28, 2021 (Fr - Sat)</td>
-    								<td>Dec 13, 2021 (Mon)</td>
-  								</tr>
-
-  								<tr>
-    								<td>Commencement of Classes</td>
-
-
-    								<td>July 19, 2021 (Mon)</td>
-    								<td>August 31, 2021 (Mon)</td>
-    								<td>Dec 13, 2021 (Mon)</td>
-  								</tr>
-
-  								<tr>
-    								<td>Last Date for Adding of courses</td>
-
-
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Last Date for Dropping of courses</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-
-    								<td>Last Date for Documents submission(New Admission)</td>
-
-
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-
-    								<td>Mid-Sem Examination</td>
-
-
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>Feb 11, 2022(Fri)</td>
-  								</tr>
-
-  								<tr>
-    								<td>Mid-Sem Recess</td>
-
-
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>Jan 24-29, 2022(Mon-Sat)</td>
-  								</tr>
-
-  								<tr>
-    								<td>
-    									Last Date for showing Mid-Sem answer sheets to students & display of<b>compiled marks upto Mid-Semester</b>
-    								</td>
-
-    								
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>Classes Ends</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>End Semester Examination</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>PG Presentation(Graduation/<br>Research/Progress Seminar)</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>Last Date for showing of compiled marks(Full Semester)</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>Last Date of End Semester Grades submission for Courses</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Make-up Examination</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Last Date for Grades Submission of Make-up Exams, Conversion of I Grades, Graduate/Research/Progress Seminars</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Submission of grade moderation report from discipline</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Submission of moderation report by APCS</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Last date for Authentication of Grades</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Academic Pre-Registration for next semester</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>Vacation for UG students</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  									<tr>
-    								<td>Vacational leave applicable for faculty</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
+											?>
 
 							</table>
 
@@ -321,7 +163,17 @@
 
 							<div class="calTable" id="even">
 
+
+
+								<?php 
+							$sql = "SELECT * from academicCalendar where semester = 2"; 
+							$result = $link->query($sql);
+							?>
+
+
 							<table id="tb2">
+
+
 								 <caption>Semester &#x2161;</caption>
 								  <tr>
     								<th>Events</th>
@@ -331,167 +183,24 @@
   								</tr>
   									<!-- Heading of the tables-->
 
-  									<tr>
-    								<td>Pre-Registration</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
 
-  								<tr>
-    								<td>Online Registration/ Physical Reporting at the Institute [only if applicable]</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
+										<?php
 
-  								<tr>
-    								<td>Late Physical Reporting</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
+  								if($result -> num_rows > 0)
+											{
+												while($rows = $result -> fetch_assoc())
+												{
+													echo ("<tr>
+														<td>".$rows['event']."</td>
+														<td>".$rows['dateFromUG']." to ".$rows['dateToUG']."</td>
+														<td>".$rows['dateFromPG']." to ".$rows['dateToPG']."</td>
+														<td>".$rows['dateFromNewUG']." to ".$rows['dateToNewPG']."</td>
+														</tr>");
+												}
+											}
 
-  								<tr>
-    								<td>Orientation of New Students</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
+											?>
 
-  								<tr>
-    								<td>Commencement of Classes</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>Last Date for Adding of courses</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Last Date for Dropping of courses</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Last Date for Documents submission(New Admission)</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>Mid-Sem Examination</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>Feb 11, 2022(Fri)</td>
-  								</tr>
-
-  								<tr>
-    								<td>Mid-Sem Recess</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>Jan 24-29, 2022(Mon-Sat)</td>
-  								</tr>
-
-  								<tr>
-    								<td>
-    									Last Date for showing Mid-Sem answer sheets to students & display of<b>compiled marks upto Mid-Semester</b>
-    								</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>Classes Ends</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>End Semester Examination</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>PG Presentation(Graduation<br>/Research/Progress Seminar)</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>Last Date for showing of compiled marks(Full Semester)</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>Last Date of End Semester Grades submission for Courses</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Make-up Examination</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Last Date for Grades Submission of Make-up Exams, Conversion of I Grades, Graduate/Research/Progress Seminars</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Submission of grade moderation report from discipline</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Submission of moderation report by APCS</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Last date for Authentication of Grades</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-  								<tr>
-    								<td>Academic Pre-Registration for next semester</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  								<tr>
-    								<td>Vacation for UG students</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
-
-  									<tr>
-    								<td>Vacational leave applicable for faculty</td>
-    								<td>April 06-10, 2020 (Mon-Fri)</td>
-    								<td>M.tech + P.hD</td>
-    								<td>New UG</td>
-  								</tr>
 							</table>
 
 													<div class="calNotice">
@@ -572,7 +281,7 @@
 				</div>
 			</body>
 		</div>
-
+					<? mysqli_close($link); ?>
 			<?php include './footer.php'?>
 <script type="text/javascript">
 window.onscroll = function()

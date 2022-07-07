@@ -28,8 +28,19 @@
 	</div>
 
 	<div class="container">
+
+		<div class="faculty_profile">
+
+			
+			
+
+
+
+
+		</div>
+
 		<div class="qualification">
-			<h2>Qualification</h2>
+			<h2 class="classHeading">Qualification</h2>
 		
 			<div class="edu_yr">
 
@@ -133,7 +144,7 @@
 
 
 		<div class="achievement" id="achieve">
-			<h2>Achievments</h2>
+			<h2 class="classHeading">Achievments</h2>
 			<div class="slider">
 				<div>
 					<a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -217,7 +228,7 @@
 
 
 		<div class="publication" id="Publications">
-			<h2>Publications</h2>
+			<h2 class="classHeading">Publications</h2>
 			<div class="publicationContents">
 				<div>
 				<a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -532,6 +543,35 @@
 						<div class="contentGridPublication">
 							
 
+  					<!-- Starting OF book Page-->
+						<div class="bookFlex">
+
+
+							<div class="bookicon">
+								<i class="bi bi-book"></i>
+							</div>
+
+
+							<div class="bookContent">
+
+
+								<div class="bookName">
+									<span>
+										Network Expolitation
+									</span>
+								</div>
+
+									<div class="readMore">
+										<span>Read More</span>
+									</div>
+								
+								</div>
+
+
+							</div>
+
+						<!-- End of Book Page FLex -->
+
 
 
 
@@ -548,6 +588,35 @@
 						<div class="contentGridPublication">
 
 
+
+  					<!-- Starting OF book Page-->
+						<div class="bookFlex">
+
+
+							<div class="bookicon">
+								<i class="bi bi-book"></i>
+							</div>
+
+
+							<div class="bookContent">
+
+
+								<div class="bookName">
+									<span>
+										Network Expolitation
+									</span>
+								</div>
+
+									<div class="readMore">
+										<span>Read More</span>
+									</div>
+								
+								</div>
+
+
+							</div>
+
+						<!-- End of Book Page FLex -->
 
 
 
@@ -572,7 +641,7 @@
 		<!-- Start of Research -->
 
 		<div class="research">
-			<h2>Research</h2>
+			<h2 class="classHeading">Research</h2>
 			<div class="researchContent">
 			
 				<div class="rSdate">
@@ -588,20 +657,22 @@
 					</div>
 
 					<div class="researchText">
-						<h4 class="rStitle">
-							Device Free Target Localization in Wireless Networks Using Machine Learning
-						</h4>
-						<h5 class="rsBody">
+						<div class="rStitle">
+							<h2>
+								Device Free Target Localization in Wireless Networks Using Machine Learning
+							</h2>
+						</div>
+						<div class="rsBody">
 							 Dr. Munesh Singh Agency: SEED Grant from IIITDM Kancheepuram Status: Completed Budget Rs: 8,00,000 Duration 3 Year (2018-2020)
-						</h5>
+						</div>
 						<span class="rsReadMore">
 							Read More
 						</span>
 					</div>
-					<div class="navigation">
-						<button><</button>
-						<button>></button>
-					</div>
+				</div>
+				<div class="navigation">
+						<button class="btn1"><</button>
+						<button class="btn2">></button>
 				</div>
 
 			</div>

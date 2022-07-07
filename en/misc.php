@@ -21,7 +21,7 @@
 	</div>
 </a>
 
-<a href="" target="_blank">
+<a href="https://fusion.iiitdmj.ac.in" target="_blank">
 	<div class="circle">
 		<i class="bi bi-calendar-week-fill"></i>
 		<span>Fusion Login</span>

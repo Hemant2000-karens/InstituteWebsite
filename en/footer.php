@@ -53,7 +53,7 @@
       <div class="content">
         <a href="#">Academic Calendar</a><br>
         <a href="#">Useful Information</a><br>
-        <a href="#">Refund Rule</a><br>
+        <a href="../Documents/refundRule.pdf">Refund Rule</a><br>
         <a href="#">Convocation</a><br>
         <a href="#">Important Forms</a><br>
         <a href="#">Internal Circulars</a><br>
@@ -116,7 +116,7 @@
       <h4>IMPORTANT LINKS</h4>
       <div class = "footer-subgroup-links">
         <a href="#">Useful Information</a><br>
-        <a href="#">Refund Rule</a><br>
+        <a href="../Documents/refundRule.pdf">Refund Rule</a><br>
         <a href="#">Annual Reports</a><br>
         <a href="#">Convocation</a><br>
         <a href="#">Important Forms</a><br>
