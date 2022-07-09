@@ -109,7 +109,10 @@
   padding: 1.2%;
   transition-duration: 500ms;
 }
-
+.curriculumCollaps h3
+{
+  color: #2e2e2e;
+}
 .curriculumButton.active
 {
   color: #ffffff;

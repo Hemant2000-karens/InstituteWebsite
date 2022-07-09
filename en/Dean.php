@@ -28,7 +28,7 @@
 
 	<div class="bodyContent" id = "deanACD" style="display:block">
 
-			<div class="deanHeader" id = "adminHeader">
+			<div class="deanHeader" id = "NameofDean-0">
 				<h2>Dean Academic</h2>
 			</div>
 		<br>
@@ -134,7 +134,7 @@
 
 	<div class="bodyContent" id = "deanAStd">
 
-		<div class="deanHeader" id = "adminHeader">
+		<div class="deanHeader" id = "NameofDean-1">
 			<h2>Dean Students</h2>
 		</div>
 		<br>
@@ -216,7 +216,7 @@
 
 	<div class="bodyContent" id = "deanrpSC">
 
-		<div class="deanHeader" id = "adminHeader">
+		<div class="deanHeader" id = "NameofDean-2">
 			<h2>Dean RSPC</h2>
 		</div>
 		<div class = "tableContainer">
@@ -281,7 +281,7 @@
 
 	<div class="bodyContent" id = "deanPND">
 
-		<div class="deanHeader" id = "adminHeader">
+		<div class="deanHeader" id = "NameofDean-3">
 			<h2>Dean P&D</h2>
 		</div>
 
@@ -321,8 +321,37 @@
 <?php include './footer.php' ?>
 
 
+<script type="text/javascript" src="./script.js"></script>
 <script type="text/javascript">
+	window.onscroll = function()
+	{
+	  stickyFunctionDean()
+	};
+	var navbar = document.getElementById("NameofDean-0");
+var navbar1 = document.getElementById("NameofDean-1");
+var navbar2 = document.getElementById("NameofDean-2");
+var navbar3 = document.getElementById("NameofDean-3");
 
-	
+var sticky = navbar.offsetTop;
+var sticky1 = navbar1.offsetTop;
+var sticky2 = navbar2.offsetTop;
+var sticky3 = navbar3.offsetTop;
+
+
+
+
+	function stickyFunctionDean() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+    navbar1.classList.add("sticky");
+    navbar2.classList.add("sticky");
+    navbar3.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+    navbar1.classList.remove("sticky");
+    navbar2.classList.remove("sticky");
+    navbar3.classList.remove("sticky");
+ 		}
+	}
 </script>
 </html>
