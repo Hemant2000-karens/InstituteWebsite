@@ -34,10 +34,11 @@
 </section>
 
 
-     <script type="text/javascript">
+ <script type="text/javascript">
          
 
- const slides=document.querySelector(".slider").children;
+ const slides=
+ document.querySelector(".slider").children;
  const prev=document.querySelector(".prew");
  const next=document.querySelector(".next");
  let index=0;
@@ -105,4 +106,4 @@
   let timer=setInterval(autoPlay,7000);
 
 
-     </script>
+</script>

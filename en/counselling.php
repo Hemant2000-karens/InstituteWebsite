@@ -109,37 +109,5 @@
 		</div>
 
 <?php include './footer.php'?>
-<script>
-
-	window.onscroll = function()
-{
-  stickyFunction()
-};
-
-
-var nbar = document.getElementById("adminHeader");
-var sticky = nbar.offsetTop;
-function stickyFunction() {
-  if (window.pageYOffset >= sticky) {
-    nbar.classList.add("sticky");
-  } else {
-    nbar.classList.remove("sticky");
- 		}
-	}
-
-var coll = document.getElementsByClassName("acdpB");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("show");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
+<script type="text/javascript" src="./script.js"></script>
 </html>

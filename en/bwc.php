@@ -80,53 +80,5 @@
 
 <?php include './footer.php'?>
 
-<script type="text/javascript">
-
-	window.onscroll = function()
-{
-  stickyFunction()
-};
-
-
-var nbar = document.getElementById("adminHeader");
-var sticky = nbar.offsetTop;
-function stickyFunction() {
-  if (window.pageYOffset >= sticky) {
-    nbar.classList.add("sticky");
-  } else {
-    nbar.classList.remove("sticky");
- 		}
-	}
-
-	
-	var button = document.getElementsByClassName("card");
-	button.addEventListener("Click",linkOpen);
-
-
-	function linkOpen(str)
-	{
-		switch(str)
-		{
-			case 'bod':
-				window.open('https://www.google.com', '_blank');
-				break;
-			case 'adm':
-				window.open('https://www.facebook.com', '_blank');
-				break;
-			case 'lad':
-				window.open('https://www.instagram.com', '_blank');
-				break;
-			case 'ms':
-				window.open('https://www.twitter.com', '_blank');
-				break;
-			case 'fc':
-				window.open('https://www.linkedin.com', '_blank');
-				break;
-			case 'mv':
-				window.open('https://www.oracle.com', '_blank');
-				break;
-		}
-
-	}
-</script>
+<script type="text/javascript" src="./script.js"></script>
 </html>

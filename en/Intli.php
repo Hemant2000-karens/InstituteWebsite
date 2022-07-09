@@ -129,54 +129,6 @@
 		</div>
 
 <?php include './footer.php'?>
-<script>
-
-	window.onscroll = function()
-{
-  stickyFunction()
-};
-
-
-var nbar = document.getElementById("adminHeader");
-var sticky = nbar.offsetTop;
-function stickyFunction() {
-  if (window.pageYOffset >= sticky) {
-    nbar.classList.add("sticky");
-  } else {
-    nbar.classList.remove("sticky");
- 		}
-	}
-
-var coll = document.getElementsByClassName("acdpB");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("show");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-
-function changeCal(evt, calName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("calTable");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("calTab");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(calName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
+<script type="text/javascript" src="./script.js"></script>
+<script type="text/javascript" src="./script1.js"></script>
 </html>

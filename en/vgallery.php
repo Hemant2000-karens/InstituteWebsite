@@ -70,5 +70,6 @@
 		</div>
 	</body>
 </div>
+<script type="text/javascript" src="./script.js"></script>
 <?php include './footer.php'?>
 </html>

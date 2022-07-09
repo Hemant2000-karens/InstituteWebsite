@@ -29,7 +29,7 @@
 
 					<div class="hostel_main">
 
-							<div class="hostel_card" onclick="linkOpen('hall1')">
+							<div class="hostel_card" onclick="hostelLink('hall1')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall1.jpg" class="img" />
 								</div>
@@ -40,7 +40,7 @@
 
 
 							
-							<div class="hostel_card" onclick="linkOpen('hall3')">
+							<div class="hostel_card" onclick="hostelLink('hall3')">
 									<div class="hostel_card_image">
 										<img src="./Images/Hostel/hall3.jpg" class="img" />
 									</div>
@@ -50,7 +50,7 @@
 							</div>
 
 
-							<div class="hostel_card" onclick="linkOpen('hall4')">
+							<div class="hostel_card" onclick="hostelLink('hall4')">
 									<div class="hostel_card_image">
 										<img src="./Images/Hostel/hall4.jpg" class="img" />
 									</div>
@@ -60,7 +60,7 @@
 							</div>
 
 
-							<div class="hostel_card" onclick="linkOpen('pnn')">
+							<div class="hostel_card" onclick="hostelLink('pnn')">
 									<div class="hostel_card_image">
 										<img src="./Images/Hostel/hall3.jpg" class="img" />
 									</div>
@@ -70,7 +70,7 @@
 							</div>
 
 
-							<div class="hostel_card" onclick="linkOpen('ng')">
+							<div class="hostel_card" onclick="hostelLink('ng')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
@@ -79,7 +79,7 @@
 								</div>
 							</div>
 
-							<div class="hostel_card" onclick="linkOpen('ng')">
+							<div class="hostel_card" onclick="hostelLink('ng')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
@@ -88,7 +88,7 @@
 								</div>
 							</div>
 
-							<div class="hostel_card" onclick="linkOpen('ng')">
+							<div class="hostel_card" onclick="hostelLink('ng')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
@@ -97,7 +97,7 @@
 								</div>
 							</div>
 
-							<div class="hostel_card" onclick="linkOpen('ng')">
+							<div class="hostel_card" onclick="hostelLink('ng')">
 								<div class="hostel_card_image">
 									<img src="./Images/Hostel/hall3.jpg" class="img" />
 								</div>
@@ -119,69 +119,5 @@
 		</div>
 
 <?php include './footer.php'?>
-<script>
-
-	window.onscroll = function()
-{
-  stickyFunction()
-};
-
-
-var nbar = document.getElementById("adminHeader");
-var sticky = nbar.offsetTop;
-function stickyFunction() {
-  if (window.pageYOffset >= sticky) {
-    nbar.classList.add("sticky");
-  } else {
-    nbar.classList.remove("sticky");
- 		}
-	}
-
-var coll = document.getElementsByClassName("acdpB");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("show");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-
-
-
-var button = document.getElementsByClassName("hostel_card");
-	button.addEventListener("Click",linkOpen);
-
-
-	function linkOpen(str) 
-	{
-		switch(str)
-		{
-			case 'hall1':
-				window.open('https://www.iiitdmj.ac.in/hall1.iiitdmj.ac.in/', '_blank');
-				break;
-			case 'hall3':
-				window.open('https://www.iiitdmj.ac.in/hall3.iiitdmj.ac.in/', '_blank');
-				break;
-			case 'hall4':
-				window.open('https://www.instagram.com', '_blank');
-				break;
-			case 'pnn':
-				window.open('https://www.twitter.com', '_blank');
-				break;
-			case 'ng':
-				window.open('https://www.linkedin.com', '_blank');
-				break;
-			case 'ms':
-				window.open('https://www.oracle.com', '_blank');
-				break;
-		}
-		
-	}
-</script>
+<script type="text/javascript" src="./script.js"></script>
 </html>

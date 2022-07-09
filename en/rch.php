@@ -22,7 +22,7 @@
 				</div>
 <!--Horizontal rule -->
 
-	<div class="bodyContent" id = "deanACD" style="display:block">
+	<div class="AcMain">
 
 
 		<div class = "tableContainer">
@@ -57,42 +57,5 @@
 </div>
 
 <?php include './footer.php' ?>
-
-
-<script type="text/javascript">
-
-	function openTab(evt, pageName) 
-	{
-  	var i, tabcontent, tablinks;
-  	tabcontent = document.getElementsByClassName("bodyContent");
-  	for (i = 0; i < tabcontent.length; i++) 
-  	{
-    	tabcontent[i].style.display = "none";
-  	}
-  	tablinks = document.getElementsByClassName("tablinks");
-  	for (i = 0; i < tablinks.length; i++) 
-  	{
-    tablinks[i].className = tablinks[i].className.replace(" active1", "");
-  }
-
-  document.getElementById(pageName).style.display = "block";
-  evt.currentTarget.className += " active1";
-}
-
-window.onscroll = function()
-{
-  stickyFunction()
-};
-
-
-var nbar = document.getElementById("adminHeader");
-var sticky = nbar.offsetTop;
-function stickyFunction() {
-  if (window.pageYOffset >= sticky) {
-    nbar.classList.add("sticky");
-  } else {
-    nbar.classList.remove("sticky");
- 	}
-}
-</script>
+<script type="text/javascript" src="./script.js"></script>
 </html>

@@ -50,7 +50,7 @@
     <div class="current_update_main">
   <div class="current_update">
     <fieldset>
-      <legend>Current updates</legend>
+      <legend>Latest updates</legend>
         <marquee behavior="scroll" Scrollamount="1.2" direction="up" onmouseover="this.stop();"
            onmouseout="this.start();" style="height: -webkit-fill-available;height: 100%;overflow: hidden;">
                 <?php include './currentupdate.php';?>
@@ -88,30 +88,7 @@
 </div>
 </body>
 <?php include './footer.php';?>
-<script>
+<script type="text/javascript" src="./script.js"></script>
 
-function openNews(evt, tabname) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("newsContent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("newsTab_button");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(tabname).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-
-
-
-// document.getElementById("overlay").style.display = "block";
-// function off() {
-//   document.getElementById("overlay").style.display = "none";
-// }
-</script>
+<script type="text/javascript" src="./script1.js"></script>
 </html>

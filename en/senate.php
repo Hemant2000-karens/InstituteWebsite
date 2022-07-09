@@ -21,8 +21,9 @@
 				<h2>Senate</h2>
 			</div>
 
-			<div class="AcMain">
+			<div class="Directors">
 				
+
 				<div class="profile">
 					
 					<div class="members">

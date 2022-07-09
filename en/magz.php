@@ -15,7 +15,7 @@
 		<?php include "./navbar.php" ?>
 		<span class="br"></span>
 
-		<div class="aboutHeader">
+		<div class="aboutHeader" id="adminHeader">
 				<h2>Magazine</h2>
 			</div>
 
@@ -53,5 +53,6 @@
 
 	</body>
 </div>
+<script type="text/javascript" src="./script.js"></script>
 <?php include './footer.php'?>
 </html>

@@ -67,21 +67,5 @@
 		</div>
 
 			<?php include './footer.php'?>
-			<script type="text/javascript">
-				window.onscroll = function()
-{
-  stickyFunction()
-};
-
-
-var nbar = document.getElementById("adminHeader");
-var sticky = nbar.offsetTop;
-function stickyFunction() {
-  if (window.pageYOffset >= sticky) {
-    nbar.classList.add("sticky");
-  } else {
-    nbar.classList.remove("sticky");
- 		}
-	}
-			</script>
+	<script type="text/javascript" src="./script.js"></script>
 </html>

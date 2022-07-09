@@ -65,6 +65,7 @@
 		<div class="reseachHighLights">
 			<div class="reseachHighLights_sub">
 				<h2>Research Highlight</h2>
+				<p><a href="#"/>View All Research Highlights</a></p>
 			</div>
 			<div class="rContentMain">
 				

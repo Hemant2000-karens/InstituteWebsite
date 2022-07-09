@@ -21,7 +21,7 @@
 
 			<span class="br"></span>
 			
-			<div class="aboutHeader">
+			<div class="aboutHeader" id="adminHeader">
 				<h2>Academic Guidelines</h2>
 			</div>
 
@@ -135,6 +135,7 @@
 			</div>
 		</body>
 	</div>
+	<script type="text/javascript" src="./script.js"></script>
 	<?php $link -> close();?>
 	<?php include './footer.php'?>
 </html>
