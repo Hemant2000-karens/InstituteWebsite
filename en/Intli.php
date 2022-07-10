@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<link rel="icon" type="jpg/png" href="./logo_college.png" sizes="16x16">
+	<?php include_once './headTag.php';?>
 	<title>MOU | IIITDMJ</title>
-		<meta http-equiv="refresh" content="3000">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css">
-       <link rel="stylesheet" type="text/css" href="./mobile.css">
 </head>
 
 	    <?php include './topheader.php';?>

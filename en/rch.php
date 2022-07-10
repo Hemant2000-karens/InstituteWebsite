@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+	<?php include_once './headTag.php';?>
 	<title>Research Staff | IIITDMJ</title>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css">
-       <link rel="stylesheet" type="text/css" href="mobile.css">
 </head>
 <?php include './topheader.php'; ?>
 <div class = "container">

@@ -2,12 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
-       <link rel="icon" type="jpg/png" href="./logo_college.png" sizes="16x16">
         <title>IIITDMJ | Home</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css">
-       <link rel="stylesheet" type="text/css" href="mobile.css">
+        <?php include_once './headTag.php';?>
     </head>
 
     <body>

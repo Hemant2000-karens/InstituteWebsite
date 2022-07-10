@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
 	<title>Dean | IIITDMJ</title>
-				<link rel="icon" type="jpg/png" href="./logo_college.png" sizes="16x16">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css">
-       <link rel="stylesheet" type="text/css" href="mobile.css">
+	<?php include_once './headTag.php';?>
 </head>
 <?php include './topheader.php'; ?>
 <div class = "container">
