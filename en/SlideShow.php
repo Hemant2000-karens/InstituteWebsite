@@ -14,7 +14,7 @@
         
       while($row = $result->fetch_assoc()) 
       {
-        echo ("<div class = '".$row['class']."'"."style='background-image:url(\"./Images/Slider/".$row['image']."\")'>"."<div class='SlideshowContainer'><div class='caption'><h1>".$row['heading']."</h1><p>".$row['paragraph']."</p></div></div></div>");
+        echo ("<div class = '".$row['class']."'"."style='background-image:url(\"../Images/Slider/".$row['image']."\")'>"."<div class='SlideshowContainer'><div class='caption'><h1>".$row['heading']."</h1><p>".$row['paragraph']."</p></div></div></div>");
         }
     } 
     else 

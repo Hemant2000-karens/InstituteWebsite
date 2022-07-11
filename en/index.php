@@ -8,7 +8,7 @@
 
     <body>
       <!-- <div id="overlay" onclick="off()">
-        <img  id="welcomeNotice" src="./Images/csir.jpg">
+        <img  id="welcomeNotice" src="../Images/csir.jpg">
     </div> -->
     <?php include 'topheader.php';?>
     <?php include 'Header.php'?>
@@ -82,6 +82,9 @@
 
 <?php include './misc.php';?>
 </div>
+
+<?php include 'events.php';?>
+
 </body>
 <?php include './footer.php';?>
 <script type="text/javascript" src="./script.js"></script>

@@ -653,7 +653,7 @@
 				<div class="researchBody">
 
 					<div class="researchImage">
-						<img src="./Images/rsImage/rs001.png"/>
+						<img src="../Images/rsImage/rs001.png"/>
 					</div>
 
 					<div class="researchText">

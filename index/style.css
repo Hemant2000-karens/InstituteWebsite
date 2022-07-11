@@ -71,9 +71,9 @@ h4
 	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
-	border: 10px solid #162534;
-	border-top-color: #4bc8eb;
-	border-bottom-color: #f13a8f;
+	border: 10px solid #bababa;
+    border-top-color: #9a9a9a;
+    border-bottom-color: #9a9a9a;
 	border-radius: 50%;
 	animation: rotate 5000ms linear infinite;
 }

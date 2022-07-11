@@ -22,7 +22,7 @@
 					<div class="adminProfile">
 
 							<div class="localAdminProfile">
-	    					<img src="./Images/ladmins/aojha.png" alt="apojha" >
+	    					<img src="../Images/ladmins/aojha.png" alt="apojha" >
 								<h5>Prof. Aparajita Ojha</h5>
 								<h4>Head</h4>
 	  					</div>
@@ -38,13 +38,13 @@
 					  	<div class="profile">
 
 					  		<div class="localAdminProfile">
-    							<img src="./Images/ladmins/pka.png" alt="Preeti Khanna" >
+    							<img src="../Images/ladmins/pka.png" alt="Preeti Khanna" >
 									<h5>Prof. Pritee Khanna</h5>
 									<h4>Chairperson</h4>
 								</div>
 					
 								<div class="localAdminProfile">
-	    						<img src="./Images/ladmins/omvir.png" alt="Omvir Singh" >
+	    						<img src="../Images/ladmins/omvir.png" alt="Omvir Singh" >
 									<h5>Mr. Omvir Singh Bhadauria </h5>
 									<h4>Placement Officer</h4>
 								</div>
@@ -60,7 +60,7 @@
 					<div class="adminProfile">
 					  	
 							<div class="localAdminProfile">
-    							<img src="./Images/ladmins/dineshk.png" alt="Dinesh K" >
+    							<img src="../Images/ladmins/dineshk.png" alt="Dinesh K" >
 								<h5>Prof. Dinesh Kumar V</h5>
 								<h4>Professor In-charge</h4>
 							</div>
@@ -73,7 +73,7 @@
 				<button class="adminDetails">Alumni Cell</button>
 					<div class="adminProfile">
 							<div class="localAdminProfile">
-    						<img src="./Images/ladmins/puneetT.png" alt="Puneet T" >
+    						<img src="../Images/ladmins/puneetT.png" alt="Puneet T" >
 								<h5>Prof. Puneet Tandon</h5>
 								<h4>Professor In-charge</h4>
 							</div>
@@ -84,7 +84,7 @@
 				<button class="adminDetails">Innovation and Incubation Cell & Patent and Copyright Cell</button>
 					<div class="adminProfile">
 					  	<div class="localAdminProfile">
-    						<img src="./Images/ladmins/rkjha.png" alt="Swapnali" >
+    						<img src="../Images/ladmins/rkjha.png" alt="Swapnali" >
 								<h5>Dr. Rakesh Kumar Jha </h5>
 								<h4>Professor In-charge</h4>
 							</div>
@@ -95,7 +95,7 @@
 				<button class="adminDetails">Communication Cell</button>
 					<div class="adminProfile">
 					  	<div class="localAdminProfile">
-    						<img src="./Images/ladmins/varunB.png" alt="Varun B" >
+    						<img src="../Images/ladmins/varunB.png" alt="Varun B" >
 								<h5>Dr. Varun Bajaj</h5>
 								<h4>Professor In-charge</h4>
 							</div>
@@ -106,7 +106,7 @@
 				<button class="adminDetails">Science & Technology Counselor</button>
 					<div class="adminProfile">
 					  	<div class="localAdminProfile">
-    						<img src="./Images/ladmins/akk.png" alt="Asish Kundu" >
+    						<img src="../Images/ladmins/akk.png" alt="Asish Kundu" >
 								<h5>Dr. Asish K. Kundu</h5>
 								<h4>Professor In-charge</h4>
 							</div>
@@ -117,7 +117,7 @@
 				<button class="adminDetails">Registrar (Acting)Finance & Accounts</button>
 					<div class="adminProfile">
 					  	<div class="localAdminProfile">
-    						<img src="./Images/ladmins/swapnali.png" alt="Swapnali" >
+    						<img src="../Images/ladmins/swapnali.png" alt="Swapnali" >
 								<h5>Mrs. Swapnali Gadekar</h5>
 								<h4>Deputy Registrar</h4>
 							</div>
@@ -129,7 +129,7 @@
 				<button class="adminDetails">Establishment, General Administration and Internal Audit</button>
 					<div class="adminProfile">
 					  	<div class="localAdminProfile">
-    						<img src="./Images/ladmins/rizwanA.png" alt="rizwan A" >
+    						<img src="../Images/ladmins/rizwanA.png" alt="rizwan A" >
 								<h5>Mr. Rizwan Ahmed</h5>
 								<h4>Deputy Registrar</h4>
 							</div>
@@ -140,7 +140,7 @@
 				<button class="adminDetails">Academics, Student Affairs, Official Language Officer, CPIO</button>
 					<div class="adminProfile">
 					  	<div class="localAdminProfile">
-    						<img src="./Images/ladmins/santosh.png" alt="santosh M" >
+    						<img src="../Images/ladmins/santosh.png" alt="santosh M" >
 								<h5>Mr. Santosh Mahobia</h5>
 								<h4>Assistant Registrar</h4>
 							</div>

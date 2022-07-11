@@ -35,7 +35,7 @@
 			</div>
 
 			<div class="messageDeskCombined">
-				<img class="imagedirector" src="./Images/director_msg.jpeg" alt="Director Image" width="600" height="400">
+				<img class="imagedirector" src="../Images/director_msg.jpeg" alt="Director Image" width="600" height="400">
 
 			<div class="deskSpeech">
 
@@ -85,7 +85,7 @@
 					<div class="resBody">
 
 						<div class="resImage">
-							<img src="./Images/rsImage/mlid.jpg">
+							<img src="../Images/rsImage/mlid.jpg">
 						</div>
 						<div class="resText">
 							
@@ -113,7 +113,7 @@
 					<div class="resBody">
 
 						<div class="resImage">
-							<img src="./Images/rsImage/iot.jpg">
+							<img src="../Images/rsImage/iot.jpg">
 						</div>
 						<div class="resText">
 							

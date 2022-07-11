@@ -21,7 +21,7 @@
 				<button class="adminDetails">Director</button>
 					<div class="adminProfile">
 						<div class="localAdminProfile">
-	    				<img src="./Images/DeanPnD/pnkon.png" alt="PnKondekar" >
+	    				<img src="../Images/DeanPnD/pnkon.png" alt="PnKondekar" >
 							<h5>Prof. P.N Kondekar</h5>
 							<h4>Director(Acting)/Dean(P&D)</h4>
 	  				</div>
@@ -37,31 +37,31 @@
 
 					  	<div class="gridprofile"> 
 					  		<div class="localAdminProfile">
-    							<img src="./Images/DeanACD/vijayG.jpg" alt="Vijay" >
+    							<img src="../Images/DeanACD/vijayG.jpg" alt="Vijay" >
 									<h5>Prof. Vijay Kumar Gupta</h5>
 									<h4>Dean(Academics)</h4>
 								</div>
 					
 							<div class="localAdminProfile">
-	    						<img src="./Images/DeanStd/tanuja.png" alt="tanuj" >
+	    						<img src="../Images/DeanStd/tanuja.png" alt="tanuj" >
 								<h5>Prof. Tanuja Sheorey</h5>
 								<h4>Dean(Students)</h4>
 							</div>
 
 							<div class="localAdminProfile">
-	    						<img src="./Images/DeanPnD/pnkon.png" alt="P.N Kondekar" >
+	    						<img src="../Images/DeanPnD/pnkon.png" alt="P.N Kondekar" >
 								<h5>Prof. P.N Kondekar</h5>
 								<h4>Dean(Planning & Development)</h4>
 							</div>
 
 							<div class="localAdminProfile">
-    							<img src="./Images/DeanRSPC/pkpadhy.png" alt="Vijay" >
+    							<img src="../Images/DeanRSPC/pkpadhy.png" alt="Vijay" >
 								<h5>Prof. Prabin Kumar Padhhy</h5>
 								<h4>Dean(RSPC)</h4>
 							</div>
 
 							<div class="localAdminProfile">
-	    						<img src="./Images/DeanPnD/atul.png" alt="Vijay" >
+	    						<img src="../Images/DeanPnD/atul.png" alt="Vijay" >
 								<h5>Prof. Atul Gupta</h5>
 								<h4>Associate Dean(Planning & Development)</h4>
 							</div>
@@ -79,43 +79,43 @@
 					  	
 						<div class="gridprofile"> 
 					  		<div class="localAdminProfile">
-    							<img src="./Images/DeanPnD/atul.png" alt="Atul Gupta" >
+    							<img src="../Images/DeanPnD/atul.png" alt="Atul Gupta" >
 								<h5>Prof. Atul Gupta</h5>
 								<h4>CSE</h4>
 							</div>
 					
 							<div class="localAdminProfile">
-	    						<img src="./Images/Administrators/pkpadhy.png" alt="Dr.Prabir Mukhopadhyay" >
+	    						<img src="../Images/Administrators/pkpadhy.png" alt="Dr.Prabir Mukhopadhyay" >
 								<h5>Dr. Prabir Mukhopadhyay</h5>
 								<h4>Design</h4>
 							</div>
 
 							<div class="localAdminProfile">
-	    						<img src="./Images/Administrators/anilkr.png" alt="Anil Kumar" >
+	    						<img src="../Images/Administrators/anilkr.png" alt="Anil Kumar" >
 								<h5>Dr. Anil Kumar</h5>
 								<h4>ECE</h4>
 							</div>
 
 							<div class="localAdminProfile">
-    							<img src="./Images/Administrators/pkjain.png" alt="Prashant" >
+    							<img src="../Images/Administrators/pkjain.png" alt="Prashant" >
 								<h5>Prof. Prashant K. Jain</h5>
 								<h4>ME</h4>
 							</div>
 
 							<div class="localAdminProfile">
-	    						<img src="./Images/Administrators/mkroy.png" alt="Mukesh" >
+	    						<img src="../Images/Administrators/mkroy.png" alt="Mukesh" >
 								<h5>Dr. Mukesh Kumar Roy</h5>
 								<h4>NS</h4>
 							</div>
 
 							<div class="localAdminProfile">
-	    						<img src="./Images/Administrators/puneetT.png" alt="Puneet" >
+	    						<img src="../Images/Administrators/puneetT.png" alt="Puneet" >
 								<h5>Prof. Puneet Tandon</h5>
 								<h4>Smart Manufacturing</h4>
 							</div>
 
 							<div class="localAdminProfile">
-								<img src="./Images/Administrators/sag.png" alt="Sunil" >
+								<img src="../Images/Administrators/sag.png" alt="Sunil" >
 								<h5>Dr. Sunil Agrawal</h5>
 								<h4>Liberal Arts</h4>
 							</div>
@@ -131,7 +131,7 @@
 					<div class="adminProfile">
 						<div class="gridprofile">
 					  	<div class="localAdminProfile">
-    						<img src="./Images/Administrators/swapnali.png" alt="Swapnali" >
+    						<img src="../Images/Administrators/swapnali.png" alt="Swapnali" >
 								<h5>Mrs. Swapnali Gadekar</h5>
 								<h4>Deputy Registrar</h4>
 							</div>

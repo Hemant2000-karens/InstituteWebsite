@@ -38,9 +38,31 @@
     </div>
 
 
+
+  <!-- Mobile, and Small Screen View -->
+
     <button type="button" class="collaps">Know More</button>
       <div class="content">
         <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT ACT</a><br>
+
+
+        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Consortium for Edu Comm(CET)</a><br> -->
+
+
+        <a target="_blank" href="../Documents/IIITAct30.pdf">Revista</a><br>
+
+
+        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">National Academic Depository</a><br> -->
+
+
+        <a target="_blank" href="../Documents/IIITAct30.pdf">Taxi Services</a><br>
+        
+        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Intellectual Property Policy(IPP)</a><br> -->
+        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Prop/Modification of Courses</a><br> -->
+
+        <a target="_blank" href="../Documents/IIITAct30.pdf">NIRF</a><br>
+
+
         <!-- <a href="#">Undergraduate</a><br>
         <a href="#">Postgraduate</a><br>
         <a href="#">Fees Structure</a><br>
@@ -51,9 +73,9 @@
 
     <button  type="button" onclick="function()" class="collaps">Important Links</button>
       <div class="content">
-        <a href="#">Academic Calendar</a><br>
         <a href="#">Useful Information</a><br>
         <a href="../Documents/refundRule.pdf">Refund Rule</a><br>
+        <a href="../Documents/refundRule.pdf">Anual Reports</a><br>
         <a href="#">Convocation</a><br>
         <a href="#">Important Forms</a><br>
         <a href="#">Internal Circulars</a><br>
@@ -99,10 +121,33 @@
 
 
 <!-- Desktop, and larger screen -->
+
+
     <div class="footer-subgroup">
       <h4>KNOW MORE</h4>
       <div class = "footer-subgroup-links">
         <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT ACT</a><br>
+
+        
+        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Consortium for Edu Comm(CET)</a><br> -->
+
+
+        <a target="_blank" href="../Documents/IIITAct30.pdf">Revista</a><br>
+
+
+        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">National Academic Depository</a><br> -->
+
+
+        <a target="_blank" href="../Documents/IIITAct30.pdf">Taxi Services</a><br>
+        
+        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Intellectual Property Policy(IPP)</a><br> -->
+
+        <a target="_blank" href="../Documents/IIITAct30.pdf">NIRF</a><br>
+
+        
+        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Prop/Modification of Courses</a><br> -->
+
+
       <!--   <a href="#">Undergraduate</a><br>
         <a href="#">Postgraduate</a><br>
         <a href="#">Fees Structure</a><br>

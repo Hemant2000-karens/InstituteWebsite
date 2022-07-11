@@ -34,7 +34,7 @@
 				<h3 class="hrclass"><span>Office of Dean(Academics)</span></h3>
 
 				<div class="office_of_Dean profile1">
-						<img src="./Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
+						<img src="../Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic" />
 						<div class="office_of_Dean text">
 							<h2>Prof. Vijay Kumar Gupta </h2>
 									<h3>Professor, Mechanical Engineering Discipline<br>
@@ -49,7 +49,7 @@
 
 						<div class="adminStaff">
 							<div class="office_of_Dean profile2">
-									<img src="./Images/DeanACD/santosh.jpg" class="" alt="Dean Academic" />
+									<img src="../Images/DeanACD/santosh.jpg" class="" alt="Dean Academic" />
 									<div class="office_of_Dean text">
 									<h2>Mr. Santosh Mahobia</h2>
 									<h3>Assistant Registrar</h3>
@@ -57,7 +57,7 @@
 							</div>
 
 							<div class="office_of_Dean profile2">
-								<img src="./Images/DeanACD/sandeep.jpg" class="" alt="Dean Academic" />
+								<img src="../Images/DeanACD/sandeep.jpg" class="" alt="Dean Academic" />
 								<div class="office_of_Dean text">
 								<h2>Mr. Sandeep Awasthi </h2>
 								<h3>Junior Suprintendent</h3>
@@ -73,7 +73,7 @@
 							
 
 							<div class="office_of_Dean profile2">
-									<img src="./Images/DeanACD/simanta.jpg" class="" alt="Dean Academic" />
+									<img src="../Images/DeanACD/simanta.jpg" class="" alt="Dean Academic" />
 									<div class="office_of_Dean text">
 									<h2>Mr. Simanta Kar Gupta</h2>
 									<h3>Senior Assistant</h3>
@@ -81,7 +81,7 @@
 							</div>
 
 							<div class="office_of_Dean profile2">
-								<img src="./Images/DeanACD/richard.jpg" class="" alt="Dean Academic" />
+								<img src="../Images/DeanACD/richard.jpg" class="" alt="Dean Academic" />
 								<div class="office_of_Dean text">
 								<h2>Mr. Richard Saberio</h2>
 								<h3>Senior Assistant</h3>
@@ -89,7 +89,7 @@
 							</div>
 						
 							<div class="office_of_Dean profile2">
-									<img src="./Images/DeanACD/nitin.jpg" class="" alt="Dean Academic" />
+									<img src="../Images/DeanACD/nitin.jpg" class="" alt="Dean Academic" />
 									<div class="office_of_Dean text">
 									<h2>Mr. Nitin Tripathi</h2>
 									<h3>Office Assistant</h3>
@@ -97,7 +97,7 @@
 							</div>
 
 							<div class="office_of_Dean profile2">
-								<img src="./Images/DeanACD/simran.jpg" class="" alt="Dean Academic" />
+								<img src="../Images/DeanACD/simran.jpg" class="" alt="Dean Academic" />
 								<div class="office_of_Dean text">
 								<h2>Ms. Simran Kaur Kalra</h2>
 								<h3>Office Assistant</h3>
@@ -105,7 +105,7 @@
 							</div>
 
 							<div class="office_of_Dean profile2">
-									<img src="./Images/DeanACD/shashank.jpg" class="" alt="Dean Academic" />
+									<img src="../Images/DeanACD/shashank.jpg" class="" alt="Dean Academic" />
 									<div class="office_of_Dean text">
 									<h2>Mr. Shashank Patel</h2>
 									<h3>Office Assistant</h3>
@@ -113,7 +113,7 @@
 							</div>
 
 							<div class="office_of_Dean profile2">
-								<img src="./Images/DeanACD/irshad.jpg" class="" alt="Dean Academic" />
+								<img src="../Images/DeanACD/irshad.jpg" class="" alt="Dean Academic" />
 								<div class="office_of_Dean text">
 								<h2>Mr. Irshad Ahmed</h2>
 								<h3>Office Assistant</h3>
@@ -140,7 +140,7 @@
 				<h3 class="hrclass"><span>Office of Dean(Students)</span></h3>
 
 					<div class="office_of_Dean profile1">
-						<img src="./Images/DeanStd/tanuja.png" class="" alt="Dean Students" />
+						<img src="../Images/DeanStd/tanuja.png" class="" alt="Dean Students" />
 						<div class="office_of_Dean text">
 							<h2>Prof. Tanuja Sheroy </h2>
 									<h3>Professor, Mechanical Engineering Discipline<br>
@@ -155,7 +155,7 @@
 						<div class="adminStaff">
 
 							<div class="office_of_Dean profile2">
-									<img src="./Images/DeanStd/santosh.jpg" class="" alt="Dean Academic" />
+									<img src="../Images/DeanStd/santosh.jpg" class="" alt="Dean Academic" />
 									<div class="office_of_Dean text">
 										<h2>Mr. Santosh mahobia</h2>
 										<h3>Assistant Registrar</h3>
@@ -163,7 +163,7 @@
 							</div>
 
 							<div class="office_of_Dean profile2">
-								<img src="./Images/DeanStd/sandeep.jpg" class="" alt="Dean Academic" />
+								<img src="../Images/DeanStd/sandeep.jpg" class="" alt="Dean Academic" />
 								<div class="office_of_Dean text">
 									<h2>Mr. Sandeep Awasthi </h2>
 									<h3>Junior Suprintendent</h3>
@@ -181,7 +181,7 @@
 						<div class="adminStaff">
 
 							<div class="office_of_Dean profile2">
-									<img src="./Images/DeanStd/vijayG.jpg" class="" alt="Dean Students" />
+									<img src="../Images/DeanStd/vijayG.jpg" class="" alt="Dean Students" />
 									<div class="office_of_Dean text">
 									<h2>Mr. Rajesh Kanaujia</h2>
 									<h3>Senior Assistant</h3>
@@ -189,7 +189,7 @@
 							</div>
 
 							<div class="office_of_Dean profile2">
-								<img src="./Images/DeanStd/vijayG.jpg" class="" alt="Dean Students" />
+								<img src="../Images/DeanStd/vijayG.jpg" class="" alt="Dean Students" />
 								<div class="office_of_Dean text">
 									<h2>Mr. Amit Kashyap Awasthi </h2>
 									<h3>Office Assistant</h3>
@@ -197,7 +197,7 @@
 							</div>
 
 							<div class="office_of_Dean profile2">
-								<img src="./Images/DeanStd/vijayG.jpg" class="" alt="Dean Students" />
+								<img src="../Images/DeanStd/vijayG.jpg" class="" alt="Dean Students" />
 								<div class="office_of_Dean text">
 									<h2>Mr. Monti Jatav </h2>
 									<h3>Peon</h3>
@@ -222,7 +222,7 @@
 				<h3 class="hrclass"><span>Office of RSPC</span></h3>
 
 					<div class="office_of_Dean profile1">
-						<img src="./Images/DeanRSPC/pkpadhy.png" class="" alt="Dean RSPC" />
+						<img src="../Images/DeanRSPC/pkpadhy.png" class="" alt="Dean RSPC" />
 						<div class="office_of_Dean text">
 							<h2>Prof. Prabin Kumar Padhy</h2>
 									<h3>Professor, Electronics & Communication Engineering<br>
@@ -237,7 +237,7 @@
 						<div class="adminStaff">
 
 							<div class="office_of_Dean profile2">
-									<img src="./Images/DeanRSPC/Priti.png" class="" alt="Dean RSPC" />
+									<img src="../Images/DeanRSPC/Priti.png" class="" alt="Dean RSPC" />
 									<div class="office_of_Dean text">
 									<h2>Ms. Priti Patel</h2>
 									<h3>Assistant Registrar (RSPC)</h3>
@@ -253,7 +253,7 @@
 						<div class="adminStaff">
 
 							<div class="office_of_Dean profile2">
-									<img src="./Images/DeanRSPC/prashant.png" class="" alt="Dean RSPC" />
+									<img src="../Images/DeanRSPC/prashant.png" class="" alt="Dean RSPC" />
 									<div class="office_of_Dean text">
 									<h2>Mr. Prashant Agnihotri</h2>
 									<h3>Senior Assistant</h3>
@@ -288,7 +288,7 @@
 					<h3 class="hrclass"><span>Office of P&D</span></h3>
 
 					<div class="office_of_Dean profile1">
-						<img src="./Images/DeanPnD/pnkon.png" class="" alt="Dean RSPC" />
+						<img src="../Images/DeanPnD/pnkon.png" class="" alt="Dean RSPC" />
 						<div class="office_of_Dean text">
 							<h2>Prof. P.N Kondekar</h2>
 									<h3>Professor, Electronics & Communication Engineering<br>
@@ -298,7 +298,7 @@
 					<br>
 
 					<div class="office_of_Dean profile1">
-						<img src="./Images/DeanPnD/pnkon.png" class="" alt="Dean RSPC" />
+						<img src="../Images/DeanPnD/pnkon.png" class="" alt="Dean RSPC" />
 						<div class="office_of_Dean text">
 							<h2>Prof. Atul Gupta</h2>
 								<h3>Head of CSE</h3>

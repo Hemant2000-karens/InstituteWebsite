@@ -36,7 +36,7 @@
 					    while ($rows = $result->fetch_assoc())
 					    {
 
-					    	echo("<div class='office_of_Dean profile1'>"."<img src='./Images/rsImage/researchStaffImg/".$rows['photo']."' alt ='".$rows['name']."'/><div class='office_of_Dean text'> <h2>".$rows['name']."</h2><h3>".$rows['post_branch']."</h3>
+					    	echo("<div class='office_of_Dean profile1'>"."<img src='../Images/rsImage/researchStaffImg/".$rows['photo']."' alt ='".$rows['name']."'/><div class='office_of_Dean text'> <h2>".$rows['name']."</h2><h3>".$rows['post_branch']."</h3>
 					    		<h3>".$rows['area_of_interest']."</h3> </div></div> <br>");
 
 					    }

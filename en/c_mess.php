@@ -36,7 +36,7 @@
 								<h3 class="hrclass"><span>Administration</span></h3>
 
 								<div class="office_of_Dean profile1">
-									<img src="./Images/DeanStd/tanuja.png" class="" alt="Dean Students" />
+									<img src="../Images/DeanStd/tanuja.png" class="" alt="Dean Students" />
 									<div class="office_of_Dean text">
 										<h2>Prof. Tanuja Sheroy </h2>
 										<h3>Professor, Mechanical Engineering Discipline<br>
@@ -49,7 +49,7 @@
 							<div class="adminStaff">
 							
 								<div class="office_of_Dean profile2">
-									<img src="./Images/DeanACD/santosh.jpg" class="" alt="Dean Academic" />
+									<img src="../Images/DeanACD/santosh.jpg" class="" alt="Dean Academic" />
 									<div class="office_of_Dean text">
 										<h2>Dr. Harpreet Singh</h2>
 										<h3>Faculty Incharge, Central Mess</h3>
@@ -57,7 +57,7 @@
 								</div>
 
 								<div class="office_of_Dean profile2">
-									<img src="./Images/DeanACD/sandeep.jpg" class="" alt="Dean Academic" />
+									<img src="../Images/DeanACD/sandeep.jpg" class="" alt="Dean Academic" />
 									<div class="office_of_Dean text">
 										<h2>Mr. Navjeet Bagga</h2>
 										<h3>Associate faculty Incharge, Central Mess</h3>
