@@ -28,14 +28,14 @@
 				</div>
 			</div>
 
-			<button onClick="location.href='../en'">Skip Preloader</button>
+			<button onClick="location.href='../en-in'">Skip Preloader</button>
 		</div>
 
 	</body>
 
 	<script type="text/javascript">
 		setTimeout(function(){
-            window.location.href='../en';
+            window.location.href='../en-in';
          }, 3000);
 	</script>
 </html>
