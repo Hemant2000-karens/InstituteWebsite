@@ -1690,13 +1690,8 @@ hr.new1 {
     display: grid;
     grid-template-columns: 
     repeat(auto-fit,minmax(300px,1fr));
-
-    /*display: flex;
-    flex-wrap: wrap;*/
-
-
     justify-items: center;
-    padding: 8% 4%;
+    padding: 2% 4% 4%;
     gap: 8px 0;
   }
 
@@ -1833,7 +1828,7 @@ hr.new1 {
 
 .circle .bi
 {
-  font-size: 60px;
+  font-size: xx-large;
   color: gainsboro;
 }
 .misc a
