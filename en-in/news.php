@@ -15,12 +15,11 @@
 			 ."</div> <hr class='new1'> ");
 		}
 
-		echo ("<div class='item3Content0'>"."<span class='br'></span><a href = '"."./viewall.php"."'"."target='_blank'>"."View All"."</a>"."</div>");
+		echo ("<div class='item2Content0'>"."<span class='br'></span><a href = './newsAll.php' target='_blank'>"."View All"."</a>"."</div>");
 	}
 	else
 	{
-		echo ("<div class='item3Content0'>"."<span class='br'></span><a href = '"."./newsAll.php"."'"."target='_blank'>"."View All"."</a>"
-		 ."</div>");
+		echo ("<div class='item2Content0'>"."<span class='br'></span><a href = './newsAll.php' target='_blank'>"."View All"."</a>"."</div>");
 	}
 ?>
 
