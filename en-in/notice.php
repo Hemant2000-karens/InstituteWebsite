@@ -18,7 +18,7 @@
 	}
 	else
 	{
-		echo ("<div class='item1Content0'>"."<span class='br'></span><a href = '"."./viewall.php"."'"."target='_blank'>"."View All"."</a>"."</div>");
+		echo ("<div class='item1Content0'>"."<span class='br'></span><a href = '"."./noticeAll.php"."'"."target='_blank'>"."View All"."</a>"."</div>");
 	}
 ?>
 

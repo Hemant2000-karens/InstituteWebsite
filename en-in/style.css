@@ -1161,6 +1161,7 @@ body{
   {
     border: none;
     color: #fff;
+    font-family: 'Nanum Myeongjo',sans-serif;
     font-size: 24px;
     background: #6d6c6c;
     padding: 5px 10px;
@@ -1249,6 +1250,7 @@ body{
     font-size: 18px;
     font-family: var(--varela);
     transition-duration: 600ms;
+    color: #383838;
   }
 
    #viewAllButton:hover
@@ -1439,6 +1441,7 @@ hr.new1 {
 .noticehead h4
 {
   font-size: 30px;
+  margin: 0.2em;
   font-family: var(--varela);
   font-weight: 500;
 }

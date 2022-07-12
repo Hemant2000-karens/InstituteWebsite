@@ -213,3 +213,15 @@ var i;
 	  slides[reSlideIndex-1].style.display = "block";
 	}
 
+
+
+	function viewMore()
+	{
+		window.open("./about.php","_self");
+	}
+
+
+	function ReadMore()
+	{
+		window.open("./about.php","_self");
+	}

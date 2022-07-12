@@ -1,7 +1,7 @@
 <div class="events">
 	<div class="reseachHighLights_sub">
 		<h2>Events</h2>
-		<p><a href="#">View All Events</a></p>
+		<p><a href="./viewEvents.php">View All Events</a></p>
 	</div>
 	<div class="event-grid">
 		<?php include './connectionDB.php' ;
