@@ -1685,14 +1685,95 @@ hr.new1 {
   .event-grid
   {
     display: grid;
-    
+    grid-template-columns: 
+    repeat(auto-fit,minmax(300px,1fr));
+
+    /*display: flex;
+    flex-wrap: wrap;*/
+
+
+    justify-items: center;
+    padding: 8% 4%;
+    gap: 8px 0;
   }
+
+  .event-main
+  {
+    border-radius: 10px;
+    height: fit-content;
+    width: 295px;
+    background: #ff9c00;
+  }
+
+
+
+  /* On hover */
+
+  .event-main:hover .event-content-parents,
+  .event-main:hover .event-date
+  {
+    background: #1c3a4b;
+  }
+
+  .event-main:hover .event-content h4,
+  .event-main:hover .event-date span
+  {
+    color: #fff;
+  }
+
+
+
   .event-body-main
   {
+    border-radius: inherit;
+    text-align: center;
     display: block;
-    padding: 1%;
-    height: 500px;
-    width: auto;
+  }
+
+  .event-image
+  {
+    border-radius: inherit;
+  }
+  .event-image img
+  {
+    border-radius: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: 0;
+    height: 190px;
+    width: 100%;
+  }
+
+  .event-content-parents
+  {
+    height: 160px;
+    background: #ffffff;
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .event-date
+  {
+    background: #ccc;
+    padding: 10px 8px;
+    width: 50%;
+    margin-top: -2.5px;
+  }
+  .event-content
+  {
+    border-radius: inherit;
+    padding: 4%;
+    margin: 0;
+  }
+  .event-content h4
+  {
+    color: #7c004c;
+    margin: 0;
+    font-size: x-large;
+    transition: ;
   }
 /* Events Ends */
 
@@ -2764,6 +2845,7 @@ input[type="radio"]{
     width: 35%;
     color: #ffffff;
     float:left;
+    max-height: 200px;
   }
 
   .footer-heading .header-block{

@@ -209,7 +209,7 @@ and (min-width: 960px)
   }
   .footer .footer-main
   {
-    height: 350px;
+    height: 300px;
     display: block;
   }
   .footer-secondary
@@ -225,7 +225,7 @@ and (min-width: 960px)
     display: inline-block;
   }
   .footer-secondary-links a {
-    padding: 0 15px;
+    padding: 0 19px;
     font-size: small;
   }
 }
@@ -804,8 +804,19 @@ and (min-width: 1600px)
   {
     padding: 2% 10%;
   }
+  .event-grid
+  {
+    padding: 2.5% 8%;
+  }
   .footer .footer-main
   {
     padding: 0 10%;
+    height: 360px;
+    font-size: x-large;
+  }
+  .footer-main .footer-subgroup a,
+  .footer-heading .footer-subheader a
+  {
+    font-size: large;
   }
 }
