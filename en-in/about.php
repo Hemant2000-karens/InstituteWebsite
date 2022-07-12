@@ -31,27 +31,27 @@
 			<section class="secondAbout">
 				<div class="otherPage">
 					<div class="card" onclick="linkOpen('bod')">
-						<img src="./icons/bod.png"/>
+						<img src="../icons/bod.png"/>
 						<figcaption>Board Of Governors</figcaption>
 					</div>
 					<div class="card" onclick="linkOpen('adm')">
-						<img src="./icons/admins.png"/>
+						<img src="../icons/admins.png"/>
 						<figcaption>Administration</figcaption>
 					</div>
 					<div class="card" onclick="linkOpen('lad')">
-						<img src="./icons/locala.png"/>
+						<img src="../icons/locala.png"/>
 						<figcaption>Local Administration</figcaption>
 					</div>
 					<div class="card" onclick="linkOpen('ms')">
-							<img src="./icons/senate.png"/>
+							<img src="../icons/senate.png"/>
 						<figcaption>Members of Senate</figcaption>
 					</div>
 					<div class="card" onclick="linkOpen('fc')">
-						<img src="./icons/finc.png"/>
+						<img src="../icons/finc.png"/>
 						<figcaption>Finance Commitee</figcaption>
 					</div>
 					<div class="card" onclick="linkOpen('mv')">
-						<img src="./icons/mivi.png"/>
+						<img src="../icons/mivi.png"/>
 						<figcaption>Mission & Vision</figcaption>
 					</div>
 				</div>

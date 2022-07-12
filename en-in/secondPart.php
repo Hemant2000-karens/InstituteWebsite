@@ -40,9 +40,9 @@
 			<div class="deskSpeech">
 
 
-				<img src="./icons/opquote.png" style = "height:20px; width: 20px">
+				<img src="../icons/opquote.png" style = "height:20px; width: 20px">
 			I hope that our students and faculty will carry the flag of IIITDM Jabalpur to greater heights by applying their knowledge in an inter-disciplinary manner to provide solutions for various industrial, research and development projects. I hope they will stand as responsible and dedicated technocrats in the nation building.
-			<img src="./icons/clquote.png" style ="height:20px; width:20px;">
+			<img src="../icons/clquote.png" style ="height:20px; width:20px;">
 			 ~ (Acting)
 			
 					</div>
@@ -149,59 +149,12 @@
 </div>
 
 
-<script>
+<script type="text/javascript" src="./script.js"></script>
 
-let reSlideIndex = 1;
-changeResSlide(reSlideIndex);
-
-function moveRes(n) {
-  changeResSlide(reSlideIndex += n);
-}
-
-function viewMore() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("viewAllButton");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
-
-
-
-function changeResSlide(n) {
-  let i;
-  let slides = document.getElementsByClassName("resBodyParents");
-  if (n > slides.length) {reSlideIndex = 1}    
-  if (n < 1) {reSlideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slides[reSlideIndex-1].style.display = "block";
-
-
-
-  // if(1074 <= screen.width && screen.width <= 1425)
-  // {
-  // 	slides[reSlideIndex-1].style.display = "flex";  
-  // }
-  // else
-  // {
-  // 	slides[reSlideIndex-1].style.display = "block";
-  // }
-}
-
-
-
+<script type="text/javascript">
+	changeResSlide(reSlideIndex);
 </script>
-
+<script type="text/javascript" src="./script1.js"></script>
 
 
 

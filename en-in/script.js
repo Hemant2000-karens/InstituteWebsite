@@ -1,4 +1,5 @@
 let screenWidth = screen.width;
+let reSlideIndex = 1;
 var button = document.getElementsByClassName("card");
 var nbar = document.getElementById("adminHeader");
 var Hostelbutton = document.getElementsByClassName("hostel_card");
@@ -175,3 +176,40 @@ var i;
 	  document.getElementById(calName).style.display = "block";
 	  evt.currentTarget.className += " active";
 	}
+
+
+
+	
+	function moveRes(n) {
+  		changeResSlide(reSlideIndex += n);
+	}
+
+	function viewMore() {
+	  var dots = document.getElementById("dots");
+	  var moreText = document.getElementById("more");
+	  var btnText = document.getElementById("viewAllButton");
+
+	  if (dots.style.display === "none") {
+	    dots.style.display = "inline";
+	    btnText.innerHTML = "Read more"; 
+	    moreText.style.display = "none";
+	  } else {
+	    dots.style.display = "none";
+	    btnText.innerHTML = "Read less"; 
+	    moreText.style.display = "inline";
+	  }
+	}
+
+
+
+	function changeResSlide(n) {
+	  let i;
+	  let slides = document.getElementsByClassName("resBodyParents");
+	  if (n > slides.length) {reSlideIndex = 1}    
+	  if (n < 1) {reSlideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+	    slides[i].style.display = "none";  
+	  }
+	  slides[reSlideIndex-1].style.display = "block";
+	}
+

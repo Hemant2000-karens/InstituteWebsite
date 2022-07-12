@@ -36,7 +36,7 @@ html
 }
 *
 {
-  cursor: url("./icons/cursor.svg"), auto;
+  cursor: url("../icons/cursor.svg"), auto;
 }
 
 body{
@@ -1707,6 +1707,7 @@ hr.new1 {
 
 
 
+
   /* On hover */
 
   .event-main:hover .event-content-parents,
@@ -1773,7 +1774,7 @@ hr.new1 {
     color: #7c004c;
     margin: 0;
     font-size: x-large;
-    transition: ;
+    transition: 200ms eas;
   }
 /* Events Ends */
 
@@ -2451,7 +2452,7 @@ input[type="radio"]{
   }
   ul.Anti-Ragging-ol
   {
-    list-style-image: url("./icons/bullet.svg");
+    list-style-image: url("../icons/bullet.svg");
     list-style: #ccc;
   }
   ul.Anti-Ragging-ol li
@@ -2845,7 +2846,7 @@ input[type="radio"]{
     width: 35%;
     color: #ffffff;
     float:left;
-    max-height: 200px;
+    max-height: 260px;
   }
 
   .footer-heading .header-block{

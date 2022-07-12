@@ -46,29 +46,17 @@
         <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT ACT</a><br>
 
 
-        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Consortium for Edu Comm(CET)</a><br> -->
-
-
         <a target="_blank" href="../Documents/IIITAct30.pdf">Revista</a><br>
-
-
-        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">National Academic Depository</a><br> -->
 
 
         <a target="_blank" href="../Documents/IIITAct30.pdf">Taxi Services</a><br>
         
-        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Intellectual Property Policy(IPP)</a><br> -->
-        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Prop/Modification of Courses</a><br> -->
 
         <a target="_blank" href="../Documents/IIITAct30.pdf">NIRF</a><br>
 
+        <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT Council</a><br>
 
-        <!-- <a href="#">Undergraduate</a><br>
-        <a href="#">Postgraduate</a><br>
-        <a href="#">Fees Structure</a><br>
-        <a href="#">Seat Matrix</a><br>
-        <a href="#">Academic Guidelines</a><br>
-        <a href="#">Curriculum</a><br> -->
+        
       </div>
 
     <button  type="button" onclick="function()" class="collaps">Important Links</button>
@@ -147,6 +135,7 @@
         
         <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Prop/Modification of Courses</a><br> -->
 
+        <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT Council</a><br>
 
       <!--   <a href="#">Undergraduate</a><br>
         <a href="#">Postgraduate</a><br>
