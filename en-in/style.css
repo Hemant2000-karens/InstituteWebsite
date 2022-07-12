@@ -2846,23 +2846,27 @@ input[type="radio"]{
     width: 35%;
     color: #ffffff;
     float:left;
-    max-height: 260px;
+    height: 260px;
+    background: #2e3547;
   }
 
   .footer-heading .header-block{
+    display: flex;
+    align-items: center;
     height: 60px;
-    margin: 0 auto;
+    margin: 0 50px 0 0;
   }
 
   .footer-heading .header-block img{
     float: left;
     height: 60px;
     width: 60px;
+    padding: 4px 0;
   }
 
   .footer-heading .header-block h3{
     letter-spacing: 0.2em;
-    padding: 16px 70px;
+    padding: 4px 18px;
   }
 
   .footer-heading .footer-subheader{
@@ -2909,7 +2913,7 @@ input[type="radio"]{
     width:18%;
     margin: 0 auto;
     float: left;
-    padding-top: 50px;
+    padding-top: 20px;
     color: #7a839a;
   }
 
