@@ -2801,6 +2801,16 @@ input[type="radio"]{
   font-size: larger;
 }
 
+
+/* Mou Pdf icon */
+.bi-file-earmark-pdf-fill::before
+{
+  font-size: x-large;
+}
+.bi-file-earmark-pdf::before
+{
+  font-size: x-large;
+}
 /* Senate Settings*/
 
 
