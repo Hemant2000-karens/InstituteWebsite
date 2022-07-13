@@ -57,6 +57,10 @@
 			<div class="campusTour">
 			<div class="campusTour_sub">
 				<h2>Campus Tour</h2>
+			</div>
+			<div class="campusDetail">
+
+				
 
 			</div>
 		</div>	
