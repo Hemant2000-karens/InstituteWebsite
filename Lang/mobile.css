@@ -1,198 +1,16 @@
-@media only screen 
-and (max-width: 560px)
-{
-  .body
-  {
-    padding: 10px 4%;
-  }
-  .combined
-  {
-    padding: 0 4%;
-  }
-  .adminPageContent
-  {
-    padding: 2px 4%;
-  }
-  .tableContainer
-  {
-    padding: 10px 4%;
-  }
-  #welcomeNotice
-  {
-    height: 200px;
-    width: 350px;
-  }
-  .cal_Nav
-  {
-    margin: 0 4%;
-  }
-}
-
-@media only screen 
-and (max-width: 960px) 
-{
-  .topheader
-  {
-    height: auto;
-    display: inline-flex;
-    font-size: 10;
-    width: -webkit-fill-available;
-    width: -moz-available;
-  }
-  .active a
-  {
-    padding-top: 5px;
-  }
-
-  .article
-  {
-    width: 100%;
-    position: relative;
-    display: block;
-  }
-  .article fieldset
-  {
-    height: auto;
-    width: 92.5%;
-  }
-  .banner
-  {
-    height: 200px;
-  }
-  .topnav
-  {
-    padding: 0;
-  }
-  .topnav a:not(:first-child), .dropdown .dropbtn
-  {
-    display: none;
-  }
-  .topnav a.icon
-  {
-    float: right;
-    display: block;
-  }
-
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .topnav.responsive .dropdown {
-    float: none;
-  }
-  .topnav.responsive .dropdown-content {
-    position: relative;
-  }
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-  .column
-  {
-    width: 100%;
-    height: auto;
-  }
-  .combined
-  {
-    display: block;
-  }
-  .messageDeskCombined
-  {
-    padding: 5% 0;
-    display: grid;
-    height: auto;
-    width: 100%;
-  }
-  .imagedirector
-  {
-    margin-right: 1.25%;
-    height: auto;
-    width: 100%;
-  }
-  .combined_2
-  {
-    display: block;
-    margin-top: 1.2%;
-    margin-left: 0 !important;
-    width: 100% !important;
-  }
-  .newsTab
-  {
-    display: flex;
-    width: 99.8%;
-  }
-}
-
-
 @media screen and (max-width: 600px)
 {
   .aboutHeader h2
   {
     font-size: 20px;
   }
-  .SecondaryNav
-  {
-    display: inline-flex;
-    width: -webkit-fill-available;
-    width: -moz-available;
-    overflow-x: scroll;
-  }
-  .SecondaryNav a
-  {
-    display: grid;
-    text-overflow:hidden;
-  }
 }
 
-
-@media screen and (max-width: 650px)
-{
-  .header img {
-    width: 65px !important;
-    height: auto;
-  }
-  .header h1 {
-    height: 100%;
-    font-size: 14px;
-  }
-  .misc
-  {
-    display: table;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 420px)
-{
-  .circle
-  {
-    height:120px;
-    width: 120px;
-  }
-}
 /* NavBar */
 
 /* Dean Page Setting */
 
 /* tabletView Dean  ipad  and ipad pro 12" */
-@media only screen 
-and (max-width: 1200px)
-and (min-width: 960px)
-{
-  .topnav
-  {
-    padding: 0 3%;
-  }
-}
 
 
 @media screen and (max-width:1200px)
@@ -224,118 +42,21 @@ and (min-width: 960px)
   }
 }
 
-@media only screen
-and(min-width: 2560px)
-and(orientation: landscape)
-{
-  .topnav
-  {
-    padding: 0 27%;
-  }
-}
-
 
 @media only screen
 and (min-width: 320px)
 and (max-width: 375px)
 and (orientation: portrait)
 {
-  .DeanNav
-  {
-    margin: 0;
-  }
-  .deskTitle
-  {
-    font-size: 20px !important;
-  }
-  .column
-  {
-    width: 80%;
-  }
   .footer .footer-heading 
   {
     padding-left: 25% !important;
     padding-right: 25% !important;
   }
 }
-@media only screen
-and (min-width: 320px)
-and (max-width: 680px)
-and (orientation: landscape)
-{
-  .bodyContent
-  {
-    width: -webkit-fill-available;
-    width: -moz-available;
-  }
-  .tableContainer
-  {
-    padding: 0;
-    width: 95%;
-    margin: 0 20px;
-  }
-}
 
 
 
-@media only screen
-and (min-width: 375px)
-and (max-width: 460px)
-and (orientation: portrait)
-{
-  .topnav a
-  {
-    font-size: 15px;
-  }
-  .dropdown .dropbtn
-  {
-    font-size: 15px;
-  }
-  .bodyContent
-  {
-    width: -webkit-fill-available !important;
-    width: -moz-available;
-  }
-  .sticky
-  {
-    width: -webkit-fill-available;
-    width: -moz-available;
-  }
-  .topheader .main-group
-  {
-    display: contents;
-  }
-  .topheader .group
-  {
-    font-size: 8px;
-  }
-  .topheader .dept
-  {
-    width: 50%;
-    font-size: 8px;
-  }
-}
-
-@media screen and (max-width: 600px)
-{
-  .column 
-  {
-    width: 90%;
-    height: auto;
-  }
-  .row
-  {
-    display: inline-block;
-  }
-  .mesageContent
-  {
-    display: inline-block;
-  }
-  .acdpB
-  {
-    font-size: 20px;
-  }
-}
 
 @media screen
 and (max-width:460px)
@@ -350,19 +71,6 @@ and (max-width:460px)
   {
     padding: 2% 4%;
   }
-  .newsTab
-  {
-    width: 99.3%;
-  }
-  .combined
-  {
-    padding: 0 4%;
-  }
-  .newsContent
-  {
-    height: 150px;
-  }
-
   /* Footer for iphone and mobile */
   .footer-subheader
   {
@@ -375,51 +83,11 @@ and (max-width:460px)
 }
 
 
-@media only screen
-and (min-width: 552px)
-and (max-width: 721px)
-{
-  .resBody
-  {
-    height: 520px;
-  }
-}
 
-
-
-
-@media only screen
-and (max-width: 740px)
-{
-  .office_of_Dean.profile1
-  {
-    display: block;
-    text-align: center;
-  }
-}
 
 @media screen
 and (max-width: 770px)
 {
-  .topheader{
-    font-size: xx-small;
-  }
-
-  .topheader .language a{
-    padding:10px;
-    font-size: xx-small;
-  }
-
-  .topheader .main-group {
-    padding-top:4px;
-    padding-left:1px;
-    margin-left: 0;
-  }
-
-  .topheader .main-group .dept{
-    margin-right: 16px;
-  }
-
   .footer .footer-heading
   {
     width: -webkit-fill-available;
@@ -434,228 +102,15 @@ and (max-width: 770px)
   {
     display: none;
   }
-  .collaps {
-  display: block;
-  background-color: inherit;
-  color: white;
-  cursor: pointer;
-  font-family: 'Noto Sans', sans-serif;
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: 0.5px solid #1a1e2c;
-  border-left-style: none;
-  padding: 15px;
-  width: 100%;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  }
-  .collaps:after {
-      content: '+';
-      float: right;
-      font-size: 15px;
-      font-weight: normal;
-    }
-    .active2:after {
-    content: "-";
-  }
-    .content {
-    padding: 10px 18px;
-    height: auto;
-    display: none;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: #000a22;
-  }
-  .officals
-  {
-    background-color: inherit;
-  color: white;
-  font-family: 'Noto Sans', sans-serif;
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  width: 100%;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  padding: 15px;
-  }
-  .office
-  {
-    padding: 10px 18px;
-    height: auto;
-    display: none;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: #1a1e2c;
-  }
-  .officals:after
-  {
-    content: '+';
-    float: right;
-    font-size: 15px;
-    font-weight: normal;
-  }
-  .active3:after
-  {
-    content: "-";
-  }
-  .content a
-  {
-    padding: 15px 10px ;
-    text-decoration: none;
-    color: #e4eff8;
-    font-size: small;
-  }
-  .footerSecondary
-  {
-    display:block;
-    padding: 0px;
-    height: auto;
-    padding-bottom: 5px;
-    background-color: #0d101c;
-  }
-  .office a{
-    color: #7a839a;
-    text-decoration: none;
-    display: inline-grid;
-    padding: 5px 12px;
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 786px) {
-   .timeline__event {
-    box-sizing: border-box;
-     flex-direction: column;
-     align-self: center;
-     width: 75vw;
-  }
-   .timeline__event__content {
-     width: 100%;
-     box-sizing: border-box;
-  }
-   .timeline__event__icon {
-     border-radius: 6px 6px 0 0;
-     width: 100%;
-     margin: 0;
-     box-sizing: border-box;
-     box-shadow: none;
-  }
-   .timeline__event__icon:before, .timeline__event__icon:after {
-     display: none;
-     box-sizing: border-box;
-  }
-   .timeline__event__date {
-     border-radius: 0;
-     padding: 20px;
-     box-sizing: border-box;
-  }
-   .timeline__event:nth-child(2n + 1) {
-     flex-direction: column;
-     align-self: center;
-     box-sizing: border-box;
-  }
-   .timeline__event:nth-child(2n + 1) .timeline__event__date {
-     border-radius: 0;
-     padding: 20px;
-     box-sizing: border-box;
-  }
-   .timeline__event:nth-child(2n + 1) .timeline__event__icon {
-     border-radius: 6px 6px 0 0;
-     margin: 0;
-     box-sizing: border-box;
-  }
 }
 
 
 
 
 
-@media only screen
-and (max-width: 1000px)
-{
-  .calTable table, thead, tbody, th, td, tr
-  {
-    display: block;
-  }
- 
-  .calTable td {
-    border: none;
-    border-bottom: 1px solid #eee;
-    position: relative;
-    padding-left: 200px;
-  }
-  
-  .calTable td:nth-of-type(1):before { content: ""; }
-  .calTable td:nth-of-type(2):before { content: ""; }
-  .calTable td:nth-of-type(3):before { content: ""; }
-  .calTable td:nth-of-type(4):before { content: ""; }
-  
-  .calTable table th:first-child
-  {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-  .calTable table th:last-child
-  {
-    border-top-right-radius: 0px;
-  }
-  .calTable table caption
-  {
-    display: list-item;
-    list-style: none;
-  }
-}
-
-/* Notice and Message for multiple
-resolution (mobile and tablet iPad)*/
-
-@media screen
-and (max-width: 778px)
-{
-  .deskTitle
-  {
-    font-size: 30px;
-  }
-}
 
 
 
-
-
-/* Smartphones (landscape) ---------------- */
-
-
-/* Tablets (portrait) -------------------- */
-@media only screen
-and (min-width: 768px)
-and (max-device-width: 1024px)
-{
-  .home .caption
-  {
-    margin-top: 20px;
-    margin-left: 20px;
-  }
-}
-
-
-/* Tablets (landscape) ------------------- */
-@media only screen
-and (min-device-width: 568px)
-and (max-device-width: 960px)
-{
-  .home .caption h1
-  {
-    font-size: 20px;
-  }
-  .home .caption
-  {
-    width: 40%;
-  }
-}
 
 @media only screen
 and (min-device-width: 461px)
@@ -667,122 +122,9 @@ and (max-device-width: 505px)
   }
 }
 
-/* iPad Air Setting for notice and message */
-
-/* iPad Air Ends Here */
-
-
-/* Android Tablet Adjustment */
-
-
-@media only screen
-and (min-width: 534px)
-and (max-width: 854px)
-and (orientation: landscape)
-{
-
-/* Dean Page Setting */
-
-  .bodyContent
-  {
-    width: 100%;
-  }
-}
-
-
-/* Lenovo Tab 8 Ends */
-
-
-
-
-/* about us page */
-@media only screen
-and (min-width: 320px)
-and (max-width: 665px)
-{
-  .card
-  {
-    margin: 20px auto;
-  }
-  .body
-  {
-    width: auto;
-    margin: 10px 20px;
-  }
-}
-
-/* BOD Page ---*/
-
-@media only screen
-and (min-width: 375px)
-and (max-width: 580px)
-and (orientation: portrait)
-{
-    .Director
-    {
-      margin: 12px auto;
-    }
-    .members
-    {
-      width: 60vw;
-      display: block;
-      margin: 12px auto;
-    }
-}
-
-
-/* End of BOD page--- */
-
-
-/* administor page*/
-
-
-
-
-
-
-
-
-
-/* Old Desktops and laptops ------------------ */
-
-@media only screen
-and (min-width: 1074px)
-and (max-width: 1425px)
-{
-  .reseachHighLights
-  {
-    padding: 2% 0;
-  }
-  .rContentMain
-  {
-    padding: 0;
-  }
-  .resBody
-  {
-    height: 321px;
-    display: flex;
-  }
-  .resImage img
-  {
-    height: 100%;
-    width: auto;
-  }
-}
 
 
 /* Desktops ------------------ */
-
-
-
-@media only screen
-and (min-width: 1200px)
-{
-  .facultyTabs
-  {
-    margin: 0 10%;
-  }
-}
 
 
 @media only screen
@@ -791,14 +133,6 @@ and (min-width: 1600px)
   .header
   {
     padding: 0 8%;
-  }
-  .secondPartmain
-  {
-    padding: 2% 10%;
-  }
-  .event-grid
-  {
-    padding: 2.5% 8%;
   }
   .footer .footer-main
   {
