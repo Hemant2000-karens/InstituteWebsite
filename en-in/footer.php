@@ -61,12 +61,12 @@
 
     <button  type="button" onclick="function()" class="collaps">Important Links</button>
       <div class="content">
-        <a href="#">Useful Information</a><br>
+        <a href="./importantDocs.php">Important Docs</a><br>
+        <a href="./importantForms.php">Important Forms</a><br>
         <a href="../Documents/refundRule.pdf">Refund Rule</a><br>
         <a href="./anualReports.php">Anual Reports</a><br>
         <a href="./anualAccounts.php">Anual Accounts</a><br>
         <a href="./convocation.php">Convocation</a><br>
-        <a href="#">Important Forms</a><br>
         <a href="./Circulars.php">Circulars</a><br>
       </div>
 
@@ -150,11 +150,11 @@
       <h4>IMPORTANT LINKS</h4>
       <div class = "footer-subgroup-links">
         <a href="./importantDocs.php">Important Docs</a><br>
+        <a href="./importantForms.php">Important Forms</a><br>
         <a href="../Documents/refundRule.pdf">Refund Rule</a><br>
         <a href="./anualReports.php">Anual Reports</a><br>
         <a href="./anualAccounts.php">Anual Accounts</a><br>
         <a href="./convocation.php">Convocation</a><br>
-        <a href="./importantForms.php">Important Forms</a><br>
         <a href="./Circulars.php">Circulars</a><br>
       </div>
     </div>
