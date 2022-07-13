@@ -55,7 +55,7 @@
 											{
 												while($rows = $result -> fetch_assoc())
 												{
-													echo("<tr><td>".$rows['EventName']."</td><td>".$rows['date']."</td><td>".$rows['IIITDMJCoordinator']."</td><td> <a class ='mouLink' target ='_parent' href ='../Documents/MoU/Industry/".$rows['filename']."'><i class='bi bi-file-earmark-pdf'></i></a></td></tr>");
+													echo("<tr><td>".$rows['EventName']."</td><td>".$rows['date']."</td><td>".$rows['IIITDMJCoordinator']."</td><td> <a class ='mouLink' target ='_parent' href ='../Documents/MoU/Institute/".$rows['filename']."'><i class='bi bi-file-earmark-pdf'></i></a></td></tr>");
 												}
 											}
 
@@ -93,7 +93,7 @@
 											{
 												while($rows = $result -> fetch_assoc())
 												{
-													echo("<tr><td>".$rows['EventName']."</td><td>".$rows['date']."</td><td>".$rows['Country']."<td>".$rows['IIITDMJCoordinator']."</td><td> <a class ='mouLink' target ='_parent' href ='../Documents/MoU/Industry/".$rows['filename']."'><i class='bi bi-file-earmark-pdf'></i></a></td></tr>");
+													echo("<tr><td>".$rows['EventName']."</td><td>".$rows['date']."</td><td>".$rows['Country']."<td>".$rows['IIITDMJCoordinator']."</td><td> <a class ='mouLink' target ='_parent' href ='../Documents/MoU/Institute/".$rows['filename']."'><i class='bi bi-file-earmark-pdf'></i></a></td></tr>");
 												}
 											}
 
