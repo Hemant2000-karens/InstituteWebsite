@@ -47,7 +47,7 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM bwcAgenda";
+  								$sql_query = "SELECT * FROM MoU where type = 'Institute' and category = 'National';";
 
 										$result = $link->query($sql_query);
 
@@ -55,12 +55,7 @@
 											{
 												while($rows = $result -> fetch_assoc())
 												{
-													// echo ("<tr>
-													// 	<td><a target ='_blank' href='../Documents/bwcAgenda/".$rows['link']."'>".$rows['EventName']."</a></td>
-													// 		<td>
-													// 		".$rows['date']."
-													// 	</td>
-													// </tr>");
+													echo("<tr><trd".$rows['EventName']."</td><td>".$rows['date']."</td><td>".$rows['IIITDMJCoordinator']."</td><td> <a class ='mouLink' target ='_parent' href ='../Documents/MoU/Industry/".$rows['filename']."'></a></td></tr>");
 												}
 											}
 
@@ -90,7 +85,7 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM bwcAgenda";
+  								$sql_query = "SELECT * FROM MoU where type = 'Institute' and category = 'International';";
 
 										$result = $link->query($sql_query);
 
@@ -98,12 +93,7 @@
 											{
 												while($rows = $result -> fetch_assoc())
 												{
-													// echo ("<tr>
-													// 	<td><a target ='_blank' href='../Documents/bwcAgenda/".$rows['link']."'>".$rows['EventName']."</a></td>
-													// 		<td>
-													// 		".$rows['date']."
-													// 	</td>
-													// </tr>");
+													echo("<tr><trd".$rows['EventName']."</td><td>".$rows['date']."</td><td>".$rows['Country']."<td>".$rows['IIITDMJCoordinator']."</td><td> <a class ='mouLink' target ='_parent' href ='../Documents/MoU/Industry/".$rows['filename']."'></a></td></tr>");
 												}
 											}
 

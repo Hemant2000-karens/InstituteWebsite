@@ -9,8 +9,4 @@
             <p>MINISTRY OF HUMAN RESOURCES AND DEVELOPMENT</p>
         </div>
     </div>
-
-    <div class="language">
-        <a href="#">Eng</a>|<a href="#">हिन्दी</a>
-    </div>
 </div>

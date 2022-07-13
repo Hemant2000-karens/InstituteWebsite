@@ -2802,6 +2802,26 @@ input[type="radio"]{
 }
 
 
+/* MoU Link */
+
+.mouLink:after
+{
+  content: "Hello";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Senate Settings*/
 
