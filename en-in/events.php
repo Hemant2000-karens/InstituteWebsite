@@ -14,7 +14,7 @@
 
 				<div class="event-body-main">
 
-					<div class="event-image"> <img src="../Images/event-Image/Blood_donation.jpg" /> </div>
+					<div class="event-image"> <img src="../Images/event-Image/Blood-donation.jpg" /> </div>
 
 					<div class="event-content-parents">
 
@@ -71,7 +71,7 @@
 
 				<div class="event-body-main">
 
-					<div class="event-image"> <img src="../Images/event-Image/Blood_donation.jpg" /> </div>
+					<div class="event-image"> <img src="../Images/event-Image/Blood-donation.jpg" alt="" /> </div>
 
 					<div class="event-content-parents">
 
@@ -100,7 +100,7 @@
 
 				<div class="event-body-main">
 
-					<div class="event-image"> <img src="../Images/event-Image/Blood_donation.jpg" /> </div>
+					<div class="event-image"> <img src="../Images/event-Image/Blood-donation.jpg" /> </div>
 
 					<div class="event-content-parents">
 
