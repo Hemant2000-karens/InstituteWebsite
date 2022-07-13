@@ -46,13 +46,13 @@
         <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT ACT</a><br>
 
 
-        <a target="_blank" href="../Documents/IIITAct30.pdf">Revista</a><br>
+        <a target="_blank" href="https://www.iiitdmj.ac.in/revista.iiitdmj.ac.in/">Revista</a><br>
 
 
-        <a target="_blank" href="../Documents/IIITAct30.pdf">Taxi Services</a><br>
+        <a target="_blank" href="../Documents/Taxi.pdf">Taxi Services</a><br>
         
 
-        <a target="_blank" href="../Documents/IIITAct30.pdf">NIRF</a><br>
+        <a target="_blank" href="https://www.iiitdmj.ac.in/nirf.iiitdmj.ac.in/index.html#res">NIRF</a><br>
 
         <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT Council</a><br>
 
@@ -63,11 +63,11 @@
       <div class="content">
         <a href="#">Useful Information</a><br>
         <a href="../Documents/refundRule.pdf">Refund Rule</a><br>
-        <a href="../Documents/refundRule.pdf">Anual Reports</a><br>
-        <a href="#">Convocation</a><br>
+        <a href="./anualReports.php">Anual Reports</a><br>
+        <a href="./anualAccounts.php">Anual Accounts</a><br>
+        <a href="./convocation.php">Convocation</a><br>
         <a href="#">Important Forms</a><br>
-        <a href="#">Internal Circulars</a><br>
-        <a href="#">External Circulars</a><br>
+        <a href="./Circulars.php">Circulars</a><br>
       </div>
 
       <button type="button" class="collaps">Others</button>
@@ -75,9 +75,8 @@
         <a href="https://www.iiitdmj.ac.in/STSCCell/">SC/ST and Minority Cell</a><br>
         <a href="https://www.iiitdmj.ac.in/womencell/">Women Cell</a><br>
         <a href="#">Grievance Redressal Cell</a><br>
-        <a href="#">Anti Ragging Squad</a><br>
+        <a href="../Documents/Constitution of Anti-Ragging Squad.pdf">Anti Ragging Squad</a><br>
         <a href="#">Seat Matrix</a><br>
-        <a href="#">Tenders</a><br>
         <a href="./Jobs/">Career Opportunities</a><br>
       </div>
 
@@ -98,8 +97,9 @@
     </div>
     <div class="footerSecondary">
     <div class="Copyright">
+      <span><?php echo("<a href='../Lang'> English</a>")?></span>
       <center>
-        Copyright © 2021 IIITDMJ | All rights reserved.
+        Copyright © 2022 IIITDMJ | All rights reserved.
       </center>
     </div>
   </div>
@@ -120,17 +120,17 @@
         <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Consortium for Edu Comm(CET)</a><br> -->
 
 
-        <a target="_blank" href="../Documents/IIITAct30.pdf">Revista</a><br>
+        <a target="_blank" href="https://www.iiitdmj.ac.in/revista.iiitdmj.ac.in/">Revista</a><br>
 
 
         <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">National Academic Depository</a><br> -->
 
 
-        <a target="_blank" href="../Documents/IIITAct30.pdf">Taxi Services</a><br>
+        <a target="_blank" href="../Documents/Taxi.pdf">Taxi Services</a><br>
         
         <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Intellectual Property Policy(IPP)</a><br> -->
 
-        <a target="_blank" href="../Documents/IIITAct30.pdf">NIRF</a><br>
+        <a target="_blank" href="https://www.iiitdmj.ac.in/nirf.iiitdmj.ac.in/index.html#res">NIRF</a><br>
 
         
         <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Prop/Modification of Courses</a><br> -->
@@ -149,13 +149,13 @@
     <div class="footer-subgroup">
       <h4>IMPORTANT LINKS</h4>
       <div class = "footer-subgroup-links">
-        <a href="#">Useful Information</a><br>
+        <a href="./importantDocs.php">Important Docs</a><br>
         <a href="../Documents/refundRule.pdf">Refund Rule</a><br>
-        <a href="#">Annual Reports</a><br>
-        <a href="#">Convocation</a><br>
-        <a href="#">Important Forms</a><br>
-        <a href="#">Internal Circulars</a><br>
-        <a href="#">External Circulars</a><br>
+        <a href="./anualReports.php">Anual Reports</a><br>
+        <a href="./anualAccounts.php">Anual Accounts</a><br>
+        <a href="./convocation.php">Convocation</a><br>
+        <a href="./importantForms.php">Important Forms</a><br>
+        <a href="./Circulars.php">Circulars</a><br>
       </div>
     </div>
 
@@ -165,9 +165,8 @@
         <a href="https://www.iiitdmj.ac.in/STSCCell/">SC/ST and Minority Cell</a><br>
         <a href="https://www.iiitdmj.ac.in/womencell/">Women Cell</a><br>
         <a href="#">Grievance Redressal Cell</a><br>
-        <a href="#">Anti Ragging Squad</a><br>
+        <a href="../Documents/Constitution of Anti-Ragging Squad.pdf">Anti Ragging Squad</a><br>
         <a href="#">Seat Matrix</a><br>
-        <a href="#">Tenders</a><br>
         <a href="./Jobs/">Career Opportunities </a><br>
       </div>
     </div>
@@ -188,8 +187,9 @@
   </div>
   <div class="footer-secondary">
     <div class="Copyright">
-      <span><?php echo("English")?> </span>
-      <center>
+      <span style="float: left; padding: 0 4%;"><?php echo("<a style= 'text-decoration: none;
+    color: white;' href='../Lang'> English</a>")?></span>
+      <center style="margin: 0 15%;">
         Copyright © 2022 IIITDMJ | All rights reserved.
       </center>
     </div>

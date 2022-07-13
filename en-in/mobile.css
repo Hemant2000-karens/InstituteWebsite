@@ -470,17 +470,17 @@ and (max-width: 770px)
   .officals
   {
     background-color: inherit;
-  color: white;
-  font-family: 'Noto Sans', sans-serif;
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  width: 100%;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  padding: 15px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    padding: 15px;
   }
   .office
   {
@@ -523,6 +523,12 @@ and (max-width: 770px)
     display: inline-grid;
     padding: 5px 12px;
     font-size: 12px;
+  }
+  .Copyright
+  {
+    display: block;
+    display: block;
+    text-align: center;
   }
 }
 
