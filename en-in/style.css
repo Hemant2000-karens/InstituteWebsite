@@ -2131,10 +2131,9 @@ input[type="radio"]{
 /* Academic Calendar */
 .calMain
 {
-  width: 100%;
   width: -webkit-fill-available;
   width: -moz-available;
-  padding: 2% 4% ;
+  padding: 0 4% ;
   text-align: center;
 }
 .calTable
