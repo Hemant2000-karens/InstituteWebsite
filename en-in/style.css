@@ -1201,13 +1201,56 @@ body{
 
   .campusDetail
   {
+    padding: 2%;
+    height: auto;
+  }
+
+  .campus-pill
+  {
+    border-radius: 15px;
+    display: flex;
+  }
+
+  .hostels
+  {
+    background: url("../Images/indexCampus");
+  }
+  .health
+  {
+    background: url("../Images/indexCampus");
+  }
+  .fest
+  {
+    background: url("../Images/indexCampus");
+  }
+  .green-campus
+  {
+    background: url("../Images/indexCampus");
+  }
+
+  .hostels:hover,
+  .health:hover,
+  .fest:hover,
+  .green-campus:hover
+  {
 
   }
 
+  .hostels:hover,
+  .health:hover,
+  .fest:hover,
+  .green-campus:hover
+  {
 
+  }
 
+  .hostels:hover,
+  .health:hover,
+  .fest:hover,
+  .green-campus:hover
+  {
 
-
+  }
 
 
   /* About US */

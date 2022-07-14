@@ -60,8 +60,24 @@
 			</div>
 			<div class="campusDetail">
 
-				
+				<div class="campus-pill hostels">
 
+					<div class="index-title">
+						<h4>Hostels</h4> <i class="bi bi-arrow-up-right-circle"></i>
+					</div>
+				</div>
+
+				<div class="campus-pill health">
+					<h4>Hospital</h4> <i class="bi bi-arrow-up-right-circle"></i>
+				</div>
+
+				<div class="campus-pill fest">
+					<h4>Fest</h4> <i class="bi bi-arrow-up-right-circle"></i>
+				</div>
+
+				<div class="campus-pill green-campus">
+					<h4>Greenery</h4> <i class="bi bi-arrow-up-right-circle"></i>
+				</div>
 			</div>
 		</div>	
 
@@ -159,31 +175,3 @@
 	changeResSlide(reSlideIndex);
 </script>
 <script type="text/javascript" src="./script1.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
