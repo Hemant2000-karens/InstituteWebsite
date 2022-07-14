@@ -2,7 +2,7 @@
 
 include './connectionDB.php';
 
-$sqlF = "select * from syllabus where semester = 3 && programs = 'PG'";
+$sqlF = "SELECT semester,filename from syllabus where semester = 3 && programs = 'PG'";
 
 $result = $link->query($sqlF);
 

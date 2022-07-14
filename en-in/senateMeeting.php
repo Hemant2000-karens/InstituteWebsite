@@ -46,7 +46,7 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM senateAgenda";
+  								$sql_query = "SELECT link,EventName,date FROM senateAgenda";
 
 										$result = $link->query($sql_query);
 
@@ -87,7 +87,7 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM senateMinute";
+  								$sql_query = "SELECT link,EventName,date FROM senateMinute";
 
 										$result = $link->query($sql_query);
 
