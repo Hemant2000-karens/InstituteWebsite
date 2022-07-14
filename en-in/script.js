@@ -74,6 +74,23 @@ var i;
 
 
 
+
+function changeFacultyBranch(evt, calName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("facultyList");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("calTab");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(calName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+
+
 	for (i = 0; i < collButton.length; i++) {
 	  collButton[i].addEventListener("click", function() {
 	    this.classList.toggle("visibleldTab");

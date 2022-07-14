@@ -20,17 +20,17 @@
 			<span class="br"></span>
 
 			<div class="facultyTabs">
-					<button class="calTab" onclick="changeCal(event, 'cse')" id="defaultOpen">CSE
+					<button class="calTab" onclick="changeFacultyBranch(event, 'cse')" id="defaultOpen">CSE
 					</button>
-  				<button class="calTab" onclick="changeCal(event, 'me')">ME
+  				<button class="calTab" onclick="changeFacultyBranch(event, 'me')">ME
   				</button>
-  				<button class="calTab" onclick="changeCal(event, 'ece')">ECE
+  				<button class="calTab" onclick="changeFacultyBranch(event, 'ece')">ECE
   				</button>
-  				<button class="calTab" onclick="changeCal(event, 'des')">DES
+  				<button class="calTab" onclick="changeFacultyBranch(event, 'des')">DES
   				</button>
-  				<button class="calTab" onclick="changeCal(event, 'ns')">NS
+  				<button class="calTab" onclick="changeFacultyBranch(event, 'ns')">NS
   				</button>
-  				<button class="calTab" onclick="changeCal(event, 'la')">LA
+  				<button class="calTab" onclick="changeFacultyBranch(event, 'la')">LA
   				</button>
 				</div>
 
