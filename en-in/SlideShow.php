@@ -5,7 +5,7 @@
     <?php include './connectionDB.php';
 
 
-    $sqlF = "SELECT * from slideshow;";
+    $sqlF = "SELECT class,image,heading,paragraph from slideshow;";
 
     $result = $link->query($sqlF);
 

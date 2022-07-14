@@ -47,7 +47,7 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM MoU where type = 'Institute' and category = 'National';";
+  								$sql_query = "SELECT EventName,date,IIITDMJCoordinator,filename FROM MoU where type = 'Institute' and category = 'National';";
 
 										$result = $link->query($sql_query);
 
@@ -85,7 +85,7 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM MoU where type = 'Institute' and category = 'International';";
+  								$sql_query = "SELECT EventName,date,Country,IIITDMJCoordinator,filename FROM MoU where type = 'Institute' and category = 'International';";
 
 										$result = $link->query($sql_query);
 

@@ -2180,10 +2180,13 @@ input[type="radio"]{
   color: #f2f2f2;
   transition-duration: 2000ms;
 }
+
+.calTable1 th,td,
 .calTable th,td
 {
   border: 0.5px solid #ccc;
 }
+.calTable1 table,
 .calTable table
 {
   font-family: var(--ubuntu);
@@ -2192,23 +2195,30 @@ input[type="radio"]{
   border-radius: 5px !important;
   border-collapse: collapse;  
 }
+
+.calTable1 table caption,
 .calTable table caption
 {
   padding: 0.55% 0;
   font-size: x-large;
   color: #3a4c67;
 }
+
+.calTable1 table th,
 .calTable table th
 {
   background: #3b4e5d;
   color: whitesmoke;
   padding: 10px 6px;
 }
+
+.calTable1 table tr:nth-child(odd),
 .calTable table tr:nth-child(odd)
 {
   background-color: #d5d5d5;
   color: #003156;
 }
+.calTable1 table td,
 .calTable table td
 {
   text-overflow: clip;
@@ -2217,24 +2227,34 @@ input[type="radio"]{
   padding: 10px 6px;
   width: 0px;
 }
+
+.calTable1 table th:first-child,
 .calTable table th:first-child
 {
   border-top-left-radius: 5px;
 }
+
+.calTable1 table th:last-child,
 .calTable table th:last-child
 {
   border-top-right-radius: 5px;
 }
+
+.calTable1 table td a,
 .calTable table td a
 {
   text-decoration: none;
   color: inherit;
 }
 
+
+.calTable1 table td a:hover,
 .calTable table td a:hover
 {
   cursor: grab;
 }
+
+
 .calNotice
 {
   width: -webkit-fill-available;
@@ -2242,6 +2262,8 @@ input[type="radio"]{
   height: auto;
   padding: 1.25% 0.5%;
 }
+
+
 .calNotice h4
 {
   font-family: var(--ubuntu);

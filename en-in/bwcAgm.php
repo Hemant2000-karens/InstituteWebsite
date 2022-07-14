@@ -42,22 +42,21 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM bwcAgenda";
+  								$sql_query = "SELECT link,EventName,date FROM bwcAgenda";
 
 										$result = $link->query($sql_query);
 
 										if($result -> num_rows > 0)
+										{
+											while($rows = $result -> fetch_assoc())
 											{
-												while($rows = $result -> fetch_assoc())
-												{
-													echo ("<tr>
-														<td><a target ='_blank' href='../Documents/bwcAgenda/".$rows['link']."'>".$rows['EventName']."</a></td>
-															<td>
-															".$rows['date']."
-														</td>
-													</tr>");
-												}
+												echo ("<tr><td><a target ='_blank' href='../Documents/bwcAgenda/".$rows['link']."'>".$rows['EventName']."</a></td><td>".$rows['date']."</td></tr>");
 											}
+										}
+										else
+										{
+											echo("<tr><td colspan = '2'> No Data Available </td></tr>");
+										}
 
 
 									$link -> close();
@@ -83,23 +82,22 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM bwcMinute";
+  								$sql_query = "SELECT link,EventName,date FROM bwcMinute";
 
 										$result = $link->query($sql_query);
 
 										if($result -> num_rows > 0)
+										{
+											while($rows = $result -> fetch_assoc())
 											{
-												while($rows = $result -> fetch_assoc())
-												{
-													echo ("<tr>
-														<td><a target ='_blank' href='../Documents/bwcMinute/".$rows['link']."'>".$rows['EventName']."</a></td>
-															<td>
-															".$rows['date']."
-														</td>
-													</tr>");
+												echo ("<tr><td><a target ='_blank' href='../Documents/bwcMinute/".$rows['link']."'>".$rows['EventName']."</a></td><td>".$rows['date']."</td></tr>");
 												}
-											}
+										}
 
+										else
+										{
+											echo("<tr><td colspan = '2'> No Data Available </td></tr>");
+										}
 
 									$link -> close();
   								?>
@@ -122,4 +120,5 @@
 <?php include './footer.php'?>
 
 <script type="text/javascript" src="./script.js"></script>
+<script type="text/javascript" src="./script1.js"></script>
 </html>

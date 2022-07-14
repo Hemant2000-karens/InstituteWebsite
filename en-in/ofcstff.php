@@ -26,7 +26,7 @@
 
 				<?php include './connectionDB.php';
 
-					$sql_query = "SELECT * FROM officeAdministration";
+					$sql_query = "SELECT photo,name,post,department FROM officeAdministration";
 
 					$result = $link->query($sql_query);
 

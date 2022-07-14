@@ -2,7 +2,7 @@
 
 <?php include './connectionDB.php';
 
-	$sql_query = "SELECT * FROM achievement limit 5";
+	$sql_query = "SELECT link,ach_content,date FROM achievement limit 5";
 
 
 	$result = $link->query($sql_query);

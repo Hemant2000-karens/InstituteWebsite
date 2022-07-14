@@ -1,6 +1,6 @@
 <?php
 include 'connectionDB.php';
-$sqlF = "SELECT * from c_update;";
+$sqlF = "SELECT link,curr_update from c_update;";
 
 $result = $link->query($sqlF);
 

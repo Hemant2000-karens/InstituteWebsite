@@ -43,7 +43,7 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM bogAgenda";
+  								$sql_query = "SELECT link,EventName,extra,date FROM bogAgenda";
 
 										$result = $link->query($sql_query);
 
@@ -88,7 +88,7 @@
   								
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM bogMinute";
+  								$sql_query = "SELECT link,link1,link2,EventName,extra1,extra2,date FROM bogMinute";
 
 										$result = $link->query($sql_query);
 
@@ -131,4 +131,5 @@
 <?php include './footer.php'?>
 
 <script type="text/javascript" src="./script.js"></script>
+<script type="text/javascript" src="./script1.js"></script>
 </html>

@@ -601,11 +601,13 @@ and (max-width: 770px)
 @media only screen
 and (max-width: 1000px)
 {
+  .calTable1 table, thead, tbody, th, td, tr,
   .calTable table, thead, tbody, th, td, tr
   {
     display: block;
   }
  
+  .calTable1 td,
   .calTable td {
     border: none;
     border-bottom: 1px solid #eee;
@@ -613,25 +615,37 @@ and (max-width: 1000px)
     padding-left: 200px;
   }
   
+  .calTable1 table td.
   .calTable table td
   {
     width: auto;
   }
+
+  .calTable1 td:nth-of-type(1):before { content: ""; }
+  .calTable1 td:nth-of-type(2):before { content: ""; }
+  .calTable1 td:nth-of-type(3):before { content: ""; }
+  .calTable1 td:nth-of-type(4):before { content: ""; }
 
   .calTable td:nth-of-type(1):before { content: ""; }
   .calTable td:nth-of-type(2):before { content: ""; }
   .calTable td:nth-of-type(3):before { content: ""; }
   .calTable td:nth-of-type(4):before { content: ""; }
   
+  .calTable1 table th:first-child,
   .calTable table th:first-child
   {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
+
+  .calTable1 table th:last-child
   .calTable table th:last-child
   {
     border-top-right-radius: 0px;
   }
+
+  
+  .calTable1 table caption  
   .calTable table caption
   {
     display: list-item;

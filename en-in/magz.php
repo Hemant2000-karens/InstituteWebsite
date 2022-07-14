@@ -19,7 +19,7 @@
 		
 		<?php include './connectionDB.php';
 
-			$sql_query = "SELECT * FROM magazine ORDER by magazine_year DESC";
+			$sql_query = "SELECT magazine_link,magazine_year FROM magazine ORDER by magazine_year DESC";
 
 
 			$result = $link->query($sql_query);
@@ -38,9 +38,8 @@
 			}
 			else
 			{
-				echo "View all - <a href='viewall.php'>View All</a>";
+				echo("");
 			}
-
 			$link -> close();
 		?>
 	</div>

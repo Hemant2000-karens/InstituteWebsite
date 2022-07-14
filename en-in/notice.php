@@ -2,7 +2,7 @@
 
 <?php include './connectionDB.php';
 
-	$sql_query = "SELECT * FROM Notice limit 5";
+	$sql_query = "SELECT notice_link,notice_text,date FROM Notice limit 5";
 
 
 	$result = $link->query($sql_query);

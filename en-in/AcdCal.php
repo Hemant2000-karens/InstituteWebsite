@@ -43,7 +43,7 @@
 							
 
 							<?php 
-							$sql = "SELECT * from academicCalendar where semester = 1"; 
+							$sql = "SELECT event,dateFromUG,dateFromPG,dateFromNewUG,dateToUG,dateToPG,dateToNewUG from academicCalendar where semester = 1"; 
 							$result = $link->query($sql);
 							?>
 
@@ -71,7 +71,7 @@
 														<td>".$rows['event']."</td>
 														<td>".$rows['dateFromUG']." to ".$rows['dateToUG']."</td>
 														<td>".$rows['dateFromPG']." to ".$rows['dateToPG']."</td>
-														<td>".$rows['dateFromNewUG']." to ".$rows['dateToNewPG']."</td>
+														<td>".$rows['dateFromNewUG']." to ".$rows['dateToNewUG']."</td>
 														</tr>");
 												}
 											}
@@ -161,44 +161,45 @@
 
 
 								<?php 
-							$sql = "SELECT * from academicCalendar where semester = 2"; 
-							$result = $link->query($sql);
-							?>
+								
+
+									$sql = "SELECT event,dateFromUG,dateFromPG,dateFromNewUG,dateToUG,dateToPG,dateToNewUG from academicCalendar where semester = 2"; 
+									$result = $link->query($sql);
+								?>
 
 
-							<table id="tb2">
+								<table id="tb2">
 
 
-								 <caption>Semester &#x2161;</caption>
-								  <tr>
-    								<th>Events</th>
-    								<th>Previous UG, PG, <span class="br"></span> New M.Des, & New P.hD</th>
-    								<th>M.tech</th>
-    								<th>New UG Batch</th>
-  								</tr>
-  									<!-- Heading of the tables-->
+										<caption>Semester &#x2161;</caption>
+									<tr>
+	    								<th>Events</th>
+	    								<th>Previous UG, PG, <span class="br"></span> New M.Des, & New P.hD</th>
+	    								<th>M.tech</th>
+	    								<th>New UG Batch</th>
+	  								</tr>
+	  									<!-- Heading of the tables-->
 
 
-										<?php
+											<?php
 
-  								if($result -> num_rows > 0)
-											{
-												while($rows = $result -> fetch_assoc())
+	  											if($result -> num_rows > 0)
 												{
-													echo ("<tr>
-														<td>".$rows['event']."</td>
-														<td>".$rows['dateFromUG']." to ".$rows['dateToUG']."</td>
-														<td>".$rows['dateFromPG']." to ".$rows['dateToPG']."</td>
-														<td>".$rows['dateFromNewUG']." to ".$rows['dateToNewPG']."</td>
-														</tr>");
+													while($rows = $result -> fetch_assoc())
+													{
+														echo ("<tr>
+															<td>".$rows['event']."</td>
+															<td>".$rows['dateFromUG']." to ".$rows['dateToUG']."</td>
+															<td>".$rows['dateFromPG']." to ".$rows['dateToPG']."</td>
+															<td>".$rows['dateFromNewUG']." to ".$rows['dateToNewUG']."</td>
+															</tr>");
+													}
 												}
-											}
 
 											?>
+								</table>
 
-							</table>
-
-													<div class="calNotice">
+								<div class="calNotice">
 
 								<h4><sup>*</sup>It is mandatory to show answersheets and mark to students within 10 days of the evaluation</h4>
 
@@ -273,6 +274,164 @@
 							</div>
 
 						</div>
+
+
+
+
+						<div class="calTable1">
+
+							<table>
+								<tr>
+									<th colspan="2">Calendar for PBI </th>
+								</tr>
+								<tr>
+									<td>PBI Starts</td>
+									<td>Anytime after Dec 01, 2022 but not later than 02-01-2023</td>
+								</tr>
+								<tr>
+									<td>I Interim</td>
+									<td>22-Feb-23</td>
+								</tr>
+								<tr>
+									<td>Mid Term</td>
+									<td>March 27-29, 2023</td>
+								</tr>
+								<tr>
+									<td>II Interim</td>
+									<td>24-Apr-23</td>
+								</tr>
+
+								<tr>
+									<td>PBI End</td>
+									<td>19-May-23</td>
+								</tr>
+
+								<tr>
+									<td>Ends Terms</td>
+									<td>May 24-26, 2023</td>
+								</tr>
+
+								<tr>
+									<th colspan="2">Report Submission Dates</th>
+								</tr>
+
+								<tr>
+									<td>Ends Terms</td>
+									<td>May 24-26, 2023</td>
+								</tr>
+								<tr>
+									<td>Ends Terms</td>
+									<td>May 24-26, 2023</td>
+								</tr>
+								<tr>
+									<td>Ends Terms</td>
+									<td>May 24-26, 2023</td>
+								</tr>
+								<tr>
+									<td>Ends Terms</td>
+									<td>May 24-26, 2023</td>
+								</tr>
+								<tr>
+									<td>Ends Terms</td>
+									<td>May 24-26, 2023</td>
+								</tr>
+								<tr>
+									<td>Ends Terms</td>
+									<td>May 24-26, 2023</td>
+								</tr>
+
+								<tr>
+									<td>Ends Terms</td>
+									<td>May 24-26, 2023</td>
+								</tr>
+
+								<tr>
+									<td>Ends Terms</td>
+									<td>May 24-26, 2023</td>
+								</tr>
+
+							</table>
+
+
+							<br>
+							<br>
+
+							<table>
+								<tr>
+									<th colspan="2">Calendar for BPT </th>
+								</tr>
+								<tr>
+									<td>BPT Starts</td>
+									<td>Anytime after Dec 01, 2022 but not later than 02-01-2023</td>
+								</tr>
+								<tr>
+									<td>I Interim</td>
+									<td>22-Feb-23</td>
+								</tr>
+								<tr>
+									<td>Mid Term</td>
+									<td>March 27-29, 2023</td>
+								</tr>
+								<tr>
+									<td>II Interim</td>
+									<td>24-Apr-23</td>
+								</tr>
+
+								<tr>
+									<td>BPT End</td>
+									<td>19-May-23</td>
+								</tr>
+
+								<tr>
+									<td>Ends Terms</td>
+									<td>May 24-26, 2023</td>
+								</tr>
+
+
+							</table>
+
+
+
+							<br>
+							<br>
+
+							<table>
+								<tr>
+									<th colspan="2">Summer Term 2022-23</th>
+								</tr>
+								<tr>
+									<td>BPT Starts</td>
+									<td>Anytime after Dec 01, 2022 but not later than 02-01-2023</td>
+								</tr>
+								<tr>
+									<td>I Interim</td>
+									<td>22-Feb-23</td>
+								</tr>
+								<tr>
+									<td>Mid Term</td>
+									<td>March 27-29, 2023</td>
+								</tr>
+								<tr>
+									<td>II Interim</td>
+									<td>24-Apr-23</td>
+								</tr>
+
+								<tr>
+									<td>BPT End</td>
+									<td>19-May-23</td>
+								</tr>
+
+								<tr>
+									<td>Ends Terms</td>
+									<td>May 24-26, 2023</td>
+								</tr>
+
+
+							</table>
+
+
+						</div>
+
 				</div>
 			</body>
 		</div>

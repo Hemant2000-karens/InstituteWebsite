@@ -30,7 +30,7 @@
 
 				<?php
 
-					$sql_query0 = "SELECT * FROM guidelines where guideLine_type = 'UG' ORDER BY guideline_year DESC;";
+					$sql_query0 = "SELECT name,guidelines_year FROM guidelines where guideLine_type = 'UG' ORDER BY guideline_year DESC;";
 
 					$result0 = $link->query($sql_query0);
 
@@ -64,7 +64,7 @@
 
 				<?php 
 					include './connectionDB.php';
-					$sql_query1 = "SELECT * FROM guidelines where guideLine_type = 'PG' ORDER BY guideline_year DESC;";
+					$sql_query1 = "SELECT name,guidelines_year FROM guidelines where guideLine_type = 'PG' ORDER BY guideline_year DESC;";
 
 					$result1 = $link->query($sql_query1);
 
@@ -98,7 +98,7 @@
 
 					<?php
 
-						$sql_query2 = "SELECT * FROM guidelines where guideLine_type = 'PHD' ORDER BY guideline_year DESC;";
+						$sql_query2 = "SELECT name,guidelines_year FROM guidelines where guideLine_type = 'PHD' ORDER BY guideline_year DESC;";
 
 					$result2 = $link->query($sql_query2);
 
