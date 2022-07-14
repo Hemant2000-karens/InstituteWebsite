@@ -21,7 +21,7 @@
 
 				<div class="AcMain">
 					
-					<?php $sql = "SELECT date,hindiLink,englishLink from annualrpac where type = 'report';";
+					<?php $sql = "SELECT date,filename from annualrpac where type = 'report';";
 					$result = $link->query($sql);
 					?>
 
@@ -42,7 +42,7 @@
 										echo ("<tr>
 										<td> Annual Reports </td>
 										<td>".$rows['date']."</td>
-										<td> <a href = '../Documents/annualReport/hindi".$rows['hindiLink']."' target ='_blank'>Hindi <a/> | <a href = '../Documents/annualReport/english".$rows['englishLink']."' target ='_blank'>English<a/></td></tr>");
+										<td> <a href = '../Documents/annualReport/hindi".$rows['filename']."' target ='_blank'>Hindi <a/> | <a href = '../Documents/annualReport/english".$rows['filename']."' target ='_blank'>English<a/></td></tr>");
 									}
 								}
 							?>

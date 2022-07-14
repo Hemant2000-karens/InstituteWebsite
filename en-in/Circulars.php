@@ -35,7 +35,7 @@
 							
 
 							<?php 
-							$sql = "SELECT * from academicCalendar where semester = 1"; 
+							$sql = "SELECT  `name`, `date`, `filename` FROM `circulars` WHERE category = 'Internal'"; 
 							$result = $link->query($sql);
 							?>
 
@@ -46,6 +46,7 @@
 								<tr>
 								  	<th>Circulars</th>
 								  	<th>Date</th>
+								  	<th>File</th>
   								</tr>
   								<!-- Heading of the tables-->
 
@@ -57,8 +58,9 @@
 												while($rows = $result -> fetch_assoc())
 												{
 													echo ("<tr>
-														<td>".$rows['event']."</td>
-														<td>".$rows['dateFromNewUG']." to ".$rows['dateToNewPG']."</td>
+														<td>".$rows['name']."</td>
+														<td>".$rows['date']."</td>
+														<td> <a class ='mouLink' target ='_parent' href ='../Documents/circulars/internal/".$rows['filename']."'><i class='bi bi-file-earmark-pdf'></i></a></td>
 														</tr>");
 												}
 											}
@@ -73,8 +75,8 @@
 
 
 
-								<?php 
-							$sql = "SELECT * from academicCalendar where semester = 2"; 
+							<?php 
+							$sql = "SELECT  `name`, `date`, `filename` FROM `circulars` WHERE category = 'External'";
 							$result = $link->query($sql);
 							?>
 
@@ -83,6 +85,7 @@
 								  <tr>
     								<th>Circulars</th>
 								  	<th>Date</th>
+								  	<th>File</th>
   								  </tr>
   									<!-- Heading of the tables-->
 
@@ -94,8 +97,9 @@
 												while($rows = $result -> fetch_assoc())
 												{
 													echo ("<tr>
-														<td>".$rows['event']."</td>
-														<td>".$rows['dateFromNewUG']." to ".$rows['dateToNewPG']."</td>
+														<td>".$rows['name']."</td>
+														<td>".$rows['date']."</td>
+														<td> <a class ='mouLink' target ='_parent' href ='../Documents/circulars/external/".$rows['filename']."'><i class='bi bi-file-earmark-pdf'></i></a></td>
 														</tr>");
 												}
 											}
@@ -106,7 +110,7 @@
 				</div>
 			</body>
 		</div>
-					<? mysqli_close($link); ?>
+			<? mysqli_close($link); ?>
 			<?php include './footer.php'?>
 <script type="text/javascript" src="./script.js"></script>
 <script type="text/javascript" src="./script1.js"></script>

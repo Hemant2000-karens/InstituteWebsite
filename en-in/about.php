@@ -32,12 +32,25 @@
 
 				<div>
 					<h2>Mission</h2>
- 
+ 					<p>The Mission of the Institute is to create a multidisciplinary academic environment to prepare and train manpower of excellence for nurturing and promoting knowledge-based activities and innovations in design, fabrication and manufacturing of products by bringing together a collaborative and mutually stimulating mix of different fields of science, engineering and arts. In doing so the Institute shall identify current and future agendas for scholarship, share knowledge and discoveries with the world community and actively cultivate individuals with the desire and capability to contribute to society.</p>
 				</div>
 
 				<div>
-					<h2>Vision</h2>
+					<h2>Values</h2>
 
+					<p>In planning for its future as well as for conducting its ongoing activities, the Institute seeks to act in a manner that is guided by a deep-rooted sense of shared values and aspirations. Built upon such a foundation, the Institute :-</p>
+
+
+					<ul type="dot" class="aboutUsList">
+
+						<li>Honours and rewards high performance in learning, teaching, scholarship, research and creative activities by encouraging intellectual curiosity and protecting the multiple expressions of academic freedom.</li>
+
+
+						<li>Seeks to provide an environment conducive to imaginative innovation, experimentation and creativity by encouraging all members of the academic community to take intellectual and creative risks and to embrace changes that will enhance the fulfillment of the Institute’s mission.</li>
+
+						<li>Aspires to build an environment of tolerance and reasoned debate without any gender-, cast-, religious- or regional- bias by affirming the worth and personal dignity of every member of the Institute community and contributing to a campus climate of civility.</li>
+
+					</ul>
 				</div>
 
 			</section>
