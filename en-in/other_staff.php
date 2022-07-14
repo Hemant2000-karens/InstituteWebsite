@@ -32,7 +32,7 @@
 
   								<?php include './connectionDB.php';
 
-  								$sql_query = "SELECT * FROM staff";
+  								$sql_query = "SELECT name,Designation,Department,contact FROM staff";
 
 										$result = $link->query($sql_query);
 
