@@ -2677,7 +2677,7 @@ ul.aboutUsList li
 {
   text-decoration: none;
   color: #525252;
-  font-size: large;
+  font-size: smaller;
   font-weight: bold;
   padding: 0 1px;
 }
@@ -2850,6 +2850,7 @@ ul.aboutUsList li
 
 .footerContent
 {
+  font-size: smaller;
   margin: 0;
   padding: 20px 40px;
   color: #7b7b7b;

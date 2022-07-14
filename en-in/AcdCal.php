@@ -276,6 +276,8 @@
 						</div>
 
 
+						<br>
+						<br>
 
 
 						<div class="calTable1">
@@ -316,37 +318,37 @@
 								</tr>
 
 								<tr>
-									<td>Ends Terms</td>
+									<td>1<sup>st</sup> Report</td>
 									<td>May 24-26, 2023</td>
 								</tr>
 								<tr>
-									<td>Ends Terms</td>
+									<td>1<sup>st</sup> Interim Report</td>
 									<td>May 24-26, 2023</td>
 								</tr>
 								<tr>
-									<td>Ends Terms</td>
+									<td>3<sup>rd</sup> Report</td>
 									<td>May 24-26, 2023</td>
 								</tr>
 								<tr>
-									<td>Ends Terms</td>
+									<td>Mid Term Report</td>
 									<td>May 24-26, 2023</td>
 								</tr>
 								<tr>
-									<td>Ends Terms</td>
+									<td>5<sup>th</sup> Report</td>
 									<td>May 24-26, 2023</td>
 								</tr>
 								<tr>
-									<td>Ends Terms</td>
-									<td>May 24-26, 2023</td>
-								</tr>
-
-								<tr>
-									<td>Ends Terms</td>
+									<td>2<sup>nd</sup> Interim Report</td>
 									<td>May 24-26, 2023</td>
 								</tr>
 
 								<tr>
-									<td>Ends Terms</td>
+									<td>7<sup>th</sup> Report</td>
+									<td>May 24-26, 2023</td>
+								</tr>
+
+								<tr>
+									<td>Ends Term Report</td>
 									<td>May 24-26, 2023</td>
 								</tr>
 
@@ -400,29 +402,29 @@
 									<th colspan="2">Summer Term 2022-23</th>
 								</tr>
 								<tr>
-									<td>BPT Starts</td>
+									<td>Registration</td>
 									<td>Anytime after Dec 01, 2022 but not later than 02-01-2023</td>
 								</tr>
 								<tr>
-									<td>I Interim</td>
+									<td>Commencement of Class</td>
 									<td>22-Feb-23</td>
 								</tr>
 								<tr>
-									<td>Mid Term</td>
+									<td>Mid Semester Examination</td>
 									<td>March 27-29, 2023</td>
 								</tr>
 								<tr>
-									<td>II Interim</td>
+									<td>Classes Ends</td>
 									<td>24-Apr-23</td>
 								</tr>
 
 								<tr>
-									<td>BPT End</td>
+									<td>End Semester Examination</td>
 									<td>19-May-23</td>
 								</tr>
 
 								<tr>
-									<td>Ends Terms</td>
+									<td>Last Date of End Semester Grades Submission for courses</td>
 									<td>May 24-26, 2023</td>
 								</tr>
 
