@@ -2847,8 +2847,10 @@ input[type="radio"]{
 
   .footer .footer-main
   {
+    display: flex;
     background: #2f3546;
-    height: 300px;
+    height: auto;
+    padding:  0 0 12px 0;
     margin: 0;
   }
 
@@ -2919,6 +2921,11 @@ input[type="radio"]{
     padding: 0 8px 0 0;
   }
 
+
+  .footer-main .footer-subgroup-main
+  {
+    display: contents;
+  }
   .footer-main .footer-subgroup{
     font-family: var(--varela);
     width:18%;

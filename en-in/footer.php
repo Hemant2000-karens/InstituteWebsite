@@ -1,5 +1,11 @@
 <div class="footer">
+
+
+
 	<div class="footer-main">
+
+
+
     <div class="footer-heading">
 
       <div class="header-block">
@@ -34,12 +40,11 @@
 
 
       </div>
-
     </div>
 
 
 
-  <!-- Mobile, and Small Screen View -->
+    <!-- Mobile, and Small Screen View -->
 
     <button type="button" class="collaps">Know More</button>
       <div class="content">
@@ -81,96 +86,103 @@
       </div>
 
 
-<div class="footerSecondary">
-  <button class="officals">For Officials
-  </button>
-    <div class="office">
-      <a target="_blank" href="https://mhrd.euniwizarde.com/">E-TENDER</a> |
-      <a target="_blank" href="#">PLACEMENT</a> |
-      <a target="_blank" href="https://www.iiitdmj.ac.in/rajbhasha.iiitdmj.ac.in">RAJBHASA</a> |
-      <a target="_blank" href="https://www.iiitdmj.ac.in/administration/downloads/Ordinances%20of%20PDPM-IIITDM%20Jabalpur.pdf">ORDINANCES</a> |
-      <a target="_blank" href="https://www.iiitdmj.ac.in/QIP.php">QIP PROGRAMS</a> |
-      <a target="_blank" href="https://www.iiitdmj.ac.in/tenders.php">TENDERS</a> |
-      <a target="_blank" href="http://172.27.16.19/">INTRAWEB</a> |
-      <a target="_blank" href="https://mail.google.com/a/iiitdmj.ac.in">IIITDMJ E-MAIL</a> |
-      <a target="_blank" href="https://iiitcouncil.com/">IIIT COUNCIL</a>
-    </div>
     <div class="footerSecondary">
-    <div class="Copyright">
-      <span><?php echo("<a href='../Lang'> English</a>")?></span>
-      <center>
-        Copyright © 2022 IIITDMJ | All rights reserved.
-      </center>
+      <button class="officals">For Officials</button>
+      <div class="office">
+        <a target="_blank" href="https://mhrd.euniwizarde.com/">E-TENDER</a> |
+        <a target="_blank" href="#">PLACEMENT</a> |
+        <a target="_blank" href="https://www.iiitdmj.ac.in/rajbhasha.iiitdmj.ac.in">RAJBHASA</a> |
+        <a target="_blank" href="https://www.iiitdmj.ac.in/administration/downloads/Ordinances%20of%20PDPM-IIITDM%20Jabalpur.pdf">ORDINANCES</a> |
+        <a target="_blank" href="https://www.iiitdmj.ac.in/QIP.php">QIP PROGRAMS</a> |
+        <a target="_blank" href="https://www.iiitdmj.ac.in/tenders.php">TENDERS</a> |
+        <a target="_blank" href="http://172.27.16.19/">INTRAWEB</a> |
+        <a target="_blank" href="https://mail.google.com/a/iiitdmj.ac.in">IIITDMJ E-MAIL</a> |
+        <a target="_blank" href="https://iiitcouncil.com/">IIIT COUNCIL</a>
+      </div>
+      <div class="footerSecondary">
+        <div class="Copyright">
+          <span><?php echo("<a href='../Lang'> English</a>")?></span>
+          <center>
+          Copyright © 2022 IIITDMJ | All rights reserved.
+          </center>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- Desktop, and larger screen -->
+
+
+    <div class="footer-subgroup-main">
+
+      
+      <div class="footer-subgroup">
+        <h4>KNOW MORE</h4>
+        <div class = "footer-subgroup-links">
+          <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT ACT</a><br>
+
+          
+          <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Consortium for Edu Comm(CET)</a><br> -->
+
+
+          <a target="_blank" href="https://www.iiitdmj.ac.in/revista.iiitdmj.ac.in/">Revista</a><br>
+
+
+          <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">National Academic Depository</a><br> -->
+
+
+          <a target="_blank" href="../Documents/Taxi.pdf">Taxi Services</a><br>
+          
+          <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Intellectual Property Policy(IPP)</a><br> -->
+
+          <a target="_blank" href="https://www.iiitdmj.ac.in/nirf.iiitdmj.ac.in/index.html#res">NIRF</a><br>
+
+          
+          <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Prop/Modification of Courses</a><br> -->
+
+          <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT Council</a><br>
+
+        <!--   <a href="#">Undergraduate</a><br>
+          <a href="#">Postgraduate</a><br>
+          <a href="#">Fees Structure</a><br>
+          <a href="#">Seat Matrix</a><br>
+          <a href="#">Academic Guidelines</a><br>
+          <a href="#">Curriculum</a><br> -->
+        </div>
+      </div>
+
+      <div class="footer-subgroup">
+        <h4>IMPORTANT LINKS</h4>
+        <div class = "footer-subgroup-links">
+          <a href="./importantDocs.php">Important Docs</a><br>
+          <a href="./importantForms.php">Important Forms</a><br>
+          <a href="../Documents/refundRule.pdf">Refund Rule</a><br>
+          <a href="./anualReports.php">Anual Reports</a><br>
+          <a href="./anualAccounts.php">Anual Accounts</a><br>
+          <a href="./convocation.php">Convocation</a><br>
+          <a href="./Circulars.php">Circulars</a><br>
+        </div>
+      </div>
+
+      <div class="footer-subgroup">
+        <h4>OTHERS</h4>
+        <div class = "footer-subgroup-links">
+          <a href="https://www.iiitdmj.ac.in/STSCCell/">SC/ST and Minority Cell</a><br>
+          <a href="https://www.iiitdmj.ac.in/womencell/">Women Cell</a><br>
+          <a href="#">Grievance Redressal Cell</a><br>
+          <a href="../Documents/Constitution of Anti-Ragging Squad.pdf">Anti Ragging Squad</a><br>
+          <a href="#">Seat Matrix</a><br>
+          <a href="./Jobs/">Career Opportunities </a><br>
+        </div>
+      </div>
+    
+
     </div>
   </div>
-</div>
 
-
-
-
-<!-- Desktop, and larger screen -->
-
-
-    <div class="footer-subgroup">
-      <h4>KNOW MORE</h4>
-      <div class = "footer-subgroup-links">
-        <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT ACT</a><br>
-
-        
-        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Consortium for Edu Comm(CET)</a><br> -->
-
-
-        <a target="_blank" href="https://www.iiitdmj.ac.in/revista.iiitdmj.ac.in/">Revista</a><br>
-
-
-        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">National Academic Depository</a><br> -->
-
-
-        <a target="_blank" href="../Documents/Taxi.pdf">Taxi Services</a><br>
-        
-        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Intellectual Property Policy(IPP)</a><br> -->
-
-        <a target="_blank" href="https://www.iiitdmj.ac.in/nirf.iiitdmj.ac.in/index.html#res">NIRF</a><br>
-
-        
-        <!-- <a target="_blank" href="../Documents/IIITAct30.pdf">Prop/Modification of Courses</a><br> -->
-
-        <a target="_blank" href="../Documents/IIITAct30.pdf">IIIT Council</a><br>
-
-      <!--   <a href="#">Undergraduate</a><br>
-        <a href="#">Postgraduate</a><br>
-        <a href="#">Fees Structure</a><br>
-        <a href="#">Seat Matrix</a><br>
-        <a href="#">Academic Guidelines</a><br>
-        <a href="#">Curriculum</a><br> -->
-      </div>
-    </div>
-
-    <div class="footer-subgroup">
-      <h4>IMPORTANT LINKS</h4>
-      <div class = "footer-subgroup-links">
-        <a href="./importantDocs.php">Important Docs</a><br>
-        <a href="./importantForms.php">Important Forms</a><br>
-        <a href="../Documents/refundRule.pdf">Refund Rule</a><br>
-        <a href="./anualReports.php">Anual Reports</a><br>
-        <a href="./anualAccounts.php">Anual Accounts</a><br>
-        <a href="./convocation.php">Convocation</a><br>
-        <a href="./Circulars.php">Circulars</a><br>
-      </div>
-    </div>
-
-    <div class="footer-subgroup">
-      <h4>OTHERS</h4>
-      <div class = "footer-subgroup-links">
-        <a href="https://www.iiitdmj.ac.in/STSCCell/">SC/ST and Minority Cell</a><br>
-        <a href="https://www.iiitdmj.ac.in/womencell/">Women Cell</a><br>
-        <a href="#">Grievance Redressal Cell</a><br>
-        <a href="../Documents/Constitution of Anti-Ragging Squad.pdf">Anti Ragging Squad</a><br>
-        <a href="#">Seat Matrix</a><br>
-        <a href="./Jobs/">Career Opportunities </a><br>
-      </div>
-    </div>
-  </div>
 
   <div class="footer-secondary">
     <div class="footer-secondary-links">
@@ -194,6 +206,16 @@
       </center>
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
 </div>
 
 
