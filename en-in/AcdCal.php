@@ -275,12 +275,11 @@
 
 						</div>
 
-
-						<br>
-						<br>
-
-
 						<div class="calTable1">
+
+							<div class="calNotice1">
+								<h4><sup>*</sup>Late physical reporting is allowed only in exceptional cases with prior permission. Late reporting fee is Rs. 2000/-</h4>
+							</div>
 
 							<table>
 								<tr>

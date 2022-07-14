@@ -2254,6 +2254,13 @@ input[type="radio"]{
   cursor: grab;
 }
 
+.calNotice1
+{
+  width: -webkit-fill-available;
+  width: -moz-available;
+  height: auto;
+  padding: 0.5%;
+}
 
 .calNotice
 {
@@ -2263,7 +2270,7 @@ input[type="radio"]{
   padding: 1.25% 0.5%;
 }
 
-
+.calNotice1 h4,
 .calNotice h4
 {
   font-family: var(--ubuntu);
