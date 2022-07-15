@@ -76,7 +76,7 @@
 						<button class="acdpB">M.Tech Programmes</button>
 						<div class="mtechAcademic">
 							<h4>
-								Institute offers Four Year Undergraduate degree (M.Tech.) programme in:
+								Institute offers Four Year PostGraduate degree (M.Tech.) programme in:
 							</h4>
 							<ul>
 								<li>
@@ -155,12 +155,102 @@
 						<br>
 						<button class="acdpB">Integrated Master + Ph.D</button>
 						<div class="btechAcademic">
-							
+							<h4>
+								Institute offers Four Year Integrated degree (M.Tech/ M.Des + P.hD) programme in:
+							</h4>
+							<ul>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Computer Science and Engineering
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Electronics and Communication Engineering
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Mechanical Engineering
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Smart Manufacturing
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Mechatronics(MT)
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Design(DS)
+								</li>
+							</ul>
 						</div>
 						<br>
 						<button class="acdpB">Special Part Time M.Tech / M.Des</button>
 						<div class="btechAcademic">
-							
+							<h4>
+								Institute offers Special Part Time degree (M.Tech.) programme in:
+							</h4>
+							<ul>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Computer Science and Engineering
+									<ul>
+										<li>
+											<i class="bi bi-arrow-return-right"></i>
+											AI and ML
+										</li>
+										<li>
+											<i class="bi bi-arrow-return-right"></i>
+											Data Science
+										</li>
+									</ul>
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Electronics and Communication Engineering
+									<ul>
+										<li>
+											<i class="bi bi-arrow-return-right"></i>
+											Communication System Design
+										</li>
+										<li>
+											<i class="bi bi-arrow-return-right"></i>
+											Nanoelectronics and VLSI Design
+										</li>
+										<li>
+											<i class="bi bi-arrow-return-right"></i>
+											Power and Control
+										</li>
+									</ul>
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Mechanical Engineering
+									<ul>
+										<li>
+											<i class="bi bi-arrow-return-right"></i>
+											Design
+										</li>
+										<li>
+											<i class="bi bi-arrow-return-right"></i>
+											CAD/CAM
+										</li>
+									</ul>
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Smart Manufacturing
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Mechatronics(MT)
+								</li>
+								<li>
+									<i class="bi bi-arrow-right-circle-fill"></i>
+									Design(DS)
+								</li>
+							</ul>
 						</div>
 						<br>
 					</div>

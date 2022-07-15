@@ -78,13 +78,13 @@
 
 				<div class="campus-pill fest">
 					<div class="index-title">
-						<h4>Fest</h4> <i class="bi bi-arrow-up-right-circle"></i>
+						<h4>Central Mess</h4> <i class="bi bi-arrow-up-right-circle"></i>
 					</div>
 				</div>
 
-				<div class="campus-pill green-campus">
+				<div class="campus-pill visitors">
 					<div class="index-title">
-						<h4>Greenery</h4> <i class="bi bi-arrow-up-right-circle"></i>
+						<h4>Visitors Center</h4> <i class="bi bi-arrow-up-right-circle"></i>
 					</div>
 				</div>
 			</div>

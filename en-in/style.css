@@ -1183,7 +1183,9 @@ body{
 
   .campusTour
   {
-    background: #f3f3f3;
+    background: url(../Images/messageBackground.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   .campusTour h2
   {
@@ -1208,29 +1210,48 @@ body{
   .campus-pill
   {
     border-radius: 15px;
+    position: relative;
   }
 
   .hostels
   {
-    background: url("../Images/indexCampus");
+    background: url("../Images/indexCampus/");
   }
   .health
   {
-    background: url("../Images/indexCampus");
+    background: url("../Images/indexCampus/health1.jpeg");
   }
   .fest
   {
-    background: url("../Images/indexCampus");
+    background: url("../Images/indexCampus/");
   }
-  .green-campus
+  .visitors
   {
-    background: url("../Images/indexCampus");
+    background: url("../Images/indexCampus/VH.jpeg");
+  }
+
+
+  .hostels,
+  .health,
+  .fest,
+  .visitors
+  {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
   .hostels:hover,
   .health:hover,
   .fest:hover,
-  .green-campus:hover
+  .visitors:hover
+  {
+
+  }
+
+  .hostels:hover .index-title,
+  .health:hover .index-title,
+  .fest:hover .index-title,
+  .visitors:hover .index-title
   {
 
   }
@@ -1238,15 +1259,7 @@ body{
   .hostels:hover,
   .health:hover,
   .fest:hover,
-  .green-campus:hover
-  {
-
-  }
-
-  .hostels:hover,
-  .health:hover,
-  .fest:hover,
-  .green-campus:hover
+  .visitors:hover
   {
 
   }
@@ -1258,11 +1271,20 @@ body{
     justify-content: space-between;
     color: var(--whiteBackground);
     padding: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: var(--mozFill);
+    width: var(--fill);
     background: rgb(107,107,107);
     background: -moz-linear-gradient(180deg, rgba(107,107,107,0.7777485994397759) 0%, rgba(215,215,215,0.7469362745098039) 50%, rgba(255,255,255,0.7525385154061625) 100%);
     background: -webkit-linear-gradient(180deg, rgba(107,107,107,0.7777485994397759) 0%, rgba(215,215,215,0.7469362745098039) 50%, rgba(255,255,255,0.7525385154061625) 100%);
     background: linear-gradient(180deg, rgba(107,107,107,0.7777485994397759) 0%, rgba(215,215,215,0.7469362745098039) 50%, rgba(255,255,255,0.7525385154061625) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6b6b6b",endColorstr="#ffffff",GradientType=1);
+  }
+  .index-title h4 
+  {
+    margin: 12px 0;
   }
 
 

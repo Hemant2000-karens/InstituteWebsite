@@ -448,6 +448,10 @@ and (max-width: 770px)
   {
     width: 220px;
   }
+  .footer .footer-main
+  {
+    padding: 0;
+  }
   .footer-subgroup,.footer-secondary
   {
     display: none;
@@ -545,8 +549,12 @@ and (max-width: 770px)
   .Copyright
   {
     display: block;
-    display: block;
     text-align: center;
+  }
+  .Copyright a
+  {
+    text-decoration: none;
+    color: white;
   }
 }
 

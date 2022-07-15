@@ -73,6 +73,7 @@
         <a href="./anualAccounts.php">Anual Accounts</a><br>
         <a href="./convocation.php">Convocation</a><br>
         <a href="./Circulars.php">Circulars</a><br>
+        <a href="./Holidays.php">Holidays</a><br>
       </div>
 
       <button type="button" class="collaps">Others</button>
@@ -164,6 +165,7 @@
           <a href="./anualAccounts.php">Anual Accounts</a><br>
           <a href="./convocation.php">Convocation</a><br>
           <a href="./Circulars.php">Circulars</a><br>
+          <a href="./Holidays.php">Holidays</a><br>
         </div>
       </div>
 
@@ -207,55 +209,39 @@
     </div>
   </div>
 
-
-
-
-
-
-
-
-
-
 </div>
 
 
-
-
-
-<script>
-  var coll = document.getElementsByClassName("collaps");
-
-var i;
-
-for (i = 0; i < coll.length; i++) 
-{
-  coll[i].addEventListener("click",function() 
+<script type="text/javascript">
+  var i;
+  var footercoll = document.getElementsByClassName("collaps");
+  for (i = 0; i < footercoll.length; i++) 
   {
-    this.classList.toggle("active2");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
+    footercoll[i].addEventListener("click",function() 
+    {
+      this.classList.toggle("active2");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
       content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
 
-var secn = document.getElementsByClassName("officals");
 
-var i;
-
-for (i = 0; i < secn.length; i++) 
-{
-  secn[i].addEventListener("click",function() 
+  var secn = document.getElementsByClassName("officals");
+  for (i = 0; i < secn.length; i++) 
   {
-    this.classList.toggle("active3");
-    var office = this.nextElementSibling;
-    if (office.style.display == "block") {
-      office.style.display = "none";
-    } else {
-      office.style.display = "block";
-    }
-  });
-}
+    secn[i].addEventListener("click",function() 
+    {
+      this.classList.toggle("active3");
+      var office = this.nextElementSibling;
+      if (office.style.display == "block") {
+        office.style.display = "none";
+      } else {
+        office.style.display = "block";
+      }
+    });
+  }
 </script>
