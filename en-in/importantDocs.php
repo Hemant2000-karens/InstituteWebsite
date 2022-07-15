@@ -21,7 +21,38 @@
         <div class="AcMain">
           
 
+          <div class="acgl_ug">
 
+
+            <span class='acgl_ug_link'>
+              <a href="">Medical Certificate</a>
+            </span>
+
+            <span class='acgl_ug_link'>
+              <a href="">Anti Ragging Affidavit(English)</a>
+            </span>
+
+            <span class='acgl_ug_link'>
+              <a href="">Anti Ragging Affidavit(Hindi)</a>
+            </span>
+
+            <span class='acgl_ug_link'>
+              <a href="">ST/SC Caste Certificate</a>
+            </span>
+
+            <span class='acgl_ug_link'>
+              <a href="">Medical</a>
+            </span>
+
+            <span class='acgl_ug_link'>
+              <a href="">Medical</a>
+            </span>
+
+            <span class='acgl_ug_link'>
+              <a href="">Medical</a>
+            </span>
+
+          </div>
 
 
 

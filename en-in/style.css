@@ -1208,7 +1208,6 @@ body{
   .campus-pill
   {
     border-radius: 15px;
-    display: flex;
   }
 
   .hostels
@@ -1251,6 +1250,27 @@ body{
   {
 
   }
+  .index-title
+  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--whiteBackground);
+    padding: 14px;
+    background: rgb(107,107,107);
+    background: -moz-linear-gradient(180deg, rgba(107,107,107,0.7777485994397759) 0%, rgba(215,215,215,0.7469362745098039) 50%, rgba(255,255,255,0.7525385154061625) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(107,107,107,0.7777485994397759) 0%, rgba(215,215,215,0.7469362745098039) 50%, rgba(255,255,255,0.7525385154061625) 100%);
+    background: linear-gradient(180deg, rgba(107,107,107,0.7777485994397759) 0%, rgba(215,215,215,0.7469362745098039) 50%, rgba(255,255,255,0.7525385154061625) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6b6b6b",endColorstr="#ffffff",GradientType=1);
+  }
+
+
+
+
+
+
+
 
 
   /* About US */
