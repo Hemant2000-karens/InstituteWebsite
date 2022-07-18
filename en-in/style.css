@@ -1207,6 +1207,10 @@ body{
     height: auto;
   }
 
+  .campus-pill:first-child
+  {
+    margin-top: 0;
+  }
   .campus-pill
   {
     height: 115px;
