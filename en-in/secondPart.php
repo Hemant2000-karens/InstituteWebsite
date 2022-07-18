@@ -60,7 +60,7 @@
 			</div>
 			<div class="campusDetail">
 
-				<div class="campus-pill hostels">
+				<div class="campus-pill hostels" onclick="openCampusTour('hostel')">
 
 					<div class="index-title">
 						<h4>Hostels</h4> <i class="bi bi-arrow-up-right-circle"></i>
@@ -68,7 +68,7 @@
 
 				</div>
 
-				<div class="campus-pill health">
+				<div class="campus-pill health" onclick="openCampusTour('phc')">
 
 					<div class="index-title">
 						<h4>Hospital</h4> <i class="bi bi-arrow-up-right-circle"></i>
@@ -76,13 +76,15 @@
 
 				</div>
 
-				<div class="campus-pill fest">
+				<div class="campus-pill fest"
+				onclick="openCampusTour('mess')">
 					<div class="index-title">
 						<h4>Central Mess</h4> <i class="bi bi-arrow-up-right-circle"></i>
 					</div>
 				</div>
 
-				<div class="campus-pill visitors">
+				<div class="campus-pill visitors"
+				onclick="openCampusTour('visitorCenter');">
 					<div class="index-title">
 						<h4>Visitors Center</h4> <i class="bi bi-arrow-up-right-circle"></i>
 					</div>

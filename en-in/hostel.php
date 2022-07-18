@@ -26,7 +26,7 @@
 
 							<div class="hostel_card" onclick="hostelLink('hall1')">
 								<div class="hostel_card_image">
-									<img src="./Images/Hostel/hall1.jpg" class="img" />
+									<img src="../Images/Hostel/hall1.jpg" class="img" />
 								</div>
 								<div class="hostel_card_text">
 									<h4>Vasishtha Hostel (Hall - 1)</h4>
@@ -37,7 +37,7 @@
 							
 							<div class="hostel_card" onclick="hostelLink('hall3')">
 									<div class="hostel_card_image">
-										<img src="./Images/Hostel/hall3.jpg" class="img" />
+										<img src="../Images/Hostel/hall3.jpg" class="img" />
 									</div>
 									<div class="hostel_card_text">
 										<h4>Aryabhatta Hostel (Hall - 3)</h4>
@@ -47,7 +47,7 @@
 
 							<div class="hostel_card" onclick="hostelLink('hall4')">
 									<div class="hostel_card_image">
-										<img src="./Images/Hostel/hall4.jpg" class="img" />
+										<img src="../Images/Hostel/hall4.jpg" class="img" />
 									</div>
 									<div class="hostel_card_text">
 										<h4>Vivekananda Hostel (Hall - 4)</h4>
@@ -57,7 +57,7 @@
 
 							<div class="hostel_card" onclick="hostelLink('pnn')">
 									<div class="hostel_card_image">
-										<img src="./Images/Hostel/hall3.jpg" class="img" />
+										<img src="../Images/Hostel/hall3.jpg" class="img" />
 									</div>
 									<div class="hostel_card_text">
 										<h4>Panini Hostel (PG)</h4>
@@ -67,7 +67,7 @@
 
 							<div class="hostel_card" onclick="hostelLink('ng')">
 								<div class="hostel_card_image">
-									<img src="./Images/Hostel/hall3.jpg" class="img" />
+									<img src="../Images/Hostel/hall3.jpg" class="img" />
 								</div>
 								<div class="hostel_card_text">
 									<h4>Nagarjuna Hostel (PG- Married)</h4>
@@ -76,7 +76,7 @@
 
 							<div class="hostel_card" onclick="hostelLink('ng')">
 								<div class="hostel_card_image">
-									<img src="./Images/Hostel/hall3.jpg" class="img" />
+									<img src="../Images/Hostel/hall3.jpg" class="img" />
 								</div>
 								<div class="hostel_card_text">
 									<h4>Nagarjuna Hostel (PG- Married)</h4>
@@ -85,7 +85,7 @@
 
 							<div class="hostel_card" onclick="hostelLink('ng')">
 								<div class="hostel_card_image">
-									<img src="./Images/Hostel/hall3.jpg" class="img" />
+									<img src="../Images/Hostel/hall3.jpg" class="img" />
 								</div>
 								<div class="hostel_card_text">
 									<h4>Nagarjuna Hostel (PG- Married)</h4>
@@ -94,7 +94,7 @@
 
 							<div class="hostel_card" onclick="hostelLink('ng')">
 								<div class="hostel_card_image">
-									<img src="./Images/Hostel/hall3.jpg" class="img" />
+									<img src="../Images/Hostel/hall3.jpg" class="img" />
 								</div>
 								<div class="hostel_card_text">
 									<h4>Nagarjuna Hostel (PG- Married)</h4>

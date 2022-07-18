@@ -1213,10 +1213,16 @@ body{
   }
   .campus-pill
   {
+    transition-duration: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
     height: 115px;
     margin-top: 15px;
     border-radius: 15px;
     position: relative;
+  }
+  .campus-pill:hover
+  {
+    transform: scale(1.03);
   }
 
   .hostels
@@ -1244,14 +1250,6 @@ body{
   {
     background-repeat: no-repeat;
     background-size: 100% 100%;
-  }
-
-  .hostels:hover,
-  .health:hover,
-  .fest:hover,
-  .visitors:hover
-  {
-
   }
 
   .hostels:hover .index-title,
@@ -2522,8 +2520,6 @@ input[type="radio"]{
 
     .hostel_card:hover .hostel_card_text
     {
-      background: ;
-      color: ;
       -webkit-transform: scale(1.01);
     }
     .hostel_card a

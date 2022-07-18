@@ -231,7 +231,6 @@ function changeFacultyBranch(evt, calName) {
 	}
 
 
-
 	function viewMore()
 	{
 		window.open("./about.php","_self");
@@ -241,4 +240,23 @@ function changeFacultyBranch(evt, calName) {
 	function ReadMore()
 	{
 		window.open("./about.php","_self");
+	}
+
+	function openCampusTour(str)
+	{
+		switch(str)
+		{
+			case 'hostel':
+				window.open('./hostel.php', '_self');
+			break;
+			case 'phc':
+				window.open('./phc.php', '_self');
+			break;
+			case 'mess':
+				window.open('./c_mess.php', '_self');
+			break;
+			case 'visitorCenter':
+				window.open('./visitorCenter.php', '_self');
+			break;
+		}
 	}
