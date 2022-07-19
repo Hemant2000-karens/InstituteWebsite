@@ -3013,7 +3013,7 @@ ul.aboutUsList li
   }
 
   .footer-heading .footer-subheader a{
-    font-size: 13px;
+    font-size: 14.5px;
     text-decoration: none;
     color: #7a839a;
     line-height: 1.5rem;
@@ -3068,7 +3068,7 @@ ul.aboutUsList li
   .footer-main .footer-subgroup a{
     text-decoration: none;
     color: #e4eff8;
-    font-size: 13px;
+    font-size: 14.5px;
     transition-duration: 60ms;
     transition-timing-function: ease-in-out;
   }
