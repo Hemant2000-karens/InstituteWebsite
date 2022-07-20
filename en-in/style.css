@@ -1036,6 +1036,7 @@ body{
   }
   .secondPartGrid
   {
+    background: #efefef;
     width: -webkit-fill-available;
     width: -moz-available;
     display: flex;
@@ -1227,15 +1228,15 @@ body{
 
   .hostels
   {
-    background: url("../Images/indexCampus/health1.jpeg");
+    background: url("../Images/indexCampus/hostel.jpeg");
   }
   .health
   {
     background: url("../Images/indexCampus/health1.jpeg");
   }
-  .fest
+  .mess
   {
-    background: url("../Images/indexCampus/health1.jpeg");
+    background: url("../Images/indexCampus/cmess.jpeg");
   }
   .visitors
   {
@@ -1245,28 +1246,21 @@ body{
 
   .hostels,
   .health,
-  .fest,
+  .mess,
   .visitors
   {
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
 
-  .hostels:hover .index-title,
-  .health:hover .index-title,
-  .fest:hover .index-title,
-  .visitors:hover .index-title
+  .hostels:hover .index-title h4,
+  .health:hover .index-title h4,
+  .mess:hover .index-title h4,
+  .visitors:hover .index-title h4
   {
-
+    transform: scale(1.03);
   }
 
-  .hostels:hover,
-  .health:hover,
-  .fest:hover,
-  .visitors:hover
-  {
-
-  }
   .index-title
   {
     display: flex;
@@ -1872,10 +1866,61 @@ hr.new1 {
 
 
 
+/* Extras */
 
+  .stats,
+  .recruiter
+  {
+    height: auto;
+    padding: 2% 5%;
+  }
 
+  .statsParents
+  {
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fit, minmax(295px,1fr));
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+  }
+  .statsBody
+  {
+    width: 250px;
+    height: 180px;
+    padding: 2% 1%;
+    color: #032888;
+    text-shadow: 0 0 1.5px #2a5188;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  .statsBody .bi
+  {
+    font-size: 30px;
+  }
+  .statsBody .counter
+  {
+    font-size: 50px;
+    font-weight: 600;
+  }
 
+  .statsBody .countertag
+  {
+    font-size: 25px;
+  }
 
+  .recruiter
+  {
+    background: #efefef;
+  }
+
+  .RecruiterScoll
+  {
+
+  }
+
+/* Extras Ends */
 
 /* Miscs Parts */
 .misc
@@ -2722,7 +2767,7 @@ ul.aboutUsList li
 {
   color: #52290a;
 }
-.card
+/*.card
 {
   margin: 20px;
   display: grid;
@@ -2751,7 +2796,7 @@ ul.aboutUsList li
 {
   font-size: large;
   margin: 2px 20px
-}
+}*/
 
 /* Bod Member */
 

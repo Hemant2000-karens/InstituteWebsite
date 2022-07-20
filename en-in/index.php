@@ -83,8 +83,8 @@
 <?php include './misc.php';?>
 </div>
 
-<?php include 'events.php';?>
-
+<?php include './events.php';?>
+<?php include './extra.php';?>
 </body>
 <?php include './footer.php';?>
 <script type="text/javascript" src="./script.js"></script>

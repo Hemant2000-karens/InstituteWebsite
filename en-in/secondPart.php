@@ -76,7 +76,7 @@
 
 				</div>
 
-				<div class="campus-pill fest"
+				<div class="campus-pill mess"
 				onclick="openCampusTour('mess')">
 					<div class="index-title">
 						<h4>Central Mess</h4> <i class="bi bi-arrow-up-right-circle"></i>
