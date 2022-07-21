@@ -56,7 +56,7 @@
 
 <script type="text/javascript">
 	const counters = document.querySelectorAll('.counter');
-			const speed = 100;
+			const speed = 500;
 
         counters.forEach(counter => {
             const updateCount = () => {
