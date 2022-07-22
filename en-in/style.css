@@ -1036,7 +1036,6 @@ body{
   }
   .secondPartGrid
   {
-    background: #efefef;
     width: -webkit-fill-available;
     width: -moz-available;
     display: flex;
@@ -1924,14 +1923,18 @@ hr.new1 {
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     align-items: center;
-    align-content: center;
     justify-items: center;
-    justify-content: center;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
+
+  .rctP::-webkit-scrollbar {
+    display: none;
+}
 
   .rct
   {
-    scroll-snap-align: end;
+    scroll-snap-align: center;
     background: #ffffff;
     padding: 1% 4%;
     width: fit-content;
