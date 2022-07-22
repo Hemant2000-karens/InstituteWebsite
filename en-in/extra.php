@@ -10,7 +10,7 @@
 
 		<div class = "statsBody color1">
 			<i class="bi bi-person-badge"></i>
-			<span class="counter" data-target="50">0</span>
+			<span class="counter" data-target="500">0</span>
 			<span class="countertag">Faculty</span>
 		</div>
 
