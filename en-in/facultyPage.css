@@ -501,6 +501,12 @@ html,body
 	font-family: 'Nanum Myeongjo', serif;
 }
 
+.navigation button:hover
+{
+	color: ;
+	background: ;
+}
+
 .navigation .btn1
 {
 	margin: 8px 25px 8px 2px;
