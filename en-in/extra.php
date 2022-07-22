@@ -34,60 +34,28 @@
 	<div class="reseachHighLights_sub">
 		<h2>Our Recruiter</h2>
 	</div>
-	<div class="rContentMain">
-				
-		<div class="rBackButton">
-			<button onclick=""><</button>
-		</div>
-			<div class="rContentbody">
-				
+	
+	<div class="rcScroll">
 
-				<div class="rctP">		
-
-					<div class="rct">
-						<img src="../Images/recruiters/accenture.png" />
-					</div>
-	
-					<div class="rct">
-						<img src="../Images/recruiters/amazon.png" />
-					</div>
-	
-					<div class="rct">
-						<img src="../Images/recruiters/jio.png" />
-					</div>
-
-					<div class="rct">
-						<img src="../Images/recruiters/itc.png" />
-					</div>
-	
-					<!-- <div class="rct">
-							
-					</div>
-	
-					<div class="rct">
-							
-					</div>
-
-					<div class="rct">
-						
-					</div>
-	
-					<div class="rct">
-							
-					</div>
-	
-					<div class="rct">
-							
-					</div> -->
-
-					
-				</div>
+		<div class="rctP">
+			
+			<div class="rct">
+				<img src="../Images/recruiters/accenture.png" />
 			</div>
-		<div class="rForwButton">
-			<button onclick="">></button>
+				
+			<div class="rct">
+				<img src="../Images/recruiters/amazon.png" />
+			</div>
+	
+			<div class="rct">
+				<img src="../Images/recruiters/jio.png" />
+			</div>
+
+			<div class="rct">
+				<img src="../Images/recruiters/itc.png" />
+			</div>
+
 		</div>
-
-
 	</div>
 </div>
 
