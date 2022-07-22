@@ -1917,7 +1917,7 @@ hr.new1 {
   .rctP
   {
     width: auto;
-    gap: 20px;
+    gap: 30px;
     display: flex;
     overflow: auto;
     scroll-behavior: smooth;
@@ -1934,7 +1934,7 @@ hr.new1 {
 
   .rct
   {
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     background: #ffffff;
     padding: 1% 4%;
     width: fit-content;
