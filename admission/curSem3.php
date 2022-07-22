@@ -1,7 +1,4 @@
-<?php include '../en/connectionDB.php'; 
-
-
-?>
+<?php include '../en-in/connectionDB.php'; ?>
 
 
 <table class="table">

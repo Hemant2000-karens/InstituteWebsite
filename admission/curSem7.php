@@ -1,4 +1,4 @@
-<?php include '../en/connectionDB.php'; ?>
+<?php include '../en-in/connectionDB.php'; ?>
 
 <table class="table">
 	<caption>Semester 7</caption>
