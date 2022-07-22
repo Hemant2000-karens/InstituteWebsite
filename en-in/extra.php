@@ -42,6 +42,46 @@
 			<div class="rContentbody">
 				
 
+				<div class="rctP">		
+
+					<div class="rct">
+						<img src="../Images/recruiters/accenture.png" />
+					</div>
+	
+					<div class="rct">
+						<img src="../Images/recruiters/amazon.png" />
+					</div>
+	
+					<div class="rct">
+						<img src="../Images/recruiters/jio.png" />
+					</div>
+
+					<div class="rct">
+						<img src="../Images/recruiters/itc.png" />
+					</div>
+	
+					<!-- <div class="rct">
+							
+					</div>
+	
+					<div class="rct">
+							
+					</div>
+
+					<div class="rct">
+						
+					</div>
+	
+					<div class="rct">
+							
+					</div>
+	
+					<div class="rct">
+							
+					</div> -->
+
+					
+				</div>
 			</div>
 		<div class="rForwButton">
 			<button onclick="">></button>

@@ -1915,11 +1915,28 @@ hr.new1 {
     background: #efefef;
   }
 
-  .RecruiterScoll
+  .rctP
   {
-
+    width: 100%;
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(595px,1fr));
+    align-items: center;
+    justify-content: center;
+    align-content: center;
   }
 
+  .rct
+  {
+    background: #ffffff;
+    padding: 1% 4%;
+    width: fit-content;
+  }
+
+  .rct img
+  {
+    width: 100px;
+    height: 80px;
+  }
 /* Extras Ends */
 
 /* Miscs Parts */
