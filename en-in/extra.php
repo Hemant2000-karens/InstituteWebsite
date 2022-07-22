@@ -52,19 +52,19 @@
 			</div>
 
 			<div class="rct">
-				<img src="../Images/recruiters/itc.png" />
+				<img src="../Images/recruiters/oracle.png" />
 			</div>
 
 			<div class="rct">
-				<img src="../Images/recruiters/accenture.png" />
+				<img src="../Images/recruiters/nvidia.png" />
 			</div>
 				
 			<div class="rct">
-				<img src="../Images/recruiters/amazon.png" />
+				<img src="../Images/recruiters/amd.png" />
 			</div>
 	
 			<div class="rct">
-				<img src="../Images/recruiters/jio.png" />
+				<img src="../Images/recruiters/tataelxsi.png" />
 			</div>
 
 			<div class="rct">
