@@ -1917,10 +1917,12 @@ hr.new1 {
 
   .rctP
   {
-    width: 100%;
+    width: auto;
     gap: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
     align-items: center;
     align-content: center;
     justify-items: center;
@@ -1929,6 +1931,7 @@ hr.new1 {
 
   .rct
   {
+    scroll-snap-align: end;
     background: #ffffff;
     padding: 1% 4%;
     width: fit-content;
