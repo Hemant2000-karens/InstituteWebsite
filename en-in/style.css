@@ -1930,14 +1930,17 @@ hr.new1 {
 
   .rctP::-webkit-scrollbar {
     display: none;
-}
+  }
 
   .rct
   {
+    display: grid;
     scroll-snap-align: start;
     background: #ffffff;
     padding: 1% 4%;
     width: fit-content;
+    height: 100px;
+    align-items: center;
   }
 
   .rct img
