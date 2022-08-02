@@ -57,7 +57,7 @@
   </div> 
 
   <div class="dropdown">
-    <button class="dropbtn">Office Bearers</button>
+    <button class="dropbtn">People</button>
     <div class="dropdown-content">
       <a href="faculty.php">Faculty</a>
       <a href="rch.php">Research Staff</a>
