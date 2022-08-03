@@ -26,11 +26,13 @@
 					     <p>Chairman of the Board</p>
 					</div>
 					<div class="members">
+						<img src="../Images/BOD/avat.png">
 						<h3>Shri Manish Rastogi</h3>
 					     <p>Member</p>
 					     <p>Principal Secretary<br>Department of Science and Technology Government of MP</p>
 					</div>
 					<div class="members">
+						<img src="../Images/BOD/avat.png">
 						<h3>Shri Rakesh Ranjan</h3>
 					     <p>Member</p>
 					     <p>Additional Secretary<br>(IITs/IIITs/<br>TE/TC/TEQUIP)</p>

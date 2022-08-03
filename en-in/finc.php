@@ -39,12 +39,14 @@
 					</div>
 
 					<div class="members">
+						<img src="../Images/BOD/avat.png">
 						<h3>Shri Rakesh Ranjan</h3>
 					     <p>Member</p>
 					     <p>Additional Secretary<br>(IITs/IIITs/TE/TC/TEQUIP)</p>
 					</div>
 
 					<div class="members">
+						<img src="../Images/BOD/avat.png">
 						<h3>Shri Anil Kumar</h3>
 					     <p>Member</p>
 					     <p>Director(Finance)<br>Integrated Finance Division</p>

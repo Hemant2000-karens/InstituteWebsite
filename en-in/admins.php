@@ -97,7 +97,7 @@
 							</div>
 
 							<div class="localAdminProfile">
-    							<img src="../Images/Administrators/pkjain.png" alt="Prashant" >
+    							<img src="../Images/Administrators/pkJain.png" alt="Prashant" >
 								<h5>Prof. Prashant K. Jain</h5>
 								<h4>ME</h4>
 							</div>
