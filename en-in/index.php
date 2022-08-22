@@ -11,54 +11,46 @@
         <img  id="welcomeNotice" src="../Images/csir.jpg">
     </div> -->
     <?php include 'topheader.php';?>
-    <?php include 'Header.php'?>
-<div class="container">
-    <?php include "./navbar.php" ?>
 
-<span class="br"></span>
-<div class="combined">
-    <div class="banner">
-      <?php include "./SlideShow.php" ?>
-</div>
-
-<!--News Notice-->
-
-<div class="combined_2"style="display:block;margin-left: 12px;width:40%">
-  <div class="newsTab">
-    <button class="newsTab_button" onclick="openNews(event, 'news')" id="defaultOpen">News</button>
-    <button class="newsTab_button" onclick="openNews(event, 'achievement')">Achievment</button>
-    <button class="newsTab_button" onclick="openNews(event, 'notice')">Notice</button>
-  </div>
-
-  <div id="news" class="newsContent">
-    <?php include'./news.php';?>
-  </div>
-
-  <div id="notice" class="newsContent">
-    <?php include'./notice.php';?>
-  </div>
-
-  <div id="achievement" class="newsContent">
-    <?php include './ach.php';?>
-  </div>
+    <div class="fullBgBackground">
+    <div class="fullBg">
 
 
-    <div class="current_update_main">
-  <div class="current_update">
-    <fieldset>
-      <legend>Latest updates</legend>
-        <marquee behavior="scroll" Scrollamount="1.2" direction="up" onmouseover="this.stop();"
-           onmouseout="this.start();" style="height: -webkit-fill-available;height: 100%;overflow: hidden;">
-                <?php include './currentupdate.php';?>
-        </marquee>
-    </fieldset>
-  </div>
-</div>
+
+
+
+
+      <div class="shadowIndex">
+        <?php include 'Header.php'?>
+        <div class="centerNav" id="mainNav">
+          <?php include "./navbar.php" ?> 
+        </div>
+      </div>
+    <div class="container">
+      <span class="br"></span>
+        <div class="combined rellax" data-rellax-speed="-4">
+          <div class="banner">
+
+            <h1>Welcome to Indian Institute of Information Technology, Design and Manufacturing Jabalpur</h1>
+
+          </div>
+          <!--News Notice-->
+
+          
+
+
+
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="prew"><</div>
+        <div class="next">></div>
+    </div>
+
 
 </div>
-
 </div>
-
   <!-- BANNER-->
 
 <span class="br"></span>
@@ -90,4 +82,22 @@
 <script type="text/javascript" src="./script.js"></script>
 
 <script type="text/javascript" src="./script1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+<script>var rellax = new Rellax('.rellax');</script>
+<script type="text/javascript">
+  var indexNavBar = document.getElementById("mainNav");
+  var stickynav = indexNavBar.offsetTop;
+    window.onscroll = function()
+    {
+      stickyNavbar()
+    };
+
+    function stickyNavbar() {
+    if (window.pageYOffset >= stickynav) {
+      indexNavBar.classList.add("indexNav");
+    } else {
+      indexNavBar.classList.remove("indexNav");
+    }
+  }
+</script>
 </html>

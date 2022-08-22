@@ -36,8 +36,9 @@
 	</div>
 	
 	<div class="rcScroll">
+		<div><button class="indexResearch" id="recruitersButton01"><</button></div>
 
-		<div class="rctP">
+		<div class="rctP" id="recruitList">
 			
 			<div class="rct">
 				<img src="../Images/recruiters/accenture.png" />
@@ -88,6 +89,8 @@
 			</div>
 
 		</div>
+
+		<div><button class="indexResearch" id="recruitersButton">></button></div>
 	</div>
 </div>
 
@@ -96,7 +99,9 @@
 
 <script type="text/javascript">
 	const counters = document.querySelectorAll('.counter');
-			const speed = 500;
+	const rButton = document.getElementById('recruitersButton');
+	const lButton = document.getElementById('recruitersButton01');
+	const speed = 500;
 
         counters.forEach(counter => {
             const updateCount = () => {
@@ -123,4 +128,11 @@
             updateCount();
         });
 
+
+	rButton.onclick = () => {
+	  document.getElementById('recruitList').scrollLeft += 20;
+	};
+	lButton.onclick = () => {
+	  document.getElementById('recruitList').scrollLeft += 20;
+	};
 </script>

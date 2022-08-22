@@ -7,4 +7,4 @@
             PDPM<br>Indian Institute of Information Technology,<br>Design and Manufacturing, Jabalpur</h1>
     </div>
 </div>
-<hr>
+<!-- <hr> -->

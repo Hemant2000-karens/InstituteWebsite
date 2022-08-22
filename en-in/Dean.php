@@ -8,9 +8,8 @@
 <div class = "container">
 <body>
 
-	<?php include "./Header.php"; ?>
+	<?php include "./header2.php"; ?>
 
-	<?php include "./navbar.php"; ?>
 
 	<span class="br"></span> <!--Horizontal rule -->
 	<br>
@@ -349,5 +348,21 @@ var sticky3 = navbar3.offsetTop;
     navbar3.classList.remove("sticky");
  		}
 	}
+</script>
+<script type="text/javascript">
+  var indexNavBar = document.getElementById("mainNav");
+  var stickynav = indexNavBar.offsetTop;
+    window.onscroll = function()
+    {
+      stickyNavbar()
+    };
+
+    function stickyNavbar() {
+    if (window.pageYOffset >= stickynav) {
+      indexNavBar.classList.add("indexNav2");
+    } else {
+      indexNavBar.classList.remove("indexNav2");
+    }
+  }
 </script>
 </html>

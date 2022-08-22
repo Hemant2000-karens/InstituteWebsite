@@ -1,7 +1,7 @@
+<center><img src="../Images/logo_college.png" class="navLogo"></center>
 <div class="topnav" id="myTopnav">
-  <a href="index.php" class="active">Home</a>
+  <a href="index.php">Home</a>
   
-
   <div class="dropdown">
     <button class="dropbtn">Administration 
     </button>
