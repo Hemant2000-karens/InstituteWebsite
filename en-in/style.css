@@ -91,7 +91,7 @@ body{
 }
 
 .container{
-  margin: 8px 13px !important;
+  /*margin: 8px 13px !important;*/
 }
 
 .topheader{
@@ -141,7 +141,7 @@ body{
   font-family: var(--varela);
   display: inline-flex;
   height: auto;
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
   gap: 1.2%;
   padding: 0 4%;
@@ -150,6 +150,29 @@ body{
   width: -moz-available;
 }
 
+.header2
+{
+  color: #000;
+}
+
+.fullBgBackground
+{
+  background: url("../Images/slider/img03.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.fullBg
+{
+  /*backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);*/
+  height: -webkit-fill-available;
+}
+.shadowIndex
+{
+  background: linear-gradient(0deg,#ffffff00,#3232329c,rgb(0 0 0 / 72%) 100% );
+}
 .header h1
 {
   height: 100%;
@@ -168,26 +191,47 @@ body{
   }
 
 /* navBar */
+.centerNav
+{
+  display: grid;
+  justify-items: center;
+  transition-duration: 255ms;
+}
+
 
 .topnav {
-  padding: 0 10%;
   overflow: hidden;
+  /*padding: 0 10%;
+  background: #1b3a4b87;
   background-color: #1b3a4b;
   border-radius: 5px;
   box-shadow: 0px 0px 6px 0 rgb(0 0 0 / 20%),
-  0px 0px 13px 0 rgb(0 0 0 / 19%);
+  0px 0px 13px 0 rgb(0 0 0 / 19%);*/
 }
 
-.topnav a {
+.topnav2 a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #000;
   text-align: center;
   text-shadow: 0px 0px 2px #646464, 0 0 2px #e1e1e1;
   font-family:'Rubik', sans-serif;
   padding: 14px 14px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
+  transition-duration: 450ms;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0px 0px 2px #646464, 0 0 2px #e1e1e1;
+  font-family:'Rubik', sans-serif;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 18px;
   transition-duration: 450ms;
 }
 
@@ -201,20 +245,57 @@ body{
   color: #f2f2f2;
   transition-duration: 2000ms;
 }
+
+.centerNav .navLogo
+{
+  height: 40px;
+  background: inherit;
+  width: auto;
+  margin: 0 10px;
+  display: none;
+  padding-top: 5px;
+}
+
+
+.topnav2 .icon,
 .topnav .icon {
   display: none;
 }
 
-.dropdown {
+
+.topnav a.logoIcon img
+{
+  height: auto;
+  width: 25px;
+  display: none;
+}
+
+.dropdown,
+.dropdown2{
   float: left;
   overflow: hidden;
 }
 
-.dropdown .dropbtn {
-  font-size: 15px;
+.dropdown2 .dropbtn
+{
+  color: #000000;
+  font-size: 18px;
   border: none;
   outline: none;
-  color: #f2f2f2;
+  padding: 14px 14px;
+  text-shadow: 0px 0px 2px #646464, 0 0 2px #e1e1e1;
+  background-color: inherit;
+  font-family:'Rubik', sans-serif;
+  margin: 0;
+  transition-duration: 450ms;
+  transition-timing-function: ease-in-out;
+}
+
+.dropdown .dropbtn{
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: #ffffff;
   padding: 14px 14px;
   text-shadow: 0px 0px 2px #646464, 0 0 2px #e1e1e1;
   background-color: inherit;
@@ -245,12 +326,15 @@ body{
 }
 
 /* Hover Here */
-.topnav a:hover, .dropdown:hover .dropbtn {
+.topnav a:hover,
+.topnav2 a:hover, 
+.dropdown:hover .dropbtn,
+.dropdown2:hover .dropbtn{
   background-color: #0a0908;
   color: #FFFFFF;
   text-shadow: 0px 0px 0px #646464, 0 0 0px #e1e1e1;
-  box-shadow: 0px 0px 4px 0px rgb(10 10 8), 0px 0px 7px 1px rgb(0 0 0 / 33%);
-  border-radius: 5px;
+  /*box-shadow: 0px 0px 4px 0px rgb(10 10 8), 0px 0px 7px 1px rgb(0 0 0 / 33%);*/
+  /*border-radius: 5px;*/
   cursor: hand;
 }
 
@@ -268,8 +352,8 @@ body{
   color: black;
 }
 
-
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content,
+.dropdown2:hover .dropdown-content {
   display: block;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -322,7 +406,7 @@ body{
 .banner
 {
   width:100%;
-  border: 0.24px solid #ccc;
+  /*border: 0.24px solid #ccc;*/
   height: 420px;
 }
 /* Current Update*/
@@ -538,6 +622,9 @@ body{
     transform: scale(1);
   }
 }
+
+
+
 .SlideshowContainer{
   max-width: 1170px;
   margin:auto;
@@ -603,8 +690,8 @@ body{
   }
 }
 
-.home .controls .prew,
-.home .controls .next{
+.fullBg .controls .prew,
+.fullBg .controls .next{
  position: absolute;
  z-index:0;
  top:50%;
@@ -623,22 +710,22 @@ body{
  backdrop-filter: blur(9px);
  -webkit-backdrop-filter: blur(9px);
 }
-.home .controls .prew:hover,
-.home .controls .next:hover{
+.fullBg .controls .prew:hover,
+.fullBg .controls .next:hover{
   background-color: #000000;
 }
-.home .controls .prew{
+.fullBg .controls .prew{
  left:0;
   border-top-right-radius: 10px;
  border-bottom-right-radius: 10px;
 }
-.home .controls .next{
+.fullBg .controls .next{
  right:0;
   border-top-left-radius: 10px;
  border-bottom-left-radius: 10px;
 }
 
-.home .indicator{
+.fullBg .indicator{
   position: absolute;
   left:50%;
   bottom:30px;
@@ -646,7 +733,7 @@ body{
   transform: translateX(-50%);
 }
 
-.home .indicator div{
+.fullBg .indicator div{
   display: inline-block;
   width:25px;
   height: 25px;
@@ -658,7 +745,7 @@ body{
   margin:0 3px;
 }
 
-.home .indicator div.active{
+.fullBg .indicator div.active{
  background-color: #000;
 }
 
@@ -749,7 +836,7 @@ body{
 .sticky {
   background: rgba(255, 255, 255, 0.72);
   position: fixed;
-  top: 0;
+  top: 7%;
   left: 0;
   width: -moz-available;
   width:-webkit-fill-available;
@@ -758,6 +845,36 @@ body{
   padding-top: 30px;
 }
 
+.indexNav
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: -moz-available;
+  width:-webkit-fill-available;
+  z-index: 1;
+  background: #1e446e;
+}
+
+.indexNav .navLogo
+{
+  display: block;
+}
+
+.indexNav2
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: -moz-available;
+  width:-webkit-fill-available;
+  z-index: 1;
+  background: #cecece;
+}
+.indexNav2 .navLogo
+{
+  display: block;
+}
 .tableContainer
 {
   padding: 10px 8%;
@@ -1914,12 +2031,19 @@ hr.new1 {
     background: #efefef;
   }
 
+
+  .rcScroll
+  {
+    display: flex;
+    align-items: center;
+  }
+
   .rctP
   {
     width: auto;
     gap: 30px;
     display: flex;
-    overflow: auto;
+    overflow: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     align-items: center;
@@ -1948,6 +2072,7 @@ hr.new1 {
     width: 105px;
     height: auto;
   }
+
 /* Extras Ends */
 
 /* Miscs Parts */

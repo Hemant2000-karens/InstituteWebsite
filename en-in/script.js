@@ -15,7 +15,6 @@ var i;
 	};
 
 
-
 	function openNews(evt, tabname) {
 	  var i, tabcontent, tablinks;
 	  tabcontent = document.getElementsByClassName("newsContent");
@@ -55,7 +54,7 @@ var i;
 	    nbar.classList.remove("sticky");
 	 	}
 	}
-
+	
 
 
 	function changeCal(evt, calName) {

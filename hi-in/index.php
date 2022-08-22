@@ -88,6 +88,5 @@
 </body>
 <?php include './footer.php';?>
 <script type="text/javascript" src="./script.js"></script>
-
 <script type="text/javascript" src="./script1.js"></script>
 </html>

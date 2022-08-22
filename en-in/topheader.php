@@ -1,12 +1,10 @@
 <div class="topheader">
     <div class="main-group">
-        <div class="group">
-            <p>भारत सरकार</p>
-            <p>GOVERNMENT OF INDIA</p>
+        <div class="accessiblity">
         </div>
-        <div class="dept">
-            <p>मानव संसाधन विकास मंत्रालय</p>
-            <p>MINISTRY OF HUMAN RESOURCES AND DEVELOPMENT</p>
+        <div class="sitemap"></div>
+        </div>
+        <div class="sitemap"></div>
         </div>
     </div>
 </div>
