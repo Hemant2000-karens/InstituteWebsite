@@ -5,6 +5,6 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/testIndex/index/');
+	header('Location: '.$uri.'/InstituteWebsite/index/');
 	exit;
 ?>Something is wrong with the Server :-(
