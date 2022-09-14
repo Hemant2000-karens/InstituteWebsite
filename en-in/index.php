@@ -92,12 +92,16 @@
 
 
 <script type="text/javascript">
+
   var indexNavBar = document.getElementById("mainNav");
   var stickynav = indexNavBar.offsetTop;
+  let reSlideIndex = 1;
   window.onscroll = function()
   {
     stickyNavbar()
   };
+
+
 
 function stickyNavbar() {
     if (window.pageYOffset >= stickynav) {
@@ -113,7 +117,7 @@ function stickyNavbar() {
       changeResSlide(reSlideIndex += n);
   }
 
-  
+
 
   function changeResSlide(n) {
     let i;

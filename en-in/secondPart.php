@@ -181,6 +181,29 @@
 
 <script type="text/javascript">
 	let reSlideIndex = 1;
+
+	function changeResSlide(n) {
+    let i;
+    let slides = document.getElementsByClassName("resBodyParents");
+    if (n > slides.length) {reSlideIndex = 1}    
+    if (n < 1) {reSlideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slides[reSlideIndex-1].style.display = "block";
+  }
+
+  function moveRes(n) {
+      changeResSlide(reSlideIndex += n);
+  }
+
+  
 	changeResSlide(reSlideIndex);
+
+	
+
+
+  
+
 	document.getElementById('defaultOpen').click();
 </script>
