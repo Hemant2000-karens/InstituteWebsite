@@ -128,5 +128,34 @@
       indexNavBar.classList.remove("indexNav2");
     }
   }
+	
+
+	var Hostelbutton = document.getElementsByClassName("hostel_card");
+  Hostelbutton.addEventListener("Click",hostelLink);
+	function hostelLink(str) 
+	{
+		switch(str)
+		{
+			case 'hall1':
+				window.open('https://www.iiitdmj.ac.in/hall1.iiitdmj.ac.in/', '_blank');
+				break;
+			case 'hall3':
+				window.open('https://www.iiitdmj.ac.in/hall3.iiitdmj.ac.in/', '_blank');
+				break;
+			case 'hall4':
+				window.open('https://www.instagram.com', '_blank');
+				break;
+			case 'pnn':
+				window.open('https://www.twitter.com', '_blank');
+				break;
+			case 'ng':
+				window.open('https://www.linkedin.com', '_blank');
+				break;
+			case 'ms':
+				window.open('https://www.oracle.com', '_blank');
+				break;
+		}
+		
+	}
 </script>
 </html>

@@ -149,8 +149,8 @@
 
 <?php include './footer.php'?>
 
-<script type="text/javascript" src="./script.js"></script>
 <script type="text/javascript">
+
   var indexNavBar = document.getElementById("mainNav");
   var stickynav = indexNavBar.offsetTop;
     window.onscroll = function()
@@ -165,5 +165,19 @@
       indexNavBar.classList.remove("indexNav2");
     }
   }
+
+var collButton = document.getElementsByClassName("adminDetails");
+var i;
+  for (i = 0; i < collButton.length; i++) {
+	  collButton[i].addEventListener("click", function() {
+	    this.classList.toggle("visibleldTab");
+	    var content = this.nextElementSibling;
+	    if (content.style.maxHeight){
+	      content.style.maxHeight = null;
+	    } else {
+	      content.style.maxHeight = content.scrollHeight + "px";
+	    } 
+	  });
+	}
 </script>
 </html>

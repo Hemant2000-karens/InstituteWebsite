@@ -60,7 +60,7 @@
 			</div>
 			<div class="campusDetail">
 
-				<div class="campus-pill hostels" onclick="openCampusTour('hostel')">
+				<!-- <div class="campus-pill hostels" onclick="openCampusTour('hostel')">
 
 					<div class="index-title">
 						<h4>Hostels</h4> <i class="bi bi-arrow-up-right-circle"></i>
@@ -88,7 +88,7 @@
 					<div class="index-title">
 						<h4>Visitors Center</h4> <i class="bi bi-arrow-up-right-circle"></i>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>	
 
@@ -112,7 +112,7 @@
 
 
 					<!-- Contentshow/hide -->
-				<div class="resBodyParents animFade">
+				<div class="resBodyParents animFade" id="defaultOpen">
 					<div class="resBody">
 
 						<div class="resImage">
@@ -179,10 +179,8 @@
 	</div>
 </div>
 
-
-<script type="text/javascript" src="./script.js"></script>
-
 <script type="text/javascript">
+	let reSlideIndex = 1;
 	changeResSlide(reSlideIndex);
+	document.getElementById('defaultOpen').click();
 </script>
-<script type="text/javascript" src="./script1.js"></script>

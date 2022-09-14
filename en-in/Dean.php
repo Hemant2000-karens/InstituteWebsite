@@ -316,7 +316,6 @@
 <?php include './footer.php' ?>
 
 
-<script type="text/javascript" src="./script.js"></script>
 <script type="text/javascript">
 	window.onscroll = function()
 	{
@@ -348,6 +347,27 @@ var sticky3 = navbar3.offsetTop;
     navbar3.classList.remove("sticky");
  		}
 	}
+
+	function openTab(evt, pageName) 
+	{
+  	var i, tabcontent, tablinks;
+  		tabcontent = document.getElementsByClassName("bodyContent");
+  	for (i = 0; i < tabcontent.length; i++) 
+  	{
+    	tabcontent[i].style.display = "none";
+  	}
+  		tablinks = document.getElementsByClassName("tablinks");
+  	for (i = 0; i < tablinks.length; i++) 
+  	{
+    	tablinks[i].className = tablinks[i].className.replace(" active1", "");
+  	}
+
+  	document.getElementById(pageName).style.display = "block";
+  	evt.currentTarget.className += " active1";
+	}
+
+
+	document.getElementById('defaultOpen').click();
 </script>
 <script type="text/javascript">
   var indexNavBar = document.getElementById("mainNav");

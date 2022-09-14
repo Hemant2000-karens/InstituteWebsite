@@ -79,25 +79,72 @@
 <?php include './extra.php';?>
 </body>
 <?php include './footer.php';?>
-<script type="text/javascript" src="./script.js"></script>
 
-<script type="text/javascript" src="./script1.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
-<script>var rellax = new Rellax('.rellax');</script>
+
+
+
+
+
+
+
+
+
+
+
 <script type="text/javascript">
   var indexNavBar = document.getElementById("mainNav");
   var stickynav = indexNavBar.offsetTop;
-    window.onscroll = function()
-    {
-      stickyNavbar()
-    };
+  window.onscroll = function()
+  {
+    stickyNavbar()
+  };
 
-    function stickyNavbar() {
+function stickyNavbar() {
     if (window.pageYOffset >= stickynav) {
       indexNavBar.classList.add("indexNav");
     } else {
       indexNavBar.classList.remove("indexNav");
     }
   }
+
+
+
+  function moveRes(n) {
+      changeResSlide(reSlideIndex += n);
+  }
+
+  
+
+  function changeResSlide(n) {
+    let i;
+    let slides = document.getElementsByClassName("resBodyParents");
+    if (n > slides.length) {reSlideIndex = 1}    
+    if (n < 1) {reSlideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slides[reSlideIndex-1].style.display = "block";
+  }
+
+    
+  
+
+  function viewMore()
+  {
+    window.open("./about.php","_self");
+  }
+
+
+document.getElementById('defaultOpen').click();
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+<script type="text/javascript">
+  var rellax = new Rellax('.rellax');
+</script>
+
+
+
+
+
+
 </html>

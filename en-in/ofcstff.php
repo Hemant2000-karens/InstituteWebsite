@@ -51,8 +51,6 @@
 
 <?php include './footer.php' ?>
 
-<script type="text/javascript" src="./script.js"></script>
-
 
 <script type="text/javascript">
   var indexNavBar = document.getElementById("mainNav");

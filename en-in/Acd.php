@@ -256,7 +256,7 @@
 			</body>
 		</div>
 
-<script type="text/javascript" src="./script.js"></script>
+
 <script type="text/javascript">
   var indexNavBar = document.getElementById("mainNav");
   var stickynav = indexNavBar.offsetTop;
@@ -272,6 +272,21 @@
       indexNavBar.classList.remove("indexNav2");
     }
   }
+
+	var coll = document.getElementsByClassName("acdpB");
+	var i;
+	for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("show");
+		    var content = this.nextElementSibling;
+		    if (content.style.maxHeight){
+		      content.style.maxHeight = null;
+		    } else {
+		      content.style.maxHeight = content.scrollHeight + "px";
+		    } 
+		  });
+		}
+
 </script>
 <?php include './footer.php'?>
 

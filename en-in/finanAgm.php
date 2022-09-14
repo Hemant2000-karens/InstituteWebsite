@@ -120,7 +120,7 @@
 
 <?php include './footer.php'?>
 
-<script type="text/javascript" src="./script.js"></script>
+
 <script type="text/javascript">
   var indexNavBar = document.getElementById("mainNav");
   var stickynav = indexNavBar.offsetTop;
@@ -136,5 +136,21 @@
       indexNavBar.classList.remove("indexNav2");
     }
   }
+
+
+	function changeCal(evt, calName) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("calTable");
+	  for (i = 0; i < tabcontent.length; i++) {
+	    tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("calTab");
+	  for (i = 0; i < tablinks.length; i++) {
+	    tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(calName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
+document.getElementById('defaultOpen').click();
 </script>
 </html>

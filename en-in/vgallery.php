@@ -65,6 +65,25 @@
 		</div>
 	</body>
 </div>
-<script type="text/javascript" src="./script.js"></script>
 <?php include './footer.php'?>
+
+<script type="text/javascript">
+	
+
+  var indexNavBar = document.getElementById("mainNav");
+  var stickynav = indexNavBar.offsetTop;
+    window.onscroll = function()
+    {
+      stickyNavbar()
+    };
+
+    function stickyNavbar() {
+    if (window.pageYOffset >= stickynav) {
+      indexNavBar.classList.add("indexNav2");
+    } else {
+      indexNavBar.classList.remove("indexNav2");
+    }
+  }
+
+</script>
 </html>

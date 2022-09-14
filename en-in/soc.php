@@ -93,9 +93,8 @@
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<script type="text/javascript" src="./script.js"></script>
-<script type="text/javascript" src="./script1.js"></script>
 <script type="text/javascript">
+
   var indexNavBar = document.getElementById("mainNav");
   var stickynav = indexNavBar.offsetTop;
     window.onscroll = function()
@@ -110,6 +109,26 @@
       indexNavBar.classList.remove("indexNav2");
     }
   }
+
+
+
+  function openssc(evt, calName) 
+	{
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("social_media_posts_parents");
+	  for (i = 0; i < tabcontent.length; i++) {
+	    tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("calTab");
+	  for (i = 0; i < tablinks.length; i++) {
+	    tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(calName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
+
+
+	document.getElementById('defaultOpen').click();
 </script>
 
 <?php include './footer.php'?>

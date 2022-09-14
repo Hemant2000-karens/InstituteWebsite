@@ -1,8 +1,8 @@
 let screenWidth = screen.width;
-let reSlideIndex = 1;
+
 var button = document.getElementsByClassName("card");
 var nbar = document.getElementById("adminHeader");
-var Hostelbutton = document.getElementsByClassName("hostel_card");
+
 var collButton = document.getElementsByClassName("adminDetails");
 var coll = document.getElementsByClassName("acdpB");
 var sticky = nbar.offsetTop;
@@ -74,19 +74,7 @@ var i;
 
 
 
-function changeFacultyBranch(evt, calName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("facultyList");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("calTab");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(calName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
+
 
 
 
@@ -130,8 +118,7 @@ function changeFacultyBranch(evt, calName) {
 	}
 
 
-
-	function openTab(evt, pageName) 
+function openTab(evt, pageName) 
 	{
   	var i, tabcontent, tablinks;
   		tabcontent = document.getElementsByClassName("bodyContent");
@@ -150,55 +137,12 @@ function changeFacultyBranch(evt, calName) {
 	}
 
 
-	Hostelbutton.addEventListener("Click",hostelLink);
-	function hostelLink(str) 
-	{
-		switch(str)
-		{
-			case 'hall1':
-				window.open('https://www.iiitdmj.ac.in/hall1.iiitdmj.ac.in/', '_blank');
-				break;
-			case 'hall3':
-				window.open('https://www.iiitdmj.ac.in/hall3.iiitdmj.ac.in/', '_blank');
-				break;
-			case 'hall4':
-				window.open('https://www.instagram.com', '_blank');
-				break;
-			case 'pnn':
-				window.open('https://www.twitter.com', '_blank');
-				break;
-			case 'ng':
-				window.open('https://www.linkedin.com', '_blank');
-				break;
-			case 'ms':
-				window.open('https://www.oracle.com', '_blank');
-				break;
-		}
-		
-	}
-
-
-	function openssc(evt, calName) 
-	{
-	  var i, tabcontent, tablinks;
-	  tabcontent = document.getElementsByClassName("social_media_posts_parents");
-	  for (i = 0; i < tabcontent.length; i++) {
-	    tabcontent[i].style.display = "none";
-	  }
-	  tablinks = document.getElementsByClassName("calTab");
-	  for (i = 0; i < tablinks.length; i++) {
-	    tablinks[i].className = tablinks[i].className.replace(" active", "");
-	  }
-	  document.getElementById(calName).style.display = "block";
-	  evt.currentTarget.className += " active";
-	}
+	
 
 
 
 	
-	function moveRes(n) {
-  		changeResSlide(reSlideIndex += n);
-	}
+	
 
 	function viewMore() {
 	  var dots = document.getElementById("dots");
@@ -218,22 +162,9 @@ function changeFacultyBranch(evt, calName) {
 
 
 
-	function changeResSlide(n) {
-	  let i;
-	  let slides = document.getElementsByClassName("resBodyParents");
-	  if (n > slides.length) {reSlideIndex = 1}    
-	  if (n < 1) {reSlideIndex = slides.length}
-	  for (i = 0; i < slides.length; i++) {
-	    slides[i].style.display = "none";  
-	  }
-	  slides[reSlideIndex-1].style.display = "block";
-	}
+	
 
-
-	function viewMore()
-	{
-		window.open("./about.php","_self");
-	}
+	
 
 
 	function ReadMore()
