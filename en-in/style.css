@@ -2073,6 +2073,19 @@ hr.new1 {
     height: auto;
   }
 
+
+
+  .indexResearch
+  {
+    border-radius: 50%;
+    font-size: 10px;
+    z-index: 5;
+    border: 0.25px solid;
+    background: #dbdbdb9c;
+    padding: 12px;
+    font-family: 'Nanum Myeongjo';
+  }
+
 /* Extras Ends */
 
 /* Miscs Parts */
