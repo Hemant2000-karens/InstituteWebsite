@@ -10,19 +10,19 @@
 
 		<div class = "statsBody color1">
 			<i class="bi bi-person-badge"></i>
-			<span class="counter" data-target="500">0</span>
+			<span class="counter" data-target="70">0</span>
 			<span class="countertag">Faculty</span>
 		</div>
 
 		<div class = "statsBody color1">
 			<i class="bi bi-mortarboard-fill"></i>
-			<span class="counter" data-target="500">0</span>
+			<span class="counter" data-target="200">0</span>
 			<span class="countertag">Graduates</span>
 		</div>
 
 		<div class = "statsBody color1">
 			<i class="bi bi-globe2"></i>
-			<span class="counter" data-target="500">0</span>
+			<span class="counter" data-target="180">0</span>
 			<span class="countertag">Placements</span>
 		</div>
 
@@ -99,9 +99,7 @@
 
 <script type="text/javascript">
 	const counters = document.querySelectorAll('.counter');
-	const rButton = document.getElementById('recruitersButton');
-	const lButton = document.getElementById('recruitersButton01');
-	const speed = 500;
+	const speed = 100;
 
         counters.forEach(counter => {
             const updateCount = () => {
@@ -128,11 +126,15 @@
             updateCount();
         });
 
+ const buttonRight = document.getElementById('recruitersButton');
+    const buttonLeft = document.getElementById('recruitersButton01');
 
-	rButton.onclick = () => {
-	  document.getElementById('recruitList').scrollLeft += 20;
-	};
-	lButton.onclick = () => {
-	  document.getElementById('recruitList').scrollLeft += 20;
-	};
+    buttonRight.onclick = function () {
+      document.getElementById('recruitList').scrollLeft += 100;
+    };
+    buttonLeft.onclick = function () {
+      document.getElementById('recruitList').scrollLeft -= 100;
+    };
+
+
 </script>
