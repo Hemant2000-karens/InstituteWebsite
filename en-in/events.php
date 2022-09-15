@@ -71,18 +71,18 @@
 
 				<div class="event-body-main">
 
-					<div class="event-image"> <img src="../Images/event-Image/Blood-donation.jpg" alt="" /> </div>
+					<div class="event-image"> <img src="../Images/event-Image/covid.jpeg" alt="" /> </div>
 
 					<div class="event-content-parents">
 
 						<div class="event-date"> 
 							<span>June</span> 
-							<span>22, 2022</span> 
+							<span>25-26, 2021</span> 
 						</div>
 
 
 						<div class="event-content">
-							<h4>Blood Donation Camp Organised by IIITDM Jabalpur</h4>
+							<h4>Healthcare Innovation during COVID Outbreak</h4>
 						</div>
 
 					</div>
@@ -100,18 +100,18 @@
 
 				<div class="event-body-main">
 
-					<div class="event-image"> <img src="../Images/event-Image/Blood-donation.jpg" /> </div>
+					<div class="event-image"> <img src="../Images/event-Image/scienceWeek.png" /> </div>
 
 					<div class="event-content-parents">
 
 						<div class="event-date"> 
-							<span>June</span> 
-							<span>22, 2022</span> 
+							<span>Feb</span> 
+							<span>22-28, 2022</span> 
 						</div>
 
 
 						<div class="event-content">
-							<h4>Blood Donation Camp Organised by IIITDM Jabalpur</h4>
+							<h4>Science Week</h4>
 						</div>
 
 					</div>
