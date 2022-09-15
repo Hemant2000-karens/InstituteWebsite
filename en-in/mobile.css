@@ -878,7 +878,15 @@ and (max-width: 1425px)
     height: 100%;
     width: auto;
   }
+  @-moz-document url-prefix() {
+  .resImage img
+  {
+    height: 100%;
+    width: 100%;
+  }
 }
+}
+
 
 
 /* Desktops ------------------ */

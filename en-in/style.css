@@ -1247,6 +1247,7 @@ body{
   {
     height: 490px;
     width: var(--fill);
+    width: var(--mozFill);
     border-bottom: 1px solid #ccc;
     display: inline-grid;
     justify-items: center;
