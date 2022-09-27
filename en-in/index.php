@@ -69,6 +69,12 @@
 <span class="br"></span>
 
 
+<?php include './fistPart.php'?>
+
+  <span class="br"></span>
+  <span class="br"></span>
+  <span class="br"></span>
+  
 <?php include './secondPart.php'; ?>
 
 <span class="br"></span>
