@@ -12,7 +12,13 @@
 				
 					<div class="scrollbar_main Page">
 
+						<?php 
 
+
+						include './news.php';
+
+						?>
+						
 
 					</div>
 
@@ -31,7 +37,12 @@
 				
 					<div class="scrollbar_main Page">
 
+						<?php 
 
+
+						include './news.php';
+
+						?>
 
 					</div>
 
@@ -51,7 +62,12 @@
 				
 					<div class="scrollbar_main Page">
 
+						<?php 
 
+
+						include './academics_main.php';
+
+						?>
 
 					</div>
 
@@ -70,7 +86,12 @@
 					<div class="scrollbar_main Page">
 
 
+						<?php 
 
+
+						include './tender_main.php';
+
+						?>
 					</div>
 
 					<center>
