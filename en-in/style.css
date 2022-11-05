@@ -96,7 +96,7 @@ body{
 
 .topheader{
   background: #f1f1f1;
-  height: 50px;
+  height: auto;
   font-family: var(--notoSans);
   font-size: small;
   font-weight: bold;
@@ -157,7 +157,7 @@ body{
 
 .fullBgBackground
 {
-  background: url("../Images/Slider/img03.jpg");
+  background: url("../Images/Slider/img09.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100vh;
@@ -791,7 +791,8 @@ body{
   width: var(--fill);
   width: var(--mozFill);
   display: inline-flex;
-  box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 20%), 0px 0px 1px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 20%), 
+  0px 0px 1px 0 rgb(0 0 0 / 20%);
   height: auto;
   padding: 10px 5px 10px 20px;
   background-color: #dfdfdf;

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title><?php  ;?></title>
+	<title><?php; ?></title>
 	<link rel="stylesheet" type="text/css" href="facultyPage.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
 
 		<div class="breadcrumbs">
 
-			<button class="active"><?php echo "Abhishek Verma"?></button>
+			<button class="active"><?php echo "Abhishek Verma" ?></button>
 
 			<button id="nav_button" class="faculty"  onclick="linkOpen('faculty')">Faculty</button>
 
@@ -31,13 +31,55 @@
 
 		<div class="faculty_profile">
 
+			<div class="about_faculty">
+				
+				<div class="faculty_profile_img_main">
+
+					<div class="faculty_profile_img">
+						
+
+						<img src="http://localhost/InstituteWebsite/Images/faculty/cse/CSE_177.jpg">
+
+
+					</div>
+					<div class="faculty_cv">
+						
+					</div>
+				</div>
+				
+				<div class="faculty_profile_details_master">
+					
+					<div class="faculty_profile_details">
+
+						<h1> Dr. Abhishek Verma</h1>
+						
+						<div class="department_position">
+							<h4>Computer Science and Engineer</h4> - <h5>Assistant Professor</h5>
+						</div>
+
+						<div class="faculty_profile_contacts">
+							
+							<ul>
+								<li><a href="#">+91-7004276170</a></li>k
+								<li><a href="">+91-7004276170</a></li>
+								<li><a href="">+91-7004276170</a></li>
+								<li><a href="">+91-7004276170</a></li>
+							</ul>
+
+						</div>
+
+					</div>
+
+					<div class="faculty_profile_highlights">
+
+
+					</div>
+
+				</div>
+
+			</div>
 			
-			
-
-
-
-
-		</div>
+		</div> 
 
 		<div class="qualification">
 			<h2 class="classHeading">Qualification</h2>
@@ -47,15 +89,15 @@
 				<div class="yr">
 					<div class="sub_year">
 						<h3>
-							<?php echo "2013";?>
+							<?php echo "2020"; ?>
 						</h3>
 					</div>
 					<div class="sub_degree">
 						<span class="institution">
-							Uttar Pradesh Technical University Lucknow, India
+							National Institute of Technology Kurukshetra, India
 						</span>
 						<span class="degree">
-							Bachelor of Technology
+							Ph.D
 						</span>
 					</div>
 				</div>
@@ -63,7 +105,7 @@
 				<div class="yr">
 					<div class="sub_year">
 						<h3>
-							<?php echo "2014";?>
+							<?php echo "2014"; ?>
 						</h3>
 					</div>
 					<div class="sub_degree">
@@ -79,19 +121,18 @@
 				<div class="yr">
 					<div class="sub_year">
 						<h3>
-							<?php echo "2020";?>
+							<?php echo "2013"; ?>
 						</h3>
 					</div>
 					<div class="sub_degree">
 						<span class="institution">
-							National Institute of Technology Kurukshetra, India
+							Uttar Pradesh Technical University Lucknow, India
 						</span>
 						<span class="degree">
-							Ph.D
+							Bachelor of Technology
 						</span>
 					</div>
 				</div>
-
 
 			</div>
 
@@ -105,7 +146,7 @@
 					<span>Area of Interest</span>
 				</div>
 				<div class="interestContent">
-					<span><?php echo "Internet of Things, Intrusion Detection, Network Security";?>
+					<span><?php echo "Internet of Things, Intrusion Detection, Network Security"; ?>
 					</span>
 				</div>
 			</div>

@@ -69,13 +69,87 @@ html,body
 .breadcrumbs button.active
 {
 	background: inherit;
-    color: white;
+  color: white;
 }
 .faculty
 {
 	margin-left: -28px;
   padding-left: 32px !important;
 }
+.faculty_profile
+{
+
+}
+.about_faculty
+{
+	display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.faculty_profile_img_main
+{
+	display: block;
+}
+.faculty_profile_img img
+{
+	width: auto;
+ 	height: 390px;
+}
+}
+.faculty_cv
+{
+
+}
+.faculty_profile_details_master
+{
+	width: 100%;
+  background: #05086c;
+  position: relative;
+  top: 0;
+  color: white;
+}
+.faculty_profile_details
+{
+	display: grid;
+  justify-items: start;
+  align-items: center;
+  justify-content: space-around;
+}
+}
+.faculty_profile_details h1,
+.department_position h4, .department_position h5
+{
+	margin: 6px 2px;
+	width: auto;
+}
+.department_position
+{
+	display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.faculty_profile_highlights
+{
+	
+}
+
+faculty_profile_contacts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container
 {
 	font-family: 'Roboto',sans-serif;
@@ -350,7 +424,7 @@ html,body
 
 .faculty_profile
 {
-	padding: 20px 0;
+	padding: 20px;
 }
 
 .publication
@@ -623,6 +697,15 @@ and (max-width: 400px)
 
 }
 
+
+@media only screen
+and (max-width: 750px)
+{
+	.about_faculty
+	{
+		display: block;
+	}
+}
 
 @media only screen
 and (max-width: 920px)
