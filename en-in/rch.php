@@ -7,10 +7,9 @@
 <?php include './topheader.php'; ?>
 <div class = "container">
 <body>
-
-	<?php include "./Header.php"; ?>
-
-	<?php include "./navbar.php"; ?>
+	
+	<?php include './header2.php';?>
+	
 	<span class="br"></span>
 	
 				<div class="aboutHeader" id="adminHeader">
