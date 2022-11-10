@@ -225,7 +225,7 @@ body{
 .topnav a {
   float: left;
   display: block;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   text-shadow: 0px 0px 2px #646464, 0 0 2px #e1e1e1;
   font-family:'Rubik', sans-serif;
@@ -295,7 +295,7 @@ body{
   font-size: 18px;
   border: none;
   outline: none;
-  color: #ffffff;
+  color: #000000;
   padding: 14px 14px;
   text-shadow: 0px 0px 2px #646464, 0 0 2px #e1e1e1;
   background-color: inherit;
@@ -884,6 +884,24 @@ body{
   display: block;
 }
 
+.indexNav .topnav .dropdown .dropdown-content a,
+.indexNav2 .topnav .dropdown .dropdown-content a
+{
+  color: #000000;
+  text-shadow: 0px 0px 2px #646464, 0 0 2px #e1e1e1;
+}
+
+.indexNav .topnav a
+{
+  color: #ffffff;
+  text-shadow: 0px 0px 2px #646464, 0 0 2px #e1e1e1;;
+}
+
+.indexNav .topnav .dropdown .dropbtn
+{
+  color: #ffffff;
+  text-shadow: 0px 0px 2px #646464, 0 0 2px #e1e1e1;
+}
 .indexNav2
 {
   position: fixed;
