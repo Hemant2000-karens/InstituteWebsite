@@ -11,20 +11,50 @@
     </div> -->
     <?php include 'topheader.php';?>
 
+
+    <?php 
+
+      include_once('./connectionDB.php');
+      $sqlF = "SELECT image,heading from slideshow;";
+
+      $result = $link->query($sqlF);
+
+
+    if ($result->num_rows > 0) 
+    {
+      $row = $result->fetch_assoc();
+    }
+    else 
+    {
+
+    }
+    $link ->close();
+
+    ?>
+
     <div class="fullBgBackground">
     <div class="fullBg">
 
 
-
-
-
-
       <div class="shadowIndex">
+
+
         <?php include 'Header.php'?>
+
+
         <div class="centerNav" id="mainNav">
+
+
           <?php include "./navbar.php" ?> 
+
+
         </div>
+
+
       </div>
+
+
+
     <div class="container">
       <span class="br"></span>
         <div class="combined rellax" data-rellax-speed="-4">
@@ -87,15 +117,80 @@
 </body>
 <?php include './footer.php';?>
 
+<script type="text/javascript">
+         
+
+ const slides=document.querySelector(".fullBgBackground");
+ const prev=document.querySelector(".prew");
+ const next=document.querySelector(".next");
+ let index=0;
 
 
+   prev.addEventListener("click",function(){
+       prevSlide();
+       resetTimer();
+   })
+
+   next.addEventListener("click",function(){
+      nextSlide(); 
+      resetTimer();
+      
+   })
 
 
+    function indicateSlide(element){
+         index=element.id;
+         changeSlide();
+         resetTimer();
+    }
+     
+   function prevSlide(){
+     if(index==0){
+        index=slides.length-1;
+     }
+     else{
+        index--;
+     }
+     changeSlide();
+   }
+
+   function nextSlide(){
+      if(index==slides.length-1){
+        index=0;
+      }
+      else{
+        index++;
+      }
+      changeSlide();
+   }
+
+   function changeSlide(){
+           for(let i=0; i<slides.length; i++){
+            // slides[i].classList.remove("active");
+
+             document.fullBgBackground.style.backgroundImage = 'url("../Images/Slider/img09.jpg")';
+           }
+
+      // slides[index].classList.add("active");
+   }
+
+   function resetTimer(){
+      // when click to indicator or controls button 
+      // stop timer 
+      clearInterval(timer);
+      // then started again timer
+      timer=setInterval(autoPlay,7000);
+   }
+ 
+  
+  function autoPlay(){
+      nextSlide();
+  }
+
+  let timer=setInterval(autoPlay,7000);
 
 
-
-
-
+</script>
 
 
 <script type="text/javascript">

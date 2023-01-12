@@ -879,6 +879,17 @@ body{
   background: #1e446e;
 }
 
+.indexNav2
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: -moz-available;
+  width:-webkit-fill-available;
+  z-index: 1;
+  background: #cecece;
+}
+
 .indexNav .navLogo
 {
   display: block;
@@ -902,16 +913,7 @@ body{
   color: #ffffff;
   text-shadow: 0px 0px 2px #646464, 0 0 2px #e1e1e1;
 }
-.indexNav2
-{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: -moz-available;
-  width:-webkit-fill-available;
-  z-index: 1;
-  background: #cecece;
-}
+
 .indexNav2 .navLogo
 {
   display: block;

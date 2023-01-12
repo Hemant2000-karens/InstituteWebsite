@@ -111,6 +111,8 @@
 
       <a target="_blank" href="https://www.iiitdmj.ac.in/placement.iiitdmj.ac.in/">Placement</a>
 
+      <a target="_blank" href="https://alumni.iiitdmj.ac.in">Alumini</a>
+
     <div class="dropdown2">
         <button class="dropbtn">MoU 
         </button>
