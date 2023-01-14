@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
+
+<?php 
+
+include 'connectionDB.php' ;
+	
+$data_result = $_GET['adm_no'];
+
+// //Using POST
+$data_result = $_POST['adm_no'];
+
+// //Using GET, POST or COOKIE.
+$data_result = $_REQUEST['adm_no'];
+	
+$master_query = "SELECT faculty.sl, PF_no, faculty.Adm_No, name, department,photo, position,departmentFull, Area_of_Research, bachelor, bachelor_year, master, master_year, doctral, doctral_year from faculty join facultyEducation where faculty.Adm_No = "."\"".$data_result."\""." and faculty.Adm_No = facultyEducation.adm_no;";
+
+$result = $link ->query($master_query);
+
+$rows = $result -> fetch_assoc();
+
+?>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title><?php; ?></title>
+	<title><?php echo $rows['name']; ?></title>
 	<link rel="stylesheet" type="text/css" href="facultyPage.css">
 </head>
 <body>
@@ -17,7 +37,7 @@
 
 		<div class="breadcrumbs">
 
-			<button class="active"><?php echo "Abhishek Verma" ?></button>
+			<button class="active"><?php echo $rows['name'] ?></button>
 
 			<button id="nav_button" class="faculty"  onclick="linkOpen('faculty')">Faculty</button>
 
@@ -38,7 +58,7 @@
 					<div class="faculty_profile_img">
 						
 
-						<img src="http://localhost/InstituteWebsite/Images/faculty/cse/CSE_177.jpg">
+						<img src="./Images/<?php ?>">
 
 
 					</div>
@@ -51,19 +71,19 @@
 					
 					<div class="faculty_profile_details">
 
-						<h1> Dr. Abhishek Verma</h1>
+						<h1> Dr. <?php echo $rows['name'];?></h1>
 						
 						<div class="department_position">
-							<h4>Computer Science and Engineer</h4> - <h5>Assistant Professor</h5>
+							<h4><?php echo $rows['departmentFull']; ?></h4> - <h5><?php echo $rows['position']; ?></h5>
 						</div>
 
 						<div class="faculty_profile_contacts">
 							
 							<ul>
-								<li><a href="#">+91-7004276170</a></li>k
-								<li><a href="">+91-7004276170</a></li>
-								<li><a href="">+91-7004276170</a></li>
-								<li><a href="">+91-7004276170</a></li>
+								<li><a href="#">(+91)761-2794348</a></li>
+								<li><a href="#">abhiverma@iiitdmj.ac.in</a></li>
+								<li><a href="#">abhiverma@iiitdmj.ac.in</a></li>
+								<li><a href="#">abhiverma@iiitdmj.ac.in</a></li>
 							</ul>
 
 						</div>
@@ -270,405 +290,190 @@
 
 		<div class="publication" id="Publications">
 			<h2 class="classHeading">Publications</h2>
+
 			<div class="publicationContents">
+
 				<div>
-				<a class="prev" onclick="plusSlides(-1)">❮</a>
+					<a class="prev" onclick="plusSlides(-1)">❮</a>
 				</div>
+
 				<div class="publicationBody">
 					
 					<div class="tab">
-						<button id="defaultOpen"class="tabButton" onclick="openTabs(event, 'book')">Books</button>
+						<button id="defaultOpen" class="tabButton" onclick="openTabs(event, 'book')">Books</button>
 						<button class="tabButton" onclick="openTabs(event, 'papers')">Papers</button>
 						<button class="tabButton" onclick="openTabs(event, 'talks')">Talks</button>
 					</div>
 
-					<div id="book" class="tabcontent">
-  						
-						<div class="contentGridPublication">
-  					
-  					<!-- Starting OF book Page-->
-						<div class="bookFlex">
+						<div id="book" class="tabcontent">
+	  						
+							<div class="contentGridPublication">
+	  					<!-- Starting OF book Page-->
+							<div class="bookFlex">
 
 
-							<div class="bookicon">
-								<i class="bi bi-book"></i>
-							</div>
-
-
-							<div class="bookContent">
-
-
-								<div class="bookName">
-									<span>
-										Network Expolitation
-									</span>
+								<div class="bookicon">
+									<i class="bi bi-book"></i>
 								</div>
+
+
+								<div class="bookContent">
+
+
+									<div class="bookName">
+										<span>
+											Network Expolitation
+										</span>
+									</div>
 
 									<div class="readMore">
 										<span>Read More</span>
 									</div>
+									
+								</div>
+
+
+							</div>
+
+							<!-- End of Book Page FLex -->
+
 								
-								</div>
-
-
-							</div>
-
-						<!-- End of Book Page FLex -->
-
-							<!-- Starting OF book Page-->
-						<div class="bookFlex">
-
-
-							<div class="bookicon">
-								<i class="bi bi-book"></i>
-							</div>
-
-
-							<div class="bookContent">
-
-
-								<div class="bookName">
-									<span>
-										Network Expolitation
-									</span>
-								</div>
-
-									<div class="readMore">
-										<span>Read More</span>
-									</div>
-								
-								</div>
-
-
-							</div>
-
-						<!-- End of Book Page FLex -->
-
-						<!-- Starting OF book Page-->
-						<div class="bookFlex">
-
-
-							<div class="bookicon">
-								<i class="bi bi-book"></i>
-							</div>
-
-
-							<div class="bookContent">
-
-
-								<div class="bookName">
-									<span>
-										Network Expolitation
-									</span>
-								</div>
-
-									<div class="readMore">
-										<span>Read More</span>
-									</div>
-								
-								</div>
-
-
-							</div>
-
-						<!-- End of Book Page FLex -->
-
-						<!-- Starting OF book Page-->
-						<div class="bookFlex">
-
-
-							<div class="bookicon">
-								<i class="bi bi-book"></i>
-							</div>
-
-
-							<div class="bookContent">
-
-
-								<div class="bookName">
-									<span>
-										Network Expolitation
-									</span>
-								</div>
-
-									<div class="readMore">
-										<span>Read More</span>
-									</div>
-								
-								</div>
-
-
-							</div>
-
-						<!-- End of Book Page FLex -->
-
-						<!-- Starting OF book Page-->
-						<div class="bookFlex">
-
-
-							<div class="bookicon">
-								<i class="bi bi-book"></i>
-							</div>
-
-
-							<div class="bookContent">
-
-
-								<div class="bookName">
-									<span>
-										Network Expolitation
-									</span>
-								</div>
-
-									<div class="readMore">
-										<span>Read More</span>
-									</div>
-								
-								</div>
-
-
-							</div>
-
-						<!-- End of Book Page FLex -->
-
-						<!-- Starting OF book Page-->
-						<div class="bookFlex">
-
-
-							<div class="bookicon">
-								<i class="bi bi-book"></i>
-							</div>
-
-
-							<div class="bookContent">
-
-
-								<div class="bookName">
-									<span>
-										Network Expolitation
-									</span>
-								</div>
-
-									<div class="readMore">
-										<span>Read More</span>
-									</div>
-								
-								</div>
-
-
-							</div>
-
-						<!-- End of Book Page FLex -->
-						
-
-						<!-- Starting OF book Page-->
-						<div class="bookFlex">
-
-
-							<div class="bookicon">
-								<i class="bi bi-book"></i>
-							</div>
-
-
-							<div class="bookContent">
-
-
-								<div class="bookName">
-									<span>
-										Network Expolitation
-									</span>
-								</div>
-
-									<div class="readMore">
-										<span>Read More</span>
-									</div>
-								
-								</div>
-
-
-							</div>
-
-						<!-- End of Book Page FLex -->
-
-
-
-						<!-- Starting OF book Page-->
-						<div class="bookFlex">
-
-
-							<div class="bookicon">
-								<i class="bi bi-book"></i>
-							</div>
-
-
-							<div class="bookContent">
-
-
-								<div class="bookName">
-									<span>
-										Network Expolitation
-									</span>
-								</div>
-
-									<div class="readMore">
-										<span>Read More</span>
-									</div>
-								
-								</div>
-
-
-							</div>
-
-						<!-- End of Book Page FLex -->
-						
-
-
-						<!-- Starting OF book Page-->
-						<div class="bookFlex">
-
-
-							<div class="bookicon">
-								<i class="bi bi-book"></i>
-							</div>
-
-
-							<div class="bookContent">
-
-
-								<div class="bookName">
-									<span>
-										Network Expolitation
-									</span>
-								</div>
-
-									<div class="readMore">
-										<span>Read More</span>
-									</div>
-								
-								</div>
-
-
-							</div>
-
-						<!-- End of Book Page FLex -->
-						
-
-
-
-
-
-
-
-
-
-
-						<!-- End of Book Page-->
-						
-
-
-
-
-
-						</div>
-						<!-- End of bookGrid -->
-					
-
-
-
-					</div>
-					<!-- End of tabContent-->
-
-
-					<div class="tabcontent" id="papers">
-						
-						<div class="contentGridPublication">
 							
 
-  					<!-- Starting OF book Page-->
-						<div class="bookFlex">
+							<!-- Starting OF book Page-->
+							
+							
 
 
-							<div class="bookicon">
-								<i class="bi bi-book"></i>
+
+
+
+							<!-- End of Book Page-->
+							
+
+
+
+
+
 							</div>
+							<!-- End of bookGrid -->
+						</div>
+						<!-- End of tabContent-->
 
 
-							<div class="bookContent">
+						<div id="papers" class="tabcontent">
+	  						
+							<div class="contentGridPublication">
+	  					<!-- Starting OF book Page-->
+							<div class="bookFlex">
 
 
-								<div class="bookName">
-									<span>
-										Network Expolitation
-									</span>
+								<div class="bookicon">
+									<i class="bi bi-book"></i>
 								</div>
+
+
+								<div class="bookContent">
+
+
+									<div class="bookName">
+										<span>
+											Network Expolitation
+										</span>
+									</div>
 
 									<div class="readMore">
 										<span>Read More</span>
 									</div>
+									
+								</div>
+
+
+							</div>
+
+							<!-- End of Book Page FLex -->
+
 								
-								</div>
+							
+
+							<!-- Starting OF book Page-->
+							
+							
+
+
+
+
+
+							<!-- End of Book Page-->
+							
+
+
+
 
 
 							</div>
-
-						<!-- End of Book Page FLex -->
-
-
-
-
-
-
-
-
+							<!-- End of bookGrid -->
 						</div>
-
-					</div>
-
-					<div class="tabcontent" id="talks">
-
-						<div class="contentGridPublication">
+						<!-- End of tabContent-->
 
 
-
-  					<!-- Starting OF book Page-->
-						<div class="bookFlex">
-
-
-							<div class="bookicon">
-								<i class="bi bi-book"></i>
-							</div>
+						<div id="talks" class="tabcontent">
+	  						
+							<div class="contentGridPublication">
+	  					<!-- Starting OF book Page-->
+							<div class="bookFlex">
 
 
-							<div class="bookContent">
-
-
-								<div class="bookName">
-									<span>
-										Network Expolitation
-									</span>
+								<div class="bookicon">
+									<i class="bi bi-book"></i>
 								</div>
+
+
+								<div class="bookContent">
+
+
+									<div class="bookName">
+										<span>
+											Network Expolitation
+										</span>
+									</div>
 
 									<div class="readMore">
 										<span>Read More</span>
 									</div>
-								
+									
 								</div>
 
 
 							</div>
 
-						<!-- End of Book Page FLex -->
+							<!-- End of Book Page FLex -->
+
+								
+							
+
+							<!-- Starting OF book Page-->
+							
+							
 
 
 
 
 
+							<!-- End of Book Page-->
+							
+
+
+
+
+
+							</div>
+							<!-- End of bookGrid -->
 						</div>
-
-					</div>
-
+						<!-- End of tabContent-->
 
 				</div>
+				
 				<div>
 					<a class="next" onclick="plusSlides(1)">❯</a>
 				</div>
@@ -726,6 +531,29 @@
 		<h3></h3>
 	</div>
 </div>
-</body>
 
+<?php mysql_close($link); ?>
+</body>
+<script type="text/javascript">
+	
+function openTabs(evt, pageName) 
+{
+  	var i, tabcontent, tablinks;
+  		tabcontent = document.getElementsByClassName("tabcontent");
+  	for (i = 0; i < tabcontent.length; i++) 
+  	{
+    	tabcontent[i].style.display = "none";
+  	}
+  		tablinks = document.getElementsByClassName("tabButton");
+  	for (i = 0; i < tablinks.length; i++) 
+  	{
+    	tablinks[i].className = tablinks[i].className.replace(" active", "");
+  	}
+
+  	document.getElementById(pageName).style.display = "block";
+  	evt.currentTarget.className += " active";
+}
+	document.getElementById('defaultOpen').click();
+
+</script>
 </html> 

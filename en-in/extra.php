@@ -126,15 +126,21 @@
             updateCount();
         });
 
- const buttonRight = document.getElementById('recruitersButton');
+        function rightScroll() {
+        	document.getElementById('recruitList').scrollLeft += 100;
+        }
+
+        function leftScroll() {
+        	document.getElementById('recruitList').scrollLeft -= 100;
+        }
+
+	const buttonRight = document.getElementById('recruitersButton');
     const buttonLeft = document.getElementById('recruitersButton01');
 
-    buttonRight.onclick = function () {
-      document.getElementById('recruitList').scrollLeft += 100;
-    };
-    buttonLeft.onclick = function () {
-      document.getElementById('recruitList').scrollLeft -= 100;
-    };
+    buttonRight.addEventListener("click", rightScroll);
+    buttonLeft.addEventListener("click", leftScroll);
 
+    setTimeout(rightScroll,1000);
+    
 
 </script>
