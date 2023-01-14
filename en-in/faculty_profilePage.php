@@ -58,7 +58,7 @@ $rows = $result -> fetch_assoc();
 					<div class="faculty_profile_img">
 						
 
-						<img src="./Images/<?php ?>">
+						<img src="./Images/<?php echo "";?>">
 
 
 					</div>
@@ -109,12 +109,12 @@ $rows = $result -> fetch_assoc();
 				<div class="yr">
 					<div class="sub_year">
 						<h3>
-							<?php echo "2020"; ?>
+							<?php echo $rows['doctral_year']; ?>
 						</h3>
 					</div>
 					<div class="sub_degree">
 						<span class="institution">
-							National Institute of Technology Kurukshetra, India
+							<?php echo $rows['doctral']; ?>
 						</span>
 						<span class="degree">
 							Ph.D
@@ -125,12 +125,12 @@ $rows = $result -> fetch_assoc();
 				<div class="yr">
 					<div class="sub_year">
 						<h3>
-							<?php echo "2014"; ?>
+							<?php echo $rows['master_year']; ?>
 						</h3>
 					</div>
 					<div class="sub_degree">
 						<span class="institution">
-							National Institute of Technology Kurukshetra, India
+							<?php echo $rows['master']; ?>
 						</span>
 						<span class="degree">
 							Master of Technology
@@ -141,12 +141,12 @@ $rows = $result -> fetch_assoc();
 				<div class="yr">
 					<div class="sub_year">
 						<h3>
-							<?php echo "2013"; ?>
+							<?php echo $rows['bachelor_year']; ?>
 						</h3>
 					</div>
 					<div class="sub_degree">
 						<span class="institution">
-							Uttar Pradesh Technical University Lucknow, India
+							<?php echo $rows['bachelor']; ?>
 						</span>
 						<span class="degree">
 							Bachelor of Technology
@@ -166,7 +166,7 @@ $rows = $result -> fetch_assoc();
 					<span>Area of Interest</span>
 				</div>
 				<div class="interestContent">
-					<span><?php echo "Internet of Things, Intrusion Detection, Network Security"; ?>
+					<span><?php echo $rows['Area_of_Research']; ?>
 					</span>
 				</div>
 			</div>
