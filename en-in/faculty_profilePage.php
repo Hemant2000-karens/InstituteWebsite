@@ -13,7 +13,7 @@ $data_result = $_POST['adm_no'];
 // //Using GET, POST or COOKIE.
 $data_result = $_REQUEST['adm_no'];
 	
-$master_query = "SELECT faculty.sl, PF_no, faculty.Adm_No, name, department,photo, position,departmentFull, Area_of_Research, bachelor, bachelor_year, master, master_year, doctral, doctral_year from faculty join facultyEducation where faculty.Adm_No = "."\"".$data_result."\""." and faculty.Adm_No = facultyEducation.adm_no;";
+$master_query = "SELECT faculty.sl, PF_no, faculty.Adm_No, name, department,photo, position, Area_of_Research, bachelor, bachelor_year, master, master_year, doctral, doctral_year, email, phone, LinkedIn, googleScholar, researchGate, gitHub, Scopus from faculty join facultyEducation join faculty_contact where faculty.Adm_No = "."\"".$data_result."\""." and faculty.Adm_No = facultyEducation.adm_no and faculty_contact.adm_no= faculty.Adm_No;";
 
 $result = $link ->query($master_query);
 
@@ -58,7 +58,7 @@ $rows = $result -> fetch_assoc();
 					<div class="faculty_profile_img">
 						
 
-						<img src="./Images/<?php echo "";?>">
+						<img src="../Images/faculty/<?php echo $rows['photo'];?>">
 
 
 					</div>
@@ -74,17 +74,14 @@ $rows = $result -> fetch_assoc();
 						<h1> Dr. <?php echo $rows['name'];?></h1>
 						
 						<div class="department_position">
-							<h4><?php echo $rows['departmentFull']; ?></h4> - <h5><?php echo $rows['position']; ?></h5>
+							<h3><?php echo $rows['departmentFull']; ?> - <?php echo $rows['position']; ?></h3>
 						</div>
 
 						<div class="faculty_profile_contacts">
 							
-							<ul>
-								<li><a href="#">(+91)761-2794348</a></li>
-								<li><a href="#">abhiverma@iiitdmj.ac.in</a></li>
-								<li><a href="#">abhiverma@iiitdmj.ac.in</a></li>
-								<li><a href="#">abhiverma@iiitdmj.ac.in</a></li>
-							</ul>
+							<span class="contact"><i class="bi bi-telephone-fill"></i> <a href='tel:<?php echo $rows['phone']?>'><?php echo $rows['phone']; ?></a></span>
+
+							<span class="contact"><i class="bi bi-envelope-fill"></i> <a href='mailto:<?php echo $rows['email'];?>'> Email <?php //echo $rows['email']; ?></a></span>
 
 						</div>
 

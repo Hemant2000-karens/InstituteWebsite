@@ -92,8 +92,8 @@ html,body
 }
 .faculty_profile_img img
 {
-	width: auto;
- 	height: 398px;
+	width: 280px;
+  height: auto;
 }
 
 .faculty_cv
@@ -111,11 +111,11 @@ html,body
 .faculty_profile_details
 {
 	display: grid;
-  justify-items: start;
+  justify-items: center;
   align-items: center;
   justify-content: space-around;
 }
-}
+
 .faculty_profile_details h1,
 .department_position h4, .department_position h5
 {
@@ -136,9 +136,34 @@ html,body
 
 .faculty_profile_contacts
 {
-
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+
+.contact
+{
+	display: flex;
+	gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.contact a
+{
+	text-decoration: none;
+	color: #f0f0f0;
+}
+.bi-telephone-fill,
+.bi-envelope-fill
+{
+	font-size: 25px;
+}
 
 
 
@@ -199,7 +224,7 @@ html,body
 
 .interestArea
 {
-	padding: 0 12%;
+	padding: 0 3%;
 }
 .interestBody
 {
@@ -406,7 +431,7 @@ html,body
 .prev, .next {
 	background: #05086b;
   width: auto;
-  padding: 16px;
+  padding: 12px;
   color: white;
   font-weight: bold;
   font-size: 18px;
