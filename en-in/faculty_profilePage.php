@@ -13,7 +13,8 @@ $data_result = $_POST['adm_no'];
 // //Using GET, POST or COOKIE.
 $data_result = $_REQUEST['adm_no'];
 	
-$master_query = "SELECT faculty.sl, PF_no, faculty.Adm_No, name, department,photo, position, Area_of_Research, bachelor, bachelor_year, master, master_year, doctral, doctral_year, email, phone, LinkedIn, googleScholar, researchGate, gitHub, Scopus from faculty join facultyEducation join faculty_contact where faculty.Adm_No = "."\"".$data_result."\""." and faculty.Adm_No = facultyEducation.adm_no and faculty_contact.adm_no= faculty.Adm_No;";
+$master_query 
+= 	"SELECT faculty.sl, PF_no, faculty.Adm_No, name, department,photo, position, Area_of_Research, bachelor, bachelor_year, master, master_year, doctral, doctral_year, email, phone, LinkedIn, googleScholar, researchGate, gitHub, Scopus from faculty join facultyEducation join faculty_contact where faculty.Adm_No = "."\"".$data_result."\""." and faculty.Adm_No = facultyEducation.adm_no and faculty_contact.adm_no= faculty.Adm_No;";
 
 $result = $link ->query($master_query);
 
@@ -529,10 +530,28 @@ $rows = $result -> fetch_assoc();
 	</div>
 </div>
 
-<?php mysql_close($link); ?>
+<?php mysqli_close($link); ?>
 </body>
 <script type="text/javascript">
 	
+
+	var btn001 = document.getElementById("nav_button");
+	btn001.addEventListener(click,"linkOpen");
+
+
+function linkOpen(link)
+{
+	switch(str)
+	{
+		case 'faculty':
+			window.open('./faculty.php','_self');
+			break;
+		case 'home':
+			window.open('./index.php','_self');
+			break;
+	}
+}
+
 function openTabs(evt, pageName) 
 {
   	var i, tabcontent, tablinks;
