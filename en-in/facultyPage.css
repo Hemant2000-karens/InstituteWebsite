@@ -680,11 +680,11 @@ and (max-width: 369px)
 {
 	.tab button
 	{
-		padding: 12px 14px;
+		padding: 8px;
 	}
 	.tab button.active
 	{
-		padding: 11.4px 14px;
+		padding: 7.5px 8px;
 	}
 }
 

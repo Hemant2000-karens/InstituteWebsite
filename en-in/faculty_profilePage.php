@@ -80,11 +80,19 @@ $rows = $result -> fetch_assoc();
 
 						<div class="faculty_profile_contacts">
 							
-							<span class="contact"><i class="bi bi-telephone-fill"></i> <a href='tel:<?php echo $rows['phone']?>'><?php echo $rows['phone']; ?></a></span>
+							<span class="contact"><i class="bi bi-telephone-fill"></i><?php echo $rows['phone']; ?></span>
 
 							<span class="contact"><i class="bi bi-envelope-fill"></i> <a href='mailto:<?php echo $rows['email'];?>'> Email <?php //echo $rows['email']; ?></a></span>
 
 						</div>
+
+						<div class="faculty_profile_contacts">
+								<span class="contact"><i class="bi bi-github"></i><?php echo $rows['github']; ?></span>
+
+								<span class="contact"><i class="bi bi-envelope-fill"></i> <a href='mailto:<?php echo $rows['email'];?>'> Email <?php //echo $rows['email']; ?></a></span>
+
+
+							</div>
 
 					</div>
 
@@ -533,43 +541,42 @@ $rows = $result -> fetch_assoc();
 <?php mysqli_close($link); ?>
 </body>
 <script type="text/javascript">
-	
+		
+	var navigation = document.getElementsById("nav_button");
+	navigation.addEventListener('click', linkOpen);
 
-	var btn001 = document.getElementById("nav_button");
-	btn001.addEventListener(click,"linkOpen");
-
-
-function linkOpen(link)
-{
-	switch(str)
+	function linkOpen(link)
 	{
-		case 'faculty':
-			window.open('./faculty.php','_self');
-			break;
-		case 'home':
-			window.open('./index.php','_self');
-			break;
+		switch(str)
+		{
+			case 'faculty':
+				window.open('./faculty.php','_self');
+				break;
+			case 'home':
+				window.open('./index.php','_self');
+				break;
+		}
 	}
-}
-
-function openTabs(evt, pageName) 
-{
-  	var i, tabcontent, tablinks;
-  		tabcontent = document.getElementsByClassName("tabcontent");
-  	for (i = 0; i < tabcontent.length; i++) 
-  	{
-    	tabcontent[i].style.display = "none";
-  	}
-  		tablinks = document.getElementsByClassName("tabButton");
-  	for (i = 0; i < tablinks.length; i++) 
-  	{
-    	tablinks[i].className = tablinks[i].className.replace(" active", "");
-  	}
-
-  	document.getElementById(pageName).style.display = "block";
-  	evt.currentTarget.className += " active";
-}
+	
+	function openTabs(evt, pageName) 
+	{
+	  	var i, tabcontent, tablinks;
+	  		tabcontent = document.getElementsByClassName("tabcontent");
+	  	for (i = 0; i < tabcontent.length; i++) 
+	  	{
+	    	tabcontent[i].style.display = "none";
+	  	}
+	  		tablinks = document.getElementsByClassName("tabButton");
+	  	for (i = 0; i < tablinks.length; i++) 
+	  	{
+	    	tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  	}
+	
+	  	document.getElementById(pageName).style.display = "block";
+	  	evt.currentTarget.className += " active";
+	}
+</script>
+<script type="text/javascript">
 	document.getElementById('defaultOpen').click();
-
 </script>
 </html> 
