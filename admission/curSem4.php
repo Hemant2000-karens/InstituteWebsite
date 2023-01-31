@@ -14,7 +14,7 @@
 	<tbody>
 
 		<?php 
-		$query = "Select * from curriculum where semester = 1";
+		$query = "Select * from curriculum where semester = 4";
 
 		$result = $link->query($query);
 		if($result -> num_rows > 0)
