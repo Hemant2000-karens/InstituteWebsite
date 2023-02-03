@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html>
 
-<?php 
-
-include 'connectionDB.php' ;
-	
+<?php
+include 'connectionDB.php';
 $data_result = $_GET['adm_no'];
-
 // //Using POST
 $data_result = $_POST['adm_no'];
-
 // //Using GET, POST or COOKIE.
 $data_result = $_REQUEST['adm_no'];
-	
-$master_query 
-= 	"SELECT faculty.sl, PF_no, faculty.Adm_No, name, department,photo, position, Area_of_Research, bachelor, bachelor_year, master, master_year, doctral, doctral_year, email, phone, LinkedIn, googleScholar, researchGate, gitHub, Scopus from faculty join facultyEducation join faculty_contact where faculty.Adm_No = "."\"".$data_result."\""." and faculty.Adm_No = facultyEducation.adm_no and faculty_contact.adm_no= faculty.Adm_No;";
-
-$result = $link ->query($master_query);
-
-$rows = $result -> fetch_assoc();
-
+$master_query = "SELECT faculty.sl, PF_no, faculty.Adm_No, name, departmentFull, photo, position, Area_of_Research, bachelor, bachelor_year, master, master_year, doctral, doctral_year, email, phone, LinkedIn, googleScholar from faculty join facultyEducation join faculty_contact where faculty.Adm_No = " . "\"" . $data_result . "\"" . " and faculty.Adm_No = facultyEducation.adm_no and faculty_contact.adm_no= faculty.Adm_No;";
+$result = $link->query($master_query);
+$rows = $result->fetch_assoc();
 ?>
 <head>
 	<meta charset="utf-8">
@@ -38,7 +29,7 @@ $rows = $result -> fetch_assoc();
 
 		<div class="breadcrumbs">
 
-			<button class="active"><?php echo $rows['name'] ?></button>
+			<button class="active"><?php echo $rows['name']; ?></button>
 
 			<button id="nav_button" class="faculty"  onclick="linkOpen('faculty')">Faculty</button>
 
@@ -59,7 +50,7 @@ $rows = $result -> fetch_assoc();
 					<div class="faculty_profile_img">
 						
 
-						<img src="../Images/faculty/<?php echo $rows['photo'];?>">
+						<img src="../Images/faculty/<?php echo $rows['photo']; ?>">
 
 
 					</div>
@@ -72,7 +63,7 @@ $rows = $result -> fetch_assoc();
 					
 					<div class="faculty_profile_details">
 
-						<h1> Dr. <?php echo $rows['name'];?></h1>
+						<h1> Dr. <?php echo $rows['name']; ?></h1>
 						
 						<div class="department_position">
 							<h3><?php echo $rows['departmentFull']; ?> - <?php echo $rows['position']; ?></h3>
@@ -82,19 +73,18 @@ $rows = $result -> fetch_assoc();
 							
 							<span class="contact"><i class="bi bi-telephone-fill"></i><?php echo $rows['phone']; ?></span>
 
-							<span class="contact"><i class="bi bi-envelope-fill"></i> <a href='mailto:<?php echo $rows['email'];?>'> Email <?php //echo $rows['email']; ?></a></span>
+							<span class="contact"><i class="bi bi-envelope-fill"></i> <a href='mailto:<?php echo $rows['email']; ?>'>Email</a></span>
 
 						</div>
 
 						<div class="faculty_profile_contacts">
-								<span class="contact"><i class="bi bi-github"></i><?php echo $rows['github']; ?></span>
+							
+							<span class="contact"><i class="bi bi-linkedin"></i><a href="<?php echo $rows['LinkedIn']; ?>">LinkedIn</a></span>
 
-								<span class="contact"><i class="bi bi-envelope-fill"></i> <a href='mailto:<?php echo $rows['email'];?>'> Email <?php //echo $rows['email']; ?></a></span>
+							<span class="contact"><i class="bi bi-google-fill"></i> <a href='mailto:<?php echo $rows['email']; ?>'>Email</a></span>
 
+						</div>
 
-							</div>
-
-					</div>
 
 					<div class="faculty_profile_highlights">
 
@@ -300,66 +290,53 @@ $rows = $result -> fetch_assoc();
 			<div class="publicationContents">
 
 				<div>
-					<a class="prev" onclick="plusSlides(-1)">❮</a>
+					<a class="prev" href="#myCarousel" onclick="plusSlides(-1)">❮</a>
 				</div>
 
 				<div class="publicationBody">
 					
 					<div class="tab">
+
 						<button id="defaultOpen" class="tabButton" onclick="openTabs(event, 'book')">Books</button>
 						<button class="tabButton" onclick="openTabs(event, 'papers')">Papers</button>
 						<button class="tabButton" onclick="openTabs(event, 'talks')">Talks</button>
+
+
 					</div>
+
+
 
 						<div id="book" class="tabcontent">
 	  						
 							<div class="contentGridPublication">
-	  					<!-- Starting OF book Page-->
-							<div class="bookFlex">
 
 
-								<div class="bookicon">
-									<i class="bi bi-book"></i>
-								</div>
+								<!-- Starting OF book Page-->
 
-
-								<div class="bookContent">
-
-
-									<div class="bookName">
-										<span>
-											Network Expolitation
-										</span>
-									</div>
-
-									<div class="readMore">
-										<span>Read More</span>
-									</div>
-									
-								</div>
-
-
-							</div>
-
-							<!-- End of Book Page FLex -->
-
+								<?php
 								
-							
+								$journalsfetch = "SELECT * FROM `faculty_journals` WHERE name like '%". $rows['name'] ."%'"."and Status like 'Published';"; 
+								$fetchJournals = $link->query($journalsfetch);
+								if ($fetchJournals->num_rows > 0) {
+								    while ($journRows = $fetchJournals->fetch_assoc()) {
+								        echo (
+								        
+								        "<div class='bookFlex bookShow'>
+								  			<div class='bookicon'>
+								    			<i class='bi bi-book'></i>
+								  			</div>
+								  		<div class='bookContent'>
+								    		<div class='bookName'>
+								      			<span>".$journRows['citation_chicago'] ."</span>
+								    		</div>
+								  		</div>
+										</div>");
+								    }
+								}
 
-							<!-- Starting OF book Page-->
-							
-							
-
-
-
-
-
-							<!-- End of Book Page-->
-							
-
-
-
-
+								?>
+	  			
+								<!-- End of Book Page FLex -->
 
 							</div>
 							<!-- End of bookGrid -->
@@ -371,46 +348,31 @@ $rows = $result -> fetch_assoc();
 	  						
 							<div class="contentGridPublication">
 	  					<!-- Starting OF book Page-->
-							<div class="bookFlex">
+							<?php
+								
+								$journalsfetch = "SELECT * FROM `faculty_journals` WHERE name like '%". $rows['name'] ."%'"."and Status like 'Published';"; 
+								$fetchJournals = $link->query($journalsfetch);
+								if ($fetchJournals->num_rows > 0) {
+								    while ($journRows = $fetchJournals->fetch_assoc()) {
+								        echo (
+								        
+								        "<div class='bookFlex'>
+								  			<div class='bookicon'>
+								    			<i class='bi bi-book'></i>
+								  			</div>
+								  		<div class='bookContent'>
+								    		<div class='bookName'>
+								      			<span>".$journRows['citation_chicago'] ."</span>
+								    		</div>
+								  		</div>
+										</div>");
+								    }
+								}
 
-
-								<div class="bookicon">
-									<i class="bi bi-book"></i>
-								</div>
-
-
-								<div class="bookContent">
-
-
-									<div class="bookName">
-										<span>
-											Network Expolitation
-										</span>
-									</div>
-
-									<div class="readMore">
-										<span>Read More</span>
-									</div>
-									
-								</div>
-
-
-							</div>
-
+								?>
 							<!-- End of Book Page FLex -->
 
 								
-							
-
-							<!-- Starting OF book Page-->
-							
-							
-
-
-
-
-
-							<!-- End of Book Page-->
 							
 
 
@@ -481,7 +443,7 @@ $rows = $result -> fetch_assoc();
 				</div>
 				
 				<div>
-					<a class="next" onclick="plusSlides(1)">❯</a>
+					<a class="next" href="#myCarousel" onclick="plusSlides(1)">❯</a>
 				</div>
 
 			</div>
@@ -542,6 +504,8 @@ $rows = $result -> fetch_assoc();
 </body>
 <script type="text/javascript">
 		
+	// let slideIndex = 1;
+
 	var navigation = document.getElementsById("nav_button");
 	navigation.addEventListener('click', linkOpen);
 
@@ -560,6 +524,7 @@ $rows = $result -> fetch_assoc();
 	
 	function openTabs(evt, pageName) 
 	{
+		
 	  	var i, tabcontent, tablinks;
 	  		tabcontent = document.getElementsByClassName("tabcontent");
 	  	for (i = 0; i < tabcontent.length; i++) 
@@ -571,10 +536,14 @@ $rows = $result -> fetch_assoc();
 	  	{
 	    	tablinks[i].className = tablinks[i].className.replace(" active", "");
 	  	}
-	
 	  	document.getElementById(pageName).style.display = "block";
 	  	evt.currentTarget.className += " active";
+
+	  	//resetToOne();
 	}
+
+
+
 </script>
 <script type="text/javascript">
 	document.getElementById('defaultOpen').click();

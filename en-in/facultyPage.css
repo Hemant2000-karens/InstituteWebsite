@@ -152,6 +152,7 @@ html,body
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  padding: 15px 2px;
 }
 
 .contact a
@@ -160,12 +161,21 @@ html,body
 	color: #f0f0f0;
 }
 .bi-telephone-fill,
-.bi-envelope-fill
+.bi-envelope-fill,
+.bi-linkedin
 {
 	font-size: 25px;
 }
 
+.bi-book
+{
+	font-size: 18px;
+}
 
+.bi-google-fill:before
+{
+	content: \f464;
+}
 
 
 
@@ -435,6 +445,7 @@ html,body
   color: white;
   font-weight: bold;
   font-size: 18px;
+  text-decoration: none;
   transition: 0.6s ease;
   user-select: none;
   text-shadow: 0 0 10px #000000;
@@ -503,22 +514,24 @@ html,body
 	padding: 13.1px 23px;
 }
 .contentGridPublication {
-	grid-template-columns: 
-	repeat(auto-fit,minmax(315px,1fr));
+	overflow: hidden;
 	margin: 0 5%;
-  display: grid;
-  justify-items: center;
   padding: 6px 12px;
+  justify-items: center;
   border-top: 0.25px solid #c4c4c4;
   border-bottom: 0.25px solid #c4c4c4;
 }
 .bookFlex
 {
-	display: flex;
-  align-items: center;
+	align-items: center;
+	display: none;
 	gap: 20px;
-	padding: 2.5%;
-	height: 150px;
+	height: auto;
+	padding: 2.8% 0;
+}
+.bookShow
+{
+	display: flex;
 }
 .bookContent
 {
@@ -533,7 +546,7 @@ html,body
 }
 .bookName
 {
-	margin-bottom: 8%;
+/*	margin-bottom: 8%;*/
 }
 .bookName span
 {
@@ -719,13 +732,20 @@ and (max-width: 400px)
 {
 	.contentGridPublication
 	{
-		padding: 6px 0;
-		grid-template-columns: 
-		repeat(auto-fit,minmax(239px,1fr));
+		margin: 0 0 27px 0;
 	}
 
 }
 
+@media only screen
+and (max-width: 560px)
+{
+	.faculty_profile
+	{
+		padding: 0;
+	}
+
+}
 
 @media only screen
 and (max-width: 750px)
