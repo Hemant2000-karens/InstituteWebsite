@@ -9,7 +9,7 @@ html,body
 }
 *
 {
-	cursor: url("./Images/cursor2.svg"),auto;
+	cursor: url("../Images/cursor2.svg"),auto;
 }
 .br 
 {
@@ -521,7 +521,9 @@ html,body
   border-top: 0.25px solid #c4c4c4;
   border-bottom: 0.25px solid #c4c4c4;
 }
-.bookFlex
+.bookFlex,
+.paperFlex,
+.talksFlex
 {
 	align-items: center;
 	display: none;
@@ -529,7 +531,9 @@ html,body
 	height: auto;
 	padding: 2.8% 0;
 }
-.bookShow
+.bookShow,
+.paperShow,
+.talkShow
 {
 	display: flex;
 }

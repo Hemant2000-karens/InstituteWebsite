@@ -31,9 +31,9 @@ $rows = $result->fetch_assoc();
 
 			<button class="active"><?php echo $rows['name']; ?></button>
 
-			<button id="nav_button" class="faculty"  onclick="linkOpen('faculty')">Faculty</button>
+			<button id="navbutton" class="faculty"  onclick="linkOpen('faculty')">Faculty</button>
 
-			<button id="nav_button" onclick="linkOpen('home')">
+			<button id="navbutton" onclick="linkOpen('home')">
 				<i class="bi bi-house-fill"></i>
 			</button>
 		</div>
@@ -290,7 +290,7 @@ $rows = $result->fetch_assoc();
 			<div class="publicationContents">
 
 				<div>
-					<a class="prev" href="#myCarousel" onclick="plusSlides(-1)">❮</a>
+					<a class="prev" onclick="plusSlides(-1)">❮</a>
 				</div>
 
 				<div class="publicationBody">
@@ -328,9 +328,7 @@ $rows = $result->fetch_assoc();
 								  		<div class='bookContent'>
 								    		<div class='bookName'>
 								      			<span>".$journRows['citation_chicago'] ."</span>
-								    		</div>
-								  		</div>
-										</div>");
+								    		</div></div></div>");
 								    }
 								}
 
@@ -356,15 +354,16 @@ $rows = $result->fetch_assoc();
 								    while ($journRows = $fetchJournals->fetch_assoc()) {
 								        echo (
 								        
-								        "<div class='bookFlex'>
+								        "<div class='paperFlex paperShow'>
 								  			<div class='bookicon'>
 								    			<i class='bi bi-book'></i>
 								  			</div>
-								  		<div class='bookContent'>
-								    		<div class='bookName'>
-								      			<span>".$journRows['citation_chicago'] ."</span>
-								    		</div>
-								  		</div>
+								  			
+								  			<div class='bookContent'>
+								    			<div class='bookName'>
+								      				<span>".$journRows['citation_chicago'] ."</span>
+								    			</div>
+								  			</div>
 										</div>");
 								    }
 								}
@@ -389,51 +388,29 @@ $rows = $result->fetch_assoc();
 	  						
 							<div class="contentGridPublication">
 	  					<!-- Starting OF book Page-->
-							<div class="bookFlex">
-
-
-								<div class="bookicon">
-									<i class="bi bi-book"></i>
-								</div>
-
-
-								<div class="bookContent">
-
-
-									<div class="bookName">
-										<span>
-											Network Expolitation
-										</span>
-									</div>
-
-									<div class="readMore">
-										<span>Read More</span>
-									</div>
-									
-								</div>
-
-
-							</div>
-
-							<!-- End of Book Page FLex -->
-
+							<?php
 								
-							
+								$journalsfetch = "SELECT * FROM `faculty_journals` WHERE name like '%". $rows['name'] ."%'"."and Status like 'Published';"; 
+								$fetchJournals = $link->query($journalsfetch);
+								if ($fetchJournals->num_rows > 0) {
+								    while ($journRows = $fetchJournals->fetch_assoc()) {
+								        echo (
+								        
+								        "<div class='talksFlex talkShow'>
+								  			<div class='bookicon'>
+								    			<i class='bi bi-book'></i>
+								  			</div>
+								  			
+								  			<div class='bookContent'>
+								    			<div class='bookName'>
+								      				<span>".$journRows['citation_chicago'] ."</span>
+								    			</div>
+								  			</div>
+										</div>");
+								    }
+								}
 
-							<!-- Starting OF book Page-->
-							
-							
-
-
-
-
-
-							<!-- End of Book Page-->
-							
-
-
-
-
+								?>
 
 							</div>
 							<!-- End of bookGrid -->
@@ -443,7 +420,7 @@ $rows = $result->fetch_assoc();
 				</div>
 				
 				<div>
-					<a class="next" href="#myCarousel" onclick="plusSlides(1)">❯</a>
+					<a class="next" onclick="plusSlides(1)">❯</a>
 				</div>
 
 			</div>
@@ -506,7 +483,7 @@ $rows = $result->fetch_assoc();
 		
 	// let slideIndex = 1;
 
-	var navigation = document.getElementsById("nav_button");
+	var navigation = document.getElementById("navbutton");
 	navigation.addEventListener('click', linkOpen);
 
 	function linkOpen(link)
@@ -545,7 +522,62 @@ $rows = $result->fetch_assoc();
 
 
 </script>
+<script>
+
+let slideIndex = 1;
+
+let slides = document.getElementsByClassName("bookFlex");
+let slides0 = document.getElementsByClassName("paperFlex");
+let slides1 = document.getElementsByClassName("talksFlex");
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  if (n > slides.length){slideIndex = 1}    
+  if (n > slides0.length) {slideIndex = 1} 
+  if (n > slides1.length) {slideIndex = 1} 
+
+  if (n < 1) {slideIndex = slides.length}   
+  if (n < 1) {slideIndex = slides0.length}
+  if (n < 1) {slideIndex = slides1.length}
+
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("bookShow");
+    //slides[1+i].classList.remove("bookShow");
+  }
+
+    for (i = 0; i < slides0.length; i++) {
+    slides0[i].classList.remove("paperShow");
+  }
+
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].classList.remove("talkShow");
+    //slides[i+1].classList.remove("bookShow");  
+  }
+
+  slides[slideIndex-1].classList.add("bookShow");
+  slides[slideIndex].classList.add("bookShow");
+
+  slides0[slideIndex-1].classList.add("paperShow");
+  slides0[slideIndex].classList.add("paperShow");
+
+  slides1[slideIndex-1].classList.add("talkShow");
+  slides1[slideIndex].classList.add("talkShow");
+}
+
+// console.log(slides.length);
+</script>
+
 <script type="text/javascript">
 	document.getElementById('defaultOpen').click();
+	showSlides(slideIndex);
 </script>
 </html> 
