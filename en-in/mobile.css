@@ -709,14 +709,14 @@ and (max-width: 1000px)
     border-top-right-radius: 5px;
   }
 
-  .calTable1 table th:last-child
+  .calTable1 table th:last-child,
   .calTable table th:last-child
   {
     border-top-right-radius: 0px;
   }
 
   
-  .calTable1 table caption  
+  .calTable1 table caption,  
   .calTable table caption
   {
     display: list-item;

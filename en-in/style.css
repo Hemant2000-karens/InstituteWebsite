@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&&family=Ubuntu&family=Rubik:wght@300&family=Varela+Round&family=Bitter&=Open+Sans:wght@400;600&&display=swap');
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 :root
 {
+  --html-bg:#fdfdfd;
   --fill: -webkit-fill-available;
   --mozFill: -moz-available;
   --DirectorPadding: 12px 10%;
@@ -13,22 +14,23 @@
   --notoSans: 'Noto Sans',sans-serif;
   --ubuntu: 'ubuntu',sans-serif;
   --whiteBackground: #ffffff;
+  --selection-bg: #2e3547;
+  --selection-color: #ccd7e1;
 }
 
 ::-moz-selection
 {
-  background: #2e3547;
-  color: #ccd7e1;
+  background: var(--selection-bg);
+  color: var(--selection-color);
 }
-
-::selection {
-  background: #2e3547;
-  color: #ccd7e1;
+::selection
+{
+  background: var(--selection-bg);
+  color: var(--selection-color);
 }
-
 html
 {
-  background: #fdfdfd;
+  background: var(--html-bg) ;
   font-family: var(--varela);
   margin: 0;
   padding: 0;
@@ -91,7 +93,7 @@ body{
 }
 
 .container{
-  /*margin: 8px 13px !important;*/
+   /*margin: 8px 13px !important;*/
 }
 
 .topheader{
