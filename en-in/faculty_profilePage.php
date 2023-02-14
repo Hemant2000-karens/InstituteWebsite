@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<html>
-
 <?php
 include 'connectionDB.php';
 $data_result = $_GET['adm_no'];
@@ -71,9 +69,10 @@ $rows = $result->fetch_assoc();
 
 						<div class="faculty_profile_contacts">
 							
-							<span class="contact"><i class="bi bi-telephone-fill"></i><?php echo $rows['phone']; ?></span>
+							<span class="contact"><i class="bi bi-telephone-fill"></i><a href='tel:<?php echo $rows['phone']; ?>'>Phone</a></span>
 
-							<span class="contact"><i class="bi bi-envelope-fill"></i> <a href='mailto:<?php echo $rows['email']; ?>'>Email</a></span>
+							<span class="contact">
+								<i class="bi bi-envelope-at-fill"></i> <a href='mailto:<?php echo $rows['email']; ?>'>Email</a></span>
 
 						</div>
 
@@ -81,7 +80,7 @@ $rows = $result->fetch_assoc();
 							
 							<span class="contact"><i class="bi bi-linkedin"></i><a href="<?php echo $rows['LinkedIn']; ?>">LinkedIn</a></span>
 
-							<span class="contact"><i class="bi bi-google-fill"></i> <a href='mailto:<?php echo $rows['email']; ?>'>Email</a></span>
+							<span class="contact"><span class="bi bi-google"></span><a href='<?php echo $rows['googleScholar']; ?>'>Google Scholar</a></span>
 
 						</div>
 
@@ -297,7 +296,7 @@ $rows = $result->fetch_assoc();
 					
 					<div class="tab">
 
-						<button id="defaultOpen" class="tabButton" onclick="openTabs(event, 'book')">Books</button>
+						<button id="defaultOpen" class="tabButton" onclick="openTabs(event, 'book')">Journals</button>
 						<button class="tabButton" onclick="openTabs(event, 'papers')">Papers</button>
 						<button class="tabButton" onclick="openTabs(event, 'talks')">Talks</button>
 
@@ -371,13 +370,6 @@ $rows = $result->fetch_assoc();
 								?>
 							<!-- End of Book Page FLex -->
 
-								
-							
-
-
-
-
-
 							</div>
 							<!-- End of bookGrid -->
 						</div>
@@ -434,8 +426,8 @@ $rows = $result->fetch_assoc();
 		<div class="research">
 			<h2 class="classHeading">Research</h2>
 			<div class="researchContent">
-			
-				<div class="rSdate">
+
+				<!-- <div class="rSdate">
 					<span class="date">
 						2018-2020
 					</span>
@@ -464,12 +456,86 @@ $rows = $result->fetch_assoc();
 				<div class="navigation">
 						<button class="btn1"><</button>
 						<button class="btn2">></button>
-				</div>
+				</div> -->
 
 			</div>
 		</div>
+
+			<div class="publication" id="Publications">
+				<h2 class="classHeading">Students</h2>
+
+				<div class="tab">
+					<button id="defaultOpen1" class="tabButton1" onclick="openTabs2(event, 'PHD')">Ph.D</button>
+					<button class="tabButton1" onclick="openTabs2(event, 'masters')">M.Tech</button>
+				</div>
+
+
+				<div id="PHD" class="tabcontent1">
+
+					<table>
+						
+						<caption>Ph.D Scholar</caption>
+
+						<tr>
+							<th>Photo</th>
+    						<th>Name</th>
+    						<th>Roll No.</th>
+    						<th>Specialisation</th>
+    						<th>Co-guide</th>
+    						<th>Year</th>
+    						<th>Status</th>
+						</tr>
+
+
+					</table>
+
+
+
+				</div>
+
+
+				<div id="masters" class="tabcontent1">
+
+
+					<table>
+						
+						<caption>Masters Students</caption>
+
+						<tr>
+							<th>Photo</th>
+    						<th>Name</th>
+    						<th>Roll No.</th>
+    						<th>Specialisation</th>
+    						<th>Co-guide</th>
+    						<th>Year</th>
+    						<th>Status</th>
+						</tr>
+
+
+						<?php 
+							$sql = "SELECT event,dateFromUG,dateFromPG,dateFromNewUG,dateToUG,dateToPG,dateToNewUG from academicCalendar where semester = 1"; 
+							$result = $link->query($sql);
+							?>
+
+
+					</table>
+
+
+				</div>
+				
+
+
+			</div>
+
+
+
 		<!-- Start of Research -->
-	</div><!-- Container end tag -->
+	</div>
+	<!-- Container end tag -->
+
+	<!-- Footer Tags -->
+
+
 <div class="footer">
 	<div class="footer_main">
 		<img src=""/>
@@ -477,6 +543,8 @@ $rows = $result->fetch_assoc();
 	</div>
 </div>
 
+
+<!-- Footer Tags -->
 <?php mysqli_close($link); ?>
 </body>
 <script type="text/javascript">
@@ -501,18 +569,24 @@ $rows = $result->fetch_assoc();
 	
 	function openTabs(evt, pageName) 
 	{
+		var i, tabcontent, tablinks;
+
+
+		tabcontent = document.getElementsByClassName("tabcontent");
 		
-	  	var i, tabcontent, tablinks;
-	  		tabcontent = document.getElementsByClassName("tabcontent");
 	  	for (i = 0; i < tabcontent.length; i++) 
 	  	{
 	    	tabcontent[i].style.display = "none";
 	  	}
-	  		tablinks = document.getElementsByClassName("tabButton");
+
+	  	tablinks = document.getElementsByClassName("tabButton");
+
 	  	for (i = 0; i < tablinks.length; i++) 
 	  	{
 	    	tablinks[i].className = tablinks[i].className.replace(" active", "");
 	  	}
+
+
 	  	document.getElementById(pageName).style.display = "block";
 	  	evt.currentTarget.className += " active";
 
@@ -520,12 +594,31 @@ $rows = $result->fetch_assoc();
 	}
 
 
+	function openTabs2(evt, pageName) {
 
+		var i, studentTab, studentLinks;
+
+		studentTab = document.getElementsByClassName("tabcontent1");
+
+	  	for (i = 0; i < studentTab.length; i++) 
+	  	{
+	    	studentTab[i].style.display = "none";
+	  	}
+	  	
+	  	studentLinks = document.getElementsByClassName("tabButton1");
+
+	  	for (i = 0; i < studentLinks.length; i++) 
+	  	{
+	    	studentLinks[i].className = studentLinks[i].className.replace(" active", "");
+	  	}
+
+	  	document.getElementById(pageName).style.display = "block";
+	  	evt.currentTarget.className += " active";
+	}
 </script>
 <script>
 
 let slideIndex = 1;
-
 let slides = document.getElementsByClassName("bookFlex");
 let slides0 = document.getElementsByClassName("paperFlex");
 let slides1 = document.getElementsByClassName("talksFlex");
@@ -578,6 +671,7 @@ function showSlides(n) {
 
 <script type="text/javascript">
 	document.getElementById('defaultOpen').click();
+	document.getElementById('defaultOpen1').click();
 	showSlides(slideIndex);
 </script>
 </html> 
