@@ -56,39 +56,65 @@
 
 			<div class="campusTour">
 			<div class="campusTour_sub">
-				<h2>Campus Tour</h2>
+				<h2>Cultural Fest Tour</h2>
 			</div>
 			<div class="campusDetail">
 
-				<!-- <div class="campus-pill hostels" onclick="openCampusTour('hostel')">
+				<?php 
 
-					<div class="index-title">
-						<h4>Hostels</h4> <i class="bi bi-arrow-up-right-circle"></i>
-					</div>
+					$campusQuery = "SELECT * FROM campusTour";
+
+					$result = $link->query($campusQuery);
+				?>
+
+				<div class="campusSlider" id="campusSliderID">
+					
+					<?php
+
+					if($result -> num_rows > 0)
+											{
+												while($rows = $result -> fetch_assoc())
+												{
+													echo"
+														<div class='tourBox' style='background: url(\"../Images/CampusTour/".$rows['image'].".jpg\");background-size: cover; background-position: center; background-repeat: no-repeat;'>
+
+
+															<div class='tourDetail'>
+																<h3 Hello World !! </h3>
+															</div>
+
+
+
+														 <div class='tourBoxCaption'>
+
+														 <span> Lehar - Avartan </span>
+														 	<div class='tourBoxCaptionSpan'>
+														 		<span>Read</span>
+														 	</div>
+
+
+														  </div>
+														  </div>";
+												}
+											}
+					//echo("");
+
+
+
+			mysqli_close($link);
+
+
+											?>
+
+
 
 				</div>
+				
 
-				<div class="campus-pill health" onclick="openCampusTour('phc')">
-
-					<div class="index-title">
-						<h4>Hospital</h4> <i class="bi bi-arrow-up-right-circle"></i>
-					</div>
-
+				<div class="campusNav">
+					<button class="disable" id="prevShow">Prev</button>
+					<button id="nextShow">Next</button>
 				</div>
-
-				<div class="campus-pill mess"
-				onclick="openCampusTour('mess')">
-					<div class="index-title">
-						<h4>Central Mess</h4> <i class="bi bi-arrow-up-right-circle"></i>
-					</div>
-				</div>
-
-				<div class="campus-pill visitors"
-				onclick="openCampusTour('visitorCenter');">
-					<div class="index-title">
-						<h4>Visitors Center</h4> <i class="bi bi-arrow-up-right-circle"></i>
-					</div>
-				</div> -->
 			</div>
 		</div>	
 
@@ -179,6 +205,8 @@
 	</div>
 </div>
 
+
+
 <script type="text/javascript">
 	let reSlideIndex = 1;
 
@@ -199,11 +227,6 @@
 
   
 	changeResSlide(reSlideIndex);
-
-	
-
-
-  
 
 	document.getElementById('defaultOpen').click();
 </script>

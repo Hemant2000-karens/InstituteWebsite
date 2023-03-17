@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
     <head>
-        <title>IIITDMJ | Home</title>
-        <?php include_once './headTag.php';?>
+      <title>IIITDMJ | Home</title>
+      <?php include_once './headTag.php';?>
+
     </head>
 
     <body>
-      <!-- <div id="overlay" onclick="off()">
-        <img  id="welcomeNotice" src="../Images/csir.jpg">
-    </div> -->
+      
     <?php include 'topheader.php';?>
 
 
@@ -254,7 +252,29 @@ window.onclick = function(event) {
   var rellax = new Rellax('.rellax');
 </script>
 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
+<script type="text/javascript">
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Branch', 'Percent of Placements'],
+        ['CSE',     11],
+        ['ME',      2],
+        ['ECE',  2],
+        ['SM', 2],
+        ['DS',    7]
+      ]);
+    var options = {
+      title: 'Placements in 2021',
+      is3D: true,
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+      chart.draw(data, options);
+      }
+      </script>
 
 
 

@@ -127,20 +127,33 @@
         });
 
         function rightScroll() {
-        	document.getElementById('recruitList').scrollLeft += 100;
+        	document.getElementById('recruitList').scrollLeft += 150;
         }
 
         function leftScroll() {
-        	document.getElementById('recruitList').scrollLeft -= 100;
+        	document.getElementById('recruitList').scrollLeft -= 150;
         }
+
+        function sliderRightScroll() {
+  		document.getElementById('campusSliderID').scrollLeft -= 300;
+		}
+
+		function sliderLeftScroll() {
+		  document.getElementById('campusSliderID').scrollLeft += 300;
+		}
 
 	const buttonRight = document.getElementById('recruitersButton');
     const buttonLeft = document.getElementById('recruitersButton01');
+    const campusSliderRight = document.getElementById('prevShow');
+	const campusSliderLeft = document.getElementById('nextShow');
 
     buttonRight.addEventListener("click", rightScroll);
     buttonLeft.addEventListener("click", leftScroll);
 
+    campusSliderRight.addEventListener("click", sliderRightScroll);
+    campusSliderLeft.addEventListener("click", sliderLeftScroll);
+
     setTimeout(rightScroll,1000);
-    
+
 
 </script>

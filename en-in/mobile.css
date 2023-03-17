@@ -156,10 +156,6 @@ and (max-width: 960px)
     width: 100%;
     height: auto;
   }
-  .combined
-  {
-    display: block;
-  }
   .messageDeskCombined
   {
     padding: 5% 0;
@@ -433,10 +429,6 @@ and (max-width:460px)
   .newsTab
   {
     width: 99.3%;
-  }
-  .combined
-  {
-    padding: 0 4%;
   }
   .newsContent
   {

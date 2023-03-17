@@ -782,6 +782,12 @@ body{
 }
 
 
+.piechart_3d
+{
+  height: 340px;
+  padding: 0 15px;
+}
+
 /* FirstNavBar Ends */
 
 
@@ -815,11 +821,13 @@ body{
 .DeanNav
 {
   width: var(--fill);
-  width: var(--mozFill);
+/*  width: var(--mozFill);*/
   display: inline-flex;
   height: auto;
-  margin: 0 7%;
+/*  margin: 0 7%;*/
   border-bottom: 1px solid #bfbfbf;
+  align-items: center;
+  justify-content: center;
 
 }
 .DeanNav a
@@ -1346,6 +1354,9 @@ body{
 
   .campusTour
   {
+    width: var(--fill);
+    width: var(--mozFill);
+    overflow: hidden;
     padding: 12px 0;
     background: url(../Images/messageBackground.png);
     background-repeat: no-repeat;
@@ -1369,6 +1380,7 @@ body{
   {
     padding: 2%;
     height: auto;
+    align-content: center;
   }
 
   .campus-pill:first-child
@@ -1388,8 +1400,136 @@ body{
   {
     transform: scale(1.03);
   }
+  .campusNav
+  {
+    position: relative;
+    float: right;
+    bottom: 0;
+    width: var(--mozFill);
+    width: var(--fill);
+    display: flex;
+    justify-items: end;
+    justify-content: flex-end;
+    gap: 10px
+  }
+  .campusSlider
+  {
 
-  .hostels
+    max-width: var(--fill);
+    max-width: var(--mozFill);
+    padding: 6px 2% 5% 2%;
+    gap: 20px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+/*    scroll-snap-type: x mandatory;*/
+    align-items: center;
+    justify-items: center;
+    -ms-overflow-style: none;
+    scrollbar-width:none;
+  }
+
+  .campusSlider::-webkit-scrollbar {
+    display: none;
+  }
+  .tourBox
+  {
+    height: 420px;
+    width: fit-content;
+    border-radius: 10px;
+    scroll-snap-align: center;
+    padding: 1% 4%;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 3px 1px #3b3b3b;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /*width: fit-content;
+    height: auto;*/
+    /*    align-items: center;*/
+  }
+
+  .tourBox img
+  {
+    height: 420px;
+    width: fit-content;
+    border-radius: inherit;
+    
+  }
+  .tourBoxCaption
+  {
+    width: 255px;
+    height: auto;
+    background: #00000000;
+    backdrop-filter: blur(6px);
+    padding: 2% 1%;
+    color: antiquewhite;
+    border-radius: inherit;
+    justify-items: end;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .tourBoxCaptionSpan
+  {
+    padding: 6% 1%;
+    background: #0c0c0ca8;
+    border-radius: 50%;
+  }
+ 
+   .tourBoxCaptionSpan:hover + .tourDetail
+  {
+    display: block;
+  }
+
+  .tourDetail
+  {
+    height: 100%;
+    width: var(--fill);
+    width: var(--mozFill);
+    padding: 4%;
+    background: #00000014;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: #f9d8ac;
+    display: none;
+  }
+  .imageCaption
+  {
+    width: 100%;
+    bottom: 0;
+    flex-wrap: nowrap;
+  }
+  .imageCaption span
+  {
+
+  }
+  .campusNav button
+  {
+    padding: 4px 15px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    background: #011591;
+    color: white;
+  }
+  .campusNav button.disable
+  {
+    color: black;
+    background: #ebebeb;
+  }
+
+
+
+
+
+
+
+
+/*  .hostels
   {
     background: url("../Images/indexCampus/hostel.jpeg");
   }
@@ -1405,9 +1545,9 @@ body{
   {
     background: url("../Images/indexCampus/VH.jpeg");
   }
+*/
 
-
-  .hostels,
+  /*.hostels,
   .health,
   .mess,
   .visitors
@@ -1423,7 +1563,7 @@ body{
   {
     transform: scale(1.03);
   }
-
+*/
   .index-title
   {
     display: flex;
@@ -2761,8 +2901,163 @@ input[type="radio"]{
 /* Admission Ends */
 
 
-/* Students Corners */
+/* Students Affairs Office */
   
+/*.dsaNav {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  overflow-x: scroll;
+  overflow-y: visible;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+.dsaNav li {
+  float: left;
+}
+
+.dsaNav li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dsaNav li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.dsaNav li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+
+.dsaDropbtn {
+  background-color: inherit;
+  color: #666;
+  padding: 16px;
+  font-size: inherit;
+  border: none;
+}
+
+.dsaDrop {
+  position: relative;
+  display: inline-block;
+}
+
+.dsaDrop-content {
+  display: none;
+  position: fixed;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dsaDrop-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dsaDrop-content a:hover {background-color: #ddd;}
+
+.dsaDrop:hover .dsaDrop-content {display: block;}
+
+.dsaDrop:hover .dsaDropbtn {background-color: #ddd;}*/
+
+
+.dsaNav {
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+.dsaNav a {
+  float: left;
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dsaDrop {
+  float: left;
+  overflow: hidden;
+}
+
+.dsaDrop .dsaDropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color:  #666;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dsaNav a:hover, .dsaDrop:hover .dsaDropbtn {
+  background-color:  #ddd;;
+}
+
+.dsaDrop-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dsaDrop-content a {
+  color: #666;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dsaDrop-content a:hover {
+  background-color: #ddd;
+}
+
+.dsaDrop:hover .dsaDrop-content {
+  display: block;
+}
+
+
+.dsaDean
+{
+  height: auto;
+  width: var(--fill);
+  width: var(--mozFill);
+  overflow: hidden;
+  padding: 2% 4%;
+}
+
+
+.dsaDean1master
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  width: 100%;
+  padding: var(--profileGridPadding);
+  justify-content: space-evenly;
+}
+
+
   /* Hostels */
 
     .hostel_main

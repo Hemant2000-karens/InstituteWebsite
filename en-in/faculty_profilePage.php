@@ -487,6 +487,26 @@ $rows = $result->fetch_assoc();
 						</tr>
 
 
+						<?php 
+						$sql = "SELECT * FROM `faculty_students` WHERE programme = 'phd' and adm_no =" . "\"" . $data_result . "\"" . ";"; 
+							$result = $link->query($sql);
+
+						if ($result->num_rows > 0) {
+								    while ($students = $result->fetch_assoc()) {
+								        echo ("<tr>
+								<td><img class ='student_image' src ='../Images/faculty_students/".$students['photo'].".jpg' alt='".$students['photo']."'/></td>
+    						<td>".$students['sName']."</td>
+    						<td>".$students['sRoll']."</td>
+    						<td>".$students['specialisation']."</td>
+    						<td>".$students['co-guide']."</td>
+    						<td>".$students['sYear']."</td>
+    						<td>".$students['status']."</td>
+						</tr>
+								");								    
+								}
+							}
+						?>
+
 					</table>
 
 
@@ -511,12 +531,25 @@ $rows = $result->fetch_assoc();
     						<th>Status</th>
 						</tr>
 
-
 						<?php 
-							$sql = "SELECT event,dateFromUG,dateFromPG,dateFromNewUG,dateToUG,dateToPG,dateToNewUG from academicCalendar where semester = 1"; 
+						$sql = "SELECT * FROM `faculty_students` WHERE programme = 'mtech' and adm_no = ". "\"" . $data_result . "\"" . ";"; 
 							$result = $link->query($sql);
-							?>
 
+						if ($result->num_rows > 0) {
+								    while ($students = $result->fetch_assoc()) {
+								        echo ("<tr>
+								<td><img class ='student_image' src ='../Images/faculty_students/".$students['photo'].".jpg' alt='".$students['photo']."'/></td>
+    						<td>".$students['sName']."</td>
+    						<td>".$students['sRoll']."</td>
+    						<td>".$students['specialisation']."</td>
+    						<td>".$students['co-guide']."</td>
+    						<td>".$students['sYear']."</td>
+    						<td>".$students['status']."</td>
+						</tr>
+								");								    
+								}
+							}
+						?>
 
 					</table>
 

@@ -30,26 +30,16 @@
 
 
 
-		<div class="campusTour">
+			<div class="campusTour">
 				<div class="campusTour_sub">
 					<h2>Placement</h2>
 				</div>
 				
-					<div class="scrollbar_main Page">
+				<div id="piechart_3d" style="height:204px; width: -webkit-fill-available; padding: 5% 0;"></div>
 
-						<?php 
-
-
-						include './news.php';
-
-						?>
-
-					</div>
-
-					<center>
-						<button onclick="viewMore()" id="viewAllButton">Read More</button>
-					</center>
-
+				<center>
+					<button onclick="viewMore()" id="viewAllButton">Read More</button>
+				</center>
 			</div>	
 
 

@@ -91,20 +91,23 @@
 
 
 
-      <div class="dropdown2">
-        <button class="dropbtn">Students Corner</button>
-        <div class="dropdown-content">
-          <a href="./hostel.php">Hostels</a>
-          <!-- <a href="./c_mess.php">Students Mess</a> -->
-          <a href="./comingSoon.html">Student Mess</a>
-          <a href="./feesPay.php">Fees Payment</a>
-          <a href="./antiRagg.php">Anti Ragging</a>
-          <a href="./comingSoon.html">Primary Health Center</a>
-          <a href="./comingSoon.html">Activities</a>
-          <a href="./comingSoon.html">Gymkhana</a>
-          <a href="./counselling.php">Counseling</a>
-        </div>
-      </div> 
+      <a href="./dsa.php">Students Affairs</a>
+
+  <!-- <div class="dropdown">
+    <button class="dropbtn">Students Affairs Office</button>
+    <div class="dropdown-content">
+      <a href="./hostel.php">Hostels</a>
+      <a href="./c_mess.php">Students Mess</a>
+      <a href="./comingSoon.html">Student Mess</a>
+      <a href="./feesPay.php">Fees Payment</a>
+      <a href="./antiRagg.php">Anti Ragging</a>
+      <a href="./comingSoon.html">Primary Health Center</a>
+      <a href="./comingSoon.html">Activities</a>
+      <a href="./comingSoon.html">Gymkhana/ Clubs</a>
+      <a href="./counselling.php">Counseling</a>
+      <a href="./counselling.php">Facilites</a>
+    </div>
+  </div>  -->
 
 
       <!--<a href="#">Research</a>-->
