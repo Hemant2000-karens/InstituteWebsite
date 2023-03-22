@@ -15,14 +15,41 @@
 				<div class="aboutHeader" id="adminHeader">
 					<h2>Student Affairs Office</h2>
 				</div>
+
+
 				<div class="AcMain">
-
-
 
 					<span class="br"></span>
 
+					<div class="dsaNav">
+				  	<a href="./hostel.php">Notices</a>
+				  	<a href="./hostel.php">Hostels</a>
+				  	<div class="dsaDrop">
+				    	<button class="dsaDropbtn">Facilities 
+				      	<i class="bi bi-caret-down-fill"></i>
+				    	</button>
+				    <div class="dsaDrop-content">
+				      <a href="./c_mess.php">Students Mess</a> 
+				      <a href="./comingSoon.html">Primary Health Center</a>             
+				      	<a href="./comingSoon.html">Library</a>          
+				      	<a href="./comingSoon.html">Computer Center</a>
+				      	<a href="./comingSoon.html">Bus Services</a>
+				    	</div>
+				  	</div> 
+				  	<a href="./antiRagg.php">Anti Ragging</a>
+				    <a href="./comingSoon.html">Gymkhana/ Clubs</a>		
+				    <a href="./counselling.php">Counseling</a>
+				    <a href="./counselling.php">Forms</a>
+				    <a href="./counselling.php">Rules/ Guidelines</a></li>
+				    <a href="./counselling.php">Events</a>
+				    <!-- <a href="./feesPay.php">Fees Payment</a>
+				    <a href="./feesPay.php">People</a> -->
+				  </div>
+
 					<div class="office_of_Dean">
 				<h3 class="hrclass"><span>Office of Dean(Academics)</span></h3></div>
+
+
 
 				<div class="dsaDean">
 					
@@ -35,12 +62,7 @@
 					     <p>Professor, ME</p>
 					</div>
 
-				</div>
 
-
-
-				<div class="dsaDean1master">	
-					
 					<div class="members">
 						<img src="../Images/BOD/dpgs.png">
 						<h3>Dr. Manoj Singh Parihar</h3>
@@ -48,18 +70,14 @@
 					     <p>Asst. Prof., ECE</p>
 					</div>
 
-				</div>
 
-				<div class="dsaDean1master">	
-					
-					<div class="members">
+						<div class="members">
 						<img src="../Images/BOD/dpgs.png">
 						<h3>Santosh Mahobia</h3>
 					     <p>Assistance Registrar</p>
 					</div>
 
 				</div>
-
 
 					<div class="dsaDean1master">	
 					
@@ -92,106 +110,16 @@
 				<!-- Ends of DsaDean office -->
 				</div>
 
-
-				<!-- Sub Navbar -->
-<!-- 					<ul class="dsaNav">
-
-						
-						<li><a href="./hostel.php">Notices</a></li>
-      			<li>  					
-
-  					<li><a href="./hostel.php">Hostels</a></li>
-      			<li>
-      				
-
-
-      					<div class="dsaDrop">
-    							<button class="dsaDropbtn">Facilities</button>
-    								<div class="dsaDrop-content">
-      
-      							<a href="./c_mess.php">Students Mess</a>	
-      							<a href="./comingSoon.html">Primary Health Center</a							>							
-      							<a href="./comingSoon.html">Library</a>							
-      							<a href="./comingSoon.html">Computer Center</a>
-      							<a href="./comingSoon.html">Bus Services</a>
-  							  </div>
-  							</div> 
-
-      			</li>
-      			
-      			<li><a href="./antiRagg.php">Anti Ragging</a></li>
-      					
-      			<li><a href="./comingSoon.html">Gymkhana/ Clubs</a>	</li>		
-      			<li><a href="./counselling.php">Counseling</a></li>
-      			<li><a href="./counselling.php">Forms</a></li>
-
-      			<li><a href="./counselling.php">Rules/ Guidelines</a></li>
-
-      			<li><a href="./counselling.php">Events</a></li>
- 
-      			<li><a href="./feesPay.php">Fees Payment</a></li>
-
-
-
-					</ul>	 -->
-
-
-	<div class="dsaNav">
-
-		
-  	<a href="./hostel.php">Notices</a>
-  	<a href="./hostel.php">Hostels</a>
-  	<div class="dsaDrop">
-    	<button class="dsaDropbtn">Facilities 
-      	<i class="bi bi-caret-down-fill"></i>
-    	</button>
-    <div class="dsaDrop-content">
-      <a href="./c_mess.php">Students Mess</a> 
-      <a href="./comingSoon.html">Primary Health Center</a>             
-      	<a href="./comingSoon.html">Library</a>          
-      	<a href="./comingSoon.html">Computer Center</a>
-      	<a href="./comingSoon.html">Bus Services</a>
-    	</div>
-  	</div> 
-
-
-  	<a href="./antiRagg.php">Anti Ragging</a>
-    <a href="./comingSoon.html">Gymkhana/ Clubs</a>		
-    <a href="./counselling.php">Counseling</a>
-    <a href="./counselling.php">Forms</a>
-    <a href="./counselling.php">Rules/ Guidelines</a></li>
-    <a href="./counselling.php">Events</a>
-    <a href="./feesPay.php">Fees Payment</a>
-    <a href="./feesPay.php">People</a>
-
-
-
-
-	</div>
-
-
-
-
-
-					<!-- Sub Navbar -->
-
-				<span class="br"></span>
-
-				<div class="dsaDean">
-					
-					<div class="office_of_Dean">
-				<h3 class="hrclass"><span>Office of Dean(Academics)</span></h3>
-
-				<div class="office_of_Dean profile1">
-						<img src="../Images/DeanACD/vijayG.jpg" class="" alt="Dean Academic">
-						<div class="office_of_Dean text">
-							<h2>Prof. Vijay Kumar Gupta </h2>
-									<h3>Professor, Mechanical Engineering Discipline<br>
-									Dean (Academic)</h3>
+					<div class="externalLink">
+						<div class="externalheading">
+							<span>Message from Dean Students</span>
 						</div>
-					</div>	
-				</div>
-				</div>
+						<br>
+						<span>Dear Students,</span>
+				<p>
+					Congratulations on joining the IIITDMJ community! We have a unique curriculum that emphasizes project-based learning, which has been recognized by Indian and Japanese industries. While our academic standards are high, we also encourage students to engage in extracurricular activities for a well-rounded experience. Please be aware of the rules and regulations that exist for everyone's benefit, and remember to say no to any acts of ragging. We have counseling services available if you need them. Stay focused on your studies and make the most of your time at IIITDMJ.
+				</p>
+			</div>
 
 				<!-- End AcMain -->
 				</div>
