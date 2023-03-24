@@ -22,12 +22,12 @@
     </button>
     <div class="dropdown-content">
       <a target="_blank" href="https://cse.iiitdmj.ac.in">Computer Science and Engineering</a>
-      <a href="me.iiitdmj.ac.in">Mechanical Engineering</a>
-      <a href="ece.iiitdmj.ac.in">Electrical and Electronics Engineering</a>
-      <a href="sm.iiitdmj.ac.in">Smart Manufacturing</a>
-      <a href="design.iiitdmj.ac.in">Design</a>
-      <a href="ns.iiitdmj.ac.in">Natural Science</a>
-      <a href="ns.iiitdmj.ac.in">Liberal Arts</a>
+          <a  target="_blank" href="https://www.iiitdmj.ac.in/me.iiitdmj.ac.in/">Mechanical Engineering</a>
+          <a  target="_blank" href="https://www.iiitdmj.ac.in/ece.iiitdmj.ac.in">Electrical and Electronics Engineering</a>
+          <a  target="_blank" href="sm.iiitdmj.ac.in">Smart Manufacturing</a>
+          <a  target="_blank" href="https://www.iiitdmj.ac.in/design.iiitdmj.ac.in">Design</a>
+          <a  target="_blank" href="https://www.iiitdmj.ac.in/ns.iiitdmj.ac.in">Natural Science</a>
+          <a  target="_blank" href="https://www.iiitdmj.ac.in/la.iiitdmj.ac.in/">Liberal Arts</a>
     </div>
   </div> 
 

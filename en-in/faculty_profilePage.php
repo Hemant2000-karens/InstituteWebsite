@@ -170,7 +170,7 @@ $rows = $result->fetch_assoc();
 			<br>
 
 
-		<div class="faculty_Nav_more">
+		<!-- <div class="faculty_Nav_more">
 
 			<div class="faculty_Nav_more_grid">
 
@@ -196,12 +196,14 @@ $rows = $result->fetch_assoc();
 
 			</div>
 		</div>
-
+ -->
 
 
 		<div class="achievement" id="achieve">
-			<h2 class="classHeading">Achievments</h2>
-			<div class="slider">
+			<h2 class="classHeading">Roles/Position</h2>
+			
+
+			<!-- <div class="slider">
 				<div>
 					<a class="prev" onclick="plusSlides(-1)">❮</a>
 				</div>
@@ -278,7 +280,7 @@ $rows = $result->fetch_assoc();
   				<span class="dot" onclick="currentSlide(2)"></span> 
   				<span class="dot" onclick="currentSlide(3)"></span> 
 			</div>
-
+ -->
 
 		</div>
 

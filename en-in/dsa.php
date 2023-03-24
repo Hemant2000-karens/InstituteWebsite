@@ -56,7 +56,7 @@
 				<div class="dsaDean1master">	
 					
 					<div class="members">
-						<img src="../Images/BOD/dpgs.png">
+						<img src="../Images/dsaoffice/pkjain.jpg">
 						<h3>Prof. P.K. Jain</h3>
 					     <p>Dean Students</p>
 					     <p>Professor, ME</p>
@@ -64,7 +64,7 @@
 
 
 					<div class="members">
-						<img src="../Images/BOD/dpgs.png">
+						<img src="../Images/dsaoffice//dpgs.png">
 						<h3>Dr. Manoj Singh Parihar</h3>
 					     <p>Associate Dean</p>
 					     <p>Asst. Prof., ECE</p>
@@ -72,7 +72,7 @@
 
 
 						<div class="members">
-						<img src="../Images/BOD/dpgs.png">
+						<img src="../Images/dsaoffice//dpgs.png">
 						<h3>Santosh Mahobia</h3>
 					     <p>Assistance Registrar</p>
 					</div>
@@ -82,25 +82,25 @@
 					<div class="dsaDean1master">	
 					
 					<div class="members">
-						<img src="../Images/BOD/dpgs.png">
+						<img src="../Images/dsaoffice//dpgs.png">
 						<h3>Rajesh Kanaujia</h3>
 					     <p>Assistance Registrar</p>
 					</div>
 
 					<div class="members">
-						<img src="../Images/BOD/dpgs.png">
+						<img src="../Images/dsaoffice//dpgs.png">
 						<h3>Aisha </h3>
 					     <p>Assistance Registrar</p>
 					</div>
 
 					<div class="members">
-						<img src="../Images/BOD/dpgs.png">
+						<img src="../Images/dsaoffice//dpgs.png">
 						<h3>Santosh Mahobia</h3>
 					     <p>Assistance Registrar</p>
 					</div>
 
 					<div class="members">
-						<img src="../Images/BOD/dpgs.png">
+						<img src="../Images/dsaoffice//dpgs.png">
 						<h3>Santosh Mahobia</h3>
 					     <p>Assistance Registrar</p>
 					</div>
