@@ -483,10 +483,16 @@ html,body
 
 .tab
 {
+	display: flex;
 	width: fit-content;
 	overflow: hidden;
-  background-color: #cacaca;
+  background-color: #f2f2f2;
+	border-bottom: 0.25px solid #eee;
   margin: 0 5%;
+}
+.personaltab
+{
+	margin: 0;
 }
 .tab button
 {

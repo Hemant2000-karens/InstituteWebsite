@@ -197,12 +197,35 @@ $rows = $result->fetch_assoc();
 			</div>
 		</div>
  -->
+			 
+
+			 	<div class="publication" id="Publications">
+						<h2 class="classHeading">Personal Informationscd 		</h2>
+							<br>
+							<div class="tab personaltab">
+
+								<button id="defaultOpen4" class="tabButton4" onclick="openTabs(event, 'book')">Experience</button>
+								<button class="tabButton4" onclick="openTabs(event, 'papers')">Administrative Position</button>
+								<button class="tabButton4" onclick="openTabs(event, 'talks')">Honours & Awards</button>
+							</div>
+
+
+
+
+					</div>
+				</div>
+
 
 
 		<div class="achievement" id="achieve">
-			<h2 class="classHeading">Roles/Position</h2>
-			
+			<h2 class="classHeading">Courses</h2>
+				<br>
+			<div class="tab personaltab">
 
+				<button id="defaultOpen3" class="tabButton3" onclick="openTabs(event, 'book')">Current</button>
+				<button class="tabButton3" onclick="openTabs(event, 'papers')">Previous</button>
+
+			</div>
 			<!-- <div class="slider">
 				<div>
 					<a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -465,7 +488,7 @@ $rows = $result->fetch_assoc();
 
 			<div class="publication" id="Publications">
 				<h2 class="classHeading">Students</h2>
-
+				<br/>
 				<div class="tab">
 					<button id="defaultOpen1" class="tabButton1" onclick="openTabs2(event, 'PHD')">Ph.D</button>
 					<button class="tabButton1" onclick="openTabs2(event, 'masters')">M.Tech</button>
@@ -486,6 +509,7 @@ $rows = $result->fetch_assoc();
     						<th>Co-guide</th>
     						<th>Year</th>
     						<th>Status</th>
+    						<th>Description</th>
 						</tr>
 
 
@@ -503,6 +527,7 @@ $rows = $result->fetch_assoc();
     						<td>".$students['co-guide']."</td>
     						<td>".$students['sYear']."</td>
     						<td>".$students['status']."</td>
+    						<td>".$students['Description']."</td>
 						</tr>
 								");								    
 								}
@@ -531,6 +556,7 @@ $rows = $result->fetch_assoc();
     						<th>Co-guide</th>
     						<th>Year</th>
     						<th>Status</th>
+    						<th>Description</th>
 						</tr>
 
 						<?php 
@@ -547,6 +573,7 @@ $rows = $result->fetch_assoc();
     						<td>".$students['co-guide']."</td>
     						<td>".$students['sYear']."</td>
     						<td>".$students['status']."</td>
+    						<td>".$students['Description']."</td>
 						</tr>
 								");								    
 								}
