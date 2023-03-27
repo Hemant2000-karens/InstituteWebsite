@@ -29,13 +29,13 @@
   								</tr>
 
   								<tr>
-  									<td>Prof. Aparajita Ojha</td>
+  									<td>Dr. Deepmala</td>
   									<td>Head Counseling Service</td>
-  									<td><a href="tel:+917612794221">+91761-2794221</a></td>
-  									<td><a href="mailto:aojha@iiitdmj.ac.in">aojha@iiitdmj.ac.in</a></td>
+  									<td><a href="tel:+91-761-2794353">+91761-2794221</a></td>
+  									<td><a href="mailto:deepmala@iiitdmj.ac.in">deepmala@iiitdmj.ac.in</a></td>
   								</tr>
 
-  								<tr>
+  								<!-- <tr>
   									<td>Prof. Puneet Tandon</td>
   									<td>Core Faculty Team</td>
   									<td><a href="tel:+917612794411">+91761-2794411</a></td>
@@ -54,7 +54,7 @@
   									<td>Core Faculty Team</td>
   									<td><a href="tel:+917612794227">+9191761-2794227</a></td>
   									<td><a href="mailto:mkbajpai@iiitdmj.ac.in">mkbajpai@iiitdmj.ac.in</a></td>
-  								</tr>
+  								</tr> -->
 
   					</table> 
   				</div>
