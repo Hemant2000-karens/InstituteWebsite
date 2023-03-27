@@ -2,6 +2,7 @@
 <html>
 <head>
 	<?php include_once './headTag.php';?>
+	<?php include './connectionDB.php';?>
 	<title>Anti-Ragging | IIITDMJ</title>
 </head>
 
@@ -27,30 +28,31 @@
     								<th>Contact Number</th>
   								</tr>
 
-  								<tr>
-  									<td>Dr. Tanuja Sheroy</td>
-  									<td>Dean(Student)</td>
-  									<td><a href="tel:+917612794412">+91761-2794412</a></td>
-  								</tr>
+  								
 
-  								<tr>
-  									<td>Dr. Tanuja Sheroy</td>
-  									<td>Dean(Student)</td>
-  									<td><a href="tel:+917612794412">+91761-2794412</a></td>
+  								<?php
+								
+								$antiragging = "SELECT * FROM `antiRaggingSenate`;"; 
+								$antirag = $link->query($antiragging);
+								if ($antirag->num_rows > 0) {
+								    while ($rag = $antirag->fetch_assoc()) {
+								        echo (
+								        
+								        "<tr>
+  									<td>".$rag['Name']."</td>
+  									<td>".$rag['Designation']."</td>
+  									<td>+91".$rag['contact']."</td>
   								</tr>
+								        ");
+								    }
+								}
 
-  								<tr>
-  									<td>Dr. Tanuja Sheroy</td>
-  									<td>Dean(Student)</td>
-  									<td><a href="tel:+917612794412">+91761-2794412</a></td>
-  								</tr>
+								?>
 
 
-  								<tr>
-  									<td>Dr. Tanuja Sheroy</td>
-  									<td>Dean(Student)</td>
-  									<td><a href="tel:+917612794412">+91761-2794412</a></td>
-  								</tr>
+
+								<?php mysqli_close($link);?>
+
 
   					</table> 
   				</div>

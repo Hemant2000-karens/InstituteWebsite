@@ -64,7 +64,7 @@
 
 
 					<div class="members">
-						<img src="../Images/dsaoffice//dpgs.png">
+						<img src="../Images/dsaoffice/mparihar.jpg">
 						<h3>Dr. Manoj Singh Parihar</h3>
 					     <p>Associate Dean</p>
 					     <p>Asst. Prof., ECE</p>
@@ -72,8 +72,8 @@
 
 
 						<div class="members">
-						<img src="../Images/dsaoffice//dpgs.png">
-						<h3>Santosh Mahobia</h3>
+						<img src="../Images/dsaoffice/santosh.jpg">
+						<h3>Mr. Santosh Mahobia</h3>
 					     <p>Assistance Registrar</p>
 					</div>
 
@@ -82,27 +82,27 @@
 					<div class="dsaDean1master">	
 					
 					<div class="members">
-						<img src="../Images/dsaoffice//dpgs.png">
-						<h3>Rajesh Kanaujia</h3>
-					     <p>Assistance Registrar</p>
+						<img src="../Images/dsaoffice/rajesh.jpg">
+						<h3>Mr. Rajesh Kanaujia</h3>
+					     <p>Senior Assistant</p>
 					</div>
 
 					<div class="members">
-						<img src="../Images/dsaoffice//dpgs.png">
-						<h3>Aisha </h3>
-					     <p>Assistance Registrar</p>
+						<img src="../Images/dsaoffice/aishwarya.jpg">
+						<h3>Ms. Aishwarya Pradhan</h3>
+					     <p>Senior Assistant</p>
 					</div>
 
 					<div class="members">
-						<img src="../Images/dsaoffice//dpgs.png">
-						<h3>Santosh Mahobia</h3>
-					     <p>Assistance Registrar</p>
+						<img src="../Images/dsaoffice/amit.jpg">
+						<h3>Amit Kashyap</h3>
+					     <p>Office Assistant</p>
 					</div>
 
 					<div class="members">
-						<img src="../Images/dsaoffice//dpgs.png">
-						<h3>Santosh Mahobia</h3>
-					     <p>Assistance Registrar</p>
+						<img src="../Images/dsaoffice/monty.png">
+						<h3>Monti Jatav</h3>
+					     <p>Peon</p>
 					</div>
 
 				</div>
