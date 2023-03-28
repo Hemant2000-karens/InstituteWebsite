@@ -57,7 +57,7 @@
 					
 					<div class="members">
 						<img src="../Images/dsaoffice/pkjain.jpg">
-						<h3>Prof. P.K. Jain</h3>
+						<h3>Prof. Prashant K. Jain</h3>
 					     <p>Dean Students</p>
 					     <p>Professor, ME</p>
 					</div>

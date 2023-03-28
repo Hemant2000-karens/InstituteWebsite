@@ -200,7 +200,7 @@ $rows = $result->fetch_assoc();
 			 
 
 			 	<div class="publication" id="Publications">
-						<h2 class="classHeading">Personal Informationscd 		</h2>
+						<h2 class="classHeading">Personal Informations</h2>
 							<br>
 							<div class="tab personaltab">
 
