@@ -204,16 +204,41 @@ $rows = $result->fetch_assoc();
 							<br>
 							<div class="tab personaltab">
 
-								<button id="defaultOpen4" class="tabButton4" onclick="openTabs(event, 'book')">Experience</button>
-								<button class="tabButton4" onclick="openTabs(event, 'papers')">Administrative Position</button>
-								<button class="tabButton4" onclick="openTabs(event, 'talks')">Honours & Awards</button>
+								<button id="defaultOpen4" class="tabButton4" onclick="openTabs4(event, 'p_experience')">Experience</button>
+								<button class="tabButton4" onclick="openTabs4(event, 'p_admins')">Administrative Position</button>
+								<button class="tabButton4" onclick="openTabs4(event, 'p_awards')">Honours & Awards</button>
+
+							</div>
+
+							<div class="tabcontent4" id="p_experience">
+
 							</div>
 
 
 
 
+
+
+
+
+							<div class="tabcontent4" id="p_admins">
+
+							</div>
+
+
+
+
+
+
+
+
+							<div class="tabcontent4" id="p_awards">
+								
+							</div>
+
+
 					</div>
-				</div>
+				
 
 
 
@@ -222,88 +247,19 @@ $rows = $result->fetch_assoc();
 				<br>
 			<div class="tab personaltab">
 
-				<button id="defaultOpen3" class="tabButton3" onclick="openTabs(event, 'book')">Current</button>
-				<button class="tabButton3" onclick="openTabs(event, 'papers')">Previous</button>
+				<button id="defaultOpen3" class="tabButton3" onclick="openTabs3(event, 'curr_courses')">Current</button>
+				<button class="tabButton3" onclick="openTabs3(event, 'prev_courses')">Previous</button>
 
 			</div>
-			<!-- <div class="slider">
-				<div>
-					<a class="prev" onclick="plusSlides(-1)">❮</a>
-				</div>
+			
 
-
-			<div class="sliderContent">
-
-
-				<div class="SliderBox sliderbox1">
-					<div class="subSlider1">
-						<i class="bi bi-award"></i>
-						<span>Awards</span>
-					</div>
-					<div class="subSlider2">
-
-						<h3>Member of Advisory Board</h3>
-
-						<p>IoT-Center of Excellence at SKIT, Jaipur</p>
-
-						<h4>Read More</h4>
-
-					</div>
-				</div>
-
-
-				<div class="SliderBox sliderbox2">
-					<div class="subSlider1">
-						<i class="bi bi-award"></i>
-						<span>Awards</span>
-					</div>
-					<div class="subSlider2">
-
-						<h3>Member of Advisory Board</h3>
-
-						<p>IoT-Center of Excellence at SKIT, Jaipur</p>
-
-						<h4>Read More</h4>
-
-					</div>
-				</div>
-
-
-				<div class="SliderBox sliderbox3">
-					<div class="subSlider1">
-						<i class="bi bi-award"></i>
-						<span>Awards</span>
-					</div>
-					<div class="subSlider2">
-
-						<h3>Member of Advisory Board</h3>
-
-						<p>IoT-Center of Excellence at SKIT, Jaipur</p>
-
-						<h4>Read More</h4>
-
-					</div>
-				</div>
+			<div class="tabcontent3" id="curr_courses">
 				
-
-
-
-
 			</div>
 
-
+			<div class="tabcontent3" id="prev_courses">
 				
-				<div>
-					<a class="next" onclick="plusSlides(1)">❯</a>
-				</div>
 			</div>
-
-			<div style="text-align:center;padding: 25px 0;">
-  				<span class="dot" onclick="currentSlide(1)"></span> 
-  				<span class="dot" onclick="currentSlide(2)"></span> 
-  				<span class="dot" onclick="currentSlide(3)"></span> 
-			</div>
- -->
 
 		</div>
 
@@ -677,6 +633,50 @@ $rows = $result->fetch_assoc();
 	  	document.getElementById(pageName).style.display = "block";
 	  	evt.currentTarget.className += " active";
 	}
+
+	function openTabs3(evt, pageName) {
+
+		var i, courses_tab, courses_link;
+
+		courses_tab = document.getElementsByClassName("tabcontent3");
+
+	  	for (i = 0; i < courses_tab.length; i++) 
+	  	{
+	    	courses_tab[i].style.display = "none";
+	  	}
+	  	
+	  	courses_link = document.getElementsByClassName("tabButton3");
+
+	  	for (i = 0; i < courses_link.length; i++) 
+	  	{
+	    	courses_link[i].className = courses_link[i].className.replace(" active", "");
+	  	}
+
+	  	document.getElementById(pageName).style.display = "block";
+	  	evt.currentTarget.className += " active";
+	}
+
+	function openTabs4(evt, pageName) {
+
+		var i, p_info_tab, p_info_links;
+
+		p_info_tab = document.getElementsByClassName("tabcontent4");
+
+	  	for (i = 0; i < p_info_tab.length; i++) 
+	  	{
+	    	p_info_tab[i].style.display = "none";
+	  	}
+	  	
+	  	p_info_links = document.getElementsByClassName("tabButton4");
+
+	  	for (i = 0; i < p_info_links.length; i++) 
+	  	{
+	    	p_info_links[i].className = p_info_links[i].className.replace(" active", "");
+	  	}
+
+	  	document.getElementById(pageName).style.display = "block";
+	  	evt.currentTarget.className += " active";
+	}
 </script>
 <script>
 
@@ -734,6 +734,8 @@ function showSlides(n) {
 <script type="text/javascript">
 	document.getElementById('defaultOpen').click();
 	document.getElementById('defaultOpen1').click();
+	document.getElementById('defaultOpen3').click();
+	document.getElementById('defaultOpen4').click();
 	showSlides(slideIndex);
 </script>
 </html> 
