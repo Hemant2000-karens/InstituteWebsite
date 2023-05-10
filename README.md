@@ -1,17 +1,33 @@
-# InstituteWebsite
-Website for institute,
-this site is being created by me, rishav and shival.
-
-All the things, is done by me, and some parts were made by Rishav
-and Shival Only checks and suggest the things.
-
-I made everything solely, and with my own experience, with taking helps of resources, 
-but i never used any readymade or premade code from Library Like Bootstrap, Django, and all available in the markets.
-
-Nor i will use any kind of advance framwork, or external Help. Nor Even i have seen or used any kind of w3layouts templates, or pre-build sample.
+# Main Institute Website
+IIITDM Jabalpur, Main website to replace.
 
 
-I have started creating it From October 2021, and it might be go to August of 2022, and I wish that this should be create as much as possible in great way.
+## Authors
+
+- [Hemant Kumar](https://github.com/Hemant2000-karens)
 
 
-Deadline given by authority is 15th July 2022, and we have to create 2-3 extra sites for this.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Support
+
+For support, email query@iiitdmj.ac.in or join our Slack channel.
+
+
+## Used By
+
+This project is used by the following companies:
+
+- PDPM Indian Institute of Information Technology, Design and Manufacturing, Jabalpur
+
+
+## Tech Stack
+
+**Client:** HTML, CSS, JS, Bootstrap
+
+**Server:** MySQL, PHP
+
