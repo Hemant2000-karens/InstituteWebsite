@@ -16,6 +16,7 @@
   --whiteBackground: #ffffff;
   --selection-bg: #2e3547;
   --selection-color: #ccd7e1;
+  --dsa-logo: 25px;
 }
 
 ::-moz-selection
@@ -2903,6 +2904,30 @@ input[type="radio"]{
 
 /* Students Affairs Office */
   
+
+
+.dsa_nav_main
+{
+  background: #eee;
+  width: inherit;
+  height: auto;
+  padding: 0 4%;
+}
+
+.dsa_nav
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.dsa_nav img
+{
+  height: var(--dsa-logo);
+  width: var(--dsa-logo);
+}
+
 /*.dsaNav {
   display: flex;
   list-style-type: none;
@@ -2974,7 +2999,7 @@ input[type="radio"]{
 .dsaDrop:hover .dsaDropbtn {background-color: #ddd;}*/
 
 
-.dsaNav {
+/*.dsaNav {
   overflow: hidden;
   align-items: center;
   justify-content: space-between;
@@ -3055,7 +3080,7 @@ input[type="radio"]{
   width: 100%;
   padding: var(--profileGridPadding);
   justify-content: space-evenly;
-}
+}*/
 
 
   /* Hostels */

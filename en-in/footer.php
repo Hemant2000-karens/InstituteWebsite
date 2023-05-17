@@ -69,8 +69,8 @@
         <a href="./importantDocs.php">Important Docs</a><br>
         <a href="./importantForms.php">Important Forms</a><br>
         <a href="../Documents/refundRule.pdf">Refund Rule</a><br>
-        <a href="./anualReports.php">Anual Reports</a><br>
-        <a href="./anualAccounts.php">Anual Accounts</a><br>
+        <a href="./anualReports.php">Annual Reports</a><br>
+        <a href="./anualAccounts.php">Annual Accounts</a><br>
         <a href="./convocation.php">Convocation</a><br>
         <a href="./Circulars.php">Circulars</a><br>
         <a href="./Holidays.php">Holidays</a><br>
@@ -161,8 +161,8 @@
           <a href="./importantDocs.php">Important Docs</a><br>
           <a href="./importantForms.php">Important Forms</a><br>
           <a href="../Documents/refundRule.pdf">Refund Rule</a><br>
-          <a href="./anualReports.php">Anual Reports</a><br>
-          <a href="./anualAccounts.php">Anual Accounts</a><br>
+          <a href="./anualReports.php">Annual Reports</a><br>
+          <a href="./anualAccounts.php">Annual Accounts</a><br>
           <a href="./convocation.php">Convocation</a><br>
           <a href="./Circulars.php">Circulars</a><br>
           <a href="./Holidays.php">Holidays</a><br>

@@ -47,6 +47,15 @@
 			<a href="https://twitter.com/iiitdmjbp/status/1488762737241255938?ref_src=twsrc%5Etfw">February 2, 2022</a>
 		</blockquote>
 
+		<blockquote class="twitter-tweet" data-lang="en" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/YuvaSangam?src=hash&amp;ref_src=twsrc%5Etfw">#YuvaSangam</a>: An immersive experience of a lifetime for Yuva Shakti! <br>Youth across the country will witness cultural heritage of India through exposure tours between the North Eastern States &amp; other States.<br>Last date to register: 12 February 2023<br>Visit: <a href="https://t.co/XfjYbavhh7">https://t.co/XfjYbavhh7</a> <a href="https://t.co/LW7O38XxGg">pic.twitter.com/LW7O38XxGg</a></p>&mdash; IIITDM Jabalpur (@iiitdmjbp) <a href="https://twitter.com/iiitdmjbp/status/1623995783946334212?ref_src=twsrc%5Etfw">February 10, 2023</a></blockquote> 
+
+
+
+
+
+
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 	</div>
 </div>
 

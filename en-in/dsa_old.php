@@ -40,7 +40,7 @@
 				    <a href="./comingSoon.html">Gymkhana/ Clubs</a>		
 				    <a href="./counselling.php">Counseling</a>
 				    <a href="./counselling.php">Forms</a>
-				    <a href="./counselling.php">Rules/ Guidelines</a></li>
+				    <a href="./counselling.php">Rules/ Guidelines</a>
 				    <a href="./counselling.php">Events</a>
 				    <!-- <a href="./feesPay.php">Fees Payment</a>
 				    <a href="./feesPay.php">People</a> -->

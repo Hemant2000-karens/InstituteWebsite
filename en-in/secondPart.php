@@ -43,7 +43,7 @@
 				<img src="../icons/opquote.png" style = "height:20px; width: 20px">
 			I hope that our students and faculty will carry the flag of IIITDM Jabalpur to greater heights by applying their knowledge in an inter-disciplinary manner to provide solutions for various industrial, research and development projects. I hope they will stand as responsible and dedicated technocrats in the nation building.
 			<img src="../icons/clquote.png" style ="height:20px; width:20px;">
-			 ~ (Acting)
+			 ~ Prof. B. K. Singh  
 			
 					</div>
 				</div>
