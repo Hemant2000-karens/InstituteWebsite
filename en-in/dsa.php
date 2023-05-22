@@ -7,16 +7,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>DSA | IIITDMJ</title>
 </head>
-<div class="dsa_nav_main">
-	<div class="dsa_nav">
-		<img src="./logo_college.png" class="dsa_nav_logo">
-		<h5>Student Affairs Office</h5>
 
+  <div class="dsa_nav_main">
+  <div class="dsa_nav">
+    <img src="./logo_college.png" class="dsa_nav_logo">
+    <h5>Student Affairs Office</h5>
     <span class=""></span>
-	</div>
 
-	<div class="topnav2" id="myTopnav">
-	 	<a href="./dsa.php">Home</a>
+    <a href="./index.php">IIITDMJ</a>
+  </div>
+
+  <div class="topnav2" id="myTopnav">
+    <a href="./dsa.php">Home</a>
       
     <a href="./xyz.php">Notices</a>
     <a href="./hostel.php">Hostels</a>
@@ -44,18 +46,21 @@
 
       <a href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="myFunction()">&#9778;</a>
 
-	 </div>
+   </div>
 </div>
+
 <body>
-<section id="">
+<br/>
+
+<section id="#adminstration">
+  <div>
+
+    <h3>Our Admininstration</h3>
   
 
+  </div>
 
 </section>
-
-
-
-
 
 
 

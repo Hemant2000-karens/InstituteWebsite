@@ -2912,6 +2912,7 @@ input[type="radio"]{
   width: inherit;
   height: auto;
   padding: 0 4%;
+  display: flow-root;
 }
 
 .dsa_nav
@@ -2920,6 +2921,7 @@ input[type="radio"]{
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
+  justify-content: space-between;
 }
 
 .dsa_nav img
