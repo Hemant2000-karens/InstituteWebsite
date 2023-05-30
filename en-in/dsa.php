@@ -1,5 +1,5 @@
-<?php ;?>
-<!DOCTYPE html>
+
+<!-- <!DOCTYPE html> -->
 <html>
 <head>
 	<?php include_once './headTag.php';?>
@@ -9,13 +9,19 @@
 </head>
 
   <div class="dsa_nav_main">
-  <div class="dsa_nav">
-    <img src="./logo_college.png" class="dsa_nav_logo">
-    <h5>Student Affairs Office</h5>
-    <span class=""></span>
 
-    <a href="./index.php">IIITDMJ</a>
-  </div>
+    <div class="dsa_nav_sub">
+      
+      <div class="dsa_nav">
+        <img src="./logo_college.png" class="dsa_nav_logo">
+        <h3>Student Affairs Office</h3>
+      </div>
+     
+        <!--Space for other single option-->
+        <span class="f"><a href="./index.php">IIITDMJ Home</a></span>
+
+    </div>
+ 
 
   <div class="topnav2" id="myTopnav">
     <a href="./dsa.php">Home</a>
@@ -52,10 +58,55 @@
 <body>
 <br/>
 
-<section id="#adminstration">
+<section id="notices">
+   <h2 class="section-title">Notices</h2>
   <div>
 
-    <h3>Our Admininstration</h3>
+   
+  
+
+  </div>
+
+</section>
+
+<section id="adminstration">
+  <h2 class="section-title">Our Admininstration</h2>
+  <div>
+
+    
+  
+
+  </div>
+
+</section>
+
+<section id="adminstration">
+  <h2 class="section-title">Hostels</h2>
+  <div>
+
+    
+  
+
+  </div>
+
+</section>
+
+<section id="adminstration">
+  <h2 class="section-title">Anti Ragging</h2>
+  <div>
+
+    
+  
+
+  </div>
+
+</section>
+
+<section id="adminstration">
+  <h2 class="section-title">Our Admininstration</h2>
+  <div>
+
+    
   
 
   </div>
