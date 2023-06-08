@@ -55,7 +55,7 @@
 
     <div class="container">
       <span class="br"></span>
-        <div class="combined rellax" data-rellax-speed="-4">
+        <div class="combined rellax" data-rellax-speed="-5">
           <div class="banner">
 
             <h1>Welcome to Indian Institute of Information Technology, Design and Manufacturing Jabalpur</h1>
@@ -80,21 +80,19 @@
 </div>
   <!-- BANNER-->
 
-<span class="br"></span>
+<!-- <span class="br"></span> -->
 <!--
-
-  <?php include './'?>
 -->
 <br>
 
 <!-- Message from Director and Deans-->
-<span class="br"></span>
+<!-- <span class="br"></span> -->
 
 
 <?php //include './notice.php';?>
 
 
-<span class="br"></span>
+<!-- <span class="br"></span> -->
 
 
 <?php include './fistPart.php'?>
@@ -249,7 +247,9 @@ window.onclick = function(event) {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
 
 <script type="text/javascript">
-  var rellax = new Rellax('.rellax');
+  var rellax = new Rellax('.rellax',{
+    wrapper:'.fullBg'
+  });
 </script>
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
