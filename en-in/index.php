@@ -248,7 +248,12 @@ window.onclick = function(event) {
 
 <script type="text/javascript">
   var rellax = new Rellax('.rellax',{
-    wrapper:'.fullBg'
+    wrapper:'.fullBg',
+    min: 0,
+    max: 100,
+    // center: true,
+    breakpoints: [320, 375, 420, 461, 505, 534, 552, 560, 568, 580, 600, 650, 665, 680, 721, 740, 768, 771, 778, 786, 854, 960, 995, 1024, 1074, 1200, 1200, 1425, 1600],
+    round: true,
   });
 </script>
 
