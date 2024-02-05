@@ -139,6 +139,22 @@ function myFunction() {
   }
 }
 
+// HideShowNavBar
+// var hideScroll = window.pageYOffset;
+
+//   window.onscroll = function() {
+//     var currentScrollPos = window.pageYOffset;
+//       // if(hideScroll> 175.00){}
+//       if (hideScroll > window.pageYOffset) {
+//         document.getElementById("indexNav").style.top = "0";
+//       } else {
+//         document.getElementById("indexNav").style.top = "-50px";
+//       }
+
+//     hideScroll = currentScrollPos;
+//   }
+
+
 
 </script>
 

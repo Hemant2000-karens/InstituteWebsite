@@ -48,6 +48,7 @@ body{
   animation: fadeInAnimation ease-in-out 200ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  /* width: 100vw; */
 }
 
 /*#overlay {
@@ -163,7 +164,7 @@ body{
   background: url("../Images/Slider/img09.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-/*  height: 100vh;*/
+ height: 93vh;
 }
 
 .fullBg
@@ -199,6 +200,7 @@ body{
   display: grid;
   justify-items: center;
   transition-duration: 255ms;
+  width: 100%;
 }
 
 
@@ -779,6 +781,13 @@ body{
   overflow-x: clip;
   overflow-y: scroll;
   padding: 0 15px;
+  min-width: 60%;
+  
+  
+}
+.a_btn{
+  display: flex;
+  justify-self: start;
 }
 
 
@@ -786,8 +795,12 @@ body{
 {
   height: 340px;
   padding: 0 15px;
+  /* margin-left: 50px; */
 }
 
+.placement_c .p_btn{
+  margin-left: 70px;
+}
 /* FirstNavBar Ends */
 
 
@@ -886,7 +899,11 @@ body{
   width: -moz-available;
   width:-webkit-fill-available;
   z-index: 1;
+  /* width: 97vw; */
   background: #1e446e;
+  
+  /* display: block; */
+  /* transition: top 0.3s; */
 }
 
 .indexNav2
@@ -1202,16 +1219,16 @@ body{
   {
     width: var(--fill);
     width: -moz-available;
+    
     padding: 2% 0;
+    
   }
-  .secondPartGrid
+  /* .secondPartGrid
   {
     width: -webkit-fill-available;
     width: -moz-available;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
+    
+  } */
 
   .aboutUsMain,
   .messageDesk,
@@ -1292,24 +1309,30 @@ body{
 
   .resBody
   {
-    height: 490px;
+    /* height: 200px; */
     width: var(--fill);
     width: var(--mozFill);
     border-bottom: 1px solid #ccc;
-    display: inline-grid;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
     background: #fff;
     margin: 0;
-    padding: 0;
+    /* gap: 76px; */
+    /* max-height: 50%; */
   }
-
-
+  
+  
   .resImage img
   {
-    height: auto;
+    /* padding: 20%; */
+    /* max-width: 40vw; */
+    /* margin: 20%; */
+    height: 50%;
     width: 100%;
     margin: 0;
   }
+  
 
 
   .resText
@@ -1356,12 +1379,27 @@ body{
   {
     width: var(--fill);
     width: var(--mozFill);
+    width: 100vw;
+    height: 45vh;
+    display: flex; 
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
     padding: 12px 0;
-    background: url(../Images/messageBackground.png);
+    /* background: url(../Images/messageBackground.png); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
-  }
+    /* transition: 2s ease-in-out; */
+}
+
+.secondPartmain .c {
+  display: none;
+}
+.secondPartmain .c.a{
+  display: block;
+}
+
+
   .campusTour h2
   {
     color: #262626;
@@ -1374,7 +1412,13 @@ body{
   .campusTour_sub
   {
     padding: 1% 1.2%;
+    min-width: 40%;
   }
+  .placement_c{
+    min-width: 60%;
+  }
+  
+  
 
   .campusDetail
   {
@@ -1428,11 +1472,37 @@ body{
     justify-items: center;
     -ms-overflow-style: none;
     scrollbar-width:none;
+    /* transition: 0.3s ease-in-out; */
   }
 
   .campusSlider::-webkit-scrollbar {
     display: none;
   }
+/* Status Buttons */
+
+.status_btns{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  
+}
+#b{ 
+  cursor: pointer;
+  outline: none;
+  padding: 0px 17px;
+  border: 1px solid rgb(57, 57, 57);
+  border-radius: 33px;
+}
+.status_btns h3{
+  cursor: pointer;
+  /* color: #fff; */
+}
+.status_btns .on{
+  background-color: #1e446e;
+  color: #fff;
+}
+
+
   .tourBox
   {
     height: 420px;
@@ -1604,6 +1674,10 @@ body{
     background:url("../Images/aboutBG.jpg") 
     no-repeat center;
     object-fit: scale-down;
+    min-height: 40vh;
+    margin: 0% 5%;
+    /* padding: 3%; */
+    transition: 0.5s ease-in-out;
     
   }
   .aboutBackground
@@ -1611,6 +1685,21 @@ body{
     height: 100%;
     background: #ffffffb5;
     backdrop-filter: blur(4px);
+    padding: 3%;
+    transition: 0.2s ease-in-out;
+  
+  }
+  .aboutBackground:hover{
+    background-color: rgba(255, 255, 255, 0.62);
+    backdrop-filter: blur(3px);
+    transition: 0.2s ease-in-out;
+    /* color: #000; */
+  }
+  .aboutUsMain:hover{
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+    border-radius: 15px;
+    
   }
   .aboutSub h2
   {
@@ -1672,16 +1761,19 @@ body{
     background-repeat: no-repeat;
     background-size:  100% 100%;
     height: auto;
+    margin: 7% 5%;
     font-family: var(--notoSans);
   }
 
   .messageDesk_main
   {
-    padding: 20px;
+    /* padding: 20px; */
   }
+  
   .messageDeskCombined
   {
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
     height: auto;
     width: 100%;
     margin-top: 2.25%;
@@ -1690,7 +1782,12 @@ body{
   {
     margin-right: 3.5%;
     height: auto;
-    width: 100%;
+    width: 45%;
+    transition: 0.6s ease-in-out;
+  }
+  .imagedirector:hover{
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
   }
   .deskTitle{
     text-align: center;
@@ -1808,6 +1905,7 @@ body{
 }
 hr.new1 {
   border-top: 0.25px solid #00579f;
+  margin-bottom: 15px;
 }
 .viewall
 {

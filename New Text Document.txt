@@ -1,0 +1,14 @@
+Changes :-
+*** Campus Tour
+width 100%
+display flex
+jc sb
+
+
+
+*** campus tous_sub :-
+width 40%
+
+
+***fullBgBackground :-
+height 93vh

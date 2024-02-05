@@ -1,122 +1,7 @@
 <div class="secondPartmain">
 	<div class="secondPartGrid">
 
-
-
-
-
-		<div class="aboutUsMain">
-			<div class="aboutBackground">
-				<div class="aboutSub">
-					<h2>About IIITDMJ</h2>
-
-					<div class="aboutContent">
-				<p>
-				Founded in 2005 as the Jabalpur Engineering College, Indian Institute of Information Technology, Jabalpur focuses on Information Technology enabled Design and Manufacturing.
-
-					It is a Institute of National Importance under the IIIT Act of the Government of India. The institute appears in the list of top 100 engineering colleges in India.
-				</p>
-					</div>
-					<center>
-						<button onclick="viewMore()" id="viewAllButton">Read More</button>
-					</center>
-				</div>
-
-			</div>
-		</div>
-
-
-
-		<div class="messageDesk">
-			<div class="messageDesk_main">
-			<div class="deskTitle">
 				
-					Message from <strong>Director's Desk</strong>
-			</div>
-
-			<div class="messageDeskCombined">
-				<img class="imagedirector" src="../Images/director_msg.jpeg" alt="Director Image" width="600" height="400">
-
-			<div class="deskSpeech">
-
-
-				<img src="../icons/opquote.png" style = "height:20px; width: 20px">
-			I hope that our students and faculty will carry the flag of IIITDM Jabalpur to greater heights by applying their knowledge in an inter-disciplinary manner to provide solutions for various industrial, research and development projects. I hope they will stand as responsible and dedicated technocrats in the nation building.
-			<img src="../icons/clquote.png" style ="height:20px; width:20px;">
-			 ~ Prof. B. K. Singh  
-			
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-
-
-
-			<div class="campusTour">
-			<div class="campusTour_sub">
-				<h2>Cultural Fest Tour</h2>
-			</div>
-			<div class="campusDetail">
-
-				<?php 
-
-					$campusQuery = "SELECT * FROM campusTour";
-
-					$result = $link->query($campusQuery);
-				?>
-
-				<div class="campusSlider" id="campusSliderID">
-					
-					<?php
-
-					if($result -> num_rows > 0)
-											{
-												while($rows = $result -> fetch_assoc())
-												{
-													echo"
-														<div class='tourBox' style='background: url(\"../Images/CampusTour/".$rows['image'].".jpg\");background-size: cover; background-position: center; background-repeat: no-repeat;'>
-
-
-															<div class='tourDetail'>
-																<h3 Hello World !! </h3>
-															</div>
-
-
-
-														 <div class='tourBoxCaption'>
-
-														 <span> Lehar - Avartan </span>
-														 	<div class='tourBoxCaptionSpan'>
-														 		<span>Read</span>
-														 	</div>
-
-
-														  </div>
-														  </div>";
-												}
-											}
-					//echo("");
-
-
-
-			mysqli_close($link);
-
-
-											?>
-
-
-
-				</div>
-				
-
-				<div class="campusNav">
-					<button class="disable" id="prevShow">Prev</button>
-					<button id="nextShow">Next</button>
-				</div>
-			</div>
-		</div>	
 
 
 		<div class="reseachHighLights">
@@ -202,7 +87,52 @@
 		</div>
 
 
-	</div>
+		<div class="aboutUsMain">
+			<div class="aboutBackground">
+				<div class="aboutSub">
+					<br><br><h2>About IIITDMJ</h2><br><br><br>
+
+					<div class="aboutContent">
+				<p>
+				Founded in 2005 as the Jabalpur Engineering College, Indian Institute of Information Technology, Jabalpur focuses on Information Technology enabled Design and Manufacturing.
+
+					It is a Institute of National Importance under the IIIT Act of the Government of India. The institute appears in the list of top 100 engineering colleges in India.
+				</p>
+					</div>
+					<center>
+						<button onclick="viewMore()" id="viewAllButton">Read More</button>
+					</center>
+				</div>
+
+			</div>
+		</div>
+
+
+
+		<div class="messageDesk">
+			<div class="messageDesk_main">
+				<div class="deskTitle">
+					
+						Message from <strong>Director's Desk</strong><br>
+				</div>
+
+				<div class="messageDeskCombined">
+					<img class="imagedirector" src="../Images/director_msg.jpeg" alt="Director Image" width="600" height="400">
+
+					<div class="deskSpeech">
+
+
+						<img src="../icons/opquote.png" style = "height:20px; width: 20px">
+						I hope that our students and faculty will carry the flag of IIITDM Jabalpur to greater heights by applying their knowledge in an inter-disciplinary manner to provide solutions for various industrial, research and development projects. I hope they will stand as responsible and dedicated technocrats in the nation building.
+						<img src="../icons/clquote.png" style ="height:20px; width:20px;">
+						~ Prof. B. K. Singh  
+				
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
 </div>
 
 
