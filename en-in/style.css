@@ -2578,7 +2578,7 @@ input[type="radio"]{
 }
 .social_media_posts
 {
-  display: grid;
+/*  display: grid;*/
   gap: 10px;
   grid-template-columns: 
   repeat(auto-fit,minmax(320px,1fr));
