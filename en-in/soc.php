@@ -30,8 +30,31 @@
 <div class="social_media_posts_parents" id="tweets">
 	<div class="social_media_posts" >
 		
+		<blockquote class="twitter-tweet">
+			<p lang="en" dir="ltr">IIITDMJ hosted the first International Symposium on Emerging Materials for Biomedical Engineering (EMBE2022) during 30-31 Jan. 2022 jointly with Indian National Science Academy (INSA). <a href="https://t.co/ijd7vA5Trf">https://t.co/ijd7vA5Trf
+			</a>
+			<a href="https://twitter.com/pnkondekar?ref_src=twsrc%5Etfw">@pnkondekar</a> 
+			<a href="https://t.co/kmAUieGxmo">pic.twitter.com/kmAUieGxmo</a></p>&mdash; IIITDM Jabalpur (@iiitdmjbp) 
+			<a href="https://twitter.com/iiitdmjbp/status/1488762737241255938?ref_src=twsrc%5Etfw">February 2, 2022</a>
+		</blockquote>
 
-		<a class="twitter-timeline" data-width="100%" data-height="auto" data-theme="dark" href="https://twitter.com/itsHemantKmr?ref_src=twsrc%5Etfw">Tweets by iiitdmjbp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+		<blockquote class="twitter-tweet">
+			<p lang="en" dir="ltr">IIITDMJ hosted the first International Symposium on Emerging Materials for Biomedical Engineering (EMBE2022) during 30-31 Jan. 2022 jointly with Indian National Science Academy (INSA). <a href="https://t.co/ijd7vA5Trf">https://t.co/ijd7vA5Trf
+			</a>
+			<a href="https://twitter.com/pnkondekar?ref_src=twsrc%5Etfw">@pnkondekar</a> 
+			<a href="https://t.co/kmAUieGxmo">pic.twitter.com/kmAUieGxmo</a></p>&mdash; IIITDM Jabalpur (@iiitdmjbp) 
+			<a href="https://twitter.com/iiitdmjbp/status/1488762737241255938?ref_src=twsrc%5Etfw">February 2, 2022</a>
+		</blockquote>
+
+		<blockquote class="twitter-tweet" data-lang="en" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/YuvaSangam?src=hash&amp;ref_src=twsrc%5Etfw">#YuvaSangam</a>: An immersive experience of a lifetime for Yuva Shakti! <br>Youth across the country will witness cultural heritage of India through exposure tours between the North Eastern States &amp; other States.<br>Last date to register: 12 February 2023<br>Visit: <a href="https://t.co/XfjYbavhh7">https://t.co/XfjYbavhh7</a> <a href="https://t.co/LW7O38XxGg">pic.twitter.com/LW7O38XxGg</a></p>&mdash; IIITDM Jabalpur (@iiitdmjbp) <a href="https://twitter.com/iiitdmjbp/status/1623995783946334212?ref_src=twsrc%5Etfw">February 10, 2023</a></blockquote> 
+
+
+
+
+
+
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 	</div>
 </div>
