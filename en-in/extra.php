@@ -4,25 +4,25 @@
 		
 		<div class = "statsBody color1">
 			<i class="bi bi-person-fill"></i>
-			<span class="counter" data-target="4000">0</span>
+			<span class="counter" data-target="500">0</span>
 			<span class="countertag">Students</span>
 		</div>
 
 		<div class = "statsBody color1">
 			<i class="bi bi-person-badge"></i>
-			<span class="counter" data-target="200">0</span>
+			<span class="counter" data-target="70">0</span>
 			<span class="countertag">Faculty</span>
 		</div>
 
 		<div class = "statsBody color1">
 			<i class="bi bi-mortarboard-fill"></i>
-			<span class="counter" data-target="70000">0</span>
+			<span class="counter" data-target="200">0</span>
 			<span class="countertag">Graduates</span>
 		</div>
 
 		<div class = "statsBody color1">
 			<i class="bi bi-globe2"></i>
-			<span class="counter" data-target="65000">0</span>
+			<span class="counter" data-target="180">0</span>
 			<span class="countertag">Placements</span>
 		</div>
 
@@ -99,7 +99,7 @@
 
 <script type="text/javascript">
 	const counters = document.querySelectorAll('.counter');
-	const speed = 160;
+	const speed = 100;
 
         counters.forEach(counter => {
             const updateCount = () => {

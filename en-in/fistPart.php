@@ -1,27 +1,4 @@
 <div class="secondPartmain">
-
-
-<!-- <div class="secondPartmain2">
-	
-<div class="news_caption"></div>
-
-<div class="news_scroll"></div>
-
-
-</div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<div class="secondPartGrid">
 
 
@@ -52,7 +29,7 @@
 			</div>	
 
 
-<!-- 
+
 			<div class="campusTour">
 				<div class="campusTour_sub">
 					<h2>Placement</h2>
@@ -63,12 +40,12 @@
 				<center>
 					<button onclick="viewMore()" id="viewAllButton">Read More</button>
 				</center>
-			</div>	 -->
+			</div>	
 
 
 
 
-			<!-- <div class="campusTour">
+			<div class="campusTour">
 				<div class="campusTour_sub">
 					<h2>Academics</h2>
 				</div>
@@ -89,9 +66,9 @@
 					</center>
 
 			</div>	
- -->
 
-		<!-- <div class="campusTour">
+
+		<div class="campusTour">
 				<div class="campusTour_sub">
 					<h2>Tender/Notices</h2>
 				</div>
@@ -112,7 +89,7 @@
 					</center>
 
 			</div>	
- -->
+
 
 
 
